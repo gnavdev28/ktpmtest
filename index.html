@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỹ thuật phần mềm - Study Hub</title>
+    <style>
+        :root { --primary: #3182ce; --bg: #f0f4f8; --text: #2d3748; --success: #48bb78; --error: #f56565; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .container { background: #fff; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); width: 100%; max-width: 700px; padding: 30px; }
+        
+        .module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 20px; }
+        .module-card { background: #f8fafc; border: 2px solid #edf2f7; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: 0.2s; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; min-height: 60px; }
+        .module-card:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-3px); background: #ebf8ff; }
+        
+        .header-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #edf2f7; }
+        h2 { margin: 0 0 15px 0; line-height: 1.4; font-size: 1.15rem; }
+        .options { display: flex; flex-direction: column; gap: 10px; }
+        button.option-btn { background: #fff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 14px; text-align: left; font-size: 15px; cursor: pointer; transition: 0.2s; color: var(--text); }
+        button.option-btn:hover:not(:disabled) { border-color: var(--primary); background: #f7fafc; }
+        button.option-btn.correct { background: #c6f6d5 !important; border-color: var(--success) !important; color: #22543d !important; }
+        button.option-btn.wrong { background: #fed7d7 !important; border-color: var(--error) !important; color: #742a2a !important; }
+        
+        .btn { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .btn:hover { opacity: 0.9; transform: scale(1.02); }
+        .btn-home { background: #718096; padding: 8px 15px; font-size: 14px; }
+        
+        #home-screen, #quiz-screen, #result-screen { display: none; }
+        .active { display: block !important; }
+        .loading-overlay { text-align: center; padding: 40px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="home-screen" class="active">
+        <h2 style="text-align: center; font-size: 1.5rem;">🚀 Ôn thi KTPM - Phenikaa ICT</h2>
+        <p style="text-align: center; color: #718096;">Chọn Module để bắt đầu cày cuốc:</p>
+        <div class="module-grid" id="module-list"></div>
+    </div>
+
+    <div id="quiz-screen">
+        <div class="header-bar">
+            <button class="btn btn-home" onclick="goHome()">🏠 Menu</button>
+            <div id="progress-text" style="font-weight: bold; color: #4a5568;"></div>
+        </div>
+        <div id="question-area">
+            <h2 id="question-text"></h2>
+            <div class="options" id="options-container"></div>
+        </div>
+        <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center;">
+            <div id="feedback" style="font-weight: bold; font-size: 1.1rem;"></div>
+            <button class="btn" id="next-btn" style="display: none;" onclick="nextQuestion()">Tiếp tục ➔</button>
+        </div>
+    </div>
+
+    <div id="result-screen" style="text-align: center;">
+        <h2 id="result-title">Hoàn thành!</h2>
+        <h1 id="score-text" style="color: var(--primary); font-size: 3.5rem; margin: 15px 0;">0 / 0</h1>
+        <div style="display: flex; flex-direction: column; gap: 12px; max-width: 320px; margin: 20px auto 0;">
+            <button class="btn" id="retry-wrong-btn" onclick="retryWrong()" style="background: #dd6b20;">Làm lại câu SAI</button>
+            <button class="btn" onclick="startQuiz(lastFile)">Làm lại toàn bộ</button>
+            <button class="btn btn-home" onclick="goHome()">Quay lại Menu</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Cấu hình khớp hoàn toàn với ảnh tên file của ông
+    const chapters = [
+        { name: "Chương 1", file: "data/cauhoic1.txt" },
+        { name: "Chương 2", file: "data/cauhoic2.txt" },
+        { name: "Chương 3", file: "data/cauhoic3.txt" },
+        { name: "Chương 4", file: "data/cauhoic4.txt" },
+        { name: "Chương 5", file: "data/cauhoic5.txt" },
+        { name: "Chương 6", file: "data/cauhoic6.txt" },
+        { name: "Chương 7", file: "data/cauhoic7.txt" },
+        { name: "Chương 8", file: "data/cauhoic8.txt" },
+        { name: "Chương 9", file: "data/cauhoic9.txt" },
+        { name: "Chương 10", file: "data/cauhoic10.txt" },
+        { name: "Full Ngân Hàng", file: "data/cauhoi.txt" }
+    ];
+
+    let allQuestions = [], currentQuizSet = [], wrongQuestions = [];
+    let currentIndex = 0, score = 0, lastFile = "";
+
+    const menu = document.getElementById('module-list');
+    chapters.forEach(ch => {
+        const card = document.createElement('div');
+        card.className = 'module-card';
+        card.innerText = ch.name;
+        card.onclick = () => startQuiz(ch.file);
+        menu.appendChild(card);
+    });
+
+    async function startQuiz(filePath) {
+        lastFile = filePath;
+        const home = document.getElementById('home-screen');
+        const originalContent = home.innerHTML;
+        home.innerHTML = "<div class='loading-overlay'>正在 tải dữ liệu...</div>";
+        
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) throw new Error();
+            const text = await response.text();
+            parseQuestions(text);
+            
+            if (allQuestions.length === 0) {
+                alert("File này không có câu hỏi nào đúng format ông ơi!");
+                location.reload();
+                return;
+            }
+
+            currentQuizSet = shuffleArray([...allQuestions]);
+            wrongQuestions = [];
+            currentIndex = 0; score = 0;
+            
+            showScreen('quiz-screen');
+            loadQuestion();
+        } catch (err) {
+            alert("Không tìm thấy file " + filePath + ". Ông nhớ để file vào thư mục data/ nhé!");
+            location.reload();
+        }
+    }
+
+    function parseQuestions(text) {
+        allQuestions = [];
+        // Tách block câu hỏi (ngăn cách bởi ít nhất 1 dòng trống)
+        const blocks = text.trim().split(/\n\s*\n/);
+        blocks.forEach(block => {
+            const lines = block.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+            if (lines.length >= 2) {
+                const qText = lines[0];
+                const options = [];
+                let correctText = "";
+                for (let i = 1; i < lines.length; i++) {
+                    let optText = lines[i], isCorrect = false;
+                    if (optText.startsWith('*')) {
+                        isCorrect = true;
+                        optText = optText.substring(1).trim();
+                        correctText = optText;
+                    }
+                    options.push({ text: optText, isCorrect });
+                }
+                if(correctText !== "") allQuestions.push({ q: qText, options, correct: correctText });
+            }
+        });
+    }
+
+    function loadQuestion() {
+        const q = currentQuizSet[currentIndex];
+        document.getElementById('progress-text').innerText = `Câu ${currentIndex + 1} / ${currentQuizSet.length}`;
+        document.getElementById('question-text').innerText = q.q;
+        
+        const container = document.getElementById('options-container');
+        container.innerHTML = '';
+        document.getElementById('feedback').innerText = '';
+        document.getElementById('next-btn').style.display = 'none';
+
+        const shuffledOptions = shuffleArray([...q.options]);
+        shuffledOptions.forEach(opt => {
+            const btn = document.createElement('button');
+            btn.className = 'option-btn';
+            btn.innerText = opt.text;
+            btn.onclick = () => {
+                const buttons = document.querySelectorAll('.option-btn');
+                buttons.forEach(b => b.disabled = true);
+                if (opt.isCorrect) {
+                    btn.classList.add('correct');
+                    document.getElementById('feedback').innerText = "✅ Chính xác!";
+                    document.getElementById('feedback').style.color = "var(--success)";
+                    score++;
+                } else {
+                    btn.classList.add('wrong');
+                    document.getElementById('feedback').innerText = "❌ Sai!";
+                    document.getElementById('feedback').style.color = "var(--error)";
+                    wrongQuestions.push(q);
+                    buttons.forEach(b => { if(b.innerText === q.correct) b.classList.add('correct'); });
+                }
+                document.getElementById('next-btn').style.display = 'block';
+            };
+            container.appendChild(btn);
+        });
+    }
+
+    function nextQuestion() {
+        currentIndex++;
+        if (currentIndex < currentQuizSet.length) loadQuestion();
+        else showResult();
+    }
+
+    function showResult() {
+        showScreen('result-screen');
+        document.getElementById('score-text').innerText = `${score} / ${currentQuizSet.length}`;
+        const percent = (score / currentQuizSet.length) * 100;
+        document.getElementById('result-title').innerText = percent >= 80 ? "Quá đỉnh ông ơi! 🎉" : percent >= 50 ? "Tạm ổn, cố tí nữa! 👍" : "Cày lại đi ông giáo... 💀";
+        document.getElementById('retry-wrong-btn').style.display = wrongQuestions.length > 0 ? 'block' : 'none';
+        if(wrongQuestions.length > 0) document.getElementById('retry-wrong-btn').innerText = `Làm lại ${wrongQuestions.length} câu SAI`;
+    }
+
+    function retryWrong() {
+        currentQuizSet = shuffleArray([...wrongQuestions]);
+        wrongQuestions = []; currentIndex = 0; score = 0;
+        showScreen('quiz-screen');
+        loadQuestion();
+    }
+
+    function showScreen(id) {
+        document.querySelectorAll('.container > div').forEach(d => d.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+    }
+
+    function goHome() { 
+        if(confirm("Ông muốn bỏ dở bài làm để quay lại Menu à?")) location.reload(); 
+    }
+
+    function shuffleArray(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        return arr;
+    }
+</script>
+</body>
+</html>
