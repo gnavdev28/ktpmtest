@@ -1,0 +1,215 @@
+Các hành động để giảm khả năng bị hack vào hệ thống là gì?
+* Mã hóa lưu lượng, xác thực đa yếu tố, cài đặt thời gian chờ (timeout) ngắn.
+Lưu lượng mở, giảm các bước xác thực.
+Giảm bớt các quy trình kiểm soát.
+Thời gian càng dài càng tốt, cắt giảm các bước an ninh truy cập.
+
+Cách thức hoạt động của một cuộc tấn công từ chối dịch vụ phân tán (DDoS) là gì?
+* Chiếm đoạt quyền sử dụng máy chủ bằng cách sử dụng bot làm đầy lượt truy cập và đẩy người dùng hợp lệ ra khỏi máy chủ.
+Đưa mã độc vào máy qua các đường link lạ, file độc hại.
+Chiếm quyền sử dụng bằng cách gài virus.
+Dùng các phần mềm độc hại để rò rỉ thông tin ra ngoài.
+
+Cái nào KHÔNG thuộc quy trình và thực hành an ninh vận hành (Operational Security)?
+* Tự động khóa tài khoản khi nhập sai mật khẩu (Thường thuộc về chính sách tài khoản).
+Tự động đăng xuất (Auto-logout).
+Ghi nhật ký lệnh người dùng (User command logging).
+Xác thực đa yếu tố (Multi-factor authentication).
+
+Danh tính liên kết (Federated Identity) là gì?
+* Là một cách tiếp cận xác thực mà bạn sử dụng một dịch vụ xác thực bên ngoài (như Login bằng Google, Facebook).
+Là danh tính người dùng.
+Là việc liên kết các người dùng lại với nhau.
+Là một hệ thống quản lý nội bộ.
+
+Đâu KHÔNG phải là điểm yếu của xác thực dựa trên mật khẩu?
+* Độ an toàn dựa trên độ phức tạp của mật khẩu (Đây là đặc điểm, không phải điểm yếu trực tiếp như bị quên hay bị lừa đảo).
+Mật khẩu không an toàn (dễ bị đoán).
+Tấn công lừa đảo (Phishing).
+Người dùng hay bị quên mật khẩu.
+
+Đâu KHÔNG phải hành động để giảm khả năng bị hack?
+* Xóa phần mềm diệt vi rút.
+Mã hóa lưu lượng.
+Xác thực đa yếu tố.
+Thời gian chờ (timeout) ngắn.
+
+Đâu KHÔNG phải là một cấp độ mã hóa dữ liệu phổ biến?
+* Mã hóa cấp độ người dùng (User encryption).
+Mã hóa ứng dụng (Application encryption).
+Mã hóa cơ sở dữ liệu (Database encryption).
+Mã hóa tệp tin (Files encryption).
+
+Đâu là ngăn xếp cuối cùng (lớp trên cùng) của cơ sở hạ tầng hệ thống (System infrastructure)?
+* Ứng dụng (Application).
+Mạng (Network).
+Cơ sở dữ liệu (Database).
+Hệ điều hành (Operating System).
+
+Các ý chính đầy đủ nhất để thực hiện quản lý an ninh (Security Management) là gì?
+* Xác thực và ủy quyền, Quản lý hạ tầng hệ thống, Giám sát tấn công, Sao lưu.
+Giám sát hoạt động, Bảo mật dữ liệu.
+Xác thực và ủy quyền, Quản lý dữ liệu.
+Quản lý hoạt động người dùng, Quản lý nhân viên.
+
+Giao thức nào an toàn nhất để chuyển tệp tin?
+* SFTP.
+SCP.
+FTPS.
+FTP.
+
+Làm thế nào chúng ta có thể tránh các cuộc tấn công tiêm nhiễm (Injection attacks)?
+* Kiểm tra tính hợp lệ của đầu vào (Input validation).
+Mã hóa lưu lượng (Traffic encryption).
+Xác thực đa yếu tố (MFA).
+Thời gian chờ ngắn.
+
+Bạn nên sao lưu dữ liệu của mình bao lâu một lần?
+* Theo một lịch trình thường xuyên (On a regular schedule).
+Mỗi tuần một lần.
+Mỗi ngày một lần.
+Mỗi tháng một lần.
+
+Thông tin sức khỏe có thể nhận dạng cá nhân về một bệnh nhân (tên, số định danh, địa chỉ) được gọi là gì?
+* Thông tin sức khỏe được bảo vệ (Protected Health Information - PHI).
+Tính bảo mật (Confidentiality).
+Đạo luật nghỉ phép gia đình và y tế (FMLA).
+Phát hành thông tin.
+
+Nêu 5 thành phần chính của một chứng chỉ số (Digital Certificate):
+* Thông tin về chủ sở hữu, thông tin về cơ quan cấp chứng chỉ, thông tin chứng chỉ, chữ ký số của chứng chỉ, khóa công khai của chủ sở hữu.
+Thông tin về quản trị viên, thông tin cơ quan cấp, thông tin chứng chỉ, chữ ký số, khóa riêng tư của chủ sở hữu.
+Thông tin người dùng, thông tin cơ quan cấp, chữ ký số, khóa công khai của người dùng.
+Dữ liệu chủ sở hữu, dữ liệu cơ quan cấp, chữ ký số, khóa công khai của chủ sở hữu.
+
+Liệt kê 3 loại đe dọa an ninh chính:
+* Đe dọa đến tính khả dụng (Availability), tính toàn vẹn (Integrity) và tính bảo mật (Confidentiality).
+Đe dọa đến tính khả dụng, thông tin người dùng, tính bảo mật.
+Đe dọa đến tính riêng tư, thông tin người dùng, tính bảo mật.
+Đe dọa đến tính riêng tư, tính toàn vẹn, tính tự tạo của dữ liệu.
+
+Mã hóa (Encryption) là gì?
+* Là quá trình làm cho một tài liệu không thể đọc được bằng cách áp dụng một phép biến đổi thuật toán cho nó.
+Là một dòng ký tự.
+Là mã bảo mật.
+Là mã khóa hệ thống.
+
+Nếu một nhóm người dùng phải được tách biệt hoàn toàn khỏi những người dùng khác, thiết kế mạng nào bảo mật nhất?
+* Sử dụng mạng ảo VLAN.
+Kết nối chúng với các thiết bị switch và router khách.
+Sự dụng mặt nạ mạng con (Subnet mask).
+Không thể tách người dùng trên cùng một mạng.
+
+Hậu quả gì có thể xảy ra nếu bảo mật phần mềm không được ưu tiên?
+* Dữ liệu khách hàng bị xâm phạm (lộ lọt).
+Các nhà cung cấp sản phẩm tiếp tục hoạt động bình thường.
+Khách hàng sẽ không muốn hủy đăng ký.
+Phục hồi sau các cuộc tấn công sẽ đơn giản và dễ dàng.
+
+Phương thức xác thực nào sau đây kém an toàn nhất?
+* Mật khẩu (Password).
+Thẻ khóa (Smart card).
+Vân tay.
+Mẫu võng mạc.
+
+Quản lý khóa (Key management) là gì?
+* Là quá trình đảm bảo rằng các khóa mã hóa được tạo, lưu trữ và truy cập an toàn bởi người dùng được ủy quyền.
+Là khóa mã của người dùng.
+Là việc khóa các tài khoản vi phạm.
+Là thao tác tạo mã khóa.
+
+Tại sao bảo mật phần mềm là ưu tiên cao đối với các nhà phát triển và người dùng?
+* Để tránh tổn thất từ các cuộc tấn công độc hại.
+Để tăng lợi nhuận.
+Để giữ gìn quyền riêng tư của khách hàng.
+Để tăng doanh thu.
+
+Kiểu tấn công hệ thống tên miền (DNS) nào thay thế địa chỉ IP gian lận cho một tên miền hợp lệ?
+* Nhiễm độc DNS (DNS poisoning).
+DNS replay.
+DNS masking.
+DNS forwarding.
+
+Trong phim Star Wars, Đế chế lưu trữ kế hoạch thiết kế tại một địa điểm duy nhất, xa xôi và được canh phòng cẩn mật. Kiến trúc an ninh này gọi là gì?
+* Kiến trúc an ninh tập trung (Centralized security architecture).
+Kiến trúc an ninh bảo vệ.
+Kiến trúc an ninh phân tán.
+Kiến trúc an ninh tập hợp.
+
+Quyền riêng tư kỹ thuật số (Digital privacy) bao gồm những khía cạnh nào?
+* Quyền riêng tư thông tin, quyền riêng tư cá nhân và quyền riêng tư giao tiếp.
+Bí mật kỹ thuật số.
+Tính toàn vẹn kỹ thuật số.
+Bảo vệ kỹ thuật số.
+
+Đâu là một ví dụ về tấn công vào người dùng (User attack)?
+* Lừa người dùng tiết lộ thông tin đăng nhập của họ (Phishing/Social Engineering).
+Xác thực đa yếu tố.
+Tự động đăng xuất.
+Giám sát tấn công.
+
+Phần mềm độc hại (Malware) là gì?
+* Phần mềm được tạo ra với mục đích gây hại cho máy tính và hệ thống.
+Một công ty tham gia vào các hoạt động bất hợp pháp trực tuyến.
+Các email xấu dẫn đến những điều tồi tệ.
+Tên gọi khác của tin tặc (hacker).
+
+Mục đích của các chính sách sao lưu (Backup policies) là gì?
+* Để lưu giữ các bản sao không bị hư hại của các tệp chương trình và dữ liệu.
+Để phát hiện truy cập trái phép.
+Để đảm bảo người dùng có xác thực mạnh.
+Để giúp người dùng duy trì bảo mật.
+
+Ví dụ nào sau đây là về tấn công vét cạn (Brute force attack)?
+* Hacker liên tục thử các tổ hợp mật khẩu/yêu cầu để chiếm đoạt tài khoản.
+Phần mềm Trojan làm rò rỉ dữ liệu cho hacker.
+Hacker đột nhập vào nhà và đánh cắp dữ liệu.
+Hacker khóa máy tính nạn nhân bằng virus và tống tiền.
+
+Trình duyệt nào sau đây thường được sử dụng cho mục đích bảo mật quyền riêng tư cao nhất?
+* Tor.
+Chrome.
+Opera.
+Firefox.
+
+Lựa chọn nào KHÔNG được sử dụng để phân loại các phương thức xác thực?
+* Một cái gì đó bạn thích (Something you like).
+Một cái gì đó bạn biết (Something you know).
+Một cái gì đó bạn sở hữu (Something you possess).
+Một cái gì đó bạn là (Something you are - Sinh trắc học).
+
+Công cụ tìm kiếm nào sau đây là riêng tư và không theo dõi dữ liệu tìm kiếm của người dùng?
+* Search Encrypt (hoặc DuckDuckGo).
+Google.
+Bing.
+Yahoo.
+
+Lựa chọn nào sau đây KHÔNG phải là một giải pháp thích hợp để bảo vệ quyền riêng tư?
+* Gỡ cài đặt phần mềm diệt virus.
+Vô hiệu hóa cookies.
+Sử dụng cửa sổ ẩn danh.
+Sử dụng công cụ tìm kiếm tập trung vào quyền riêng tư.
+
+Đâu KHÔNG phải là một ví dụ về phần mềm độc hại?
+* Sự nhiễm trùng (Infections).
+Sâu máy tính (Worms).
+Vi-rút (Viruses).
+Ngựa Trojan (Trojans).
+
+Xác thực dựa trên tri thức (Knowledge-based authentication) hoạt động như thế nào?
+* Người dùng trả lời một số câu hỏi (bí mật) khi có yêu cầu đăng nhập.
+Người dùng cung cấp thông tin cá nhân và dùng đúng thiết bị đã đăng ký để đăng nhập.
+Hệ thống yêu cầu cung cấp độ tuổi để cấp quyền.
+Hệ thống tự động nhận diện danh tính.
+
+Xác thực (Authentication) là gì?
+* Là quá trình đảm bảo rằng người dùng hệ thống chính là người mà họ tuyên bố.
+Là cuộc tấn công mà kẻ tấn công có một phần thông tin đăng nhập.
+Là hoạt động giúp người dùng duy trì bảo mật.
+Là xác nhận ngoài đời thực.
+
+Yêu cầu nào ĐÚNG với mã hóa thông điệp (Message encryption)?
+* Phải kiểm tra tính toàn vẹn của thông điệp.
+Không cần xác nhận tính hợp lệ của người gửi.
+Biến thông điệp thành một chuỗi bit có độ dài cố định.
+Không được phép sử dụng hàm băm.

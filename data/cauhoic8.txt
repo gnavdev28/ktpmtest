@@ -1,0 +1,251 @@
+Một trạng thái hệ thống bị lỗi có thể dẫn đến hành vi hệ thống không mong đợi được gọi là gì?
+* Lỗi hệ thống (System error).
+Độ tin cậy phần mềm (Software reliability).
+Sự không nhất quán (Inconsistency).
+Khả năng chịu lỗi (Fault tolerance).
+
+Một sự kiện xảy ra khi hệ thống không cung cấp dịch vụ như người dùng mong đợi được gọi là gì?
+* Thất bại hệ thống (System failure).
+Hệ thống bảo vệ (Protection systems).
+Lỗi hệ thống (System error).
+Lỗi do con người (Human error).
+
+Ba loại lỗi phần mềm quan trọng nhất là gì?
+* Lỗi dữ liệu, ngoại lệ chương trình, lỗi thời gian (Data failures, Program exceptions, Timing failures).
+Lỗi chức năng, Lỗi giao tiếp, lỗi thời gian.
+Lỗi cú pháp, lỗi dữ liệu, lỗi tính toán.
+Lỗi dữ liệu, lỗi thiếu lệnh, lỗi chức năng.
+
+Các mẫu thiết kế (Design patterns) là gì?
+* Là các giải pháp chung đã được thử nghiệm và kiểm chứng cho các vấn đề thường gặp trong thiết kế phần mềm.
+Là câu chuyện mẫu của người dùng.
+Là sản phẩm đã có sẵn.
+Là sản phẩm sao chép lại.
+
+Đâu KHÔNG phải là thuộc tính chất lượng của sản phẩm phần mềm?
+* Trách nhiệm (Responsibility) hoặc Độ phức tạp dữ liệu.
+Khả năng đáp ứng (Availability).
+Khả năng bảo trì (Maintainability).
+Tính bảo mật (Security).
+
+Có những kỹ thuật chi phí thấp nào để cải thiện độ tin cậy phần mềm?
+* Tránh lỗi (Fault avoidance), xác thực đầu vào (Input validation), quản lý thất bại (Failure management).
+Tạo tường lửa, xác thực 2 yếu tố.
+Đặt mật khẩu mạnh, nâng cấp phần cứng.
+Tránh lỗi, đặt mật khẩu mạnh.
+
+Đâu KHÔNG phải 1 loại phức tạp (complexity) của chương trình?
+* Độ phức tạp về môi trường (Environment complexity).
+Độ phức tạp về kết cấu (Structural complexity).
+Độ phức tạp của dữ liệu (Data complexity).
+Độ phức tạp của quyết định (Decision complexity).
+
+Đâu KHÔNG phải nguyên nhân cơ bản gây ra lỗi chương trình?
+* Người dùng (Thường là do lỗi hiểu sai yêu cầu hoặc lỗi kỹ thuật của lập trình viên).
+Vấn đề (Problem).
+Công nghệ (Technology).
+Chương trình (Program).
+
+Đâu là các mẫu thiết kế (Design patterns) phổ biến?
+* Mẫu sáng tạo (Creational), Mẫu cấu trúc (Structural), Mẫu hành vi (Behavioural).
+Mô hình hoạt động.
+Mô hình kiến trúc.
+Mô hình lặp.
+
+Độ phức tạp của chương trình phụ thuộc vào những yếu tố nào?
+* Loại và bản chất của mối quan hệ giữa các phần tử trong chương trình.
+Số lượng phương thức trong chương trình.
+Số lượng biến trong chương trình.
+Số lượng khớp nối trong chương trình.
+
+Theo quy tắc kiểm tra tên (name checking), độ dài của một cái tên nên là bao nhiêu?
+* Từ 2 đến 40 ký tự.
+Từ 10 đến 40 ký tự.
+Hơn 40 ký tự.
+Ít hơn 10 ký tự.
+
+Giả sử bạn muốn tránh lỗi (Fault avoidance) trong quá trình lập trình, bạn nên làm gì?
+* Sử dụng kết hợp cả kiểm tra tự động và kiểm tra thủ công.
+Lập trình theo cách tự do.
+Sử dụng kiểm tra tay.
+Sử dụng kiểm tra tự động.
+
+Giả sử bạn muốn xác thực đầu vào (Input validation) từ người dùng, bạn nên làm gì?
+* Xác định định dạng dự kiến của đầu vào và thực hiện xác thực tuân theo định dạng đó.
+Sử dụng kiểm tra tự động.
+Sử dụng kiểm tra tay.
+Sử dụng cả hai kiểm tra tự động và kiểm tra tay.
+
+Trong quản lý thất bại (Failure management), tại sao bạn nên thiết kế phần mềm cẩn thận?
+* Để các thất bại của chương trình có tác động tối thiểu đến người dùng sản phẩm.
+Để sử dụng phần mềm nhanh chóng và không có sai sót.
+Để đảm bảo chương trình được bảo mật.
+Để mọi người muốn sử dụng sản phẩm.
+
+Khách hàng thường kỳ vọng phần mềm có độ tin cậy cao, tuy nhiên với các ứng dụng không quan trọng (non-critical), họ có thể chấp nhận điều gì?
+* Chấp nhận một số thất bại hệ thống nhất định (Software reliability).
+Độ tin cậy của người vận hành.
+Độ tin cậy của yêu cầu.
+Độ tin cậy của phần cứng.
+
+Khớp nối (Coupling) trong lập trình là gì?
+* Là thước đo số lượng các mối quan hệ giữa các thực thể/thành phần trong hệ thống.
+Là mối nối giữa các bộ phận vật lý.
+Là một linh kiện điện tử.
+Là đường liên kết dữ liệu đơn thuần.
+
+Liệt kê 4 cách để thực hiện xác thực đầu vào (Input validation):
+* Hàm xác thực tích hợp, hàm ép kiểu, so sánh rõ ràng, biểu thức chính quy (Regex).
+Hàm xác thực tích hợp, quản lý ép kiểu, so sánh rõ ràng, biểu thức không chính quy.
+Hàm xác thực tích hợp, hàm ép kiểu, so sánh rõ ràng, biểu thức nâng cao.
+Hàm kiểm duyệt, hàm ép kiểu, so sánh rõ ràng, biểu thức nâng cao.
+
+Loại mô hình nào được tạo ra trong quá trình phân tích yêu cầu phần mềm?
+* Mô hình chức năng và hành vi (Functional and behavioral).
+Giải thuật và cấu trúc dữ liệu.
+Kiến trúc và cấu trúc.
+Tính tin cậy và tính sử dụng.
+
+Mối quan hệ động (Dynamic relationship) là gì?
+* Là mối quan hệ giữa các đối tượng hoặc lớp thay đổi trong quá trình thực thi (runtime) của chương trình.
+Mối quan hệ giữa các đối tượng không thay đổi trong quá trình chạy.
+Mối quan hệ chỉ tồn tại trong bản thiết kế.
+Mối quan hệ chỉ tồn tại trong tài liệu.
+
+Mối quan hệ nào trong chương trình phức tạp hơn?
+* Mối quan hệ động (Dynamic relationship).
+Mối quan hệ tĩnh (Static relationship).
+Cả hai mối quan hệ bằng nhau.
+Không đủ thông tin trả lời.
+
+Mối quan hệ tĩnh (Static relationship) là gì?
+* Là mối quan hệ ổn định và không phụ thuộc vào việc thực thi chương trình (ví dụ: cấu trúc mã nguồn).
+Là mối quan hệ kín.
+Là mối quan hệ không ổn định và phụ thuộc thực thi.
+Là mối quan hệ không phụ thuộc vào việc thực thi nhưng không ổn định.
+
+Ngoại lệ (Exception) là gì?
+* Là các sự kiện làm gián đoạn quy trình xử lý thông thường trong một chương trình.
+Là sự kiện kiểm tra thông tin của một chương trình.
+Là sự kiện dừng chương trình ngay lập tức.
+Là sự kiện kiểm tra chất lượng chương trình.
+
+Nguyên nhân cơ bản gây ra lỗi chương trình là gì?
+* Hiểu không đúng về vấn đề và miền sử dụng (Domain knowledge).
+Viết code quá dài.
+Sử dụng quá nhiều công cụ có sẵn.
+Hiểu sai chức năng ứng dụng.
+
+Nguyên nhân phổ biến nhất gây "ô nhiễm" (lỗi dữ liệu) cơ sở dữ liệu là gì?
+* Lỗi đầu vào của người dùng (User input errors).
+Có quá nhiều dữ liệu.
+Dữ liệu được nhập vào tại nhiều thời điểm khác nhau.
+Không thống nhất về định dạng dữ liệu.
+
+Tác dụng của mối quan hệ tĩnh (Static relationship) trong lập trình là gì?
+* Giúp lập trình viên dễ hiểu cấu trúc và làm giảm độ phức tạp của chương trình.
+Tăng độ phức tạp của chương trình.
+Giảm tốc độ chạy của chương trình.
+Không có tác dụng gì.
+
+Tái cấu trúc (Refactoring) là gì?
+* Là thay đổi cấu trúc bên trong của chương trình để giảm độ phức tạp mà không làm thay đổi hành vi bên ngoài của nó.
+Là sửa lại giao diện mẫu của chương trình.
+Là sửa lại toàn bộ logic của chương trình.
+Là quá trình thiết kế lại từ đầu.
+
+Thủ tục phần mềm (Software procedure) tập trung vào điều gì?
+* Xử lý chi tiết của từng mô-đun (module) riêng biệt.
+Xử lý chi tiết của toàn bộ tập hợp mô-đun.
+Mối quan hệ giữa điều khiển và thủ tục.
+Cấp bậc điều khiển trong một hệ thống trừu tượng.
+
+Tầm quan trọng của việc ghi nhật ký (Logging) và giám sát (Monitoring) trong lập trình tin cậy là gì?
+* Để giám sát hiệu suất và hành vi của mã nguồn trong môi trường thực tế (production).
+Để làm cho mã chạy nhanh hơn.
+Để theo dõi các thay đổi của mã nguồn.
+Để dễ dàng gỡ lỗi (debug) mã nguồn hơn.
+
+Mục tiêu chính của lập trình tin cậy (Reliable programming) là gì?
+* Đảm bảo mã nguồn hoạt động chính xác trong mọi tình huống (kể cả khi có lỗi xảy ra).
+Để giảm thiểu lượng mã phải viết.
+Để làm cho mã chạy nhanh nhất có thể.
+Để tối ưu hóa bộ nhớ.
+
+Mục đích của kiểm thử đơn vị (Unit testing) là gì?
+* Để kiểm tra các thành phần riêng lẻ của mã nguồn một cách cô lập.
+Để kiểm tra mã sau khi đã triển khai.
+Để kiểm tra hiệu suất của mã.
+Để kiểm tra tính tương thích với phần mềm khác.
+
+Tên của hàm Python được sử dụng để tính toán hệ số nhân tuổi cho phí bảo hiểm trong ví dụ bài học là gì?
+* Age_multiplier (hoặc liên quan đến Agecheck trong một số ngữ cảnh).
+Failure management.
+Input validation.
+Fault avoidance.
+
+Mối quan hệ giữa số lượng các liên kết trong chương trình và độ phức tạp là gì?
+* Càng nhiều mối quan hệ thì chương trình càng phức tạp.
+Càng ít mối quan hệ thì chương trình càng phức tạp.
+Độ phức tạp không phụ thuộc vào số lượng mối quan hệ.
+Càng nhiều mối quan hệ thì chương trình càng đơn giản.
+
+Vai trò của kiểm soát phiên bản (Version control - như Git) là gì?
+* Để theo dõi và quản lý các phiên bản khác nhau của mã nguồn.
+Để làm cho mã chạy nhanh hơn.
+Để giảm dung lượng bộ nhớ.
+Để dễ dàng gỡ lỗi.
+
+Độ phức tạp nào phản ánh số lượng và loại mối quan hệ giữa các cấu trúc trong chương trình của bạn?
+* Độ phức tạp về kết cấu (Structural complexity).
+Độ phức tạp khi đọc (Reading complexity).
+Độ phức tạp của dữ liệu (Data complexity).
+Độ phức tạp của quyết định (Decision complexity).
+
+Khi nào chúng ta nên sử dụng các câu lệnh điều kiện (if) lồng nhau sâu?
+* Khi bạn cần xác định một lựa chọn cụ thể từ một tập hợp các lựa chọn có thể xảy ra.
+Khi bạn muốn giới thiệu lỗi vào chương trình.
+Khi tạo ra các biến thể khác nhau của đối tượng.
+Khi trạng thái nội bộ của chương trình thay đổi.
+
+Đâu KHÔNG phải là cách để giảm độ phức tạp của dữ liệu?
+* Sử dụng bí danh dữ liệu (Data aliases - Vì nó gây khó hiểu).
+Xác định giao diện (interfaces) cho tất cả các trừu tượng.
+Định nghĩa các kiểu dữ liệu trừu tượng (ADT).
+Tránh sử dụng số dấu phẩy động (floating-point) nếu không cần thiết.
+
+Đâu KHÔNG phải là cách để giảm độ phức tạp về kết cấu (Structural complexity)?
+* Các hàm nên có tác dụng phụ (Side-effects - Vì nó gây khó kiểm soát).
+Mỗi hàm chỉ nên thực hiện một nhiệm vụ duy nhất.
+Mỗi lớp nên có một trách nhiệm duy nhất (SRP).
+Tránh sử dụng luồng (threads/parallelism) trừ khi thực sự cần thiết.
+
+Hành vi nào sau đây làm cho mã nguồn có "mùi" (Code smells - mã xấu)?
+* Mã lặp lại (Repetitive code).
+Các lớp có kích thước nhỏ.
+Các hàm ngắn gọn.
+Sử dụng phím Tab và dấu cách đúng chuẩn.
+
+Tại sao tài liệu hướng dẫn mã nguồn (Code documentation) lại quan trọng?
+* Để làm cho mã nguồn dễ hiểu hơn đối với các nhà phát triển khác (hoặc chính mình trong tương lai).
+Để làm cho mã chạy nhanh hơn.
+Để giảm bộ nhớ sử dụng.
+Để tăng tính bảo mật.
+
+Tại sao chúng ta nên tránh phân cấp kế thừa quá sâu (Deep inheritance)?
+* Vì kế thừa làm tăng độ phức tạp kết cấu và tăng sự khớp nối (coupling) giữa các lớp con.
+Vì kế thừa không phù hợp cho dự án lớn.
+Vì kế thừa là cách hiệu quả nhất để tái sử dụng mã.
+Vì nó làm giảm độ phức tạp khi đọc.
+
+Ý kiến nào sau đây SAI khi nói về tái cấu trúc (Refactoring)?
+* Chương trình sau khi tái cấu trúc sẽ dễ hiểu hơn nhưng khó đọc hơn và trở nên phức tạp (Sai vì mục tiêu là làm dễ đọc và giảm phức tạp).
+Tái cấu trúc làm cho chương trình dễ đọc và dễ hiểu hơn.
+Giúp giảm khả năng mắc lỗi khi thêm tính năng mới.
+Làm cho việc thay đổi mã nguồn trở nên dễ dàng hơn.
+
+Ý nào SAI khi nói về xác thực đầu vào (Input validation)?
+* Xác thực đầu vào liên quan tới việc kiểm tra thông tin của người dùng trong cơ sở dữ liệu (Đây là Authentication/Authorization).
+Liên quan đến việc kiểm tra định dạng và phạm vi giá trị của dữ liệu đầu vào.
+Rất quan trọng đối với bảo mật và độ tin cậy.
+Lỗi đầu vào là nguyên nhân phổ biến nhất gây lỗi dữ liệu (ô nhiễm DB).

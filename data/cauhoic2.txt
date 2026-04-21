@@ -1,0 +1,275 @@
+Tuyên ngôn Agile (Agile Manifesto) có bao nhiêu giá trị cốt lõi?
+* Có 4 giá trị cốt lõi (và 12 nguyên tắc).
+Có 3 giá trị cốt lõi.
+Có 5 giá trị cốt lõi.
+Có 6 giá trị cốt lõi.
+
+Ba điều mà nhóm Scrum nên làm khi lập kế hoạch chạy nước rút (Sprint Planning)?
+* Xác định mục tiêu Sprint, chọn các hạng mục từ Product Backlog và lập kế hoạch công việc chi tiết.
+Phân công task cho từng người, báo cáo tiến độ cho sếp và review code.
+Gặp gỡ khách hàng, ký hợp đồng và phát hành sản phẩm.
+Thay đổi Scrum Master, xóa Product Backlog và bắt đầu code ngay lập tức.
+
+Đâu không phải là động lực (động cơ) của phương pháp Agile?
+* Lập kế hoạch chi tiết, cố định và tuân thủ nghiêm ngặt từ đầu đến cuối dự án.
+Thích ứng nhanh chóng với sự thay đổi của yêu cầu.
+Giao phần mềm chạy được thường xuyên cho khách hàng.
+Tăng cường sự cộng tác giữa nhóm phát triển và khách hàng.
+
+Sprints là gì?
+* Một khoảng thời gian cố định (thường từ 1-4 tuần) để hoàn thành một lượng công việc nhất định và tạo ra một phần sản phẩm có thể sử dụng được.
+Một cuộc họp hàng ngày kéo dài 15 phút của nhóm phát triển.
+Một danh sách các yêu cầu của khách hàng đối với sản phẩm.
+Giai đoạn kiểm thử cuối cùng trước khi phát hành phần mềm.
+
+Phương pháp Agile được xây dựng dựa trên điều gì?
+* Quá trình phát triển lặp đi lặp lại và tăng dần (Iterative and incremental development).
+Phương pháp Thác nước (Waterfall) truyền thống.
+Thiết kế kiến trúc hệ thống chi tiết trước khi viết code.
+Việc lập tài liệu toàn diện thay vì phần mềm chạy được.
+
+Mục đích của Sprint là gì?
+* Cung cấp một phần tăng trưởng của sản phẩm (Increment) có thể bàn giao được vào cuối mỗi chu kỳ.
+Để nhóm phát triển có thời gian nghỉ ngơi giữa các giai đoạn dự án.
+Để viết toàn bộ tài liệu kỹ thuật của dự án.
+Để Product Owner thay đổi yêu cầu liên tục mỗi ngày.
+
+Phương pháp lập trình linh hoạt (Agile software engineering) tập trung vào việc gì?
+* Phản hồi nhanh chóng với sự thay đổi và liên tục chuyển giao phần mềm có giá trị.
+Đảm bảo mọi dòng code đều không có lỗi trước khi kiểm thử.
+Lên kế hoạch chi tiết cho toàn bộ dự án từ ngày đầu tiên.
+Tuân thủ quy trình nghiêm ngặt hơn là tương tác cá nhân.
+
+Trong Agile, tập trung vào việc hỗ trợ sự trao đổi trực tiếp và tương tác giữa các thành viên và khách hàng có nghĩa là gì?
+* Giao tiếp trực tiếp (face-to-face) là cách hiệu quả nhất để truyền đạt thông tin thay vì chỉ dùng tài liệu.
+Khách hàng phải tham gia viết code cùng nhóm phát triển.
+Nhóm không cần viết bất kỳ tài liệu kỹ thuật nào.
+Mọi quyết định đều phải do khách hàng đưa ra.
+
+Các vai trò chính trong framework Scrum bao gồm những ai?
+* Product Owner, Scrum Master, và Nhóm phát triển (Development Team).
+Project Manager, Developer, và Tester.
+CEO, Product Manager, và Scrum Master.
+Khách hàng, Lập trình viên, và Người kiểm thử.
+
+Đâu không phải là nhược điểm của mô hình Agile?
+* Khả năng thích ứng chậm với những thay đổi yêu cầu từ phía khách hàng.
+Khó dự đoán chính xác thời gian và chi phí cho các dự án lớn, phức tạp.
+Phụ thuộc nhiều vào kỹ năng giao tiếp và sự tự giác của các thành viên.
+Tài liệu có thể bị xem nhẹ dẫn đến khó bảo trì sau này nếu nhân sự thay đổi.
+
+Kết quả của quá trình thực hiện Agile là gì?
+* Một phần mềm hoặc phần gia tăng (Increment) hoạt động được và có thể chuyển giao cho khách hàng.
+Một bản thiết kế kiến trúc hệ thống hoàn chỉnh.
+Một danh sách dài các yêu cầu chưa được thực hiện.
+Kế hoạch dự án chi tiết cho 5 năm tiếp theo.
+
+Nguyên tắc nào sau đây thuộc về phát triển Agile?
+* Sự hài lòng của khách hàng, chào đón thay đổi, giao phần mềm thường xuyên, cộng tác chặt chẽ.
+Quy trình nghiêm ngặt, tài liệu đầy đủ, đàm phán hợp đồng, bám sát kế hoạch.
+Thiết kế trước, viết mã sau, kiểm thử cuối cùng, bàn giao một lần.
+Code nhanh, không cần test, không cần thiết kế, ra mắt ngay.
+
+Mô tả nào phù hợp nhất với mô hình Agile?
+* Là phương pháp tiếp cận lặp và tăng dần (iterative and incremental), nhấn mạnh tính linh hoạt và tương tác.
+Là mô hình tuần tự, kết thúc hoàn toàn giai đoạn này mới sang giai đoạn khác.
+Là phương pháp chỉ dùng cho các dự án bảo trì hệ thống máy chủ cũ.
+Là phương pháp quản lý dự án chỉ dựa trên việc viết tài liệu.
+
+Mục đích của Agile là gì?
+* Cung cấp giá trị cho khách hàng sớm và thường xuyên thông qua phần mềm chạy được.
+Giảm thiểu hoàn toàn chi phí phát triển phần mềm.
+Loại bỏ hoàn toàn vai trò của người kiểm thử (tester).
+Thay thế hoàn toàn các phương pháp kỹ thuật phần mềm truyền thống.
+
+Re-factoring (Tái cấu trúc mã) là gì?
+* Việc tinh chỉnh và cải thiện cấu trúc mã nguồn bên trong mà không làm thay đổi hành vi bên ngoài của phần mềm.
+Thêm các tính năng mới vào hệ thống phần mềm.
+Viết lại toàn bộ phần mềm từ đầu bằng ngôn ngữ lập trình khác.
+Quá trình kiểm thử lại toàn bộ phần mềm sau khi phát hành.
+
+Trong quá trình phát triển tính năng, sau khi tinh chỉnh mô tả tính năng, bước tiếp theo là gì?
+* Lập kế hoạch thiết kế và triển khai mã (Coding/Implementation) cho tính năng đó.
+Đưa ngay cho khách hàng sử dụng mà không cần kiểm thử.
+Xóa tính năng đó khỏi Product Backlog.
+Chuyển sang giai đoạn bảo trì hệ thống.
+
+Theo Tuyên ngôn Agile, điều gì là quan trọng NHẤT?
+* Cá nhân và sự tương tác (Individuals and interactions) quan trọng hơn quy trình và công cụ.
+Quy trình và công cụ quan trọng hơn cá nhân.
+Đàm phán hợp đồng quan trọng hơn hợp tác với khách hàng.
+Bám sát kế hoạch quan trọng hơn là phản hồi với sự thay đổi.
+
+Điều nào KHÔNG nằm trong các nguyên tắc phát triển Agile?
+* Tuân thủ nghiêm ngặt một kế hoạch đã định sẵn từ ban đầu mà không được phép sai lệch.
+Phần mềm chạy tốt là thước đo chính của tiến độ.
+Sự đơn giản - nghệ thuật tối đa hóa lượng công việc không cần làm - là điều kiện tiên quyết.
+Những kiến trúc, yêu cầu và thiết kế tốt nhất xuất phát từ các nhóm tự tổ chức.
+
+Định nghĩa của Phần gia tăng (Increment) là gì?
+* Tổng của tất cả các hạng mục Product Backlog đã hoàn thành trong một Sprint và giá trị của các phần gia tăng của các Sprint trước đó.
+Số lượng tính năng được thêm vào danh sách mong muốn của khách hàng.
+Sự gia tăng ngân sách của dự án sau mỗi giai đoạn.
+Số giờ làm việc tăng thêm của nhóm phát triển.
+
+Hoạt động nào KHÔNG bao gồm trong quá trình phát triển tăng dần (incremental development)?
+* Xây dựng và hoàn thiện toàn bộ hệ thống cùng một lúc rồi mới bàn giao (Big-bang delivery).
+Phát triển, kiểm thử và tích hợp từng tính năng một.
+Chia nhỏ dự án thành các vòng lặp (iterations).
+Nhận phản hồi từ khách hàng sau mỗi lần chuyển giao phần mềm.
+
+Khẳng định nào sau đây về tuyên ngôn Agile là SAI?
+* Tài liệu toàn diện quan trọng hơn phần mềm hoạt động được.
+Cá nhân và sự tương tác quan trọng hơn quy trình và công cụ.
+Cộng tác với khách hàng quan trọng hơn đàm phán hợp đồng.
+Phản hồi sự thay đổi quan trọng hơn bám sát kế hoạch.
+
+Extreme Programming (XP) là gì?
+* Một phương pháp phát triển phần mềm Agile tập trung vào kỹ thuật lập trình chất lượng cao (như Pair Programming, TDD) và tính linh hoạt.
+Một chương trình thực tế ảo dành cho các lập trình viên.
+Một ngôn ngữ lập trình mới dùng để thay thế C++ và Java.
+Một mô hình phát triển phần mềm truyền thống dựa trên Thác nước (Waterfall).
+
+Thực hành nào có ảnh hưởng nhất đã thay đổi văn hóa phát triển phần mềm (đặc biệt trong XP)?
+* Lập trình cặp (Pair Programming) và Phát triển hướng kiểm thử (TDD).
+Lập trình một mình trong phòng kín.
+Viết mã trước, nghĩ thiết kế sau.
+Chỉ kiểm thử khi dự án đã kết thúc.
+
+Nguyên tắc cơ bản của Extreme Programming (XP) là gì?
+* Giao tiếp, Đơn giản, Phản hồi, Can đảm và Tôn trọng.
+Quy trình, Công cụ, Hợp đồng và Kế hoạch.
+Thiết kế trước, Viết tài liệu, Code nhanh và Bàn giao.
+Im lặng, Phức tạp, Giấu lỗi và Bỏ cuộc.
+
+Đặc điểm nào KHÔNG phải là thực hành của Extreme Programming (XP)?
+* Viết code mà không cần bất kỳ bài kiểm thử tự động nào.
+Tích hợp liên tục (Continuous Integration).
+Trò chơi Lập kế hoạch (Planning Game).
+Tái cấu trúc mã nguồn (Refactoring).
+
+Kỹ thuật nào là một trong những kỹ thuật được sử dụng rộng rãi nhất của XP?
+* Phát triển hướng kiểm thử (Test-Driven Development - TDD).
+Phát triển hướng tài liệu (Documentation-Driven Development).
+Thiết kế kiến trúc khổng lồ từ đầu (Big Design Up Front).
+Kiểm thử thủ công cuối dự án.
+
+Đâu không phải là trụ cột của Scrum?
+* Sự phức tạp (Complexity).
+Sự minh bạch (Transparency).
+Thanh tra/Kiểm tra (Inspection).
+Thích nghi (Adaptation).
+
+Đâu không phải là một trong những lợi ích chính của Scrum?
+* Đảm bảo phần mềm không có bất kỳ một lỗi (bug) nào.
+Khả năng thích ứng nhanh với những thay đổi của thị trường.
+Cải thiện sự minh bạch và tinh thần cộng tác trong nhóm.
+Tăng tốc độ chuyển giao giá trị đến khách hàng.
+
+Trong các dự án Scrum, chúng ta lên kế hoạch "vừa làm vừa học" (learn as we go) bởi vì sao?
+* Vì yêu cầu và công nghệ luôn thay đổi, ta không thể biết trước mọi thứ ngay từ đầu.
+Vì nhóm Scrum thường không có đủ kỹ năng để lập kế hoạch.
+Vì Product Owner không biết mình muốn gì.
+Vì không có ngân sách để thuê người viết tài liệu kế hoạch.
+
+Một Sprint thường sẽ kéo dài bao lâu?
+* Từ 1 đến 4 tuần (thường là thời gian cố định trong suốt dự án).
+Ít nhất là 6 tháng.
+Tùy thuộc vào thời gian lập trình viên muốn nghỉ ngơi.
+Vài giờ đồng hồ.
+
+Scrum là gì?
+* Một khung làm việc (framework) linh hoạt giúp các nhóm giải quyết các vấn đề phức tạp và cung cấp sản phẩm có giá trị cao.
+Một ngôn ngữ lập trình hướng đối tượng.
+Một công cụ kiểm thử tự động.
+Một quy trình phần mềm bắt buộc phải có tài liệu dày hàng nghìn trang.
+
+Scrum Master hỗ trợ Product Owner bằng cách nào?
+* Giúp Product Owner tìm ra các kỹ thuật quản lý Product Backlog hiệu quả và hiểu cách lập kế hoạch trong môi trường thực nghiệm.
+Viết code thay cho Product Owner.
+Đuổi việc các lập trình viên không làm được việc.
+Quyết định thay Product Owner những tính năng nào cần làm.
+
+Cách tiếp cận của Scrum đối với tài liệu (documentation) là gì?
+* Viết tài liệu ở mức vừa đủ (barely sufficient) để hỗ trợ quá trình phát triển, ưu tiên phần mềm chạy được.
+Không bao giờ viết bất kỳ tài liệu nào.
+Tài liệu phải được viết hoàn chỉnh 100% trước khi bắt đầu Sprint.
+Thuê một đội ngũ riêng chỉ để viết tài liệu kỹ thuật.
+
+Vai trò của một Scrum Master là gì?
+* Là một người phục vụ-lãnh đạo (servant-leader), loại bỏ các rào cản và đảm bảo nhóm tuân thủ đúng quy trình Scrum.
+Là người quản lý dự án, giao việc và đánh giá KPI cho từng thành viên.
+Là người quyết định ngân sách của dự án.
+Là người chịu trách nhiệm cuối cùng về lợi nhuận của sản phẩm.
+
+Scrum hoạt động dựa trên cơ chế nào?
+* Chia dự án lớn thành các chu kỳ nhỏ (Sprints) để quản lý rủi ro và tăng cường khả năng thích nghi.
+Ngăn chặn sự thay đổi yêu cầu từ phía khách hàng.
+Bắt buộc các lập trình viên phải làm việc tăng ca (Overtime) mỗi ngày.
+Thay thế hoàn toàn mọi phương pháp làm việc nhóm.
+
+Lợi ích của Scrum đối với sản phẩm là gì?
+* Đảm bảo các tính năng mang lại giá trị kinh doanh cao nhất được phát triển và chuyển giao sớm nhất.
+Sản phẩm sẽ không bao giờ bị lỗi bảo mật.
+Sản phẩm có thể tự động viết code cho các tính năng tương lai.
+Giảm thiểu 100% chi phí phát triển phần mềm.
+
+Khi nào thì một Sprint được coi là hoàn thành (complete)?
+* Khi khung thời gian tối đa (time-box) của Sprint kết thúc.
+Khi tất cả các task trong Sprint Backlog đã được code xong.
+Khi khách hàng đồng ý mua sản phẩm.
+Khi Product Owner nói rằng có thể kết thúc.
+
+Thời điểm tốt nhất để tổ chức họp Daily Scrum là khi nào?
+* Cùng một thời gian và địa điểm mỗi ngày để giảm thiểu sự phức tạp.
+Bất cứ lúc nào Scrum Master thấy rảnh.
+Chỉ khi có thành viên gặp khó khăn cần giải quyết.
+Vào buổi tối sau khi mọi người đã về nhà.
+
+Điều nào sau đây là ĐÚNG về Sprint Review?
+* Đây là buổi để nhóm Scrum và các bên liên quan kiểm tra Phần gia tăng (Increment) và điều chỉnh Product Backlog nếu cần.
+Đây là buổi để đánh giá năng lực của từng lập trình viên và trừ lương nếu làm sai.
+Đây là cuộc họp diễn ra hàng ngày kéo dài 15 phút.
+Đây là lúc để viết lại toàn bộ code của dự án.
+
+Trạng thái của các hạng mục trong Product Backlog thường bao gồm những gì?
+* Chưa làm, Đang làm, Đã xong (To do, In Progress, Done).
+Chấp nhận, Từ chối, Bỏ qua.
+Thiết kế, Viết mã, Biên dịch.
+Mới, Cũ, Hết hạn.
+
+Điều gì được chuyển giao (delivered) vào cuối mỗi Sprint?
+* Một Phần gia tăng của sản phẩm (Product Increment) có khả năng phát hành được (Done).
+Một bản thiết kế giao diện (UI) trên giấy.
+Một danh sách các lỗi (bug report) để sửa ở Sprint sau.
+Một bản hợp đồng được ký kết với khách hàng.
+
+Ai là người chịu trách nhiệm về giá trị kinh doanh (business value) do Nhóm Scrum mang lại?
+* Product Owner (Chủ sở hữu sản phẩm).
+Scrum Master.
+Nhóm phát triển (Development Team).
+Giám đốc công ty (CEO).
+
+Bước đầu tiên của một quy trình Scrum là bước nào?
+* Tạo và tinh chỉnh Product Backlog (Danh sách các hạng mục sản phẩm).
+Họp Sprint Retrospective (Cải tiến Sprint).
+Phát hành sản phẩm ra thị trường.
+Viết những dòng code đầu tiên.
+
+Hoạt động nào KHÔNG thuộc về quản lý Product Backlog?
+* Quyết định kiến trúc phần cứng máy chủ.
+Sắp xếp mức độ ưu tiên của các tính năng.
+Thêm các Câu chuyện người dùng (User Story) mới.
+Ước lượng kích cỡ (size/effort) của các hạng mục.
+
+Ai chịu trách nhiệm đo lường hiệu suất của dự án (Project’s performance)?
+* Product Owner thường theo dõi tiến độ hoàn thành các mục tiêu hướng tới việc phát hành.
+Scrum Master.
+Các lập trình viên (Developer).
+Người dùng cuối (End User).
+
+Ý nào là SAI khi nói về một nhóm Scrum lý tưởng?
+* Nhóm Scrum cần có người đứng đầu (Team Leader) để phân công công việc cụ thể cho từng thành viên.
+Nhóm Scrum là một nhóm tự quản (self-organizing).
+Nhóm Scrum liên chức năng (cross-functional), có đủ kỹ năng để hoàn thành công việc.
+Quy mô nhóm thường đủ nhỏ để duy trì sự linh hoạt (thường dưới 10 người).

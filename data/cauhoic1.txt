@@ -1,0 +1,275 @@
+Tầm nhìn sản phẩm cần trả lời câu hỏi gì?
+* Sản phẩm được phát triển là gì? Ai là khách hàng mục tiêu và người sử dụng? Tại sao khách hàng nên mua sản phẩm này?
+Định hướng phát triển sản phẩm trong tương lai?
+Sản phẩm có thiết thực không?
+Sản phẩm có tốn chi phí không?
+
+Tầm nhìn của Moore (Moore's vision) có cấu trúc là gì?
+* FOR-WHO-THE-THAT-UNLIKE-OUR PRODUCT.
+FOR-WHEN-THE-THAT-UNLIKE-OUR PRODUCT
+TO-WHO-THE-THAT-UNLIKE-OUR PRODUCT.
+FOR-WHO-THE-THAT-LIKE-OUR PRODUCT.
+
+Ba giai đoạn tổng quát của công nghệ phần mềm?
+* Xác định (Definition), phát triển (development), hỗ trợ (support)
+Cái gì (What), thế nào (how), ở đâu (where)
+Lập trình (Programming), gỡ lỗi (debugging), bảo trì (maintenance)
+Phân tích (Analysis), thiết kế (design), kiểm thử (testing)
+
+Các sản phẩm phầm mềm là gì?
+* Là các hệ thống phần mềm chung cung cấp chức năng hữu ích cho nhiều đối tượng khách hàng
+Là các hệ thống phần mềm riêng cung cấp chức năng hữu ích cho công ty
+Là các hệ thống phần mềm riêng cung cấp chức năng hữu ích cho nhiều đối tượng khách hàng
+Là các hệ thống phần mềm cung cấp cho nhiều đối tượng khách hàng
+
+Đâu không là đặc trưng của một sản phẩm phần mềm?
+* Chi phí phát triển phần mềm thường rất cao
+Không được phát triển theo khuôn mẫu có sẵn
+Không bị thoái hóa như phần cứng và các thiết bị vật lý khác
+Phức tạp, vô hình, được phát triển theo nhóm và thường xuyên bị thay đổi
+
+Lộ trình phát triển phần mềm gồm những bước nào?
+* Phát triển, phát hành, tiếp thị
+Phát triển, sửa lỗi, phát hành
+Khởi tạo, sửa lỗi, tiếp thị
+Sửa lỗi, phát hành, tiếp thị
+
+Mô hình thực thi phần mềm lai (hybrid) là gì?
+* 1 phần chức năng của phần mềm được thực hiện trên máy tính khách hàng và 1 số chức năng khác thực hiện trên máy chủ của nhà phát triển. 
+Phần mềm được thực hện hoàn toàn trên máy của khách hàng.
+Tất cả các chức năng của sản phẩm được thực hiện trên máy chủ của nhà phát triển.
+Tất cả các chức năng của sản phẩm được thực hiện trên máy chủ của nhà phát triển và khách hàng sẽ kết nối thông qua trình duyệt và mobile app.
+
+Mô hình thực thi phần mềm độc lập (stand-alone) là gì?
+* Phần mềm thực thi hoàn toàn trên máy tính của khách hàng
+Phần mềm thực thi một phần trên máy tính của khách hàng
+Phần mềm thực thi tự động trên máy tính của khách hàng
+Phần mềm thực thi độc lập trên máy tính của khách hàng
+
+MS Word thuộc loại phần mềm nào?
+* Phần mềm ứng dụng
+phần mềm hệ thống
+phần mềm tiện ích
+phần mềm khoa học kĩ thuật
+
+Sự khác biệt giữa sản phẩm phần mềm (software products) và dòng sản phẩm phần mềm (software product lines) là gì?
+* Một dòng sản phẩm cung cấp nhiều tập thuộc tính khác nhau (multiple attribute sets).
+Sự khác biệt rất phức tạp.
+Một sản phẩm là số nhiều và dòng sản phẩm là số ít.
+Một dòng sản phẩm chỉ cung cấp các tập thuộc tính đơn lẻ.
+
+Các đặc điểm chính của việc phát triển sản phẩm phần mềm là gì?
+* Không có khách hàng bên ngoài (external clients) đưa ra yêu cầu và trả tiền cho phần mềm.
+Khách hàng bên ngoài đưa ra yêu cầu và trả tiền cho phần mềm.
+Khách hàng chỉ tạo ra các yêu cầu.
+Khách hàng chỉ trả tiền mà không tham gia vào dự án.
+
+Các dự án của sinh viên và phần mềm nghiên cứu có điểm gì chung?
+* Không có khách hàng bên ngoài đưa ra yêu cầu và trả tiền cho phần mềm
+Chúng được phát triển để trả lời các câu hỏi liên quan đến một nghiên cứu
+Các phần mềm là một phần của bài tập
+Có những khách hàng bên ngoài đưa ra yêu cầu và trả tiền cho phần mềm
+
+Tầm nhìn sản phẩm (product vision) nên trả lời câu hỏi cơ bản nào?
+* Khách hàng và người dùng mục tiêu là ai?
+Sản phẩm được đánh giá là gì?
+Tại sao khách hàng không nên mua sản phẩm này?
+Tại sao khách hàng không hài lòng với sản phẩm?
+
+Nền tảng (Platform) là gì?
+* Một sản phẩm phần mềm (hoặc phần mềm + phần cứng) bao gồm các chức năng để có thể xây dựng ứng dụng mới trên đó
+Một bề mặt để đặt máy tính lên
+Một phần cứng chứa các phần cứng khác
+Một phần mềm hỗ trợ có thể được sử dụng để xây dựng phần mềm khác
+
+Lộ trình sản phẩm (Product roadmap) là gì?
+* Lộ trình sản phẩm là một nguồn thông tin chung vạch ra tầm nhìn, hướng đi, các ưu tiên và tiến độ của một sản phẩm theo thời gian
+Lộ trình sản phẩm là một nguồn thông tin chung vạch ra tầm nhìn, hướng đi
+Lộ trình sản phẩm là một nguồn thông tin chung vạch ra tiến độ của một sản phẩm theo thời gian
+Lộ trình sản phẩm là một nguồn thông tin chung vạch ra tầm nhìn của một sản phẩm theo thời gian
+
+Tầm nhìn sản phẩm (Product visions) là gì?
+* Tầm nhìn sản phẩm là những tuyên bố đơn giản xác định bản chất của sản phẩm sẽ được phát triển.
+Tầm nhìn sản phẩm là những tuyên bố phức tạp.
+Tầm nhìn sản phẩm xác định sản phẩm sẽ được phát triển.
+Tầm nhìn sản phẩm là những tuyên bố phức tạp xác định bản chất của sản phẩm sẽ được phát triển.
+
+Câu hỏi cơ bản để xác định tầm nhìn sản phẩm là gì?
+* Tại sao khách hàng nên mua sản phẩm này?
+Chức năng của sản phẩm là gì?
+Làm thế nào để phát triển sản phẩm?
+Các giai đoạn phát triển sản phẩm là gì?
+
+Tại sao việc đưa sản phẩm phần mềm ra thị trường nhanh chóng lại quan trọng?
+* Khách hàng rất ngại thay đổi sau khi đã đưa ra quyết định. Do đó, nếu đối thủ ra mắt trước (first-to-market), việc thiết lập cơ sở khách hàng sẽ khó khăn hơn rất nhiều.
+Tránh việc khách hàng tạo ra nhiều thay đổi hơn
+Các sản phẩm phần mềm được đưa ra thị trường nhanh chóng để tăng giá trị sản phẩm
+Tạo lợi thế về mặt bản quyền
+
+Tại sao bạn nên triển khai một nguyên mẫu (prototype) trước khi bắt đầu phát triển một sản phẩm phần mềm mới?
+* Nguyên mẫu giúp bạn lập kế hoạch dự án tốt hơn và ước tính được chi phí.
+Đó là một cách khó khăn để nhận được phản hồi thực tế.
+Nguyên mẫu mang lại cho bạn cảm giác về sự phức tạp
+Khách hàng có thể sử dụng nguyên mẫu cho quá trình sản xuất ban đầu
+
+Điểm khởi đầu để phát triển phần mềm là gì?
+* Tầm nhìn sản phẩm.
+Thiết kế giao diện.
+Thử nghiệm khách hàng.
+Tồn đọng sản phẩm (Product backlog).
+
+Nêu các nguồn thông tin sử dụng cho việc phát triển tầm nhìn sản phẩm.
+* - Dựa trên trải nghiệm khách hàng, trải nghiệm sản phẩm, kinh nghiệm trong lĩnh vực.
+- Dựa trên những sản phẩm đã có, công nghệ mới trên thị trường.
+- Dựa trên ngân sách của dự án, kinh nghiệm trong lĩnh vực.
+- Dựa trên quy mô và mục tiêu phát triển dự án.
+
+Tầm nhìn sản phẩm là gì?
+* Những tuyên bố đơn giản xác định bản chất của sản phẩm sẽ được phát triển.
+Những tuyên bố phức tạp xác định sản phẩm.
+Kế hoạch 10 năm cho sản phẩm.
+Xác định lộ trình phát triển của sản phẩm.
+
+Điểm khởi đầu trong một dự án phát triển phần mềm (theo đặt hàng) là gì?
+* Một tập hợp các 'yêu cầu phần mềm' thuộc sở hữu của một khách hàng bên ngoài
+Một tập hợp các 'yêu cầu phần mềm' do lập trình viên tạo ra
+Một cơ hội kinh doanh được xác định bởi các cá nhân hoặc một công ty
+Một sự triển khai của một hệ thống cung cấp chức năng để đáp ứng các yêu cầu
+
+Điểm khởi đầu cho việc phát triển SẢN PHẨM phần mềm là gì?
+* Tầm nhìn sản phẩm (product vision)
+Định nghĩa sản phẩm (product definition)
+Giá trị sản phẩm (product value)
+Tiềm năng phát triển sản phẩm (product development potential)
+
+Nguồn nào KHÔNG thuộc về các nguồn thông tin để phát triển tầm nhìn sản phẩm?
+* Kinh nghiệm sống (Life experience)
+Kinh nghiệm trong lĩnh vực (Domain experience)
+Kinh nghiệm sản phẩm (Product experience)
+Trải nghiệm khách hàng (Customer experience)
+
+Ai chịu trách nhiệm quyết định khung thời gian phát triển, những tính năng nào cần đưa vào và khi nào sản phẩm nên thay đổi?
+* Công ty phát triển phần mềm
+Khách hàng
+Lập trình viên
+Công ty đối thủ
+
+Ba mối quan tâm chính liên quan đến quản lý sản phẩm là gì?
+* Khám phá sản phẩm. Kế hoạch sản phẩm. Phát triển sản phẩm.
+Khám phá sản phẩm. Kế hoạch sản phẩm. Bảo trì sản phẩm.
+Theo dõi sản phẩm. Tầm nhìn sản phẩm. Khám phá sản phẩm.
+Kiểm tra sản phẩm. Phát triển sản phẩm. Phân loại sản phẩm.
+
+Các yếu tố ảnh hưởng đến chất lượng sản phẩm phần mềm bên trong doanh nghiệp là gì?
+* Con người, phương pháp, máy móc và thiết bị, nguyên vật liệu
+Con người, máy móc, sự phát triển của khoa học kĩ thuật, yêu cầu của thị trường
+Con người, điều kiện kinh tế xã hội, thiết bị, hiệu lực cơ chế quản lí
+Sự phát triển của khoa học kĩ thuật, hiệu lực của cơ chế quản lí, Những yêu cầu của thị trường, điều kiện kinh tế xã hội
+
+Việc quyết định xem một sản phẩm nên được phát hành ra công chúng hay là thu thập dữ liệu thử nghiệm, được thể hiện trong quy trình tương tác kỹ thuật nào của Product Manager?
+* Kiểm thử khách hàng (Customer testing)
+Tạo và quản lý Product backlog
+Kiểm thử chấp nhận (Acceptance testing)
+Thiết kế giao diện người dùng
+
+Đích của kỹ thuật đặc tả ứng dụng thuận tiện (FAST - facilitated application specification techniques) là nhờ người phát triển và khách hàng?
+* Làm việc với nhau để phát triển một tập những yêu cầu ban đầu
+Làm việc với nhau để phát triển những đặc tả phần mềm kỹ thuật
+Xây dựng một nguyên mẫu nhanh chóng
+Học công việc lẫn nhau
+
+Trong kỹ nghệ phần mềm sản phẩm, ai chịu trách nhiệm quyết định các tính năng nào sẽ thuộc về sản phẩm và việc triển khai các tính năng đó?
+* Cùng một công ty (chính công ty phát triển)
+Công ty đối thủ
+Lập trình viên
+Khách hàng
+
+Người quản lý sản phẩm (Product Manager) gồm những ai?
+* Tổ chức, khách hàng và nhóm phát triển phần mềm.
+Giám đốc.
+Tổ chức và khách hàng.
+Nhóm phát triển phần mềm.
+
+Một trong những việc mà Product Manager không thực sự làm là gì?
+* Bán hàng (Sale)
+Nói chuyện với các nhà phân tích
+Nghiên cứu các ràng buộc của cơ quan quản lý
+Xác định tầm nhìn sản phẩm
+
+Quản lý sản phẩm là gì?
+* Sự giao tiếp giữa tổ chức, khách hàng và nhóm phát triển phần mềm
+Sự giao tiếp giữa tổ chức, nhóm phát triển và phần mềm
+Sự giao tiếp giữa nhóm phát triển, khách hàng
+Sự giao tiếp giữa tổ chức và nhóm phát triển phần mềm
+
+Tích hợp liên tục (continuous integration) thường được sử dụng trong đâu?
+* Quá trình phát triển phần mềm
+Quá trình quản lý phần mềm
+Quá trình nhân bản phần mềm
+Quá trình cài đặt phần mềm
+
+Trong giai đoạn nào lập trình viên đảm bảo rằng phần mềm hoạt động không có lỗi?
+* Thử nghiệm
+Triển khai
+Phát triển
+Tích hợp
+
+Tương tác nào sau đây không phải là tương tác kỹ thuật của các nhà quản lý sản phẩm?
+* Sản xuất đóng gói sản phẩm.
+Quản lý tầm nhìn sản phẩm, tồn đọng sản phẩm (product backlog).
+Thiết kế giao diện người dùng.
+Kiểm tra chấp nhận, thử nghiệm khách hàng
+
+Từ viết tắt PMs trong quản lý sản phẩm phần mềm có nghĩa là gì?
+* Người quản lý sản phẩm (Product Managers)
+Quản lý cá nhân (Personal Management)
+Quản lý chương trình (Program Management)
+Tiếp thị sản phẩm (Product Marketing)
+
+Đâu là trách nhiệm chính của người quản lý sản phẩm là gì?
+* Phát triển lộ trình sản phẩm, kiểm tra tồn đọng, thiết kế giao diện người dùng, người dùng và sản phẩm và khách hàng, sở hữu tầm nhìn sản phẩm 
+Sở hữu tầm nhìn sản phẩm, trải nghiệm sản phẩm, liên kết khách hàng, 
+Thiết kế giao diện người dùng, kiểm tra tồn đọng đặt ra những quy định về sản phẩm, thiết kế sản phẩm không có liên kết với vấn đề khách hàng
+Hoàn thiện sản phẩm, kiểm tra tồn đọng, trải nghiệm sản phẩm
+
+Sản phẩm mẫu được tạo ra để làm gì?
+* Để xem xét ý tưởng, tiềm năng của dự án.
+Để bán.
+Để gọi vốn.
+Để quảng cáo
+
+Tạo mẫu sản phẩm là gì?
+* Là quá trình phát triển phiên bản đầu tiên của sản phẩm để kiểm tra ý tưởng mang tính thuyết phục rằng sản phẩm có tiềm năng.
+Là quá trình phát triển phiên bản cuối cùng của sản phẩm để kiểm tra ý tưởng mang tính thuyết phục rằng sản phẩm có tiềm năng.
+Gia công thiết kế mẫu mã sản phẩm.
+Buôn bán mặt hàng đầu tiên của sản phẩm.
+
+Tầm nhìn của một sản phẩm nên mô tả những gì?
+* Phát triển những gì, khách hàng mục tiêu là ai, vì sao họ nên mua sản phẩm.
+Dự tính sự thành công của sản phẩm.
+Dự tính thời gian hoàn thiện sản phẩm.
+Dự tính doanh thu của sản phẩm đem lại.
+
+Điều đầu tiên bạn làm khi phát triển một sản phẩm phần mềm là gì?
+* Xây dựng một nguyên mẫu (Building a prototype)
+Thu thập thông tin
+Viết code
+Thiết kế sản phẩm
+
+Điều đầu tiên bạn NÊN làm khi phát triển một sản phẩm phần mềm là gì?
+* Xây dựng một nguyên mẫu (Building a prototype)
+Tạo một hệ thống có thể thực thi
+Xem xét các vấn đề
+Lên kế hoạch loại bỏ nguyên mẫu
+
+Loại kinh nghiệm nào sẽ đóng góp vào việc phát triển tầm nhìn sản phẩm?
+* Kinh nghiệm lĩnh vực (domain), kinh nghiệm sản phẩm, trải nghiệm khách hàng và một nguyên mẫu phần mềm thử nghiệm.
+Kinh nghiệm chuyên sâu
+Kinh nghiệm thực tế
+Kinh nghiệm ảo
+
+Mô hình phát triển dựa vào thành phần?
+* Dựa vào những kỹ thuật hỗ trợ đối tượng.
+Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng.
+Không thể hỗ trợ phát triển những thành phần sử dụng lại.
+Scrum Có thể cần thay đổi quy trình, cách tổ chức khi bắt đầu hoặc trước khi bắt đầu dự án, 2 phương pháp này không cùng mục tiêu

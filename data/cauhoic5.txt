@@ -1,0 +1,167 @@
+Tất cả những cái tên sau đây đều là loại hình dịch vụ đám mây (cloud services), ngoại trừ:
+* Segregated cloud (Đám mây tách biệt).
+Public cloud (Đám mây công cộng).
+Hybrid cloud (Đám mây lai).
+Private cloud (Đám mây riêng).
+
+Amazon Elastic Compute Cloud (EC2) chủ yếu được coi là mô hình điện toán đám mây loại nào?
+* IaaS (Cơ sở hạ tầng như một dịch vụ).
+PaaS (Nền tảng như một dịch vụ).
+SaaS (Phần mềm như một dịch vụ).
+Không có đáp án nào đúng.
+
+Các thành phần cốt lõi của hệ thống Docker container bao gồm:
+* Trình nền Docker (Docker daemon), Dockerfiles, Hình ảnh (Image).
+Dockerfiles, Audio, Docker client.
+Image, Article, Docker client.
+Dockerfile, Docker client.
+
+Cloud (Điện toán đám mây) có mấy mô hình triển khai chính?
+* 4 (Công cộng - Public, Riêng tư - Private, Lai - Hybrid, Đa đám mây - Multi).
+2 (Public, Private).
+3 (Public, Private, Hybrid).
+5 (Public, Private, Hybrid, Single, Multi).
+
+Có bao nhiêu mô hình dịch vụ Cloud chính và đó là những mô hình nào?
+* 3 (IaaS, PaaS, SaaS).
+2 (IaaS, PaaS).
+4 (IaaS, PaaS, SaaS, FaaS).
+5 (IaaS, PaaS, SaaS, FaaS, CaaS).
+
+Containers là gì?
+* Là các công cụ mà Docker sử dụng để đóng gói và vận chuyển các ứng dụng của nhà phát triển đến địa điểm đích.
+Là một công cụ được thiết kế để giúp các nhà phát triển tạo và duy trì các ứng dụng của họ một cách dễ dàng và có tổ chức.
+Là một công cụ trích xuất dữ liệu giúp tìm kiếm thông tin một cách dễ dàng.
+Là một công cụ hỗ trợ hướng dẫn sử dụng để chương trình diễn ra một cách chính xác.
+
+Docker là gì?
+* Là một hệ thống quản lý vùng chứa (container) cho phép người dùng xác định phần mềm được đưa vào vùng chứa dưới dạng hình ảnh Docker.
+Là hệ thống thiết kế giao diện.
+Là kho chứa hình ảnh miễn phí.
+Là hệ thống bảo mật.
+
+Đặc điểm chính của phần mềm đám mây (Cloud software) là gì?
+* Khả năng mở rộng (Scalability), Khả năng phục hồi (Resilience), Độ đàn hồi (Elasticity).
+Khép kín, bảo mật, khả năng tương thích.
+Khép kín, khả năng phục hồi, độ đàn hồi.
+Khả năng mở rộng, bảo mật, tự chọn.
+
+Đâu KHÔNG phải là lợi ích khi sử dụng phần mềm dựa trên Đám mây?
+* Giảm nhân viên lập trình.
+Giảm chi phí.
+Giảm thời gian khởi động (Startup time).
+Dễ dàng truy cập.
+
+Đâu là 4 lợi ích của việc sử dụng đám mây (cloud) để phát triển phần mềm?
+* Chi phí - Thời gian khởi động - Lựa chọn máy chủ - Phát triển phân tán.
+Chi phí - Thời gian khởi động - Truy xuất nhanh - Ít bị lỗi.
+Chi phí - Hiệu suất cao - Lựa chọn máy chủ - Phát triển phân tán.
+Phát triển phân tán - Độ trễ thấp - Lựa chọn máy chủ - Dễ bảo trì nâng cấp.
+
+Hình ảnh Docker (Docker Image) là gì?
+* Các thư mục có thể được lưu trữ, chia sẻ và chạy trên các máy chủ Docker khác nhau.
+Bức tranh bến cảng được vẽ tay.
+Ảnh của người tên là Docker.
+Hình ảnh người đóng tàu.
+
+Nếu bạn có một nhóm phát triển phân tán làm việc từ các địa điểm khác nhau, bạn có thể chia sẻ thông tin liền mạch với ai?
+* Tất cả các thành viên trong nhóm có cùng môi trường phát triển (Environment).
+Tất cả thành viên của công ty.
+Khách hàng.
+Bất kỳ ai có liên kết chia sẻ.
+
+Trong kiến trúc đám mây, những thành phần khác nhau nào là bắt buộc?
+* Đầu vào đám mây (Cloud ingress), Dịch vụ lưu trữ, Dịch vụ được cung cấp.
+Đầu vào đám mây, giai đoạn giám sát.
+Dịch vụ lưu trữ, giai đoạn tắt máy.
+Dịch vụ được cung cấp, giai đoạn dọn dẹp.
+
+Khả năng mở rộng (Scalability) của một hệ thống phản ánh điều gì?
+* Phản ánh khả năng tự động thích ứng với thay đổi trọng tải (load) trên hệ thống đó.
+Phản ánh khả năng tiếp tục cung cấp các dịch vụ quan trọng.
+Phản ánh cách tiếp cận được sử dụng.
+Phản ánh sức mạnh của máy chủ hệ thống.
+
+Máy chủ trên đám mây (Cloud server) thực chất là gì?
+* Máy chủ ảo (Virtual server).
+Máy chủ vật lý.
+Máy chủ thật.
+Máy chủ phần cứng.
+
+Vấn đề liên quan tới bảo mật cơ sở dữ liệu của phần mềm dựa trên đám mây là gì?
+* Kiểm soát truy cập đa cấp và mã hóa.
+Quyền truy cập chỉ được kiểm soát ở cấp độ cá nhân.
+Lỗi phần mềm hoặc một cuộc tấn công không thể kiểm soát.
+Bạn không cần quyền kiểm soát truy cập cấp tổ chức.
+
+Vấn đề của các ứng dụng nguyên khối (Monolithic applications) là gì?
+* Phải xây dựng lại, kiểm thử lại, triển khai lại khi có bất kỳ thay đổi nào và phải mở rộng toàn bộ khi nhu cầu tăng.
+Không thể chạy trên đám mây.
+Dễ bị tấn công bảo mật hơn ứng dụng vi dịch vụ.
+Tốn ít chi phí vận hành hơn.
+
+Ưu điểm của việc sử dụng Container so với Máy ảo (Virtual Machines - VM) là gì?
+* Container có kích thước nhỏ hơn, thời gian khởi động và tắt máy nhanh hơn.
+Máy ảo có độ bảo mật kém hơn.
+Container chứa được nhiều thành phần hơn.
+Máy ảo đã lỗi thời.
+
+Việc một nhà cung cấp đám mây công cộng có độ khả dụng là "năm số chín" (five nines - 99.999%) có nghĩa là gì?
+* Hệ thống có thể ngừng hoạt động (downtime) khoảng 5 phút mỗi năm.
+Hệ thống không bao giờ ngừng hoạt động.
+Hệ thống có thể ngừng hoạt động 5 phút mỗi ngày.
+Hệ thống có thể ngừng hoạt động 5 phút mỗi tháng.
+
+Hybrid Cloud (Đám mây lai) là gì?
+* Sự kết hợp giữa các dịch vụ đám mây công cộng và riêng tư với sự điều phối (orchestration) giữa chúng.
+Dịch vụ đám mây được triển khai trên nhiều văn phòng.
+Sự kết hợp giữa đám mây riêng và phần cứng tại chỗ cũ.
+Không có đáp án nào đúng.
+
+SaaS (Software as a Service) là gì?
+* Là nơi sản phẩm phần mềm chạy trên đám mây và được người dùng truy cập qua trình duyệt web hoặc ứng dụng di động.
+Là cấp độ trung gian nơi bạn sử dụng các thư viện và khung công tác do nhà cung cấp cung cấp.
+Nhà cung cấp cung cấp các hạ tầng như máy tính, mạng, lưu trữ.
+Nó cung cấp quyền truy cập vào một loạt các chức năng bao gồm SQL và NoSQL.
+
+Thành phần then chốt của hạ tầng đám mây là gì?
+* Hypervisor (Trình quản lý giám sát máy ảo).
+Network (Mạng).
+Server (Máy chủ).
+Storage (Lưu trữ).
+
+Khi một doanh nghiệp di chuyển ứng dụng lên đám mây theo nguyên trạng (giữ nguyên cấu trúc), hành động này được gọi là gì?
+* Rehost (còn gọi là Lift-and-shift).
+Refactor.
+Rearchitect.
+Remove.
+
+Điều gì KHÔNG đúng khi nói về Docker Hub?
+* Nó là một kho lưu trữ hoàn toàn riêng tư (Private).
+Nó cấp quyền truy cập vào các Docker Images.
+Nó là một dịch vụ mạng.
+Nó là một kho lưu trữ mạng.
+
+Mô hình dịch vụ đám mây nào sẽ được sử dụng để thuê phần cứng, năng lượng tính toán và lưu trữ?
+* IaaS.
+SaaS.
+PaaS.
+XaaS.
+
+Công cụ nào sau đây KHÔNG cung cấp các tính năng theo dõi và quản lý chi phí đám mây công cộng?
+* AWS Glue.
+Flexera.
+CloudHealth at VMware.
+Azure Cost Management.
+
+Lựa chọn nào KHÔNG phải là một dịch vụ PaaS?
+* Microsoft Office.
+Azure App Service.
+AWS Elastic Beanstalk.
+Google App Engine.
+
+Vấn đề kỹ thuật nào sau đây KHÔNG thuộc về việc lựa chọn nền tảng đám mây (cloud platform choice)?
+* Rò rỉ thông tin (Information leakage).
+Tải dự kiến và khả năng dự báo tải.
+Khả năng phục hồi (Resilience).
+Các dịch vụ đám mây được hỗ trợ.

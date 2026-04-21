@@ -1,0 +1,263 @@
+Làm thế nào người dùng có thể đăng nhập mà không cần tạo tài khoản mới?
+* Bằng cách sử dụng một tài khoản đã có sẵn (như Google, Facebook - Federated login).
+Bằng cách nhập thông tin cá nhân.
+Bằng cách từ chối chia sẻ thông tin.
+Bằng cách chỉ cung cấp địa chỉ email.
+
+Loại kiểm thử nào được sử dụng để tìm ra các tương tác giữa các tính năng gây ra sự cố?
+* Kiểm thử hệ thống tự động (Automated system testing).
+Kiểm thử hệ thống thủ công.
+Kiểm thử chức năng.
+Kiểm thử hồi quy.
+
+Ai thường là người thực hiện kiểm thử đơn vị (Unit Testing)?
+* Lập trình viên trong quá trình phát triển phần mềm.
+Người dùng cuối.
+CEO của công ty.
+Kiểm thử viên chuyên nghiệp (Tester).
+
+Ba phần của một bài kiểm tra tự động (Automated test) gồm những gì?
+* Sắp xếp, Hành động, Khẳng định (Arrange, Action, Assert).
+Sắp xếp, Điều phối, Khẳng định.
+Chạy, Điều phối, Khẳng định.
+Sắp xếp, Hành động, Điều phối.
+
+Các loại kiểm tra tính năng (Feature testing) bao gồm những gì?
+* Thử nghiệm tương tác và thử nghiệm tính hữu dụng.
+Thử nghiệm tổng thể.
+Thử nghiệm mẫu.
+Thử nghiệm đánh giá.
+
+Các loại thử nghiệm chính liên quan đến các sản phẩm phần mềm là gì?
+* Thử nghiệm chức năng, thử nghiệm người dùng, thử nghiệm tải/hiệu suất và thử nghiệm bảo mật.
+Thử nghiệm chức năng, thử nghiệm người dùng, thử nghiệm tải và hiệu suất.
+Thử nghiệm chức năng, thử nghiệm tải và hiệu suất và thử nghiệm bảo mật.
+Thử nghiệm chức năng và thử nghiệm bảo mật.
+
+Cách tốt nhất để kiểm tra một hệ thống là gì?
+* Bắt đầu với một tập hợp các tình huống (scenarios) mô tả cách sử dụng và chạy lại các kịch bản này mỗi khi có phiên bản mới.
+Đưa ứng dụng cho một người dùng bất kỳ để họ tự mò.
+Chỉ xem lại mã nguồn của hệ thống.
+Cố gắng hack vào hệ thống.
+
+Trong kỹ thuật Phân vùng tương đương (Equivalence Partitioning), có bao nhiêu loại phân vùng thường được xác định?
+* 5 phân vùng (dựa trên tài liệu giảng dạy).
+4 phân vùng.
+7 phân vùng.
+9 phân vùng.
+
+Quy trình kiểm tra chức năng (Functional testing) thường gồm mấy bước chính?
+* 4 bước.
+3 bước.
+2 bước.
+5 bước.
+
+Đâu KHÔNG phải là lợi ích của phát triển dựa trên thử nghiệm (Test-Driven Development - TDD)?
+* Thiết kế mã cầu kỳ với các tính năng phức tạp (TDD ưu tiên mã đơn giản vừa đủ để vượt qua bài test).
+Các bài kiểm tra liên kết rõ ràng với các phần mã nguồn.
+Lập trình viên chỉ viết mã cần thiết để vượt qua bài kiểm tra.
+Có thể hiểu chương trình bằng cách đọc các bài kiểm tra.
+
+Trong "Kim tự tháp thử nghiệm" (Test Pyramid), thứ tự các loại kiểm thử theo chiều TĂNG DẦN chi phí là gì?
+* Kiểm tra đơn vị (Unit), Kiểm tra tính năng (Feature), Kiểm tra hệ thống (System).
+Kiểm tra đơn vị, Kiểm tra hệ thống, Kiểm tra tính năng.
+Kiểm tra tính năng, Kiểm tra đơn vị, Kiểm tra hệ thống.
+Kiểm tra hệ thống, Kiểm tra đơn vị, Kiểm tra tính năng.
+
+Trong "Kim tự tháp thử nghiệm", thứ tự các loại kiểm thử theo chiều TĂNG DẦN mức độ tự động hóa và GIẢM chi phí là gì?
+* Kiểm tra hệ thống, Kiểm tra tính năng, Kiểm tra đơn vị.
+Kiểm tra tính năng, Kiểm tra đơn vị, Kiểm tra hệ thống.
+Kiểm tra đơn vị, Kiểm tra hệ thống, Kiểm tra tính năng.
+Kiểm tra đơn vị, Kiểm tra tính năng, Kiểm tra hệ thống.
+
+Đâu là những nguyên nhân chính gây ra lỗi lập trình?
+* Lỗi lập trình (sai cú pháp/logic) và hiểu sai chi tiết yêu cầu.
+Hiểu đúng vấn đề.
+Hiểu rõ các chức năng.
+Cơ sở dữ liệu rõ ràng.
+
+Trong các công ty nhỏ, ai thường chịu trách nhiệm kiểm thử hệ thống (System testing)?
+* Các nhà phát triển sản phẩm (Product developers).
+Nhóm kiểm thử chuyên nghiệp.
+Bộ phận IT.
+Khách hàng.
+
+Kiểm thử bảo mật (Security testing) nhằm mục đích gì?
+* Tìm ra các lỗ hổng có thể bị khai thác và cung cấp bằng chứng về độ an toàn của hệ thống.
+Để xem cách thức hoạt động của hệ thống bảo mật.
+Phục vụ yêu cầu của khách hàng.
+Đảm bảo sự yên tâm cho khách hàng.
+
+Kiểm thử giá trị biên (Boundary Value Analysis) là gì?
+* Kiểm thử các điều kiện tại biên trên, biên dưới và các điểm ranh giới của các lớp tương đương.
+Giống hệt như các bài kiểm thử phân vùng tương đương.
+Kiểm thử sự kết hợp của tất cả các trường hợp đầu vào.
+Là một chiến lược thuộc kiểm thử hộp trắng hoàn toàn.
+
+Kiểm thử hệ thống (System testing) KHÔNG nên tập trung vào điều gì?
+* Chỉ kiểm tra mã nguồn mà không bao gồm thông lượng, bảo mật và các thuộc tính chất lượng khác.
+Thử nghiệm để xem các tính năng có phối hợp hiệu quả với nhau hay không.
+Thử nghiệm để phát hiện các tương tác bất ngờ giữa các tính năng.
+Thử nghiệm để đảm bảo hệ thống hoạt động đúng trong các môi trường khác nhau.
+
+Kiểm thử hồi quy (Regression Testing) là gì?
+* Là quá trình chạy lại các bài kiểm thử hiện có khi có thay đổi để đảm bảo các thay đổi đó không ảnh hưởng xấu đến chức năng cũ.
+Là quá trình thực thi chương trình bằng cách sử dụng dữ liệu mô phỏng.
+Là quá trình kiểm tra các bài kiểm thử xem chúng có bị lỗi hay không.
+Là quá trình xóa bỏ các bài kiểm thử cũ.
+
+Kiểm thử phần mềm (Software testing) là gì?
+* Là một quá trình thực thi chương trình bằng cách sử dụng dữ liệu mô phỏng đầu vào của người dùng để quan sát hành vi.
+Là quá trình làm bài kiểm tra trên giấy.
+Là kiểm tra bài tập về nhà.
+Là kiểm tra số lượng nhân sự.
+
+Kiểm thử thủ công (Manual testing) có lợi thế gì so với kiểm thử tự động?
+* Có thể phát hiện được các lỗi về trải nghiệm và các lỗi logic phức tạp mà script chưa quét tới.
+Tạo ra kết quả kiểm thử chính xác tuyệt đối hơn.
+Tiết kiệm thời gian hơn cho các dự án lặp lại nhiều lần.
+Đảm bảo tính linh hoạt và đa dạng trong việc khám phá lỗi.
+
+Kiểm thử tự động (Automated testing) có lợi thế gì so với kiểm thử thủ công?
+* Tăng khả năng phát hiện lỗi lặp lại, tiết kiệm thời gian dài hạn và giảm sai sót do con người.
+Luôn luôn rẻ hơn kiểm thử thủ công trong mọi trường hợp.
+Có thể thay thế hoàn toàn tư duy của con người.
+Chỉ dùng để kiểm tra giao diện người dùng.
+
+Kỹ thuật nào dùng để kiểm tra cấu trúc mã nguồn bên trong?
+* Kiểm thử hộp trắng (White box testing).
+Kiểm thử hộp đen.
+Kiểm thử hộp nâu.
+Kiểm thử hộp đỏ.
+
+Mục đích chính của kiểm thử chương trình là gì?
+* Tìm lỗi và chứng minh chương trình thực hiện đúng những gì nhà phát triển mong đợi.
+Để tạo ra mã nguồn chương trình.
+Để làm cho chương trình chạy nhanh hơn.
+Để viết tài liệu thiết kế.
+
+Đâu KHÔNG phải là một mục đích của việc xây dựng mô hình phân tích?
+* Phát triển một giải pháp tóm tắt cho vấn đề.
+Thiết lập nền tảng cho thiết kế phần mềm.
+Mô tả yêu cầu khách hàng.
+Xác định một tập hợp các yêu cầu phần mềm.
+
+Trong Phân vùng tương đương, "Phân vùng 5" có đặc điểm gì?
+* Chia sẻ đặc điểm C4 và C5 nhưng không chia sẻ đặc điểm C3.
+Chia sẻ đặc điểm C4 và C3.
+Chỉ chia sẻ đặc điểm C2.
+Không chia sẻ đặc điểm nào.
+
+Tại sao phải thực hiện thử nghiệm tính năng (Feature testing)?
+* Để chứng minh các tính năng được triển khai đúng kỳ vọng và đáp ứng nhu cầu người dùng.
+Để cho đủ quy trình phát triển.
+Vì dự án nào cũng bắt buộc phải có.
+Để hệ thống dễ bị lỗi hơn.
+
+Bài kiểm tra đơn vị (Unit test) tập trung vào việc kiểm tra những gì?
+* Các trường hợp đặc biệt (special cases) và giá trị biên (edge cases) của đầu vào.
+Hiệu quả sử dụng của phần mềm.
+Tốc độ phản hồi của phần mềm.
+Kiểm tra toàn bộ hệ thống cùng lúc.
+
+Kiểm thử được thực hiện mà không có kế hoạch và tài liệu hướng dẫn được gọi là gì?
+* Kiểm thử tùy biến (Adhoc testing).
+Kiểm thử đơn vị.
+Kiểm thử hồi quy.
+Kiểm thử hộp trắng.
+
+Trong mô hình chữ V (V-Model), thường có bao nhiêu cấp độ xác thực/kiểm thử chính?
+* 4 cấp độ (Unit, Integration, System, Acceptance).
+1 cấp độ.
+3 cấp độ.
+5 cấp độ.
+
+Chu kỳ của kiểm thử chức năng (Functional testing) bao gồm những gì?
+* Kiểm thử đơn vị, Kiểm thử tính năng, Kiểm thử hệ thống, Kiểm thử phát hành (Release testing).
+Kiểm thử đơn vị, Kiểm thử tính năng, Kiểm thử khói (Smoke), Kiểm thử hệ thống.
+Kiểm thử đơn vị, Kiểm thử chấp nhận, Kiểm thử phát hành, Kiểm thử hệ thống.
+Kiểm thử đơn vị, Kiểm thử tính năng, Kiểm thử phát hành.
+
+Bạn có thể suy luận được điều gì nếu một chương trình chạy đúng với một tập hợp đầu vào?
+* Rất có khả năng chương trình cũng sẽ chạy đúng với các đầu vào khác trong cùng phân vùng tương đương đó.
+Rằng chương trình hoàn toàn không có lỗi (bug-free).
+Rằng chương trình rất thân thiện với người dùng.
+Rằng chương trình tuyệt đối an toàn.
+
+Số lượng bài kiểm thử cần thiết phụ thuộc vào yếu tố nào?
+* Kích thước và các chức năng của ứng dụng.
+Hiệu suất của ứng dụng.
+Nhu cầu của người dùng cuối.
+Kích thước của nhóm phát triển.
+
+Điều đó có nghĩa là gì nếu một bài kiểm tra "Pass" (Vượt qua)?
+* Hành vi của chương trình đúng như mong đợi.
+Hành vi của chương trình khác với mong đợi.
+Chương trình tuyệt đối an toàn.
+Chương trình đã hoàn thành 100%.
+
+Hoạt động nào thường được coi là một phần bổ trợ (adjunct) cho bước lập trình?
+* Kiểm thử đơn vị (Unit testing).
+Kiểm thử tích hợp.
+Hoàn tất kiểm thử phát hành.
+Kiểm thử hồi quy.
+
+Đâu KHÔNG phải là một quy trình của kiểm thử chức năng?
+* Kiểm thử bảo mật (Security testing).
+Kiểm thử đơn vị.
+Kiểm thử tính năng.
+Kiểm thử hệ thống.
+
+Hoạt động nào KHÔNG thuộc về quá trình xem xét mã (Code review)?
+* Viết mã (Write code).
+Thiết lập buổi xem xét.
+Chuẩn bị mã nguồn.
+Kiểm tra mã nguồn.
+
+Lựa chọn nào KHÔNG phải là một nguyên tắc (guideline) của kiểm thử đơn vị?
+* Kiểm thử tương tác giữa các thành phần (Interaction tests - Đây là kiểm thử tích hợp).
+Kiểm thử các trường hợp biên (edge cases).
+Ép lỗi (Force errors).
+Lấp đầy các bộ đệm (Fill buffers).
+
+Mục tiêu của kiểm thử chức năng là gì?
+* Phát hiện nhiều lỗi nhất có thể và cung cấp bằng chứng hệ thống phù hợp với mục đích sử dụng.
+Để kiểm tra xem phần mềm có hữu ích với người dùng cuối hay không.
+Để chứng minh thời gian phản hồi của hệ thống là chấp nhận được.
+Để kiểm tra kiến trúc tổng thể.
+
+Mục đích của việc xử lý lỗi (Error handling) trong phát triển phần mềm là gì?
+* Xử lý các tình huống bất ngờ và ngăn chương trình bị sập (crash).
+Để làm cho mã nguồn trông phức tạp hơn.
+Để lờ đi các vấn đề và hy vọng chúng tự biến mất.
+Để làm chậm hiệu suất của phần mềm.
+
+Lỗi hiểu biết (Understanding errors) là gì?
+* Là khi bạn không nhận thức được một số chi tiết về những gì chương trình được yêu cầu phải làm.
+Là khi bạn nhận thức rõ mọi chi tiết của chương trình.
+Là khi bạn không hiểu tổng quan về dự án.
+Là khi bạn hiểu sai về ngôn ngữ lập trình.
+
+Kiểm thử phát hành (Release testing) thường được thực hiện ở đâu?
+* Cả trong môi trường kiểm thử (test environment) và môi trường do khách hàng thiết lập.
+Chỉ trong môi trường vận hành thực tế.
+Chỉ trong môi trường của khách hàng.
+Chỉ trên máy tính của lập trình viên.
+
+Đâu là đặc điểm của Phân vùng tương đương 4 (Equivalence partition 4)?
+* Nơi tất cả đầu vào chia sẻ đặc điểm C4. Một số đầu vào cũng chia sẻ đặc điểm C3 hoặc C5 nhưng không phải cả hai.
+Nơi tất cả đầu vào chia sẻ đặc điểm C4 và C5. Không có đầu vào nào chia sẻ C3.
+Nơi tất cả đầu vào chia sẻ đặc điểm C3 và một số chia sẻ C4.
+Nơi tất cả đầu vào chia sẻ đặc điểm C1 và C2.
+
+Phương pháp nào được sử dụng để thực hiện kiểm thử bảo trì (Maintenance testing)?
+* Kiểm tra theo chiều rộng và chiều sâu (Breadth test and depth test).
+Kiểm tra xác nhận (Confirmation testing).
+Kiểm tra lại (Retesting).
+Kiểm tra sự tỉnh táo (Sanity testing).
+
+Ý nào SAI khi nói về thử nghiệm tương tác (Interaction tests)?
+* Việc tích hợp giúp hệ thống kiểm thử kém hơn do tải thêm nhiều tài nguyên (Thực tế tích hợp giúp phát hiện lỗi tương tác).
+Những hiểu lầm chỉ có thể được tìm thấy khi các đơn vị được tích hợp.
+Chúng kiểm tra sự tương tác giữa các đơn vị triển khai tính năng.
+Việc tích hợp có thể phát hiện lỗi trong các đơn vị mà kiểm thử đơn vị bỏ sót.

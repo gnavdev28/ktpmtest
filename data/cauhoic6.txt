@@ -1,0 +1,215 @@
+1 tin nhắn trong giao tiếp của Microservice bao gồm những nội dung nào?
+* Bao gồm 1 số thông tin quản trị, yêu cầu dịch vụ, dữ liệu cần thiết để cung cấp dịch vụ yêu cầu.
+Bao gồm thông tin quản trị và yêu cầu dịch vụ.
+Bao gồm thông tin quản trị, yêu cầu dịch vụ và thời gian duy trì dịch vụ.
+Chỉ có yêu cầu dịch vụ.
+
+Microservice là gì?
+* Microservices là một cách tiếp cận có cấu trúc và tổ chức để phát triển phần mềm trong đó phần mềm bao gồm các dịch vụ nhỏ độc lập giao tiếp qua các API được xác định rõ. Các dịch vụ này thuộc sở hữu của các nhóm nhỏ, khép kín.
+Các dịch vụ này không thuộc sở hữu của các nhóm nhỏ, không khép kín.
+Microservices là một cách tiếp cận không có cấu trúc và tổ chức để phát triển phần mềm.
+Phần mềm bao gồm các dịch vụ lớn độc lập giao tiếp qua các API chưa được xác định rõ.
+
+Nguyên tắc trách nhiệm duy nhất (Single Responsibility Principle - SRP) là gì?
+* Ý tưởng đằng sau SRP là mọi lớp, mô-đun hoặc chức năng trong chương trình phải có một trách nhiệm/mục đích. Như một định nghĩa thường được sử dụng: "mọi lớp chỉ nên có một lý do để thay đổi".
+Mọi lớp nên có nhiều lý do để có thể thay đổi.
+Tất cả các dịch vụ của lớp đó không cần được định hướng chặt chẽ theo trách nhiệm đó.
+Trong LTHĐT nguyên tắc trách nhiệm duy nhất phát biểu rằng mỗi lớp nên có nhiều trách nhiệm và rằng trách nhiệm đó nên được đóng gói hoàn toàn bởi lớp đó.
+
+Các thành phần của kiến trúc microservice dựa trên nhu cầu của doanh nghiệp gồm những gì?
+* Cả 3 đáp án trên (Khách hàng/nhà cung cấp nhận dạng, Dịch vụ từ xa/cổng API, Nội dung tĩnh/mạng phân phối nội dung).
+Khách hàng, nhà cung cấp nhận dạng.
+Dịch vụ từ xa, cổng API.
+Nội dung tĩnh, mạng phân phối nội dung.
+
+Có các kiểu dịch vụ phần mềm nào?
+* Dịch vụ phần mềm (Software service), dịch vụ web hiện đại (Modern web service), dịch vụ vi mô (Microservices).
+Dịch vụ phần mềm, dịch vụ web hiện đại.
+Dịch vụ web hiện đại, dịch vụ vi mô.
+Dịch vụ phần mềm, dịch vụ vi mô.
+
+Có mấy bước để xác thực bằng mật khẩu UID?
+* 4 bước.
+5 bước.
+3 bước.
+1 bước.
+
+Dịch vụ nào KHÔNG thuộc Kiến trúc microservice cho hệ thống in ảnh?
+* Tải xuống (Download).
+Đăng ký (Registration).
+Xác thực (Authentication).
+Thanh toán (Payment).
+
+5 đặc điểm của microservices là gì?
+* Khép kín (Self-contained), Nhẹ (Lightweight), Triển khai độc lập (Independently deployable), Thực hiện độc lập (Implementation-independent), Định hướng kinh doanh (Business-oriented).
+Mở rộng, nhẹ, thực hiện độc lập, triển khai độc lập.
+Khép kín, nặng, thực hiện độc lập, triển khai độc lập.
+Mở rộng, nhẹ, thực hiện phụ thuộc, triển khai độc lập.
+
+Đặc điểm nào KHÔNG thuộc đặc điểm của microservice?
+* Độ phức tạp cao / Phụ thuộc / Mở rộng (Extend).
+Khép kín (Self-contained).
+Nhẹ (Lightweight).
+Định hướng kinh doanh (Business-oriented).
+
+Các loại lỗi trong hệ thống microservice là gì?
+* Lỗi dịch vụ nội bộ (Internal service failure), Lỗi dịch vụ bên ngoài (External service failure), Lỗi hiệu suất dịch vụ (Service performance failure).
+Lỗi phần cứng.
+Lỗi dịch vụ bên ngoài, Lỗi chất lượng dịch vụ.
+Lỗi dịch vụ nội bộ, Lỗi dịch vụ bên ngoài.
+
+Để xác định các microservices (ví dụ trong hệ thống xác thực), bạn cần phải làm gì?
+* Chia nhỏ các tính năng thô thành các chức năng chi tiết hơn (Break down the coarse-grain features into more detailed functions).
+Sử dụng cơ sở dữ liệu dùng chung trung tâm để lưu giữ thông tin xác thực.
+Triển khai mỗi tính năng như một dịch vụ riêng biệt.
+Đăng ký người dùng.
+
+Điều nào bạn cần tuân thủ khi thiết kế kiến trúc Microservices?
+* Không nên có quá nhiều hàm hay chức năng hỗ trợ xung quanh và định dạng thông báo (messaging) đơn giản.
+Không nên triển khai độc lập thành từng module.
+Không nên tập trung vào 1 nhiệm vụ để triển khai nhanh chóng hơn.
+Không nên xác định và giới hạn các services theo chức năng nghiệp vụ thực tế.
+
+Backing service (Dịch vụ hỗ trợ) áp dụng cho microservices như thế nào?
+* Nó hoạt động như một dịch vụ chuyên dụng cung cấp chức năng thiết yếu mà một microservice yêu cầu.
+Nó ngăn chặn một microservice bị lỗi.
+Nó tắt một microservice khi nó không còn có thể xử lý tải tính toán.
+Nó điều phối hoạt động mạng giữa các microservices.
+
+Truy xuất nguồn gốc phân tán (Distributed tracing) được sử dụng trong microservices như thế nào?
+* Như một cơ chế để quan sát hành vi của các lệnh gọi hệ thống riêng biệt giữa và bên trong các microservices.
+Như một cơ chế để chuyển giao quản lý nhật ký giữa một máy chủ nhất định theo yêu cầu.
+Như một cơ chế để đảm bảo rằng các microservices bị lỗi được phục hồi đúng cách.
+Như một cơ chế để thay đổi hành vi của một microservice trong thời gian chạy.
+
+Khớp nối (Coupling) là gì?
+* Là thước đo số lượng mối quan hệ mà một thành phần có với các thành phần khác trong hệ thống.
+Là bộ phận của máy móc.
+Là thang đo độ hiệu quả.
+Là mức đánh giá.
+
+Một kiến trúc vi dịch vụ (microservice) sẽ tốt nhất cho những ứng dụng nào?
+* Ứng dụng linh hoạt, có khả năng mở rộng và thích ứng đám mây (Cloud-native / Enterprise-level applications).
+Ứng dụng phức tạp.
+Ứng dụng ngẫu nhiên.
+Ứng dụng đơn giản / Ứng dụng điện thoại nhỏ.
+
+Một microservice được thiết kế tốt là như thế nào?
+* Sẽ có tính gắn kết cao và ít khớp nối (High cohesion and low coupling).
+Đơn giản và hiệu quả.
+Có tính gắn kết cao và khớp nối cao.
+Có tính gắn kết thấp và khớp nối thấp.
+
+Sự gắn kết (Cohesion) là gì?
+* Là thước đo số lượng các mối quan hệ mà các bộ phận của một thành phần có với nhau.
+Là thước đo độ chính xác.
+Là thước đo tính đa dụng.
+Là thước đo bảo mật.
+
+Tính "khép kín" (Self-contained) của microservices được thể hiện như thế nào?
+* Microservices không có phụ thuộc bên ngoài. Chúng quản lý dữ liệu của riêng mình và thực hiện giao diện người dùng của riêng mình.
+Microservices cho phép người dùng tự quản lý dữ liệu của riêng họ.
+Dữ liệu được tự động quản lý, tự thực hiện giao diện người dùng.
+Microservices phụ thuộc vào người dùng.
+
+Tính năng nào của hệ thống xác thực được triển khai như một dịch vụ riêng biệt?
+* Xác thực hai yếu tố (Two-factor authentication).
+Xác thực hệ thống.
+Quản lý thông tin người dùng.
+Đặt lại mật khẩu.
+
+Trách nhiệm quan trọng nhất của kiến trúc sư microservices là gì?
+* Quyết định cách cấu trúc hệ thống thành các dịch vụ siêu nhỏ và quyết định cách các dịch vụ siêu nhỏ nên giao tiếp và được phối hợp.
+Cân bằng chức năng chi tiết và hiệu suất hệ thống.
+Tăng hiệu suất hệ thống.
+Tăng tốc độ hệ thống.
+
+Truyền thông dịch vụ trực tiếp (Direct) và gián tiếp (Indirect) khác nhau ở điểm nào?
+* Giao tiếp gián tiếp liên quan đến việc đặt tên cho dịch vụ được yêu cầu và gửi yêu cầu đó đến một nhà môi giới tin nhắn (message broker).
+Các dịch vụ tương tác bằng cách gửi yêu cầu gián tiếp đến các địa chỉ đã biết trước.
+Giao tiếp dịch vụ trực tiếp yêu cầu các dịch vụ tương tác không biết địa chỉ của nhau.
+Giao tiếp gián tiếp liên quan đến việc đặt tên cho dịch vụ được yêu cầu và gửi yêu cầu đó đến địa chỉ được cung cấp.
+
+Tương tác đồng bộ (Synchronous) và không đồng bộ (Asynchronous) khác nhau ở đâu?
+* Sau khi gửi yêu cầu, tương tác đồng bộ sẽ tạm dừng hoạt động (chờ đợi) khi bên nhận được yêu cầu xử lý yêu cầu đó.
+Sau khi gửi yêu cầu, tương tác đồng bộ sẽ không tạm dừng hoạt động khi bên nhận được yêu cầu xử lý yêu cầu đó.
+Sau khi gửi yêu cầu, tương tác đồng bộ sẽ tiếp tục hoạt động song song với bên nhận được yêu cầu xử lý yêu cầu đó.
+Sau khi gửi yêu cầu, tương tác đồng bộ sẽ tiếp tục gửi yêu cầu thêm khi bên nhận được yêu cầu đang xử lý một yêu cầu nào đó.
+
+Các thủ tục và thực tiễn bảo mật hoạt động (Operational security procedures) bao gồm những gì?
+* Tự động đăng xuất (Auto-logout), Ghi nhật ký lệnh người dùng (User command logging), Xác thực đa yếu tố (Multi-factor authentication).
+Ghi nhật ký lệnh người dùng, Xác thực ít yếu tố, Tự động đăng xuất.
+Ghi nhật ký lệnh người dùng, Xác thực ít yếu tố.
+Ghi nhật ký lệnh người dùng, Xác thực đa yếu tố.
+
+Các động từ HTTP (HTTP verbs) nào ánh xạ lên các hoạt động dịch vụ trong REST?
+* GET, POST, PUT, DELETE.
+GET, UPDATE, PUT, POST.
+PUT, POST, UPDATE, DELETE.
+GET, PUT, UPDATE.
+
+Khách hàng có thể có xu hướng làm gì nếu dữ liệu của họ bị xâm phạm (lộ lọt)?
+* Hủy đăng ký / Chấm dứt sử dụng dịch vụ (Cancel their subscriptions).
+Phục hồi sau các cuộc tấn công.
+Dành thời gian và công sức.
+Làm việc trên phần mềm của họ.
+
+Thuật ngữ "ngữ cảnh giới hạn" (bounded context) có ý nghĩa gì liên quan đến microservices?
+* Miền logic (logical domain) được đại diện bởi dữ liệu do một microservice tiêu thụ và phát ra theo mục đích, cấu trúc và ý nghĩa của dữ liệu đó.
+Cách một microservice sử dụng bộ nhớ.
+Khu vực của nhà cung cấp đám mây nơi microservice hoạt động.
+Các đặc điểm chung trong một tập hợp các thực thể trong một hoặc nhiều miền kinh doanh.
+
+Container trong bối cảnh của microservices là gì?
+* Một gói phần mềm chứa tất cả các phụ thuộc (dependencies) cần thiết để một dịch vụ chạy.
+Một máy vật lý chạy một dịch vụ.
+Một máy ảo chạy một dịch vụ.
+Một mạng lưới các dịch vụ giao tiếp với nhau.
+
+Dịch vụ phần mềm (Software Service) là gì?
+* Một thành phần phần mềm có thể được truy cập bằng máy tính qua internet.
+Một tính năng cụ thể của phần mềm mã nguồn mở.
+Một thành phần phần mềm chỉ có thể được truy cập bởi người trong nội bộ.
+Một dịch vụ công cộng từ các tập đoàn lớn (Microsoft, Google, ...).
+
+Lỗi dịch vụ nội bộ (Internal service failure) trong Microservices là gì?
+* Đây là những điều kiện được phát hiện bởi dịch vụ và có thể được báo cáo cho máy khách của dịch vụ bằng một thông báo lỗi.
+Những lỗi này có nguyên nhân bên ngoài, ảnh hưởng đến tính khả dụng của dịch vụ.
+Hiệu suất của dịch vụ suy giảm xuống mức không thể chấp nhận được do tải nặng.
+Sự cố với phương pháp tiếp cận thời gian chờ (timeout) khiến toàn bộ hệ thống bị chậm lại.
+
+Điều gì là ĐÚNG về dịch vụ RESTful (RESTful services)?
+* Máy khách (Clients) và máy chủ (servers) trao đổi các đại diện của tài nguyên bằng cách sử dụng giao diện và giao thức được tiêu chuẩn hóa.
+Các tài nguyên được tác động bằng cách sử dụng một tập hợp các hoạt động phức tạp.
+Kiểu kiến trúc REST không ràng buộc kiến trúc với kiến trúc client/server.
+Không hoạt động tốt nhất trên web.
+
+Phát biểu nào ĐÚNG đối với bảo mật phần mềm (Software security)?
+* Là ưu tiên cao đối với các nhà phát triển sản phẩm và người dùng của họ.
+Là ưu tiên thấp đối với các nhà phát triển sản phẩm và người dùng của họ.
+Là ưu tiên cao đối với nhà phát triển sản phẩm nhưng ưu tiên thấp đối với người dùng.
+Chỉ là ưu tiên cao đối với người dùng.
+
+Đâu KHÔNG phải là một câu hỏi thiết kế chính của kiến trúc Microservices?
+* Làm thế nào để thiết kế kiến trúc Microservices? (Câu hỏi quá chung chung).
+Làm thế nào để các microservices giao tiếp với nhau?
+Làm thế nào để phân phối và chia sẻ dữ liệu?
+Làm thế nào để phát hiện, báo cáo và quản lý lỗi dịch vụ?
+
+Chức năng nào sau đây KHÔNG phải là chức năng quản lý mật khẩu của người dùng?
+* Xóa mật khẩu (Delete password).
+Kiểm tra mật khẩu.
+Thay đổi mật khẩu.
+Khôi phục mật khẩu.
+
+Đâu là một lợi thế (advantage) của microservices?
+* Bất kỳ thành phần microservice nào cũng có thể thay đổi độc lập với các thành phần khác.
+Chúng không đòi hỏi nhiều chuyên môn để lập trình.
+Chúng nhỏ đến mức các nhà phát triển thường có thể viết ra những phần mềm rất mạnh mẽ chỉ bằng vài dòng văn bản.
+Chúng dễ quản lý.
+
+Các dịch vụ nào sau đây KHÔNG hỗ trợ các hoạt động dựa trên container trên nền tảng AWS?
+* Target.
+AWS Cloud Map.
+ECS (Elastic Container Service).
+Amazon EKS (Elastic Kubernetes Service).

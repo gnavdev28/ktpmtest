@@ -1,0 +1,281 @@
+Đâu là KPI quan trọng nhất của DevOps?
+* Thời gian trung bình để phục hồi sự cố (Meantime to failure recovery), tần suất triển khai (deployment frequency).
+Chỉ có thời gian trung bình để phục hồi sự cố.
+Chỉ có tần suất triển khai.
+Khối lượng lỗi (Defect Volume).
+
+Ngăn xếp hạ tầng hệ thống (System infrastructure stack) KHÔNG bao gồm thành phần nào?
+* Ngăn xếp hạ tầng hệ thống (System infrastructure stack).
+Phần cứng (Hardware).
+Ứng dụng (Application).
+Mạng lưới (Network).
+
+... là một công cụ quản lý mã nguồn (source code management tool)?
+* Git.
+Maven.
+Jenkins.
+Hudson.
+
+Ai có thể chịu trách nhiệm thực hiện các thay đổi phần mềm?
+* Nhóm phát triển.
+Nhóm phát hành.
+Nhóm hỗ trợ.
+Nhóm bảo trì.
+
+Bốn loại phép đo có thể được sử dụng trong phát triển phần mềm là gì?
+* Đo lường quy trình, đo lường dịch vụ, đo lường sử dụng, đo lường thành công trong kinh doanh.
+Đo lường dữ liệu, đo lường tính năng, đo lường dịch vụ, đo lường phát triển.
+Đo lường quy trình, đo lường kỹ thuật, đo lường dịch vụ, đo lường sự phát triển.
+Đo lường kỹ thuật, đo lường dữ liệu, đo lường tính năng, đo lường thành công trong kinh doanh.
+
+Các nhóm phát triển phần mềm bao gồm?
+* Phát triển (Development), phát hành (release), hỗ trợ (support).
+Giải phóng, hỗ trợ, tiếp thu.
+Cân bằng, bảo mật, hỗ trợ.
+Tiếp thu, cân bằng, giải phóng.
+
+Các yếu tố dẫn đến sự phát triển và áp dụng rộng rãi DevOps là?
+* Công nghệ phần mềm linh hoạt (Agile), Amazon đã thiết kế lại phần mềm của họ, có thể phát hành phần mềm dưới dạng dịch vụ (SaaS).
+Amazon đã thiết kế lại phần mềm của họ, Google phát triển ra Microsoft.
+Thế giới ngày càng phát triển, ChatGPT ra đời.
+Công nghệ phần mềm linh hoạt, có thể phát hành phần mềm dưới dạng dịch vụ.
+
+Đâu là nguyên tắc cơ bản của quản lý mã (code management)?
+* Lưu trữ và truy xuất phiên bản (Version storage and retrieval).
+Thông tin mã (Code information).
+Trộn mã (Code merging).
+Chuyển giao phiên bản (Version transfer).
+
+Đâu KHÔNG phải là lợi ích của DevOps?
+* Thiết kế mẫu (Design pattern) nhanh hơn.
+Triển khai nhanh hơn (Faster deployment).
+Giảm rủi ro (Reduced risk).
+Sửa lỗi nhanh hơn (Faster repair).
+
+Có bao nhiêu nguyên tắc cơ bản về quản lý mã?
+* 4
+1
+2
+3
+
+Dự án miễn phí thường được phân phối dưới dạng?
+* Mã nguồn mở (Open source)
+Cho thuê
+Dịch vụ
+Mã nguồn đóng
+
+Đâu KHÔNG phải là lợi ích của quản lý mã phân tán (Distributed code management)?
+* Không dễ phục hồi (hoặc Khó khôi phục dữ liệu).
+Khả năng phục hồi (Resilience).
+Tốc độ (Speed).
+Sự linh hoạt (Flexibility).
+
+Đâu KHÔNG thuộc Nguyên tắc DevOps?
+* Đo lường trước, thay đổi sau (Measure first, change later).
+Mọi người đều chịu trách nhiệm về mọi thứ.
+Mọi thứ có thể được tự động hóa thì nên được tự động hóa.
+Tập trung vào khách hàng (Customer-centric action).
+
+Amazon đã cải thiện độ tin cậy của phần mềm bằng cách nào?
+* Bằng cách thiết kế lại phần mềm của họ xoay quanh các dịch vụ (By re-engineering their software around services).
+Bằng cách tạo ra nút thắt (bottleneck) trong quy trình phát hành.
+Bằng cách thuê ngoài (outsourcing) việc phát triển và hỗ trợ.
+Bằng cách phát hành phần mềm trên các phương tiện vật lý.
+
+DevOps giảm thiểu rủi ro bằng cách nào?
+* Phần gia tăng chức năng trong mỗi bản phát hành là nhỏ, do đó ít có khả năng xảy ra lỗi do tương tác tính năng.
+Độ trễ giao tiếp giữa những người tham gia vào quy trình được giảm đáng kể.
+Các nhóm DevOps làm việc cùng nhau để đưa phần mềm hoạt động trở lại càng sớm càng tốt.
+Các nhóm DevOps vui vẻ và làm việc hiệu quả hơn các nhóm hoạt động riêng biệt.
+
+Trong mô hình truyền thống (trước đây), việc bảo trì phần mềm được xử lý như thế nào?
+* Bởi một nhóm bảo trì riêng biệt (A separate maintenance team).
+Bởi nhóm hỗ trợ khách hàng.
+Bởi nhóm phát hành.
+Bởi nhóm phát triển.
+
+Bốn lợi ích quan trọng nhất của DevOps là gì?
+* Triển khai nhanh hơn, giảm rủi ro, sửa chữa lỗi nhanh hơn, các nhóm làm việc hiệu quả hơn.
+Hợp tác tốt hơn, giảm rủi ro, sửa lỗi nhanh hơn, tăng tính linh hoạt.
+Triển khai nhanh hơn, độ tin cậy cao hơn, phân phối liên tục, nhóm hiệu quả hơn.
+Hợp tác tốt hơn, độ tin cậy cao hơn, phân phối liên tục, tăng tính linh hoạt.
+
+Liệt kê các tính năng của hệ thống quản lý mã (code management system)?
+* Nhận dạng phiên bản và phát hành, ghi lại lịch sử thay đổi, phát triển độc lập, hỗ trợ dự án, quản lý không gian lưu trữ.
+Nhận dạng phiên bản và phát hành.
+Ghi lại lịch sử thay đổi, phát triển độc lập, hỗ trợ dự án, quản lý lưu trữ.
+Phát triển độc lập, hỗ trợ dự án, quản lý lưu trữ.
+
+Bốn lợi ích của triển khai liên tục (continuous deployment) là gì?
+* Giảm chi phí, giải quyết vấn đề nhanh hơn, nhận phản hồi từ khách hàng nhanh hơn, thử nghiệm A/B (A/B testing).
+Giảm chi phí, thời gian ra thị trường nhanh hơn, tăng hiệu quả, thử nghiệm A/B.
+Chất lượng tốt hơn, giải quyết vấn đề nhanh hơn, phản hồi nhanh chóng, phản hồi tức thời.
+Chất lượng tốt hơn, thời gian ra thị trường nhanh hơn, tăng hiệu quả, phản hồi tức thời.
+
+Loại đo lường phát triển phần mềm nào sẽ thu thập dữ liệu về cách người dùng sử dụng phần mềm?
+* Đo lường mức độ sử dụng (Usage measurement).
+Đo lường dịch vụ (Service measurement).
+Đo lường quy trình (Process measurement).
+Đo lường thành công trong kinh doanh (Business success measurement).
+
+Mục đích chính của hệ thống quản lý vấn đề (issue tracking system) là gì?
+* Theo dõi các vấn đề và sự cố do nhà phát triển và khách hàng nêu ra và phản hồi của nhóm phát triển đối với các vấn đề đó.
+Theo dõi các vấn đề mà nhà phát triển không quan tâm.
+Theo dõi các vấn đề và tự xử lý, không cần phản hồi.
+Chỉ theo dõi các vấn đề do khách hàng nêu ra.
+
+Nhóm nào trong các nhóm phát triển, phát hành và hỗ trợ chịu trách nhiệm phát hành phần mềm cho khách hàng?
+* Nhóm phát hành.
+Nhóm bảo trì.
+Nhóm hỗ trợ.
+Nhóm phát triển.
+
+Lợi ích của tự động hóa DevOps là gì?
+* Giảm đáng kể thời gian và chi phí cho việc tích hợp, triển khai và phân phối.
+Giảm đáng kể thời gian, nhưng tăng chi phí tích hợp.
+Giảm chi phí tích hợp, tăng thời gian triển khai.
+Tăng thời gian triển khai và phân phối.
+
+Thành phần nào trong Moodle chạy các công việc ngầm như gửi mail, cập nhật báo cáo, RSS feeds...?
+* Cron.
+Track progress.
+Không có thành phần nào như thế.
+Collaborative tool & activity.
+
+Nền tảng đám mây nào KHÔNG được sử dụng phổ biến (trong ngữ cảnh bài học) cho triển khai DevOps?
+* IBM.
+Microsoft Azure.
+Google Cloud.
+Amazon Web Services.
+
+Phong trào DevOps là sự phát triển từ phương pháp luận phần mềm nào?
+* Agile.
+Extreme Programming (XP).
+TDD và MDD.
+Scrum.
+
+Trung tâm tư tưởng của Tổ chức FSF (Free Software Foundation) là:
+* Quyền tự do hợp tác.
+Quyền tự do phân phát.
+Quyền tự do chạy.
+Quyền tự do nghiên cứu.
+
+Các khía cạnh của tự động hóa DevOps (DevOps automation) là gì?
+* Tích hợp liên tục (CI), phân phối liên tục (CD), triển khai liên tục (CDep), cơ sở hạ tầng dưới dạng mã (IaC).
+Chỉ có Tích hợp liên tục và Phân phối liên tục.
+Chỉ có Cơ sở hạ tầng dưới dạng mã (IaC).
+Chỉ có Phân phối liên tục và triển khai liên tục.
+
+Vòng lặp quy trình DevOps (DevOps process loop) bao gồm các bước nào?
+* Lên kế hoạch (Plan), viết mã (code), xây dựng (build), kiểm thử (test), triển khai (deploy), vận hành (operate), giám sát (monitor), lên kế hoạch (plan).
+Lên kế hoạch, xây dựng, phát hành, triển khai, giám sát.
+Viết mã, kiểm thử, triển khai, vận hành, giám sát, lên kế hoạch.
+Xây dựng, kiểm thử, phát hành, giám sát.
+
+Việc thực thi kiểm thử (test execution) phụ thuộc vào điều gì?
+* Các tệp mã đối tượng của chương trình (Program object code files) và Các tệp mã đối tượng kiểm thử (Test object code files).
+Chỉ phụ thuộc vào tệp chức năng.
+Chỉ phụ thuộc vào tệp chương trình.
+Không phụ thuộc vào tệp nào.
+
+Đâu KHÔNG phải là một tính năng cơ bản của quản lý mã?
+* Triển khai nhanh hơn (Faster deployment).
+Chuyển giao mã (Code transfer).
+Lưu trữ và truy xuất phiên bản (Version storage and retrieval).
+Hợp nhất và phân nhánh (Merging and branching).
+
+Khía cạnh 'triển khai liên tục' (continuous deployment) trong tự động hóa DevOps là gì?
+* Một bản phát hành mới của hệ thống được tự động cung cấp cho người dùng mỗi khi có sự thay đổi trên nhánh chính (master branch) của phần mềm.
+Tạo ra một môi trường giả lập để kiểm thử.
+Mỗi khi lập trình viên commit mã, một phiên bản sẽ được kiểm thử (nhưng chưa phát hành).
+Sử dụng các mô hình cơ sở hạ tầng có thể đọc bằng máy.
+
+Phân phối liên tục (Continuous delivery) là gì?
+* Quy trình tích hợp các thay đổi mã vào cơ sở mã (codebase) thường xuyên nhất có thể, để phần mềm luôn trong trạng thái sẵn sàng triển khai.
+Quy trình tối ưu hóa hiệu suất mã nguồn.
+Quy trình kiểm thử trên nhiều nền tảng.
+Quy trình triển khai thẳng lên môi trường thực tế không cần can thiệp.
+
+Tích hợp liên tục (Continuous integration) là gì?
+* Quá trình tích hợp các thay đổi mã vào cơ sở mã (codebase) thường xuyên nhất có thể, để phát hiện và giải quyết xung đột sớm.
+Quá trình kiểm thử trên nhiều nền tảng để đảm bảo khả năng tương thích.
+Quá trình triển khai mã sản xuất càng thường xuyên càng tốt.
+Quá trình tối ưu hóa hiệu suất mã nguồn.
+
+DevOps là gì?
+* Một tập hợp các thực tiễn (practices) để quản lý, triển khai mã và tăng cường sự hợp tác giữa nhóm phát triển và vận hành.
+Một ngôn ngữ lập trình.
+Một công cụ để viết mã.
+Một công ty phần mềm.
+
+Đâu KHÔNG phải là đặc điểm của Cơ sở hạ tầng dưới dạng mã (Infrastructure as code)?
+* Giảm chi phí (Reduced costs) hoặc Tính khả dụng (Usability).
+Tính trực quan (Visibility).
+Khả năng tái tạo (Reproducibility).
+Độ tin cậy (Reliability).
+
+Đâu KHÔNG phải là nguyên tắc của DevOps?
+* Giảm chi phí (Reduce cost).
+Mọi người đều chịu trách nhiệm về mọi thứ.
+Mọi thứ có thể được tự động hóa thì nên được tự động hóa.
+Đo lường trước, thay đổi sau.
+
+Đâu KHÔNG phải là một kỹ năng cốt lõi của nhóm DevOps?
+* Kiểm thử (Testing) (Trong bối cảnh câu hỏi gốc).
+Triển khai (Deployment).
+Hỗ trợ (Support).
+Phát triển (Development).
+
+Tích hợp hệ thống (System integration) là gì?
+* Quá trình tập hợp tất cả các thành phần cần thiết để tạo thành một hệ thống hoạt động hoàn chỉnh.
+Quá trình tập hợp một vài thành phần của hệ thống.
+Quá trình tách rời các hệ thống.
+Quá trình xóa bỏ các thành phần không cần thiết.
+
+Mục đích của việc sử dụng Container (Containerization) trong DevOps là gì?
+* Để giúp việc triển khai mã lên các môi trường khác nhau trở nên dễ dàng và nhất quán hơn.
+Để làm cho mã dễ hiểu hơn.
+Để mã chạy nhanh hơn.
+Để dễ dàng gỡ lỗi (debug) mã.
+
+Yếu tố nào giúp việc phát hành phần mềm dưới dạng dịch vụ (SaaS) trở nên khả thi?
+* Sự sẵn có của điện toán đám mây (Availability of cloud computing).
+Sự ra đời của phương tiện vật lý (CD, USB).
+Sự xuất hiện của tính năng tải xuống.
+Có sẵn đội ngũ hỗ trợ khách hàng.
+
+DevOps giải quyết những vấn đề gì?
+* Tất cả các ý trên (Chu kỳ triển khai dài, Cơ sở hạ tầng dễ hỏng, Ứng dụng kém hiệu quả).
+Chỉ giải quyết chu kỳ triển khai dài.
+Chỉ giải quyết vấn đề cơ sở hạ tầng dễ hỏng.
+Chỉ giải quyết vấn đề ứng dụng lỗi thời.
+
+Loại thông tin nào có thể được lưu trữ và truy xuất từ hệ thống quản lý mã nguồn?
+* Thông tin phiên bản (Version information).
+Bản cập nhật hệ thống (System updates).
+Đầu ra của chương trình (Program output).
+Hồ sơ nhân viên (Employee records).
+
+Nút thắt cổ chai (bottleneck) trong quy trình phát hành truyền thống là gì?
+* Thời gian triển khai (Deployment time).
+Thời gian phát triển (Development time).
+Chi phí phát sinh (Overheads).
+Sự chậm trễ (Delays).
+
+Trách nhiệm của nhóm phát hành (release team) truyền thống là gì?
+* Xây dựng phiên bản phát hành, kiểm thử và chuẩn bị tài liệu phát hành.
+Hỗ trợ phần mềm.
+Phát triển phần mềm.
+Cung cấp hỗ trợ khách hàng.
+
+Nguyên tắc DevOps nào tập trung vào tư duy sản phẩm và dịch vụ?
+* Tạo ra với mục tiêu cuối cùng trong đầu (Create with the end in mind).
+Hành động lấy khách hàng làm trung tâm.
+Cải tiến liên tục.
+Tự động hóa mọi thứ có thể.
+
+Lời giải thích nào mô tả đúng nhất mục tiêu của DevOps?
+* Thiết lập một môi trường nơi việc phát hành các ứng dụng đáng tin cậy hơn có thể diễn ra nhanh hơn và thường xuyên hơn.
+Thiết lập môi trường không cần quản lý sự thay đổi.
+Thiết lập môi trường để lập trình viên tự làm mọi thao tác.
+Thiết lập môi trường ưu tiên tốc độ phát hành hơn là chất lượng sản phẩm.

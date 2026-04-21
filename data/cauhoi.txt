@@ -1,0 +1,611 @@
+Product backlog là gì?
+* Là danh sách công việc "cần làm' được ưu tiên trong phát triển phần mềm.
+Là danh sách các lỗi cần sửa trong quá trình phát triển.
+Là danh sách công việc của từng thành viên trong nhóm phát triển
+Là danh sách các phiên bản phần mềm thử nghiệm.
+
+Đâu là phát biểu đúng về mô hình thác nước (waterfall model)?
+* Giai đoạn sau chỉ được thực hiện tiếp khi giai đoạn trước đã kết thúc.
+Có thể quay lại giai đoạn trước để xử lí các thay đổi trong yêu cầu.
+Có tính linh hoạt cao.
+Áp dụng cho các dự án thường xuyên bị thay đổi về yêu cầu.
+
+Làm thế nào để phát triển sản phẩm dựa trên nhu cầu của khách hàng?
+* Tương tác với khách hàng để hiểu rõ vấn đề họ gặp phải và các tính năng phần mềm mà khách hàng cần.
+Khảo sát dựa vào các chuyên gia thẩm định.
+Dựa vào các sản phẩm khác đã có sẵn để cải thiện.
+Cập nhật liên tục, đưa ra các tính năng mới thường xuyên
+
+Nhiệm vụ của Product Manager là gì?
+Chỉ tham gia vào qúa trình kiểm thử sản phẩm.
+* Làm việc với khách hàng và đội phát triển để làm rõ yêu cầu, lên kế hoạch, thực thi phát triển sản phẩm cho đến khi sản phẩm ra thị trường.
+Chỉ có nhiệm vụ đảm bảo là sản phẩm sẽ được hoàn thành đúng hạn.
+Tập trung vào sự phát triển của sản phẩm nhiều hơn là tiềm năng phát triển của khách hàng.
+
+Khi phát triển một sản phẩm phần mềm, ta nên xây dựng nguyên mẫu khi nào?
+* Khi vừa bắt đầu
+Khi kết thúc quá trình phát triển
+Khi sản phẩm đã được đưa đến tay khách hàng
+Không có đáp án nào đúng
+
+Mô hình phát triển phần mềm xoắn ốc?
+* Bao gồm việc đánh giá những rủi ro phần mềm trong mỗi vòng lặp
+Kết thúc với việc xuất xưởng sản phẩm phần mềm
+Nhiều hỗn độn hơn với mô hình gia tăng
+Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+
+Công dụng chính của Persona là?
+* Giúp người lập trình hiểu được góc nhìn của người người dùng.
+Giúp người lập trình loại bỏ các tính năng không cần thiết.
+Giúp người lập trình tránh phức tạp hóa phần mềm.
+Giúp người lập trình tiết kiệm tài nguyên và chi phí.
+
+Đáp án sai khi nói đến tiêu chí về chất lượng sản phẩm phần mềm là?
+* Không tin cậy và an toàn
+Hiệu quả
+Bảo trì được
+Tính chấp nhận được
+
+Đâu không là độ đo về độ tin cậy của một hệ thống phần mềm?
+* Khả năng chịu tải
+Tính hoàn thiện
+Khả năng chịu lỗi
+Khả năng phục hồi
+
+Có thể định nghĩa kỹ nghệ (engineering) là gì?
+* Là việc sử dụng phối hợp các công nghệ cần thiết để sản xuất ra các sản phẩm của một ngành nào đó.
+Là một cách thức tiến hành một công việc để tạo ra một sản phẩm của một ngành nào đó.
+Dùng các công cụ để tạo ra các sản phẩm nhất định.
+Tập hợp các công nghệ được sắp đặt theo một quy trình nhất định.
+
+Đâu không phải nguyên nhân gây ra khủng hoảng phần mềm?
+* Sự phát triển của phần cứng không theo kịp sự phát triển của phần mềm.
+Nhu cầu phần mềm gia tăng.
+Các yêu cầu đòi hỏi phần mềm có kích thước ngày càng lớn và phức tạp.
+Năng suất của các nhà phát triển tăng trưởng chậm.
+
+Đặc điểm của quy trình phần mềm?
+* Tính hệ thống.
+Tính phức tạp.
+Tính đa hình.
+Tính rời rạc.
+
+Qui trình phát triển phần mềm lần lượt theo các giai đoạn được gọi là gì?
+* Qui trình thác nước.
+Nguyên mẫu tiến hóa
+Quy trình phần mềm thống nhất.
+Agile.
+
+Thứ tự đúng các giai đoạn của phần mềm là gì?
+* Thu tập và phân tích yêu cầu - Thiết kế - Viết mã - Xác minh và xác thực mã - Duy trì và bảo trì.
+Thiết kế - Viết mã - Xác minh và xác thực mã và bảo trì.
+Kỹ thuật yêu cầu - Thiết kế - Viết mã - Duy trì và bảo trì.
+Thiết kế - Viết mã - Xác minh và xác thực - Duy trì và bảo trì.
+
+Câu nào sau đây đúng khi nói về ngôn ngữ lập trình bậc cao?
+Máy tính có thể trực tiếp hiểu được.
+Được viết dưới dạng mã nhị phân hoặc hexa.
+* Là ngôn ngữ gần với ngôn ngữ tự nhiên, có tính độc lập cao, ít phụ thuộc vào loại máy.
+Không cần chương trình dịch.
+
+Đâu là giai đoạn cuối cùng của các phương pháp phát triển phần mềm truyền thống?
+Thiết kế.
+Yêu cầu thiết kế.
+Viết code.
+* Bảo trì.
+
+Yêu cầu phần mềm có thể chia ra thành các lọai nào sau đây?
+Chức năng, phi chức năng, yêu cầu hệ thống.
+* Chức năng, phi chức năng.
+Chức năng, phi chức năng, yêu cầu miền ứng dụng.
+Chức năng, phi chức năng, yêu cầu nghiệp vụ.
+
+Trong các giai đoạn phát triển phần mềm giai đoạn nào tiêu tốn nhiều chi phí nhất?
+Thiết kế.
+Tạo phần mềm.
+Thử nghiệm.
+* Duy trì.
+
+Đâu không phải là một bước của kỹ thuật yêu cầu?
+Khơi gợi.
+* Thiết kế.
+Phân tích.
+Viết tài liệu.
+
+Đâu là kết quả của giai đoạn kỹ thuật yêu cầu?
+Bản ước tính chi phí dự án.
+Lược đồ use case và các lược đồ khác.
+* Tài liệu đặc tả yêu cầu phần mềm.
+Tài liệu mô tả phần mềm.
+
+Điều nào sau đây không được xác định trong tài liệu đặc tả yêu cầu phần mềm tốt?
+Yêu cầu về chức năng.
+Yêu cầu không chức năng.
+* Thuật toán để thực hiện phần mềm.
+Mục tiêu thực hiện.
+
+Đâu là ý đúng về thiết kế phần mềm?
+Thiết kế phần mềm là công việc đầu tiên cần thực hiện.
+* Thiết kế phần mềm là công việc mà những yêu cầu về phần mềm được phân tích để miêu tả cấu trúc nội bộ và cách tổ chức của hệ thống.
+Để thiết kế chúng ta cần phác thảo những bước mà chúng ta định lập trình.
+Cả 4 đáp án đều đúng.
+
+Mục đích của thiết kế phần mềm?
+Duy trì phần mềm.
+Tạo ra giao diện phần mềm.
+* Mô tả cấu trúc, tổ chức của phần mềm.
+Phát triển phần mềm.
+
+Đâu không phải nguyên tắc trong lập trình phần mềm?
+Giảm độ phức tạp.
+Dự đoán sự đa dạng.
+Cấu trúc để xác nhận (dễ kiểm thử).
+* Viết ít dòng lệnh.
+
+Đâu là một trong những đặc điểm của Git?
+* Nguồn mở.
+Nguồn đóng.
+Không gian lưu trữ nhỏ.
+Khó kiểm soát.
+
+Mục đích của (Version Control System – VCS) là gì?
+Để tăng tính bảo mật cho phần mềm.
+Để chuyển giao phần mềm cho nhiều người.
+* Lưu trữ các phiên bản của phần mềm và cho phép nhiều người cùng tham gia dự án.
+Để nâng cấp phần mềm.
+
+Người dùng hệ thống quản lý phiên bản (Version Control System – VCS) không thể làm gì?
+Chia sẻ tài liệu.
+Phục hồi sau khi xóa ngẫu nhiên.
+Lưu trữ các phiên bản.
+* Tích hợp thêm các công cụ không có sẵn.
+
+Đâu không phải là lợi ích của việc dùng (Version Control System – VCS)?
+Lưu trữ các phiên bản của phần mềm trong quá trình phát triển.
+Hỗ trợ hợp tác phát triển phần mềm từ xa.
+Cho phép phục hồi lại các phiên bản cũ hơn.
+* Để chia sẻ những file thực thi (executable file).
+
+Hoạt động không thể thực hiện được thông qua hệ thống kiểm soát phiên bản (Version Control System – VCS)?
+Thêm 1 tập tin mới vào kho lưu trữ và có thể cho những người khác có quyền truy cập vào kho lưu trữ.
+* Chạy chương trình trực tiếp bằng (Version Control System – VCS).
+Sửa nội dung tập tin đã có ở kho lưu trữ và hiển thị cho người dùng khác những thay đổi đó.
+Cập nhật một tập tin từ kho lưu trữ về máy tính khi có người khác thay đổi tập tin đó.
+
+Câu trả lời nào sau đây miêu tả đúng về Git?
+Chỉ có kho lưu trữ cục bộ, file sẽ được chuyển tới các cộng sự thông qua địa chỉ IP.
+Chỉ có kho lưu trữ trung tâm, đây là nơi lưu trữ mọi phiên bản làm việc.
+Có cả kho lưu trữ trung tâm và kho lưu trữ cục bộ, mọi phiên bản lưu trữ trên kho lưu trữ trung tâm.
+* Có cả kho lưu trữ trung tâm và kho lưu trữ cục bộ.
+
+Có thể phân loại yêu cầu phần mềm thành gì?
+Yêu cầu chức năng, yêu cầu phi chức năng.
+* Yêu cầu chức năng, yêu cầu phi chức năng, yêu cầu các miền lĩnh vực.
+Yêu cầu chức năng, yêu cầu các miền lĩnh vực.
+Yêu cầu các miền lĩnh vực và các yêu cầu của người dùng.
+
+Tại sao kĩ thuật yêu cầu lại rất quan trọng?
+* Rất nhiều lỗi xảy ra do kĩ thuật yêu cầu không đúng cách, gây ra tăng thời gian và chi phí phát triển phần mềm.
+Vì rất khó để xác định rõ các yêu cầu kỹ thuật.
+Các yêu cầu kĩ thuật dễ gây nhầm lẫn cho người lập trình, dẫn đến đi sai hướng.
+Vì cần nhiều nhân lực có trình độ cao cùng xác định các yêu cầu kỹ thuật.
+
+Làm thế nào để đánh giá chất lượng phần mềm?
+Dựa vào hoạt động tốt của phần mềm.
+Dựa vào mục đích sử dụng.
+* Dựa vào cả mục đích sử dụng của phần mềm và hoạt động ổn định của phần mềm.
+Không có đáp án nào ở trên là đúng.
+
+Chất lượng phần mềm là gì?
+* Là khả năng đáp ứng toàn diện yêu cầu của người dùng về tính năng cũng như công dụng được nêu ra một cách tường minh hoặc không tường minh trong những ngữ cảnh xác định.
+Là khả năng đáp ứng toàn diện nhu cầu của người dùng về tính năng được nêu ra một cách tường minh hoặc không tường minh trong những ngữ cảnh xác định.
+Là khả năng đáp ứng toàn diện nhu cầu của người dùng về công dụng được nêu ra một cách tường minh hoặc không tường minh trong những ngữ cảnh xác định.
+Là khả năng đáp ứng không toàn diện nhu cầu của người dùng về tính năng cũng như công dụng được nêu ra một cách tường minh hoặc không tường minh trong những ngữ cảnh xác định.
+
+UML là gì?
+Một chương trình thống nhất.
+* Một ngôn ngữ mô hình hóa thống nhất.
+Phần mềm của nhà phát triển nào đó.
+Quy trình hệ thống thống nhất.
+
+Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm?
+* Chức năng và hành vi.
+Cấu trúc dữ liệu.
+Kiến trúc và cấu trúc.
+Tính tin cậy và tính sử dụng.
+
+Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm?
+* Chức năng và hành vi.
+Cấu trúc dữ liệu.
+Kiến trúc và cấu trúc.
+Tính tin cậy và tính sử dụng.
+
+Mục nào không là một phần của kiến trúc phần mềm?
+* Chi tiết giải thuật.
+Cơ sở dữ liệu.
+Thiết kế dữ liệu.
+Cấu trúc chương trình.
+
+Chọn câu trả lời đúng?
+Kiến trúc phần mềm viết tắt là SE.
+* Kiến trúc phần mềm là tập hợp các quyết định thiết kế chính về hệ thống.
+Kiến trúc phần mềm chính là 1 hệ thống.
+Kiến trúc phần mềm là bản vẽ sơ đồ của 1 phần mềm.
+
+Yếu tố nào không phải là yếu tố chính của kiến trúc phần mềm?
+Yếu tố tương tác.
+Yếu tố dữ liệu.
+* Yếu tố thẩm mỹ.
+Yếu tố xử lý.
+
+Kết nối phần mềm là gì?
+* Là khối kiến trúc được giao nhiệm vụ thực hiện tương tác giữa các thành phần.
+Là sự kết hợp giữa các Class.
+Là sự kết hợp giữa các package.
+Tất cả đều sai.
+
+Đâu không phải là kiểu kiến trúc phần mềm?
+Đường ống và bộ lọc.
+Máy chủ - máy khách.
+Xuất bản - đăng ký.
+* Tập trung - phân tán.
+
+Để xây dựng phần mềm thành công cần có những yếu tố nào?
+Có kiến trúc hiệu quả.
+Hiểu biết rõ về lĩnh vực và vấn đề.
+Kết hợp các giải pháp hiện có một cách thích hợp.
+* Tất cả các phương án.
+
+Độ lớn trong phân tích yêu cầu là?
+Là số lượng người làm việc với phần mềm.
+* Là số lượng các nghiệp vụ hệ thống phải tiến hành trong một chu kì nào đó.
+Là số lượng máy tính chạy phần mềm.
+Là số lượng dữ liệu phát sinh trong một chu kỳ nào đó.
+
+Điều đầu tiên cần làm khi nhận được một danh sách các yêu cầu từ khách hàng là gì?
+Gộp các yêu cầu có đặc điểm chung để giảm bớt số lượng yêu cầu.
+* Tạo danh sách các đối tượng và thuộc tính của nó bằng việc thu thập các danh từ.
+Xây dựng một nguyên mẫu phần mềm từ danh sách các yêu cầu.
+Bổ sung thêm những hoạt động, liên kết cần thiết giữa các yêu cầu.
+
+Kết quả của giai đoạn thu thập yêu cầu là gì?
+Bảng ước tính chi phí dự án.
+* Tài liệu đặc tả yêu cầu phần mềm.
+Lược đồ ngữ cảnh.
+Lược đồ Use case và các lược đồ khác.
+
+Có thể dễ dàng tìm ra được các phương thức của lớp thông qua gì?
+* Động từ trong văn bản mô tả.
+Tính từ trong văn bản mô tả.
+Danh từ trong văn bản mô tả.
+Trạng từ trong văn bản mô tả.
+
+Việc tinh chỉnh sơ đồ lớp có thực sự cần thiết ko?
+Không cần thiết.
+Không nên làm vì sẽ làm mất một thuộc tính.
+* Có nên làm.
+Không được đề cập.
+
+Khi nào thì nên tinh chỉnh sơ đồ lớp?
+Khi đã hoàn thiện sơ đồ lớp.
+Khi hoàn thiện mỗi lớp.
+* Trong quá trình xây dựng sơ đồ lớp.
+Khi bắt đầu quá trình cài đặt phần mềm.
+
+Ta có thể thể hiện mối quan hệ đồng cấp giữa các lớp như thế nào?
+* Đường nét liền.
+Đường nét đứt.
+Mũi tên hướng về một lớp.
+Hình tròn chứa các lớp.
+
+Một đặc trưng của thiết kế tốt là gì?
+Cho thấy sự liên kết mạnh giữa các module.
+* Thực hiện tất cả yêu cầu trong phân tích.
+Bao gồm những ca kiểm thử cho tất cả thành phần.
+Kết hợp mã nguồn nhằm mục đích mô tả.
+
+Các mẫu thiết kế có tác dụng gì?
+Giúp chúng ta không cần thiết kế.
+Thiết kế chung cho tất cả các phần mềm.
+* Đưa cho chúng ta các giải pháp thiết kế phổ biến để tham khảo.
+Giúp chúng ta thiết kế tự động.
+
+Khi nghiên cứu về kiểm thử phần mềm người ta đã chỉ ra rằng trung bình 1000 dòng mã nguồn có khoảng bao nhiêu lỗi?
+Thường không có lỗi.
+* 1 - 5 lỗi.
+Từ 100 - 200 lỗi.
+Vô số lỗi.
+
+Xây dựng 1 phần mềm lớn chính xác 100% là điều như thế nào?
+Có thể.
+* Không thể.
+Tuỳ thuộc.
+Luôn luôn.
+
+Thuật ngữ fault trong công nghệ phần mềm là gì?
+* Là phần không chính xác của mã nguồn.
+Là hành vi không chính xác có thể quan sát được của phần mềm.
+Là lỗi của con người.
+Không có đáp án đúng.
+
+Fault là gì?
+* Là một phần không chính xác của đoạn mã.
+Là nguyên nhân của 1 lỗi.
+Là hành vi không chính xác của phần mềm có thể quan sát được.
+Là sự không thành công trong việc xác định ý tưởng.
+
+Thuật ngữ nào không nói về lỗi trong kiểm thử phần mềm?
+Failure.
+Fault.
+* Mistake.
+Error.
+
+Thuật ngữ Error trong xác minh phần mềm là?
+Là một hành vi không chính xác có thể quan sát được của phần mềm.
+Là phần không chính xác của mã nguồn.
+* Là nguyên nhân của lỗi (Bug).
+Là một hành vi không chính xác không thể quan sát được của phần mềm.
+
+Đâu không phải là phương pháp xác minh?
+Testing.
+Static Verification.
+Inspections.
+* Modify.
+
+Cách xác minh lỗi nào là hoàn hảo nhất?
+Thử nghiệm và xác minh tĩnh.
+Kiểm tra.
+Chứng minh sự đúng đắn.
+* Không có cái nào không có nhược điểm cả.
+
+Kiểm thử mà xem phần mềm như 1 hộp kín là kỹ thuật kiểm thử nào?
+* Kiểm thử hộp đen.
+Kiểm thử hộp trắng.
+Cả 2 đáp án đều đúng.
+Cả 2 đáp án đều sai.
+
+Mục tiêu đầu tiên của quá trình kiểm thử là gì?
+* Ngăn ngừa lỗi.
+Kiểm tra.
+Thực thi.
+Phân tích.
+
+Đâu không phải là đặc điểm của kiểm thử hộp đen?
+Tập trung vào phần chính.
+Bắt được những lỗi logic.
+Áp dụng được ở tất cả các cấp độ chi tiết.
+* Cần phải có mã nguồn.
+
+Đặc điểm nào dưới đây không phải của Kiểm thử hộp đen:
+Kiểm thử hộp đen không cần quan tâm tới cấu trúc và hoạt động bên trong của phần mềm.
+Kiểm thử hộp đen còn được gọi là kiểm thử chức năng.
+Cơ sở cho việc kiểm thử hộp đen chính là đặc tả chức năng của phần mềm và dữ liệu mà nó sử dụng.
+* Kiểm thử hộp đen là việc kiểm tra các đoạn mã chương trình xem có vận hạnh đúng hay khong.
+
+Bước đầu tiên trong quy trình xây dựng các ca kiểm thử khi kiểm thử theo phương pháp hộp đen là gì?
+Vẽ biểu đồ ca sử dụng của hệ thống.
+Xác định đầu vào.
+* Tìm những tính năng có thể kiểm thử độc lập.
+Xác định được miền đầu ra.
+
+Tại sao chúng ta không kiểm thử ngẫu nhiên?
+Tốn rất nhiều thời gian.
+Cho kết quả chính xác.
+Không đủ dữ liệu.
+* Không đảm bảo tính đúng đắn, phụ thuộc may rủi.
+
+Ý tưởng cơ bản của kiểm thử giá trị biên là gì?
+* Lỗi thường xảy ra ở ranh giới miền.
+Lỗi thường xảy ra ở trung tâm miền.
+Lỗi thường xảy ra ở điểm mù của miền.
+Cả 3 đáp án trên đều sai.
+
+Tại sao nên kiểm thử giá trị biên?
+Vì thói quen.
+* Vì các lỗi thường có xu hướng xảy ra tại giá trị biên.
+Vì giá trị biên hữu hạn.
+Vì dễ chọn.
+
+Đâu không phải là đặc điểm của máy hữu hạn trạng thái?
+* Máy hữu hạn trạng thái tại mỗi thời điểm máy có thể ở nhiều trạng thái.
+Tại mỗi trạng thái, chỉ có thể chuyển qua những trạng thái được cho phép.
+Từ trạng thái hiện tại, có thể biết được những trạng thái kế tiếp mà máy có thể chuyển qua.
+Máy hữu hạn trạng thái mô tả các trạng thái, sự kiện và quá trình chuyển đổi giữa các trạng thái, nó có thể được sử dụng để quản lý trạng thái của object, hoặc workflow.
+
+Đâu là lợi ích của kiểm thử hộp trắng?
+Có thể đánh giá một cách khách quan và tự động.
+Có thể sử dụng để so sánh các bộ thử nghiệm.
+Cho phép bao trùm hành vi được mã hóa.
+* Cả 3 đáp án trên đều đúng.
+
+Lợi ích của kiểm thử hộp trắng là gì?
+Có thể đo lường khách quan.
+Có thể được đo tự động bằng các tools.
+Cho phép bao trùm hành vi được mã hóa của phần mềm.
+* Tất cả các ý trên.
+
+Các tiêu chuẩn bao phủ được xác định bằng?
+* Yêu cầu của thử nghiệm.
+Số dòng lệnh.
+Tốc độ phần mềm.
+Phần mềm bắt mắt.
+
+Trong thực tế người ta sử dụng kiểu bao phủ nào trong các kiểu sau?
+* Bao phủ dòng lệnh.
+Bao phủ đột biến.
+Bao phủ đa điều kiện.
+Bao phủ đường đi.
+
+Điều nào sau đây không đúng về kiêm thử hộp trắng?
+Làm việc trên 1 mô hình chính thức.
+* Kiểm thử hộp trắng còn được gọi là kiểm thử cấu trúc, kiểm thử logic.
+Số đường đi luôn là giới hạn.
+Không thích hợp cho kiểm thử hệ thống và tích hợp.
+
+Chọn phát biểu đúng nhất trong các phát biểu sau?
+* Hộp đen là chức năng; hộp trắng là cấu trúc.
+Hộp đen là chức năng; hộp trắng là phi chức năng.
+Hộp đen có chiều rộng lớn hơn hộp trắng.
+Hộp đen có chiều rộng lớn hơn hộp trắng.
+
+Loại kiểm thử nào sử dụng đặc tả yêu cầu để sinh các ca kiểm thử?
+* Kiểm thử hộp đen.
+Kiểm thử hộp trắng.
+Kiểm thử hộp xám.
+Kiểm thử chấp nhận.
+
+Chọn phát biểu đúng nhất trong các phát biểu sau?
+* Cả kiểm thử hộp đen và hộp trắng đều cần thiết và không thay thế cho nhau.
+Kiểm thử hộp đen có khả năng phát hiện lỗi tốt hơn kiểm thử hộp trắng.
+Kiểm thử hộp trắng có khả năng phát hiện lỗi tốt hơn kiểm thử hộp đen.
+Chỉ cần một trong hai (kiểm thử hộp trắng hoặc kiểm thử hộp đen) là đủ.
+
+Trong các giai đoạn dưới đây giai đoạn nào là giai đoạn nếu phát hiện ra lỗi thì chi phí sửa chữa là nhỏ nhất?
+Giai đoạn thiết kế.
+* Giai đoạn làm yêu cầu .
+Giai đoạn thực hiện.
+Chi phí để sửa chữa ở các giai đoạn là như nhau.
+
+Đâu không phải nguyên tắc của phát triển phần mềm linh hoạt (agile)?
+Tập trung vào mã thay vì thiết kế của chương trình.
+Liên tiếp sử dụng phương pháp lặp và cải tiến chương trình thông qua các phản hồi từ nhiều nguồn, trong đó có khách hàng.
+Thích ứng nhanh với các yêu cầu sẽ bị thay đổi.
+* Đặc biệt bám sát kế hoạch đề ra để vận hành theo một cách thống nhất và trơn tru.
+
+Theo phương pháp linh hoạt (agile), ta cần làm như thế nào?
+Viết mã nguồn càng dài càng tốt.
+Viết mã nguồn càng ngắn càng tốt.
+Viết mã nguồn càng đơn giản càng tốt.
+* Viết mã nguồn càng đơn giản, ngắn gọn càng tốt.
+
+Ý kiến nào không đúng về lập trình cực đoan?
+Lập trình cực đoan viết tắt là XP.
+Lập trình cực đoan là 1 phương pháp nhẹ phù hợp cho các nhóm vừa và nhỏ.
+Lập trình cực đoan được tạo ra năm 2001.
+* Lập trình cực đoan được tạo ra bởi 15 người.
+
+Đâu không phải là một trong những bước của tích hợp liên tục?
+Lập trình.
+Thực hiện bài kiểm tra.
+Kiểm tra hệ thống.
+* Thiết kế lại toàn bộ cấu trúc chương trình.
+
+Chọn câu trả lời đúng về lập trình cực đoan (XP)?
+Do lập trình cặp, XP yêu cầu gấp đôi số lượng nhà phát triển.
+Trong XP, mã lệnh hiếm khi được thay đổi sau khi được viết.
+* XP tuân theo mô hình phát triển theo hướng kiểm tra (TDD).
+Khách hàng không cần cung cấp bất kỳ yêu cầu nào trong XP.
+
+Trong các quy trình sau đâu không phải quy trình phát triển phần mềm linh hoạt?
+Lập trình cực đoan.
+Scrum.
+* Thác nước.
+Kanban.
+
+Mục đích của tái cấu trúc là gì?
+Thêm chức năng mới.
+* Cải tiến chương trình cũ.
+Thay đổi chương trình.
+Sửa lỗi chương trình.
+
+Đâu không phải lý do khiến ta cần phải tái cấu trúc?
+Yêu cầu của phần mềm thay đổi.
+Thiết kế cần được cải thiện.
+Sự cẩu thả và lười biếng của lập trình viên.
+* Phần mềm nhìn chưa đẹp mắt.
+
+Đâu không phải lý do dẫn đến yêu cầu tái cấu trúc (refactor)?
+Các yêu cầu luôn thay đổi khiến cấu trúc mã của chúng ta phải thay đổi theo.
+Các thiết kế luôn cần được cải thiện.
+Mã nguồn cần được tái sử dụng.
+* Nếu không chương trình sẽ chạy chậm.
+
+Tái cấu trúc tách lớp dùng khi nào?
+* Khi một lớp có vai trò tương đương hai lớp.
+Khi có hai lớp giống nhau.
+Khi cần rút gọn mã nguồn.
+Khi có nhiều yêu cầu mới.
+
+Đâu không phải là lưu ý khi tái cấu trúc?
+Chạy kiểm thử mỗi khi sửa gì đó.
+Chỉ nên tái cấu trúc khi cần thiết.
+* Tái cấu trúc bất cứ khi nào có thể.
+Cẩn thận với những hệ thống sản xuất.
+
+Che giấu thông tin là gì?
+Không cho khách hàng nhìn thấy.
+Không cho lập trình viên nhìn thấy.
+* Không cho đối tượng khác sử dụng.
+Không cho lập trình viên sử dụng.
+
+Một trong những lợi ích của hướng đối tượng là gì?
+Giúp lập trình viên hiểu rõ đặc điểm các đối tượng trên thực tế.
+Giúp khách hàng hiểu quá trình làm việc của lập trình viên.
+Giúp các lập trình viên làm việc với nhau hiệu quả hơn.
+* Giúp lập trình viên cải thiện quá trình phát triển bằng cách tái sử dụng các thiết kế.
+
+Đặc điểm của tên lớp trong hướng đối tượng thường là?
+Tên lớp thường là động từ.
+* Tên lớp thường là danh từ.
+Tên lớp thường là tính từ.
+Tên lớp thường là trạng từ.
+
+Bằng cách gạch chân các danh từ trong tài liệu mô tả, ta có thể xác định được gì?
+Các phương thức của lớp.
+Các thuộc tính của lớp.
+* Tên của các lớp.
+Không các định được gì.
+
+Phân tích hướng đối tượng chủ yếu quan tâm tới điều gì?
+Chức năng.
+* Dữ liệu đối tượng.
+Thời hạn sử dụng dự tính của chương trình.
+Dữ liệu lớn nhất mà chương trình có thể truy cập tại 1 thời điểm.
+
+Đâu không phải là một yếu tố chính của một mẫu thiết kế?
+Tên.
+Mục tiêu.
+Khả năng ứng dụng.
+* Ngày được làm ra.
+
+Định dạng mẫu thiết kế gồm?
+* Tên, mục tiêu mô hình, khả năng ứng dụng, cấu trúc, mã mẫu.
+Tên, khả năng ứng dụng, cấu trúc.
+Tên, cấu trúc, mã mẫu.
+Tên, đối tượng, khả năng ứng dụng, các gói.
+
+Điều nào đúng về mẫu chiến lược?
+* Cho phép chuyển đổi giữa các thuật toán để hoàn thành nhiệm vụ.
+Cho phép chuyển đổi giữa các package.
+Cho phép chuyển đổi giữa các đối tượng.
+Cho phép chuyển đổi giữa các nền tảng.
+
+Mẫu chiến lược (Strategy) là gì?
+* Một mẫu giúp định nghĩa và bao bọc các thuật toán có cùng mục đích trong những lớp có giao diện chung.
+Mẫu cung cấp một giải pháp để tạo ra các object và che giấu được logic của việc tạo ra nó, thay vì tạo ra object một cách trực tiếp bằng cách sử dụng method new.
+Mẫu giúp thiết lập, định nghĩa quan hệ giữa các đối tượng.
+Mẫu giúp thực hiện các hành vi của đối tượng, sự giao tiếp giữa các object với nhau.
+
+Đâu không phải là tên một mẫu thiết kế?
+Visitor.
+Observer.
+Decorator.
+* Pacifier.
+
+Làm thế nào để lựa chọn một mẫu thiết kế phù hợp?
+Hiểu bối cảnh thiết kế của bạn.
+Kiểm tra danh mục các mẫu thiết kế.
+Xác định và nghiên cứu các mẫu liên quan.
+* Cả 3 đáp án trên đều đúng.
+
+Điều tiên quyết cần làm để sử dụng mẫu thiết kế là gì?
+Biết nhiều mẫu thiết kế.
+Hiểu rõ mẫu thiết kế hoạt động như thế nào.
+Tìm được mẫu thiết kế phù hợp.
+* Hiểu rõ được bối cảnh thiết kế của dự án.
+
+RUP là gì?
+* Là một mô hình quy trình phần mềm.
+Là một công ty phần mềm.
+Là một công nghệ phát triển phần mềm.
+Là tên một lập trình viên.
