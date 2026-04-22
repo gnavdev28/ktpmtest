@@ -438,8 +438,8 @@ Bao phủ đường đi.
 
 Điều nào sau đây không đúng về kiêm thử hộp trắng?
 Làm việc trên 1 mô hình chính thức.
-* Kiểm thử hộp trắng còn được gọi là kiểm thử cấu trúc, kiểm thử logic.
-Số đường đi luôn là giới hạn.
+Kiểm thử hộp trắng còn được gọi là kiểm thử cấu trúc, kiểm thử logic.
+* Số đường đi luôn là giới hạn.
 Không thích hợp cho kiểm thử hệ thống và tích hợp.
 
 Chọn phát biểu đúng nhất trong các phát biểu sau?
