@@ -1,203 +1,275 @@
-Một User Story (Câu chuyện người dùng) lớn được gọi là gì?
-* Epic.
-Backlog.
-Large story.
-Theme.
+Lợi ích của kiến trúc bảo mật tập trung (Centralize security architecture) là gì?
+* Dễ dàng thiết kế, truy cập và bảo vệ thông tin hiệu quả hơn.
+Tiết kiệm ngân sách.
+Bảo vệ thông tin.
+Giám sát các truy cập vào cơ sở dữ liệu.
 
-Các đặc điểm quan trọng nhất của tính năng phần mềm là gì?
-* Tính độc lập, tính mạch lạc và tính phù hợp.
-Tính linh hoạt và tính hiệu quả.
-Tính phù hợp, tính trải nghiệm.
-Tính mạch lạc, tính năng nâng cao và tính độc lập.
+Các vấn đề ảnh hưởng đến quyết định kiến trúc là gì?
+* Đặc điểm phi chức năng (Non-functional); Sự tương thích phần mềm; Số lượng người dùng; Tái sử dụng sản phẩm; Vòng đời sản phẩm.
+Đối tượng sử dụng; Phần mềm có thiết thực không; Giá trị mang lại.
+Chi phí sản phẩm; Nhà phát triển sản phẩm.
+Người dùng yêu cầu; Mục đích thiết kế sản phẩm.
 
-Câu chuyện người dùng (User Story) là gì?
-* Là một tường thuật chi tiết, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ một hệ thống phần mềm.
-Là một tường thuật gián tiếp, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
-Là một tường thuật trực tiếp, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
-Là một tường thuật chi tiết, theo cách có tổ chức, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
+Các vấn đề cần xem xét trong lựa chọn kiến trúc (Architectural design issues) là gì?
+* Kiểu dữ liệu và cập nhật dữ liệu, Tần suất thay đổi dữ liệu, Nền tảng thực thi hệ thống.
+Kiểu dữ liệu về cập nhật dữ liệu.
+Thay đổi dữ liệu.
+Nền tảng thực thi hệ thống.
 
-Công dụng chính của Persona (Chân dung người dùng) là gì?
-* Giúp người lập trình hiểu được góc nhìn của người dùng.
-Giúp người lập trình loại bỏ các tính năng không cần thiết.
-Giúp người lập trình tránh phức tạp hóa phần mềm.
-Giúp người lập trình tiết kiệm tài nguyên và chi phí.
+Chọn ý SAI nói về ngôn ngữ XML:
+* Tất cả dữ liệu XML đều không là chuỗi.
+XML là ngôn ngữ đánh dấu nên có khả năng hiển thị dữ liệu.
+Hỗ trợ nhiều mã hóa khác nhau, comment, namespace.
+Bảo mật tốt hơn JSON.
 
-Danh sách tính năng (Feature list) phải là gì?
-* Là điểm khởi đầu để thiết kế và phát triển sản phẩm.
-Là điểm cuối cùng để phát triển sản phẩm.
-Là quá trình để thiết kế và phát triển sản phẩm.
-Là cơ sở để phát triển sản phẩm.
+Cơ sở dữ liệu NoSQL tổ chức dữ liệu dưới dạng nào?
+* Dưới dạng thứ bậc (Hierarchical/Document).
+Dưới dạng bảng.
+Cả dạng bảng và thứ bậc.
+Theo mô hình dữ liệu quan hệ.
 
-DOD (Definition of Done - Định nghĩa Hoàn thành) là trách nhiệm của ai?
-* Development Team (Nhóm phát triển).
-PO (Product Owner).
-PM (Product Manager).
-RTE (Release Train Engineer).
+Đâu KHÔNG là vấn đề ảnh hưởng đến quyết định kiến trúc?
+* Nhân lực (Human resources).
+Yêu cầu về tái sử dụng phần mềm.
+Yêu cầu phi chức năng.
+Yêu cầu về tương thích.
 
-DOR (Definition of Ready - Định nghĩa Sẵn sàng) là trách nhiệm của ai?
-* PO (Product Owner).
-Development Team (Nhóm phát triển).
-PM (Product Manager).
-RTE (Release Train Engineer).
+Đâu KHÔNG phải thành phần của một phần mềm?
+* Người dùng (User).
+Chương trình.
+Tài liệu.
+Quy trình hoạt động.
 
-Đâu KHÔNG phải là yếu tố thúc đẩy việc thiết kế các sản phẩm phần mềm?
-* Cố gắng hiểu những tính năng nào của sản phẩm sẽ hữu ích cho người dùng và những gì họ thích và không thích về các sản phẩm mà họ sử dụng.
-Các nhu cầu của doanh nghiệp và người tiêu dùng mà các sản phẩm hiện tại không đáp ứng được.
-Không hài lòng với các sản phẩm phần mềm tiêu dùng hoặc kinh doanh hiện có.
-Những thay đổi trong công nghệ giúp tạo ra những loại sản phẩm hoàn toàn mới.
+Đâu KHÔNG phải là thành phần của trình duyệt Web (Web browser) trong mô hình kiến ​​trúc hệ thống truy xuất tài liệu?
+* Xác thực và ủy quyền (Authentication and authorization).
+Tương tác người dùng (User interaction).
+Xác thực đầu vào cục bộ (Local input validation).
+In ấn cục bộ (Local printing).
 
-Đâu KHÔNG phải phương pháp để hiểu cách người dùng sử dụng phần mềm?
-* Phỏng đoán.
-Phỏng vấn.
-Khảo sát.
-Phân tích nhiệm vụ.
+Đâu là câu hỏi về yếu tố phi chức năng (Non-functional)?
+* Hệ thống có đủ bảo mật để bảo vệ chính nó và dữ liệu của người dùng khỏi các cuộc tấn công trái phép không?
+Hệ thống có bị quá nhiệt không?
+Biểu tượng icon có nằm chính giữa nút bấm không?
+Người dùng có thích hệ thống không?
 
-Để thiết kế các tính năng phù hợp với người dùng, bạn cần làm gì?
-* Hiểu rõ người dùng tiềm năng của mình.
-Hiểu rõ bản thân.
-Hiểu rõ gia đình của mình.
-Hiểu rõ nhân viên.
+Đâu là lớp ngoài cùng của các lớp xác thực (Authentication layers)?
+* Xác thực IP (IP authentication).
+Xác thực ứng dụng (Application authentication).
+Xác thực tính năng (Feature authentication).
+Mã hóa (Encryption).
 
-Điều quan trọng nhất khi tạo một persona là gì?
-* Bối cảnh (Background) và lý do muốn dùng phần mềm.
-Kinh nghiệm cũng như thành tựu chuyên môn.
-Đã từng sử dụng các phần mềm tương tự.
-Điều kiện tài chính phù hợp.
+Ý kiến ĐÚNG NHẤT khi nói về sự khác biệt giữa kiến trúc đa cơ sở dữ liệu so với kiến trúc cơ sở dữ liệu dùng chung?
+* Chạy chậm hơn, tốn nhiều chi phí để triển khai và thay đổi.
+Chạy nhanh hơn, tốn nhiều chi phí để triển khai và thay đổi.
+Chạy chậm hơn, không tốn nhiều chi phí để triển khai và thay đổi.
+Chạy chậm hơn, tốn nhiều chi phí để triển khai, tốn ít chi phí thay đổi.
 
-Tầm quan trọng của Persona đối với các nhà phát triển phần mềm (Nó nên bao gồm những gì)?
-* Bao gồm thông tin về cá nhân, chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm của họ đối với sản phẩm.
-Chỉ bao gồm thông tin về cá nhân và chi tiết công việc.
-Chỉ bao gồm chi tiết công việc, học vấn và kinh nghiệm.
-Bao gồm chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm đối với sản phẩm (thiếu thông tin cá nhân).
+Để tạo ra một sản phẩm đáng tin cậy, an toàn và hiệu quả, đâu là điều bạn cần ÍT chú ý hơn trong thiết kế kiến trúc?
+* Tổ chức nhân sự.
+Cách phần mềm được phân tán.
+Tổ chức máy chủ.
+Tổ chức tổng thể của nó.
 
-Trong việc nhận diện tính năng (Feature Recognition), các yếu tố cốt lõi nào đáp ứng điều kiện để sử dụng định danh?
-* Độc lập (Independent), mạch lạc (coherent) và phù hợp (relevant).
-Kiến thức công nghệ (Technology Knowledge).
-Hiệu quả sử dụng (Use effect).
-Mạch lạc và phù hợp (Coherent and relevant).
+Để tránh các vấn đề về khả năng sử dụng thì 1 kiến trúc cần có những yếu tố nào?
+* Không có quá nhiều lớp bảo mật, không thực thi bảo mật khi không cần thiết, có thành phần giảm tải cho người dùng.
+Tích hợp chức năng giảm tải lưu lượng người truy cập, tự ngắt hệ thống khi gặp sự cố.
+Thêm nhiều lớp bảo mật, chặn truy cập người dùng.
+Thực thi bảo mật mọi lúc, lưu hoạt động người dùng.
 
-Sáu yếu tố quan trọng trong thiết kế tập hợp tính năng (Feature set design) là gì?
-* Sự đơn giản, chức năng, sự quen thuộc, tính mới mẻ, tự động hóa, kiểm soát.
-Phức tạp, chức năng, sự quen thuộc, tính mới mẻ, bán tự động, kiểm soát.
-Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, bán tự động, kiểm soát.
-Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, tự động hóa, kiểm soát.
+Trong phim Star Wars: Rogue One, Đế chế độc ác đã lưu trữ bản thiết kế tại một địa điểm duy nhất, an toàn và xa xôi. Kiến trúc an ninh này gọi là gì?
+* Kiến trúc an ninh tập trung (Centralized security architecture).
+Kiến trúc an ninh bảo vệ (Protective security architecture).
+Kiến trúc an ninh phân tán (Distributed security architecture).
+Kiến trúc an ninh tập hợp (Concentrated security architecture).
 
-Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là?
-* Mâu thuẫn về quyền lợi giữa những người phát triển và những người kiểm thử sẽ giảm.
-Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào.
-Những người lạ sẽ kiểm phần mềm rất chặt.
-Khách hàng sẽ tin tưởng nhóm kiểm thử hơn.
+JSON khác với XML như thế nào?
+* Nó khác XML là nó dựa trên một tổ chức có cấu trúc mà không cần các thẻ (tags) rõ ràng cho mọi mục dữ liệu.
+Khác về dữ liệu.
+Khác về định dạng (format).
+Tất cả các dữ liệu đều ở dạng chuỗi.
 
-Một bảng quyết định (Decision table) được dùng khi nào?
-* Khi một tập phức tạp những điều kiện và hoạt động xuất hiện trong thành phần.
-Chỉ khi xây dựng hệ chuyên gia.
-Để hướng dẫn phát triển kế hoạch quản lý dự án.
-Để tư liệu tất cả những trạng thái phụ thuộc.
+JSON là gì?
+* Là ngôn ngữ để mô tả dữ liệu được truyền đạt giữa các thành phần trong một hệ thống.
+Là một kiểu dữ liệu.
+Là một đoạn văn bản.
+Là một đoạn ghi chú.
 
-Một tính năng (Feature) của một sản phẩm phần mềm là gì?
-* Một tính năng là một đoạn chức năng (functionality) được cung cấp bởi 1 sản phẩm phần mềm.
-Một tính năng là một đoạn mã được cung cấp bởi một sản phẩm phần mềm.
-Một tính năng là một đoạn chức năng được cung cấp bởi nhà phát triển.
-Một tính năng là một đoạn mã được cung cấp bởi nhà phát triển.
+Khi thiết kế kiến trúc phần mềm, người phát triển cần chú ý đến những yếu tố nào?
+* Cả 3 đáp án trên (Mở rộng/Bảo trì, Linh hoạt/Tính năng, Bảo mật/Nhất quán).
+Dễ dàng mở rộng và bảo trì.
+Tính linh hoạt và tính năng.
+Tính bảo mật và tính nhất quán.
 
-Một trong những điều NÊN làm trong quá trình sàng lọc Product Backlog (Backlog Refinement)?
-* Chia User Stories thành các nhiệm vụ (tasks) để triển khai.
-Ép buộc mọi thứ vào User Stories.
-Tham gia vào các cuộc thảo luận kỹ thuật vô tận.
-Product Owner đi kèm với giải pháp (solution) đã được thiết lập sẵn.
+Kiến trúc phân lớp cho các ứng dụng dựa trên Web gồm các phần nào?
+* Giao diện người dùng (Browser/Mobile), Xác thực và quản lý người dùng, Chức năng ứng dụng, Dịch vụ chia sẻ cơ bản, CSDL và quản lý giao dịch.
+Giao diện người dùng, Xác thực người dùng, Cơ sở dữ liệu.
+Giao diện người dùng, Xác thực và quản lý người dùng, Dịch vụ chia sẻ cơ bản.
+Xác thực và quản lý người dùng, Chức năng ứng dụng, Dịch vụ chia sẻ cơ bản.
 
-Personas là gì?
-* Là 'người dùng tưởng tượng' nơi bạn tạo chân dung nhân vật của một loại người dùng mà bạn nghĩ có thể sử dụng sản phẩm của mình.
-Là cá nhân hóa.
-Là cá tính của bạn.
-Là người tạo ra sản phẩm.
+Liệt kê 5 lựa chọn công nghệ mà bạn phải đưa ra khi thiết kế kiến trúc phần mềm?
+* Cơ sở dữ liệu (Database), Nền tảng (Platform), Máy chủ (Server), Mã nguồn mở (Open source), Công cụ phát triển (Development tools).
+Cơ sở dữ liệu, in ấn (print), máy chủ, mã nguồn mở, công cụ phát triển.
+Cơ sở dữ liệu, in ấn, xóa (delete), mã nguồn mở, công cụ phát triển.
+Cơ sở dữ liệu, nền tảng, xóa, mã nguồn mở, công cụ phát triển.
 
-Kịch bản (Scenarios) là gì?
-* Là một câu chuyện mô tả cách một người dùng hoặc một nhóm người dùng, có thể sử dụng hệ thống của bạn.
-Là tên một nhóm nhạc.
-Là tên một bài hát.
-Là tên một người dùng.
+Loại mô hình nào KHÔNG nằm trong các mô hình kiến trúc phần mềm?
+* Mô hình Dữ liệu (Data).
+Mô hình Động (Dynamic).
+Mô hình Xử lý (Process).
+Mô hình Cấu trúc (Structural).
 
-Tại sao cần hiểu người dùng tiềm năng?
-* Để thiết kế các tính năng mà họ có thể thấy hữu ích và để thiết kế giao diện người dùng phù hợp với họ.
-Dễ dàng bán sản phẩm cho họ.
-Để nắm bắt nhu cầu thị trường.
-Để đánh giá lại sản phẩm.
+Những yếu tố nào phải được xem xét khi thực hiện sản phẩm di động (Mobile)?
+* Kết nối không liên tục, công suất bộ xử lý, quản lý năng lượng, bàn phím trên máy tính.
+Môi trường phát triển; người dùng sử dụng.
+Sự kết nối, thời gian sử dụng, sự ổn định.
+Chi phí sản xuất, giá trị thực dụng, nhu cầu người dùng.
 
-Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào?
-* Dữ liệu và điều khiển của hệ thống.
-Tính truy cập và tính tin cậy của hệ thống.
-Tính chức năng của hệ thống.
-Những chi tiết thực thi của hệ thống.
+Tầm quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn nào?
+* Chất lượng (Quality).
+Độ phức tạp (Complexity).
+Độ chính xác (Accuracy).
+Hiệu quả (Efficiency).
 
-Proto-personas (Persona nguyên mẫu) là gì?
-* Là các Personas được phát triển dựa trên thông tin người dùng hạn chế.
-Là các Personas được phát triển dựa trên thông tin người dùng không giới hạn.
-Proto-personas phải tìm kiếm thông tin về người dùng sản phẩm tiềm năng.
-Proto-personas hoàn toàn giống như personas được phát triển từ các nghiên cứu chi tiết về người dùng.
+Thành phần ở giữa (trong kiến trúc phần mềm) thường được gọi là gì?
+* Kênh (Channel / Mediator).
+Hàng đợi (Queue).
+Hòa giải.
+Môi giới (Broker).
 
-Feature creep (Sự bành trướng tính năng) là gì?
-* Là những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm, dẫn đến sự phình to và phức tạp hóa phần mềm thay vì một thiết kế đơn giản.
-Một tường thuật mô tả cách người dùng sử dụng hệ thống để làm điều họ muốn.
-Những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm (không gây hại).
-Một tường thuật mô tả cách lập trình viên sử dụng hệ thống để làm điều họ muốn.
+Thuộc tính nào sau đây KHÔNG PHẢI là một thuộc tính chất lượng của hệ thống phi chức năng (Non-functional)?
+* Khả năng tái sử dụng (Reusability).
+Bảo mật (Security).
+Khả năng phản hồi (Responsiveness).
+Khả năng bảo trì (Maintainability).
 
-Trọng tâm chính của một User Story là gì?
-* Một tính năng hệ thống được xác định rõ ràng hoặc một khía cạnh của tính năng có thể được thực hiện trong một Sprint duy nhất.
-Một cuộc họp nhóm hàng ngày để thảo luận về User Story.
-Một tính năng hệ thống được xác định (không giới hạn thời gian).
-Một khía cạnh của một tính năng.
+Trong giao thức HTTP, có những cách biểu diễn dữ liệu phổ biến nào?
+* XML và JSON.
+Dạng bảng trong SQL.
+Biểu diễn dữ liệu kiểu số.
+Chỉ có thể biểu diễn bằng JSON.
 
-Mục đích của User Story trong phát triển phần mềm là gì?
-* Để mô tả cách người dùng tương tác với một sản phẩm phần mềm.
-Để mô tả chi tiết triển khai kỹ thuật của một tính năng phần mềm.
-Để mô tả hành vi mong đợi của một tính năng phần mềm.
-Một tính năng và một kịch bản là cùng một thứ.
+Các giai đoạn của mô hình vòng đời phát triển phần mềm (SDLC) là gì?
+* Lập kế hoạch và phân tích yêu cầu, định nghĩa, thiết kế, phát triển và kiểm thử.
+Lập kế hoạch và phân tích yêu cầu, kiểm thử, định nghĩa, thiết kế và phát triển.
+Lập kế hoạch và phân tích yêu cầu, thiết kế, định nghĩa, phát triển và kiểm thử.
+Định nghĩa, lập kế hoạch và phân tích yêu cầu, thiết kế, phát triển và kiểm thử.
 
-Khi viết một kịch bản (scenario), nên dựa trên góc nhìn của ai?
-* Người dùng (The user).
-Lập trình viên (The developer).
-Công ty (The company).
-Người viết (The writer).
+Hai loại sự kiện trong cấu trúc liên kết trung gian của kiến trúc hướng sự kiện (Event-driven architecture) là gì?
+* Sự kiện ban đầu (Initial event) và sự kiện xử lý (Processing event).
+Sự kiện ban đầu và sự kiện kênh.
+Sự kiện trung gian và sự kiện xử lý.
+Sự kiện máy khách và sự kiện hàng đợi.
 
-Yếu tố nào KHÔNG nằm trong các yếu tố thiết kế tập hợp tính năng (Feature set design factors)?
-* Bảo mật (Security).
-Sự đơn giản (Simplicity).
-Sự quen thuộc (Familiarity).
-Tự động hóa (Automation).
+"Thành phần" (Component) trong kiến trúc phần mềm là gì?
+* Một phần tử thực hiện một tập hợp các chức năng hoặc tính năng mạch lạc.
+Nền tảng của một hệ thống phần mềm.
+Các nguyên tắc chỉ đạo việc thiết kế và phát triển của nó.
+Một yếu tố làm cho mọi thứ hoạt động.
 
-Những kiến thức nào sau đây cần thiết cho việc thiết kế tính năng?
-* Kiến thức người dùng, Kiến thức sản phẩm, Kiến thức lĩnh vực, Kiến thức công nghệ.
-Sự đơn giản, Chức năng, Kiểm soát, Sự quen thuộc, Tự động hóa, Tính mới mẻ.
-Thiết kế đơn giản, Khách hàng tại chỗ, Nhịp độ bền vững.
-Phát hành nhỏ, Phát triển hướng kiểm thử (TDD).
+Một thuộc tính (Attribute) trong lập trình là gì?
+* Một mục dữ liệu được giữ bởi một lớp (A data item held by a class).
+Một tham số của một lớp.
+Một tài sản nội bộ của một lớp.
+Một mô tả của một lớp.
 
-User Story KHÔNG nên làm điều gì?
-* Thảo luận về các công nghệ cụ thể.
-Viết ngắn gọn.
-Mô tả một điều mà phần mềm cần thực hiện cho khách hàng.
-Viết bằng ngôn ngữ mà khách hàng có thể hiểu được.
+Phần mềm mã nguồn mở (Open source software) là gì?
+* Phần mềm có sẵn miễn phí, có thể được thay đổi và sửa đổi.
+Phần mềm trả phí đã bị bẻ khóa (cracked).
+Phần mềm không do các công ty lớn tạo ra.
+Phần mềm chưa được phát hành.
 
-Tính từ nào sau đây KHÔNG phù hợp để mô tả các tính năng?
-* Hời hợt / Bề ngoài (Superficial).
-Tính độc lập (Independence).
-Tính mạch lạc (Coherence).
-Tính phù hợp (Relevance).
+Phát biểu nào KHÔNG ĐÚNG về kiến trúc phân lớp (Layered architecture)?
+* Việc kết hợp nhiều lớp lại với nhau là một tiêu chuẩn thực hành (It is standard practice to combine multiple layers).
+Mỗi lớp tạo thành một sự trừu tượng và không biết chi tiết về các lớp khác.
+Nó có sự phân tách các mối quan tâm giữa các thành phần.
+Nó có các giao diện thành phần được xác định rõ ràng.
 
-Yếu tố nào thuộc về Thiết kế tính năng (Feature design)?
-* Kiến thức công nghệ (Technology knowledge).
-Kiến thức Website (Website knowledge).
-Kiến thức máy chủ (Server knowledge).
-Kiến thức phát triển (Develop knowledge).
+Sự khác biệt giữa một lớp kiến trúc 'mở' (open) và 'kép kín' (closed) là gì?
+* Các lớp mở có thể bị vượt qua (bypassed) bởi lớp phía trên, trong khi các lớp kín thì không thể.
+Các lớp mở có thể được sửa đổi, các lớp kín thì không.
+Các lớp mở có thể tương tác với bất kỳ lớp nào, các lớp kín chỉ tương tác với lớp bên dưới.
+Các lớp mở tách biệt khỏi luồng yêu cầu thông thường, lớp kín luôn nằm trực tiếp trong luồng này.
 
-Phương pháp nào sau đây KHÔNG được sử dụng trong việc ưu tiên User Story?
-* Tất cả các phương pháp trên đều được sử dụng.
-Đánh mức ưu tiên 1-10.
-Weighted Shortest Job First (WSJF).
-Cao, Trung bình, Thấp (High, Medium, Low).
+Tầm quan trọng của các vấn đề thiết kế kiến trúc nằm ở đâu?
+* Vòng đời sản phẩm (Product lifetime).
+Số lượng sản phẩm.
+Phần mềm thiết kế.
+Khách hàng.
 
-Tại sao Kịch bản (Scenarios) lại tốt hơn User Stories (trong một số ngữ cảnh)?
-* Mọi người dễ liên hệ hơn với thông tin và lối kể chuyện tự nhiên trong các kịch bản.
-Các kịch bản giúp các nhà phát triển thống nhất hiểu biết chung về hệ thống.
-Không cần phải bao gồm tất cả mọi thứ trong một kịch bản.
-Các kịch bản cung cấp ít bối cảnh hơn.
+Tính năng chính của sự phân tán trong thiết kế phần mềm (dispersion in software design) khi được người dùng sử dụng là gì?
+* Chia sẻ tài nguyên, Khả năng mở rộng, Cập nhật yêu cầu, Thông báo thay đổi, Khả năng chịu lỗi.
+Khả năng mở rộng, Cập nhật yêu cầu.
+Chia sẻ tài nguyên, Khả năng mở rộng, Cập nhật yêu cầu.
+Cập nhật yêu cầu, Thông báo thay đổi, Khả năng chịu lỗi.
+
+Các lớp kiến trúc nào có thể được kết hợp thành một lớp trong các ứng dụng nhỏ?
+* Lớp nghiệp vụ và Lớp lưu trữ (Business & Persistence layers).
+Lớp trình bày và Lớp nghiệp vụ (Presentation & Business).
+Lớp lưu trữ và Lớp cơ sở dữ liệu.
+Lớp nghiệp vụ và Lớp cơ sở dữ liệu.
+
+Lớp nào bao gồm các thành phần cung cấp chức năng chung để không cần phải sao chép chức năng này ở mức cao hơn?
+* Các lớp thấp hơn (The lower layers).
+Lớp thứ ba với khả năng truy xuất thông tin.
+Lớp tiếp theo với quản lý giao diện người dùng.
+Lớp trên cùng (The top layer).
+
+Hệ quản trị nào sau đây thuộc cơ sở dữ liệu quan hệ (Relational databases)?
+* MySQL.
+MongoDB.
+DynamoDB.
+Cassandra.
+
+Thứ tự từ ngoài vào trong của 3 lớp xác thực ngoài cùng là gì?
+* Xác thực IP, Xác thực ứng dụng, Xác thực tính năng.
+Xác thực tính năng, Xác thực IP, Xác thực ứng dụng.
+Xác thực ứng dụng, Xác thực tính năng, Xác thực IP.
+Xác thực IP, Xác thực tính năng, Xác thực ứng dụng.
+
+Phát biểu nào KHÔNG ĐÚNG về các mối quan tâm xuyên suốt (Cross-cutting concerns)?
+* Các mối quan tâm xuyên suốt có thể dễ dàng được xử lý sau khi hệ thống đã được thiết kế.
+Chúng là các mối quan tâm có tính hệ thống, ảnh hưởng đến toàn bộ hệ thống.
+Trong kiến trúc phân lớp, chúng ảnh hưởng đến tất cả các lớp.
+Chúng hoàn toàn khác với các mối quan tâm chức năng.
+
+Điều nào KHÔNG nằm trong các nguyên tắc thiết kế kiến trúc của iLearn?
+* Công việc tối đa (Maximum work).
+Khả năng thay thế (Replaceability).
+Khả năng mở rộng (Extensibility).
+Phù hợp với lứa tuổi (Age-appropriate).
+
+Đặc điểm của một thành phần (component) là gì?
+* Có thể thay thế được (Substitutable).
+Cứng nhắc (Rigid).
+Không thể thay đổi.
+Chỉ ràng buộc sớm (Only early-binded).
+
+Các đánh giá nào phù hợp với mẫu kiến trúc hướng sự kiện (Event-driven architecture)?
+* Tính linh hoạt: Cao, Khả năng kiểm thử: Thấp, Dễ phát triển: Thấp.
+Tính linh hoạt: Thấp, Khả năng kiểm thử: Cao, Dễ phát triển: Cao.
+Tính linh hoạt: Thấp, Khả năng kiểm thử: Thấp, Dễ phát triển: Thấp.
+Tính linh hoạt: Cao, Khả năng kiểm thử: Cao, Dễ phát triển: Cao.
+
+Phát biểu nào KHÔNG ĐÚNG về mẫu vi dịch vụ (Microservices pattern)?
+* Nó có hiệu suất rất tốt (It has a good performance - Thực tế microservices thường có độ trễ mạng cao hơn Monolithic).
+Nó có khả năng triển khai sản xuất theo thời gian thực.
+Sự thay đổi được cô lập trong các dịch vụ cụ thể.
+Nó chia sẻ một số vấn đề phức tạp với kiến trúc hướng sự kiện.
+
+Tại sao thiết kế kiến trúc lại quan trọng?
+* Bởi vì kiến trúc của một hệ thống có ảnh hưởng cơ bản đến các thuộc tính hệ thống phi chức năng (non-functional system properties).
+Bởi vì kiến trúc bảo mật tập trung giúp bảo vệ thông tin hiệu quả.
+Bởi vì khả năng bảo trì phản ánh sự khó khăn và tốn kém khi thay đổi hệ thống.
+Bởi vì điều này có nghĩa là hệ thống nên được phân rã thành các thành phần hạt mịn.
+
+Tại sao giảm thiểu sự phức tạp nên là một mục tiêu quan trọng đối với các nhà thiết kế kiến trúc?
+* Vì hệ thống càng phức tạp thì càng khó khăn và tốn kém để bảo trì và phát triển.
+Bởi vì nó nên như vậy.
+Vì đó là quy trình chuẩn.
+Vì lập trình viên sẽ mất nhiều công sức hơn để cải thiện hiệu suất.
+
+Ý nào SAI khi nói về Phần mềm mã nguồn mở (Open source)?
+* Không phụ thuộc vào loại sản phẩm đang phát triển, thị trường mục tiêu và chuyên môn của nhóm phát triển.
+Cung cấp miễn phí, có thể thay đổi theo ý muốn.
+Bị hạn chế bởi phần mềm đó và không kiểm soát được sự phát triển.
+Các vấn đề về giấy phép nguồn mở có thể áp đặt các hạn chế đối với cách sử dụng phần mềm.
