@@ -35,7 +35,7 @@ Thử nghiệm chức năng, thử nghiệm tải và hiệu suất và thử ng
 Thử nghiệm chức năng và thử nghiệm bảo mật.
 
 Cách tốt nhất để kiểm tra một hệ thống là gì?
-* Bắt đầu với một tập hợp các tình huống (scenarios) mô tả cách sử dụng và chạy lại các kịch bản này mỗi khi có phiên bản mới.
+* Bắt đầu với một tập hợp các tình huống mô tả cách sử dụng và chạy lại các kịch bản này mỗi khi có phiên bản mới.
 Đưa ứng dụng cho một người dùng bất kỳ để họ tự mò.
 Chỉ xem lại mã nguồn của hệ thống.
 Cố gắng hack vào hệ thống.
@@ -77,7 +77,7 @@ Hiểu rõ các chức năng.
 Cơ sở dữ liệu rõ ràng.
 
 Trong các công ty nhỏ, ai thường chịu trách nhiệm kiểm thử hệ thống (System testing)?
-* Các nhà phát triển sản phẩm (Product developers).
+* Các nhà phát triển sản phẩm.
 Nhóm kiểm thử chuyên nghiệp.
 Bộ phận IT.
 Khách hàng.
@@ -155,13 +155,13 @@ Vì dự án nào cũng bắt buộc phải có.
 Để hệ thống dễ bị lỗi hơn.
 
 Bài kiểm tra đơn vị (Unit test) tập trung vào việc kiểm tra những gì?
-* Các trường hợp đặc biệt (special cases) và giá trị biên (edge cases) của đầu vào.
+* Các trường hợp đặc biệt và giá trị biên của đầu vào.
 Hiệu quả sử dụng của phần mềm.
 Tốc độ phản hồi của phần mềm.
 Kiểm tra toàn bộ hệ thống cùng lúc.
 
 Kiểm thử được thực hiện mà không có kế hoạch và tài liệu hướng dẫn được gọi là gì?
-* Kiểm thử tùy biến (Adhoc testing).
+* Kiểm thử tùy biến.
 Kiểm thử đơn vị.
 Kiểm thử hồi quy.
 Kiểm thử hộp trắng.
@@ -197,7 +197,7 @@ Chương trình tuyệt đối an toàn.
 Chương trình đã hoàn thành 100%.
 
 Hoạt động nào thường được coi là một phần bổ trợ (adjunct) cho bước lập trình?
-* Kiểm thử đơn vị (Unit testing).
+* Kiểm thử đơn vị.
 Kiểm thử tích hợp.
 Hoàn tất kiểm thử phát hành.
 Kiểm thử hồi quy.
@@ -239,7 +239,7 @@ Là khi bạn không hiểu tổng quan về dự án.
 Là khi bạn hiểu sai về ngôn ngữ lập trình.
 
 Kiểm thử phát hành (Release testing) thường được thực hiện ở đâu?
-* Cả trong môi trường kiểm thử (test environment) và môi trường do khách hàng thiết lập.
+* Cả trong môi trường kiểm thử và môi trường do khách hàng thiết lập.
 Chỉ trong môi trường vận hành thực tế.
 Chỉ trong môi trường của khách hàng.
 Chỉ trên máy tính của lập trình viên.

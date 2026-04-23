@@ -11,7 +11,7 @@ Lỗi hệ thống (System error).
 Lỗi do con người (Human error).
 
 Ba loại lỗi phần mềm quan trọng nhất là gì?
-* Lỗi dữ liệu, ngoại lệ chương trình, lỗi thời gian (Data failures, Program exceptions, Timing failures).
+* Lỗi dữ liệu, ngoại lệ chương trình, lỗi thời gian.
 Lỗi chức năng, Lỗi giao tiếp, lỗi thời gian.
 Lỗi cú pháp, lỗi dữ liệu, lỗi tính toán.
 Lỗi dữ liệu, lỗi thiếu lệnh, lỗi chức năng.
@@ -29,7 +29,7 @@ Khả năng bảo trì (Maintainability).
 Tính bảo mật (Security).
 
 Có những kỹ thuật chi phí thấp nào để cải thiện độ tin cậy phần mềm?
-* Tránh lỗi (Fault avoidance), xác thực đầu vào (Input validation), quản lý thất bại (Failure management).
+* Tránh lỗi, xác thực đầu vào, quản lý thất bại.
 Tạo tường lửa, xác thực 2 yếu tố.
 Đặt mật khẩu mạnh, nâng cấp phần cứng.
 Tránh lỗi, đặt mật khẩu mạnh.
@@ -47,7 +47,7 @@ Công nghệ (Technology).
 Chương trình (Program).
 
 Đâu là các mẫu thiết kế (Design patterns) phổ biến?
-* Mẫu sáng tạo (Creational), Mẫu cấu trúc (Structural), Mẫu hành vi (Behavioural).
+* Mẫu sáng tạo, Mẫu cấu trúc, Mẫu hành vi.
 Mô hình hoạt động.
 Mô hình kiến trúc.
 Mô hình lặp.
@@ -83,7 +83,7 @@ Trong quản lý thất bại (Failure management), tại sao bạn nên thiết
 Để mọi người muốn sử dụng sản phẩm.
 
 Khách hàng thường kỳ vọng phần mềm có độ tin cậy cao, tuy nhiên với các ứng dụng không quan trọng (non-critical), họ có thể chấp nhận điều gì?
-* Chấp nhận một số thất bại hệ thống nhất định (Software reliability).
+* Chấp nhận một số thất bại hệ thống nhất định.
 Độ tin cậy của người vận hành.
 Độ tin cậy của yêu cầu.
 Độ tin cậy của phần cứng.
@@ -101,7 +101,7 @@ Hàm xác thực tích hợp, hàm ép kiểu, so sánh rõ ràng, biểu thức
 Hàm kiểm duyệt, hàm ép kiểu, so sánh rõ ràng, biểu thức nâng cao.
 
 Loại mô hình nào được tạo ra trong quá trình phân tích yêu cầu phần mềm?
-* Mô hình chức năng và hành vi (Functional and behavioral).
+* Mô hình chức năng và hành vi.
 Giải thuật và cấu trúc dữ liệu.
 Kiến trúc và cấu trúc.
 Tính tin cậy và tính sử dụng.
@@ -131,13 +131,13 @@ Là sự kiện dừng chương trình ngay lập tức.
 Là sự kiện kiểm tra chất lượng chương trình.
 
 Nguyên nhân cơ bản gây ra lỗi chương trình là gì?
-* Hiểu không đúng về vấn đề và miền sử dụng (Domain knowledge).
+* Hiểu không đúng về vấn đề và miền sử dụng.
 Viết code quá dài.
 Sử dụng quá nhiều công cụ có sẵn.
 Hiểu sai chức năng ứng dụng.
 
 Nguyên nhân phổ biến nhất gây "ô nhiễm" (lỗi dữ liệu) cơ sở dữ liệu là gì?
-* Lỗi đầu vào của người dùng (User input errors).
+* Lỗi đầu vào của người dùng.
 Có quá nhiều dữ liệu.
 Dữ liệu được nhập vào tại nhiều thời điểm khác nhau.
 Không thống nhất về định dạng dữ liệu.
@@ -221,7 +221,7 @@ Mỗi lớp nên có một trách nhiệm duy nhất (SRP).
 Tránh sử dụng luồng (threads/parallelism) trừ khi thực sự cần thiết.
 
 Hành vi nào sau đây làm cho mã nguồn có "mùi" (Code smells - mã xấu)?
-* Mã lặp lại (Repetitive code).
+* Mã lặp lại.
 Các lớp có kích thước nhỏ.
 Các hàm ngắn gọn.
 Sử dụng phím Tab và dấu cách đúng chuẩn.
@@ -233,7 +233,7 @@ Tại sao tài liệu hướng dẫn mã nguồn (Code documentation) lại quan
 Để tăng tính bảo mật.
 
 Tại sao chúng ta nên tránh phân cấp kế thừa quá sâu (Deep inheritance)?
-* Vì kế thừa làm tăng độ phức tạp kết cấu và tăng sự khớp nối (coupling) giữa các lớp con.
+* Vì kế thừa làm tăng độ phức tạp kết cấu và tăng sự khớp nối giữa các lớp con.
 Vì kế thừa không phù hợp cho dự án lớn.
 Vì kế thừa là cách hiệu quả nhất để tái sử dụng mã.
 Vì nó làm giảm độ phức tạp khi đọc.

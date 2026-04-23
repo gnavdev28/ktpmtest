@@ -35,7 +35,7 @@ Cân bằng, bảo mật, hỗ trợ.
 Tiếp thu, cân bằng, giải phóng.
 
 Các yếu tố dẫn đến sự phát triển và áp dụng rộng rãi DevOps là?
-* Công nghệ phần mềm linh hoạt (Agile), Amazon đã thiết kế lại phần mềm của họ, có thể phát hành phần mềm dưới dạng dịch vụ (SaaS).
+* Công nghệ phần mềm linh hoạt, Amazon đã thiết kế lại phần mềm của họ, có thể phát hành phần mềm dưới dạng dịch vụ.
 Amazon đã thiết kế lại phần mềm của họ, Google phát triển ra Microsoft.
 Thế giới ngày càng phát triển, ChatGPT ra đời.
 Công nghệ phần mềm linh hoạt, có thể phát hành phần mềm dưới dạng dịch vụ.

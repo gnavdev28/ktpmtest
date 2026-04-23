@@ -12,9 +12,9 @@ Dùng các phần mềm độc hại để rò rỉ thông tin ra ngoài.
 
 Cái nào KHÔNG thuộc quy trình và thực hành an ninh vận hành (Operational Security)?
 * Tự động khóa tài khoản khi nhập sai mật khẩu.
-Tự động đăng xuất (Auto-logout).
-Ghi nhật ký lệnh người dùng (User command logging).
-Xác thực đa yếu tố (Multi-factor authentication).
+Tự động đăng xuất.
+Ghi nhật ký lệnh người dùng.
+Xác thực đa yếu tố.
 
 Danh tính liên kết (Federated Identity) là gì?
 * Là một cách tiếp cận xác thực mà bạn sử dụng một dịch vụ xác thực bên ngoài (như Login bằng Google, Facebook).
@@ -65,7 +65,7 @@ Xác thực đa yếu tố (MFA).
 Thời gian chờ ngắn.
 
 Bạn nên sao lưu dữ liệu của mình bao lâu một lần?
-* Theo một lịch trình thường xuyên (On a regular schedule).
+* Theo một lịch trình thường xuyên.
 Mỗi tuần một lần.
 Mỗi ngày một lần.
 Mỗi tháng một lần.
@@ -83,7 +83,7 @@ Thông tin người dùng, thông tin cơ quan cấp, chữ ký số, khóa côn
 Dữ liệu chủ sở hữu, dữ liệu cơ quan cấp, chữ ký số, khóa công khai của chủ sở hữu.
 
 Liệt kê 3 loại đe dọa an ninh chính:
-* Đe dọa đến tính khả dụng (Availability), tính toàn vẹn (Integrity) và tính bảo mật (Confidentiality).
+* Đe dọa đến tính khả dụng, tính toàn vẹn và tính bảo mật.
 Đe dọa đến tính khả dụng, thông tin người dùng, tính bảo mật.
 Đe dọa đến tính riêng tư, thông tin người dùng, tính bảo mật.
 Đe dọa đến tính riêng tư, tính toàn vẹn, tính tự tạo của dữ liệu.
@@ -125,7 +125,7 @@ Tại sao bảo mật phần mềm là ưu tiên cao đối với các nhà phá
 Để tăng doanh thu.
 
 Kiểu tấn công hệ thống tên miền (DNS) nào thay thế địa chỉ IP gian lận cho một tên miền hợp lệ?
-* Nhiễm độc DNS (DNS poisoning).
+* Nhiễm độc DNS.
 DNS replay.
 DNS masking.
 DNS forwarding.
@@ -143,7 +143,7 @@ Tính toàn vẹn kỹ thuật số.
 Bảo vệ kỹ thuật số.
 
 Đâu là một ví dụ về tấn công vào người dùng (User attack)?
-* Lừa người dùng tiết lộ thông tin đăng nhập của họ (Phishing/Social Engineering).
+* Lừa người dùng tiết lộ thông tin đăng nhập của họ.
 Xác thực đa yếu tố.
 Tự động đăng xuất.
 Giám sát tấn công.
