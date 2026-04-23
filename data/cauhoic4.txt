@@ -52,12 +52,6 @@ Hệ thống có bị quá nhiệt không?
 Biểu tượng icon có nằm chính giữa nút bấm không?
 Người dùng có thích hệ thống không?
 
-Đâu là lớp ngoài cùng của các lớp xác thực (Authentication layers)?
-* Xác thực IP (IP authentication).
-Xác thực ứng dụng (Application authentication).
-Xác thực tính năng (Feature authentication).
-Mã hóa (Encryption).
-
 Ý kiến ĐÚNG NHẤT khi nói về sự khác biệt giữa kiến trúc đa cơ sở dữ liệu so với kiến trúc cơ sở dữ liệu dùng chung?
 * Chạy chậm hơn, tốn nhiều chi phí để triển khai và thay đổi.
 Chạy nhanh hơn, tốn nhiều chi phí để triển khai và thay đổi.
@@ -95,7 +89,7 @@ Là một đoạn văn bản.
 Là một đoạn ghi chú.
 
 Khi thiết kế kiến trúc phần mềm, người phát triển cần chú ý đến những yếu tố nào?
-* Cả 3 đáp án trên (Mở rộng/Bảo trì, Linh hoạt/Tính năng, Bảo mật/Nhất quán).
+* Cả 3 đáp án trên.
 Dễ dàng mở rộng và bảo trì.
 Tính linh hoạt và tính năng.
 Tính bảo mật và tính nhất quán.
@@ -251,7 +245,7 @@ Tính linh hoạt: Thấp, Khả năng kiểm thử: Thấp, Dễ phát triển:
 Tính linh hoạt: Cao, Khả năng kiểm thử: Cao, Dễ phát triển: Cao.
 
 Phát biểu nào KHÔNG ĐÚNG về mẫu vi dịch vụ (Microservices pattern)?
-* Nó có hiệu suất rất tốt (It has a good performance - Thực tế microservices thường có độ trễ mạng cao hơn Monolithic).
+* Nó có hiệu suất rất tốt.
 Nó có khả năng triển khai sản xuất theo thời gian thực.
 Sự thay đổi được cô lập trong các dịch vụ cụ thể.
 Nó chia sẻ một số vấn đề phức tạp với kiến trúc hướng sự kiện.

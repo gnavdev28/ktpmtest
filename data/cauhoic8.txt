@@ -41,7 +41,7 @@ Tránh lỗi, đặt mật khẩu mạnh.
 Độ phức tạp của quyết định (Decision complexity).
 
 Đâu KHÔNG phải nguyên nhân cơ bản gây ra lỗi chương trình?
-* Người dùng (Thường là do lỗi hiểu sai yêu cầu hoặc lỗi kỹ thuật của lập trình viên).
+* Người dùng.
 Vấn đề (Problem).
 Công nghệ (Technology).
 Chương trình (Program).
@@ -179,7 +179,7 @@ Mục đích của kiểm thử đơn vị (Unit testing) là gì?
 Để kiểm tra tính tương thích với phần mềm khác.
 
 Tên của hàm Python được sử dụng để tính toán hệ số nhân tuổi cho phí bảo hiểm trong ví dụ bài học là gì?
-* Age_multiplier (hoặc liên quan đến Agecheck trong một số ngữ cảnh).
+* Age_multiplier (hoặc liên quan đến Agecheck).
 Failure management.
 Input validation.
 Fault avoidance.
@@ -209,13 +209,13 @@ Khi tạo ra các biến thể khác nhau của đối tượng.
 Khi trạng thái nội bộ của chương trình thay đổi.
 
 Đâu KHÔNG phải là cách để giảm độ phức tạp của dữ liệu?
-* Sử dụng bí danh dữ liệu (Data aliases - Vì nó gây khó hiểu).
+* Sử dụng bí danh dữ liệu (Data aliases).
 Xác định giao diện (interfaces) cho tất cả các trừu tượng.
 Định nghĩa các kiểu dữ liệu trừu tượng (ADT).
 Tránh sử dụng số dấu phẩy động (floating-point) nếu không cần thiết.
 
 Đâu KHÔNG phải là cách để giảm độ phức tạp về kết cấu (Structural complexity)?
-* Các hàm nên có tác dụng phụ (Side-effects - Vì nó gây khó kiểm soát).
+* Các hàm nên có tác dụng phụ (Side-effects).
 Mỗi hàm chỉ nên thực hiện một nhiệm vụ duy nhất.
 Mỗi lớp nên có một trách nhiệm duy nhất (SRP).
 Tránh sử dụng luồng (threads/parallelism) trừ khi thực sự cần thiết.
@@ -239,13 +239,13 @@ Vì kế thừa là cách hiệu quả nhất để tái sử dụng mã.
 Vì nó làm giảm độ phức tạp khi đọc.
 
 Ý kiến nào sau đây SAI khi nói về tái cấu trúc (Refactoring)?
-* Chương trình sau khi tái cấu trúc sẽ dễ hiểu hơn nhưng khó đọc hơn và trở nên phức tạp (Sai vì mục tiêu là làm dễ đọc và giảm phức tạp).
+* Chương trình sau khi tái cấu trúc sẽ dễ hiểu hơn nhưng khó đọc hơn và trở nên phức tạp.
 Tái cấu trúc làm cho chương trình dễ đọc và dễ hiểu hơn.
 Giúp giảm khả năng mắc lỗi khi thêm tính năng mới.
 Làm cho việc thay đổi mã nguồn trở nên dễ dàng hơn.
 
 Ý nào SAI khi nói về xác thực đầu vào (Input validation)?
-* Xác thực đầu vào liên quan tới việc kiểm tra thông tin của người dùng trong cơ sở dữ liệu (Đây là Authentication/Authorization).
+* Xác thực đầu vào liên quan tới việc kiểm tra thông tin của người dùng trong cơ sở dữ liệu.
 Liên quan đến việc kiểm tra định dạng và phạm vi giá trị của dữ liệu đầu vào.
 Rất quan trọng đối với bảo mật và độ tin cậy.
 Lỗi đầu vào là nguyên nhân phổ biến nhất gây lỗi dữ liệu (ô nhiễm DB).

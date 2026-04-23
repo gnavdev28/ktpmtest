@@ -11,7 +11,7 @@ Chiếm quyền sử dụng bằng cách gài virus.
 Dùng các phần mềm độc hại để rò rỉ thông tin ra ngoài.
 
 Cái nào KHÔNG thuộc quy trình và thực hành an ninh vận hành (Operational Security)?
-* Tự động khóa tài khoản khi nhập sai mật khẩu (Thường thuộc về chính sách tài khoản).
+* Tự động khóa tài khoản khi nhập sai mật khẩu.
 Tự động đăng xuất (Auto-logout).
 Ghi nhật ký lệnh người dùng (User command logging).
 Xác thực đa yếu tố (Multi-factor authentication).
@@ -23,7 +23,7 @@ Là việc liên kết các người dùng lại với nhau.
 Là một hệ thống quản lý nội bộ.
 
 Đâu KHÔNG phải là điểm yếu của xác thực dựa trên mật khẩu?
-* Độ an toàn dựa trên độ phức tạp của mật khẩu (Đây là đặc điểm, không phải điểm yếu trực tiếp như bị quên hay bị lừa đảo).
+* Độ an toàn dựa trên độ phức tạp của mật khẩu.
 Mật khẩu không an toàn (dễ bị đoán).
 Tấn công lừa đảo (Phishing).
 Người dùng hay bị quên mật khẩu.
@@ -176,10 +176,10 @@ Lựa chọn nào KHÔNG được sử dụng để phân loại các phương t
 * Một cái gì đó bạn thích (Something you like).
 Một cái gì đó bạn biết (Something you know).
 Một cái gì đó bạn sở hữu (Something you possess).
-Một cái gì đó bạn là (Something you are - Sinh trắc học).
+Một cái gì đó bạn là (Something you are).
 
 Công cụ tìm kiếm nào sau đây là riêng tư và không theo dõi dữ liệu tìm kiếm của người dùng?
-* Search Encrypt (hoặc DuckDuckGo).
+* Search Encrypt / DuckDuckGo.
 Google.
 Bing.
 Yahoo.

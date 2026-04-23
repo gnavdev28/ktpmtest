@@ -4,143 +4,11 @@ Backlog.
 Large story.
 Theme.
 
-Các đặc điểm quan trọng nhất của tính năng phần mềm là gì?
-* Tính độc lập, tính mạch lạc và tính phù hợp.
-Tính linh hoạt và tính hiệu quả.
-Tính phù hợp, tính trải nghiệm.
-Tính mạch lạc, tính năng nâng cao và tính độc lập.
-
 Câu chuyện người dùng (User Story) là gì?
 * Là một tường thuật chi tiết, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ một hệ thống phần mềm.
 Là một tường thuật gián tiếp, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
 Là một tường thuật trực tiếp, theo cách có cấu trúc, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
 Là một tường thuật chi tiết, theo cách có tổ chức, về một điều mà người dùng mong muốn từ hệ thống phần mềm.
-
-Công dụng chính của Persona (Chân dung người dùng) là gì?
-* Giúp người lập trình hiểu được góc nhìn của người dùng.
-Giúp người lập trình loại bỏ các tính năng không cần thiết.
-Giúp người lập trình tránh phức tạp hóa phần mềm.
-Giúp người lập trình tiết kiệm tài nguyên và chi phí.
-
-Danh sách tính năng (Feature list) phải là gì?
-* Là điểm khởi đầu để thiết kế và phát triển sản phẩm.
-Là điểm cuối cùng để phát triển sản phẩm.
-Là quá trình để thiết kế và phát triển sản phẩm.
-Là cơ sở để phát triển sản phẩm.
-
-DOD (Definition of Done - Định nghĩa Hoàn thành) là trách nhiệm của ai?
-* Development Team (Nhóm phát triển).
-PO (Product Owner).
-PM (Product Manager).
-RTE (Release Train Engineer).
-
-DOR (Definition of Ready - Định nghĩa Sẵn sàng) là trách nhiệm của ai?
-* PO (Product Owner).
-Development Team (Nhóm phát triển).
-PM (Product Manager).
-RTE (Release Train Engineer).
-
-Đâu KHÔNG phải là yếu tố thúc đẩy việc thiết kế các sản phẩm phần mềm?
-* Cố gắng hiểu những tính năng nào của sản phẩm sẽ hữu ích cho người dùng và những gì họ thích và không thích về các sản phẩm mà họ sử dụng.
-Các nhu cầu của doanh nghiệp và người tiêu dùng mà các sản phẩm hiện tại không đáp ứng được.
-Không hài lòng với các sản phẩm phần mềm tiêu dùng hoặc kinh doanh hiện có.
-Những thay đổi trong công nghệ giúp tạo ra những loại sản phẩm hoàn toàn mới.
-
-Đâu KHÔNG phải phương pháp để hiểu cách người dùng sử dụng phần mềm?
-* Phỏng đoán.
-Phỏng vấn.
-Khảo sát.
-Phân tích nhiệm vụ.
-
-Để thiết kế các tính năng phù hợp với người dùng, bạn cần làm gì?
-* Hiểu rõ người dùng tiềm năng của mình.
-Hiểu rõ bản thân.
-Hiểu rõ gia đình của mình.
-Hiểu rõ nhân viên.
-
-Điều quan trọng nhất khi tạo một persona là gì?
-* Bối cảnh (Background) và lý do muốn dùng phần mềm.
-Kinh nghiệm cũng như thành tựu chuyên môn.
-Đã từng sử dụng các phần mềm tương tự.
-Điều kiện tài chính phù hợp.
-
-Tầm quan trọng của Persona đối với các nhà phát triển phần mềm (Nó nên bao gồm những gì)?
-* Bao gồm thông tin về cá nhân, chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm của họ đối với sản phẩm.
-Chỉ bao gồm thông tin về cá nhân và chi tiết công việc.
-Chỉ bao gồm chi tiết công việc, học vấn và kinh nghiệm.
-Bao gồm chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm đối với sản phẩm (thiếu thông tin cá nhân).
-
-Trong việc nhận diện tính năng (Feature Recognition), các yếu tố cốt lõi nào đáp ứng điều kiện để sử dụng định danh?
-* Độc lập (Independent), mạch lạc (coherent) và phù hợp (relevant).
-Kiến thức công nghệ (Technology Knowledge).
-Hiệu quả sử dụng (Use effect).
-Mạch lạc và phù hợp (Coherent and relevant).
-
-Sáu yếu tố quan trọng trong thiết kế tập hợp tính năng (Feature set design) là gì?
-* Sự đơn giản, chức năng, sự quen thuộc, tính mới mẻ, tự động hóa, kiểm soát (Simplicity, functionality, familiarity, novelty, automation, control).
-Phức tạp, chức năng, sự quen thuộc, tính mới mẻ, bán tự động, kiểm soát.
-Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, bán tự động, kiểm soát.
-Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, tự động hóa, kiểm soát.
-
-Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là?
-* Mâu thuẫn về quyền lợi giữa những người phát triển và những người kiểm thử sẽ giảm.
-Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào.
-Những người lạ sẽ kiểm phần mềm rất chặt.
-Khách hàng sẽ tin tưởng nhóm kiểm thử hơn.
-
-Một bảng quyết định (Decision table) được dùng khi nào?
-* Khi một tập phức tạp những điều kiện và hoạt động xuất hiện trong thành phần.
-Chỉ khi xây dựng hệ chuyên gia.
-Để hướng dẫn phát triển kế hoạch quản lý dự án.
-Để tư liệu tất cả những trạng thái phụ thuộc.
-
-Một tính năng (Feature) của một sản phẩm phần mềm là gì?
-* Một tính năng là một đoạn chức năng (functionality) được cung cấp bởi 1 sản phẩm phần mềm.
-Một tính năng là một đoạn mã được cung cấp bởi một sản phẩm phần mềm.
-Một tính năng là một đoạn chức năng được cung cấp bởi nhà phát triển.
-Một tính năng là một đoạn mã được cung cấp bởi nhà phát triển.
-
-Một trong những điều NÊN làm trong quá trình sàng lọc Product Backlog (Backlog Refinement)?
-* Chia User Stories thành các nhiệm vụ (tasks) để triển khai.
-Ép buộc mọi thứ vào User Stories.
-Tham gia vào các cuộc thảo luận kỹ thuật vô tận.
-Product Owner đi kèm với giải pháp (solution) đã được thiết lập sẵn.
-
-Personas là gì?
-* Là 'người dùng tưởng tượng' nơi bạn tạo chân dung nhân vật của một loại người dùng mà bạn nghĩ có thể sử dụng sản phẩm của mình.
-Là cá nhân hóa.
-Là cá tính của bạn.
-Là người tạo ra sản phẩm.
-
-Kịch bản (Scenarios) là gì?
-* Là một câu chuyện mô tả cách một người dùng hoặc một nhóm người dùng, có thể sử dụng hệ thống của bạn.
-Là tên một nhóm nhạc.
-Là tên một bài hát.
-Là tên một người dùng.
-
-Tại sao cần hiểu người dùng tiềm năng?
-* Để thiết kế các tính năng mà họ có thể thấy hữu ích và để thiết kế giao diện người dùng phù hợp với họ.
-Dễ dàng bán sản phẩm cho họ.
-Để nắm bắt nhu cầu thị trường.
-Để đánh giá lại sản phẩm.
-
-Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào?
-* Dữ liệu và điều khiển của hệ thống.
-Tính truy cập và tính tin cậy của hệ thống.
-Tính chức năng của hệ thống.
-Những chi tiết thực thi của hệ thống.
-
-Proto-personas (Persona nguyên mẫu) là gì?
-* Là các Personas được phát triển dựa trên thông tin người dùng hạn chế.
-Là các Personas được phát triển dựa trên thông tin người dùng không giới hạn.
-Proto-personas phải tìm kiếm thông tin về người dùng sản phẩm tiềm năng.
-Proto-personas hoàn toàn giống như personas được phát triển từ các nghiên cứu chi tiết về người dùng.
-
-Feature creep (Sự bành trướng tính năng) là gì?
-* Là những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm, dẫn đến sự phình to và phức tạp hóa phần mềm thay vì một thiết kế đơn giản.
-Một tường thuật mô tả cách người dùng sử dụng hệ thống để làm điều họ muốn.
-Những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm (không gây hại).
-Một tường thuật mô tả cách lập trình viên sử dụng hệ thống để làm điều họ muốn.
 
 Trọng tâm chính của một User Story là gì?
 * Một tính năng hệ thống được xác định rõ ràng hoặc một khía cạnh của tính năng có thể được thực hiện trong một Sprint duy nhất.
@@ -154,11 +22,107 @@ Mục đích của User Story trong phát triển phần mềm là gì?
 Để mô tả hành vi mong đợi của một tính năng phần mềm.
 Một tính năng và một kịch bản là cùng một thứ.
 
+User Story KHÔNG nên làm điều gì?
+* Thảo luận về các công nghệ cụ thể.
+Viết ngắn gọn.
+Mô tả một điều mà phần mềm cần thực hiện cho khách hàng.
+Viết bằng ngôn ngữ mà khách hàng có thể hiểu được.
+
+Phương pháp nào sau đây KHÔNG được sử dụng trong việc ưu tiên User Story?
+* Tất cả các phương pháp trên đều được sử dụng.
+Đánh mức ưu tiên 1-10.
+Weighted Shortest Job First (WSJF).
+Cao, Trung bình, Thấp (High, Medium, Low).
+
+Personas là gì?
+* Là 'người dùng tưởng tượng' nơi bạn tạo chân dung nhân vật của một loại người dùng mà bạn nghĩ có thể sử dụng sản phẩm của mình.
+Là cá nhân hóa.
+Là cá tính của bạn.
+Là người tạo ra sản phẩm.
+
+Proto-personas (Persona nguyên mẫu) là gì?
+* Là các Personas được phát triển dựa trên thông tin người dùng hạn chế.
+Là các Personas được phát triển dựa trên thông tin người dùng không giới hạn.
+Proto-personas phải tìm kiếm thông tin về người dùng sản phẩm tiềm năng.
+Proto-personas hoàn toàn giống như personas được phát triển từ các nghiên cứu chi tiết về người dùng.
+
+Công dụng chính của Persona (Chân dung người dùng) là gì?
+* Giúp người lập trình hiểu được góc nhìn của người dùng.
+Giúp người lập trình loại bỏ các tính năng không cần thiết.
+Giúp người lập trình tránh phức tạp hóa phần mềm.
+Giúp người lập trình tiết kiệm tài nguyên và chi phí.
+
+Điều quan trọng nhất khi tạo một persona là gì?
+* Bối cảnh (Background) và lý do muốn dùng phần mềm.
+Kinh nghiệm cũng như thành tựu chuyên môn.
+Đã từng sử dụng các phần mềm tương tự.
+Điều kiện tài chính phù hợp.
+
+Tầm quan trọng của Persona đối với các nhà phát triển phần mềm (Nó nên bao gồm những gì)?
+* Bao gồm thông tin về cá nhân, chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm của họ đối với sản phẩm.
+Chỉ bao gồm thông tin về cá nhân và chi tiết công việc.
+Chỉ bao gồm chi tiết công việc, học vấn và kinh nghiệm.
+Bao gồm chi tiết công việc, học vấn, kinh nghiệm và sự quan tâm đối với sản phẩm (thiếu thông tin cá nhân).
+
+Tại sao cần hiểu người dùng tiềm năng?
+* Để thiết kế các tính năng mà họ có thể thấy hữu ích và để thiết kế giao diện người dùng phù hợp với họ.
+Dễ dàng bán sản phẩm cho họ.
+Để nắm bắt nhu cầu thị trường.
+Để đánh giá lại sản phẩm.
+
+Đâu KHÔNG phải phương pháp để hiểu cách người dùng sử dụng phần mềm?
+* Phỏng đoán.
+Phỏng vấn.
+Khảo sát.
+Phân tích nhiệm vụ.
+
+Kịch bản (Scenarios) là gì?
+* Là một câu chuyện mô tả cách một người dùng hoặc một nhóm người dùng, có thể sử dụng hệ thống của bạn.
+Là tên một nhóm nhạc.
+Là tên một bài hát.
+Là tên một người dùng.
+
 Khi viết một kịch bản (scenario), nên dựa trên góc nhìn của ai?
 * Người dùng (The user).
 Lập trình viên (The developer).
 Công ty (The company).
 Người viết (The writer).
+
+Tại sao Kịch bản (Scenarios) lại tốt hơn User Stories (trong một số ngữ cảnh)?
+* Mọi người dễ liên hệ hơn với thông tin và lối kể chuyện tự nhiên trong các kịch bản.
+Các kịch bản giúp các nhà phát triển thống nhất hiểu biết chung về hệ thống.
+Không cần phải bao gồm tất cả mọi thứ trong một kịch bản.
+Các kịch bản cung cấp ít bối cảnh hơn.
+
+Một tính năng (Feature) của một sản phẩm phần mềm là gì?
+* Một tính năng là một đoạn chức năng (functionality) được cung cấp bởi 1 sản phẩm phần mềm.
+Một tính năng là một đoạn mã được cung cấp bởi một sản phẩm phần mềm.
+Một tính năng là một đoạn chức năng được cung cấp bởi nhà phát triển.
+Một tính năng là một đoạn mã được cung cấp bởi nhà phát triển.
+
+Danh sách tính năng (Feature list) phải là gì?
+* Là điểm khởi đầu để thiết kế và phát triển sản phẩm.
+Là điểm cuối cùng để phát triển sản phẩm.
+Là quá trình để thiết kế và phát triển sản phẩm.
+Là cơ sở để phát triển sản phẩm.
+
+Trong việc nhận diện tính năng (Feature Recognition), các yếu tố cốt lõi nào đáp ứng điều kiện để sử dụng định danh?
+* Độc lập (Independent), mạch lạc (coherent) và phù hợp (relevant).
+Kiến thức công nghệ (Technology Knowledge).
+Hiệu quả sử dụng (Use effect).
+Mạch lạc và phù hợp (Coherent and relevant).
+
+Tính từ nào sau đây KHÔNG phù hợp để mô tả các tính năng?
+* Hời hợt / Bề ngoài (Superficial).
+Tính độc lập (Independence).
+Tính mạch lạc (Coherence).
+Tính phù hợp (Relevance).
+
+Sáu yếu tố quan trọng trong thiết kế tập hợp tính năng (Feature set design) là gì?
+* Sự đơn giản, chức năng, sự quen thuộc, tính mới mẻ, tự động hóa, kiểm soát.
+Phức tạp, chức năng, sự quen thuộc, tính mới mẻ, bán tự động, kiểm soát.
+Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, bán tự động, kiểm soát.
+Sự đơn giản, chức năng, sự quen thuộc, tiết kiệm tiền, tự động hóa, kiểm soát.
 
 Yếu tố nào KHÔNG nằm trong các yếu tố thiết kế tập hợp tính năng (Feature set design factors)?
 * Bảo mật (Security).
@@ -172,32 +136,50 @@ Sự đơn giản, Chức năng, Kiểm soát, Sự quen thuộc, Tự động h
 Thiết kế đơn giản, Khách hàng tại chỗ, Nhịp độ bền vững.
 Phát hành nhỏ, Phát triển hướng kiểm thử (TDD).
 
-User Story KHÔNG nên làm điều gì?
-* Thảo luận về các công nghệ cụ thể.
-Viết ngắn gọn.
-Mô tả một điều mà phần mềm cần thực hiện cho khách hàng.
-Viết bằng ngôn ngữ mà khách hàng có thể hiểu được.
+Feature creep (Sự bành trướng tính năng) là gì?
+* Là những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm, dẫn đến sự phình to và phức tạp hóa phần mềm thay vì một thiết kế đơn giản.
+Một tường thuật mô tả cách người dùng sử dụng hệ thống để làm điều họ muốn.
+Những tính năng bổ sung vượt quá chức năng cơ bản của sản phẩm (không gây hại).
+Một tường thuật mô tả cách lập trình viên sử dụng hệ thống để làm điều họ muốn.
 
-Tính từ nào sau đây KHÔNG phù hợp để mô tả các tính năng?
-* Hời hợt / Bề ngoài (Superficial).
-Tính độc lập (Independence).
-Tính mạch lạc (Coherence).
-Tính phù hợp (Relevance).
+Đâu KHÔNG phải là yếu tố thúc đẩy việc thiết kế các sản phẩm phần mềm?
+* Cố gắng hiểu những tính năng nào của sản phẩm sẽ hữu ích cho người dùng và những gì họ thích và không thích về các sản phẩm mà họ sử dụng.
+Các nhu cầu của doanh nghiệp và người tiêu dùng mà các sản phẩm hiện tại không đáp ứng được.
+Không hài lòng với các sản phẩm phần mềm tiêu dùng hoặc kinh doanh hiện có.
+Những thay đổi trong công nghệ giúp tạo ra những loại sản phẩm hoàn toàn mới.
 
-Yếu tố nào thuộc về Thiết kế tính năng (Feature design)?
-* Kiến thức công nghệ (Technology knowledge).
-Kiến thức Website (Website knowledge).
-Kiến thức máy chủ (Server knowledge).
-Kiến thức phát triển (Develop knowledge).
+DOD (Definition of Done - Định nghĩa Hoàn thành) là trách nhiệm của ai?
+* Development Team (Nhóm phát triển).
+PO (Product Owner).
+PM (Product Manager).
+RTE (Release Train Engineer).
 
-Phương pháp nào sau đây KHÔNG được sử dụng trong việc ưu tiên User Story?
-* Tất cả các phương pháp trên đều được sử dụng.
-Đánh mức ưu tiên 1-10.
-Weighted Shortest Job First (WSJF).
-Cao, Trung bình, Thấp (High, Medium, Low).
+DOR (Definition of Ready - Định nghĩa Sẵn sàng) là trách nhiệm của ai?
+* PO (Product Owner).
+Development Team (Nhóm phát triển).
+PM (Product Manager).
+RTE (Release Train Engineer).
 
-Tại sao Kịch bản (Scenarios) lại tốt hơn User Stories (trong một số ngữ cảnh)?
-* Mọi người dễ liên hệ hơn với thông tin và lối kể chuyện tự nhiên trong các kịch bản.
-Các kịch bản giúp các nhà phát triển thống nhất hiểu biết chung về hệ thống.
-Không cần phải bao gồm tất cả mọi thứ trong một kịch bản.
-Các kịch bản cung cấp ít bối cảnh hơn.
+Một trong những điều NÊN làm trong quá trình sàng lọc Product Backlog (Backlog Refinement)?
+* Chia User Stories thành các nhiệm vụ (tasks) để triển khai.
+Ép buộc mọi thứ vào User Stories.
+Tham gia vào các cuộc thảo luận kỹ thuật vô tận.
+Product Owner đi kèm với giải pháp (solution) đã được thiết lập sẵn.
+
+Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là?
+* Mâu thuẫn về quyền lợi giữa những người phát triển và những người kiểm thử sẽ giảm.
+Những người phát triển phần mềm không cần làm bất kỳ kiểm thử nào.
+Những người lạ sẽ kiểm phần mềm rất chặt.
+Khách hàng sẽ tin tưởng nhóm kiểm thử hơn.
+
+Một bảng quyết định (Decision table) được dùng khi nào?
+* Khi một tập phức tạp những điều kiện và hoạt động xuất hiện trong thành phần.
+Chỉ khi xây dựng hệ chuyên gia.
+Để hướng dẫn phát triển kế hoạch quản lý dự án.
+Để tư liệu tất cả những trạng thái phụ thuộc.
+
+Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào?
+* Dữ liệu và điều khiển của hệ thống.
+Tính truy cập và tính tin cậy của hệ thống.
+Tính chức năng của hệ thống.
+Những chi tiết thực thi của hệ thống.
