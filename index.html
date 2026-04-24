@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kỹ thuật phần mềm - Study Hub</title>
+    <title>Study Hub - Phenikaa ICT</title>
     <style>
         :root { --primary: #3182ce; --bg: #f0f4f8; --text: #2d3748; --success: #48bb78; --error: #f56565; }
         body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
@@ -13,6 +13,9 @@
         .module-card { background: #f8fafc; border: 2px solid #edf2f7; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: 0.2s; font-weight: 600; font-size: 14px; display: flex; align-items: center; justify-content: center; min-height: 60px; }
         .module-card:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-3px); background: #ebf8ff; }
         
+        .subject-card { font-size: 18px; padding: 25px; min-height: 80px; background: #ebf8ff; border-color: #bee3f8; color: #2b6cb0; }
+        .subject-card:hover { background: #3182ce; color: #fff; border-color: #3182ce; }
+
         .header-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #edf2f7; }
         h2 { margin: 0 0 15px 0; line-height: 1.4; font-size: 1.15rem; }
         .options { display: flex; flex-direction: column; gap: 10px; }
@@ -24,6 +27,8 @@
         .btn { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.3s; }
         .btn:hover { opacity: 0.9; transform: scale(1.02); }
         .btn-home { background: #718096; padding: 8px 15px; font-size: 14px; }
+        .btn-back { background: #cbd5e0; color: #2d3748; padding: 8px 15px; font-size: 14px; margin-bottom: 10px; }
+        .btn-back:hover { background: #a0aec0; }
         
         #home-screen, #quiz-screen, #result-screen { display: none; }
         .active { display: block !important; }
@@ -34,9 +39,15 @@
 
 <div class="container">
     <div id="home-screen" class="active">
-        <h2 style="text-align: center; font-size: 1.5rem;">🚀 Ôn thi KTPM - Phenikaa ICT</h2>
-        <p style="text-align: center; color: #718096;">Chọn Module để bắt đầu cày cuốc:</p>
-        <div class="module-grid" id="module-list"></div>
+        <h2 style="text-align: center; font-size: 1.5rem;">🚀 Study Hub - Phenikaa ICT</h2>
+        <p id="home-desc" style="text-align: center; color: #718096;">Chọn môn học để bắt đầu cày cuốc:</p>
+        
+        <div class="module-grid" id="subject-list"></div>
+
+        <div id="module-container" style="display: none; margin-top: 15px;">
+            <button class="btn btn-back" onclick="showSubjects()">⬅ Quay lại chọn môn</button>
+            <div class="module-grid" id="module-list"></div>
+        </div>
     </div>
 
     <div id="quiz-screen">
@@ -66,38 +77,80 @@
 </div>
 
 <script>
-    // Cấu hình khớp hoàn toàn với ảnh tên file của ông
-    const chapters = [
-        { name: "Chương 1", file: "data/cauhoic1.txt" },
-        { name: "Chương 2", file: "data/cauhoic2.txt" },
-        { name: "Chương 3", file: "data/cauhoic3.txt" },
-        { name: "Chương 4", file: "data/cauhoic4.txt" },
-        { name: "Chương 5", file: "data/cauhoic5.txt" },
-        { name: "Chương 6", file: "data/cauhoic6.txt" },
-        { name: "Chương 7", file: "data/cauhoic7.txt" },
-        { name: "Chương 8", file: "data/cauhoic8.txt" },
-        { name: "Chương 9", file: "data/cauhoic9.txt" },
-        { name: "Chương 10", file: "data/cauhoic10.txt" },
-        { name: "Full Ngân Hàng", file: "data/cauhoi.txt" }
+    // Database gộp cả 2 môn
+    const db = [
+        {
+            id: "ktpm",
+            name: "💻 Kỹ thuật phần mềm",
+            files: [
+                { name: "Chương 1", file: "data/cauhoic1.txt" },
+                { name: "Chương 2", file: "data/cauhoic2.txt" },
+                { name: "Chương 3", file: "data/cauhoic3.txt" },
+                { name: "Chương 4", file: "data/cauhoic4.txt" },
+                { name: "Chương 5", file: "data/cauhoic5.txt" },
+                { name: "Chương 6", file: "data/cauhoic6.txt" },
+                { name: "Chương 7", file: "data/cauhoic7.txt" },
+                { name: "Chương 8", file: "data/cauhoic8.txt" },
+                { name: "Chương 9", file: "data/cauhoic9.txt" },
+                { name: "Chương 10", file: "data/cauhoic10.txt" },
+                { name: "Full Ngân Hàng", file: "data/cauhoi.txt" }
+            ]
+        },
+        {
+            id: "lsd",
+            name: "🇻🇳 Lịch sử Đảng",
+            files: [
+                { name: "Chương 1", file: "data/c1.txt" },
+                { name: "Chương 2", file: "data/c2.txt" },
+                { name: "Chương 3", file: "data/c3.txt" },
+                { name: "Học thêm", file: "data/hocthem.txt" }
+            ]
+        }
     ];
 
     let allQuestions = [], currentQuizSet = [], wrongQuestions = [];
     let currentIndex = 0, score = 0, lastFile = "";
 
-    const menu = document.getElementById('module-list');
-    chapters.forEach(ch => {
-        const card = document.createElement('div');
-        card.className = 'module-card';
-        card.innerText = ch.name;
-        card.onclick = () => startQuiz(ch.file);
-        menu.appendChild(card);
-    });
+    // Khởi tạo menu môn học
+    function initMenu() {
+        const subjList = document.getElementById('subject-list');
+        subjList.innerHTML = '';
+        db.forEach(subj => {
+            const card = document.createElement('div');
+            card.className = 'module-card subject-card';
+            card.innerText = subj.name;
+            card.onclick = () => showModules(subj);
+            subjList.appendChild(card);
+        });
+    }
+
+    function showSubjects() {
+        document.getElementById('subject-list').style.display = 'grid';
+        document.getElementById('module-container').style.display = 'none';
+        document.getElementById('home-desc').innerText = "Chọn môn học để bắt đầu cày cuốc:";
+    }
+
+    function showModules(subj) {
+        document.getElementById('subject-list').style.display = 'none';
+        document.getElementById('module-container').style.display = 'block';
+        document.getElementById('home-desc').innerText = `Môn: ${subj.name} - Chọn phần để ôn:`;
+        
+        const modList = document.getElementById('module-list');
+        modList.innerHTML = '';
+        subj.files.forEach(ch => {
+            const card = document.createElement('div');
+            card.className = 'module-card';
+            card.innerText = ch.name;
+            card.onclick = () => startQuiz(ch.file);
+            modList.appendChild(card);
+        });
+    }
 
     async function startQuiz(filePath) {
         lastFile = filePath;
         const home = document.getElementById('home-screen');
         const originalContent = home.innerHTML;
-        home.innerHTML = "<div class='loading-overlay'>正在 tải dữ liệu...</div>";
+        home.innerHTML = "<div class='loading-overlay'>Đang tải dữ liệu...</div>";
         
         try {
             const response = await fetch(filePath);
@@ -115,6 +168,7 @@
             wrongQuestions = [];
             currentIndex = 0; score = 0;
             
+            home.innerHTML = originalContent; // Restore DOM
             showScreen('quiz-screen');
             loadQuestion();
         } catch (err) {
@@ -125,7 +179,6 @@
 
     function parseQuestions(text) {
         allQuestions = [];
-        // Tách block câu hỏi (ngăn cách bởi ít nhất 1 dòng trống)
         const blocks = text.trim().split(/\n\s*\n/);
         blocks.forEach(block => {
             const lines = block.split('\n').map(l => l.trim()).filter(l => l.length > 0);
@@ -208,6 +261,7 @@
     function showScreen(id) {
         document.querySelectorAll('.container > div').forEach(d => d.classList.remove('active'));
         document.getElementById(id).classList.add('active');
+        if (id === 'home-screen') initMenu();
     }
 
     function goHome() { 
@@ -221,6 +275,9 @@
         }
         return arr;
     }
+
+    // Khởi chạy khi load xong
+    initMenu();
 </script>
 </body>
 </html>
