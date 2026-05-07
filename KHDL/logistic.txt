@@ -1,0 +1,173 @@
+Điều kiện dừng của thuật toán Gradient Descent là gì?
+* Số vòng lặp tối đa đã đạt hoặc giá trị của bước nhảy đạt ngưỡng giới hạn.
+Lỗi của mô hình bằng 0.
+Phân loại được 100% dữ liệu.
+Accuracy đạt 90%.
+
+Phân loại (phân lớp) trong học máy là quá trình gì?
+* Chia các lớp dữ liệu thành các nhóm hay loại khác nhau bằng việc gắn nhãn.
+Dự đoán một giá trị liên tục dựa trên các biến đầu vào.
+Gom cụm dữ liệu mà không cần gắn nhãn.
+Tối ưu hóa hàm chi phí thông qua đạo hàm.
+
+Ví dụ 'phân loại email là thư rác hoặc không phải thư rác' thuộc dạng bài toán phân loại nào?
+* Binary Classification.
+Multi-class Classification.
+Multi-label Classification.
+Imbalanced Classification.
+
+'Phân loại động vật vào các loài khác nhau' là ví dụ của loại bài toán phân loại nào?
+Binary Classification.
+* Multi-class Classification.
+Multi-label Classification.
+Imbalanced Classification.
+
+Bài toán phân loại một điểm dữ liệu vào nhiều nhãn khác nhau (VD: phân loại sản phẩm vào nhiều danh mục khác nhau) là gì?
+* Multi-label Classification.
+Imbalanced Classification.
+Binary Classification.
+Multi-class Classification.
+
+Bài toán phân loại bệnh nhân là người bình thường hoặc ung thư, trong đó số lượng bệnh nhân ung thư rất ít, thuộc dạng nào?
+* Imbalanced Classification.
+Multi-label Classification.
+Multi-class Classification.
+Reinforcement Learning.
+
+Trong các bước giải quyết bài toán phân loại, sau bước 'Chọn và trích xuất các đặc trưng', bước tiếp theo thường là gì?
+* Chọn mô hình phù hợp: Logistic Regression, Decision Tree, SVM, Random Forest.
+Xây dựng bài toán.
+Thu thập và chuẩn bị dữ liệu.
+Triển khai mô hình vào thực tế.
+
+Logistic Regression được xem là gì trong lĩnh vực máy học?
+* Một mô hình phân loại nhị phân trong học có giám sát.
+Một thuật toán học không giám sát dùng để gom cụm.
+Một mô hình hồi quy để dự báo giá trị liên tục.
+Một kỹ thuật học tăng cường.
+
+Trong mô hình hồi quy Logistic, hàm Sigmoid được sử dụng nhằm mục đích gì?
+* Tìm ra phân phối xác suất của dữ liệu từ đầu ra của hàm tuyến tính.
+Tối ưu hóa bước nhảy trong Gradient Descent.
+Thay thế thuật toán chia tập dữ liệu train và test.
+Trích xuất tự động các đặc trưng từ văn bản.
+
+Đặc điểm hình học của hàm Sigmoid là gì?
+* Có hình dạng là một đường cong chữ S và đơn điệu tăng.
+Là một đường thẳng đi qua gốc tọa độ.
+Có hình dạng là một parabol mở lên trên.
+Có hình dạng là đường gấp khúc bậc thang.
+
+Trong bài toán phân loại nợ xấu, nhóm 'Có nợ xấu' hay 'BAD' thường được biểu diễn bằng nhãn nào?
+* Dương tính (positive) hoặc là 1.
+Âm tính (negative) hoặc là 0.
+Trung tính (neutral) hoặc là 0.5.
+Không xác định được nhãn.
+
+Theo tài liệu, Độ chính xác (Accuracy) được định nghĩa là gì?
+* Là khái quát tỷ lệ các trường hợp được dự báo đúng trên tổng số các trường hợp.
+Là tỷ lệ các trường hợp dương tính được dự báo đúng trên tổng số các trường hợp dương tính thực tế.
+Là tỷ lệ các trường hợp dự báo dương tính đúng trên tổng số các trường hợp dự báo dương tính.
+Là trung bình cộng của độ chuẩn xác và độ phủ.
+
+Độ chính xác (Accuracy) có thể gây ngộ nhận trong trường hợp nào?
+* Bài toán có tập dữ liệu bị mất cân bằng.
+Bài toán phân loại nhiều lớp (Multi-class).
+Bài toán hồi quy tuyến tính.
+Bài toán có số lượng dữ liệu ít.
+
+Độ chuẩn xác (Precision) trả lời cho câu hỏi nào?
+* Trong các trường hợp được dự báo là dương tính thì có bao nhiêu trường hợp là đúng?
+Trong số các trường hợp dương tính thực tế, mô hình dự báo đúng được bao nhiêu?
+Mô hình dự báo đúng bao nhiêu phần trăm trên tổng số toàn bộ tập dữ liệu?
+Có bao nhiêu trường hợp âm tính bị dự báo sai thành dương tính?
+
+Giả sử bài toán phân loại ung thư (1000 mẫu, 10 mẫu dương tính). Nếu mô hình dự đoán toàn bộ 1000 mẫu đều là âm tính, độ chính xác (Accuracy) đạt 99%. Hạn chế của mô hình này là gì?
+* Mô hình không phát hiện được trường hợp ung thư nào (bỏ qua tầm quan trọng của nhãn dương tính).
+Mô hình dự báo sai toàn bộ mẫu âm tính.
+Tốc độ dự báo của mô hình quá chậm.
+Mô hình bị overfitting nghiêm trọng.
+
+Chỉ số nào đo lường tỷ lệ dự báo chính xác các trường hợp dương tính trên toàn bộ các mẫu thực tế thuộc nhóm dương tính?
+* Độ phủ (Recall).
+Độ chuẩn xác (Precision).
+Độ chính xác (Accuracy).
+F1 Score.
+
+F1 Score được tính bằng cách nào?
+* Là trung bình điều hòa giữa độ chuẩn xác và độ phủ.
+Là trung bình cộng giữa độ chính xác và độ chuẩn xác.
+Là tích của độ chuẩn xác và độ phủ.
+Là bình phương của độ phủ chia cho độ chuẩn xác.
+
+Vì sao nên sử dụng F1 Score khi độ chuẩn xác và độ phủ quá chênh lệch?
+* Vì nó cân bằng được cả hai giá trị này và giúp đưa ra một đánh giá khách quan hơn.
+Vì nó luôn luôn cao hơn cả độ chuẩn xác và độ phủ.
+Vì nó bỏ qua được các dữ liệu nhiễu trong tập huấn luyện.
+Vì nó giảm thiểu chi phí tính toán của hệ thống.
+
+Trong ví dụ tính toán thước đo ở tài liệu, kết quả độ chuẩn xác đạt 52.4% có ý nghĩa gì?
+* Trong các hồ sơ được dự báo là BAD thì có 52.4% các hồ sơ được dự báo đúng.
+Trong các hồ sơ thực tế là BAD, hệ thống phát hiện được 52.4%.
+Trong toàn bộ dữ liệu, có 52.4% hồ sơ bị gán nhãn sai.
+Trong toàn bộ dữ liệu, mô hình dự báo đúng 52.4%.
+
+Trong ví dụ về hồi quy Logistic, nếu xác suất mua hàng tính được lớn hơn hoặc bằng 0.5, chúng ta đưa ra dự đoán gì?
+* "Purchased" = 1 (Yes).
+"Purchased" = 0 (No).
+"Purchased" = 0.5 (Maybe).
+Xác suất bằng 0.
+
+Giả sử mô hình phân loại nợ xấu có kết quả như sau: dự báo BAD và thực tế BAD (TP) = 110; dự báo BAD nhưng thực tế GOOD (FP) = 100. Độ chuẩn xác (Precision) cho nhãn BAD là bao nhiêu?
+* 52.4% (tính từ 110 / (110 + 100)).
+91.6%.
+55%.
+69%.
+
+Trong ma trận nhầm lẫn (Confusion Matrix), nhãn BAD được gán là dương tính (1), nhãn GOOD được gán là âm tính (0). Trường hợp dự báo là GOOD và thực tế là GOOD được gọi là gì?
+* True Negative (TN).
+True Positive (TP).
+False Negative (FN).
+False Positive (FP).
+
+Hai chỉ số Độ chuẩn xác (Precision) và Độ phủ (Recall) có điểm giống nhau là gì?
+* Có cùng tử số (các trường hợp dự báo chính xác nhóm dương tính).
+Có cùng mẫu số.
+Luôn cho giá trị bằng nhau trong bài toán mất cân bằng.
+Không được dùng trong bài toán phân loại nhị phân.
+
+Bài toán 'Phân loại khách hàng tiềm năng' có mục tiêu là gì?
+* Xác định khách hàng tiềm năng nào có thể trở thành khách hàng thực sự của công ty.
+Phát hiện các giao dịch bị đánh cắp thông tin thẻ tín dụng.
+Lọc bỏ các email chứa nội dung lừa đảo.
+Đếm số lượng sản phẩm được bán ra trong tháng.
+
+Đâu KHÔNG phải là một ứng dụng của bài toán phân loại theo nội dung bài học?
+* Dự báo mức giá cổ phiếu của một công ty trong tương lai.
+Phân loại khách hàng dựa trên hành vi mua hàng.
+Phân loại thư rác (spam) trong hộp thư đến của người dùng email.
+Phân loại giao dịch tài chính thành giao dịch hợp lệ và giao dịch gian lận.
+
+Khi chia tập dữ liệu cho bài toán máy học có giám sát, dữ liệu thường được chia thành 2 tập chính nào ở bước tiền xử lý/huấn luyện?
+* Tập train và tập test.
+Tập feature và tập label.
+Tập cluster và tập associate.
+Tập positive và tập negative.
+
+Một mô hình có Precision = 91.6% (quá lạc quan) và Recall = 55% (quá bi quan), F1 score tính được là 69%. Tác dụng của F1 score trong trường hợp này là gì?
+* Thể hiện sức mạnh trung bình, đánh giá khách quan hơn so với chỉ dùng Precision hoặc Recall.
+Giúp mô hình chạy nhanh hơn trên tập test.
+Tăng độ chính xác (Accuracy) lên mức 99%.
+Xóa bỏ hoàn toàn số lượng mẫu False Positive.
+
+Trong học có giám sát, thành phần cấu tạo nên tập dữ liệu huấn luyện (training dataset) là gì?
+* Tập các dữ liệu có gán nhãn dạng (dữ liệu, gán nhãn).
+Chỉ tập hợp các đặc trưng, không có nhãn.
+Một môi trường phần thưởng.
+Các luật liên kết giữa các biến.
+
+Trong hồi quy Logistic, nếu từ đầu ra của hàm tuyến tính Y = aX + b, để chuyển đổi sang giá trị xác suất (từ 0 đến 1) dùng để phân loại, ta cần đưa giá trị Y qua hàm số nào?
+* Hàm Sigmoid.
+Hàm Linear.
+Hàm Gradient.
+Hàm Mean Squared Error.

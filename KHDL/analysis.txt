@@ -1,0 +1,143 @@
+Trong các bước nghiên cứu giải quyết bài toán, bước đầu tiên là gì?
+Tổ chức dữ liệu, phân tích và tính toán
+Thu thập dữ liệu
+* Đặt vấn đề -> xây dựng các giả thuyết
+Kiểm chứng các giả thuyết
+
+Trong cấu trúc dữ liệu, 'Feature vectors' được định nghĩa là gì?
+Là các trường thông tin chỉ chứa dữ liệu kiểu số thực.
+Tập hợp tất cả các đối tượng được nghiên cứu trong quần thể.
+Giá trị trung bình của các biến số mô tả tập dữ liệu.
+* Tập hợp các biến số mô tả đặc điểm của đối tượng dưới dạng 1 vector.
+
+Sự khác biệt chính giữa Population (Quần thể) và Sample (Mẫu) là gì?
+* Population bao gồm toàn bộ thành viên của một tập xác định, còn Sample là tập con được tách ra từ quần thể để nghiên cứu.
+Population là tập con của Sample.
+Population luôn có biên độ sai số lớn hơn so với Sample.
+Sample bao gồm toàn bộ đối tượng thỏa mãn tiêu chí, còn Population là đại diện của Sample.
+
+Đặc trưng thống kê nào sau đây đặc biệt nhạy cảm với các điểm ngoại lệ (outliers)?
+Min (Giá trị nhỏ nhất)
+* Mean (Trung bình)
+Mode (Yếu vị)
+Median (Trung vị)
+
+Giá trị MinValue và MaxValue còn được gọi bằng thuật ngữ toán học nào?
+Mean và Median
+Variance và Standard deviation
+Quartile và Percentile
+* Infimum và Supremum
+
+Cho tập điểm: D = {1, 3, 10.0, 5, 2, 3, 1.5, 2.5, 2}. Giá trị 10.0 được coi là gì và có ảnh hưởng như thế nào?
+Là Mode, làm giảm độ phân tán của dữ liệu.
+Là Median, đóng vai trò chia đôi tập dữ liệu thành hai phần.
+* Là điểm ngoại lệ (outliers), có thể làm thay đổi đáng kể kết quả phân tích giá trị trung bình.
+Là giá trị Range, biểu thị khoảng giá trị an toàn của dữ liệu.
+
+Median (Trung vị) là giá trị mang ý nghĩa gì trong một tập dữ liệu?
+Là giá trị xuất hiện nhiều nhất trong tập dữ liệu.
+Là sự chênh lệch giữa giá trị lớn nhất và nhỏ nhất.
+* Là giá trị chia đôi tập dữ liệu.
+Là giá trị trung bình cộng của tất cả các phần tử.
+
+Mode (Yếu vị) là đại lượng thống kê được định nghĩa như thế nào?
+Là khoảng cách giữa tứ phân vị thứ nhất (Q1) và tứ phân vị thứ ba (Q3).
+Là trung bình cộng của giá trị lớn nhất và nhỏ nhất.
+* Là giá trị của phần tử có số lần xuất hiện nhiều nhất trong danh sách hoặc tập mẫu.
+Là giá trị nằm ở vị trí chính giữa khi sắp xếp dữ liệu tăng dần.
+
+Nếu dữ liệu phân bố tạo thành hình cái chuông úp, đỉnh của đường cong hình chuông này sẽ đại diện cho đại lượng nào?
+Variance (Phương sai)
+* Mode (Yếu vị)
+Standard deviation (Độ lệch chuẩn)
+Minimum (Giá trị nhỏ nhất)
+
+Phương sai (Variance) là đại lượng đặc trưng cho đặc tính nào của tập dữ liệu?
+Giá trị có tần suất xuất hiện nhiều nhất trong tập dữ liệu.
+Mức độ tương quan tuyến tính giữa hai biến độc lập.
+Điểm phân chia chính giữa của tập dữ liệu sau khi đã được sắp xếp.
+* Độ phân tán (sai số của 1 phép đo) của tập dữ liệu quanh giá trị trung bình.
+
+Mối liên hệ giữa độ lệch chuẩn (Standard deviation) và sự phân tán của dữ liệu là gì?
+Độ lệch chuẩn càng cao thì giá trị dữ liệu càng gần mức trung bình.
+Độ lệch chuẩn hoàn toàn độc lập và không liên quan đến sự phân tán dữ liệu.
+* Độ lệch chuẩn của một giá trị càng thấp nghĩa là giá trị đó càng gần với giá trị trung bình của tập hợp.
+Độ lệch chuẩn thấp nghĩa là giá trị thống kê có độ phân tán rất lớn.
+
+Cả độ lệch chuẩn và phương sai đều được sử dụng nhằm mục đích gì trong thống kê?
+* Đo lường các mức độ lan truyền (độ phân tán) của dữ liệu trong bất kỳ tập dữ liệu nào.
+Xác định tỷ lệ phần trăm các điểm dữ liệu lớn hơn giá trị cực đại.
+Xác định điểm tập trung duy nhất của toàn bộ dữ liệu.
+Tính toán hệ số tương quan tuyến tính giữa hai biến số.
+
+Trong thống kê, đại lượng tứ phân vị (Quartiles) chia một tập hợp dữ liệu đã sắp xếp thành bao nhiêu phần có số lượng quan sát đều nhau?
+* 4 phần
+3 phần
+5 phần
+2 phần
+
+Giá trị tứ phân vị thứ hai (Q2) tương đương với đại lượng thống kê nào?
+* Median (Trung vị)
+Variance (Phương sai)
+Mean (Trung bình)
+Mode (Yếu vị)
+
+Giá trị tứ phân vị thứ nhất (Q1) được xác định như thế nào?
+Bằng trung vị của phần trên tập dữ liệu.
+* Bằng trung vị của phần dưới tập dữ liệu.
+Bằng trung vị của toàn bộ tập dữ liệu.
+Bằng giá trị trung bình cộng của Q2 và Q3.
+
+Mục đích của việc phân tích tương quan của 2 features (đặc trưng) trong 1 tập dữ liệu là gì?
+Chỉ ra điểm ngoại lệ của tập dữ liệu.
+Đo lường giá trị nhỏ nhất và lớn nhất của từng feature.
+Tính toán phương sai riêng biệt của từng feature.
+* Tìm ra quan hệ của 2 features như thế nào (x, y).
+
+Hệ số tương quan (Correlation coefficients) là chỉ số đánh giá điều gì giữa hai biến số x và y?
+* Độ mạnh của mối quan hệ tuyến tính giữa hai biến số.
+Khoảng chênh lệch giữa giá trị lớn nhất của biến x và biến y.
+Mức độ phân tán của biến x so với trung bình của biến y.
+Giá trị trung bình cộng của toàn bộ tập dữ liệu x và y.
+
+Hiệp phương sai (Covariance) là thước đo thể hiện điều gì?
+Khoảng cách giữa điểm tứ phân vị thứ nhất và tứ phân vị thứ ba.
+Số lượng các điểm dữ liệu ngoại lệ nằm ngoài vùng phân bố.
+* Hai biến số thay đổi cùng nhau như thế nào.
+Sai số của giá trị trung bình so với giá trị lớn nhất.
+
+Trong ma trận hiệp phương sai (Covariance matrix), các giá trị nằm trên đường chéo chính (diagonal values) thể hiện đại lượng nào?
+Tứ phân vị (Quartiles) của các biến.
+Trung vị (Median) của từng biến.
+* Phương sai (Variances) của từng biến tương ứng.
+Hệ số tương quan (Correlation) giữa các biến.
+
+Dựa vào ví dụ trong tài liệu, cho tập điểm môn Văn: D = {1, 3, 10.0, 5, 2, 3, 1.5, 2.5, 2}. Nếu bỏ đi điểm ngoại lệ là 10.0 thì điểm trung bình (Mean) của tập dữ liệu còn lại là bao nhiêu?
+3.0
+2.0
+* 2.5
+3.5
+
+Cho tập mẫu sau: {1, 3, 6, 6, 6, 7, 7, 12, 12, 17}. Giá trị yếu vị (Mode) của tập mẫu này là bao nhiêu?
+* 6
+12
+7
+3
+
+Cho tập mẫu gồm 10 phần tử đã được sắp xếp: {1, 3, 6, 6, 6, 7, 7, 12, 12, 17}. Giá trị trung vị (Median) của tập dữ liệu này là bao nhiêu?
+* 6.5
+6.25
+6
+7
+
+Cho tập dữ liệu đã sắp xếp tăng dần: {1, 3, 5, 7, 9, 11, 13}. Giá trị Khoảng tứ phân vị (Interquartile Range - IQR) của tập dữ liệu này là bao nhiêu?
+* 8
+6
+10
+12
+
+Cho hai biến x và y có hiệp phương sai Cov(x, y) = 4. Biết độ lệch chuẩn của x là 2 và độ lệch chuẩn của y là 4. Hệ số tương quan (Correlation coefficient) giữa hai biến này là bao nhiêu?
+0.8
+* 0.5
+-0.5
+1.0

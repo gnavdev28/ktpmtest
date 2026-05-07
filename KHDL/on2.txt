@@ -1,0 +1,298 @@
+Đáp án đầy đủ nhất khi nói về khía cạnh chính của khoa học dữ liệu?
+Tiền sử lí dữ liệu
+Phân tích dữ liệu
+* Tất cả các lựa chọn còn lại
+Thu thập dữ liệu
+
+Đại lượng nào sau đây KHÔNG được coi là đặc trưng thống kê về cân nặng của gà trong một trang trại?
+Giá trị trung vị (median)
+Giá trị trung bình (mean)
+Phương sai (Variance)
+* Tên chủ trang trại
+
+Mục đích của trực quan trong dữ liệu trong khoa học dữ liệu là gì?
+Để chuẩn bị dữ liệu cho việc xây dựng các thuật toán học máy
+Để tìm kiếm các quy luật trong dữ liệu
+Để làm sạch và xử lí dữ liệu
+* Để thực hiện việc trình bày thông tin bằng ngôn ngữ hình ảnh phục vụ việc trao đổi thông điệp và dữ liệu với các bên liên quan.
+
+Việc chuẩn hoá dữ liệu là gì?
+Là quá trình biến đổi dữ liệu theo phân phối Gaussian
+Là quá trình biến đổi dữ liệu sang một định dạng (format) chuẩn
+Là quá trình loại bỏ những điểm những dữ liệu bất thường
+* Là quá trình thay đổi lại thang đo của các đại lượng trong tập dữ liệu để dùng trong học máy
+
+Cho tập dữ liệu sau X = [-1.444, -1.467, -1.224, -1.151, -1.402]. Giá trị độ lệch chuẩn (std) của tập dữ liệu trên là?
+0.712
+* 0.127
+-0.127
+0.712
+
+Cho tập dữ liệu sau: X = [-0.044, -0.314, -0.03, -0.01, -0.205]. Giá trị trung vị (median) của tập dữ liệu trên là?
+* -0.044
+-0.030
+-0.205
+-0.314
+
+Cho tập dữ liệu sau: X = [-0.426, -0.428, -0.464, -0.207, -0.276]. Giá trị trung vị (median) của tập dữ liệu trên là?
+* -0.426
+-0.207
+0.428
+-0.276
+
+Một hãng oto muốn nghiên cứu khả năng mua một loại xe mới của khách hàng, đối tượng nghiên cứu phù hợp nhất là:
+Tất cả các công nhân Việt Nam
+* Những người trưởng thành có độ tuổi từ 18 đến 60
+Tất cả người dân sống tại TPHCM
+Tất cả những người dân sống tại TP HN
+
+Cho tập dữ liệu sau: X = [0.929, -1.656, -2.281, -4.177, 1.712]. Giá trị trung bình của tập dữ liệu trên là:
+1.095
+* -1.095
+-0.995
+2.092
+
+Mệnh đề nào sau đây ĐÚNG trong các mệnh đề sau:
+Trí tuệ nhân tạo là khả năng thích nghi của các loài động vật
+Trí tuệ nhân tạo là khả năng của con người có thể xây dựng các chương trình máy tính có thể học.
+* Trí tuệ nhân tạo có thể được xem như một chương trình máy tính có thể khái quát hoá tri thức từ dữ liệu để thực hiện một chức năng nào đó giống con người.
+Trí tuệ nhân tạo là trí tuệ tự nhiên của con người.
+
+Biểu đồ tần suất (histogram) là gì?
+Là biểu đồ thể hiện sự phân phối của các điểm
+* Là biểu đồ thể hiện tần suất xuất hiện của các điểm dữ liệu
+Là biểu đồ thể hiện giá trị trung bình của tập dữ liệu
+Là biểu đồ thể hiện mối quan hệ giữa các biến
+
+Cho tập dữ liệu sau: X = [-0.703, -0.344, -0.669, -0.636, -0.913]. Giá trị trung bình của tập dữ liệu trên là?
+0.653
+-0.365
+0.365
+* -0.653
+
+Cho tập dữ liệu sau: X = [-1.217, -2.059, -0.868, -0.341, -1.237]. Giá trị trung bình của tập dữ liệu trên là:
+-0.615
+-0.651
+0.615
+* -1.144
+
+Phát biểu nào sau đây không chính xác?
+Giá trị trung bình của một tập dữ liệu luôn lớn hơn giá trị nhỏ nhất
+Phương sai là đại lượng đặc trưng cho độ phân tán của tập dữ liệu
+Giá trị trung bình của một tập dữ liệu luôn nhỏ hơn giá trị lớn nhất
+* Phương sai là đại lượng đo lường dữ liệu
+
+Đặc trưng thuộc tính của dữ liệu là gì?
+Vector có số thành phần bằng tổng số điểm dữ liệu và số thuộc tính
+Là số đối tượng nghiên cứu trong tập dữ liệu
+Vector trong không gian 3 chiều
+* Là tập hợp các thuộc tính của các đối tượng nghiên cứu
+
+Một tập dữ liệu là gì?
+Tập hợp các thuật toán
+Tập hợp các công cụ để lưu trữ dữ liệu
+Tập hợp các mô hình toán học
+* Tập hợp thông tin nguyên thuỷ của các đối tượng thoả mãn một điều kiện nghiên cứu nào đó.
+
+Một tập dữ liệu thường được coi là một bảng, trong đó:
+* Số hàng bằng số điểm dữ liệu, số cột là số thuộc tính của các đối tương dữ liệu
+Số hàng luôn bằng số cột và bằng số điểm dữ liệu
+Số hàng bằng số điểm dữ liệu, số cột là một đặc trưng (thuộc tính) của các điểm dữ liệu.
+Số hàng bằng số cột
+
+Để nghiên cứu khả năng mua hàng của một khách hàng thì các đặc trưng nào về khách hàng là phù hợp với đối tượng nghiên cứu?
+* Tuổi, giới tính, thu nhập, địa chỉ, nghề nghiệp
+Địa chỉ, địa chỉ email, chiều cao, cân nặng
+Địa chỉ, số điện thoại, nhóm máu, nghề nghiệp
+Địa chỉ email, tên, giới tính, nhóm máu.
+
+Cho tập dữ liệu sau: X = [-1.217, -2.059, -0.868, -0.342, -1.237]. Giá trị độ lệch chuẩn (std) của tập dữ liệu trên là:
+-0.615
+-0.651
+0.615
+* 0.561
+
+Cho tập dữ liệu sau: X = [-1.444, -1.467, -1.224, -1.151, -1.402]. Giá trị độ lệch chuẩn của tập dữ liệu:
+0.712
+* 0.127
+-0.127
+0.712
+
+Mục đích chính của khoa học dữ liệu là gì?
+* Nghiên cứu để trích xuất các giá trị ẩn trong dữ liệu phục vụ việc đưa ra các quyết định để giải quyết một bài toán nghiệp vụ nào đó.
+Tất cả các đáp án khác đều đúng
+Nghiên cứu để lưu trữ và quản lí dữ liệu
+Để trực quan hoá dữ liệu và xây dựng báo cáo
+
+Phần mềm nào sau đây Không phải là công cụ chính của khoa học dữ liệu?
+Ngôn ngữ lập trình R
+Các phần mềm xử lý bảng tính (spreadsheet - Excel)
+* Microsoft Word
+Ngôn ngữ lập trình Python
+
+Định nghĩa của khoa học dữ liệu là gì?
+Là việc sử dụng các mô hình thống kê để phân tích dữ liệu
+Là quá trình thu thập lưu trữ và quản lý dữ liệu
+* Là lĩnh vực nghiên cứu liên ngành kết hợp toán thống kê khoa học dữ liệu và một số kiến thức chuyên môn sâu của dữ liệu để tìm kiếm các quy luật từ các tập dữ liệu.
+Là việc tạo ra các biểu đồ trực quan hoá dữ liệu để trình bày các quy luật trong dữ liệu.
+
+Vai trò của nhà khoa học dữ liệu là gì?
+Xây dựng các mô hình dự báo và thuật toán
+* Tất cả các phương án khác
+Thu thập và làm sạch dữ liệu
+Xây dựng các phương thức trao đổi thông tin tóm tắt bản chất của dữ liệu liên quan
+
+Mục đích chính trong công việc của các nhà khoa học dữ liệu là gì?
+Cung cấp các gợi ý cho việc phát triển sản phẩm và dịch vụ mới
+Cải tiến quá trình xây dựng các quyết định trong kinh doanh
+* Tất cả các phương pháp nghiên cứu
+Hỗ trợ các nghiên cứu khoa học
+
+Các kĩ năng cần có để thực thi một nhà phân tích dữ liệu cần có?
+Kỹ năng phân tích thống kê dữ liệu
+Kỹ năng lập trình
+Kỹ năng giao tiếp và trình bày
+* Tất cả các kĩ năng được liệt kê
+
+Các hàng trong một bảng dữ liệu thường chứa các thông tin gì?
+Là một tập con thuộc các thuộc tính của một dữ liệu
+Là một tập con của các trường thông tin
+Là một trường thông tin chứa giá trị của một thuộc tính của các mẫu (đối tượng) dữ liệu
+* Là các mẫu (đối tượng) trong tập dữ liệu
+
+Một đặc trưng của các mẫu (đối tượng) trong tập dữ liệu là gì?
+* Là một thuộc tính của các mẫu dữ liệu
+Là một đối tượng trong tập dữ liệu
+Là một hàng trong bảng dữ liệu
+Là một tập hợp các đối tượng được nghiên cứu
+
+Phát biểu nào sau đây là KHÔNG chính xác?
+Giá trị trung bình của một tập dữ liệu luôn lớn giá trị nhỏ nhất
+Phương sai là đại lượng đặc trưng cho độ phân tán của tập dữ liệu
+Giá trị trung bình của một tập dữ liệu luôn nhỏ hơn giá trị lớn nhất
+* Phương sai là đại lượng đo lường dữ liệu
+
+Đại lượng nào sau đây KHÔNG được coi là đặc trưng thống kê về cân nặng của đàn gà trong một trang trại?
+Giá trị trung vị
+Phương sai
+Giá trị trung bình
+* Tên người chủ trại
+
+Công cụ nào sau đây không dùng để biểu diễn trực quan hoá dữ liệu?
+* Các mô hình hồi qui tuyến tính
+Box plot
+Bar plot
+Scatter plot
+
+Đại lượng trung vị là gì?
+* Là đại lượng chia đôi tập dữ liệu
+Là trung bình cộng của tập dữ liệu
+Là giá trị có tần suất xuất hiện nhiều nhất
+Là giá trị trung bình của tập dữ liệu
+
+Một tập dữ liệu là gì?
+Tập các thuật toán
+* Tập hợp thông tin nguyên thuỷ của các đối tượng thoả mãn một điều kiện nghiên cứu nào đó
+Tập hợp các công cụ để lưu trữ dữ liệu
+Tập hợp các mô hình toán học
+
+Bước đầu tiên trong một quá trình làm khoa học dữ liệu?
+Phân tích dữ liệu
+Trực quan hoá dữ liệu
+Làm sạch dữ liệu
+* Thu thập dữ liệu
+
+Mục tiêu chính của việc làm sạch dữ liệu là gì?
+Để loại bỏ những điểm dữ liệu bị thiếu và không phù hợp
+Để bảo đảm tính chính xác và tương thích của dữ liệu
+* Cả 2 đáp án trên
+
+Một tập dữ liệu được coi là một bảng:
+Số hàng bằng số điểm dữ liệu số cột là một đặc trưng (thuộc tính) của điểm dữ liệu
+Số hàng bằng số cột
+Số hàng luôn bằng số cột và bằng số điểm dữ liệu
+* Số hàng bằng số mẫu (đối tượng) của tập dữ liệu số cột là số thuộc tính của các mẫu (đối tượng) dữ liệu
+
+Chương trình máy tính nào sau đây KHÔNG được coi là một ứng dụng của trí tuệ nhân tạo ?
+Chương trình điều khiển xe tự lái
+* Chương trình quản lý sinh viên
+Chương trình gợi ý các sản phẩm hoặc dịch vụ cho khách hàng
+Chương trình nhận diện khuôn mặt
+
+Đặc trưng thuộc tính của tập dữ liệu là gì?
+* Là tập hợp các thuộc tính (giá trị thuộc tính) của các đối tượng nghiên cứu
+Chính là số đối tượng nghiên cứu trong tập dữ liệu
+Vector có số thành phần bằng tổng số điểm dữ liệu và số thuộc tính
+Vector trong không gian 3 chiều
+
+Mệnh đề nào sau đây ĐÚNG?
+Trí tuệ nhân tạo là trí tuệ của con người
+Trí tuệ nhân tạo là khả năng thích nghi của các loài động vật
+* Trí tuệ nhân tạo có thể được xem như một chương trình máy tính có thể khái quát hoá tri thức từ dữ liệu để thực hiện một chức năng nào đó giống như một chuyên gia trong lĩnh vực đó.
+Trí tuệ nhân tạo là khả năng của con người có thể xây dựng các chương trình máy tính có thể học.
+
+Hệ số tương quan của 2 biến là gì?
+Là đại lượng biểu diễn mối quan hệ giữa các giá trị trung bình của hai biến được chuẩn hoá
+* Là đại lượng biểu diễn mối quan hệ giữa các giá trị của hai biến đã được chuẩn hoá.
+Là đại lượng biểu diễn mối quan hệ giữa các giá trị trung bình của hai biến
+Là đại lượng biểu diễn mối quan hệ giữa hai biến.
+
+Chức năng của tập huấn luyện trong học máy là gì?
+* Dùng để huấn luyện mô hình
+Dùng để so sánh với các mô hình khác
+Dùng để đánh giá mô hình
+Dùng để kiểm tra độ chính xác của mô hình.
+
+Quá trình xây dựng một mô hình học máy thường gồm các bước nào?
+Tiền sử lý dữ liệu
+Huấn luyện mô hình
+Thu nhập dữ liệu
+* Tất cả các bước trên.
+
+Trong quá trình kiểm định một mô hình học máy phần trăm dữ liệu dành cho tập kiểm tra thường là bao nhiêu?
+10-20%
+40-50%
+30-40%
+* 20-30%
+
+Một mô hình hồi quy tuyến tính thường được sử dụng để làm gì?
+Tìm ra mối quan hệ phi tuyến tính giữa các biến
+Tìm ra các mẫu trong tập dữ liệu
+* Dự đoán một biến phụ thuộc từ một hoặc nhiều biến độc lập
+Phân loại các điểm dữ liệu vào các nhóm khác nhau
+
+Hệ số hồi quy trong một mô hình hồi quy tuyến tính thể hiện điều gì?
+Mối quan hệ giữa biến phụ thuộc khi biến độc lập thay đổi
+* Mức độ biến động của biến phụ thuộc khi biến độc lập thay đổi
+Giá trị trung bình của biến phụ thuộc
+Giá trị trung bình của biến độc lập
+
+Phát biểu nào sau đây đúng về quá trình tiền xử lí dữ liệu?
+Là bước không quan trọng trong quá trình làm khoa học dữ liệu
+Là bước cuối cùng trong quá trình làm khoa học dữ liệu
+* Là bước đầu tiên trong quá trình làm khoa học dữ liệu
+Là bước có thể bỏ qua trong quá trình làm khoa học dữ liệu
+
+Mô hình hồi quy tuyến tính có thể được kiểm tra bằng cách nào?
+Bằng cách kiểm tra giá trị trung bình của biến phụ thuộc
+* Bằng cách kiểm tra số tương quan giữa giá trị thực và giá trị dự đoán
+Bằng cách kiểm tra phương sai của các biến độc lập
+Bằng cách kiểm tra hệ số hồi quy của các biến độc lập
+
+Độ chính xác của một mô hình học máy tính là gì?
+Độ lệch chuẩn của các giá trị dự đoán
+* Tỷ lệ phần trăm các dự đoán đúng so với tổng số dự đoán
+Tỷ lệ phần trăm các dự đoán so với tổng số dự đoán
+Sai số trung bình giữa các giá trị thực và giá trị dự đoán.
+
+Phương pháp nào sau đây được sử dụng để kiểm định độ chính xác của một mô hình học máy?
+K-fold validation
+* Tất cả các phương pháp trên
+Holdout validation
+Cross-validation
+
+Với mô hình: y=2x+3. Hệ số góc là số nào?
+* 2
+3
+4
+5

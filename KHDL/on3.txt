@@ -1,0 +1,143 @@
+MAE (Mean Absolute Error) là gì?
+* Giá trị trung bình của absolute error (sai số tuyệt đối)
+Bình phương của error
+Căn bậc 2 của lỗi
+Không có phương án trả lời đúng
+
+Tính phương sai chuỗi số: 7, 3, 9, 2, 8, 6.
+0
+6.75
+6.5
+* 6.47
+
+Mục tiêu chính của Data Science là gì?
+Tạo ra các mô hình 3D chân thực
+Thiết kế các trang web hấp dẫn
+* Khám phá các khuôn mẫu (patterns), thông tin hữu ích và đưa ra quyết định dựa trên dữ liệu
+Phát triển các ứng dụng di động
+
+Quá trình Data Science bao gồm các bước nào?
+Thiết kế đồ họa, tạo hoạt ảnh
+Quảng cáo, bán hàng, tiếp thị
+* Thu thập dữ liệu, làm sạch dữ liệu, phân tích dữ liệu, trực quan hóa dữ liệu
+Lập trình, gỡ lỗi, triển khai
+
+Ứng dụng của Data Science trong lĩnh vực chăm sóc sức khỏe là gì?
+* Chẩn đoán bệnh, phát hiện thuốc mới, y học cá nhân hóa
+Thiết kế các công trình kiến trúc
+Phát triển trò chơi điện tử
+Tạo hiệu ứng hình ảnh cho phim
+
+Loại AI nào tập trung vào việc thực hiện các nhiệm vụ cụ thể?
+* AI hẹp (Narrow AI)
+AI siêu việt (Super AI)
+AI đa nhiệm (Multitask AI)
+AI tổng quát (General AI)
+
+Phương pháp học có giám sát (supervised learning) có đặc điểm gì?
+Chỉ yêu cầu output
+* Yêu cầu cả input và output label
+Chỉ yêu cầu input
+Tự học được theo thời gian
+
+Phương pháp học AI nào sau đây có đặc điểm là dễ thu thập dữ liệu huấn luyện nhất vì không cần gán nhãn?
+Supervised learning
+Reinforcement learning
+* Unsupervised learning
+Semi-supervised learning
+
+Công nghệ nhận diện khuôn mặt trong ứng dụng chuyển tiền ngân hàng thuộc phân loại AI nào?
+Generative AI
+* Narrow AI
+Artificial Superintelligence
+General AI
+
+Dữ liệu âm thanh thuộc loại là dữ liệu gì?
+* Phi cấu trúc
+Bán cấu trúc
+Có cấu trúc
+Dữ liệu dạng bảng
+
+Dữ liệu điểm danh lớp học là loại dữ liệu gì?
+* Có cấu trúc
+Bán cấu trúc
+Phi cấu trúc
+Đa phương tiện
+
+Phần mềm nào sau đây ít có khả năng được sử dụng nhất trong khoa học dữ liệu?
+Ngôn ngữ lập trình Python
+Phần mềm excel
+* Phần mềm Photoshop
+Ngôn ngữ lập trình R
+
+Mục đích của việc làm khoa học dữ liệu là gì?
+Hỗ trợ nghiên cứu khoa học
+Hỗ trợ trong đưa ra quyết định trong kinh doanh
+* Tất cả các phương án
+Cung cấp gợi ý cho việc phát triển sản phẩm
+
+Một mẫu (sample/record) trong cơ sở dữ liệu dạng bảng là gì?
+Một ô trong bảng
+* Một hàng trong bảng
+Một cột trong bảng
+Một bảng dữ liệu
+
+Thuộc tính (feature/attribute) của mẫu dữ liệu là gì?
+Là hàng trong bảng
+* Là thông tin về cột trong bảng
+Là ô giá trị trong bảng
+Là bảng dữ liệu
+
+Câu nào sau đây ĐÚNG về Hồi quy tuyến tính?
+Hồi quy tuyến tính mô hình hóa mối quan hệ giữa 1 biến phụ thuộc và 1 hoặc nhiều biến độc lập
+* Hồi quy tuyến tính mô hình hóa mối quan hệ giữa 1 biến phụ thuộc và 1 biến độc lập (đơn) hoặc nhiều biến độc lập (đa)
+Hồi quy tuyến tính mô hình hóa mối quan hệ giữa 1 biến độc lập và nhiều biến phụ thuộc
+Hồi quy tuyến tính mô hình hóa mối quan hệ giữa nhiều biến phụ thuộc
+
+Logic mệnh đề là gì?
+* Công cụ toán học logic, trong đó có các mệnh đề và các biểu thức.
+Tập các ký hiệu và tập các luật xây dựng công thức
+Xác định ngữ nghĩa của các công thức trong thế giới hiện thực.
+Biểu diễn tri thức về thế giới với các đối tượng.
+
+Câu nào dưới đây KHÔNG là một mệnh đề?
+An là sinh viên khoa CNTT
+An không phải học Trí Tuệ Nhân Tạo
+* X là sinh viên không phải học Trí tuệ nhân tạo.
+An là sinh viên CNTT nhưng không phải học Trí tuệ nhân tạo.
+
+Có mấy phép kết nối logic cơ bản trong mệnh đề (Hội, Tuyển, Phủ định, Kéo theo, Tương đương)?
+2
+3
+4
+* 5
+
+Ai là người đề ra thuật ngữ “Trí tuệ nhân tạo”?
+* John McCarthy
+Alan Turing
+Elon Musk
+Bill Gates
+
+Turing test là gì?
+* Bài toán kiểm tra khả năng trí tuệ của máy tính
+Bài toán kiểm tra khả năng giải thuật
+Bộ câu hỏi lý thuyết về trí tuệ nhân tạo
+Bộ câu hỏi lý thuyết về khoa học máy tính
+
+Những mô hình tính toán có cách thức suy nghĩ mô phỏng giống bộ não con người được gọi là?
+* Mô hình mạng nơ-ron (Neural Network)
+Mô hình hồi quy tuyến tính
+Mô hình cây quyết định
+Mô hình hồi quy logistic
+
+Đâu là ứng dụng của trí tuệ nhân tạo?
+Thị giác máy tính
+Xử lý ngôn ngữ tự nhiên
+Học máy
+* Tất cả đáp án trên
+
+Hàm đánh giá (Heuristic function) trong các thuật toán tìm kiếm AI dùng để làm gì?
+* Tính toán mức độ tốt/xấu, ước lượng khả năng về đích của trạng thái hiện tại
+Tính toán thời gian chạy của thuật toán
+Tính toán độ phức tạp không gian của thuật toán
+Tính toán sự sai lệch giữa trạng thái đầu và trạng thái đích của thuật toán

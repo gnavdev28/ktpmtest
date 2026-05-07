@@ -1,0 +1,119 @@
+Theo tài liệu, học có giám sát (Supervised learning) được định nghĩa là gì?
+Học từ môi trường bằng cách tương tác và nhận phần thưởng.
+* Học hàm ánh xạ từ input đến output dựa trên tập dữ liệu có gán nhãn.
+Học phân nhóm dữ liệu tự động mà không cần có nhãn.
+Học từ một tập dữ liệu chỉ chứa các biến đầu vào.
+
+Tập dữ liệu huấn luyện (training dataset) trong bài toán học có giám sát bao gồm những gì?
+Các biến đầu ra mà không cần dữ liệu đầu vào.
+Chỉ chứa các dữ liệu chưa được gán nhãn.
+Các tập luật liên kết giữa các thuộc tính.
+* Một tập các dữ liệu có gán nhãn (dữ liệu, gán nhãn).
+
+Dựa vào cấu trúc phân loại trong bài giảng, bài toán Phân loại (Classification) thuộc nhóm học máy nào?
+* Học có giám sát (Supervised learning).
+Học không giám sát (Unsupervised learning).
+Học bán giám sát (Semi-supervised Learning).
+Học tăng cường (Reinforcement Learning).
+
+Linear Regression (Hồi quy tuyến tính) là một phương pháp phân tích thống kê được sử dụng nhằm mục đích gì?
+Tìm ra luật kết hợp giữa các sản phẩm trong giỏ hàng.
+Phân cụm các điểm dữ liệu có chung đặc tính.
+* Xác định mối quan hệ giữa một biến độc lập và một biến phụ thuộc.
+Giảm số chiều của dữ liệu để trực quan hóa.
+
+Simple Linear Regression khác biệt như thế nào so với Multiple Linear Regression?
+Simple Linear Regression không dùng biến độc lập nào.
+Simple Linear Regression dùng để dự đoán dữ liệu phi tuyến tính.
+* Simple Linear Regression chỉ có một biến độc lập được sử dụng để dự đoán biến phụ thuộc.
+Simple Linear Regression sử dụng nhiều biến phụ thuộc cùng lúc.
+
+Trong phương trình đường thẳng mô hình Simple Linear Regression, 'm' (slope) mang ý nghĩa gì?
+Là tung độ gốc, biểu diễn điểm giao cắt với trục tung Oy.
+* Là mức độ thay đổi của biến phụ thuộc theo biến độc lập (độ dốc, hệ số góc).
+Là sai số trung bình của mô hình so với dữ liệu thực tế.
+Là giá trị dự đoán cuối cùng của biến phụ thuộc.
+
+Trong phương trình Simple Linear Regression, 'b' đại diện cho yếu tố nào?
+* Tung độ gốc, là giao điểm của đường dự đoán và trục tung Oy.
+Biến độc lập đầu vào của mô hình.
+Độ dốc của đường hồi quy.
+Giá trị biến phụ thuộc khi biến độc lập đạt mức tối đa.
+
+Việc "Dự đoán giá nhà dựa trên diện tích, số phòng, vị trí" là ví dụ minh họa cho phương pháp nào?
+* Multiple Linear Regression
+Simple Linear Regression
+Reinforcement Learning
+Unsupervised Learning
+
+Giả định "Không đa cộng tuyến" trong Linear Regression yêu cầu điều gì đối với dữ liệu?
+Dữ liệu không được có chứa bất kỳ giá trị ngoại lai nào.
+Biến độc lập phải có mối quan hệ tuyến tính với biến phụ thuộc.
+* Các biến độc lập không được tương quan mạnh với nhau.
+Các biến độc lập phải hoàn toàn phụ thuộc lẫn nhau.
+
+Theo các giả định của Linear Regression, mô hình sẽ hoạt động ra sao nếu dữ liệu chứa nhiễu (giá trị ngoại lai, sai lệch)?
+* Linear Regression sẽ bị ảnh hưởng mạnh và không hoạt động tốt.
+Mô hình vẫn sẽ hoạt động hoàn hảo nhờ tự động loại bỏ nhiễu.
+Độ chính xác của mô hình sẽ tăng lên do có đa dạng dữ liệu.
+Nhiễu chỉ ảnh hưởng đến biến độc lập, không ảnh hưởng đến kết quả dự đoán.
+
+Trong tài liệu, phương pháp nào KHÔNG được liệt kê là phương pháp giải bài toán Linear Regression?
+Phương pháp sử dụng thống kê
+Phương pháp Gradient Descent
+Phương pháp thử sai (Trial-and-error)
+* Phương pháp Random Forest
+
+Mục tiêu chính của bài toán Least squares regression là gì?
+Tối đa hóa tổng bình phương sai số để tìm ra biên rộng nhất.
+* Tối thiểu hóa tổng bình phương sai số.
+Tìm khoảng cách lớn nhất giữa các điểm dữ liệu thực tế.
+Tính toán giá trị trung bình tuyệt đối của các biến độc lập.
+
+Mean Squared Error (MSE) được sử dụng để đánh giá điều gì trong mô hình hồi quy?
+Độ phân tán của các biến độc lập so với giá trị trung bình.
+Sai số tuyệt đối trung bình giữa giá trị dự đoán và giá trị thực tế.
+* Sai số bình phương trung bình giữa giá trị dự đoán và giá trị thực tế.
+Mức độ tương quan tuyến tính giữa các biến độc lập với nhau.
+
+Để đánh giá "sai số tuyệt đối trung bình giữa giá trị dự đoán và giá trị thực tế", người ta dùng chỉ số nào?
+Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+R-squared (R²)
+Gradient Descent
+
+Trong quá trình đánh giá độ chính xác của mô hình Linear Regression, chỉ số R-squared (R²) đo lường điều gì?
+Tổng bình phương các sai số của mô hình dự đoán.
+Sai lệch tuyệt đối cao nhất giữa dự đoán và thực tế.
+* Mức độ giải thích của mô hình trên biến phụ thuộc.
+Tốc độ hội tụ của thuật toán Gradient Descent.
+
+Giá trị của R-squared (R²) phản ánh độ chính xác của mô hình như thế nào?
+R² càng thấp, tốc độ tính toán càng nhanh.
+* Giá trị R² càng cao thì mô hình càng tốt.
+Giá trị R² càng nhỏ thì mô hình càng phản ánh đúng dữ liệu.
+R² không liên quan đến chất lượng của mô hình hồi quy.
+
+Ứng dụng nào sau đây được nhắc đến trong bài như một ứng dụng thực tiễn của Linear Regression?
+Phân tích cảm xúc văn bản trên mạng xã hội.
+* Dự đoán tỉ lệ sống sót của bệnh nhân ung thư.
+Dịch thuật tự động giữa hai ngôn ngữ.
+Phân loại hình ảnh động vật (chó, mèo).
+
+Đâu là một trong những ĐIỂM YẾU của mô hình Linear Regression theo tài liệu?
+* Chỉ giải quyết vấn đề với các biến độc lập tuyến tính và không đa cộng tuyến.
+Tốn quá nhiều tài nguyên tính toán cho những tập dữ liệu nhỏ.
+Tự động giả định mọi dữ liệu đầu vào đều có nhiễu.
+Không thể sử dụng để dự đoán giá trị liên tục như giá cổ phiếu, doanh thu.
+
+(Thực hành tính toán) Giả sử một mô hình Simple Linear Regression dự đoán chi phí vận chuyển Y (nghìn VNĐ) dựa trên khoảng cách X (km) có phương trình: Y = 15X + 20. Nếu khoảng cách vận chuyển là 5 km, chi phí dự đoán sẽ là bao nhiêu?
+75 nghìn VNĐ
+85 nghìn VNĐ
+* 95 nghìn VNĐ
+105 nghìn VNĐ
+
+(Thực hành tính toán) Cho một tập dữ liệu nhỏ gồm 2 mẫu. Giá trị thực tế của tập dữ liệu là y = [4, 8]. Mô hình dự đoán cho ra kết quả y_pred = [2, 9]. Tính Mean Absolute Error (MAE) của mô hình.
+* 1.5
+2.0
+2.5
+3.0
