@@ -165,10 +165,10 @@ Các tính năng hệ thống có sự tham gia của phân hệ đó.
 Các hàm khai báo trong một lớp chứa trong phân hệ đó.
 
 Cơ chế nào sau đây là một cơ chế thiết kế (design mechanism)?
-Lưu trữ dữ liệu lâu dài (Persistency)
+* Lưu trữ dữ liệu lâu dài (Persistency)
 Cơ sở dữ liệu hướng đối tượng của hãng ObjectStore
 Cơ chế phân phối qua mạng (Distribution)
-* Triệu gọi hàm từ xa (Remote Method Invocation)
+Triệu gọi hàm từ xa (Remote Method Invocation)
 
 Ba bước trong quá trình Phân loại các Cơ chế Phân tích thành cơ chế thiết kế là gì? (Chọn ba.)
 * Xác định yêu cầu đặc trưng cho từng cơ chế.
