@@ -6,9 +6,9 @@ Chỉ các phần tử liên kết đến lớp bên ngoài mới nên để cô
 
 Hai loại phụ thuộc (dependency) nào có thể được sử dụng từ một phân hệ (subsystem)? (Chọn hai.)
 * Phụ thuộc <<uses>> đến một giao diện (interface) của phân hệ khác.
-* Phụ thuộc <<import>> đến một gói (package) chứa các lớp cần sử dụng.
+Phụ thuộc <<import>> đến một gói (package) chứa các lớp cần sử dụng.
 Quan hệ <<manifest>> đến một nút (node) trong sơ đồ triển khai.
-Quan hệ <<realize>> đến một hoặc nhiều sự hợp tác (collaboration occurrences).
+* Quan hệ <<realize>> đến một hoặc nhiều sự hợp tác (collaboration occurrences).
 
 Nhiệm vụ nào sau đây được thực hiện trong bước tinh chỉnh cách chạy tính năng (use-case realization refinement)?
 Xác định các lớp tham gia thiết kế.
@@ -29,8 +29,8 @@ aClass hiện thực hóa (realizes) bInterface.
 bClass hiện thực hóa (realizes) bInterface.
 
 Tài liệu quy trình nào mô tả các cơ chế thiết kế (design mechanisms), cách ánh xạ và chi tiết sử dụng chúng?
-* Tài liệu Kiến trúc Phần mềm (Software Architecture Document)
-Hướng dẫn Thiết kế (Design Guidelines)
+Tài liệu Kiến trúc Phần mềm (Software Architecture Document)
+* Hướng dẫn Thiết kế (Design Guidelines)
 Tài liệu Tầm nhìn (Vision Document)
 Kế hoạch Phát triển Phần mềm (Software Development Plan)
 
@@ -64,10 +64,10 @@ Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
 Điểm quyết định rẽ nhánh (decision)
 Mũi tên chuyển trạng thái (transition)
-* Trạng thái kết thúc (final state)
+Trạng thái kết thúc (final state)
 Sự kiện kích hoạt (event)
 Trạng thái thông thường (state)
-Điều kiện bảo vệ (guard condition)
+* Điều kiện bảo vệ (guard condition)
 
 Hoạt động Xác định các phần tử thiết kế (Identify Design Elements) thuộc bước công việc nào?
 Định nghĩa một Khung Kiến trúc Ứng viên
@@ -77,14 +77,14 @@ Thực hiện phân tích kiến trúc hệ thống
 
 [image: SAD/images/page_3_img_1.jpeg]
 Trong sơ đồ máy trạng thái, ký hiệu H đại diện cho cái gì?
-Nhánh rẽ song song (fork)
+* Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
 Điểm quyết định rẽ nhánh (decision)
 Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
 Sự kiện kích hoạt (event)
 Trạng thái thông thường (state)
-* Điều kiện bảo vệ (guard condition)
+Điều kiện bảo vệ (guard condition)
 
 Mối quan hệ giữa thao tác (operation) và phương thức (method) là gì?
 Hai thuật ngữ này có nghĩa hoàn toàn giống nhau.
@@ -136,13 +136,13 @@ Các lớp thiết kế giống nhau cùng tham gia vào nhiều tính năng kh�
 
 Những công việc nào được thực hiện trong bước Thiết kế Ca sử dụng (Use Case Design)? (Chọn hai.)
 Chuyển đổi lớp phân tích thành lớp thiết kế và phân hệ thiết kế.
-* Thiết kế cách dữ liệu được lưu trữ lâu dài vào cơ sở dữ liệu (persistence).
+Thiết kế cách dữ liệu được lưu trữ lâu dài vào cơ sở dữ liệu (persistence).
 * Thiết kế chi tiết các tin nhắn truyền giữa các đối tượng để chạy các hàm giao diện.
-Đơn giản hóa sơ đồ tuần tự bằng cách dùng các lớp thiết kế.
+* Đơn giản hóa sơ đồ tuần tự bằng cách dùng các lớp thiết kế.
 
 Cái gì được dùng để đại diện cho một phân hệ (subsystem) trên sơ đồ tuần tự?
-Một giao diện (interface) mà phân hệ đó thực hiện.
-* Một đối tượng đại diện của phân hệ (subsystem proxy).
+* Một giao diện (interface) mà phân hệ đó thực hiện.
+Một đối tượng đại diện của phân hệ (subsystem proxy).
 Một thành phần (component) của phân hệ.
 Một lớp (class) thông thường nằm trong phân hệ.
 
@@ -165,10 +165,10 @@ Các tính năng hệ thống có sự tham gia của phân hệ đó.
 Các hàm khai báo trong một lớp chứa trong phân hệ đó.
 
 Cơ chế nào sau đây là một cơ chế thiết kế (design mechanism)?
-* Lưu trữ dữ liệu lâu dài (Persistency)
+Lưu trữ dữ liệu lâu dài (Persistency)
 Cơ sở dữ liệu hướng đối tượng của hãng ObjectStore
 Cơ chế phân phối qua mạng (Distribution)
-Triệu gọi hàm từ xa (Remote Method Invocation)
+* Triệu gọi hàm từ xa (Remote Method Invocation)
 
 Ba bước trong quá trình Phân loại các Cơ chế Phân tích thành cơ chế thiết kế là gì? (Chọn ba.)
 * Xác định yêu cầu đặc trưng cho từng cơ chế.
@@ -269,11 +269,11 @@ Quy định phân hệ nào chạy trên máy chủ nào và giao thức kết n
 Trong sơ đồ, C1 và C2 đại diện cho cái gì?
 Nhánh rẽ song song (forks)
 Trạng thái bắt đầu (initial states)
-* Điểm quyết định rẽ nhánh (decisions)
+Điểm quyết định rẽ nhánh (decisions)
 Mũi tên chuyển trạng thái (transitions)
 Trạng thái kết thúc (final states)
 Sự kiện kích hoạt (events)
-Trạng thái thông thường (states)
+* Trạng thái thông thường (states)
 Điều kiện bảo vệ (guard conditions)
 
 Định nghĩa cấu hình kết nối mạng là bước thứ mấy của hoạt động Mô tả Phân phối (Describe Distribution)?
@@ -284,11 +284,11 @@ Bước thứ năm (fifth)
 
 [image: SAD/images/page_9_img_1.jpeg]
 Trong sơ đồ hoạt động, ký hiệu B đại diện cho cái gì?
-* Nhánh rẽ song song (fork)
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
 Điểm quyết định rẽ nhánh (decision)
 Mũi tên chuyển trạng thái (transition)
-Trạng thái kết thúc (final state)
+* Trạng thái kết thúc (final state)
 Sự kiện kích hoạt (event)
 Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
@@ -302,8 +302,8 @@ Bạn sử dụng một gói khi bạn muốn che giấu và đóng gói hành v
 Có bao nhiêu nút vật lý (physical nodes) cần xác định để thực hiện hoạt động Mô tả Phân phối (Describe the Distribution)?
 Bắt buộc không có nút nào.
 Bắt buộc phải có đúng một nút.
-* Không cần nút nào hoặc có một nút.
-Bắt buộc phải có nhiều hơn một nút.
+Không cần nút nào hoặc có một nút.
+* Bắt buộc phải có nhiều hơn một nút.
 
 Các ghi chú (notes) và kịch bản (scripts) bổ sung trên sơ đồ tuần tự thường dùng để làm gì? (Chọn ba.)
 * Quy định thời gian bắt buộc giữa các tin nhắn truyền đi.
@@ -333,8 +333,8 @@ Thuộc tính dùng để định danh duy nhất cho đối tượng.
 [image: SAD/images/page_12_img_1.jpeg]
 Trong sơ đồ lớp, thuộc tính CourseOffering.numberOfStudents được gạch chân là ví dụ về:
 Một thiết kế tồi.
-* Thuộc tính tĩnh (static attribute) của lớp.
-Thuộc tính được tính toán từ giá trị khác (derived attribute).
+Thuộc tính tĩnh (static attribute) của lớp.
+* Thuộc tính được tính toán từ giá trị khác (derived attribute).
 Cách đặt tên thuộc tính không chuẩn.
 
 [image: SAD/images/page_12_img_2.jpeg]
@@ -430,9 +430,9 @@ Các tệp tạm lưu trong bộ nhớ trình duyệt.
 Trong sơ đồ máy trạng thái, ký hiệu G đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Điểm quyết định rẽ nhánh (decision)
+* Điểm quyết định rẽ nhánh (decision)
 Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
 Sự kiện kích hoạt (event)
-* Trạng thái thông thường (state)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
