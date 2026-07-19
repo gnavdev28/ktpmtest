@@ -1,438 +1,438 @@
 Phát biểu nào sau đây là đúng về các phần tử bên trong một phân hệ (subsystem) và phạm vi truy cập công khai (public visibility)?
-* Chỉ tập hợp con các phần tử định nghĩa API của phân hệ mới nên có phạm vi truy cập công khai.
-Chỉ lớp đại diện (proxy class) của phân hệ mới nên có phạm vi truy cập công khai.
-Không phần tử nào bên trong phân hệ nên có phạm vi truy cập công khai.
-Chỉ các phần tử tham chiếu đến các lớp bên ngoài mới nên có phạm vi truy cập công khai.
+* Chỉ tập hợp con các phần tử định nghĩa giao diện (API) của phân hệ mới nên để công khai (public).
+Chỉ lớp đại diện (proxy class) của phân hệ mới nên để công khai (public).
+Không phần tử nào bên trong phân hệ được để công khai (public).
+Chỉ các phần tử liên kết đến lớp bên ngoài mới nên để công khai (public).
 
-Hai loại phụ thuộc nào có thể được sử dụng từ một phân hệ (subsystem)? (Chọn hai.)
-* Phụ thuộc <<uses>> đến một giao diện (interface) của phân hệ.
-* Phụ thuộc <<import>> đến một gói (package) chứa các lớp được sử dụng.
-Quan hệ <<manifest>> đến một nút trong mô hình Triển khai (Deployment model).
-Quan hệ <<realize>> đến một hoặc nhiều sự hiện diện hợp tác (collaboration occurrences).
+Hai loại phụ thuộc (dependency) nào có thể được sử dụng từ một phân hệ (subsystem)? (Chọn hai.)
+* Phụ thuộc <<uses>> đến một giao diện (interface) của phân hệ khác.
+* Phụ thuộc <<import>> đến một gói (package) chứa các lớp cần sử dụng.
+Quan hệ <<manifest>> đến một nút (node) trong sơ đồ triển khai.
+Quan hệ <<realize>> đến một hoặc nhiều sự hợp tác (collaboration occurrences).
 
-Nhiệm vụ nào được thực hiện trong quá trình tinh chỉnh hiện thực hóa ca sử dụng (use-case realization refinement)?
-Xác định các lớp tham gia
-* Phân bổ trách nhiệm giữa các lớp
-Mô hình hóa các thông điệp giữa các lớp
-Mô hình hóa các mối quan hệ lớp liên quan
+Nhiệm vụ nào sau đây được thực hiện trong bước tinh chỉnh cách chạy tính năng (use-case realization refinement)?
+Xác định các lớp tham gia thiết kế.
+* Phân bổ nhiệm vụ và trách nhiệm cho từng lớp cụ thể.
+Mô hình hóa các tin nhắn truyền giữa các lớp.
+Mô hình hóa mối quan hệ liên kết giữa các lớp.
 
-Phát biểu nào đúng về các phân hệ thiết kế (design subsystems)?
-Chúng đóng gói một phần hành vi.
-* Chúng đại diện cho một khả năng độc lập với các giao diện rõ ràng.
-Chúng mô hình hóa một biến thể triển khai duy nhất.
-Chúng chỉ có thể chứa các lớp thiết kế.
+Phát biểu nào sau đây là đúng về phân hệ thiết kế (design subsystems)?
+Chúng đóng gói một phần nhỏ hành vi của hệ thống.
+* Chúng đại diện cho một chức năng hoạt động độc lập và giao tiếp qua các giao diện rõ ràng.
+Chúng mô hình hóa một phương án cài đặt phần mềm duy nhất.
+Chúng chỉ được phép chứa các lớp thiết kế thông thường.
 
-Cho cấu hình sau: Gói A chứa lớp aClass ở tầng trình diễn. Gói B chứa lớp bClass và giao diện bInterface ở tầng nghiệp vụ. Gói C chứa lớp cClass ở tầng dữ liệu. Hành vi nào là một thiết kế tồi?
-AClass gọi một phương thức trong bClass.
-* AClass có một thuộc tính kiểu cClass.
-AClass hiện thực hóa bInterface.
-BClass hiện thực hóa bInterface.
+Cho cấu hình sau: Gói A chứa lớp aClass ở tầng giao diện (presentation layer). Gói B chứa lớp bClass và giao diện bInterface ở tầng nghiệp vụ (business layer). Gói C chứa lớp cClass ở tầng dữ liệu (data layer). Thiết kế nào sau đây là tồi?
+aClass gọi trực tiếp một phương thức trong bClass.
+* aClass chứa một thuộc tính có kiểu là cClass.
+aClass hiện thực hóa (realizes) bInterface.
+bClass hiện thực hóa (realizes) bInterface.
 
-Tài liệu quy trình nào mô tả các cơ chế thiết kế, các ánh xạ giữa các cơ chế thiết kế và chi tiết liên quan đến việc sử dụng chúng?
+Tài liệu quy trình nào mô tả các cơ chế thiết kế (design mechanisms), cách ánh xạ và chi tiết sử dụng chúng?
 * Tài liệu Kiến trúc Phần mềm (Software Architecture Document)
-Hướng dẫn Thiết kế
-Tài liệu Tầm nhìn
-Kế hoạch Phát triển Phần mềm
+Hướng dẫn Thiết kế (Design Guidelines)
+Tài liệu Tầm nhìn (Vision Document)
+Kế hoạch Phát triển Phần mềm (Software Development Plan)
 
-Trong trạng thái của một máy trạng thái, một hành vi có thể được định nghĩa bằng các cách nào? (Chọn ba.)
-Trước khi đạt đến một trạng thái
-* Khi đạt đến một trạng thái (entry)
-* Khi rời khỏi một trạng thái (exit)
-* Bên trong một trạng thái (do)
+Trong sơ đồ máy trạng thái, hành vi của một trạng thái có thể được kích hoạt vào những thời điểm nào? (Chọn ba.)
+Trước khi đối tượng đạt đến trạng thái đó.
+* Khi vừa bước vào trạng thái (entry).
+* Khi vừa thoát khỏi trạng thái (exit).
+* Khi đang nằm ở trong trạng thái đó (do).
 
 Cổng (gate) là gì?
-* Một tham số đại diện cho một thông điệp đi qua ranh giới của một tương tác hoặc một phân đoạn tương tác.
-Một giao thức được xác định để truy cập vào bên trong của một phân hệ.
-Một điểm quyết định trong máy trạng thái có nhiều hơn hai lựa chọn thay thế.
-Một tập hợp các điểm kiểm tra mà mỗi thiết kế phân hệ phải thỏa mãn trước khi nó có thể được chỉ định để triển khai.
+* Một tham số đại diện cho tin nhắn đi qua ranh giới của một sơ đồ tương tác hoặc một phân đoạn tương tác.
+Một giao thức bảo mật dùng để truy cập vào bên trong phân hệ.
+Một điểm quyết định trong máy trạng thái có nhiều hơn hai lựa chọn rẽ nhánh.
+Một tập hợp các tiêu chí kiểm tra bắt buộc mà phân hệ thiết kế phải đạt được trước khi viết code.
 
-Khi xác định các phần tử thiết kế, một lớp phân tích đơn giản sẽ ánh xạ tới một:
+Khi chuyển đổi từ phân tích sang thiết kế, một lớp phân tích (analysis class) đơn giản sẽ được chuyển thành một:
 Lớp hoạt động (active class)
 Giao diện (interface)
 * Lớp thiết kế (design class)
-Phân hệ (subsystem)
+Phân hệ thiết kế (subsystem)
 
-Trong hoạt động OOAD nào thì cơ chế phân phối được xác định?
-Xác định các phần tử thiết kế
-Xác định các cơ chế thiết kế
-Thiết kế lớp
-* Phân tích kiến trúc (Architectural Analysis)
+Trong hoạt động nào của quy trình thiết kế thì cơ chế phân phối (distribution mechanism) được xác định?
+Xác định các phần tử thiết kế (Identify Design Elements)
+Xác định các cơ chế thiết kế (Identify Design Mechanisms)
+Thiết kế lớp chi tiết (Class Design)
+* Phân tích kiến trúc hệ thống (Architectural Analysis)
 
 [image: SAD/images/page_2_img_1.jpeg]
-Trong sơ đồ, E là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu E đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 * Trạng thái kết thúc (final state)
-Sự kiện (event)
-Trạng thái (state)
+Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
 
-Xác định các phần tử thiết kế (Identify Design Elements) là một phần của chi tiết luồng công việc nào?
-Định nghĩa một Kiến trúc Ứng viên
-Thiết kế các thành phần
-Thực hiện phân tích kiến trúc
-* Tinh chỉnh kiến trúc (Refine the Architecture)
+Hoạt động Xác định các phần tử thiết kế (Identify Design Elements) thuộc bước công việc nào?
+Định nghĩa một Khung Kiến trúc Ứng viên
+Thiết kế các thành phần hệ thống
+Thực hiện phân tích kiến trúc hệ thống
+* Tinh chỉnh kiến trúc hệ thống (Refine the Architecture)
 
 [image: SAD/images/page_3_img_1.jpeg]
-Trong sơ đồ, H là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu H đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-Sự kiện (event)
-Trạng thái (state)
+Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 * Điều kiện bảo vệ (guard condition)
 
 Mối quan hệ giữa thao tác (operation) và phương thức (method) là gì?
-Các thuật ngữ này là đồng nghĩa.
-Một thao tác mô tả cách một phương thức được triển khai.
-* Một phương thức mô tả cách một thao tác được triển khai.
-Không có mối quan hệ nào.
+Hai thuật ngữ này có nghĩa hoàn toàn giống nhau.
+Một thao tác mô tả cách phương thức được lập trình chi tiết như thế nào.
+* Một phương thức chứa đoạn code chi tiết để thực hiện cho một thao tác đã khai báo.
+Giữa chúng không có mối quan hệ nào.
 
-Tại sao bạn lại sử dụng các giao diện phân hệ thay vì các phiên bản phân hệ trên các sơ đồ tuần tự?
-Để dễ dàng mô hình hóa các phân hệ hơn trong quá trình Thiết kế Phân hệ
-* Để làm cho các hiện thực hóa ca sử dụng dễ thay đổi hơn
-Để giảm bớt việc bảo trì sơ đồ tuần tự khi các chữ ký thông điệp thay đổi
-Để giảm số lượng lớp cần thiết để triển khai phân hệ
+Tại sao bạn nên dùng giao diện phân hệ (subsystem interface) thay vì chính phân hệ đó trên các sơ đồ tuần tự?
+Để vẽ phân hệ dễ dàng hơn trong bước Thiết kế Phân hệ.
+* Để giúp sơ đồ thiết kế dễ sửa đổi hơn khi thay đổi code bên trong phân hệ.
+Để giảm bớt việc sửa đổi sơ đồ tuần tự khi các hàm của lớp thay đổi.
+Để giảm số lượng lớp cần lập trình để chạy phân hệ.
 
-Sản phẩm (artifact) nào là đầu vào cho hoạt động Xác định các Phần tử Thiết kế (Identify Design Elements)?
-Mô hình triển khai (Deployment Model)
-Mô hình thực hiện (Implementation Model)
-Kiến trúc tham chiếu (Reference Architecture)
+Sản phẩm đầu vào nào là cần thiết cho hoạt động Xác định các Phần tử Thiết kế (Identify Design Elements)?
+Mô hình triển khai phần cứng (Deployment Model)
+Mô hình code thực tế (Implementation Model)
+Kiến trúc tham chiếu có sẵn (Reference Architecture)
 * Tài liệu kiến trúc phần mềm (Software Architecture Document)
 
-Một cân nhắc quan trọng khi phân bổ các tiến trình cho các nút là gì?
-* Giảm thiểu lưu lượng mạng
-Giảm thiểu tiêu thụ điện năng
-Sử dụng tất cả các nút có sẵn
-Khoảng cách vật lý giữa các nút
+Một lưu ý quan trọng khi phân chia các phần mềm chạy trên các máy tính (nodes) khác nhau là gì?
+* Giảm thiểu tối đa lượng dữ liệu truyền qua mạng để tránh nghẽn mạng.
+Giảm thiểu điện năng tiêu thụ của các máy tính.
+Phải tận dụng hết tất cả các máy tính đang có trong phòng.
+Khoảng cách vật lý (mét) giữa các máy tính.
 
-Loại cơ chế nào là một đầu nối (connector) trên sơ đồ triển khai?
-Sao lưu (backup)
-* Truyền thông (communication)
-Giao dịch (transaction)
-Tính toán (computation)
+Đường kết nối (connector) trên sơ đồ triển khai phần cứng đại diện cho loại cơ chế nào?
+Cơ chế sao lưu dữ liệu (backup)
+* Cơ chế truyền thông tin qua mạng (communication)
+Cơ chế quản lý giao dịch (transaction)
+Cơ chế tính toán dữ liệu (computation)
 
 Một cơ chế thiết kế (design mechanism) có đặc điểm nào?
-Nắm bắt các khía cạnh chính của một giải pháp theo cách độc lập với triển khai.
-Chỉ định triển khai chính xác của cơ chế và bị ràng buộc với một công nghệ, ngôn ngữ triển khai hoặc nhà cung cấp cụ thể.
-Giống như một mẫu thiết kế (design pattern).
-* Giả định một số chi tiết của môi trường triển khai, nhưng không bị ràng buộc với một triển khai cụ thể.
+Chỉ mô tả ý tưởng chung của giải pháp mà không quan tâm đến công nghệ cài đặt.
+Quy định rõ ràng loại công nghệ, ngôn ngữ lập trình hoặc hãng phần mềm cụ thể sẽ dùng.
+Nó hoàn toàn giống với một mẫu thiết kế (design pattern).
+* Đã giả định trước một số đặc điểm của môi trường chạy, nhưng chưa chốt cứng công nghệ cụ thể của hãng nào.
 
-Khi xác định các giao diện trong hoạt động Xác định các Phần tử Thiết kế, phát biểu nào sau đây là đúng?
-Các lớp không nên thực hiện một giao diện.
-Mỗi phân hệ chỉ thực hiện một giao diện.
-Các giao diện nên được xác định trước khi các phân hệ được tạo ra.
-* Các giao diện nên được đóng gói riêng biệt với các phần tử hiện thực hóa chúng.
+Khi xác định các giao diện (interfaces) trong thiết kế, phát biểu nào sau đây là đúng?
+Các lớp thiết kế bình thường không nên thực hiện giao diện nào.
+Mỗi phân hệ thiết kế chỉ được phép thực hiện đúng một giao diện.
+Phải tạo các giao diện trước khi tạo ra các phân hệ.
+* Các giao diện nên được đóng gói riêng biệt, tách rời khỏi các lớp thực hiện chúng.
 
-Các phân hệ bổ sung có thể được phát hiện trong quá trình Thiết kế Ca sử dụng bằng cách lưu ý:
-* Các luồng phụ phổ biến giữa các đối tượng trên nhiều sơ đồ tuần tự.
-Các đối tượng tương tự trên nhiều sơ đồ tuần tự.
-Một chuỗi các chuyển đổi trạng thái nhất quán cho nhiều lớp tham gia vào một hiện thực hóa ca sử dụng.
-Các lớp thiết kế giống nhau tham gia vào nhiều hơn một hiện thực hóa ca sử dụng.
+Các phân hệ (subsystems) mới có thể được phát hiện trong thiết kế ca sử dụng bằng cách chú ý:
+* Các đoạn giao tiếp chung giữa các đối tượng xuất hiện ở nhiều sơ đồ tuần tự khác nhau.
+Các đối tượng giống nhau xuất hiện trên nhiều sơ đồ tuần tự.
+Chuỗi chuyển đổi trạng thái giống nhau của nhiều lớp khi chạy tính năng.
+Các lớp thiết kế giống nhau cùng tham gia vào nhiều tính năng khác nhau.
 
-Những hoạt động nào được thực hiện trong quá trình Thiết kế Ca sử dụng (Use Case Design)? (Chọn hai.)
-Chuyển đổi các lớp phân tích thành các lớp thiết kế và các phân hệ thiết kế
-* Mô tả hành vi liên quan đến lưu trữ dữ liệu bền vững (persistence)
-* Mô tả các tương tác đối tượng thực hiện các thao tác giao diện
-Đơn giản hóa sơ đồ tuần tự bằng cách sử dụng các lớp thiết kế
+Những công việc nào được thực hiện trong bước Thiết kế Ca sử dụng (Use Case Design)? (Chọn hai.)
+Chuyển đổi lớp phân tích thành lớp thiết kế và phân hệ thiết kế.
+* Thiết kế cách dữ liệu được lưu trữ lâu dài vào cơ sở dữ liệu (persistence).
+* Thiết kế chi tiết các tin nhắn truyền giữa các đối tượng để chạy các hàm giao diện.
+Đơn giản hóa sơ đồ tuần tự bằng cách dùng các lớp thiết kế.
 
-Trên một sơ đồ tuần tự, cái gì được sử dụng để đại diện cho một phân hệ cụ thể?
-Một giao diện mà phân hệ thực hiện
-* Một lớp proxy phân hệ (subsystem proxy)
-Một thành phần phân hệ (subsystem component)
-Một lớp phân hệ (subsystem class)
+Cái gì được dùng để đại diện cho một phân hệ (subsystem) trên sơ đồ tuần tự?
+Một giao diện (interface) mà phân hệ đó thực hiện.
+* Một đối tượng đại diện của phân hệ (subsystem proxy).
+Một thành phần (component) của phân hệ.
+Một lớp (class) thông thường nằm trong phân hệ.
 
-Những phần tử UML nào được sử dụng để mô tả kiến trúc vật lý của một hệ thống?
-Các lớp và các mối quan hệ
-Các đối tượng và các thông điệp
-Các phân hệ và các phụ thuộc
-* Các nút (nodes) và các đầu nối (connectors)
+Thành phần UML nào dùng để vẽ kiến trúc vật lý và mạng của hệ thống?
+Các lớp thiết kế và các mối quan hệ liên kết.
+Các đối tượng và các tin nhắn truyền qua lại.
+Các phân hệ và các quan hệ phụ thuộc.
+* Các nút thiết bị (nodes) và đường kết nối mạng (connectors).
 
-Sản phẩm (artifact) nào được sử dụng để mô tả các hiện thực hóa ca sử dụng (use-case realizations)?
-Mô tả ca sử dụng bằng văn bản
-* Sơ đồ truyền thông (communication diagrams)
-Biểu đồ trạng thái (state charts)
-Sơ đồ hoạt động (activity diagrams)
+Sơ đồ nào sau đây được dùng để vẽ chi tiết cách các đối tượng tương tác chạy tính năng (use-case realizations)?
+Tài liệu mô tả tính năng bằng chữ viết.
+* Sơ đồ truyền thông (communication diagrams).
+Biểu đồ máy trạng thái (state charts).
+Sơ đồ hoạt động (activity diagrams).
 
-Cái gì định nghĩa các trách nhiệm của một phân hệ?
-Hành vi lớp nội bộ của nó
-* Các thao tác của các giao diện mà nó triển khai
-Các hiện thực hóa ca sử dụng trong đó phân hệ xuất hiện
-Các thao tác trên một lớp chứa trong phân hệ
+Cái gì định nghĩa các nhiệm vụ mà một phân hệ (subsystem) bắt buộc phải thực hiện?
+Cách viết code hoạt động của các lớp bên trong nó.
+* Các hàm đã khai báo trong các giao diện (interfaces) mà nó cam kết thực hiện.
+Các tính năng hệ thống có sự tham gia của phân hệ đó.
+Các hàm khai báo trong một lớp chứa trong phân hệ đó.
 
 Cơ chế nào sau đây là một cơ chế thiết kế (design mechanism)?
-* Lưu trữ bền vững (Persistency)
-Cơ sở dữ liệu hướng đối tượng ObjectStore
-Phân phối (Distribution)
-Triệu gọi phương thức từ xa (Remote Method Invocation)
+* Lưu trữ dữ liệu lâu dài (Persistency)
+Cơ sở dữ liệu hướng đối tượng của hãng ObjectStore
+Cơ chế phân phối qua mạng (Distribution)
+Triệu gọi hàm từ xa (Remote Method Invocation)
 
-Để bắt đầu xác định các cơ chế thiết kế, bạn bắt đầu bằng cách phân loại các cơ chế phân tích. Ba bước trong quá trình Phân loại các Cơ chế Phân tích là gì? (Chọn ba.)
-* Xác định các hồ sơ đặc trưng (characteristic profiles) cho mỗi cơ chế phân tích
-* Xác định các khách hàng (clients) của mỗi cơ chế phân tích
-Chỉ định một triển khai của nhà cung cấp cho mỗi cơ chế phân tích
-* Nhóm các khách hàng theo cách họ sử dụng các hồ sơ đặc trưng
+Ba bước trong quá trình Phân loại các Cơ chế Phân tích thành cơ chế thiết kế là gì? (Chọn ba.)
+* Xác định yêu cầu đặc trưng cho từng cơ chế.
+* Xác định các lớp đối tượng cần sử dụng dịch vụ đó.
+Chỉ định phần mềm cụ thể của hãng thứ ba cho mỗi cơ chế.
+* Gom nhóm các lớp đối tượng có chung yêu cầu đặc trưng giống nhau.
 
 Trong Thiết kế Phân hệ, điều gì xảy ra ở bước Phân phối trách nhiệm của phân hệ (Distribute Subsystem Responsibilities)?
-* Các trách nhiệm của phân hệ được phân bổ cho các phần tử thiết kế nội bộ của nó.
-Mỗi phân hệ được kiểm tra để đảm bảo nó có một bộ trách nhiệm nhất quán và các trách nhiệm không nhất quán được gán lại cho các phân hệ khác.
-Các thư viện và API bên ngoài được xác định để thực hiện hành vi của phân hệ.
-Các cơ chế phân phối được chi tiết hóa để hiển thị các giao diện của phân hệ.
+* Chia nhỏ và giao các nhiệm vụ của phân hệ cho các lớp con bên trong nó thực hiện.
+Kiểm tra xem nhiệm vụ của phân hệ có đồng bộ không, chuyển nhiệm vụ không liên quan sang phân hệ khác.
+Xác định các thư viện ngoài để chạy phân hệ.
+Chi tiết hóa cơ chế mạng để hiển thị giao diện phân hệ.
 
-Thực thể nào có ranh giới và định danh được xác định rõ ràng, đóng gói trạng thái và hành vi?
+Thực thể nào có ranh giới rõ ràng, có định danh duy nhất, tự quản lý dữ liệu (state) và code (behavior)?
 Lớp (class)
 * Đối tượng (object)
 Thành phần (component)
 Gói (package)
 
 Mục đích của hoạt động Xác định các Cơ chế Thiết kế (Identify Design Mechanisms) là gì?
-Để tinh chỉnh các cơ chế phân tích và chỉ định triển khai chính xác của cơ chế.
-Để cung cấp một tập hợp các dịch vụ khái niệm được sử dụng bởi các đối tượng phân tích.
-* Để tinh chỉnh các cơ chế phân tích thành các cơ chế thiết kế, dựa trên các ràng buộc do môi trường triển khai áp đặt.
-Để xác định các trình giữ chỗ thiết kế trong kiến trúc để nỗ lực kiến trúc luôn tập trung và ít có khả năng bị sidetracked.
+Tinh chỉnh cơ chế và chọn chính xác công nghệ cụ thể của hãng thứ ba để cài đặt.
+Cung cấp các dịch vụ mức khái niệm cho các đối tượng phân tích sử dụng.
+* Tinh chỉnh cơ chế khái niệm thành cơ chế thiết kế dựa trên các ràng buộc thực tế của môi trường chạy.
+Tạo ra các thành phần tạm thời để kiến trúc sư không bị mất tập trung khi thiết kế.
 
-Trong một mối quan hệ phụ thuộc, lớp khách (client class) có được khả năng nhìn thấy (visibility) đối với lớp cung cấp (supplier class) thông qua các tham chiếu nào? (Chọn ba.)
-* Tham chiếu cục bộ (local reference)
-* Tham chiếu tham số (parameter reference)
-* Tham chiếu toàn cục (global reference)
-Tham chiếu thuộc tính/trường (field reference)
+Trong quan hệ phụ thuộc (dependency) tạm thời, lớp gọi (client) nhận biết được lớp bị gọi (supplier) qua những cách nào? (Chọn ba.)
+* Được truyền vào làm tham số của hàm (parameter reference).
+* Khai báo làm biến cục bộ trong hàm (local reference).
+* Là biến toàn cục của hệ thống (global reference).
+Khai báo làm thuộc tính của lớp (field reference).
 
-Trong hoạt động Phân tích và Thiết kế nào, các phân hệ được ánh xạ tới các lớp phân tích?
-Phân tích kiến trúc (Architectural Analysis)
+Trong bước thiết kế nào, các phân hệ được tạo ra từ việc gom nhóm các lớp phân tích?
+Phân tích kiến trúc hệ thống (Architectural Analysis)
 * Xác định các phần tử thiết kế (Identify Design Elements)
-Xác định các phân hệ
-Kết hợp các phần tử thiết kế hiện có
+Xác định các phân hệ thiết kế
+Tận dụng các thành phần thiết kế sẵn có
 
-Phần tử thiết kế nào được sử dụng để đại diện cho một đối tượng đồng thời (concurrent object)?
+Phần tử thiết kế nào dùng để biểu diễn một đối tượng chạy độc lập, song song (concurrent object)?
 * Lớp hoạt động (active class)
-Capsule
-Lớp thiết kế (design class)
-Sự kiện (event)
+Kén bảo vệ (capsule)
+Lớp thiết kế thông thường (design class)
+Sự kiện kích hoạt (event)
 
-Hoạt động Mô tả Phân phối (Describe Distribution) là nơi các tiến trình được xác định trong hoạt động Mô tả Kiến trúc Thời gian chạy (Describe the Run-time Architecture) được phân bổ cho:
-* Các nút vật lý (physical nodes)
-Các thành phần (components)
-Các lớp (classes)
-Các hoạt động (activities)
+Hoạt động Mô tả Phân phối (Describe Distribution) sẽ phân chia các tiến trình phần mềm chạy trên:
+* Các máy tính/thiết bị vật lý (physical nodes).
+Các thành phần phần mềm (components).
+Các lớp thiết kế (classes).
+Các hoạt động của hệ thống (activities).
 
-Trong quá trình Thiết kế Phân hệ, nên tạo bao nhiêu sơ đồ tương tác (tuần tự hoặc truyền thông)?
-* Ít nhất một sơ đồ tương tác cho mỗi thao tác giao diện
-Một sơ đồ tương tác cho mỗi hiện thực hóa giao diện
-Ít nhất một sơ đồ tương tác cho mỗi lần sử dụng giao diện bên ngoài
-Một sơ đồ tương tác cho mỗi lớp hiện thực hóa
+Trong Thiết kế Phân hệ, nên vẽ bao nhiêu sơ đồ tương tác (sơ đồ tuần tự hoặc sơ đồ truyền thông)?
+* Vẽ ít nhất một sơ đồ tương tác cho mỗi hàm khai báo ở giao diện.
+Vẽ một sơ đồ tương tác cho mỗi hiện thực hóa giao diện.
+Vẽ ít nhất một sơ đồ tương tác cho mỗi lần gọi giao diện bên ngoài.
+Vẽ một sơ đồ tương tác cho mỗi lớp thiết kế bên trong.
 
-Một đồ thị có hướng gồm các nút được kết nối bởi các chuyển trạng thái là sơ đồ:
-Truyền thông
-Tuần tự
-Thành phần
-* Máy trạng thái (state machine)
+Sơ đồ biểu diễn các trạng thái và các mũi tên chuyển trạng thái của đối tượng là sơ đồ:
+Sơ đồ truyền thông (communication diagram)
+Sơ đồ tuần tự (sequence diagram)
+Sơ đồ thành phần (component diagram)
+* Sơ đồ máy trạng thái (state machine diagram)
 
 [image: SAD/images/page_7_img_1.jpeg]
-Trong sơ đồ, F là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu F đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-* Sự kiện (event)
-Trạng thái (state)
+* Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
 
-Thiết kế Ca sử dụng (Use Case Design) là một phần của chi tiết luồng công việc nào?
+Thiết kế Ca sử dụng (Use Case Design) thuộc bước công việc nào sau đây?
 Thiết kế ca sử dụng (Design Use Cases)
-Phân tích hành vi (Analyze Behavior)
-* Thiết kế các thành phần (Design Components)
+Phân tích hành vi hệ thống (Analyze Behavior)
+* Thiết kế các thành phần hệ thống (Design Components)
 Thiết kế các lớp và phân hệ
 
-Khi nào một lớp phân tích ánh xạ trực tiếp đến một lớp thiết kế?
-Khi lớp phân tích sử dụng stereotype <entity>
-* Khi lớp phân tích đại diện cho một trừu tượng logic duy nhất
-Khi công cụ mô hình hóa hỗ trợ chuyển đổi các Mô hình Phân tích sang Thiết kế
-Khi một nhà phân tích có kỹ năng thiết kế tốt
+Khi nào một lớp phân tích (analysis class) được chuyển đổi trực tiếp thành một lớp thiết kế tỷ lệ 1:1?
+Khi lớp phân tích được gắn nhãn <<entity>>.
+* Khi lớp phân tích chỉ đại diện cho một khái niệm logic đơn giản, duy nhất.
+Khi công cụ vẽ UML tự động hỗ trợ chuyển đổi từ Phân tích sang Thiết kế.
+Khi nhà phân tích có kỹ năng viết code tốt.
 
 Mục đích chính của một phân hệ thiết kế (design subsystem) là gì?
-Cung cấp quản lý cấu hình và tổ chức mô hình
-* Đóng gói hành vi
-Đóng gói các lớp thiết kế tương tự nhau
-Đại diện cho các hệ thống bên ngoài
+Quản lý cấu hình phần mềm và sắp xếp các tệp thiết kế.
+* Che giấu các xử lý phức tạp bên trong và chỉ để lộ giao diện ra ngoài.
+Gom nhóm các lớp thiết kế giống nhau lại một chỗ.
+Đại diện cho các phần mềm bên ngoài hệ thống.
 
-Mục đích của thiết kế phân hệ là gì?
-Hoàn thiện các chi tiết của từng giao diện được triển khai bởi các phân hệ trong một ứng dụng
-Chia hệ thống thành các phân hệ để phân bổ các phân hệ cho các nhóm phát triển
-* Xác định các hành vi được chỉ định trong các giao diện của phân hệ dưới dạng các sự hợp tác của các phần tử thiết kế được chứa
-Xác định phân hệ nào sẽ được triển khai trên tầng nào và các cơ chế truyền thông được sử dụng giữa chúng
+Mục đích của việc thiết kế phân hệ (subsystem design) là gì?
+Hoàn thiện chi tiết của từng giao diện trong ứng dụng.
+Chia nhỏ hệ thống thành nhiều phần để giao việc cho các nhóm lập trình khác nhau.
+* Thiết kế chi tiết cách các lớp con bên trong phân hệ hợp tác chạy các hàm của giao diện phân hệ đó.
+Quy định phân hệ nào chạy trên máy chủ nào và giao thức kết nối giữa chúng.
 
 [image: SAD/images/page_10_img_1.jpeg]
-Trong sơ đồ, C1 và C2 là gì?
-Nhánh (forks)
+Trong sơ đồ, C1 và C2 đại diện cho cái gì?
+Nhánh rẽ song song (forks)
 Trạng thái bắt đầu (initial states)
-* Quyết định (decisions)
-Chuyển trạng thái (transitions)
+* Điểm quyết định rẽ nhánh (decisions)
+Mũi tên chuyển trạng thái (transitions)
 Trạng thái kết thúc (final states)
-Sự kiện (events)
-Trạng thái (states)
+Sự kiện kích hoạt (events)
+Trạng thái thông thường (states)
 Điều kiện bảo vệ (guard conditions)
 
-Định nghĩa cấu hình mạng là bước _____ của hoạt động Mô tả Phân phối (Describe Distribution).
-Cuối cùng
-* Đầu tiên
-Thứ hai
-Thứ năm
+Định nghĩa cấu hình kết nối mạng là bước thứ mấy của hoạt động Mô tả Phân phối (Describe Distribution)?
+Bước cuối cùng (final)
+* Bước đầu tiên (first)
+Bước thứ hai (second)
+Bước thứ năm (fifth)
 
 [image: SAD/images/page_9_img_1.jpeg]
-Trong sơ đồ, B là gì?
-* Nhánh (fork)
+Trong sơ đồ hoạt động, ký hiệu B đại diện cho cái gì?
+* Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-Sự kiện (event)
-Trạng thái (state)
+Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
 
 Phát biểu nào sau đây là đúng về các gói (packages) và phân hệ (subsystems)?
-Một gói không thể chứa một phân hệ.
-Một gói cung cấp hành vi.
-* Một phân hệ cung cấp hành vi.
-Bạn sử dụng một gói khi bạn cần đóng gói hành vi.
+Một gói không được chứa phân hệ.
+Một gói tự cung cấp hành vi chạy phần mềm.
+* Một phân hệ tự cung cấp hành vi chạy phần mềm.
+Bạn sử dụng một gói khi bạn muốn che giấu và đóng gói hành vi phần mềm.
 
-Có bao nhiêu nút vật lý nên được xác định để thực hiện hoạt động Mô tả Phân phối (Describe the Distribution)?
-Chỉ các nút không
-Chỉ một nút
-* Không có nút nào hoặc một nút
-Nhiều hơn một nút
+Có bao nhiêu nút vật lý (physical nodes) cần xác định để thực hiện hoạt động Mô tả Phân phối (Describe the Distribution)?
+Bắt buộc không có nút nào.
+Bắt buộc phải có đúng một nút.
+* Không cần nút nào hoặc có một nút.
+Bắt buộc phải có nhiều hơn một nút.
 
-Tài liệu sơ đồ tuần tự bổ sung, dưới dạng các ghi chú và kịch bản (notes and scripts), thường được sử dụng cho việc gì? (Chọn ba.)
-* Mô tả thời gian yêu cầu giữa các thông điệp
-* Cung cấp chi tiết về hành vi có điều kiện
-Chỉ định các thuộc tính cho các đối tượng xuất hiện trong sơ đồ
-* Tương quan các điểm mở rộng (extension points) trong ca sử dụng với các vị trí cụ thể trong sơ đồ tuần tự
+Các ghi chú (notes) và kịch bản (scripts) bổ sung trên sơ đồ tuần tự thường dùng để làm gì? (Chọn ba.)
+* Quy định thời gian bắt buộc giữa các tin nhắn truyền đi.
+* Vẽ chi tiết các luồng xử lý có điều kiện rẽ nhánh.
+Khai báo thuộc tính cho các đối tượng vẽ trên sơ đồ.
+* Khớp các điểm mở rộng ca sử dụng với vị trí tương ứng trên sơ đồ tuần tự.
 
-Cái gì được sử dụng để mô tả quá trình áp dụng một cơ chế phân phối trong quá trình triển khai?
-Sơ đồ hoạt động
-Lưu đồ
-* Mẫu UML và các bước viết bằng văn bản
-Sơ đồ ca sử dụng
+Cái gì được dùng để hướng dẫn lập trình viên áp dụng cơ chế phân phối khi viết code?
+Sơ đồ hoạt động.
+Sơ đồ luồng dữ liệu (flowchart).
+* Mẫu UML thiết kế sẵn kèm tài liệu hướng dẫn bằng chữ viết.
+Sơ đồ ca sử dụng (use-case diagram).
 
 [image: SAD/images/page_11_img_1.png]
-Dựa trên thông tin được cung cấp trong sơ đồ, phát biểu nào sau đây là đúng?
-Sư tử (Lion) và Hổ (Tiger) giao tiếp với nhau.
-Sư tử (Lion) và Hổ (Tiger) giao tiếp với Động vật (Animal).
-* Động vật (Animal) có thể không có các thể hiện trực tiếp.
-Các thể hiện của Động vật giao tiếp khác với các thể hiện của Sư tử hoặc Hổ.
+Dựa vào sơ đồ lớp của lớp Động vật (Animal), Sư tử (Lion) và Hổ (Tiger), phát biểu nào đúng?
+Sư tử và Hổ gọi trực tiếp phương thức của nhau.
+Sư tử và Hổ gửi tin nhắn trực tiếp cho Động vật.
+* Lớp Động vật (Animal) là lớp trừu tượng nên có thể không có đối tượng cụ thể nào của nó chạy trong bộ nhớ.
+Đối tượng Động vật giao tiếp khác đối tượng Sư tử hoặc Hổ.
 
-Một thuộc tính được gạch chân trong UML biểu thị điều gì?
-Thuộc tính là chỉ đọc.
-Thuộc tính được suy ra từ các thuộc tính khác.
-Thuộc tính xác định duy nhất các thể hiện.
-* Thuộc tính được định nghĩa ở cấp độ classifier thay vì cấp độ thể hiện (instance level).
+Một thuộc tính được gạch chân dưới tên trong sơ đồ lớp biểu thị điều gì?
+Thuộc tính đó chỉ được đọc, không được sửa.
+Giá trị thuộc tính được tính toán từ thuộc tính khác.
+Thuộc tính dùng để định danh duy nhất cho đối tượng.
+* Thuộc tính tĩnh (static) thuộc về cả lớp chứ không riêng biệt cho từng đối tượng.
 
 [image: SAD/images/page_12_img_1.jpeg]
-Trong sơ đồ, thuộc tính CourseOffering.numberOfStudents là một ví dụ về:
-Một thiết kế tồi
-* Một thuộc tính tĩnh (static attribute)
-Một thuộc tính dẫn xuất (derived attribute)
-Cách đặt tên không chuẩn
+Trong sơ đồ lớp, thuộc tính CourseOffering.numberOfStudents được gạch chân là ví dụ về:
+Một thiết kế tồi.
+* Thuộc tính tĩnh (static attribute) của lớp.
+Thuộc tính được tính toán từ giá trị khác (derived attribute).
+Cách đặt tên thuộc tính không chuẩn.
 
 [image: SAD/images/page_12_img_2.jpeg]
-Trong sơ đồ, A là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu A đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 * Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-Sự kiện (event)
-Trạng thái (state)
+Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
 
-Đối với tính bền vững (persistence), hai chức năng của giao dịch (transactions) là gì? (Chọn hai.)
-* Đảm bảo rằng một tập hợp các thao tác được thực hiện toàn bộ hoặc không thực hiện gì cả
-Cho phép nhà thiết kế xác định các thao tác sẽ được thực hiện với mức độ ưu tiên khi thiếu tài nguyên hệ thống
-* Đảm bảo rằng các tập hợp đối tượng di chuyển từ trạng thái nhất quán này sang trạng thái nhất quán khác
-Đơn giản hóa công việc thiết kế, để tính bền vững không cần phải xem xét rõ ràng trong Thiết kế Ca sử dụng
-Đơn giản hóa công việc thiết kế, bằng cách cung cấp các phương pháp chuẩn hóa để đại diện cho các đối tượng bền vững trong UML
+Trong lưu trữ cơ sở dữ liệu (persistence), hai chức năng chính của giao dịch (transactions) là gì? (Chọn hai.)
+* Đảm bảo một nhóm các câu lệnh SQL chạy hết toàn bộ hoặc hủy bỏ toàn bộ (không chạy gì cả).
+Giúp lập trình viên ưu tiên chạy các hàm quan trọng khi máy chủ hết tài nguyên.
+* Đảm bảo dữ liệu chuyển từ trạng thái đồng bộ này sang trạng thái đồng bộ khác không bị lỗi giữa chừng.
+Giúp lập trình viên không cần suy nghĩ về lưu trữ dữ liệu khi thiết kế ca sử dụng.
+Cung cấp các cách vẽ chuẩn hóa đối tượng lưu trữ trong UML.
 
-Ba mục đích của Thiết kế Ca sử dụng (Use Case Design) là gì? (Chọn ba.)
-* Tinh chỉnh hiện thực hóa ca sử dụng dưới dạng các tương tác
-Đảm bảo tính đầy đủ của sơ đồ View of Participating Classes cho mỗi hiện thực hóa ca sử dụng
-* Tinh chỉnh các yêu cầu trên các thao tác của các lớp thiết kế
-* Tinh chỉnh các yêu cầu trên các thao tác của các phân hệ thiết kế và/hoặc các giao diện của chúng
+Ba mục đích chính của bước Thiết kế Ca sử dụng (Use Case Design) là gì? (Chọn ba.)
+* Vẽ chi tiết cách các đối tượng gửi tin nhắn giao tiếp chạy tính năng.
+Đảm bảo vẽ đầy đủ sơ đồ các lớp tham gia cho từng tính năng.
+* Tinh chỉnh chi tiết các hàm khai báo trong lớp thiết kế.
+* Tinh chỉnh chi tiết các hàm trong phân hệ thiết kế hoặc giao diện của chúng.
 
-Sản phẩm đầu ra (output artifact) của Thiết kế Ca sử dụng là gì?
-Các lớp phân tích
-Các lớp thiết kế
-Các giao diện
-* Mô hình Thiết kế (Design Model)
+Sản phẩm đầu ra của hoạt động Thiết kế Ca sử dụng là gì?
+Các lớp phân tích sơ khai.
+Các lớp thiết kế chi tiết.
+Các giao diện kết nối (interfaces).
+* Mô hình Thiết kế (Design Model) hoàn thiện.
 
-Cái nào là một ví dụ về Môi trường Thực thi (Execution Environment)?
-Thiết bị chuyển mạch mạng Gigabit
-Mạng riêng ảo (VPN)
-* Máy chủ ứng dụng J2EE
-Máy tính cầm tay
+Thành phần nào sau đây là một ví dụ về Môi trường Thực thi (Execution Environment)?
+Thiết bị chia mạng (Gigabit network switch).
+Mạng riêng ảo (VPN).
+* Máy chủ ứng dụng J2EE Application Server (hoặc Docker, JVM).
+Thiết bị máy tính cầm tay (handheld computer).
 
-Mục đích của việc Hợp nhất các Lớp và Phân hệ (Unify Classes and Subsystems) là để đảm bảo điều gì?
-Mỗi phân hệ có một thành phần phân hệ tương ứng
-Tất cả các lớp được gán cho tối đa một phân hệ
-* Trách nhiệm của các phần tử thiết kế không trùng lặp
-Mỗi giao diện được xác định có một API gắn kết và mạch lạc
+Mục đích của hoạt động Hợp nhất các Lớp và Phân hệ (Unify Classes and Subsystems) là gì?
+Đảm bảo mỗi phân hệ đều có một thành phần chạy tương ứng.
+Đảm bảo mỗi lớp chỉ được nằm trong tối đa một phân hệ.
+* Loại bỏ trùng lặp, đảm bảo nhiệm vụ của các lớp thiết kế không chồng chéo lên nhau.
+Đảm bảo mỗi giao diện đều có mã nguồn rõ ràng.
 
-Cái nào là hướng dẫn để đóng gói các tương tác phân hệ trên sơ đồ tuần tự?
-* Các thông điệp gửi đến phân hệ nên tương ứng với các thao tác giao diện phân hệ.
-Các thông điệp từ phân hệ nên tương ứng với các thao tác của thành phần phân hệ.
-Trong Thiết kế Ca sử dụng, sơ đồ tuần tự phụ nên được tạo ra để mô hình hóa các tương tác bên trong các phân hệ.
-Một phân hệ nên được đại diện trên sơ đồ tuần tự bằng cách sử dụng thành phần phân hệ của nó.
+Quy tắc tốt nhất để vẽ phân hệ (subsystem) trên sơ đồ tuần tự là gì?
+* Các tin nhắn gửi vào phân hệ phải khớp đúng với các hàm khai báo ở giao diện của phân hệ đó.
+Tin nhắn từ phân hệ gửi ra phải tương ứng với các hàm của thành phần phân hệ.
+Phải vẽ thêm sơ đồ tuần tự phụ để mô tả chi tiết code chạy bên trong phân hệ.
+Nên vẽ phân hệ bằng cách dùng các thành phần của nó.
 
-Cái nào là một ví dụ về đầu nối (connector)?
-Ổ đĩa cứng SCSI
-Bộ nguồn liên tục (UPS)
-* Giao thức HTTP
-Lớp JDBC
+Thành phần nào sau đây là ví dụ về một đầu nối (connector) trên sơ đồ triển khai?
+Ổ đĩa cứng chuẩn SCSI.
+Bộ tích điện dự phòng (UPS).
+* Giao thức HTTP (HTTP protocol).
+Thư viện JDBC dùng kết nối database.
 
-Cái nào là một thiết bị (device)?
-Máy chủ cơ sở dữ liệu
-Máy chủ web
-Mạng riêng ảo (VPN)
-* Máy tính cầm tay
+Thành phần nào sau đây là một thiết bị vật lý (device)?
+Phần mềm máy chủ cơ sở dữ liệu (database server).
+Phần mềm máy chủ web (web server).
+Mạng riêng ảo (VPN).
+* Thiết bị máy tính cầm tay (handheld computer).
 
-Góc nhìn 4+1 nào là trọng tâm của hoạt động Mô tả Phân phối (Describe Distribution)?
+Góc nhìn nào trong mô hình 4+1 View là trọng tâm của hoạt động Mô tả Phân phối (Describe Distribution)?
 Góc nhìn Logic (Logical View)
 * Góc nhìn Triển khai (Deployment View)
 Góc nhìn Ca sử dụng (Use Case View)
 Góc nhìn Thực hiện (Implementation View)
 
-Ba hoạt động nào là các phần tử của Thiết kế Lớp (Class Design)? (Chọn ba.)
-* Xác định các lớp và mối quan hệ hỗ trợ việc triển khai một kiến trúc
-* Xác định và phân tích các chuyển trạng thái trong các đối tượng của các lớp được kiểm soát bởi trạng thái
-Xác định các lớp mô hình hóa miền vấn đề
-* Tinh chỉnh các mối quan hệ, các thao tác và các thuộc tính
+Ba hoạt động nào là một phần của Thiết kế Lớp (Class Design)? (Chọn ba.)
+* Vẽ các lớp và mối quan hệ để phục vụ trực tiếp cho việc viết code.
+* Xác định và phân tích sự thay đổi trạng thái của các đối tượng có vòng đời phức tạp.
+Tìm các lớp đại diện cho các khái niệm nghiệp vụ thực tế.
+* Tinh chỉnh chi tiết các mối quan hệ, các hàm và các thuộc tính của lớp.
 
 [image: SAD/images/page_24_img_1.jpeg]
-Trong sơ đồ, D là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu D đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-* Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+* Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-Sự kiện (event)
-Trạng thái (state)
+Sự kiện kích hoạt (event)
+Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
 
-Artifacts (các sản phẩm vật lý/sản phẩm chuyển giao) là các thực thể như thế nào?
-Lưu trữ phần mềm đang chạy
-* Được triển khai lên các nút vật lý
-Là kết quả của các chuyển đổi mô hình
-Được lưu trữ trong bộ nhớ cache của trình duyệt
+Sản phẩm chuyển giao (Artifacts) trong UML là những thực thể như thế nào?
+Máy chủ chạy các phần mềm.
+* File code, file thư viện (.jar, .war) được cài đặt trực tiếp lên thiết bị phần cứng.
+Kết quả của việc vẽ chuyển đổi giữa các sơ đồ.
+Các tệp tạm lưu trong bộ nhớ trình duyệt.
 
 [image: SAD/images/page_28_img_1.jpeg]
-Trong sơ đồ, G là gì?
-Nhánh (fork)
+Trong sơ đồ máy trạng thái, ký hiệu G đại diện cho cái gì?
+Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
-Quyết định (decision)
-Chuyển trạng thái (transition)
+Điểm quyết định rẽ nhánh (decision)
+Mũi tên chuyển trạng thái (transition)
 Trạng thái kết thúc (final state)
-Sự kiện (event)
-* Trạng thái (state)
+Sự kiện kích hoạt (event)
+* Trạng thái thông thường (state)
 Điều kiện bảo vệ (guard condition)
