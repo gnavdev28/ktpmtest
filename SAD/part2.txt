@@ -58,7 +58,7 @@ Xác định các cơ chế thiết kế (Identify Design Mechanisms)
 Thiết kế lớp chi tiết (Class Design)
 * Phân tích kiến trúc hệ thống (Architectural Analysis)
 
-[image: SAD/images/page_2_img_1.jpeg]
+[image: SAD/images/part2_q_11.png]
 Trong sơ đồ máy trạng thái, ký hiệu E đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
@@ -75,7 +75,7 @@ Thiết kế các thành phần hệ thống
 Thực hiện phân tích kiến trúc hệ thống
 * Tinh chỉnh kiến trúc hệ thống (Refine the Architecture)
 
-[image: SAD/images/page_3_img_1.jpeg]
+[image: SAD/images/part2_q_13.png]
 Trong sơ đồ máy trạng thái, ký hiệu H đại diện cho cái gì?
 * Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
@@ -230,7 +230,7 @@ Sơ đồ tuần tự (sequence diagram)
 Sơ đồ thành phần (component diagram)
 * Sơ đồ máy trạng thái (state machine diagram)
 
-[image: SAD/images/page_7_img_1.jpeg]
+[image: SAD/images/part2_q_38.png]
 Trong sơ đồ máy trạng thái, ký hiệu F đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
@@ -265,7 +265,7 @@ Chia nhỏ hệ thống thành nhiều phần để giao việc cho các nhóm l
 * Thiết kế chi tiết cách các lớp con bên trong phân hệ hợp tác chạy các hàm của giao diện phân hệ đó.
 Quy định phân hệ nào chạy trên máy chủ nào và giao thức kết nối giữa chúng.
 
-[image: SAD/images/page_10_img_1.jpeg]
+[image: SAD/images/part2_q_43.png]
 Trong sơ đồ, C1 và C2 đại diện cho cái gì?
 Nhánh rẽ song song (forks)
 Trạng thái bắt đầu (initial states)
@@ -282,7 +282,7 @@ Bước cuối cùng (final)
 Bước thứ hai (second)
 Bước thứ năm (fifth)
 
-[image: SAD/images/page_9_img_1.jpeg]
+[image: SAD/images/part2_q_45.png]
 Trong sơ đồ hoạt động, ký hiệu B đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
@@ -317,7 +317,7 @@ Sơ đồ luồng dữ liệu (flowchart).
 * Mẫu UML thiết kế sẵn kèm tài liệu hướng dẫn bằng chữ viết.
 Sơ đồ ca sử dụng (use-case diagram).
 
-[image: SAD/images/page_11_img_1.png]
+[image: SAD/images/part2_q_50.png]
 Dựa vào sơ đồ lớp của lớp Động vật (Animal), Sư tử (Lion) và Hổ (Tiger), phát biểu nào đúng?
 Sư tử và Hổ gọi trực tiếp phương thức của nhau.
 Sư tử và Hổ gửi tin nhắn trực tiếp cho Động vật.
@@ -330,14 +330,14 @@ Giá trị thuộc tính được tính toán từ thuộc tính khác.
 Thuộc tính dùng để định danh duy nhất cho đối tượng.
 * Thuộc tính tĩnh (static) thuộc về cả lớp chứ không riêng biệt cho từng đối tượng.
 
-[image: SAD/images/page_12_img_1.jpeg]
+[image: SAD/images/part2_q_52.png]
 Trong sơ đồ lớp, thuộc tính CourseOffering.numberOfStudents được gạch chân là ví dụ về:
 Một thiết kế tồi.
 Thuộc tính tĩnh (static attribute) của lớp.
 * Thuộc tính được tính toán từ giá trị khác (derived attribute).
 Cách đặt tên thuộc tính không chuẩn.
 
-[image: SAD/images/page_12_img_2.jpeg]
+[image: SAD/images/part2_q_53.png]
 Trong sơ đồ máy trạng thái, ký hiệu A đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 * Trạng thái bắt đầu (initial state)
@@ -409,7 +409,7 @@ Ba hoạt động nào là một phần của Thiết kế Lớp (Class Design)?
 Tìm các lớp đại diện cho các khái niệm nghiệp vụ thực tế.
 * Tinh chỉnh chi tiết các mối quan hệ, các hàm và các thuộc tính của lớp.
 
-[image: SAD/images/page_24_img_1.jpeg]
+[image: SAD/images/part2_q_111.png]
 Trong sơ đồ máy trạng thái, ký hiệu D đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
@@ -426,7 +426,7 @@ Máy chủ chạy các phần mềm.
 Kết quả của việc vẽ chuyển đổi giữa các sơ đồ.
 Các tệp tạm lưu trong bộ nhớ trình duyệt.
 
-[image: SAD/images/page_28_img_1.jpeg]
+[image: SAD/images/part2_q_128.png]
 Trong sơ đồ máy trạng thái, ký hiệu G đại diện cho cái gì?
 Nhánh rẽ song song (fork)
 Trạng thái bắt đầu (initial state)
