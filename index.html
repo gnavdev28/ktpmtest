@@ -57,6 +57,7 @@
         </div>
         <div id="question-area">
             <h2 id="question-text"></h2>
+            <div id="question-image-container" style="margin-bottom: 15px; text-align: center;"></div>
             <div class="options" id="options-container"></div>
         </div>
         <div style="margin-top: 25px; display: flex; justify-content: space-between; align-items: center;">
@@ -125,6 +126,14 @@
                 { name: "Đề 1", file: "tthcm/hcm1.txt" },
                 { name: "Đề 2", file: "tthcm/hcm2.txt" },
                 { name: "Đề 3", file: "tthcm/hcm3.txt" }
+            ]
+        },
+        {
+            id: "sad",
+            name: "📐 Phân tích thiết kế hệ thống (SAD)",
+            files: [
+                { name: "Part 1", file: "SAD/part1.txt" },
+                { name: "Part 2", file: "SAD/part2.txt" }
             ]
         }
     ];
@@ -224,7 +233,29 @@
     function loadQuestion() {
         const q = currentQuizSet[currentIndex];
         document.getElementById('progress-text').innerText = `Câu ${currentIndex + 1} / ${currentQuizSet.length}`;
-        document.getElementById('question-text').innerText = q.q;
+        
+        // Parse image markup if any
+        const imgContainer = document.getElementById('question-image-container');
+        imgContainer.innerHTML = '';
+        
+        let displayQText = q.q;
+        const imgMatch = q.q.match(/\[image:\s*([^\]]+)\]/);
+        if (imgMatch) {
+            const imgPath = imgMatch[1];
+            displayQText = q.q.replace(/\[image:\s*[^\]]+\]/, '').trim();
+            
+            const img = document.createElement('img');
+            img.src = imgPath;
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '350px';
+            img.style.borderRadius = '8px';
+            img.style.marginTop = '10px';
+            img.style.border = '1px solid #e2e8f0';
+            img.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
+            imgContainer.appendChild(img);
+        }
+        
+        document.getElementById('question-text').innerText = displayQText;
         
         const container = document.getElementById('options-container');
         container.innerHTML = '';
