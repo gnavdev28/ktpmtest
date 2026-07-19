@@ -1,302 +1,302 @@
-Phát biểu nào sau đây là đúng?
-A. UML là một quy trình phát triển cho các hệ thống chuyên sâu về phần mềm.
-B. UML là một ngôn ngữ phụ thuộc quy trình được sử dụng để trực quan hóa các artifact phần mềm.
-* C. UML là một ngôn ngữ mô hình hóa cho các bản thiết kế phần mềm.
+Phát biểu nào sau đây là đúng về UML?
+A. UML là một quy trình phát triển dành cho các hệ thống chuyên sâu về phần mềm.
+B. UML là một ngôn ngữ phụ thuộc quy trình được sử dụng để trực quan hóa các sản phẩm phần mềm (artifacts).
+* C. UML là một ngôn ngữ mô hình hóa để xây dựng các bản thiết kế phần mềm.
 D. UML là một ngôn ngữ lập trình trực quan.
 
 Lớp có cấu trúc (structured class) khác với lớp truyền thống ở 3 điểm nào? (Chọn 3)
-* A. Nó xác định rõ ranh giới của lớp thông qua một vỏ bọc đóng gói.
-* B. Nó đưa các interface công khai vào lớp thông qua các port.
-* C. Nó thể hiện vai trò mà lớp đảm nhận.
-D. Nó định nghĩa các thông điệp giữa chính nó và các lớp khác.
+* A. Nó xác định rõ ranh giới của lớp thông qua một vỏ bọc đóng gói (encapsulating shell).
+* B. Nó đưa các giao diện (interfaces) công khai vào lớp thông qua các cổng (ports).
+* C. Nó thể hiện rõ các vai trò (roles) mà lớp đảm nhận.
+D. Nó định nghĩa các thông điệp truyền giữa chính nó và các lớp khác.
 
-Đặc điểm của một structured class là gì?
-A. Phải có một interface cho mỗi vai trò mà nó đảm nhận.
-B. Chỉ có thể đóng một vai trò, bất kể có bao nhiêu đối tượng giao dịch với nó.
+Đặc điểm của một lớp có cấu trúc (structured class) là gì?
+A. Phải có một giao diện (interface) cho mỗi vai trò mà nó đảm nhận.
+B. Chỉ có thể đóng một vai trò duy nhất, bất kể có bao nhiêu đối tượng tương tác với nó.
 * C. Có thể đóng nhiều vai trò khác nhau tùy thuộc vào các đối tượng tương tác với nó.
-D. Bị giới hạn ở một vai trò, nhưng có thể có nhiều interface.
+D. Bị giới hạn ở một vai trò duy nhất, nhưng có thể có nhiều giao diện.
 
-Phát biểu nào đúng về quy trình phát triển lặp (iterative)?
-* A. Kiểm thử và tích hợp diễn ra trong mọi vòng lặp.
-B. Một vòng lặp tập trung vào việc hoàn thành một phần các use-case realization được chọn.
-C. Nó khuyến khích phản hồi từ người dùng ở các vòng lặp sau.
-D. Nó dựa trên sự phân rã chức năng của một hệ thống.
+Phát biểu nào sau đây là đúng về quy trình phát triển lặp (iterative development)?
+* A. Kiểm thử và tích hợp diễn ra trong mọi vòng lặp (iteration).
+B. Một vòng lặp tập trung vào việc hoàn thành một phần các hiện thực hóa ca sử dụng (use-case realizations) được chọn.
+C. Quy trình khuyến khích lấy phản hồi từ người dùng ở các vòng lặp sau cùng.
+D. Quy trình dựa trên sự phân rã chức năng (functional decomposition) của hệ thống.
 
-Hai phát biểu nào đúng về interface? (Chọn 2)
-* A. Interface nên có một mục đích rõ ràng.
-B. Một interface duy nhất nên bao gồm càng nhiều phương thức càng tốt, nếu không muốn nói là tất cả, có thể được chia sẻ bởi các đối tượng triển khai interface đó.
-C. Một interface nên được sử dụng để hạn chế các phương thức được phơi bày cho client.
-* D. Các lớp có thể có nhiều interface tùy thuộc vào mục đích của mỗi interface mà nó triển khai.
+Hai phát biểu nào sau đây là đúng về giao diện (interface)? (Chọn 2)
+* A. Một giao diện nên có một mục đích sử dụng rõ ràng và gắn kết.
+B. Một giao diện duy nhất nên bao gồm càng nhiều phương thức càng tốt để các đối tượng cùng chia sẻ.
+C. Một giao diện nên được sử dụng để hạn chế các phương thức được phơi bày cho phía khách khách hàng (client).
+* D. Các lớp có thể triển khai nhiều giao diện tùy thuộc vào mục đích của từng giao diện đó.
 
-Trọng tâm của Analysis là gì?
-A. Chuyển đổi các yêu cầu chức năng thành code.
-B. Chuyển đổi các yêu cầu thành thiết kế hệ thống.
-C. Chuyển đổi các khái niệm trong thế giới thực thành các đối tượng định hướng giải pháp.
-* D. Chuyển đổi các yêu cầu chức năng thành các khái niệm phần mềm.
+Trọng tâm của giai đoạn Phân tích (Analysis) là gì?
+A. Chuyển đổi các yêu cầu chức năng thành mã nguồn (code).
+B. Chuyển đổi các yêu cầu thành thiết kế chi tiết của hệ thống.
+C. Chuyển đổi các khái niệm thực tế thành các đối tượng định hướng giải pháp kỹ thuật.
+* D. Chuyển đổi các yêu cầu chức năng của người dùng thành các khái niệm phần mềm ở mức cao.
 
-Tại sao tính đóng gói (encapsulation) lại quan trọng? (Chọn 2)
-A. Nó mô tả mối quan hệ giữa hai subclass.
-* B. Nó đặt các phương thức và thuộc tính vào trong cùng một đối tượng.
-C. Nó cho phép các đối tượng khác thay đổi các phương thức và thuộc tính private của một đối tượng.
-* D. Nó ngăn các đối tượng khác thay đổi trực tiếp các thuộc tính của một đối tượng.
+Tại sao tính đóng gói (encapsulation) lại quan trọng trong lập trình hướng đối tượng? (Chọn 2)
+A. Nó mô tả mối quan hệ thừa kế giữa hai lớp con (subclasses).
+* B. Nó nhóm các phương thức và thuộc tính liên quan vào trong cùng một đối tượng.
+C. Nó cho phép các đối tượng khác tự do thay đổi các phương thức và thuộc tính ẩn (private).
+* D. Nó ngăn chặn các đối tượng khác thay đổi trực tiếp các thuộc tính bên trong của một đối tượng.
 
-Analysis class là gì?
-* A. Những phỏng đoán ban đầu về thành phần của hệ thống thường thay đổi theo thời gian, hiếm khi tồn tại nguyên vẹn cho đến giai đoạn Implementation.
-B. Các lớp không hoàn chỉnh yêu cầu lập trình viên chính thức hóa các chữ ký phương thức và kiểu thuộc tính trước khi chúng có thể được triển khai.
-C. Các lớp bên trong Business Object hoặc Domain Model của hệ thống, dưới dạng UML.
-D. Một nguyên mẫu về giao diện người dùng của hệ thống, được phát triển trong giai đoạn Analysis, cho phép người dùng xác định giao diện của hệ thống.
+Lớp phân tích (analysis class) là gì?
+* A. Là những phác thảo ban đầu về cấu trúc của hệ thống, thường thay đổi theo thời gian và hiếm khi giữ nguyên vẹn cho đến giai đoạn Hiện thực hóa (Implementation).
+B. Là các lớp chưa hoàn chỉnh, yêu cầu lập trình viên phải khai báo đầy đủ chữ ký phương thức và kiểu thuộc tính trước khi viết code.
+C. Là các lớp bên trong Mô hình miền (Domain Model) của hệ thống dưới dạng sơ đồ UML.
+D. Là bản vẽ thiết kế giao diện người dùng của hệ thống được tạo ra trong giai đoạn Phân tích.
 
-Một kiến trúc sư xem xét hai lớp. Lớp đầu tiên có các phương thức: getName(), getSize(), getTotal() và findAverage(). Lớp thứ hai có các phương thức: getName(), getSize(), findAverage(), findMinimum() và findMaximum(). Hai lớp có chung một superclass. Các phương thức nào có khả năng cao nhất nằm trong superclass?
+Một kiến trúc sư xem xét hai lớp: Lớp thứ nhất có các phương thức getName(), getSize(), getTotal() và findAverage(). Lớp thứ hai có các phương thức getName(), getSize(), findAverage(), findMinimum() và findMaximum(). Cả hai lớp đều chung một lớp cha (superclass). Những phương thức nào có khả năng cao nhất sẽ được đưa lên lớp cha?
 * A. getName(), getSize() và findAverage()
 B. findMaximum(), findMinimum(), getSize() và getTotal()
 C. getName(), findAverage() và findMaximum()
 D. getName(), getSize(), getTotal() và findAverage()
 
-Một kiến trúc sư chịu trách nhiệm tạo ra Analysis Model cho một hệ thống. Trọng tâm nào là cần thiết cho việc tạo ra mô hình này?
-A. Phần cứng mà hệ thống sẽ được triển khai.
-* B. Hành vi của các đối tượng cấu thành hệ thống.
-C. Sự tiến hóa của các analysis class thành các design class.
-D. Các yêu cầu về hiệu suất của hệ thống.
+Một kiến trúc sư phần mềm chịu trách nhiệm xây dựng Mô hình phân tích (Analysis Model). Trọng tâm chính nào là cần thiết khi tạo mô hình này?
+A. Cấu hình phần cứng mà hệ thống sẽ được triển khai.
+* B. Hành vi của các đối tượng cấu thành nên hệ thống.
+C. Quá trình phát triển các lớp phân tích thành các lớp thiết kế (design classes).
+D. Các yêu cầu phi chức năng về hiệu suất của hệ thống.
 
-Required interface dùng để làm gì?
-A. Phơi bày các dịch vụ cho các requestor ẩn danh.
-* B. Sử dụng các dịch vụ mà một classifier cần yêu cầu từ các provider ẩn danh.
-C. Khai báo các dịch vụ mà một classifier cung cấp cho các requestor ẩn danh.
-D. Phơi bày các phương thức mà requestor phải sử dụng.
+Giao diện yêu cầu (required interface) của một thành phần dùng để làm gì?
+A. Phơi bày các dịch vụ cho các bên yêu cầu (requestors) ẩn danh.
+* B. Khai báo các dịch vụ mà một classifier cần yêu cầu từ các nhà cung cấp (providers) ẩn danh.
+C. Khai báo các dịch vụ mà một classifier cung cấp cho các bên yêu cầu ẩn danh.
+D. Phơi bày các phương thức bắt buộc mà phía yêu cầu phải sử dụng.
 
-Trong sequence diagram, mỗi interaction trên biểu đồ ánh xạ tới đâu?
-A. Một choice point trên state diagram.
-* B. Một transition trên state diagram.
-C. Một state trên biểu đồ.
-D. Initial state.
+Trong sơ đồ tuần tự (sequence diagram), mỗi thông điệp (message) trên sơ đồ sẽ tương ứng với thành phần nào trên sơ đồ máy trạng thái (state machine diagram)?
+A. Một điểm quyết định (choice point) trên sơ đồ trạng thái.
+* B. Một bước chuyển trạng thái (transition) trên sơ đồ trạng thái.
+C. Một trạng thái (state) trên sơ đồ trạng thái.
+D. Trạng thái bắt đầu (initial state).
 
-Sử dụng multiplicity trên các mối quan hệ cho phép bạn trả lời 2 câu hỏi nào? (Chọn 2)
-* A. Mối quan hệ này là bắt buộc hay tùy chọn?
-* B. Một đối tượng thuộc một kiểu có thể duy trì bao nhiêu liên kết với các đối tượng thuộc kiểu khác?
-C. Một đối tượng thuộc một kiểu nhất định có được phép tương tác với các đối tượng thuộc kiểu khác không?
-D. Mối quan hệ giữa các đối tượng là vĩnh viễn hay tạm thời?
+Việc xác định bội số (multiplicity) trên các mối quan hệ giúp trả lời hai câu hỏi nào? (Chọn 2)
+* A. Mối quan hệ liên kết này là bắt buộc hay tùy chọn?
+* B. Một đối tượng thuộc kiểu này có thể liên kết với tối đa bao nhiêu đối tượng thuộc kiểu khác?
+C. Một đối tượng thuộc kiểu này có được phép tương tác với các đối tượng thuộc kiểu khác không?
+D. Mối quan hệ giữa các đối tượng này là vĩnh viễn hay tạm thời?
 
-Hai lưu ý quan trọng khi vẽ state diagram là gì? (Chọn 2)
-* A. Bất cứ khi nào nhận được một thông điệp, có thể có một sự thay đổi state.
-B. Bất cứ khi nào nhận được một thông điệp, phải có một sự thay đổi state.
-* C. Bất cứ khi nào có sự thay đổi state, sẽ có một transition.
-D. Thay đổi state có thể không làm thay đổi transition.
+Hai lưu ý quan trọng khi vẽ sơ đồ trạng thái (state diagram) là gì? (Chọn 2)
+* A. Mỗi khi đối tượng nhận được một thông điệp (message), trạng thái của nó có thể thay đổi.
+B. Mỗi khi đối tượng nhận được một thông điệp, trạng thái của nó bắt buộc phải thay đổi.
+* C. Mỗi khi trạng thái thay đổi, sẽ có một bước chuyển trạng thái (transition) tương ứng.
+D. Sự thay đổi trạng thái có thể diễn ra mà không cần bước chuyển trạng thái.
 
-Phát biểu nào đúng về circular dependency?
-A. Chúng không quan trọng.
-B. Chúng bị cấm.
-* C. Cần phải tránh chúng.
-D. Khi có nhiều hơn hai package, chúng không liên quan.
+Phát biểu nào sau đây là đúng về hiện tượng phụ thuộc vòng (circular dependency)?
+A. Chúng không ảnh hưởng gì đến thiết kế hệ thống.
+B. Chúng bị cấm hoàn toàn trong mọi biểu đồ UML.
+* C. Cần phải tránh hiện tượng phụ thuộc vòng giữa các gói (packages).
+D. Hiện tượng này chỉ ảnh hưởng khi dự án có nhiều hơn hai gói.
 
-Mục đích của Architectural Analysis là gì?
-A. Để chi tiết hóa thiết kế của hệ thống.
-B. Để xem xét kiến trúc của hệ thống.
-* C. Để xác định một kiến trúc ứng viên cho hệ thống.
-D. Để xác định các layer của kiến trúc.
+Mục đích chính của hoạt động Phân tích kiến trúc (Architectural Analysis) là gì?
+A. Chi tiết hóa thiết kế chi tiết của toàn bộ hệ thống.
+B. Đánh giá và kiểm duyệt lại kiến trúc hiện tại của hệ thống.
+* C. Xác định một kiến trúc ứng viên (candidate architecture) tiềm năng cho hệ thống.
+D. Xác định và phân chia các tầng (layers) trong kiến trúc.
 
-Khi các interface giữa hai lớp đã được định nghĩa từ một sequence diagram, các port được định nghĩa bởi cái gì?
-* A. Interface
-B. Các phương thức mà lớp thực hiện.
-C. Người dùng hệ thống.
-D. Các thuộc tính được truyền trong sequence diagram.
+Khi các giao diện (interfaces) giữa hai lớp được xác định từ sơ đồ tuần tự, các cổng (ports) sẽ được định nghĩa dựa vào đâu?
+* A. Các giao diện (interfaces)
+B. Các phương thức mà lớp đó triển khai.
+C. Yêu cầu của người dùng hệ thống.
+D. Các thuộc tính được truyền đi trên sơ đồ tuần tự.
 
-Phát biểu nào đúng về các thuộc tính (attributes)?
-A. Chúng không thể thay đổi sau khi đối tượng được khởi tạo.
-* B. Chúng thay đổi giá trị từ đối tượng này sang đối tượng khác của cùng một lớp.
-C. Chúng chỉ có thể là kiểu primitive.
-D. Chúng là bắt buộc cho mọi lớp.
+Phát biểu nào sau đây là đúng về các thuộc tính (attributes) của lớp?
+A. Giá trị của thuộc tính không thể thay đổi sau khi đối tượng được khởi tạo.
+* B. Giá trị thuộc tính có thể khác nhau giữa các đối tượng khác nhau của cùng một lớp.
+C. Thuộc tính chỉ được phép mang các kiểu dữ liệu nguyên thủy (primitive types).
+D. Mọi lớp thiết kế bắt buộc phải định nghĩa các thuộc tính.
 
-Ba mục đích của Analysis and Design là gì? (Chọn 3)
-A. Cung cấp bối cảnh tổ chức cho hệ thống.
-* B. Chuyển đổi các yêu cầu thành thiết kế của hệ thống sắp được xây dựng.
-* C. Phát triển một kiến trúc mạnh mẽ cho hệ thống.
-D. Xác định phạm vi của hệ thống sẽ được xây dựng và mô tả những gì nó phải làm.
-* E. Điều chỉnh thiết kế để phù hợp với môi trường deployment.
+Ba mục đích chính của Phân tích và Thiết kế (Analysis and Design) là gì? (Chọn 3)
+A. Cung cấp bối cảnh tổ chức hoạt động của dự án phần mềm.
+* B. Chuyển đổi các yêu cầu chức năng thành thiết kế của hệ thống sắp xây dựng.
+* C. Xây dựng một kiến trúc mạnh mẽ và ổn định cho hệ thống.
+D. Xác định phạm vi của hệ thống và mô tả chi tiết những gì hệ thống phải làm.
+* E. Điều chỉnh thiết kế để phù hợp với môi trường triển khai thực tế (deployment environment).
 
-Các đối tượng có tính đa hình (polymorphic)
-A. Phải có cùng thuộc tính.
-B. Chia sẻ tất cả các phương thức giống nhau, và các phương thức thực thi giống nhau.
-C. Chỉ có thể được triển khai thông qua các interface.
-* D. Có thể có cùng tên phương thức nhưng các phương thức thực thi khác nhau.
+Các đối tượng có tính đa hình (polymorphic objects) có đặc điểm gì?
+A. Bắt buộc phải có chung tất cả các thuộc tính bên trong.
+B. Chia sẻ chung các phương thức và có cách xử lý các phương thức đó giống hệt nhau.
+C. Chỉ có thể được hiện thực hóa thông qua việc khai báo các giao diện (interfaces).
+* D. Có thể có các phương thức cùng tên nhưng cách xử lý thực tế bên trong lại khác nhau.
 
-Best practice cho việc lồng ghép (nesting) các structured class là gì?
-A. Nên giới hạn việc lồng ghép các structured class ở mức hai cấp cho mỗi biểu đồ.
-B. Nên hiển thị tất cả các lớp con có cấu trúc của một structured class trong một biểu đồ duy nhất để thấy được độ sâu của các tương tác.
-* C. Nên giới hạn ở một độ sâu duy nhất, từ đó cho phép người dùng điều hướng từ biểu đồ này sang biểu đồ khác để xem cấp độ tiếp theo.
-D. Nên được kiến trúc sư quyết định trong giai đoạn thiết kế.
+Nguyên tắc tốt nhất (best practice) khi lồng ghép (nesting) các lớp có cấu trúc (structured classes) là gì?
+A. Chỉ nên giới hạn việc lồng ghép các lớp có cấu trúc ở mức tối đa hai cấp trên mỗi biểu đồ.
+B. Nên hiển thị tất cả các lớp con có cấu trúc bên trong trên một biểu đồ duy nhất để thấy rõ độ sâu.
+* C. Chỉ hiển thị lồng ghép ở một cấp độ duy nhất, và cho phép người dùng mở biểu đồ phụ để xem cấp độ tiếp theo.
+D. Việc lồng ghép phụ thuộc hoàn toàn vào quyết định của kiến trúc sư phần mềm trong giai đoạn viết code.
 
-Trong quá trình Architectural Analysis, một Software Architect muốn giảm độ phức tạp của hệ thống đang hoạt động và cải thiện tính nhất quán của nó. Software Architect nên định nghĩa cái gì để đạt được điều này?
-A. Coding rules.
-B. Use-case realization.
-* C. Analysis mechanism.
-D. Design mechanism.
+Trong hoạt động Phân tích kiến trúc, kiến trúc sư phần mềm muốn giảm độ phức tạp và cải thiện tính nhất quán của hệ thống. Họ nên định nghĩa thành phần nào để đạt được mục tiêu này?
+A. Các quy tắc viết code (coding rules).
+B. Các hiện thực hóa ca sử dụng (use-case realizations).
+* C. Các cơ chế phân tích (analysis mechanisms).
+D. Các cơ chế thiết kế (design mechanisms).
 
-Hai đặc điểm nào mà tất cả các đối tượng đều có? (Chọn 2)
-A. Primitives.
-* B. State và behavior.
-C. Interfaces.
+Hai đặc điểm cơ bản nào mà mọi đối tượng (objects) đều sở hữu? (Chọn 2)
+A. Các kiểu dữ liệu nguyên thủy (primitives).
+* B. Trạng thái (state) và hành vi (behavior).
+C. Các giao diện kết nối (interfaces).
 * D. Một định danh duy nhất (unique identity).
 
-Analysis class phát triển thành cái gì? (Chọn 2)
-* A. Design class.
-* B. Subsystems.
-C. Use-case realization.
-D. Design packages.
-E. Architecture.
+Lớp phân tích (analysis class) thường sẽ được phát triển thành các thành phần nào trong giai đoạn thiết kế? (Chọn 2)
+* A. Lớp thiết kế (design class).
+* B. Phân hệ thiết kế (design subsystem).
+C. Hiện thực hóa ca sử dụng (use-case realization).
+D. Gói thiết kế (design package).
+E. Kiến trúc hệ thống (architecture).
 
-Điều gì xảy ra khi một superclass bị thay đổi?
-* A. Tất cả các subclass đều kế thừa thay đổi đó.
-B. Các phương thức của subclass phải được thay đổi.
-C. Các phương thức bổ sung trong subclass không liên quan đến superclass phải thay đổi.
-D. Chỉ các phương thức của superclass mới được kế thừa.
+Điều gì sẽ xảy ra khi ta thay đổi cấu trúc hoặc phương thức của một lớp cha (superclass)?
+* A. Tất cả các lớp con (subclasses) kế thừa từ lớp cha đó đều nhận sự thay đổi này.
+B. Tất cả các phương thức của lớp con bắt buộc phải được viết lại.
+C. Các phương thức riêng biệt của lớp con không liên quan đến lớp cha cũng phải thay đổi theo.
+D. Chỉ các phương thức công khai của lớp cha mới được các lớp con kế thừa.
 
-Hai phát biểu nào đúng về use-case realization? (Chọn 2)
-A. Nó liệt kê các bước khác nhau được thực hiện bởi một use-case.
-* B. Nó cung cấp khả năng truy xuất nguồn gốc từ Analysis and Design trở lại các yêu cầu.
-C. Nó được tạo ra bởi System Analyst.
-* D. Nó mô tả use-case dưới dạng các đối tượng cộng tác.
+Hai phát biểu nào sau đây là đúng về hiện thực hóa ca sử dụng (use-case realization)? (Chọn 2)
+A. Nó liệt kê chi tiết các bước thực hiện của một ca sử dụng bằng văn bản.
+* B. Nó giúp theo dõi mối liên hệ (traceability) từ phân tích thiết kế quay trở lại các yêu cầu ban đầu.
+C. Nó được xây dựng bởi Chuyên viên phân tích hệ thống (System Analyst).
+* D. Nó mô tả cách các đối tượng thiết kế tương tác và cộng tác với nhau để thực hiện ca sử dụng.
 
-State nào KHÔNG chứa một state khác?
-A. Top State
-B. Composite State
-* C. Simple State
-D. Bottom State
+Trạng thái đơn (simple state) trong sơ đồ trạng thái là gì?
+A. Trạng thái đỉnh (Top State).
+B. Trạng thái phức hợp (Composite State) chứa các trạng thái con bên trong.
+* C. Trạng thái không chứa bất kỳ trạng thái con nào khác bên trong.
+D. Trạng thái kết thúc (Final State).
 
-Phát biểu nào đúng về việc nhóm các element vào một package?
-* A. Các element trong một package nên chia sẻ một nhóm logic, chung.
-B. Các package nên chứa một số lượng nhỏ element để tránh nhầm lẫn.
-C. Các package chỉ nên được sử dụng trong các dự án lớn đòi hỏi số lượng lớn element.
-D. Các package không được chứa các package khác.
+Phát biểu nào sau đây là đúng về việc nhóm các phần tử vào một gói (package)?
+* A. Các phần tử trong cùng một gói nên có chung một mục đích logic hoặc nghiệp vụ.
+B. Mỗi gói chỉ nên chứa một số lượng nhỏ các phần tử để tránh gây nhầm lẫn.
+C. Các gói chỉ nên được áp dụng trong các dự án lớn có cấu trúc phức tạp.
+D. Một gói không được phép chứa các gói con khác bên trong nó.
 
-Ba danh mục architectural mechanism là gì? (Chọn 3)
-* A. Analysis mechanisms
-B. Requirement mechanisms
-* C. Implementation mechanisms
-* D. Design mechanisms
+Ba danh mục của cơ chế kiến trúc (architectural mechanism) là gì? (Chọn 3)
+* A. Cơ chế phân tích (analysis mechanisms)
+B. Cơ chế yêu cầu (requirement mechanisms)
+* C. Cơ chế thực hiện (implementation mechanisms)
+* D. Cơ chế thiết kế (design mechanisms)
 
-Trong sequence diagram, điều gì có thể được xác định bởi các interaction giữa các thành phần tham gia?
-A. Chỉ các dịch vụ được cung cấp bởi một interface.
-B. Chỉ các dịch vụ được yêu cầu bởi một interface.
-* C. Cả dịch vụ được cung cấp và dịch vụ yêu cầu cho các interface.
-D. Tên của interface.
+Trong sơ đồ tuần tự (sequence diagram), các tương tác giữa các đối tượng tham gia giúp xác định điều gì?
+A. Chỉ xác định các dịch vụ được cung cấp bởi một giao diện (interface).
+B. Chỉ xác định các dịch vụ được yêu cầu bởi một giao diện.
+* C. Xác định cả các dịch vụ cung cấp và dịch vụ yêu cầu của các giao diện tương ứng.
+D. Xác định tên gọi của giao diện.
 
-View nào tập trung vào việc hiện thực hóa vật lý (physical realization) của hệ thống?
-A. Logical View
-* B. Implementation View
-C. Process View
-D. Use-Case View
+Góc nhìn (View) nào tập trung vào việc hiện thực hóa vật lý và cấu trúc mã nguồn của hệ thống?
+A. Góc nhìn logic (Logical View)
+* B. Góc nhìn thực hiện (Implementation View)
+C. Góc nhìn tiến trình (Process View)
+D. Góc nhìn ca sử dụng (Use-Case View)
 
-Phát biểu nào đúng về một active object?
-* A. Nó là một đối tượng độc lập có thể giao tiếp với các active object khác một cách bất đồng bộ (asynchronously).
-B. Nó không chứa state.
-C. Nó phụ thuộc vào việc thực thi toàn bộ hệ thống.
-D. Nó phi cấu trúc để cho phép thao tác lớp dễ dàng.
+Phát biểu nào sau đây là đúng về đối tượng hoạt động (active object)?
+* A. Là một đối tượng chạy độc lập, có luồng thực thi riêng và giao tiếp bất đồng bộ (asynchronously) với đối tượng khác.
+B. Là đối tượng hoàn toàn không lưu trữ trạng thái (state).
+C. Sự hoạt động của nó phụ thuộc hoàn toàn vào luồng thực thi chung của toàn bộ hệ thống.
+D. Nó không có cấu trúc cố định để lập trình viên dễ dàng thao tác lớp.
 
-Trong Use Case Analysis, những gì thường được phân bổ cho các control class?
-* A. Hành vi đặc thù của một use-case hoặc một phần của một luồng sự kiện rất quan trọng.
-B. Hành vi liên quan đến dữ liệu được đóng gói trong class.
-C. Hành vi liên quan đến giao tiếp với một actor.
-D. Hành vi cụ thể để thực thi business rule hoặc workflow.
+Trong hoạt động Phân tích ca sử dụng (Use Case Analysis), trách nhiệm nào thường được phân bổ cho lớp điều khiển (control class)?
+* A. Hành vi đặc thù của một ca sử dụng cụ thể hoặc việc kiểm soát một luồng sự kiện quan trọng.
+B. Hành vi lưu trữ và quản lý dữ liệu được đóng gói bên trong lớp.
+C. Hành vi giao tiếp và tương tác trực tiếp với tác nhân bên ngoài (actor).
+D. Hành vi xử lý các quy tắc nghiệp vụ (business rules) chung cho toàn hệ thống.
 
-Ba nguồn để xác định Key Abstraction là gì? (Chọn 3)
-* A. Domain knowledge
-* B. Requirements
-C. Design classes
-* D. Glossary
+Ba nguồn chính để xác định các Trừu tượng khóa (Key Abstractions) của hệ thống là gì? (Chọn 3)
+* A. Tri thức về miền nghiệp vụ (domain knowledge)
+* B. Tài liệu yêu cầu phần mềm (requirements)
+C. Các lớp thiết kế chi tiết (design classes)
+* D. Thuật ngữ định nghĩa của dự án (glossary)
 
-Một named object trong UML là gì?
+Đối tượng có tên (named object) được biểu diễn như thế nào trong sơ đồ UML?
 * A. Matt: Employee
 B. :Employee
 C. Matt::Employee
 D. ::employee
 
-Trong Use Case Analysis, nên sử dụng một thuộc tính thay vì một lớp khi thông tin:
-* A. Được truy cập bởi các phương thức chỉ có chức năng get, set hoặc thực hiện các phép biến đổi đơn giản.
-B. Có liên quan đến các thực thể trong Business Model hoặc Domain Model.
-C. Cần được ẩn khỏi các phần khác của Analysis Model và không được chia sẻ.
-D. Được tham chiếu và sử dụng nhiều lần trong use-case realization.
+Trong Phân tích ca sử dụng, ta nên chọn một thuộc tính (attribute) thay vì tạo một lớp (class) khi thông tin đó:
+* A. Chỉ cần truy cập qua các phương thức lấy/ghi giá trị đơn giản (get/set) hoặc biến đổi cơ bản.
+B. Có liên quan mật thiết đến các thực thể nghiệp vụ lớn trong Domain Model.
+C. Cần được ẩn giấu hoàn toàn khỏi các phần khác và không được chia sẻ.
+D. Được tham chiếu và sử dụng lại nhiều lần trong hiện thực hóa ca sử dụng.
 
-View nào KHÔNG thuộc RUP 4+1 View Model?
-A. Logical View
-* B. Distribution View
-C. Use-Case View
-D. Process View
+Góc nhìn (View) nào sau đây KHÔNG thuộc mô hình kiến trúc RUP 4+1 View Model?
+A. Góc nhìn logic (Logical View)
+* B. Góc nhìn phân phối (Distribution View)
+C. Góc nhìn ca sử dụng (Use-Case View)
+D. Góc nhìn tiến trình (Process View)
 
-Hai chức năng của visual modeling là gì? (Chọn 2)
-A. Tạo ra một mô hình duy nhất đại diện cho tất cả các view của hệ thống.
-* B. Cải thiện giao tiếp và hiểu biết giữa các thành viên trong nhóm.
-C. Lập tài liệu các quyết định thiết kế quan trọng trong code.
-* D. Lập tài liệu về hành vi và cấu trúc của hệ thống trước khi code hệ thống.
+Hai chức năng cốt lõi của việc mô hình hóa trực quan (visual modeling) là gì? (Chọn 2)
+A. Tạo ra một mô hình duy nhất bao quát toàn bộ các góc nhìn của hệ thống.
+* B. Cải thiện sự trao đổi và hiểu biết thống nhất giữa các thành viên trong nhóm phát triển.
+C. Tài liệu hóa các quyết định thiết kế trực tiếp ngay trong mã nguồn (code).
+* D. Tài liệu hóa cấu trúc và hành vi của hệ thống trước khi bắt tay vào viết code.
 
-Trong Use Case Analysis, tại sao analysis mechanism được sử dụng?
-* A. Để giảm độ phức tạp và cải thiện tính nhất quán bằng cách cung cấp cách biểu diễn ngắn gọn cho các hành vi phức tạp.
-B. Để đơn giản hóa nhiệm vụ tạo ra use-case realization bằng cách cung cấp cách viết tắt thuận tiện cho các tác vụ lặp đi lặp lại.
-C. Để tập hợp các tác vụ chung vào một nơi, nhằm dễ dàng giao chúng cho các developer triển khai.
-D. Để xác minh rằng các designer đã thực hiện đúng nhiệm vụ phân tích, theo khuyến nghị của kiến trúc sư.
+Trong Phân tích ca sử dụng, tại sao các cơ chế phân tích (analysis mechanisms) lại được sử dụng?
+* A. Để giảm độ phức tạp và tăng tính nhất quán bằng cách đại diện ngắn gọn cho các hành vi phức tạp phổ biến.
+B. Để viết tắt các tác vụ lặp đi lặp lại nhằm tăng tốc độ vẽ hiện thực hóa ca sử dụng.
+C. Để gom nhóm các tác vụ lập trình chung giúp kiến trúc sư dễ bàn giao công việc cho lập trình viên.
+D. Để kiểm tra xem lập trình viên đã làm đúng các yêu cầu phân tích của kiến trúc sư hay chưa.
 
-Phát biểu nào đúng về pattern?
-A. Pattern chỉ tồn tại ở cấp độ Design.
-* B. Pattern cung cấp một giải pháp chung cho một vấn đề phổ biến.
-C. Pattern chỉ tồn tại ở cấp độ Architectural.
-D. Pattern chỉ được sử dụng trong giai đoạn Elaboration.
+Phát biểu nào sau đây là đúng về mẫu thiết kế (pattern)?
+A. Các mẫu chỉ tồn tại và được áp dụng ở cấp độ Thiết kế chi tiết (Design).
+* B. Mẫu cung cấp một giải pháp chung đã được kiểm chứng cho một vấn đề thiết kế phổ biến.
+C. Các mẫu chỉ tồn tại và được áp dụng ở cấp độ Kiến trúc hệ thống (Architecture).
+D. Mẫu thiết kế chỉ được nghiên cứu và sử dụng trong giai đoạn Tinh chế (Elaboration).
 
-Trong Use Case Analysis, tại sao đôi khi cần phải bổ sung thêm cho mô tả của use-case?
-* A. Mô tả của mỗi use-case không phải lúc nào cũng đủ để tìm ra các analysis class và các đối tượng của chúng.
-B. Luồng sự kiện trong use-case đôi khi quá phức tạp để triển khai.
-C. Các designer cần biết luồng use-case nào đang được phát triển trong vòng lặp hiện tại.
-D. Kiến trúc sư có thể cần điều chỉnh các yêu cầu sai trước khi giao chúng cho các designer.
+Trong Phân tích ca sử dụng, tại sao đôi khi cần phải bổ sung thêm các mô tả chi tiết cho ca sử dụng?
+* A. Mô tả bằng văn bản của ca sử dụng đôi khi không đủ chi tiết để xác định các lớp phân tích và đối tượng tham gia.
+B. Luồng sự kiện mô tả trong ca sử dụng quá phức tạp để lập trình viên có thể viết code trực tiếp.
+C. Lập trình viên cần biết luồng sự kiện nào của ca sử dụng đang được phát triển trong vòng lặp hiện tại.
+D. Kiến trúc sư cần sửa lại các yêu cầu bị viết sai của khách hàng trước khi bàn giao cho thiết kế.
 
-Trong Use Case Analysis, mục đích của bước Unify Analysis Classes là gì?
-* A. Để đảm bảo rằng mỗi analysis class đại diện cho một khái niệm duy nhất được định nghĩa rõ ràng, không có trách nhiệm chồng chéo.
-B. Để tập hợp các analysis class từ mỗi use-case realization và đưa chúng vào Design Model.
-C. Để đảm bảo trách nhiệm của mỗi lớp được nhất quán và lớp có một mục đích duy nhất được định nghĩa rõ ràng.
-D. Để tạo ra các class family ban đầu bằng cách sử dụng kế thừa để nhóm các lớp liên quan vào cấu trúc cây.
+Trong Phân tích ca sử dụng, mục đích của hoạt động Hợp nhất các lớp phân tích (Unify Analysis Classes) là gì?
+* A. Đảm bảo mỗi lớp phân tích đại diện cho một khái niệm duy nhất, rõ ràng và không có trách nhiệm chồng chéo với lớp khác.
+B. Tập hợp toàn bộ các lớp phân tích từ các ca sử dụng để chuyển đổi trực tiếp vào Mô hình thiết kế.
+C. Đảm bảo trách nhiệm của mỗi lớp được nhất quán và lớp chỉ thực hiện đúng một nhiệm vụ duy nhất.
+D. Xây dựng cây thừa kế ban đầu để phân nhóm các lớp phân tích có liên quan với nhau.
 
-Ba quy trình nào phù hợp nhất cho UML? (Chọn 3)
-* A. Use-case driven
-B. Waterfall development-based
-* C. Iterative and incremental
-* D. Architecture-centric
-E. Requirements-centric
+Ba quy trình/phương pháp phát triển phần mềm nào phù hợp nhất để áp dụng UML? (Chọn 3)
+* A. Hướng ca sử dụng (Use-case driven)
+B. Dựa trên mô hình thác nước truyền thống (Waterfall)
+* C. Lặp và tăng dần (Iterative and incremental)
+* D. Lấy kiến trúc làm trung tâm (Architecture-centric)
+E. Lấy yêu cầu làm trung tâm (Requirements-centric)
 
-Các architectural layer thường được mô hình hóa trong UML bằng cách sử dụng:
-* A. Một package stereotyped <<Layer>>
-B. Một subsystem stereotyped <<Layer>>
-C. Một composite class stereotyped <<Layer>>
-D. Một class diagram có tiêu đề Layer
+Các tầng kiến trúc (architectural layers) thường được mô hình hóa trong UML bằng cách sử dụng thành phần nào?
+* A. Một gói (package) được gắn nhãn stereotype <<Layer>>
+B. Một phân hệ (subsystem) được gắn nhãn stereotype <<Layer>>
+C. Một lớp phức hợp (composite class) được gắn nhãn stereotype <<Layer>>
+D. Sơ đồ lớp (class diagram) được đặt tên là Layer
 
-Trong state diagram, một state có hai transition. Một transition là internal transition và transition còn lại là external transition. State nào có thể thực hiện một exit action?
-A. Chỉ internal transition.
-* B. Chỉ external transition.
-C. Không phải internal cũng không phải external transition.
-D. Cả internal và external transition.
+Trong sơ đồ trạng thái, một trạng thái có hai chuyển trạng thái: một chuyển trạng thái nội bộ (internal transition) và một chuyển trạng thái bên ngoài (external transition). Loại chuyển trạng thái nào sẽ kích hoạt hành động thoát (exit action) của trạng thái đó?
+A. Chỉ chuyển trạng thái nội bộ (internal transition).
+* B. Chỉ chuyển trạng thái bên ngoài (external transition).
+C. Cả hai loại chuyển trạng thái đều không kích hoạt hành động thoát.
+D. Cả hai loại chuyển trạng thái đều kích hoạt hành động thoát.
 
-Hai phát biểu nào đúng về các quy trình use-case driven? (Chọn 2)
-* A. Các use-case súc tích, đơn giản và có thể được hiểu bởi nhiều bên liên quan.
-* B. Các use-case giúp đồng bộ hóa nội dung của các mô hình khác nhau.
-C. Các use-case là một danh sách đầy đủ các yêu cầu chức năng.
-D. Các use-case chỉ định cách hành vi của hệ thống sẽ được triển khai.
+Hai phát biểu nào sau đây là đúng về quy trình hướng ca sử dụng (use-case driven process)? (Chọn 2)
+* A. Ca sử dụng rất trực quan, ngắn gọn nên dễ hiểu đối với tất cả các bên tham gia (stakeholders).
+* B. Ca sử dụng giúp liên kết và đồng bộ hóa nội dung giữa các mô hình phát triển khác nhau.
+C. Ca sử dụng cung cấp một danh sách đầy đủ tất cả các yêu cầu chức năng và phi chức năng.
+D. Ca sử dụng mô tả cách thức hệ thống sẽ triển khai hành vi đó bằng code như thế nào.
 
-Chức năng chính của entity class là gì?
-* A. Lưu trữ và quản lý thông tin trong hệ thống.
-B. Hoạt động như một surrogate hoặc proxy cho các actor trong một hệ thống.
-C. Wrap các lệnh gọi truy cập dữ liệu đến cơ sở dữ liệu quan hệ của hệ thống.
-D. Sắp xếp (marshal) thông tin giữa các tier trong một hệ thống.
+Chức năng cốt lõi của lớp thực thể (entity class) là gì?
+* A. Lưu trữ và quản lý thông tin, dữ liệu chạy trong hệ thống.
+B. Đóng vai trò làm đại diện (proxy/surrogate) cho các tác nhân bên ngoài tương tác với hệ thống.
+C. Bọc các câu lệnh truy vấn cơ sở dữ liệu quan hệ của hệ thống.
+D. Định tuyến và trung chuyển thông tin giữa các tầng khác nhau trong hệ thống.
 
-Cơ chế mục đích chung của UML để tổ chức các element thành nhóm là gì?
-A. Một class diagram
-B. Một activity
-* C. Một package
-D. Một composite diagram
+Cơ chế mục đích chung (general purpose mechanism) của UML để tổ chức các phần tử thành nhóm là gì?
+A. Sơ đồ lớp (class diagram)
+B. Sơ đồ hoạt động (activity diagram)
+* C. Gói (package)
+D. Sơ đồ phức hợp (composite diagram)
 
-Trong Use Case Analysis, có bao nhiêu interaction diagram (sequence hoặc communication) nên được vẽ cho mỗi use-case?
-* A. Đủ số lượng của mỗi loại để đảm bảo rằng tất cả các trách nhiệm của các lớp tham gia đều được xác định và hầu hết các luồng sự kiện được kiểm tra.
-B. Một cho luồng chính và một cho mỗi luồng sự kiện thay thế trong use-case.
-C. Một của mỗi loại cho luồng chính và một của mỗi loại cho mỗi luồng sự kiện thay thế trong use-case.
-D. Một của mỗi loại cho mỗi use-case, với mỗi luồng sự kiện thay thế được hiển thị như một interaction occurrence.
+Trong Phân tích ca sử dụng, nên vẽ bao nhiêu sơ đồ tương tác (sơ đồ tuần tự hoặc sơ đồ truyền thông) cho mỗi ca sử dụng?
+* A. Vẽ đủ số lượng sơ đồ để đảm bảo tất cả trách nhiệm của các lớp tham gia được định nghĩa và hầu hết các luồng sự kiện được kiểm tra.
+B. Chỉ cần vẽ một sơ đồ cho luồng sự kiện chính và một sơ đồ cho mỗi luồng sự kiện rẽ nhánh.
+C. Vẽ một sơ đồ tuần tự và một sơ đồ truyền thông cho luồng chính, cùng cặp sơ đồ tương tự cho mỗi luồng rẽ nhánh.
+D. Chỉ vẽ một sơ đồ cho mỗi ca sử dụng, các luồng rẽ nhánh sẽ được thể hiện thông qua các phân đoạn tương tác con (interaction occurrences).
 
-Trong Use Case Analysis, chức năng của boundary class là gì?
-* A. Để cách ly các thế lực bên ngoài khỏi các cơ chế bên trong và ngược lại.
-B. Để biểu diễn các màn hình trong giao diện người dùng.
-C. Để định nghĩa các service interface được phơi bày bởi Business layer.
-D. Để định nghĩa các entry point hoặc root vào core Object Data Model.
+Trong Phân tích ca sử dụng, chức năng chính của lớp biên (boundary class) là gì?
+* A. Cách ly các tác nhân bên ngoài (actors, hệ thống ngoài) khỏi cơ chế xử lý bên trong của hệ thống và ngược lại.
+B. Đại diện cho giao diện trực quan của các màn hình ứng dụng.
+C. Định nghĩa các dịch vụ (services) được cung cấp bởi tầng Nghiệp vụ (Business layer).
+D. Làm điểm truy cập đầu tiên vào Mô hình dữ liệu đối tượng cốt lõi của hệ thống.
