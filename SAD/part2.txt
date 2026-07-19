@@ -75,6 +75,17 @@ Thiết kế các thành phần
 Thực hiện phân tích kiến trúc
 * Tinh chỉnh kiến trúc (Refine the Architecture)
 
+[image: SAD/images/page_3_img_1.jpeg]
+Trong sơ đồ, H là gì?
+Nhánh (fork)
+Trạng thái bắt đầu (initial state)
+Quyết định (decision)
+Chuyển trạng thái (transition)
+Trạng thái kết thúc (final state)
+Sự kiện (event)
+Trạng thái (state)
+* Điều kiện bảo vệ (guard condition)
+
 Mối quan hệ giữa thao tác (operation) và phương thức (method) là gì?
 Các thuật ngữ này là đồng nghĩa.
 Một thao tác mô tả cách một phương thức được triển khai.
@@ -219,6 +230,17 @@ Tuần tự
 Thành phần
 * Máy trạng thái (state machine)
 
+[image: SAD/images/page_7_img_1.jpeg]
+Trong sơ đồ, F là gì?
+Nhánh (fork)
+Trạng thái bắt đầu (initial state)
+Quyết định (decision)
+Chuyển trạng thái (transition)
+Trạng thái kết thúc (final state)
+* Sự kiện (event)
+Trạng thái (state)
+Điều kiện bảo vệ (guard condition)
+
 Thiết kế Ca sử dụng (Use Case Design) là một phần của chi tiết luồng công việc nào?
 Thiết kế ca sử dụng (Design Use Cases)
 Phân tích hành vi (Analyze Behavior)
@@ -243,11 +265,39 @@ Chia hệ thống thành các phân hệ để phân bổ các phân hệ cho c�
 * Xác định các hành vi được chỉ định trong các giao diện của phân hệ dưới dạng các sự hợp tác của các phần tử thiết kế được chứa
 Xác định phân hệ nào sẽ được triển khai trên tầng nào và các cơ chế truyền thông được sử dụng giữa chúng
 
+[image: SAD/images/page_10_img_1.jpeg]
+Trong sơ đồ, C1 và C2 là gì?
+Nhánh (forks)
+Trạng thái bắt đầu (initial states)
+* Quyết định (decisions)
+Chuyển trạng thái (transitions)
+Trạng thái kết thúc (final states)
+Sự kiện (events)
+Trạng thái (states)
+Điều kiện bảo vệ (guard conditions)
+
 Định nghĩa cấu hình mạng là bước _____ của hoạt động Mô tả Phân phối (Describe Distribution).
 Cuối cùng
 * Đầu tiên
 Thứ hai
 Thứ năm
+
+[image: SAD/images/page_9_img_1.jpeg]
+Trong sơ đồ, B là gì?
+* Nhánh (fork)
+Trạng thái bắt đầu (initial state)
+Quyết định (decision)
+Chuyển trạng thái (transition)
+Trạng thái kết thúc (final state)
+Sự kiện (event)
+Trạng thái (state)
+Điều kiện bảo vệ (guard condition)
+
+Phát biểu nào sau đây là đúng về các gói (packages) và phân hệ (subsystems)?
+Một gói không thể chứa một phân hệ.
+Một gói cung cấp hành vi.
+* Một phân hệ cung cấp hành vi.
+Bạn sử dụng một gói khi bạn cần đóng gói hành vi.
 
 Có bao nhiêu nút vật lý nên được xác định để thực hiện hoạt động Mô tả Phân phối (Describe the Distribution)?
 Chỉ các nút không
@@ -286,6 +336,17 @@ Một thiết kế tồi
 * Một thuộc tính tĩnh (static attribute)
 Một thuộc tính dẫn xuất (derived attribute)
 Cách đặt tên không chuẩn
+
+[image: SAD/images/page_12_img_2.jpeg]
+Trong sơ đồ, A là gì?
+Nhánh (fork)
+* Trạng thái bắt đầu (initial state)
+Quyết định (decision)
+Chuyển trạng thái (transition)
+Trạng thái kết thúc (final state)
+Sự kiện (event)
+Trạng thái (state)
+Điều kiện bảo vệ (guard condition)
 
 Đối với tính bền vững (persistence), hai chức năng của giao dịch (transactions) là gì? (Chọn hai.)
 * Đảm bảo rằng một tập hợp các thao tác được thực hiện toàn bộ hoặc không thực hiện gì cả
@@ -348,6 +409,17 @@ Ba hoạt động nào là các phần tử của Thiết kế Lớp (Class Desi
 Xác định các lớp mô hình hóa miền vấn đề
 * Tinh chỉnh các mối quan hệ, các thao tác và các thuộc tính
 
+[image: SAD/images/page_24_img_1.jpeg]
+Trong sơ đồ, D là gì?
+Nhánh (fork)
+Trạng thái bắt đầu (initial state)
+Quyết định (decision)
+* Chuyển trạng thái (transition)
+Trạng thái kết thúc (final state)
+Sự kiện (event)
+Trạng thái (state)
+Điều kiện bảo vệ (guard condition)
+
 Artifacts (các sản phẩm vật lý/sản phẩm chuyển giao) là các thực thể như thế nào?
 Lưu trữ phần mềm đang chạy
 * Được triển khai lên các nút vật lý
@@ -364,14 +436,3 @@ Trạng thái kết thúc (final state)
 Sự kiện (event)
 * Trạng thái (state)
 Điều kiện bảo vệ (guard condition)
-
-[image: SAD/images/page_30_img_1.jpeg]
-Trong sơ đồ, C1 và C2 là gì?
-Nhánh (forks)
-Trạng thái bắt đầu (initial states)
-* Quyết định (decisions)
-Chuyển trạng thái (transitions)
-Trạng thái kết thúc (final states)
-Sự kiện (events)
-Trạng thái (states)
-Điều kiện bảo vệ (guard conditions)
