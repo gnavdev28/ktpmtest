@@ -262,27 +262,43 @@
         document.getElementById('feedback').innerText = '';
         document.getElementById('next-btn').style.display = 'none';
 
+        const correctCount = q.options.filter(o => o.isCorrect).length;
+        let selectedCorrectCount = 0;
+
         const shuffledOptions = shuffleArray([...q.options]);
         shuffledOptions.forEach(opt => {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
             btn.innerText = opt.text;
             btn.onclick = () => {
-                const buttons = document.querySelectorAll('.option-btn');
-                buttons.forEach(b => b.disabled = true);
                 if (opt.isCorrect) {
                     btn.classList.add('correct');
-                    document.getElementById('feedback').innerText = "✅ Chính xác!";
-                    document.getElementById('feedback').style.color = "var(--success)";
-                    score++;
+                    btn.disabled = true;
+                    selectedCorrectCount++;
+                    
+                    if (selectedCorrectCount === correctCount) {
+                        const buttons = document.querySelectorAll('.option-btn');
+                        buttons.forEach(b => b.disabled = true);
+                        document.getElementById('feedback').innerText = "✅ Chính xác!";
+                        document.getElementById('feedback').style.color = "var(--success)";
+                        score++;
+                        document.getElementById('next-btn').style.display = 'block';
+                    }
                 } else {
                     btn.classList.add('wrong');
+                    const buttons = document.querySelectorAll('.option-btn');
+                    buttons.forEach(b => {
+                        b.disabled = true;
+                        const matchedOpt = q.options.find(o => o.text === b.innerText);
+                        if (matchedOpt && matchedOpt.isCorrect) {
+                            b.classList.add('correct');
+                        }
+                    });
                     document.getElementById('feedback').innerText = "❌ Sai!";
                     document.getElementById('feedback').style.color = "var(--error)";
                     wrongQuestions.push(q);
-                    buttons.forEach(b => { if(b.innerText === q.correct) b.classList.add('correct'); });
+                    document.getElementById('next-btn').style.display = 'block';
                 }
-                document.getElementById('next-btn').style.display = 'block';
             };
             container.appendChild(btn);
         });
