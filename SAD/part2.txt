@@ -141,8 +141,8 @@ Thiết kế cách dữ liệu được lưu trữ lâu dài vào cơ sở dữ 
 * Đơn giản hóa sơ đồ tuần tự bằng cách dùng các lớp thiết kế.
 
 Cái gì được dùng để đại diện cho một phân hệ (subsystem) trên sơ đồ tuần tự?
-* Một giao diện (interface) mà phân hệ đó thực hiện.
-Một đối tượng đại diện của phân hệ (subsystem proxy).
+Một giao diện (interface) mà phân hệ đó thực hiện.
+* Một đối tượng đại diện của phân hệ (subsystem proxy).
 Một thành phần (component) của phân hệ.
 Một lớp (class) thông thường nằm trong phân hệ.
 
