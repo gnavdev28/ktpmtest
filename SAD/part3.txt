@@ -39,8 +39,8 @@ D. Chuyển giao (Transition)
 Phát biểu nào sau đây là đúng về hình dưới đây?
 A. Foobar là lớp con của Barfoo.
 B. Barfoo là lớp con của Foobar.
-* C. Foobar hiện thực hóa (realizes) Barfoo.
-D. Barfoo hiện thực hóa (realizes) Foobar.
+C. Foobar hiện thực hóa (realizes) Barfoo.
+* D. Barfoo hiện thực hóa (realizes) Foobar.
 
 Sơ đồ nào dùng để biểu diễn các đối tượng cụ thể và liên kết của chúng tại một thời điểm xác định trong hệ thống?
 * A. Sơ đồ đối tượng (Object Diagram)
@@ -523,9 +523,9 @@ D. Universal Module Language
 [image: SAD/images/part3_q_86.png]
 Phát biểu nào sau đây là đúng về mối quan hệ giữa Foobar và Barfoo trong hình dưới đây?
 A. Foobar thừa kế từ Barfoo (Foobar là con của Barfoo).
-* B. Barfoo thừa kế từ Foobar (Barfoo là con của Foobar).
+B. Barfoo thừa kế từ Foobar (Barfoo là con của Foobar).
 C. Foobar hiện thực hóa Barfoo.
-D. Barfoo hiện thực hóa Foobar.
+* D. Barfoo hiện thực hóa Foobar.
 
 [image: SAD/images/part3_q_87.png]
 Dựa vào sơ đồ tương tác dưới đây, đối tượng participant1 gửi bao nhiêu loại thông điệp khác nhau đến đối tượng participant2?
