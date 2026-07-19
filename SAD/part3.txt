@@ -1,0 +1,553 @@
+Sơ đồ nào giúp thể hiện tốt nhất chuỗi hành động (tương tác) giữa nhiều đối tượng với nhau trong một ca sử dụng (use case)?
+A. Sơ đồ trạng thái (State Diagram)
+* B. Sơ đồ tuần tự (Sequence Diagram)
+C. Sơ đồ cộng tác (Collaboration Diagram)
+D. Sơ đồ hoạt động (Activity Diagram)
+
+Phát biểu nào sau đây KHÔNG ĐÚNG về mối kết hợp (association) trong sơ đồ lớp?
+A. Mối kết hợp dùng để biểu diễn các mối quan hệ liên kết giữa các lớp.
+* B. Mối kết hợp chính là các quy trình xử lý mà một lớp sẽ thực hiện.
+C. Mối kết hợp có thể vô hướng (chỉ đi từ một phía).
+D. Mối kết hợp có thể đi từ cả hai hướng.
+
+Thành phần nào sau đây không phải là đặc tính của một đối tượng?
+A. Sự nhận diện (Identity)
+B. Ứng xử (Behaviour)
+* C. Hành động (Action)
+D. Trạng thái (State)
+
+Khi muốn tạo một ca sử dụng (use case) mới bằng cách thêm một số bước vào một ca sử dụng đã có sẵn, ta dùng quan hệ nào?
+A. Include
+B. Generalization
+* C. Extend
+D. Delegation
+
+[image: SAD/images/part3_q_5.png]
+Mối quan hệ (relationship) giữa Class1 và Class2 là gì?
+A. Generalization (Thừa kế)
+* B. Aggregation (Kết tập)
+C. Composite (Hợp thành)
+D. Association (Kết hợp)
+
+Trong quy trình phát triển phần mềm RUP, giai đoạn nào tập trung vào việc đánh giá rủi ro kiến trúc và kỹ thuật của các thành phần?
+A. Khởi tạo (Inception)
+* B. Tinh chế (Elaboration)
+C. Xây dựng (Construction)
+D. Chuyển giao (Transition)
+
+[image: SAD/images/part3_q_7.png]
+Phát biểu nào sau đây là đúng về hình dưới đây?
+A. Foobar là lớp con của Barfoo.
+B. Barfoo là lớp con của Foobar.
+* C. Foobar hiện thực hóa (realizes) Barfoo.
+D. Barfoo hiện thực hóa (realizes) Foobar.
+
+Sơ đồ nào dùng để biểu diễn các đối tượng cụ thể và liên kết của chúng tại một thời điểm xác định trong hệ thống?
+* A. Sơ đồ đối tượng (Object Diagram)
+B. Sơ đồ lớp (Class Diagram)
+C. Sơ đồ thành phần (Component Diagram)
+D. Sơ đồ hệ thống (System Diagram)
+
+Kết quả quan trọng của giai đoạn tinh chế (Elaboration) trong quy trình RUP là gì?
+A. Xác định các yêu cầu chức năng (Use Cases).
+B. Đưa ra được khung kiến trúc làm nền tảng đánh giá chi phí dự án.
+C. Xác định các yêu cầu phi chức năng trong bảng đặc tả bổ sung.
+* D. Tất cả các phương án trên đều đúng.
+
+Sơ đồ nào là cách biểu diễn tốt nhất để mô tả hành vi của nhiều đối tượng cùng tham gia vào một ca sử dụng (use case)?
+A. Sơ đồ trạng thái (State Diagram)
+B. Sơ đồ cộng tác (Collaboration Diagram)
+* C. Sơ đồ hoạt động (Activity Diagram)
+D. Sơ đồ lớp (Class Diagram)
+
+Sự khác nhau cốt lõi giữa Sơ đồ tuần tự (Sequence diagram) và Sơ đồ cộng tác (Collaboration diagram) là gì?
+A. Nhấn mạnh vai trò của tác nhân tương tác với hệ thống.
+* B. Sơ đồ tuần tự nhấn mạnh vào trình tự thời gian gửi các tin nhắn.
+C. Sơ đồ cộng tác nhấn mạnh tập hợp các đối tượng cộng tác.
+D. Nhấn mạnh việc thực thi bởi một người cụ thể khi tương tác với hệ thống.
+
+Sơ đồ nào dùng để mô hình hóa các lớp, giao diện (interfaces), mối quan hệ tĩnh và sự cộng tác giữa chúng?
+* A. Sơ đồ lớp (Class Diagram)
+B. Sơ đồ cộng tác (Collaboration Diagram)
+C. Sơ đồ trạng thái (State Diagram)
+D. Sơ đồ hoạt động (Activity Diagram)
+
+Mục đích chính của Sơ đồ trạng thái (State Diagram) là gì?
+* A. Biểu diễn cách một đối tượng cụ thể thay đổi trạng thái của nó qua nhiều ca sử dụng khác nhau.
+B. Biểu diễn cách nhiều đối tượng thay đổi trạng thái qua nhiều ca sử dụng khác nhau.
+C. Biểu diễn cấu trúc tĩnh của các khái niệm, kiểu dữ liệu và các lớp.
+D. Giúp cung cấp mục đích chính yếu của lớp.
+
+Một lớp con khi thừa kế từ lớp cha sẽ nhận được những gì từ lớp cha?
+A. Các thuộc tính và các đường liên kết (attributes, links).
+B. Các thuộc tính và các hàm (attributes, operations).
+* C. Các thuộc tính, phương thức hoạt động và các mối quan hệ liên kết.
+D. Các mối quan hệ, phương thức hoạt động và các đường liên kết.
+
+Sơ đồ hoạt động (Activity Diagram) thường được sử dụng hiệu quả nhất trong tình huống nào?
+A. Biểu diễn các đối tượng kết nối cộng tác với nhau thế nào.
+B. Biểu diễn hành vi của đối tượng qua suốt vòng đời sống của chúng.
+* C. Biểu diễn các điều kiện rẽ nhánh logic phức tạp của quy trình.
+D. Tất cả các câu trên đều sai.
+
+Mục đích chính của Sơ đồ lớp (Class Diagram) là gì?
+A. Biểu diễn hành vi có cấu trúc điều khiển của nhiều đối tượng trong ca sử dụng.
+* B. Biểu diễn cấu trúc tĩnh của các khái niệm, kiểu dữ liệu và các lớp trong hệ thống.
+C. Giúp nắm được mục đích cơ bản của lớp để phục vụ thiết kế ca sử dụng.
+D. Biểu diễn cách sắp xếp các thành phần chạy trên phần cứng.
+
+Vòng đời hoạt động của một lớp (Life cycle of a class) được mô tả tốt nhất bởi sơ đồ nào?
+A. Sơ đồ cộng tác (Collaboration Diagram)
+* B. Sơ đồ trạng thái (State Diagram)
+C. Sơ đồ lớp (Class Diagram)
+D. Sơ đồ triển khai (Deployment Diagram)
+
+Một thực thể có thông tin dữ liệu (trạng thái), cách hoạt động (hành vi) và định danh rõ ràng trong bộ nhớ được gọi là:
+A. Lớp (Class)
+B. Tác nhân (Actor)
+* C. Đối tượng (Object)
+D. Thuộc tính (Attribute)
+
+UML là gì?
+A. Là một ngôn ngữ lập trình gần giống với Java.
+B. Là một ngôn ngữ đặc biệt dùng để tạo mã nguồn tự động cho các dự án.
+C. Là công cụ dùng để kiểm tra sự đồng nhất giữa sơ đồ thiết kế và code.
+* D. Tất cả các phương án trên đều sai.
+
+Trong sơ đồ lớp UML, ký hiệu "+ isVisible()" trước một hàm cho biết hàm đó có phạm vi truy cập là gì?
+A. protected
+B. private
+* C. public
+D. inherit
+
+Để biểu diễn cấu hình vật lý và sự kết nối giữa phần mềm với các thiết bị phần cứng, ta dùng sơ đồ nào?
+* A. Sơ đồ triển khai (Deployment Diagram)
+B. Sơ đồ hoạt động (Activity Diagram)
+C. Sơ đồ lớp (Class Diagram)
+D. Sơ đồ trạng thái (State Diagram)
+
+[image: SAD/images/part3_q_22.png]
+Đối với sơ đồ use case dưới đây, phát biểu nào sau đây là đúng?
+* A. A sử dụng B, đây là bắt buộc (quan hệ include).
+B. A sử dụng B, đây là không bắt buộc.
+C. B sử dụng A, đây là bắt buộc.
+D. B sử dụng A, đây là không bắt buộc.
+
+Phát biểu nào sau đây là đúng về Sơ đồ tuần tự (Sequence Diagram)?
+* A. Mỗi tin nhắn (thông điệp) được vẽ dưới dạng một mũi tên nối giữa các đường sinh tồn của hai đối tượng.
+B. Mỗi tin nhắn được biểu diễn bằng một đường thẳng đứng đứt nét.
+C. Mỗi tin nhắn bắt buộc phải được đánh số thứ tự đi kèm.
+D. Phương án A và C đều đúng.
+
+Phát biểu nào sau đây là đúng định nghĩa về lớp?
+A. Một lớp là sự đóng gói của một đối tượng cụ thể.
+B. Một lớp là một thể hiện cụ thể chạy trong bộ nhớ của đối tượng.
+C. Một lớp biểu diễn sự phân cấp của một đối tượng.
+* D. Một lớp là một định nghĩa khuôn mẫu trừu tượng dùng để tạo ra các đối tượng.
+
+Đặc điểm nào sau đây KHÔNG phải là của ca sử dụng (use case)?
+* A. Phụ thuộc hoàn toàn vào cách viết code chi tiết của hệ thống.
+B. Thể hiện chức năng của hệ thống theo góc nhìn của người sử dụng.
+C. Cho phép nhìn nhận hệ thống ở mức tổng quát cao.
+D. Chỉ tập trung vào nhu cầu của người dùng, không quan tâm đến thiết kế chi tiết bên trong.
+
+Định nghĩa nào về tác nhân (actor) trong sơ đồ ca sử dụng là đúng nhất?
+A. Tác nhân bị giới hạn chỉ là con người tương tác với hệ thống.
+* B. Tác nhân là bất kỳ thực thể nào bên ngoài hệ thống có tương tác và trao đổi thông tin với hệ thống.
+C. Tác nhân bị giới hạn chỉ là các hệ thống phần mềm khác kết nối với hệ thống.
+D. Tác nhân chỉ có nhiệm vụ cung cấp dữ liệu cho hệ thống.
+
+Phát biểu nào sau đây là đúng về Sơ đồ hoạt động (Activity Diagram)?
+A. Một nhánh rẽ (decision) nhận 1 luồng vào và chia ra nhiều luồng đi ra có kèm điều kiện.
+B. Điểm hợp nhất (join) dùng để đồng bộ hóa các luồng chạy song song.
+* C. Cả hai phát biểu trên đều đúng.
+D. Cả hai phát biểu trên đều sai.
+
+Ký hiệu nào được dùng để biểu diễn một ca sử dụng (use case) trên sơ đồ?
+A. Hình chữ nhật.
+* B. Hình ellipse.
+C. Hình chữ nhật bo tròn góc.
+D. Hình tam giác.
+
+Trong phân tích ca sử dụng, phát biểu nào sau đây là KHÔNG ĐÚNG?
+A. Tài liệu mô tả ca sử dụng phải đủ chi tiết để tìm ra các lớp và đối tượng thiết kế.
+B. Có ít nhất một lớp biên (boundary object) cho mỗi cặp tác nhân và ca sử dụng.
+* C. Bắt buộc phải có đúng một lớp điều khiển (control class) tương ứng cho mỗi ca sử dụng.
+D. Các lớp thực thể (entity classes) được tìm ra bằng cách phân tích các danh từ trong ca sử dụng.
+
+Tính đa hình (polymorphism) trong lập trình hướng đối tượng có thể hiểu đơn giản là:
+* A. Che giấu nhiều cách cài đặt code khác nhau đằng sau cùng một tên gọi hàm giao diện.
+B. Các thuộc tính và phương thức khác nhau của các lớp con có chung một lớp cha.
+C. Các lớp kết hợp (association class) đi kèm ràng buộc điều kiện {or}.
+D. Sự kế thừa và tổng quát hóa giữa lớp cha và các lớp con.
+
+Sơ đồ nào sau đây không nằm trong các sơ đồ chuẩn của UML?
+A. Sơ đồ thành phần (Component diagram)
+B. Sơ đồ trạng thái (State diagram)
+C. Sơ đồ triển khai (Deployment diagram)
+* D. Sơ đồ quan hệ (Relationship diagram)
+
+Sơ đồ nào giúp mô hình hóa toàn bộ vòng đời (trạng thái hoạt động) của một đối tượng?
+* A. Sơ đồ máy trạng thái (Statechart diagram)
+B. Sơ đồ ca sử dụng (Use case diagram)
+C. Sơ đồ tuần tự (Sequence diagram)
+D. Sơ đồ đối tượng (Object diagram)
+
+[image: SAD/images/part3_q_33.png]
+Tên của các đối tượng tham gia giao tiếp trong sơ đồ tuần tự dưới đây là gì?
+* A. joe và jane (đứng trước dấu hai chấm).
+B. Employee và Customer (đây là tên lớp).
+C. communicate và purchase (đây là tên tin nhắn).
+D. Tất cả đều sai.
+
+Khai báo thuộc tính nào sau đây trong sơ đồ lớp UML là đúng quy tắc?
+* A. #balance: Double (sử dụng phạm vi truy cập #, tên thuộc tính, dấu hai chấm và kiểu dữ liệu).
+B. username (thiếu kiểu dữ liệu).
+C. initialBalance: 0.0 (sai phần kiểu dữ liệu).
+D. pointer (thiếu kiểu dữ liệu).
+
+Mối quan hệ nào biểu thị một lớp là một phần của lớp khác, thuộc về một tổng thể duy nhất và tự động bị hủy đi khi tổng thể đó bị xóa?
+A. Aggregation (Kết tập)
+* B. Composition (Hợp thành)
+C. Classification (Phân loại)
+D. Generalization (Tổng quát hóa / Thừa kế)
+
+Trong quy trình phát triển phần mềm RUP, giai đoạn nào thực hiện viết code cài đặt hệ thống và chạy thử nghiệm sản phẩm?
+A. Khởi tạo (Inception)
+B. Tinh chế (Elaboration)
+* C. Xây dựng (Construction)
+D. Chuyển giao (Transition)
+
+Phát biểu nào sau đây là đúng về mối kết hợp giữa các lớp?
+A. Không được phép vẽ nhiều đường kết hợp giữa cùng hai lớp.
+* B. Có thể vẽ nhiều đường kết hợp giữa hai lớp, nhưng mỗi đường phải mang một ý nghĩa nghiệp vụ khác nhau.
+C. Tuyệt đối không cho phép có nhiều đường kết hợp giữa hai lớp trên sơ đồ.
+D. Các mối kết hợp giữa hai lớp bắt buộc phải gộp lại thành một đường duy nhất.
+
+[image: SAD/images/part3_q_38.png]
+Trong sơ đồ tương tác dưới đây, chữ "purchase" đại diện cho thành phần nào?
+A. Đối tượng (Object)
+B. Lớp (Class)
+* C. Thông điệp (Message)
+D. Đường truyền (Lifeline)
+
+Mối liên hệ liên kết giữa hai lớp trong sơ đồ lớp thực chất là gì?
+A. Thể hiện sự kế thừa (cha-con) giữa hai lớp đó.
+B. Cho phép hai lớp này có thể gọi trực tiếp code của nhau.
+* C. Cho phép các đối tượng của hai lớp này có thể tương tác và gửi tin nhắn cho nhau.
+D. Thể hiện sự phụ thuộc hoàn toàn giữa hai lớp.
+
+[image: SAD/images/part3_q_40.png]
+Mối quan hệ (relationship) giữa NewClass10 và NewClass11 là gì?
+A. Dependency
+B. Aggregation
+C. Composition
+* D. Realization (Hiện thực hóa)
+
+[image: SAD/images/part3_q_41.png]
+Thuộc tính "-elements: E" và các phương thức sử dụng kiểu dữ liệu "E" thuộc loại lớp nào?
+A. Abstract (Lớp trừu tượng)
+B. Utility (Lớp tiện ích)
+* C. Template (Lớp khuôn mẫu)
+D. Instantiated (Lớp đã định hình kiểu cụ thể)
+
+Mối quan hệ "has a" (có một) là mô tả phù hợp nhất cho mối quan hệ nào giữa các lớp?
+A. Đa hình (Polymorphism)
+B. Thừa kế (Inheritance)
+* C. Kết tập (Aggregation)
+D. Hợp thành (Composition)
+
+Những sơ đồ nào sau đây dùng để mô tả khía cạnh hành vi động (dynamic behaviour) của hệ thống phần mềm?
+A. Sơ đồ lớp và sơ đồ đối tượng.
+B. Sơ đồ ca sử dụng và sơ đồ lớp.
+C. Sơ đồ cộng tác và sơ đồ triển khai.
+* D. Sơ đồ tuần tự và sơ đồ cộng tác (sơ đồ tương tác).
+
+Sơ đồ cộng tác (Collaboration/Communication Diagram) là gì?
+A. Mô hình thể hiện trình tự thời gian gửi các tin nhắn giữa các đối tượng.
+* B. Sơ đồ biểu diễn các đối tượng hợp tác cùng nhau thông qua các đường liên kết để thực hiện một ca sử dụng.
+C. Mô hình thể hiện sự tương tác tĩnh giữa các đối tượng.
+D. Sơ đồ thể hiện các vai trò của người dùng khi sử dụng hệ thống.
+
+Lớp (Class) được mô tả là tập hợp các đối tượng có chung đặc điểm nào?
+* A. Các thuộc tính (thuộc tính), hành vi (hành vi) và phương thức hoạt động.
+B. Định danh duy nhất, hành vi và trạng thái.
+C. Các thuộc tính, phương thức hoạt động và các mối quan hệ liên kết.
+D. Các mối quan hệ liên kết, phương thức hoạt động và bội số.
+
+Kỹ thuật nào sau đây được dùng để gom nhóm các lớp liên quan lại với nhau giúp dễ quản lý, bảo trì và tái sử dụng?
+A. Trạng thái (States)
+B. Ca sử dụng (Use Cases)
+C. Mô hình ngữ cảnh (Context)
+* D. Gói (Packages)
+
+Trong sơ đồ tuần tự (Sequence Diagram), ký hiệu mũi tên nét liền -------> dùng để biểu diễn điều gì?
+* A. Thông điệp gửi đi (Message)
+B. Điều kiện rẽ nhánh (Condition)
+C. Vòng lặp (Iteration)
+D. Xóa đối tượng khỏi bộ nhớ (Deletion)
+
+Phát biểu nào sau đây là đúng về ca sử dụng (Use case)?
+A. Ca sử dụng biểu diễn góc nhìn từ bên ngoài (external view) của hệ thống (1).
+B. Có mối tương quan thiết kế trực tiếp giữa ca sử dụng và lớp bên trong hệ thống (2).
+C. Không có mối tương quan thiết kế trực tiếp giữa ca sử dụng và lớp bên trong hệ thống (3).
+* D. Phương án A và C đều đúng.
+
+Người nào sau đây KHÔNG phải là một trong những ông tổ sáng lập ra phương pháp luận hướng đối tượng và UML?
+A. Rumbaugh
+B. Booch
+* C. Kenighan
+D. Jacobson
+
+Sơ đồ hoạt động (Activity Diagram) có thể sử dụng hiệu quả trong tình huống nào?
+A. Phân tích chi tiết luồng xử lý của một ca sử dụng.
+B. Mô tả thuật toán tuần tự phức tạp, xây dựng lưu đồ thuật toán.
+C. Mô tả luồng xử lý song song, đa luồng.
+* D. Tất cả các phương án trên đều đúng.
+
+Nếu muốn nhóm các phần tử thiết kế lại để tái sử dụng và đảm bảo che giấu thông tin nội bộ tốt nhất, ta dùng cấu trúc nào?
+A. Gói (Package)
+B. Lớp (Class)
+C. Lớp và Giao diện (Class & Interface)
+* D. Phân hệ (Subsystem) hoặc Thành phần (Component)
+
+Trong sơ đồ ca sử dụng UML, ký hiệu hình người (stick figure) dùng để biểu diễn thành phần nào?
+A. Lớp (Class)
+B. Đối tượng (Object)
+* C. Tác nhân (Actor)
+D. Ca sử dụng (Use case)
+
+Đối tượng nào sau đây KHÔNG phải là một tác nhân (actor) hợp lệ trong sơ đồ ca sử dụng?
+A. Khách hàng sử dụng dịch vụ.
+B. Hệ thống tín dụng bên ngoài kết nối với phần mềm.
+C. Đồng hồ hệ thống tự động kích hoạt tác vụ.
+* D. Tất cả các phương án trên đều sai.
+
+Mỗi thông điệp (message) vẽ trên Sơ đồ tuần tự (Sequence diagram) khi viết code sẽ tương ứng với cái gì?
+A. Một thuộc tính (attribute) của lớp.
+B. Một quan hệ phụ thuộc tạm thời giữa các lớp.
+* C. Một phương thức/hàm hoạt động (operation).
+D. Tất cả các câu trên đều sai.
+
+Mục đích chính của Sơ đồ triển khai (Deployment Diagram) là gì?
+A. Biểu diễn hành vi có cấu trúc điều khiển của nhiều đối tượng.
+B. Biểu diễn cấu trúc tĩnh của các khái niệm, kiểu dữ liệu và lớp.
+C. Giúp nắm được cách thiết lập code chạy cho ca sử dụng.
+* D. Biểu diễn sự phân bổ và cài đặt các thành phần phần mềm lên các thiết bị phần cứng thực tế.
+
+Sơ đồ nào biểu diễn cùng một thông tin về sự tương tác giữa các đối tượng giống như Sơ đồ tuần tự (Sequence Diagram)?
+A. Sơ đồ trạng thái (State diagram)
+B. Sơ đồ hoạt động (Activity diagram)
+* C. Sơ đồ cộng tác (Collaboration diagram)
+D. Sơ đồ đối tượng (Object diagram)
+
+Mệnh đề nào sau đây là ĐÚNG khi nói về Sơ đồ trạng thái?
+* A. Sơ đồ trạng thái mô tả hành vi của một đối tượng cụ thể thay đổi qua nhiều ca sử dụng khác nhau.
+B. Sơ đồ trạng thái mô tả hành vi của nhiều đối tượng trong cùng một ca sử dụng.
+C. Sơ đồ trạng thái mô tả các loại đối tượng và các mối quan hệ tĩnh giữa chúng.
+D. Sơ đồ trạng thái thể hiện các thiết bị phần cứng của hệ thống.
+
+Khi thiết kế sơ đồ ca sử dụng, để tránh trùng lặp các bước xử lý chung giữa các ca sử dụng, ta tách phần chung đó ra thành một ca sử dụng phụ độc lập thông qua quan hệ nào?
+* A. Include (Bao gồm)
+B. Generalization (Thừa kế)
+C. Extend (Mở rộng)
+D. Delegation (Ủy quyền)
+
+Trong sơ đồ tuần tự (Sequence Diagram), dấu sao (*) trước tên thông điệp dùng để biểu diễn điều gì?
+A. Thông điệp gửi đi (Message)
+B. Điều kiện rẽ nhánh (Condition)
+* C. Vòng lặp (Iteration)
+D. Xóa đối tượng khỏi bộ nhớ (Deletion)
+
+Trong sơ đồ ca sử dụng (use case), một tác nhân (actor) đóng vai trò là:
+* A. Một vai trò tương tác của con người, thiết bị phần cứng hoặc một hệ thống khác với phần mềm.
+B. Cùng một người dùng nhưng chạy các hành động độc lập khác nhau.
+C. Một người dùng cụ thể và ta không cần quan tâm vai trò của họ.
+D. Một hệ thống vật lý đi kèm với toàn bộ giao diện của nó.
+
+[image: SAD/images/part3_q_61.png]
+Xem hình vẽ lớp dưới đây, đối tượng này có tên gọi cụ thể là gì?
+A. ActionListener
+B. actionPerformed
+C. ActionEvent
+* D. Tất cả đều sai (đối tượng ẩn danh,ActionListener là tên lớp/giao diện).
+
+Trong quy trình phát triển phần mềm RUP, giai đoạn nào tập trung viết code và xây dựng hệ thống qua nhiều vòng lặp?
+A. Khởi tạo (Inception)
+B. Tinh chế (Elaboration)
+* C. Xây dựng (Construction)
+D. Chuyển giao (Transition)
+
+Trong sơ đồ tuần tự (Sequence Diagram), dấu chữ X lớn ở cuối đường sinh tồn biểu thị điều gì?
+A. Thông điệp gửi đi (Message)
+B. Điều kiện rẽ nhánh (Condition)
+C. Vòng lặp (Iteration)
+* D. Hủy bỏ đối tượng khỏi bộ nhớ (Deletion)
+
+Sơ đồ nào cung cấp thông tin hữu ích nhất để phân tích và tìm ra các hành vi, phương thức cần lập trình cho phần mềm?
+* A. Sơ đồ tuần tự (Sequence Diagram)
+B. Sơ đồ lớp (Class Diagram)
+C. Sơ đồ triển khai (Deployment Diagram)
+D. Sơ đồ thành phần (Component Diagram)
+
+Trong giai đoạn nào của quy trình phát triển phần mềm RUP, ta tiến hành xác định chi phí, thời gian dự án, phân tích rủi ro và xác định môi trường hệ thống?
+* A. Khởi tạo (Inception)
+B. Tinh chế (Elaboration)
+C. Xây dựng (Construction)
+D. Chuyển giao (Transition)
+
+Lý do hợp lý nhất để gom nhóm các lớp (classes) vào chung một gói (package) là gì?
+A. Các lớp này có quan hệ thừa kế phân cấp với nhau.
+B. Các lớp này có quan hệ kết tập (chứa nhau).
+* C. Các lớp này có liên quan chặt chẽ về mặt nghiệp vụ và có xu hướng thay đổi code cùng nhau.
+D. Các lớp này được viết bởi cùng một nhóm lập trình viên.
+
+[image: SAD/images/part3_q_67.png]
+Dựa vào sơ đồ tương tác dưới đây, thông điệp messageA() sẽ được gửi đi như thế nào?
+A. Gửi 10 lần đồng thời cùng một lúc.
+* B. Lần lượt gửi đi 10 lần liên tiếp (chạy vòng lặp từ 0 đến 9).
+C. Gửi đi kèm theo giá trị tham số i.
+D. Tất cả đều sai.
+
+Mục đích chính của Sơ đồ hoạt động (Activity Diagram) là gì?
+* A. Biểu diễn luồng công việc, các cấu trúc điều khiển rẽ nhánh hoặc chạy song song của nhiều đối tượng trong ca sử dụng.
+B. Biểu diễn cấu trúc tĩnh của các khái niệm, kiểu dữ liệu và lớp.
+C. Giúp nắm được cách thiết lập code chạy cho ca sử dụng.
+D. Biểu diễn cách sắp xếp các thành phần chạy trên phần cứng.
+
+Trong sơ đồ tuần tự (Sequence Diagram), dòng chữ nằm trong cặp dấu ngoặc vuông [some_text] dùng để biểu diễn điều gì?
+A. Thông điệp (Message)
+* B. Điều kiện rẽ nhánh (Condition)
+C. Vòng lặp (Iteration)
+D. Xóa đối tượng khỏi bộ nhớ (Deletion)
+
+[image: SAD/images/part3_q_67.png]
+Dựa vào sơ đồ tương tác dưới đây, hai thông điệp messageB() và messageC() sẽ được gửi đi như thế nào?
+* A. Gửi đi đồng thời (song song với nhau vì đánh số 2a, 2b, 2c).
+B. Gửi tuần tự trước sau.
+C. Gửi theo từng nhóm.
+D. Tất cả đều sai.
+
+Trong quy trình RUP, mỗi vòng lặp ở giai đoạn Xây dựng (Construction) sẽ bao gồm các công việc nào?
+* A. Phân tích, thiết kế, viết code, kiểm thử và tích hợp hệ thống (Analysis, design, coding, testing, integration).
+B. Thiết kế, viết code, kiểm thử và tích hợp hệ thống.
+C. Phân tích, thiết kế, viết code và kiểm thử.
+D. Thiết kế và viết code.
+
+Mối quan hệ "includes" (bao gồm) giữa các ca sử dụng nghĩa là gì?
+* A. Giống như việc gọi một hàm con, một ca sử dụng chính bắt buộc phải gọi và chạy ca sử dụng được include.
+B. Một vai trò tương tác cụ thể của người dùng với hệ thống.
+C. Nhóm các đối tượng cộng tác cùng nhau để chạy tính năng.
+D. Xác định phạm vi hệ thống bằng cách nhận diện các vai trò của tác nhân.
+
+Mối quan hệ "is a" (là một) trong thiết kế hướng đối tượng đại diện tốt nhất cho khái niệm nào?
+A. Đóng gói (Encapsulation)
+B. Hợp thành (Composition)
+C. Kết tập (Aggregation)
+* D. Thừa kế (Inheritance)
+
+Khai báo bội số (multiplicity) nào sau đây trong sơ đồ lớp UML là KHÔNG hợp lệ?
+A. 0..4
+B. 1
+* C. 3.. (Thiếu cận trên)
+D. i..j
+
+Phát biểu nào sau đây là đúng về Sơ đồ thành phần (Component Diagrams)?
+* A. Một thành phần phần mềm có thể thực hiện nhiều giao diện, đại diện cho một đơn vị vật lý (tệp tin, module) của mã nguồn.
+B. Một thành phần không được phép có nhiều hơn một giao diện.
+C. Một thành phần đại diện cho một loại thiết bị phần cứng nào đó.
+D. Cả phương án A và C đều đúng.
+
+Loại sơ đồ nào thường được sử dụng nhất để biểu diễn luồng điều khiển nghiệp vụ đi kèm với một ca sử dụng (use case)?
+A. Sơ đồ tương tác (Interaction Diagram)
+B. Sơ đồ tuần tự (Sequence Diagram)
+C. Sơ đồ ca sử dụng (Use case Diagram)
+* D. Sơ đồ hoạt động (Activity Diagram)
+
+Một tác nhân (actor) trong sơ đồ ca sử dụng có thể liên kết với bao nhiêu ca sử dụng?
+A. Chỉ duy nhất một ca sử dụng.
+* B. Có thể liên kết với 0 hoặc nhiều ca sử dụng khác nhau.
+C. Có thể liên kết với 1 hoặc nhiều ca sử dụng khác nhau.
+D. Tất cả các câu trên đều đúng.
+
+Mối quan hệ nào được dùng để mô tả một hành vi tùy chọn, chỉ được kích hoạt và chạy dưới một số điều kiện nhất định?
+A. Bao gồm (Include)
+B. Kết tập (Aggregation)
+* C. Mở rộng (Extend)
+D. Kết hợp (Association)
+
+Trong sơ đồ ca sử dụng, các thực thể nằm hoàn toàn bên ngoài và tương tác với hệ thống được gọi là gì?
+A. Ca sử dụng (Use cases)
+B. Lớp biên (Boundary objects)
+* C. Các tác nhân (Actors)
+D. Hình người que (Stick men)
+
+Phát biểu nào sau đây là ĐÚNG về sơ đồ trạng thái?
+* A. Sơ đồ trạng thái mô tả tất cả các trạng thái có thể có của một đối tượng cụ thể và sự chuyển đổi giữa các trạng thái đó dưới tác động của sự kiện.
+B. Sơ đồ trạng thái mô tả hành vi của nhiều đối tượng trong cùng một ca sử dụng.
+C. Sơ đồ trạng thái mô tả các loại đối tượng và các mối quan hệ tĩnh giữa chúng.
+D. Sơ đồ trạng thái thể hiện các thiết bị phần cứng của hệ thống.
+
+Để tổ chức các phần tử thiết kế UML thành từng nhóm có hệ thống, ta sử dụng cơ chế nào?
+* A. Gói (Package)
+B. Lớp (Class)
+C. Lớp và Giao diện (Class & Interface)
+D. Thành phần (Component)
+
+[image: SAD/images/part3_q_82.png]
+Trong hình vẽ sơ đồ lớp dưới đây, lớp "Category" đóng vai trò là loại lớp nào?
+A. Interface (Giao diện)
+B. Abstract (Lớp trừu tượng)
+C. Link (Đường liên kết)
+* D. Association Class (Lớp liên kết)
+
+[image: SAD/images/part3_q_83.png]
+Đối với sơ đồ dưới đây, phát biểu nào sau đây là đúng?
+A. A sử dụng B, bắt buộc.
+B. A sử dụng B, không bắt buộc.
+C. B sử dụng A, bắt buộc.
+* D. B sử dụng A, không bắt buộc (quan hệ extend).
+
+Những sơ đồ nào của UML thể hiện khía cạnh hành vi động (dynamic aspect) của hệ thống phần mềm?
+A. use case, class, object, component, deployment
+B. class, object, component, deployment
+C. sequence, use case, class, statechart, activity
+* D. sequence, collaboration, statechart, activity
+
+UML là từ viết tắt của cụm từ nào?
+A. Unified Module Language
+* B. Unified Modeling Language
+C. Universal Module Leveling
+D. Universal Module Language
+
+[image: SAD/images/part3_q_86.png]
+Phát biểu nào sau đây là đúng về mối quan hệ giữa Foobar và Barfoo trong hình dưới đây?
+A. Foobar thừa kế từ Barfoo (Foobar là con của Barfoo).
+* B. Barfoo thừa kế từ Foobar (Barfoo là con của Foobar).
+C. Foobar hiện thực hóa Barfoo.
+D. Barfoo hiện thực hóa Foobar.
+
+[image: SAD/images/part3_q_87.png]
+Dựa vào sơ đồ tương tác dưới đây, đối tượng participant1 gửi bao nhiêu loại thông điệp khác nhau đến đối tượng participant2?
+A. 2 loại thông điệp khác nhau.
+* B. 3 loại thông điệp khác nhau (messageA, messageB, messageC).
+C. 4 loại thông điệp khác nhau.
+D. 13 loại thông điệp khác nhau.
+
+Mối quan hệ (relationship) giữa class 12 và class 13 là gì?
+A. Dependency
+B. Aggregation
+C. Composition
+* D. Realization (Hiện thực hóa)
+
+Trong sơ đồ máy trạng thái, ký hiệu mũi tên kết nối giữa hai trạng thái đại diện cho thành phần nào?
+A. 1 trạng thái
+B. 1 thông điệp
+C. 1 sự kiện
+* D. 1 sự chuyển trạng thái (Transition)
+
+Đường sinh tồn nét đứt đứng (lifeline) của một đối tượng được biểu diễn trong sơ đồ nào?
+A. Sơ đồ đối tượng (Object Diagram)
+B. Sơ đồ trạng thái (State Diagram)
+* C. Sơ đồ tuần tự (Sequence Diagram)
+D. Sơ đồ triển khai (Deployment Diagram)
