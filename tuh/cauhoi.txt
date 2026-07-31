@@ -721,3 +721,63 @@ Câu 121: Trong các khẳng định sau đây, khẳng định nào là đúng?
 B. Mọi bài toán quy hoạch tuyến tính đều có ít nhất một nghiệm tối ưu.
 C. Nếu miền chấp nhận được không bị chặn, thì bài toán quy hoạch tuyến tính vô nghiệm.
 D. Mọi bài toán quy hoạch tuyến tính đều có một nghiệm tối ưu duy nhất.
+
+Câu 122: Tối ưu hóa là gì?
+* A. Tìm lời giải hợp lý nhất cho một bài toán
+B. Tìm tất cả lời giải có thể
+C. Tìm lời giải ngẫu nhiên
+D. Không có đáp án đúng
+
+Câu 123: Một bài toán tối ưu thường bao gồm:
+A. Hàm mục tiêu và một biến duy nhất
+* B. Hàm mục tiêu và các ràng buộc
+C. Chỉ có ràng buộc
+D. Chỉ có hàm mục tiêu
+
+Câu 124: Bài toán tối ưu hóa có thể được phân loại thành:
+A. Tuyến tính và phi tuyến
+B. Liên tục và rời rạc
+C. Ràng buộc và không ràng buộc
+* D. Tất cả các đáp án trên
+
+Câu 125: Trong bài toán tối ưu, 'hàm mục tiêu' là:
+A. Hàm dùng để biểu diễn ràng buộc
+* B. Hàm cần tối đa hóa hoặc tối thiểu hóa
+C. Hàm vô nghĩa
+D. Không có đáp án đúng
+
+Câu 126: Tối ưu hóa liên tục là gì?
+A. Biến chỉ nhận giá trị rời rạc
+* B. Biến có thể nhận giá trị bất kỳ trong tập xác định
+C. Tối ưu với biến nguyên
+D. Không có đáp án đúng
+
+Câu 127: Điều kiện cần của cực trị địa phương trong bài toán không ràng buộc là:
+* A. Gradient của hàm mục tiêu bằng 0
+B. Ma trận Hessian bằng 0
+C. Hàm mục tiêu đạt cực đại
+D. Không có đáp án đúng
+
+Câu 128: Trong bài toán tối ưu, tập ràng buộc là:
+A. Tập các điểm không hợp lệ
+* B. Tập các điểm mà biến số phải thỏa mãn
+C. Hàm mục tiêu
+D. Không có đáp án đúng
+
+Câu 129: Một điểm tối ưu cục bộ:
+A. Là điểm tốt nhất trong toàn bộ tập xác định
+* B. Là điểm tốt nhất trong một lân cận
+C. Luôn là tối ưu toàn cục
+D. Không tồn tại trong bài toán tối ưu
+
+Câu 130: Ma trận Hessian dùng để:
+A. Xác định tập ràng buộc
+* B. Kiểm tra tính lồi/lõm của hàm
+C. Tính đạo hàm bậc nhất
+D. Không liên quan đến tối ưu hóa
+
+Câu 131: Điều kiện Karush-Kuhn-Tucker (KKT) áp dụng cho bài toán:
+A. Không có ràng buộc
+B. Tuyến tính
+* C. Phi tuyến có ràng buộc
+D. Rời rạc
