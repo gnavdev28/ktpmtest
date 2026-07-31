@@ -1,0 +1,323 @@
+BÀI TẬP TRẮC NGHIỆM ĐIỆN TOÁN ĐÁM MÂY
+==================================
+
+
+Câu 1/40
+Một nhóm phát triển muốn đưa ứng dụng web lên cloud nhưng không muốn quản lý hệ điều hành, runtime và cấu hình máy chủ. Mô hình dịch vụ phù hợp nhất là gì?
+A. IaaS
+B. PaaS
+C. SaaS
+D. Private cloud
+Đáp án đúng: B
+
+Câu 2/40
+Đặc tính nào của cloud thể hiện việc mức sử dụng tài nguyên được đo đếm và làm cơ sở tính phí?
+A. Resource pooling
+B. Broad network access
+C. Measured service
+D. Community cloud
+Đáp án đúng: C
+
+Câu 3/40
+Doanh nghiệp giữ hệ thống dữ liệu nhạy cảm tại trung tâm dữ liệu riêng nhưng sử dụng public cloud khi nhu cầu tăng cao. Đây là mô hình nào?
+A. Public cloud
+B. Private cloud
+C. Hybrid cloud
+D. SaaS
+Đáp án đúng: C
+
+Câu 4/40
+Trong mô hình trách nhiệm chung khi sử dụng Amazon EC2, nội dung nào thuộc trách nhiệm của AWS?
+A. Vá ứng dụng do khách hàng cài đặt
+B. Cấu hình Security Group
+C. Bảo mật phần cứng và lớp ảo hóa
+D. Quản lý tài khoản người dùng trong ứng dụng
+Đáp án đúng: C
+
+Câu 5/40
+Phát biểu nào đúng về Availability Zone?
+A. Là một khu vực địa lý chứa nhiều Regions
+B. Là miền lỗi tách biệt nằm trong một Region
+C. Là điểm cache nội dung của CloudFront
+D. Là mạng ảo riêng của một tài khoản
+Đáp án đúng: B
+
+Câu 6/40
+Thành phần nào đóng vai trò quản lý và phân phối tài nguyên phần cứng cho các máy ảo?
+A. IAM policy
+B. Hypervisor
+C. Route table
+D. Load balancer
+Đáp án đúng: B
+
+Câu 7/40
+Một ứng dụng hoàn chỉnh được cung cấp cho người dùng qua trình duyệt, người dùng không quản lý hạ tầng hay runtime. Đây là mô hình nào?
+A. SaaS
+B. PaaS
+C. IaaS
+D. Hybrid cloud
+Đáp án đúng: A
+
+Câu 8/40
+Trụ cột nào của AWS Well-Architected tập trung vào khả năng khôi phục sau lỗi và duy trì chức năng?
+A. Cost Optimization
+B. Reliability
+C. Sustainability
+D. Performance Efficiency
+Đáp án đúng: B
+
+Câu 9/40
+Một ứng dụng trên EC2 cần đọc dữ liệu từ một S3 bucket. Phương án bảo mật tốt nhất là gì?
+A. Lưu access key của root user trong mã nguồn
+B. Gắn IAM role có quyền tối thiểu vào EC2
+C. Công khai S3 bucket
+D. Dùng chung mật khẩu Console của quản trị viên
+Đáp án đúng: B
+
+Câu 10/40
+Một identity có policy Allow s3:GetObject nhưng một policy khác có explicit Deny cho cùng hành động và tài nguyên. Kết quả là gì?
+A. Allow vì policy đầu tiên được đọc trước
+B. Allow nếu user bật MFA
+C. Deny vì explicit Deny ưu tiên
+D. Phụ thuộc Region
+Đáp án đúng: C
+
+Câu 11/40
+Đâu là cách dùng root user phù hợp nhất?
+A. Dùng cho mọi công việc quản trị hằng ngày
+B. Tạo access keys và chia sẻ cho nhóm
+C. Chỉ dùng cho tác vụ bắt buộc, bảo vệ bằng MFA
+D. Dùng thay thế IAM role cho EC2
+Đáp án đúng: C
+
+Câu 12/40
+Thành phần IAM nào gom nhiều IAM users để gán chung permissions?
+A. IAM group
+B. IAM role
+C. Resource policy
+D. Access key
+Đáp án đúng: A
+
+Câu 13/40
+Trong IAM policy, phần tử nào mô tả thao tác API như ec2:StartInstances?
+A. Effect
+B. Action
+C. Version
+D. Principal
+Đáp án đúng: B
+
+Câu 14/40
+Dịch vụ nào phù hợp để xác định danh tính đã thay đổi một Security Group?
+A. CloudWatch Metrics
+B. CloudTrail
+C. Auto Scaling
+D. Elastic Load Balancing
+Đáp án đúng: B
+
+Câu 15/40
+MFA giúp tăng cường khía cạnh nào?
+A. Mã hóa dữ liệu lưu trữ
+B. Xác thực danh tính
+C. Tự động mở rộng tài nguyên
+D. Định tuyến mạng
+Đáp án đúng: B
+
+Câu 16/40
+Những thực hành nào phù hợp với least privilege? (Chọn nhiều đáp án.)
+A. Cấp AdministratorAccess cho mọi user
+B. Chỉ cho phép đúng actions và resources cần thiết
+C. Dùng wildcard * trong mọi policy
+D. Xóa quyền không còn sử dụng
+Đáp án đúng: B, D
+
+Câu 17/40
+Điều kiện quan trọng để một subnet được coi là public là gì?
+A. Có tên chứa từ public
+B. Route table có route tới Internet Gateway
+C. Mọi EC2 có private IP
+D. Có Network ACL mặc định
+Đáp án đúng: B
+
+Câu 18/40
+Một EC2 trong private subnet cần truy cập Internet để cập nhật phần mềm nhưng không được nhận kết nối khởi tạo từ Internet. Giải pháp phù hợp là gì?
+A. Gắn Internet Gateway trực tiếp vào EC2
+B. Dùng NAT Gateway trong public subnet
+C. Gán public IP và mở tất cả cổng
+D. Chỉ thêm Security Group outbound
+Đáp án đúng: B
+
+Câu 19/40
+Cơ chế nào stateful và áp dụng ở mức ENI/instance?
+A. Network ACL
+B. Security Group
+C. Route table
+D. Internet Gateway
+Đáp án đúng: B
+
+Câu 20/40
+Cơ chế nào stateless, có cả allow và deny rules và áp dụng ở mức subnet?
+A. Security Group
+B. IAM policy
+C. Network ACL
+D. CloudTrail
+Đáp án đúng: C
+
+Câu 21/40
+Một subnet IPv4 /27 trong AWS có bao nhiêu địa chỉ có thể gán cho tài nguyên?
+A. 32
+B. 30
+C. 27
+D. 25
+Đáp án đúng: C
+
+Câu 22/40
+Phát biểu nào đúng?
+A. VPC thuộc một AZ duy nhất
+B. Subnet có thể trải trên nhiều AZ
+C. VPC thuộc một Region; subnet thuộc một AZ
+D. Region nằm trong VPC
+Đáp án đúng: C
+
+Câu 23/40
+Doanh nghiệp cần kết nối mạng chuyên dụng ổn định từ data center tại chỗ tới AWS cho lưu lượng lớn. Dịch vụ phù hợp nhất là gì?
+A. AWS Direct Connect
+B. Amazon CloudFront
+C. Internet Gateway
+D. Elastic IP
+Đáp án đúng: A
+
+Câu 24/40
+Dịch vụ nào tận dụng edge locations để giảm độ trễ phân phối nội dung?
+A. Amazon RDS
+B. Amazon CloudFront
+C. Amazon EBS
+D. AWS IAM
+Đáp án đúng: B
+
+Câu 25/40
+Ứng dụng cần lưu hàng triệu ảnh và video với khả năng mở rộng gần như không giới hạn. Dịch vụ phù hợp nhất là gì?
+A. Amazon EBS
+B. Amazon S3
+C. Instance Store
+D. Amazon SQS
+Đáp án đúng: B
+
+Câu 26/40
+Nhiều EC2 Linux ở các AZ khác nhau cần dùng chung một hệ thống file NFS. Nên chọn gì?
+A. Amazon EFS
+B. Amazon EBS
+C. Instance Store
+D. Amazon DynamoDB
+Đáp án đúng: A
+
+Câu 27/40
+Một database chạy trên EC2 cần block storage bền vững và có thể snapshot. Nên chọn gì?
+A. Amazon S3
+B. Amazon EBS
+C. Amazon EFS
+D. CloudFront
+Đáp án đúng: B
+
+Câu 28/40
+Dữ liệu scratch có thể tái tạo, cần tốc độ cao và không cần giữ khi instance dừng. Nên dùng gì?
+A. EBS gp volume
+B. S3 Standard
+C. Instance Store
+D. RDS Multi-AZ
+Đáp án đúng: C
+
+Câu 29/40
+Một batch job có thể bị gián đoạn và chạy lại, mục tiêu chính là giảm chi phí compute. Lựa chọn phù hợp nhất là gì?
+A. Dedicated Hosts
+B. Spot Instances
+C. On-Demand Capacity Reservation
+D. RDS Reserved DB
+Đáp án đúng: B
+
+Câu 30/40
+Mã xử lý chỉ chạy khi có file mới được tải lên S3 và không muốn quản lý máy chủ. Nên dùng gì?
+A. Amazon EC2
+B. AWS Lambda
+C. Amazon EFS
+D. AWS Direct Connect
+Đáp án đúng: B
+
+Câu 31/40
+Ứng dụng cần cơ sở dữ liệu quan hệ managed và failover tự động giữa các AZ. Lựa chọn phù hợp là gì?
+A. DynamoDB global table
+B. RDS Multi-AZ
+C. S3 Versioning
+D. EC2 Instance Store
+Đáp án đúng: B
+
+Câu 32/40
+AMI chủ yếu được dùng để làm gì?
+A. Theo dõi metric của EC2
+B. Làm mẫu khởi chạy EC2 instances
+C. Cân bằng tải HTTP
+D. Cấp quyền IAM
+Đáp án đúng: B
+
+Câu 33/40
+Ứng dụng HTTP cần định tuyến /api và /images tới các target groups khác nhau. Nên dùng loại load balancer nào?
+A. Network Load Balancer
+B. Application Load Balancer
+C. Gateway Load Balancer
+D. Classic Load Balancer bắt buộc
+Đáp án đúng: B
+
+Câu 34/40
+Dịch vụ cần xử lý TCP với lưu lượng tăng đột biến, độ trễ thấp và yêu cầu địa chỉ IP tĩnh. Nên dùng gì?
+A. Application Load Balancer
+B. Network Load Balancer
+C. Amazon CloudWatch
+D. AWS Lambda
+Đáp án đúng: B
+
+Câu 35/40
+Trong Auto Scaling Group, tham số nào thể hiện số instance mà nhóm cố gắng duy trì hiện tại?
+A. Minimum capacity
+B. Desired capacity
+C. Maximum capacity
+D. Cooldown
+Đáp án đúng: B
+
+Câu 36/40
+Dịch vụ nào thu thập metrics, logs và tạo alarms?
+A. AWS CloudTrail
+B. Amazon CloudWatch
+C. AWS IAM
+D. AWS Artifact
+Đáp án đúng: B
+
+Câu 37/40
+Chính sách scaling nào phù hợp để duy trì CPU trung bình quanh 50%?
+A. Target tracking
+B. Manual scaling
+C. Network ACL
+D. Reserved scaling
+Đáp án đúng: A
+
+Câu 38/40
+Thiết kế nào tăng tính sẵn sàng cho web application?
+A. Một EC2 lớn trong một AZ
+B. ALB và Auto Scaling Group trải trên nhiều AZ
+C. Chỉ dùng EBS snapshot
+D. Gán nhiều Security Groups cho một EC2
+Đáp án đúng: B
+
+Câu 39/40
+Khi target không vượt qua health check, ELB thường làm gì?
+A. Tiếp tục gửi toàn bộ traffic để kiểm tra
+B. Ngừng định tuyến traffic tới target đó cho đến khi khỏe lại
+C. Tự đổi IAM role của target
+D. Tự chuyển database sang NoSQL
+Đáp án đúng: B
+
+Câu 40/40
+Phát biểu nào đúng về ELB và Auto Scaling?
+A. ELB tự tạo thêm EC2 nên không cần Auto Scaling
+B. Auto Scaling phân phối HTTP request theo path
+C. ELB phân phối traffic; Auto Scaling điều chỉnh compute capacity
+D. Hai dịch vụ chỉ dùng được trong một AZ
+Đáp án đúng: C

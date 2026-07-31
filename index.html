@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Hub - Phenikaa ICT</title>
+    <!-- MathJax Configuration and Script -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
     <style>
         :root { --primary: #3182ce; --bg: #f0f4f8; --text: #2d3748; --success: #48bb78; --error: #f56565; }
         body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
@@ -136,6 +151,20 @@
                 { name: "Part 2", file: "SAD/part2.txt" },
                 { name: "Part 3", file: "SAD/part3.txt" }
             ]
+        },
+        {
+            id: "tuh",
+            name: "🧮 Tối ưu hóa (TUH)",
+            files: [
+                { name: "Trắc nghiệm TUH", file: "tuh/cauhoi.txt" }
+            ]
+        },
+        {
+            id: "dtdm",
+            name: "☁️ Điện toán đám mây (ĐTĐM)",
+            files: [
+                { name: "Trắc nghiệm ĐTĐM", file: "dtdm/cauhoi.txt" }
+            ]
         }
     ];
 
@@ -256,7 +285,7 @@
             imgContainer.appendChild(img);
         }
         
-        document.getElementById('question-text').innerText = displayQText;
+        document.getElementById('question-text').innerHTML = displayQText;
         
         const container = document.getElementById('options-container');
         container.innerHTML = '';
@@ -270,7 +299,8 @@
         shuffledOptions.forEach(opt => {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
-            btn.innerText = opt.text;
+            btn.innerHTML = opt.text;
+            btn.dataset.rawText = opt.text;
             btn.onclick = () => {
                 if (opt.isCorrect) {
                     btn.classList.add('correct');
@@ -290,7 +320,7 @@
                     const buttons = document.querySelectorAll('.option-btn');
                     buttons.forEach(b => {
                         b.disabled = true;
-                        const matchedOpt = q.options.find(o => o.text === b.innerText);
+                        const matchedOpt = q.options.find(o => o.text === b.dataset.rawText);
                         if (matchedOpt && matchedOpt.isCorrect) {
                             b.classList.add('correct');
                         }
@@ -303,6 +333,11 @@
             };
             container.appendChild(btn);
         });
+
+        // Trigger MathJax rendering after DOM updates
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
     }
 
     function nextQuestion() {
