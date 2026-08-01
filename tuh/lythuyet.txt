@@ -312,8 +312,8 @@ D. Pandas
 
 Câu 53: Cho hàm số f khả vi liên tục đến cấp hai. Xét bài toán tối ưu min f(x) . Giả sử là y một điểm dừng. Khi đó, y là điểm cực tiểu địa phương nếu
 A. Hessan f(y) nửa xác định dương
-B. Hessan f(y) xác định dương
-* C. Hessan f(y) nửa xác định âm
+* B. Hessan f(y) xác định dương
+C. Hessan f(y) nửa xác định âm
 D. Hessan f(y) xác định âm
 
 Câu 54: Bài toán tối ưu min c^Tx với ràng buộc Ax>=b, x >=0 thuộc loại bài toán nào sau đây?
