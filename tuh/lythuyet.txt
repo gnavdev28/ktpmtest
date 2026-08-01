@@ -448,26 +448,38 @@ B. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc là một 
 C. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc bằng toán tử bất đẳng thức.
 * D. Bài toán tìm đường đi ngắn nhất đi qua một lần qua tất cả các đỉnh trên đồ thị vô hướng.
 
-Câu 76: Điểm xuất phát của thuật toán đơn hình là:
-* A. Một phương án cực biên của bài toán
-B. Một phương án chấp nhận được của bài toán
-C. Một điểm bất kỳ
-D. Một điểm thuộc phần trong của miền ràng buộc
-
-Câu 77: Đối với bài toán tối ưu lồi $\min_{x \in D} f(x)$ thỏa mãn điều kiện Slater:
+Câu 76: Đối với bài toán tối ưu lồi $\min_{x \in D} f(x)$ thỏa mãn điều kiện Slater:
 A. Điểm dừng KKT không tồn tại
 B. Điểm dừng KKT là duy nhất
 C. Có hai điểm dừng KKT
 * D. Điểm dừng KKT là nghiệm tối ưu của bài toán
 
-Câu 78: Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
+Câu 77: Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
 A. Tất cả các định thức con chính cấp lẻ của A dương
 B. Tất cả các định thức con chính cấp chẵn của A dương
 * C. Tất cả các định thức con chính của A dương
 D. Tất cả các định thức con chính của A không âm
 
-Câu 79: Thuật toán đơn hình được sử dụng để giải quyết loại bài toán nào?
+Câu 78: Thuật toán đơn hình được sử dụng để giải quyết loại bài toán nào?
 A. Bài toán trực quan hóa dữ liệu
 B. Bài toán quy hoạch lồi
 C. Bài toán số học
 * D. Bài toán quy hoạch tuyến tính
+
+Câu 79: Hàm mục tiêu của bài toán QHTT thường có dạng gì?
+A. max |x|
+B. max x^T Q x
+* C. max c^T x
+D. max chuẩn của x
+
+Câu 80: Phát biểu nào sau đây là sai đối với một bài toán QHTT?
+* A. Có miền ràng buộc bị chặn nhưng giá trị hàm mục tiêu không bị chặn
+B. Có miền ràng buộc không bị chặn nhưng giá trị tối ưu hữu hạn
+C. Có miền ràng buộc bị chặn, giá trị tối ưu hữu hạn
+D. Có miền ràng buộc không bị chặn và giá trị hàm mục tiêu không bị chặn
+
+Câu 81: Điều nào sau đây đúng cho phương án chấp nhận được của bài toán QHTT?
+A. Phải là điểm cực biên của miền chấp nhận được
+* B. Phải thỏa mãn tất cả các điều kiện ràng buộc
+C. Phải tối ưu hóa giá trị hàm mục tiêu
+D. Không thỏa mãn điều kiện gì
