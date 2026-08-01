@@ -1,0 +1,507 @@
+Câu 1: Cho hàm số $f : \mathbb{R} \to \mathbb{R}$. Xét bài toán tối ưu $\min_{x \in \mathbb{R}} f(x)$. Giả sử $\overline{x}$ là một điểm dừng. Điều kiện nào đảm bảo $\overline{x}$ là điểm cực tiểu địa phương?
+A. $f''(\overline{x}) \ge 0$ với mọi $x$
+B. $f''(\overline{x}) \ge 0$
+C. $f''(x) > 0$ với mọi $x$
+* D. $f''(\overline{x}) > 0$
+
+Câu 2: Cho $A \in \mathbb{R}^{n \times n}$ là ma trận đối xứng. Điều kiện nào sau đây đảm bảo A là nửa xác định dương?
+A. Tất cả các định thức con chính cấp lẻ không âm
+B. Tất cả các định thức con chính cấp chẵn không âm
+* C. Tất cả các giá trị riêng của A không âm
+D. Tất cả các định thức con chính không âm
+
+Câu 3: Khẳng định nào sau đây không đúng?
+* A. Nếu $y = f(x)$ là hàm lồi thì hàm số $y = -f(x)$ cũng là hàm lồi
+B. Nếu hàm số $y = f(x)$ là lồi thì hàm số $y = kf(x)$ cũng là lồi với mọi số thực dương k
+C. Tổng hai hàm lồi là lồi
+D. Hiệu hai hàm lồi có thể không là hàm lồi
+
+Câu 4: Bài toán tối ưu $\min_{x \in D} f(x)$ là bài toán tối ưu lồi nếu
+A. Hàm f là lồi
+B. Hàm f là lồi hoặc tập ràng buộc D là lồi
+C. Tập ràng buộc D là lồi
+* D. Hàm f là lồi và tập ràng buộc D là lồi
+
+Câu 5: Điểm xuất phát của phương pháp đơn hình là:
+A. Một phương án chấp nhận được
+B. Một phương án cực biên suy biến
+C. Một điểm bất kỳ
+* D. Một phương án cực biên
+
+Câu 6: Giá trị của hàm số tại điểm yên ngựa:
+* A. không phải giá trị lớn nhất, cũng không phải là giá trị nhỏ nhất
+B. vừa là giá trị lớn nhất, vừa là giá trị nhỏ nhất
+C. là giá trị nhỏ nhất
+D. là giá trị lớn nhất
+
+Câu 7: Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
+* A. Tất cả các giá trị riêng của A dương
+B. Tất cả các giá trị riêng của A không âm
+C. Tất cả các giá trị riêng của A là thực
+D. Tất cả các giá trị riêng của A là số phức
+
+Câu 8: Chỉ ra ma trận xác định âm:
+A. $\begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix}$
+B. $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
+C. $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$
+* D. $\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$
+
+Câu 9: Chỉ ra hàm số có ba điểm cực trị địa phương:
+* A. $f(x) = x^4 - x^2 + 1$
+B. $f(x) = x^4 + 3x^2$
+C. $f(x) = x^2 - 3x + 4$
+D. $f(x) = x^3 - x^2 + 1$
+
+Câu 10: Cho bài toán tối ưu: $\min c^T x, Ax \le b; x \ge 0$. Bài toán có thể viết lại dưới dạng bài toán tối ưu nào dưới đây?
+A. $\max -c^T x, Ax \le b; x \ge 0$
+* B. $-\max(-c^T x), Ax \le b; x \ge 0$
+C. $\min(-c^T x), Ax \le b; x \ge 0$
+D. $\min c^T x, Ax \ge b; x \ge 0$
+
+Câu 11: Bài toán sau có bao nhiêu nghiệm tối ưu? $\min 4x_1 + 3x_2$, thỏa mãn: $2x_1 + x_2 \ge 4; x_1 + 2x_2 \ge 3; x_1 \ge 0; x_2 \ge 0$
+A. 2 nghiệm
+B. vô số nghiệm
+* C. duy nhất nghiệm
+D. vô nghiệm
+
+Câu 12: Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ được gọi là xác định dương nếu:
+A. $x^T A x \ge 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
+B. $x^T A x \ge 0$ với mọi $x \in \mathbb{R}^n$
+* C. $x^T A x > 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
+D. $x^T A x > 0$ với mọi $x \in \mathbb{R}^n$
+
+Câu 13: Xét bài toán tối ưu lồi có ràng buộc $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$, sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$. Hệ KKT ứng với bài toán là:
+* A. $\begin{cases} 6x_1 - 4x_2 - \lambda_1 + 2x_1\lambda_2 = 0 \\ 6x_2 - 4x_1 - \lambda_1 + 2x_2\lambda_2 = 0 \\ \lambda_1(-x_1 - x_2 + 2) = 0 \\ \lambda_2(x_1^2 + x_2^2 - 4) = 0 \\ -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \\ \lambda_1, \lambda_2 \ge 0 \end{cases}$
+B. $\begin{cases} 6x_1 - 4x_2 - \lambda_1 + 2x_1\lambda_2 = 0 \\ 6x_2 - 4x_1 - \lambda_1 + 2x_2\lambda_2 = 0 \\ \lambda_1(-x_1 - x_2 + 2) = 0 \\ \lambda_2(x_1^2 + x_2^2 - 4) = 0 \\ -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \\ \lambda_1, \lambda_2 \in \mathbb{R} \end{cases}$
+
+Câu 14: Cho hàm số $f : \mathbb{R}^n \to \mathbb{R}$ khả vi liên tục đến cấp hai. Xét bài toán tối ưu $\min_{x \in \mathbb{R}^n} f(x)$. Giả sử $\overline{x}$ là một điểm dừng. Khi đó, $\overline{x}$ là điểm cực tiểu địa phương nếu:
+A. $\nabla^2 f(\overline{x})$ nửa xác định dương
+B. $\nabla^2 f(\overline{x})$ nửa xác định âm
+C. $\nabla^2 f(\overline{x})$ xác định âm
+* D. $\nabla^2 f(\overline{x})$ xác định dương
+
+Câu 15: Hàm số $y = f(x)$ là lồi khi và chỉ khi:
+A. Tập nghiệm của phương trình $f(x) = 0$ là tập lồi
+B. Tập nghiệm của bất phương trình $f(x) < 0$ là tập lồi
+* C. Tập trên đồ thị epi $f$ là lồi
+D. Đồ thị hàm số là tập lồi
+
+Câu 16: Đối với bài toán tối ưu lồi $\min_{x \in \mathbb{R}^n} f(x)$:
+A. Nghiệm tối ưu của bài toán là duy nhất
+* B. Nghiệm tối ưu địa phương cũng là nghiệm tối ưu toàn cục
+C. Bài toán luôn có nghiệm tối ưu
+D. Bài toán luôn có nghiệm tối ưu duy nhất
+
+Câu 17: Cho một bài toán có kích thước đầu vào là N và số bước để giải bài toán là $N^4 + 2N^3 + 2024$. Khi đó độ phức tạp của thuật toán là:
+* A. $O(N^4)$
+B. $O(N^3)$
+C. $O(2024)$
+D. $O(1)$
+
+Câu 18: Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ được gọi là nửa xác định dương nếu:
+A. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$ thỏa mãn $Ax = 0$
+B. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n$ thỏa mãn $Ax = 0$
+C. $x^T Ax > 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
+* D. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n$
+
+Câu 19: Bài toán tối ưu $\min_{x \in D} f(x)$ là bài toán tối ưu lồi nếu:
+* A. Hàm mục tiêu $f$ là lồi và tập ràng buộc D là lồi
+B. Hàm mục tiêu là lồi hoặc tập ràng buộc là lồi
+C. Tập ràng buộc là lồi
+D. Hàm mục tiêu là lồi
+
+Câu 20: Tìm giá trị lớn nhất của hàm số $f(x, y) = x^2 + y^2$ trên miền $[-2, 2] \times [-2, 2]$:
+* A. 8
+B. 0
+C. 16
+D. 4
+
+Câu 21: Nghiệm của bài toán tối ưu: $\max z = 3x_1 - 7x_2$, $-6x_1 + 4x_2 \le 11, 2x_1 + x_2 \le 9, x_1 \ge 0, x_2 \ge 0$ là:
+A. $(x_1; x_2) = (\frac{7}{2}; 0)$
+B. $(x_1; x_2) = (0; \frac{9}{2})$
+C. $(x_1; x_2) = (\frac{9}{2}; -1)$
+* D. $(x_1; x_2) = (\frac{9}{2}; 0)$
+
+Câu 22: Cho (P) là bài toán quy hoạch tuyến tính và (D) là bài toán đối ngẫu. Nếu (P) vô nghiệm thì:
+A. (D) cũng vô nghiệm
+* B. (D) có thể vẫn có nghiệm
+C. (D) có vô số nghiệm
+D. (D) có duy nhất nghiệm
+
+Câu 23: Chỉ ra bài toán tối ưu lồi:
+* A. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ sao cho $\begin{cases} x_1 + x_2 - 2x_3 + x_4 - x_5 \le 3 \\ x_2 + x_3 + x_4 \le 3 \\ 2x_2 - 3x_3 + x_4 = 20 \\ x_1, x_2, x_3, x_4, x_5 \ge 0 \end{cases}$
+B. $\min z = 2x^2 - 2y^2$
+C. $\min z = -xy$
+D. $\min z = x^2 + y^2$ sao cho $\begin{cases} xy = 0 \\ x \ge 0, y \ge 0 \end{cases}$
+
+Câu 24: Trong số các hàm số sau đây, hàm nào là tuyến tính?
+A. $f(x, y) = x^2 + y^2$
+B. $f(x, y) = xy$
+C. $f(x, y) = x^2 + xy + 1$
+* D. $f(x, y) = x + 2y$
+
+Câu 25: Trong mô hình toán học của bài toán Knapsack, các thông số nào cần được xác định?
+A. Giá trị của mỗi đồ vật
+B. Khối lượng của mỗi đồ vật
+* C. Cả A, B, D đều đúng
+D. Khối lượng tối đa của túi
+
+Câu 26: Cho $\Omega, \Omega' \subset \mathbb{R}^n$ là hai tập lồi. Tập hợp nào sau đây không phải tập lồi?
+A. $k\Omega = \{kx : x \in \Omega, k \ge 0\}$
+* B. $\Omega \cup \Omega' = \{x : x \in \Omega \text{ hoặc } x \in \Omega'\}$
+C. $\Omega - \Omega' = \{x - x' : x \in \Omega, x' \in \Omega'\}$
+D. $\Omega + \Omega' = \{x + x' : x \in \Omega, x' \in \Omega'\}$
+
+Câu 27: Tại điểm yên ngựa của một hàm số, giá trị của hàm số là:
+A. giá trị nhỏ nhất
+B. giá trị lớn nhất
+C. bằng không
+* D. Cả ba đáp án là sai
+
+Câu 28: Phương pháp nào được sử dụng để giải quyết bài toán knapsack?
+A. Tìm kiếm địa phương
+B. Quy hoạch động
+* C. Tất cả đều đúng
+D. Giải thuật di truyền
+
+Câu 29: Bài toán knapsack là:
+A. Một bài toán quy hoạch tuyến tính
+B. Bài toán quy hoạch lồi
+* C. Một bài toán quy hoạch nguyên tuyến tính
+D. Bài toán tối ưu trên đồ thị
+
+Câu 30: Độ phức tạp thời gian khi giải bài toán knapsack bằng phương pháp quy hoạch động là với n đồ vật và khối lượng tối đa của túi là W:
+A. $O(\log(nW))$
+* B. $O(nW)$
+C. $O(n^3)$
+D. $O(n^2)$
+
+Câu 31: Cho $A \in \mathbb{R}^{n \times n}$ là ma trận đối xứng. Điều kiện nào sau đây đảm bảo A là xác định dương?
+A. Tất cả các định thức con chính âm
+* B. Tất cả các định thức con chính dương
+C. Các định thức con chính cấp chẵn dương và các định thức con chính cấp lẻ âm
+D. Tất cả các định thức con chính cấp lẻ âm
+
+Câu 32: Khẳng định nào sau đây là đúng?
+A. Nếu hàm số $y = f(x)$ là lồi thì hàm số $y = kf(x)$ cũng là lồi với mọi số thực k
+B. Hiệu của hai hàm lồi là lồi
+* C. Tổng hai hàm lồi là lồi
+D. Mọi hàm toàn phương là lồi
+
+Câu 33: Bài toán tối ưu hóa đặt ra những yêu cầu gì để có thể áp dụng thuật toán đơn hình?
+A. Hàm mục tiêu phi tuyến và các hàm ràng buộc tuyến tính
+B. Hàm mục tiêu phi tuyến và các hàm ràng buộc phi tuyến
+C. Hàm mục tiêu tuyến tính và các hàm ràng buộc phi tuyến
+* D. Hàm mục tiêu và các hàm ràng buộc tuyến tính
+
+Câu 34: Bài toán quy hoạch tuyến tính dạng min:
+A. Luôn có nghiệm
+* B. Có nghiệm nếu hàm mục tiêu bị chặn dưới
+C. Luôn có duy nhất nghiệm
+D. Luôn có vô số nghiệm
+
+Câu 35: Bài toán đối ngẫu của bài toán quy hoạch tuyến tính là:
+A. Một bài toán quy hoạch nón cấp hai
+B. Một bài toán quy hoạch phi tuyến
+C. Một bài toán quy hoạch lồi
+* D. Một bài toán quy hoạch tuyến tính
+
+Câu 36: Chức năng của hàm ràng buộc trong bài toán tối ưu là
+* A. Xác định không gian nghiệm
+B. Làm đơn giản hóa các phương trình
+C. Tăng tốc độ thực thi
+D. Làm cho bài toán phức tạp hơn
+
+Câu 37: Sử dụng phương pháp nhân tử Xét bài toán tối ưu phi tuyến có ẩn số và ràng buộc. Khi đó số nhân tử Lagrange là:
+A. n
+B. m+ n
+* C. m
+D. n-m
+
+Câu 38: Thủ tục tìm chính xác theo tia (exact line search) dùng để:
+A. Tìm tập ràng buộc của bài toán
+B. Xấp xỉ ma trận Hessian
+C. Tìm hướng giảm của hàm mục tiêu
+* D. Tìm độ dài bước lặp
+
+Câu 39: Trong phương pháp Sequential Quadratic Programming (SQP), các bài toán được thiết lập là
+* A. Bài toán quy hoạch toàn phương
+B. Bài toán tối ưu đa mục tiêu
+C. Bài toán quy hoạch nguyên tuyến tính
+D. Bài toán quy hoạch tuyến tính
+
+Câu 40: Trong quy hoạch toàn phương, ma trận Hessian của hàm mục tiêu có dạng:
+* A. Ma trận đối xứng
+B. Ma trận tam giác
+C. Ma trận đơn vị
+D. Ma trận không vuông
+
+Câu 41: Phương pháp nào sau đây KHÔNG thể dung để giải bài toán quy hoạch toàn phương?
+* A. Phương pháp đơn hình gốc
+B. Phương pháp tập hoạt động
+C. Phương pháp dùng điều kiện KKT
+D. Phương pháp không gian hạt nhân
+
+Câu 42: Phương pháp Sequential Quadratic Programming (SQP) được dùng để giải bài toán
+* A. Quy hoạch toàn phương
+B. Quy hoạch phi tuyến
+C. Quy hoạch tuyến tính
+D. Quy hoạch nguyên
+
+Câu 43: Khẳng định nào sau đây KHÔNG đúng cho bài toán quy hoạch phi tuyến tổng  quát?
+A. Bài toán có thể không có nghiệm tối ưu.
+* B. Nghiệm tối ưu địa phương cũng là nghiệm tối ưu toàn cục.
+C. Nghiệm tối ưu có thể thuộc phần trong của miền chấp nhận được.
+D. Nghiệm tối ưu toàn cục cũng là nghiệm tối ưu địa phương.
+
+Câu 44: Phương pháp điểm trong thường được sử dụng để giải bài toán tối ưu hóa lồi vì lý do nào sau đây?
+* A. Đảm bảo nghiệm tối ưu toàn cục
+B. Đảm bảo nghiệm tối ưu địa phương
+C. Đảm bảo nghiệm tối ưu duy nhất
+D. Đảm bảo nghiệm tối ưu không duy nhất
+
+Câu 45: Phương pháp điểm trong thường được sử dụng để giải bài toán tối ưu hóa nào sau đây?
+* A. Bài toán tối ưu hóa có ràng buộc
+B. Bài toán tối ưu hóa đơn biến
+C. Bài toán tối ưu hóa không ràng buộc
+D. Bài toán tối ưu hóa đa mục tiêu
+
+Câu 46: Hàm chắn (barrier function) trong phương pháp điểm trong có tác dụng gì?
+A. Tăng tốc độ hội tụ của thuật toán
+* B. Đảm bảo nghiệm của dãy các bài toán bổ trợ luôn rơi vào phần trong củamiền khả thi
+C. Đảm bảo nghiệm luôn nắm trên biên của miền khả thi
+D. Loại bỏ các ràng buộc
+
+Câu 47: Trong phương pháp điểm trong, độ ảnh hưởng của hàm chắn (barrier function) trong hàm mục tiêu hiệu chỉnh sẽ
+A. Tăng
+B. Lúc tăng lúc giảm
+C. Không thay đổi
+* D. Giảm
+
+Câu 48: Phương pháp điểm trong hoạt động bằng cách:
+A. Bỏ qua các ràng buộc
+* B. Di chuyển từ bên trong miền khả thi hướng tới nghiệm tối ưu
+C. Duyệt qua các điểm cực biên của miền khả thi
+D. Sử dụng các điểm biên của miền khả thi
+
+Câu 49: Tham số chắn u trong phương pháp điểm trong có vai trò gì?
+A. Loại bỏ các ràng buộc
+* B. Điều chỉnh mức độ ảnh hưởng của hàm chẳn
+C. Xác định nghiệm tối ưu
+D. Điều chỉnh tốc độ hội tụ của thuật toán
+
+Câu 50: Hàm chắn thường được sử dụng để xử lý loại ràng buộc nào sau đây?
+* A. Ràng buộc bất đẳng thức
+B. Ràng buộc đẳng thức
+C. Ràng buộc tuyến tính
+D. Ràng buộc phi tuyến
+
+Câu 51: Mục đích của hàm "intlinprog" trong MATLAB là gì?
+A. Tính đạo hàm của một hàm số
+B. Tạo ma trận ngẫu nhiên
+C. Vẽ đồ thị hàm số hai chiều
+* D. Giải bài toán tối ưu tuyến tính với các ràng buộc nguyên
+
+Câu 52: Toolbox nào của MATLAB cung cấp các hàm giải các bài toán quy hoạch tuyến tính, quy hoạch phi tuyến, và các bài toán quy hoạch nguyên trộn?
+A. Signal Processing Toolbox
+* B. Optimization Toolbox
+C. Deep Learning Toolbox
+D. Statistics Toolbox
+
+Câu 53: Chức năng chính của mô đun SciPy.optimize là
+A. Làm việc với các mạng nơ-ron nhân tạo
+B. Phân tích dữ liệu thống kê
+C. Xử lý ảnh và xử lý tín hiệu
+* D. Giải các bài toán tối ưu
+
+Câu 54: Thuật toán nào sau đây có thể sử dụng để giải bài toán quy hoạch toàn phương với ràng buộc bất đẳng thức?
+* A. Thuật toán điểm trong
+B. Thuật toán đơn hình
+C. Thuật toán giảm Gradient
+D. Thuật toán di truyền
+
+Câu 55: Thư viện tối ưu hóa nào được tích hợp vào Python
+A. NumPy
+B. Matplotlib
+* C. SciPy.optimize
+D. Psandas
+
+Câu 56: Phần mềm nào được sử dụng để giải các bài toán quy hoạch nguyên?
+A. CPLEX
+B. Excel Solver
+C. Gurobi Optimizer
+* D. Tất cả các phương án đều đúng
+
+Câu 57: Solver CVXP trong Python được dùng để?
+* A. Giải các bài toán tối ưu
+B. Trực quan hóa dữ liệu
+C. Chạy mô phỏng
+D. Xử lý ảnh
+
+Câu 58: Chỉ ra tên một solver mà phù hợp với việc giải các bài toán quy hoạch tuyến tính
+A. Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+* B. Simplex
+C. Keras
+D. Nelder-Mead
+
+Câu 59: Đặc điểm chính của mô đun SciPy.optimize là
+A. Mô phỏng dữ liệu
+B. Đào tạo mô hình học sâu
+* C. Giải các bài toán tối ưu tuyến tính, phi tuyến, và bình phương tối thiểu
+D. Làm sạch dữ liệu
+
+Câu 60: Công cụ tối ưu nào được sử dụng cho bài toán quy hoạch toàn phương với dữ liệu lớn?
+A. GLPK
+B. OpenGL
+* C. QP Solver
+D. OpenCV
+
+Câu 61: Phần mềm nào được sử dụng để giải các bài toán quy hoạch nguyên trộn (MIP)?
+A. MATLAB
+* B. CPLEX
+C. Tableau
+D. Excel Solver
+
+Câu 62: Chỉ ra tên một solver mà phù hợp với việc giải các bài toán quy hoạch tuyến tính
+A. Keras
+B. TensorFlow
+C. PyTorch
+* D. PuLP
+
+Câu 63: Mục đích của phần mềm Gurobi
+* A. Giải các bài toán tối ưu
+B. Trực quan hóa dữ liệu
+C. Chạy mô phỏng
+D. Xử lý ảnh
+
+Câu 64: Thư viện nào của Python library thường được dùng trong các bài toán tối ưu lồi nói chung, học máy nói riêng?
+A. SciPy
+B. NumPy
+* C. CVXPY
+D. Pandas
+
+Câu 65: Cho hàm số f khả vi liên tục đến cấp hai. Xét bài toán tối ưu min f(x) . Giả sử là y một điểm dừng. Khi đó, y là điểm cực tiểu địa phương nếu
+A. Hessan f(y) nửa xác định dương
+B. Hessan f(y) xác định dương
+* C. Hessan f(y) nửa xác định âm
+D. Hessan f(y) xác định âm
+
+Câu 66: Ma trận đối xứng A được gọi là xác định dương nếu
+A. x^T A x ≥ 0, ∀x ∈ R^n
+* B. x^T A x > 0, ∀x ∈ R^n \ {0}
+C. x^T A x ≥ 0, ∀x ∈ R^n \ {0}
+D. x^T A x > 0, ∀x ∈ R^n
+
+Câu 67: Bài toán tối ưu min c^Tx với ràng buộc Ax>=b, x >=0 thuộc loại bài toán nào sau đây?
+A. Quy hoạch nguyên tuyến tính
+* B. Quy hoạch tuyến tính
+C. Quy hoạch nón cấp hai
+D. Quy hoạch toàn phương
+
+Câu 68: Điều kiện Slater đóng vai trò gì trong bài toán tối ưu lồi?
+* A. Đảm bảo điều kiện KKT là cần và đủ cho lời giải tối ưu
+B. Đảm bảo bài toán có vô số lời giải tối ưu
+C. Đảm bảo bài toán có lời giải tối ưu
+D. Đảm bảo bài toán có duy nhất lời giải tối ưu
+
+Câu 69: Bao lồi của 2 điểm trong mặt phẳng có thể là những hình nào sau đây?
+* A. Một đoạn thẳng
+B. Một tứ diện
+C. Một hình tròn
+D. Một tam giác
+
+Câu 70: Bao lồi của 5 điểm phân biệt trên mặt phẳng có thể có ít nhất bao nhiêu điểm cực biên?
+A. 8
+B. 10
+* C. 2
+D. 3
+
+Câu 71: Tập mức dưới của một hàm lồi bất kỳ là
+* A. Tập ľồi
+B. Tập lõm
+C. Tập lồi đa diện
+D. Tập hợp rời rạc
+
+Câu 72: Vấn đề nào sau đây là một ví dụ về bài toán quy hoạch tuyến tính?
+A. Chỉnh sửa ảnh.
+B. Quản lý tài chính gia đình.
+C. Tự động hóa thiết kế đồ họa.
+* D. Tối ưu hóa lịch trình sản xuất để giảm thiểu chi phí.
+
+Câu 73: Nếu trong quá trình thực hiện phương pháp đơn hình cho bài toán dạng chính tắc, không tìm được hệ số dương nào trong cột xoay, thì:
+A. Bài toán có nghiệm tối ưu
+* B. Hàm mục tiêu không bị chặn
+C. Lặp vô tận
+D. Bài toán suy biến
+
+Câu 74: Tập nghiệm chấp nhận được trong một bài toán tối ưu tuyến tính là:
+A. Một đường cong phi tuyến
+B. Luôn là một hình cầu
+* C. Một tập lồi đa diện
+D. Một tập không bị chặn
+
+Câu 75: Trong các khẳng định sau đây, khẳng định nào là đúng?
+* A. Nếu một bài toán quy hoạch tuyến tính có hai nghiệm tối ưu (phân biệt) thìnó có vô số nghiệm tối ưu.
+B. Mọi bài toán quy hoạch tuyến tính đều có ít nhất một nghiệm tối ưu.
+C. Nếu miền chấp nhận được không bị chặn, thì bài toán quy hoạch tuyến tính vô nghiệm.
+D. Mọi bài toán quy hoạch tuyến tính đều có một nghiệm tối ưu duy nhất.
+
+Câu 76: Tối ưu hóa là gì?
+* A. Tìm lời giải hợp lý nhất cho một bài toán
+B. Tìm tất cả lời giải có thể
+C. Tìm lời giải ngẫu nhiên
+D. Không có đáp án đúng
+
+Câu 77: Một bài toán tối ưu thường bao gồm:
+A. Hàm mục tiêu và một biến duy nhất
+* B. Hàm mục tiêu và các ràng buộc
+C. Chỉ có ràng buộc
+D. Chỉ có hàm mục tiêu
+
+Câu 78: Bài toán tối ưu hóa có thể được phân loại thành:
+A. Tuyến tính và phi tuyến
+B. Liên tục và rời rạc
+C. Ràng buộc và không ràng buộc
+* D. Tất cả các đáp án trên
+
+Câu 79: Trong bài toán tối ưu, 'hàm mục tiêu' là:
+A. Hàm dùng để biểu diễn ràng buộc
+* B. Hàm cần tối đa hóa hoặc tối thiểu hóa
+C. Hàm vô nghĩa
+D. Không có đáp án đúng
+
+Câu 80: Tối ưu hóa liên tục là gì?
+A. Biến chỉ nhận giá trị rời rạc
+* B. Biến có thể nhận giá trị bất kỳ trong tập xác định
+C. Tối ưu với biến nguyên
+D. Không có đáp án đúng
+
+Câu 81: Điều kiện cần của cực trị địa phương trong bài toán không ràng buộc là:
+* A. Gradient của hàm mục tiêu bằng 0
+B. Ma trận Hessian bằng 0
+C. Hàm mục tiêu đạt cực đại
+D. Không có đáp án đúng
+
+Câu 82: Trong bài toán tối ưu, tập ràng buộc là:
+A. Tập các điểm không hợp lệ
+* B. Tập các điểm mà biến số phải thỏa mãn
+C. Hàm mục tiêu
+D. Không có đáp án đúng
+
+Câu 83: Một điểm tối ưu cục bộ:
+A. Là điểm tốt nhất trong toàn bộ tập xác định
+* B. Là điểm tốt nhất trong một lân cận
+C. Luôn là tối ưu toàn cục
+D. Không tồn tại trong bài toán tối ưu
+
+Câu 84: Ma trận Hessian dùng để:
+A. Xác định tập ràng buộc
+* B. Kiểm tra tính lồi/lõm của hàm
+C. Tính đạo hàm bậc nhất
+D. Không liên quan đến tối ưu hóa
+
+Câu 85: Điều kiện Karush-Kuhn-Tucker (KKT) áp dụng cho bài toán:
+A. Không có ràng buộc
+B. Tuyến tính
+* C. Phi tuyến có ràng buộc
+D. Rời rạc

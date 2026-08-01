@@ -1,1052 +1,681 @@
-# BÀI TẬP TRẮC NGHIỆM TỐI ƯU HÓA (TỪ SCREENSHOTS & PDF)
+TRẮC NGHIỆM LÝ THUYẾT TỐI ƯU HÓA
+================================
 
 
-Câu 1/131
-Xét bài toán tối ưu $f(x,y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào là không là điểm dừng?
-A. (1,1)
-B. (2,1)
-C. (-1,1)
-D. (1,-1)
-**Đáp án đúng:** B
-
-Câu 2/131
+Câu 1/85
 Cho hàm số $f : \mathbb{R} \to \mathbb{R}$. Xét bài toán tối ưu $\min_{x \in \mathbb{R}} f(x)$. Giả sử $\overline{x}$ là một điểm dừng. Điều kiện nào đảm bảo $\overline{x}$ là điểm cực tiểu địa phương?
 A. $f''(\overline{x}) \ge 0$ với mọi $x$
 B. $f''(\overline{x}) \ge 0$
 C. $f''(x) > 0$ với mọi $x$
 D. $f''(\overline{x}) > 0$
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 3/131
+Câu 2/85
 Cho $A \in \mathbb{R}^{n \times n}$ là ma trận đối xứng. Điều kiện nào sau đây đảm bảo A là nửa xác định dương?
 A. Tất cả các định thức con chính cấp lẻ không âm
 B. Tất cả các định thức con chính cấp chẵn không âm
 C. Tất cả các giá trị riêng của A không âm
 D. Tất cả các định thức con chính không âm
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 4/131
-Cho tập lồi đa diện xác định bởi $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \ge 0, x_2 \ge 0, x_1 + x_2 \le 1\}$. Tập hợp $\Omega$ có mấy điểm cực biên?
-A. 2
-B. 1
-C. 0
-D. 3
-**Đáp án đúng:** D
-
-Câu 5/131
-Xét bài toán tối ưu lồi $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$ sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$. Nghiệm tối ưu bài toán là:
-A. (0,2)
-B. (1,1)
-C. (2,0)
-D. (0,0)
-**Đáp án đúng:** B
-
-Câu 6/131
+Câu 3/85
 Khẳng định nào sau đây không đúng?
 A. Nếu $y = f(x)$ là hàm lồi thì hàm số $y = -f(x)$ cũng là hàm lồi
 B. Nếu hàm số $y = f(x)$ là lồi thì hàm số $y = kf(x)$ cũng là lồi với mọi số thực dương k
 C. Tổng hai hàm lồi là lồi
 D. Hiệu hai hàm lồi có thể không là hàm lồi
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 7/131
-Với các biến phụ $x_3 \ge 0; x_4 \ge 0$. Chỉ ra phương án cực biên xuất phát của phương pháp đơn hình giải bài toán: $\max 2x_1 + 3x_2$, sao cho $x_1 + 2x_2 \le 5; 3x_1 + 2x_2 \le 12; x_1 \ge 0; x_2 \ge 0$
-A. $(x_1, x_2, x_3, x_4) = (3, 0, 5, 12)$
-B. $(x_1, x_2, x_3, x_4) = (0, 0, 5, 12)$
-C. $(x_1, x_2, x_3, x_4) = (5, 0, 5, 12)$
-D. $(x_1, x_2, x_3, x_4) = (0, 6, 5, 12)$
-**Đáp án đúng:** B
-
-Câu 8/131
-Tìm giá trị giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = x^3 - 3x^2 + 1$ trên đoạn $[- \frac{1}{2}, 2]$
-A. $y_{max} = 1, y_{min} = -3$
-B. $y_{max} = 17, y_{min} = 3$
-C. $y_{max} = 17, y_{min} = 0$
-D. $y_{max} = 17, y_{min} = -3$
-**Đáp án đúng:** D
-
-Câu 9/131
+Câu 4/85
 Bài toán tối ưu $\min_{x \in D} f(x)$ là bài toán tối ưu lồi nếu
 A. Hàm f là lồi
 B. Hàm f là lồi hoặc tập ràng buộc D là lồi
 C. Tập ràng buộc D là lồi
 D. Hàm f là lồi và tập ràng buộc D là lồi
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 11/131
-Chỉ ra bài toán tối ưu không lồi
-A. $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2$, sao cho $\begin{cases} x_1^2 + x_2^2 \ge 1 \\ x_1 - x_2 \le 4 \\ x_1, x_2 \ge 0 \end{cases}$
-B. $\min f(x_1, x_2) = 4x_1^2 + x_2^2 - x_1 - 2x_2$, sao cho $\begin{cases} 2x_1 + x_2 \le 1 \\ x_1^2 - 1 \le 0 \end{cases}$
-C. $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$, sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$
-D. $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2 - 4x_1 + x_1x_2$, sao cho $\begin{cases} x_1 + 2x_2 \le 6 \\ 2x_1 - 2x_2 \ge 2 \\ x_1, x_2 \ge 0 \end{cases}$
-**Đáp án đúng:** A
-
-Câu 12/131
-Giá trị tối ưu của bài toán tối ưu: $\max z = 3x_1 - 7x_2$, với miền ràng buộc cho bởi các bất đẳng thức: $-6x_1 + 4x_2 \le 11, 2x_1 + x_2 \le 9, x_1 \ge 0, x_2 \ge 0$ là:
-A. $z^* = -\frac{29}{2}$
-B. $z^* = \frac{29}{2}$
-C. $z^* = \frac{27}{2}$
-D. $z^* = -\frac{27}{2}$
-**Đáp án đúng:** C
-
-Câu 13/131
-Tìm ước lượng còn thiếu trong bảng đơn hình sau:
-![Bảng đơn hình](images/q13.png)
-A. 8
-B. 6
-C. 4
-D. 1
-**Đáp án đúng:** C
-
-Câu 14/131
+Câu 5/85
 Điểm xuất phát của phương pháp đơn hình là:
 A. Một phương án chấp nhận được
 B. Một phương án cực biên suy biến
 C. Một điểm bất kỳ
 D. Một phương án cực biên
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 15/131
+Câu 6/85
 Giá trị của hàm số tại điểm yên ngựa:
 A. không phải giá trị lớn nhất, cũng không phải là giá trị nhỏ nhất
 B. vừa là giá trị lớn nhất, vừa là giá trị nhỏ nhất
 C. là giá trị nhỏ nhất
 D. là giá trị lớn nhất
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 16/131
+Câu 7/85
 Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
 A. Tất cả các giá trị riêng của A dương
 B. Tất cả các giá trị riêng của A không âm
 C. Tất cả các giá trị riêng của A là thực
 D. Tất cả các giá trị riêng của A là số phức
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 17/131
+Câu 8/85
 Chỉ ra ma trận xác định âm:
 A. $\begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix}$
 B. $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
 C. $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$
 D. $\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}$
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 18/131
-Chỉ ra một điểm dừng của hàm số $f(x, y) = -\frac{1}{2}xy + \frac{2}{x} + \frac{1}{y}$:
-A. (0,0)
-B. (-2,-1)
-C. (2,1)
-D. (1,0)
-**Đáp án đúng:** B
-
-Câu 19/131
-Chỉ ra tập hợp không lồi:
-A. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 + x_2 \le 1\}$
-B. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1^2 + x_2^2 = 1\}$
-C. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1^2 + x_2^2 < 1\}$
-D. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 + x_2 = 1\}$
-**Đáp án đúng:** B
-
-Câu 20/131
-Bài toán Knapsack là bài toán gì trong lĩnh vực tối ưu hóa?
-A. Bài toán chọn các món đồ để đựng vào một túi có giới hạn trọng lượng
-B. Bài toán tìm đường đi ngắn nhất giữa hai điểm trên đồ thị
-C. Bài toán phân loại đối tượng vào các lớp đã cho
-D. Bài toán tối ưu hoá hàm lượng giác của một đa thức
-**Đáp án đúng:** A
-
-Câu 21/131
+Câu 9/85
 Chỉ ra hàm số có ba điểm cực trị địa phương:
 A. $f(x) = x^4 - x^2 + 1$
 B. $f(x) = x^4 + 3x^2$
 C. $f(x) = x^2 - 3x + 4$
 D. $f(x) = x^3 - x^2 + 1$
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 22/131
-Trong số các hàm số sau đây, hàm số nào là hàm lồi?
-A. $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$
-B. $f(x, y) = x^2 - y^2$
-C. $f(x, y) = 2x^2 + 2y^2 - 4x + y$
-D. $f(x, y) = -\frac{1}{2}xy + \frac{2}{x} + \frac{1}{y}$
-**Đáp án đúng:** C
-
-Câu 23/131
-Xét bài toán tối ưu $f(x, y) = xy$. Điểm $(x, y) = (0,0)$ là:
-A. Điểm cực tiểu
-B. Điểm cực đại
-C. Điểm yên ngựa
-D. Vừa là điểm cực tiểu, vừa là điểm cực đại
-**Đáp án đúng:** C
-
-Câu 24/131
-Giá trị nhỏ nhất của hàm số $f(x, y) = xy$ trên đoạn $[-1, 1] \times [-1, 1]$ là:
-A. 0
-B. không tồn tại
-C. 1
-D. -1
-**Đáp án đúng:** D
-
-Câu 25/131
-Cho hàm số $f : \mathbb{R}^n \to \mathbb{R}$. Điều kiện nào sau đây đảm bảo hàm $f$ lồi?
-A. $\nabla f(x) = 0$ với mọi $x \in \mathbb{R}^n$
-B. $\nabla^2 f(x)$ nửa xác định dương với mọi $x \in \mathbb{R}^n$
-C. $\nabla^2 f(x) = 0$ với mọi $x \in \mathbb{R}^n$
-D. $\nabla^2 f(x)$ nửa xác định âm với mọi $x \in \mathbb{R}^n$
-**Đáp án đúng:** B
-
-Câu 26/131
+Câu 10/85
 Cho bài toán tối ưu: $\min c^T x, Ax \le b; x \ge 0$. Bài toán có thể viết lại dưới dạng bài toán tối ưu nào dưới đây?
 A. $\max -c^T x, Ax \le b; x \ge 0$
 B. $-\max(-c^T x), Ax \le b; x \ge 0$
 C. $\min(-c^T x), Ax \le b; x \ge 0$
 D. $\min c^T x, Ax \ge b; x \ge 0$
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 27/131
-Tìm ước lượng còn thiếu trong bảng đơn hình sau:
-![Bảng đơn hình](images/q27.png)
-A. $-1 - 2M$
-B. $4M$
-C. $5 + M$
-D. $1 + 4M$
-**Đáp án đúng:** D
-
-Câu 28/131
-Hãy đưa bài toán sau về dạng chuẩn tắc: $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn $x_1 + x_2 - 2x_3 + x_4 \ge 6, -x_1 + x_3 \le 10, 2x_2 - 3x_3 + x_4 = 20; x_1 \ge 0; x_2 \ge 0; x_3 \ge 0$
-A. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn: $x_1 + x_2 - 2x_3 + x_4 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20; x_i \ge 0; i=1..6$
-B. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn: $x_1 + x_2 - 2x_3 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20, x_4 = x_7 - x_8; x_i \ge 0; i \neq 4$
-C. $\min z = x_1 + 3x_2 - x_3 + 3x_4$, thỏa mãn: $x_1 + x_2 - 2x_3 + x_4 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20; x_i \ge 0$
-D. $\min z = x_1 + 3x_2 - x_3 + 3x_7 - 3x_8$, thỏa mãn: $x_1 + x_2 - 2x_3 + x_7 - x_8 - x_5 = 6, -x_1 + x_3 + x_6 = 10, 2x_2 - 3x_3 + x_7 - x_8 = 20; x_1, x_2, x_3, x_5, x_6, x_7, x_8 \ge 0$
-**Đáp án đúng:** D
-
-Câu 29/131
-Khẳng định nào sau đây không đúng?
-A. Giao hai tập lồi là tập lồi
-B. Nếu hai điểm x, y thuộc vào một tập lồi $\Omega$ thì đoạn thẳng nối [x, y] cũng thuộc $\Omega$
-C. Hợp của hai tập lồi là tập lồi
-D. Tập nghiệm của hệ cho bởi các phương trình và bất phương trình tuyến tính là tập lồi đa diện
-**Đáp án đúng:** C
-
-Câu 30/131
+Câu 11/85
 Bài toán sau có bao nhiêu nghiệm tối ưu? $\min 4x_1 + 3x_2$, thỏa mãn: $2x_1 + x_2 \ge 4; x_1 + 2x_2 \ge 3; x_1 \ge 0; x_2 \ge 0$
 A. 2 nghiệm
 B. vô số nghiệm
 C. duy nhất nghiệm
 D. vô nghiệm
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 31/131
-Chỉ ra ma trận xác định dương:
-A. $\begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix}$
-B. $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$
-C. $\begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$
-D. Không xác định được
-**Đáp án đúng:** C
-
-Câu 32/131
-Mô hình toán học của bài toán TSP (Traveling Salesman Problem) là gì?
-A. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc bằng toán tử bằng nhau.
-B. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc là một hàm toán học không tuyến tính.
-C. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc bằng toán tử bất đẳng thức.
-D. Bài toán tìm đường đi ngắn nhất đi qua một lần qua tất cả các đỉnh trên đồ thị vô hướng.
-**Đáp án đúng:** D
-
-Câu 33/131
+Câu 12/85
 Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ được gọi là xác định dương nếu:
 A. $x^T A x \ge 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
 B. $x^T A x \ge 0$ với mọi $x \in \mathbb{R}^n$
 C. $x^T A x > 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
 D. $x^T A x > 0$ với mọi $x \in \mathbb{R}^n$
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 34/131
+Câu 13/85
 Xét bài toán tối ưu lồi có ràng buộc $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$, sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$. Hệ KKT ứng với bài toán là:
 A. $\begin{cases} 6x_1 - 4x_2 - \lambda_1 + 2x_1\lambda_2 = 0 \\ 6x_2 - 4x_1 - \lambda_1 + 2x_2\lambda_2 = 0 \\ \lambda_1(-x_1 - x_2 + 2) = 0 \\ \lambda_2(x_1^2 + x_2^2 - 4) = 0 \\ -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \\ \lambda_1, \lambda_2 \ge 0 \end{cases}$
 B. $\begin{cases} 6x_1 - 4x_2 - \lambda_1 + 2x_1\lambda_2 = 0 \\ 6x_2 - 4x_1 - \lambda_1 + 2x_2\lambda_2 = 0 \\ \lambda_1(-x_1 - x_2 + 2) = 0 \\ \lambda_2(x_1^2 + x_2^2 - 4) = 0 \\ -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \\ \lambda_1, \lambda_2 \in \mathbb{R} \end{cases}$
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 35/131
-Điểm xuất phát của thuật toán đơn hình là:
-A. Một phương án cực biên của bài toán
-B. Một phương án chấp nhận được của bài toán
-C. Một điểm bất kỳ
-D. Một điểm thuộc phần trong của miền ràng buộc
-**Đáp án đúng:** A
-
-Câu 36/131
+Câu 14/85
 Cho hàm số $f : \mathbb{R}^n \to \mathbb{R}$ khả vi liên tục đến cấp hai. Xét bài toán tối ưu $\min_{x \in \mathbb{R}^n} f(x)$. Giả sử $\overline{x}$ là một điểm dừng. Khi đó, $\overline{x}$ là điểm cực tiểu địa phương nếu:
 A. $\nabla^2 f(\overline{x})$ nửa xác định dương
 B. $\nabla^2 f(\overline{x})$ nửa xác định âm
 C. $\nabla^2 f(\overline{x})$ xác định âm
 D. $\nabla^2 f(\overline{x})$ xác định dương
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 37/131
+Câu 15/85
 Hàm số $y = f(x)$ là lồi khi và chỉ khi:
 A. Tập nghiệm của phương trình $f(x) = 0$ là tập lồi
 B. Tập nghiệm của bất phương trình $f(x) < 0$ là tập lồi
 C. Tập trên đồ thị epi $f$ là lồi
 D. Đồ thị hàm số là tập lồi
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 38/131
-Một nông trại chăn nuôi cần mua ba loại thức ăn tổng hợp (TH) T1, T2, T3 cho gia súc với tỉ lệ chế biến: 1 kg T1 chứa 2 đơn vị dinh dưỡng (DD) D1 (Hydrat cacbon), 5 đơn vị dinh dưỡng D2 (chất béo) và 3 đơn vị dinh dưỡng D3 (Protein); 1 kg T2 chứa 1 đơn vị D1, 4 đơn vị D2 và 2 đơn vị D3; 1 kg T3 chứa 3 đơn vị D1, 2 đơn vị D2 và 5 đơn vị D3. Mỗi bữa ăn cho gia súc cần tối thiểu 60 đơn vị D1, tối thiểu 20 đơn vị D2, tối đa 40 đơn vị D2 và cần đúng 50 đơn vị D3. Hỏi nông trại cần mua bao nhiêu kg T1, T2, T3 cho mỗi bữa ăn, sao cho vừa đảm bảo tốt dinh dưỡng cho bữa ăn của gia súc, vừa để tổng số tiền chi mua thức ăn là nhỏ nhất biết rằng mua 1 kg T1 giá 50 ngàn đồng, 1 kg T2 giá 35 ngàn đồng, 1 kg T3 giá 25 ngàn đồng. Gọi số kg T1, T2, T3 cần mua cho mỗi bữa ăn là $x_1, x_2, x_3$. Xác định mô hình toán học cho bài toán nêu trên.
-A. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 = 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-B. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \le 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-C. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \ge 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-D. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \ge 60 \\ 5x_1 + 4x_2 + 2x_3 = 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-**Đáp án đúng:** C
-
-Câu 39/131
+Câu 16/85
 Đối với bài toán tối ưu lồi $\min_{x \in \mathbb{R}^n} f(x)$:
 A. Nghiệm tối ưu của bài toán là duy nhất
 B. Nghiệm tối ưu địa phương cũng là nghiệm tối ưu toàn cục
 C. Bài toán luôn có nghiệm tối ưu
 D. Bài toán luôn có nghiệm tối ưu duy nhất
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 40/131
+Câu 17/85
 Cho một bài toán có kích thước đầu vào là N và số bước để giải bài toán là $N^4 + 2N^3 + 2024$. Khi đó độ phức tạp của thuật toán là:
 A. $O(N^4)$
 B. $O(N^3)$
 C. $O(2024)$
 D. $O(1)$
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 41/131
-Trong số các hàm số sau đây, hàm số nào không lồi?
-A. $f(x, y) = x^2 + y^2$
-B. $f(x, y) = 4x^2 + y^2 - x - y$
-C. $f(x, y) = x^2 + 1$
-D. $f(x, y) = xy$
-**Đáp án đúng:** D
-
-Câu 42/131
-Hàm số $y = f(x)$, $f : \mathbb{R}^n \to \mathbb{R}$ khả vi liên tục đến cấp hai. Chọn khẳng định đúng:
-A. Nếu $\nabla^2 f(x) \neq 0$ với mọi $x$ thì $f$ lồi
-B. Nếu $\nabla^2 f(x) = 0$ với mọi $x$ thì $f$ lồi
-C. Nếu $\nabla^2 f(x)$ nửa xác định dương với mọi $x$ thì $f$ lồi
-D. Nếu tồn tại $x$ để $\nabla^2 f(x)$ là nửa xác định dương thì $f$ lồi
-**Đáp án đúng:** C
-
-Câu 43/131
+Câu 18/85
 Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ được gọi là nửa xác định dương nếu:
 A. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$ thỏa mãn $Ax = 0$
 B. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n$ thỏa mãn $Ax = 0$
 C. $x^T Ax > 0$ với mọi $x \in \mathbb{R}^n \setminus \{0\}$
 D. $x^T Ax \ge 0$ với mọi $x \in \mathbb{R}^n$
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 44/131
+Câu 19/85
 Bài toán tối ưu $\min_{x \in D} f(x)$ là bài toán tối ưu lồi nếu:
 A. Hàm mục tiêu $f$ là lồi và tập ràng buộc D là lồi
 B. Hàm mục tiêu là lồi hoặc tập ràng buộc là lồi
 C. Tập ràng buộc là lồi
 D. Hàm mục tiêu là lồi
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 45/131
+Câu 20/85
 Tìm giá trị lớn nhất của hàm số $f(x, y) = x^2 + y^2$ trên miền $[-2, 2] \times [-2, 2]$:
 A. 8
 B. 0
 C. 16
 D. 4
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 46/131
-Cho hàm số $f(x, y) = -\frac{1}{2}x^2 + 2xy + y^2 - 6y - 10$. Điểm $(x, y) = (2, 1)$ là:
-A. điểm yên ngựa
-B. điểm cực tiểu toàn cục
-C. điểm cực đại địa phương
-D. điểm cực tiểu địa phương
-**Đáp án đúng:** A
-
-Câu 47/131
-Ma trận nào không phải ma trận xác định dương?
-A. $\begin{pmatrix} 1 & 1 \\ 1 & 4 \end{pmatrix}$
-B. $\begin{pmatrix} 2 & 2 \\ 2 & 4 \end{pmatrix}$
-C. $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$
-D. $\begin{pmatrix} 1 & 2 \\ 2 & -1 \end{pmatrix}$
-**Đáp án đúng:** D
-
-Câu 48/131
-Cho hàm số hai biến số $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào không là điểm dừng?
-A. (1,1)
-B. (0,0)
-C. (1,-1)
-D. (-1,1)
-**Đáp án đúng:** B
-
-Câu 49/131
-Chỉ ra tập hợp lồi:
-A. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \ge 0, x_2 \ge 0\}$
-B. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 \le 0\}$
-C. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 = 0\}$
-D. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 \ge 0\}$
-**Đáp án đúng:** A
-
-Câu 50/131
-Tìm giá trị lớn nhất và nhỏ nhất của hàm số $f(x) = x^3 - 3x^2 + 1$ trên đoạn $[-\frac{1}{2}, 0]$:
-A. $y_{max} = 1, y_{min} = -1$
-B. $y_{max} = 1, y_{min} = 0$
-C. $y_{max} = 1, y_{min} = -3$
-D. $y_{max} = 1, y_{min} = \frac{1}{8}$
-**Đáp án đúng:** D
-
-Câu 51/131
-Với hàm số lồi $y = f(x)$ bất kỳ. Khẳng định nào sau đây là đúng?
-A. Tập nghiệm của phương trình $f(x) = 0$ là tập lồi
-B. Tập trên đồ thị epi $f$ là lồi
-C. Hàm số $y = -f(x)$ là lồi
-D. Tồn tại duy nhất $x_0$ sao cho $f(x_0) = 0$
-**Đáp án đúng:** B
-
-Câu 52/131
+Câu 21/85
 Nghiệm của bài toán tối ưu: $\max z = 3x_1 - 7x_2$, $-6x_1 + 4x_2 \le 11, 2x_1 + x_2 \le 9, x_1 \ge 0, x_2 \ge 0$ là:
 A. $(x_1; x_2) = (\frac{7}{2}; 0)$
 B. $(x_1; x_2) = (0; \frac{9}{2})$
 C. $(x_1; x_2) = (\frac{9}{2}; -1)$
 D. $(x_1; x_2) = (\frac{9}{2}; 0)$
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 53/131
-Một xí nghiệp có thể sử dụng tối đa 510 giờ máy cán, 360 giờ máy tiện và 150 giờ máy mài để chế tạo ba loại sản phẩm A, B và C. Để chế tạo một đơn vị sản phẩm A cần 9 giờ máy cán, 5 giờ máy tiện, 3 giờ máy mài; một đơn vị sản phẩm B cần 3 giờ máy cán, 5 giờ máy tiện, 2 giờ máy mài; một đơn vị sản phẩm C cần 5 giờ máy cán, 3 giờ máy tiện, 2 giờ máy mài. Mỗi sản phẩm A trị giá 48 ngàn đồng, mỗi sản phẩm B trị giá 16 ngàn đồng và mỗi sản phẩm C trị giá 27 ngàn đồng. Vấn đề đặt ra là xí nghiệp cần chế tạo bao nhiêu đơn vị sản phẩm mỗi loại để tổng số giá trị sản phẩm xí nghiệp thu được là lớn nhất, với điều kiện không dùng quá số giờ hiện có của mỗi loại máy? Gọi số đơn vị sản phẩm A, B, C mà xí nghiệp cần chế tạo là $x_1, x_2, x_3$ ($x_1, x_2, x_3 \ge 0$). Xác định mô hình toán học cho vấn đề thực tiễn trên.
-A. $\min 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 6x_1 + 3x_2 + 5x_3 = 510 \\ 5x_1 + 4x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_3 \le 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-B. $\max 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 9x_1 + 3x_2 + 5x_3 \le 510 \\ 5x_1 + 5x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_2 + 2x_3 \le 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-C. $\max 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 9x_1 + 3x_2 + 5x_3 \le 510 \\ 5x_1 + 4x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_3 = 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
-**Đáp án đúng:** B
-
-Câu 54/131
-Chỉ ra hàm số có hai điểm cực tiểu địa phương:
-A. $f(x) = -x^4 + x^2 + 1$
-B. $f(x) = x^4 - x^2 + 1$
-C. $f(x) = x^3 - x^2 + 1$
-D. $f(x) = -x^3 - 2x^2 + 1$
-**Đáp án đúng:** B
-
-Câu 55/131
-Đối với bài toán tối ưu lồi $\min_{x \in D} f(x)$ thỏa mãn điều kiện Slater:
-A. Điểm dừng KKT không tồn tại
-B. Điểm dừng KKT là duy nhất
-C. Có hai điểm dừng KKT
-D. Điểm dừng KKT là nghiệm tối ưu của bài toán
-**Đáp án đúng:** D
-
-Câu 56/131
+Câu 22/85
 Cho (P) là bài toán quy hoạch tuyến tính và (D) là bài toán đối ngẫu. Nếu (P) vô nghiệm thì:
 A. (D) cũng vô nghiệm
 B. (D) có thể vẫn có nghiệm
 C. (D) có vô số nghiệm
 D. (D) có duy nhất nghiệm
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 57/131
+Câu 23/85
 Chỉ ra bài toán tối ưu lồi:
 A. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ sao cho $\begin{cases} x_1 + x_2 - 2x_3 + x_4 - x_5 \le 3 \\ x_2 + x_3 + x_4 \le 3 \\ 2x_2 - 3x_3 + x_4 = 20 \\ x_1, x_2, x_3, x_4, x_5 \ge 0 \end{cases}$
 B. $\min z = 2x^2 - 2y^2$
 C. $\min z = -xy$
 D. $\min z = x^2 + y^2$ sao cho $\begin{cases} xy = 0 \\ x \ge 0, y \ge 0 \end{cases}$
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 58/131
-Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
-A. Tất cả các định thức con chính cấp lẻ của A dương
-B. Tất cả các định thức con chính cấp chẵn của A dương
-C. Tất cả các định thức con chính của A dương
-D. Tất cả các định thức con chính của A không âm
-**Đáp án đúng:** C
-
-Câu 59/131
+Câu 24/85
 Trong số các hàm số sau đây, hàm nào là tuyến tính?
 A. $f(x, y) = x^2 + y^2$
 B. $f(x, y) = xy$
 C. $f(x, y) = x^2 + xy + 1$
 D. $f(x, y) = x + 2y$
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 60/131
-Cho hàm số hai biến số $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào sau đây là điểm cực trị?
-A. (0,1)
-B. (0,0)
-C. (-1,-1)
-D. (1,0)
-**Đáp án đúng:** C
-
-Câu 61/131
-Thuật toán đơn hình được sử dụng để giải quyết loại bài toán nào?
-A. Bài toán trực quan hóa dữ liệu
-B. Bài toán quy hoạch lồi
-C. Bài toán số học
-D. Bài toán quy hoạch tuyến tính
-**Đáp án đúng:** D
-
-Câu 62/131
+Câu 25/85
 Trong mô hình toán học của bài toán Knapsack, các thông số nào cần được xác định?
 A. Giá trị của mỗi đồ vật
 B. Khối lượng của mỗi đồ vật
 C. Cả A, B, D đều đúng
 D. Khối lượng tối đa của túi
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 63/131
+Câu 26/85
 Cho $\Omega, \Omega' \subset \mathbb{R}^n$ là hai tập lồi. Tập hợp nào sau đây không phải tập lồi?
 A. $k\Omega = \{kx : x \in \Omega, k \ge 0\}$
 B. $\Omega \cup \Omega' = \{x : x \in \Omega \text{ hoặc } x \in \Omega'\}$
 C. $\Omega - \Omega' = \{x - x' : x \in \Omega, x' \in \Omega'\}$
 D. $\Omega + \Omega' = \{x + x' : x \in \Omega, x' \in \Omega'\}$
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 64/131
+Câu 27/85
 Tại điểm yên ngựa của một hàm số, giá trị của hàm số là:
 A. giá trị nhỏ nhất
 B. giá trị lớn nhất
 C. bằng không
 D. Cả ba đáp án là sai
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 65/131
-Tìm ước lượng còn thiếu trong bảng đơn hình sau:
-![Bảng đơn hình](images/q65.png)
-A. 2
-B. 1
-C. 0
-D. -1
-**Đáp án đúng:** A
-
-Câu 66/131
-Cho một bài toán có kích thước đầu vào là N và số bước để giải bài toán là $2024N^4 + 2N^3 + 20242024$. Khi đó độ phức tạp của thuật toán là:
-A. $O(N^4)$
-B. $O(N^3)$
-C. $O(20242024)$
-D. $O(2024)$
-**Đáp án đúng:** A
-
-Câu 67/131
-Tìm ước lượng còn thiếu trong bảng đơn hình sau:
-![Bảng đơn hình](images/q67.png)
-A. $3 + 3M$
-B. M
-C. 2M
-D. $5 + 3M$
-**Đáp án đúng:** A
-
-Câu 68/131
+Câu 28/85
 Phương pháp nào được sử dụng để giải quyết bài toán knapsack?
 A. Tìm kiếm địa phương
 B. Quy hoạch động
 C. Tất cả đều đúng
 D. Giải thuật di truyền
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 69/131
+Câu 29/85
 Bài toán knapsack là:
 A. Một bài toán quy hoạch tuyến tính
 B. Bài toán quy hoạch lồi
 C. Một bài toán quy hoạch nguyên tuyến tính
 D. Bài toán tối ưu trên đồ thị
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 70/131
+Câu 30/85
 Độ phức tạp thời gian khi giải bài toán knapsack bằng phương pháp quy hoạch động là với n đồ vật và khối lượng tối đa của túi là W:
 A. $O(\log(nW))$
 B. $O(nW)$
 C. $O(n^3)$
 D. $O(n^2)$
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 71/131
+Câu 31/85
 Cho $A \in \mathbb{R}^{n \times n}$ là ma trận đối xứng. Điều kiện nào sau đây đảm bảo A là xác định dương?
 A. Tất cả các định thức con chính âm
 B. Tất cả các định thức con chính dương
 C. Các định thức con chính cấp chẵn dương và các định thức con chính cấp lẻ âm
 D. Tất cả các định thức con chính cấp lẻ âm
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 72/131
-Giá trị tối ưu của bài toán tối ưu: $\max z = 5x_1 + 4x_2$ sao cho $2x_1 + x_2 \le 8; 4x_1 + 3x_2 \le 10; x_1 \ge 0; x_2 \ge 0$
-A. $z^* = \frac{40}{3}$
-B. $z^* = -\frac{70}{3}$
-C. $z^* = \frac{50}{3}$
-D. $z^* = -\frac{40}{3}$
-**Đáp án đúng:** A
-
-Câu 73/131
-Chỉ ra ma trận xác định dương:
-A. $\begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}$
-B. $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$
-C. $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$
-D. $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$
-**Đáp án đúng:** D
-
-Câu 74/131
-Hãy đưa bài toán sau về dạng chuẩn tắc: $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 \ge 90; 0.3x_1 + 0.4x_2 + 0.2x_3 = 130; 2x_1 + x_2 + 3x_3 = 1000; x_1, x_2, x_3 \ge 0$
-A. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 + x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 - x_5 = 130; 2x_1 + x_2 + 3x_3 - x_6 = 1000; x_1, x_2, x_3, x_4, x_5, x_6 \ge 0$
-B. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 - x_5 = 130; 2x_1 + x_2 + 3x_3 - x_6 = 1000; x_1, x_2, x_3 \ge 0$
-C. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 + x_5 = 130; 2x_1 + x_2 + 3x_3 + x_6 = 1000; x_1, x_2, x_3, x_4, x_5, x_6 \ge 0$
-D. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 = 130; 2x_1 + x_2 + 3x_3 = 1000; x_1, x_2, x_3, x_4 \ge 0$
-**Đáp án đúng:** D
-
-Câu 75/131
-Xét bài toán tối ưu lồi: $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2 - 4x_1 + x_1x_2$ sao cho $\begin{cases} x_1 + 2x_2 \le 6 \\ 2x_1 - 2x_2 \ge 2 \\ x_1, x_2 \ge 0 \end{cases}$. Điểm nào sau đây là nghiệm tối ưu của bài toán?
-A. (1,1)
-B. (-1,-1)
-C. (0,0)
-D. (1,0)
-**Đáp án đúng:** D
-
-Câu 76/131
+Câu 32/85
 Khẳng định nào sau đây là đúng?
 A. Nếu hàm số $y = f(x)$ là lồi thì hàm số $y = kf(x)$ cũng là lồi với mọi số thực k
 B. Hiệu của hai hàm lồi là lồi
 C. Tổng hai hàm lồi là lồi
 D. Mọi hàm toàn phương là lồi
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 77/131
+Câu 33/85
 Bài toán tối ưu hóa đặt ra những yêu cầu gì để có thể áp dụng thuật toán đơn hình?
 A. Hàm mục tiêu phi tuyến và các hàm ràng buộc tuyến tính
 B. Hàm mục tiêu phi tuyến và các hàm ràng buộc phi tuyến
 C. Hàm mục tiêu tuyến tính và các hàm ràng buộc phi tuyến
 D. Hàm mục tiêu và các hàm ràng buộc tuyến tính
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 78/131
+Câu 34/85
 Bài toán quy hoạch tuyến tính dạng min:
 A. Luôn có nghiệm
 B. Có nghiệm nếu hàm mục tiêu bị chặn dưới
 C. Luôn có duy nhất nghiệm
 D. Luôn có vô số nghiệm
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 79/131
+Câu 35/85
 Bài toán đối ngẫu của bài toán quy hoạch tuyến tính là:
 A. Một bài toán quy hoạch nón cấp hai
 B. Một bài toán quy hoạch phi tuyến
 C. Một bài toán quy hoạch lồi
 D. Một bài toán quy hoạch tuyến tính
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-[Câu 80 / extra]
-Giá trị nhỏ nhất của hàm số $f(x, y) = x^2 + y^2$ trên miền $[-2, -1] \times [-2, -1]$ là:
-A. 4
-B. 0
-C. 5
-D. 2
-**Đáp án đúng:** D
-
-Câu 80/131
-Một nhà máy cần phân bổ nguyên liệu giữa hai dây chuyền sản xuất A và B. Lợi nhuận từ dây chuyền A là 5x, dây chuyền B là 8y, với tổng nguyên liệu. Tìm (x, y) để lợi nhuận tối đa.
-A. (0;100)
-B. (60;40)
-C. (50;50)
-D. (70;30)
-**Đáp án đúng:** A
-
-Câu 81/131
-Tìm ước lượng còn thiếu trong bảng đơn hình sau:
-![Bảng đơn hình](images/q81.png)
-A. 8*
-B. 3*
-C. 4*
-D. 2*
-**Đáp án đúng:** C
-
-Câu 82/131
+Câu 36/85
 Chức năng của hàm ràng buộc trong bài toán tối ưu là
 A. Xác định không gian nghiệm
 B. Làm đơn giản hóa các phương trình
 C. Tăng tốc độ thực thi
 D. Làm cho bài toán phức tạp hơn
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 83/131
+Câu 37/85
 Sử dụng phương pháp nhân tử Xét bài toán tối ưu phi tuyến có ẩn số và ràng buộc. Khi đó số nhân tử Lagrange là:
 A. n
 B. m+ n
 C. m
 D. n-m
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 84/131
+Câu 38/85
 Thủ tục tìm chính xác theo tia (exact line search) dùng để:
 A. Tìm tập ràng buộc của bài toán
 B. Xấp xỉ ma trận Hessian
 C. Tìm hướng giảm của hàm mục tiêu
 D. Tìm độ dài bước lặp
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 85/131
+Câu 39/85
 Trong phương pháp Sequential Quadratic Programming (SQP), các bài toán được thiết lập là
 A. Bài toán quy hoạch toàn phương
 B. Bài toán tối ưu đa mục tiêu
 C. Bài toán quy hoạch nguyên tuyến tính
 D. Bài toán quy hoạch tuyến tính
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 86/131
+Câu 40/85
 Trong quy hoạch toàn phương, ma trận Hessian của hàm mục tiêu có dạng:
 A. Ma trận đối xứng
 B. Ma trận tam giác
 C. Ma trận đơn vị
 D. Ma trận không vuông
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 87/131
+Câu 41/85
 Phương pháp nào sau đây KHÔNG thể dung để giải bài toán quy hoạch toàn phương?
 A. Phương pháp đơn hình gốc
 B. Phương pháp tập hoạt động
 C. Phương pháp dùng điều kiện KKT
 D. Phương pháp không gian hạt nhân
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 88/131
+Câu 42/85
 Phương pháp Sequential Quadratic Programming (SQP) được dùng để giải bài toán
 A. Quy hoạch toàn phương
 B. Quy hoạch phi tuyến
 C. Quy hoạch tuyến tính
 D. Quy hoạch nguyên
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 89/131
+Câu 43/85
 Khẳng định nào sau đây KHÔNG đúng cho bài toán quy hoạch phi tuyến tổng  quát?
 A. Bài toán có thể không có nghiệm tối ưu.
 B. Nghiệm tối ưu địa phương cũng là nghiệm tối ưu toàn cục.
 C. Nghiệm tối ưu có thể thuộc phần trong của miền chấp nhận được.
 D. Nghiệm tối ưu toàn cục cũng là nghiệm tối ưu địa phương.
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 90/131
+Câu 44/85
 Phương pháp điểm trong thường được sử dụng để giải bài toán tối ưu hóa lồi vì lý do nào sau đây?
 A. Đảm bảo nghiệm tối ưu toàn cục
 B. Đảm bảo nghiệm tối ưu địa phương
 C. Đảm bảo nghiệm tối ưu duy nhất
 D. Đảm bảo nghiệm tối ưu không duy nhất
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 91/131
+Câu 45/85
 Phương pháp điểm trong thường được sử dụng để giải bài toán tối ưu hóa nào sau đây?
 A. Bài toán tối ưu hóa có ràng buộc
 B. Bài toán tối ưu hóa đơn biến
 C. Bài toán tối ưu hóa không ràng buộc
 D. Bài toán tối ưu hóa đa mục tiêu
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 92/131
+Câu 46/85
 Hàm chắn (barrier function) trong phương pháp điểm trong có tác dụng gì?
 A. Tăng tốc độ hội tụ của thuật toán
 B. Đảm bảo nghiệm của dãy các bài toán bổ trợ luôn rơi vào phần trong củamiền khả thi
 C. Đảm bảo nghiệm luôn nắm trên biên của miền khả thi
 D. Loại bỏ các ràng buộc
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 93/131
+Câu 47/85
 Trong phương pháp điểm trong, độ ảnh hưởng của hàm chắn (barrier function) trong hàm mục tiêu hiệu chỉnh sẽ
 A. Tăng
 B. Lúc tăng lúc giảm
 C. Không thay đổi
 D. Giảm
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 94/131
+Câu 48/85
 Phương pháp điểm trong hoạt động bằng cách:
 A. Bỏ qua các ràng buộc
 B. Di chuyển từ bên trong miền khả thi hướng tới nghiệm tối ưu
 C. Duyệt qua các điểm cực biên của miền khả thi
 D. Sử dụng các điểm biên của miền khả thi
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 95/131
+Câu 49/85
 Tham số chắn u trong phương pháp điểm trong có vai trò gì?
 A. Loại bỏ các ràng buộc
 B. Điều chỉnh mức độ ảnh hưởng của hàm chẳn
 C. Xác định nghiệm tối ưu
 D. Điều chỉnh tốc độ hội tụ của thuật toán
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 96/131
+Câu 50/85
 Hàm chắn thường được sử dụng để xử lý loại ràng buộc nào sau đây?
 A. Ràng buộc bất đẳng thức
 B. Ràng buộc đẳng thức
 C. Ràng buộc tuyến tính
 D. Ràng buộc phi tuyến
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 97/131
+Câu 51/85
 Mục đích của hàm "intlinprog" trong MATLAB là gì?
 A. Tính đạo hàm của một hàm số
 B. Tạo ma trận ngẫu nhiên
 C. Vẽ đồ thị hàm số hai chiều
 D. Giải bài toán tối ưu tuyến tính với các ràng buộc nguyên
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 98/131
+Câu 52/85
 Toolbox nào của MATLAB cung cấp các hàm giải các bài toán quy hoạch tuyến tính, quy hoạch phi tuyến, và các bài toán quy hoạch nguyên trộn?
 A. Signal Processing Toolbox
 B. Optimization Toolbox
 C. Deep Learning Toolbox
 D. Statistics Toolbox
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 99/131
+Câu 53/85
 Chức năng chính của mô đun SciPy.optimize là
 A. Làm việc với các mạng nơ-ron nhân tạo
 B. Phân tích dữ liệu thống kê
 C. Xử lý ảnh và xử lý tín hiệu
 D. Giải các bài toán tối ưu
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 100/131
+Câu 54/85
 Thuật toán nào sau đây có thể sử dụng để giải bài toán quy hoạch toàn phương với ràng buộc bất đẳng thức?
 A. Thuật toán điểm trong
 B. Thuật toán đơn hình
 C. Thuật toán giảm Gradient
 D. Thuật toán di truyền
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 101/131
+Câu 55/85
 Thư viện tối ưu hóa nào được tích hợp vào Python
 A. NumPy
 B. Matplotlib
 C. SciPy.optimize
 D. Psandas
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 102/131
+Câu 56/85
 Phần mềm nào được sử dụng để giải các bài toán quy hoạch nguyên?
 A. CPLEX
 B. Excel Solver
 C. Gurobi Optimizer
 D. Tất cả các phương án đều đúng
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 103/131
+Câu 57/85
 Solver CVXP trong Python được dùng để?
 A. Giải các bài toán tối ưu
 B. Trực quan hóa dữ liệu
 C. Chạy mô phỏng
 D. Xử lý ảnh
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 104/131
+Câu 58/85
 Chỉ ra tên một solver mà phù hợp với việc giải các bài toán quy hoạch tuyến tính
 A. Broyden-Fletcher-Goldfarb-Shanno (BFGS)
 B. Simplex
 C. Keras
 D. Nelder-Mead
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 105/131
+Câu 59/85
 Đặc điểm chính của mô đun SciPy.optimize là
 A. Mô phỏng dữ liệu
 B. Đào tạo mô hình học sâu
 C. Giải các bài toán tối ưu tuyến tính, phi tuyến, và bình phương tối thiểu
 D. Làm sạch dữ liệu
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 106/131
+Câu 60/85
 Công cụ tối ưu nào được sử dụng cho bài toán quy hoạch toàn phương với dữ liệu lớn?
 A. GLPK
 B. OpenGL
 C. QP Solver
 D. OpenCV
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 107/131
+Câu 61/85
 Phần mềm nào được sử dụng để giải các bài toán quy hoạch nguyên trộn (MIP)?
 A. MATLAB
 B. CPLEX
 C. Tableau
 D. Excel Solver
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 108/131
+Câu 62/85
 Chỉ ra tên một solver mà phù hợp với việc giải các bài toán quy hoạch tuyến tính
 A. Keras
 B. TensorFlow
 C. PyTorch
 D. PuLP
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 109/131
+Câu 63/85
 Mục đích của phần mềm Gurobi
 A. Giải các bài toán tối ưu
 B. Trực quan hóa dữ liệu
 C. Chạy mô phỏng
 D. Xử lý ảnh
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 110/131
+Câu 64/85
 Thư viện nào của Python library thường được dùng trong các bài toán tối ưu lồi nói chung, học máy nói riêng?
 A. SciPy
 B. NumPy
 C. CVXPY
 D. Pandas
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 111/131
+Câu 65/85
 Cho hàm số f khả vi liên tục đến cấp hai. Xét bài toán tối ưu min f(x) . Giả sử là y một điểm dừng. Khi đó, y là điểm cực tiểu địa phương nếu
 A. Hessan f(y) nửa xác định dương
 B. Hessan f(y) xác định dương
 C. Hessan f(y) nửa xác định âm
 D. Hessan f(y) xác định âm
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 112/131
+Câu 66/85
 Ma trận đối xứng A được gọi là xác định dương nếu
 A. x^T A x ≥ 0, ∀x ∈ R^n
 B. x^T A x > 0, ∀x ∈ R^n \ {0}
 C. x^T A x ≥ 0, ∀x ∈ R^n \ {0}
 D. x^T A x > 0, ∀x ∈ R^n
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 113/131
+Câu 67/85
 Bài toán tối ưu min c^Tx với ràng buộc Ax>=b, x >=0 thuộc loại bài toán nào sau đây?
 A. Quy hoạch nguyên tuyến tính
 B. Quy hoạch tuyến tính
 C. Quy hoạch nón cấp hai
 D. Quy hoạch toàn phương
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 114/131
+Câu 68/85
 Điều kiện Slater đóng vai trò gì trong bài toán tối ưu lồi?
 A. Đảm bảo điều kiện KKT là cần và đủ cho lời giải tối ưu
 B. Đảm bảo bài toán có vô số lời giải tối ưu
 C. Đảm bảo bài toán có lời giải tối ưu
 D. Đảm bảo bài toán có duy nhất lời giải tối ưu
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 115/131
+Câu 69/85
 Bao lồi của 2 điểm trong mặt phẳng có thể là những hình nào sau đây?
 A. Một đoạn thẳng
 B. Một tứ diện
 C. Một hình tròn
 D. Một tam giác
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 116/131
+Câu 70/85
 Bao lồi của 5 điểm phân biệt trên mặt phẳng có thể có ít nhất bao nhiêu điểm cực biên?
 A. 8
 B. 10
 C. 2
 D. 3
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 117/131
+Câu 71/85
 Tập mức dưới của một hàm lồi bất kỳ là
 A. Tập ľồi
 B. Tập lõm
 C. Tập lồi đa diện
 D. Tập hợp rời rạc
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 118/131
+Câu 72/85
 Vấn đề nào sau đây là một ví dụ về bài toán quy hoạch tuyến tính?
 A. Chỉnh sửa ảnh.
 B. Quản lý tài chính gia đình.
 C. Tự động hóa thiết kế đồ họa.
 D. Tối ưu hóa lịch trình sản xuất để giảm thiểu chi phí.
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 119/131
+Câu 73/85
 Nếu trong quá trình thực hiện phương pháp đơn hình cho bài toán dạng chính tắc, không tìm được hệ số dương nào trong cột xoay, thì:
 A. Bài toán có nghiệm tối ưu
 B. Hàm mục tiêu không bị chặn
 C. Lặp vô tận
 D. Bài toán suy biến
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 120/131
+Câu 74/85
 Tập nghiệm chấp nhận được trong một bài toán tối ưu tuyến tính là:
 A. Một đường cong phi tuyến
 B. Luôn là một hình cầu
 C. Một tập lồi đa diện
 D. Một tập không bị chặn
-**Đáp án đúng:** C
+Đáp án đúng: C
 
-Câu 121/131
+Câu 75/85
 Trong các khẳng định sau đây, khẳng định nào là đúng?
 A. Nếu một bài toán quy hoạch tuyến tính có hai nghiệm tối ưu (phân biệt) thìnó có vô số nghiệm tối ưu.
 B. Mọi bài toán quy hoạch tuyến tính đều có ít nhất một nghiệm tối ưu.
 C. Nếu miền chấp nhận được không bị chặn, thì bài toán quy hoạch tuyến tính vô nghiệm.
 D. Mọi bài toán quy hoạch tuyến tính đều có một nghiệm tối ưu duy nhất.
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 122/131
+Câu 76/85
 Tối ưu hóa là gì?
 A. Tìm lời giải hợp lý nhất cho một bài toán
 B. Tìm tất cả lời giải có thể
 C. Tìm lời giải ngẫu nhiên
 D. Không có đáp án đúng
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 123/131
+Câu 77/85
 Một bài toán tối ưu thường bao gồm:
 A. Hàm mục tiêu và một biến duy nhất
 B. Hàm mục tiêu và các ràng buộc
 C. Chỉ có ràng buộc
 D. Chỉ có hàm mục tiêu
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 124/131
+Câu 78/85
 Bài toán tối ưu hóa có thể được phân loại thành:
 A. Tuyến tính và phi tuyến
 B. Liên tục và rời rạc
 C. Ràng buộc và không ràng buộc
 D. Tất cả các đáp án trên
-**Đáp án đúng:** D
+Đáp án đúng: D
 
-Câu 125/131
+Câu 79/85
 Trong bài toán tối ưu, 'hàm mục tiêu' là:
 A. Hàm dùng để biểu diễn ràng buộc
 B. Hàm cần tối đa hóa hoặc tối thiểu hóa
 C. Hàm vô nghĩa
 D. Không có đáp án đúng
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 126/131
+Câu 80/85
 Tối ưu hóa liên tục là gì?
 A. Biến chỉ nhận giá trị rời rạc
 B. Biến có thể nhận giá trị bất kỳ trong tập xác định
 C. Tối ưu với biến nguyên
 D. Không có đáp án đúng
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 127/131
+Câu 81/85
 Điều kiện cần của cực trị địa phương trong bài toán không ràng buộc là:
 A. Gradient của hàm mục tiêu bằng 0
 B. Ma trận Hessian bằng 0
 C. Hàm mục tiêu đạt cực đại
 D. Không có đáp án đúng
-**Đáp án đúng:** A
+Đáp án đúng: A
 
-Câu 128/131
+Câu 82/85
 Trong bài toán tối ưu, tập ràng buộc là:
 A. Tập các điểm không hợp lệ
 B. Tập các điểm mà biến số phải thỏa mãn
 C. Hàm mục tiêu
 D. Không có đáp án đúng
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 129/131
+Câu 83/85
 Một điểm tối ưu cục bộ:
 A. Là điểm tốt nhất trong toàn bộ tập xác định
 B. Là điểm tốt nhất trong một lân cận
 C. Luôn là tối ưu toàn cục
 D. Không tồn tại trong bài toán tối ưu
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 130/131
+Câu 84/85
 Ma trận Hessian dùng để:
 A. Xác định tập ràng buộc
 B. Kiểm tra tính lồi/lõm của hàm
 C. Tính đạo hàm bậc nhất
 D. Không liên quan đến tối ưu hóa
-**Đáp án đúng:** B
+Đáp án đúng: B
 
-Câu 131/131
+Câu 85/85
 Điều kiện Karush-Kuhn-Tucker (KKT) áp dụng cho bài toán:
 A. Không có ràng buộc
 B. Tuyến tính
 C. Phi tuyến có ràng buộc
 D. Rời rạc
-**Đáp án đúng:** C
+Đáp án đúng: C

@@ -1,0 +1,374 @@
+# TRẮC NGHIỆM BÀI TẬP TỐI ƯU HÓA (TUH)
+
+
+Câu 1/46
+Xét bài toán tối ưu $f(x,y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào là không là điểm dừng?
+A. (1,1)
+B. (2,1)
+C. (-1,1)
+D. (1,-1)
+**Đáp án đúng:** B
+
+Câu 2/46
+Cho tập lồi đa diện xác định bởi $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \ge 0, x_2 \ge 0, x_1 + x_2 \le 1\}$. Tập hợp $\Omega$ có mấy điểm cực biên?
+A. 2
+B. 1
+C. 0
+D. 3
+**Đáp án đúng:** D
+
+Câu 3/46
+Xét bài toán tối ưu lồi $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$ sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$. Nghiệm tối ưu bài toán là:
+A. (0,2)
+B. (1,1)
+C. (2,0)
+D. (0,0)
+**Đáp án đúng:** B
+
+Câu 4/46
+Với các biến phụ $x_3 \ge 0; x_4 \ge 0$. Chỉ ra phương án cực biên xuất phát của phương pháp đơn hình giải bài toán: $\max 2x_1 + 3x_2$, sao cho $x_1 + 2x_2 \le 5; 3x_1 + 2x_2 \le 12; x_1 \ge 0; x_2 \ge 0$
+A. $(x_1, x_2, x_3, x_4) = (3, 0, 5, 12)$
+B. $(x_1, x_2, x_3, x_4) = (0, 0, 5, 12)$
+C. $(x_1, x_2, x_3, x_4) = (5, 0, 5, 12)$
+D. $(x_1, x_2, x_3, x_4) = (0, 6, 5, 12)$
+**Đáp án đúng:** B
+
+Câu 5/46
+Tìm giá trị giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = x^3 - 3x^2 + 1$ trên đoạn $[- \frac{1}{2}, 2]$
+A. $y_{max} = 1, y_{min} = -3$
+B. $y_{max} = 17, y_{min} = 3$
+C. $y_{max} = 17, y_{min} = 0$
+D. $y_{max} = 17, y_{min} = -3$
+**Đáp án đúng:** D
+
+Câu 6/46
+Chỉ ra bài toán tối ưu không lồi
+A. $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2$, sao cho $\begin{cases} x_1^2 + x_2^2 \ge 1 \\ x_1 - x_2 \le 4 \\ x_1, x_2 \ge 0 \end{cases}$
+B. $\min f(x_1, x_2) = 4x_1^2 + x_2^2 - x_1 - 2x_2$, sao cho $\begin{cases} 2x_1 + x_2 \le 1 \\ x_1^2 - 1 \le 0 \end{cases}$
+C. $\min f(x_1, x_2) = 3x_1^2 + 3x_2^2 - 4x_1x_2$, sao cho $\begin{cases} -x_1 - x_2 + 2 \le 0 \\ x_1^2 + x_2^2 - 4 \le 0 \end{cases}$
+D. $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2 - 4x_1 + x_1x_2$, sao cho $\begin{cases} x_1 + 2x_2 \le 6 \\ 2x_1 - 2x_2 \ge 2 \\ x_1, x_2 \ge 0 \end{cases}$
+**Đáp án đúng:** A
+
+Câu 7/46
+Giá trị tối ưu của bài toán tối ưu: $\max z = 3x_1 - 7x_2$, với miền ràng buộc cho bởi các bất đẳng thức: $-6x_1 + 4x_2 \le 11, 2x_1 + x_2 \le 9, x_1 \ge 0, x_2 \ge 0$ là:
+A. $z^* = -\frac{29}{2}$
+B. $z^* = \frac{29}{2}$
+C. $z^* = \frac{27}{2}$
+D. $z^* = -\frac{27}{2}$
+**Đáp án đúng:** C
+
+Câu 8/46
+Tìm ước lượng còn thiếu trong bảng đơn hình sau:
+![Bảng đơn hình](images/q13.png)
+A. 8
+B. 6
+C. 4
+D. 1
+**Đáp án đúng:** C
+
+Câu 9/46
+Chỉ ra một điểm dừng của hàm số $f(x, y) = -\frac{1}{2}xy + \frac{2}{x} + \frac{1}{y}$:
+A. (0,0)
+B. (-2,-1)
+C. (2,1)
+D. (1,0)
+**Đáp án đúng:** B
+
+Câu 10/46
+Chỉ ra tập hợp không lồi:
+A. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 + x_2 \le 1\}$
+B. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1^2 + x_2^2 = 1\}$
+C. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1^2 + x_2^2 < 1\}$
+D. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 + x_2 = 1\}$
+**Đáp án đúng:** B
+
+Câu 11/46
+Bài toán Knapsack là bài toán gì trong lĩnh vực tối ưu hóa?
+A. Bài toán chọn các món đồ để đựng vào một túi có giới hạn trọng lượng
+B. Bài toán tìm đường đi ngắn nhất giữa hai điểm trên đồ thị
+C. Bài toán phân loại đối tượng vào các lớp đã cho
+D. Bài toán tối ưu hoá hàm lượng giác của một đa thức
+**Đáp án đúng:** A
+
+Câu 12/46
+Trong số các hàm số sau đây, hàm số nào là hàm lồi?
+A. $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$
+B. $f(x, y) = x^2 - y^2$
+C. $f(x, y) = 2x^2 + 2y^2 - 4x + y$
+D. $f(x, y) = -\frac{1}{2}xy + \frac{2}{x} + \frac{1}{y}$
+**Đáp án đúng:** C
+
+Câu 13/46
+Xét bài toán tối ưu $f(x, y) = xy$. Điểm $(x, y) = (0,0)$ là:
+A. Điểm cực tiểu
+B. Điểm cực đại
+C. Điểm yên ngựa
+D. Vừa là điểm cực tiểu, vừa là điểm cực đại
+**Đáp án đúng:** C
+
+Câu 14/46
+Giá trị nhỏ nhất của hàm số $f(x, y) = xy$ trên đoạn $[-1, 1] \times [-1, 1]$ là:
+A. 0
+B. không tồn tại
+C. 1
+D. -1
+**Đáp án đúng:** D
+
+Câu 15/46
+Cho hàm số $f : \mathbb{R}^n \to \mathbb{R}$. Điều kiện nào sau đây đảm bảo hàm $f$ lồi?
+A. $\nabla f(x) = 0$ với mọi $x \in \mathbb{R}^n$
+B. $\nabla^2 f(x)$ nửa xác định dương với mọi $x \in \mathbb{R}^n$
+C. $\nabla^2 f(x) = 0$ với mọi $x \in \mathbb{R}^n$
+D. $\nabla^2 f(x)$ nửa xác định âm với mọi $x \in \mathbb{R}^n$
+**Đáp án đúng:** B
+
+Câu 16/46
+Tìm ước lượng còn thiếu trong bảng đơn hình sau:
+![Bảng đơn hình](images/q27.png)
+A. $-1 - 2M$
+B. $4M$
+C. $5 + M$
+D. $1 + 4M$
+**Đáp án đúng:** D
+
+Câu 17/46
+Hãy đưa bài toán sau về dạng chuẩn tắc: $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn $x_1 + x_2 - 2x_3 + x_4 \ge 6, -x_1 + x_3 \le 10, 2x_2 - 3x_3 + x_4 = 20; x_1 \ge 0; x_2 \ge 0; x_3 \ge 0$
+A. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn: $x_1 + x_2 - 2x_3 + x_4 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20; x_i \ge 0; i=1..6$
+B. $\min z = x_1 + 3x_2 - x_3 + 3x_4$ thỏa mãn: $x_1 + x_2 - 2x_3 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20, x_4 = x_7 - x_8; x_i \ge 0; i \neq 4$
+C. $\min z = x_1 + 3x_2 - x_3 + 3x_4$, thỏa mãn: $x_1 + x_2 - 2x_3 + x_4 - x_5 = 6, -x_1 + x_3 - x_6 = 10, 2x_2 - 3x_3 + x_4 = 20; x_i \ge 0$
+D. $\min z = x_1 + 3x_2 - x_3 + 3x_7 - 3x_8$, thỏa mãn: $x_1 + x_2 - 2x_3 + x_7 - x_8 - x_5 = 6, -x_1 + x_3 + x_6 = 10, 2x_2 - 3x_3 + x_7 - x_8 = 20; x_1, x_2, x_3, x_5, x_6, x_7, x_8 \ge 0$
+**Đáp án đúng:** D
+
+Câu 18/46
+Khẳng định nào sau đây không đúng?
+A. Giao hai tập lồi là tập lồi
+B. Nếu hai điểm x, y thuộc vào một tập lồi $\Omega$ thì đoạn thẳng nối [x, y] cũng thuộc $\Omega$
+C. Hợp của hai tập lồi là tập lồi
+D. Tập nghiệm của hệ cho bởi các phương trình và bất phương trình tuyến tính là tập lồi đa diện
+**Đáp án đúng:** C
+
+Câu 19/46
+Chỉ ra ma trận xác định dương:
+A. $\begin{pmatrix} 2 & 2 \\ 2 & 2 \end{pmatrix}$
+B. $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$
+C. $\begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}$
+D. Không xác định được
+**Đáp án đúng:** C
+
+Câu 20/46
+Mô hình toán học của bài toán TSP (Traveling Salesman Problem) là gì?
+A. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc bằng toán tử bằng nhau.
+B. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc là một hàm toán học không tuyến tính.
+C. Bài toán tối ưu hóa hàm mục tiêu với các ràng buộc bằng toán tử bất đẳng thức.
+D. Bài toán tìm đường đi ngắn nhất đi qua một lần qua tất cả các đỉnh trên đồ thị vô hướng.
+**Đáp án đúng:** D
+
+Câu 21/46
+Điểm xuất phát của thuật toán đơn hình là:
+A. Một phương án cực biên của bài toán
+B. Một phương án chấp nhận được của bài toán
+C. Một điểm bất kỳ
+D. Một điểm thuộc phần trong của miền ràng buộc
+**Đáp án đúng:** A
+
+Câu 22/46
+Một nông trại chăn nuôi cần mua ba loại thức ăn tổng hợp (TH) T1, T2, T3 cho gia súc với tỉ lệ chế biến: 1 kg T1 chứa 2 đơn vị dinh dưỡng (DD) D1 (Hydrat cacbon), 5 đơn vị dinh dưỡng D2 (chất béo) và 3 đơn vị dinh dưỡng D3 (Protein); 1 kg T2 chứa 1 đơn vị D1, 4 đơn vị D2 và 2 đơn vị D3; 1 kg T3 chứa 3 đơn vị D1, 2 đơn vị D2 và 5 đơn vị D3. Mỗi bữa ăn cho gia súc cần tối thiểu 60 đơn vị D1, tối thiểu 20 đơn vị D2, tối đa 40 đơn vị D2 và cần đúng 50 đơn vị D3. Hỏi nông trại cần mua bao nhiêu kg T1, T2, T3 cho mỗi bữa ăn, sao cho vừa đảm bảo tốt dinh dưỡng cho bữa ăn của gia súc, vừa để tổng số tiền chi mua thức ăn là nhỏ nhất biết rằng mua 1 kg T1 giá 50 ngàn đồng, 1 kg T2 giá 35 ngàn đồng, 1 kg T3 giá 25 ngàn đồng. Gọi số kg T1, T2, T3 cần mua cho mỗi bữa ăn là $x_1, x_2, x_3$. Xác định mô hình toán học cho bài toán nêu trên.
+A. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 = 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+B. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \le 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+C. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \ge 60 \\ 5x_1 + 4x_2 + 2x_3 \ge 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+D. $\min 50x_1 + 35x_2 + 25x_3$ sao cho $\begin{cases} 2x_1 + x_2 + 2x_3 \ge 60 \\ 5x_1 + 4x_2 + 2x_3 = 20 \\ 5x_1 + 4x_2 + 2x_3 \le 40 \\ 3x_1 + 2x_2 + 5x_3 = 50 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+**Đáp án đúng:** C
+
+Câu 23/46
+Trong số các hàm số sau đây, hàm số nào không lồi?
+A. $f(x, y) = x^2 + y^2$
+B. $f(x, y) = 4x^2 + y^2 - x - y$
+C. $f(x, y) = x^2 + 1$
+D. $f(x, y) = xy$
+**Đáp án đúng:** D
+
+Câu 24/46
+Hàm số $y = f(x)$, $f : \mathbb{R}^n \to \mathbb{R}$ khả vi liên tục đến cấp hai. Chọn khẳng định đúng:
+A. Nếu $\nabla^2 f(x) \neq 0$ với mọi $x$ thì $f$ lồi
+B. Nếu $\nabla^2 f(x) = 0$ với mọi $x$ thì $f$ lồi
+C. Nếu $\nabla^2 f(x)$ nửa xác định dương với mọi $x$ thì $f$ lồi
+D. Nếu tồn tại $x$ để $\nabla^2 f(x)$ là nửa xác định dương thì $f$ lồi
+**Đáp án đúng:** C
+
+Câu 25/46
+Cho hàm số $f(x, y) = -\frac{1}{2}x^2 + 2xy + y^2 - 6y - 10$. Điểm $(x, y) = (2, 1)$ là:
+A. điểm yên ngựa
+B. điểm cực tiểu toàn cục
+C. điểm cực đại địa phương
+D. điểm cực tiểu địa phương
+**Đáp án đúng:** A
+
+Câu 26/46
+Ma trận nào không phải ma trận xác định dương?
+A. $\begin{pmatrix} 1 & 1 \\ 1 & 4 \end{pmatrix}$
+B. $\begin{pmatrix} 2 & 2 \\ 2 & 4 \end{pmatrix}$
+C. $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$
+D. $\begin{pmatrix} 1 & 2 \\ 2 & -1 \end{pmatrix}$
+**Đáp án đúng:** D
+
+Câu 27/46
+Cho hàm số hai biến số $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào không là điểm dừng?
+A. (1,1)
+B. (0,0)
+C. (1,-1)
+D. (-1,1)
+**Đáp án đúng:** B
+
+Câu 28/46
+Chỉ ra tập hợp lồi:
+A. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \ge 0, x_2 \ge 0\}$
+B. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 \le 0\}$
+C. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 = 0\}$
+D. $\Omega = \{(x_1, x_2) \in \mathbb{R} \times \mathbb{R} : x_1 \cdot x_2 \ge 0\}$
+**Đáp án đúng:** A
+
+Câu 29/46
+Tìm giá trị lớn nhất và nhỏ nhất của hàm số $f(x) = x^3 - 3x^2 + 1$ trên đoạn $[-\frac{1}{2}, 0]$:
+A. $y_{max} = 1, y_{min} = -1$
+B. $y_{max} = 1, y_{min} = 0$
+C. $y_{max} = 1, y_{min} = -3$
+D. $y_{max} = 1, y_{min} = \frac{1}{8}$
+**Đáp án đúng:** D
+
+Câu 30/46
+Với hàm số lồi $y = f(x)$ bất kỳ. Khẳng định nào sau đây là đúng?
+A. Tập nghiệm của phương trình $f(x) = 0$ là tập lồi
+B. Tập trên đồ thị epi $f$ là lồi
+C. Hàm số $y = -f(x)$ là lồi
+D. Tồn tại duy nhất $x_0$ sao cho $f(x_0) = 0$
+**Đáp án đúng:** B
+
+Câu 31/46
+Một xí nghiệp có thể sử dụng tối đa 510 giờ máy cán, 360 giờ máy tiện và 150 giờ máy mài để chế tạo ba loại sản phẩm A, B và C. Để chế tạo một đơn vị sản phẩm A cần 9 giờ máy cán, 5 giờ máy tiện, 3 giờ máy mài; một đơn vị sản phẩm B cần 3 giờ máy cán, 5 giờ máy tiện, 2 giờ máy mài; một đơn vị sản phẩm C cần 5 giờ máy cán, 3 giờ máy tiện, 2 giờ máy mài. Mỗi sản phẩm A trị giá 48 ngàn đồng, mỗi sản phẩm B trị giá 16 ngàn đồng và mỗi sản phẩm C trị giá 27 ngàn đồng. Vấn đề đặt ra là xí nghiệp cần chế tạo bao nhiêu đơn vị sản phẩm mỗi loại để tổng số giá trị sản phẩm xí nghiệp thu được là lớn nhất, với điều kiện không dùng quá số giờ hiện có của mỗi loại máy? Gọi số đơn vị sản phẩm A, B, C mà xí nghiệp cần chế tạo là $x_1, x_2, x_3$ ($x_1, x_2, x_3 \ge 0$). Xác định mô hình toán học cho vấn đề thực tiễn trên.
+A. $\min 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 6x_1 + 3x_2 + 5x_3 = 510 \\ 5x_1 + 4x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_3 \le 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+B. $\max 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 9x_1 + 3x_2 + 5x_3 \le 510 \\ 5x_1 + 5x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_2 + 2x_3 \le 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+C. $\max 48x_1 + 16x_2 + 27x_3$ sao cho $\begin{cases} 9x_1 + 3x_2 + 5x_3 \le 510 \\ 5x_1 + 4x_2 + 3x_3 \le 360 \\ 3x_1 + 2x_3 = 150 \\ x_1, x_2, x_3 \ge 0 \end{cases}$
+**Đáp án đúng:** B
+
+Câu 32/46
+Chỉ ra hàm số có hai điểm cực tiểu địa phương:
+A. $f(x) = -x^4 + x^2 + 1$
+B. $f(x) = x^4 - x^2 + 1$
+C. $f(x) = x^3 - x^2 + 1$
+D. $f(x) = -x^3 - 2x^2 + 1$
+**Đáp án đúng:** B
+
+Câu 33/46
+Đối với bài toán tối ưu lồi $\min_{x \in D} f(x)$ thỏa mãn điều kiện Slater:
+A. Điểm dừng KKT không tồn tại
+B. Điểm dừng KKT là duy nhất
+C. Có hai điểm dừng KKT
+D. Điểm dừng KKT là nghiệm tối ưu của bài toán
+**Đáp án đúng:** D
+
+Câu 34/46
+Ma trận đối xứng $A \in \mathbb{R}^{n \times n}$ là xác định dương khi và chỉ khi:
+A. Tất cả các định thức con chính cấp lẻ của A dương
+B. Tất cả các định thức con chính cấp chẵn của A dương
+C. Tất cả các định thức con chính của A dương
+D. Tất cả các định thức con chính của A không âm
+**Đáp án đúng:** C
+
+Câu 35/46
+Cho hàm số hai biến số $f(x, y) = -\frac{1}{3}x^3 + x - \frac{1}{3}y^3 + y$. Điểm nào sau đây là điểm cực trị?
+A. (0,1)
+B. (0,0)
+C. (-1,-1)
+D. (1,0)
+**Đáp án đúng:** C
+
+Câu 36/46
+Thuật toán đơn hình được sử dụng để giải quyết loại bài toán nào?
+A. Bài toán trực quan hóa dữ liệu
+B. Bài toán quy hoạch lồi
+C. Bài toán số học
+D. Bài toán quy hoạch tuyến tính
+**Đáp án đúng:** D
+
+Câu 37/46
+Tìm ước lượng còn thiếu trong bảng đơn hình sau:
+![Bảng đơn hình](images/q65.png)
+A. 2
+B. 1
+C. 0
+D. -1
+**Đáp án đúng:** A
+
+Câu 38/46
+Cho một bài toán có kích thước đầu vào là N và số bước để giải bài toán là $2024N^4 + 2N^3 + 20242024$. Khi đó độ phức tạp của thuật toán là:
+A. $O(N^4)$
+B. $O(N^3)$
+C. $O(20242024)$
+D. $O(2024)$
+**Đáp án đúng:** A
+
+Câu 39/46
+Tìm ước lượng còn thiếu trong bảng đơn hình sau:
+![Bảng đơn hình](images/q67.png)
+A. $3 + 3M$
+B. M
+C. 2M
+D. $5 + 3M$
+**Đáp án đúng:** A
+
+Câu 40/46
+Giá trị tối ưu của bài toán tối ưu: $\max z = 5x_1 + 4x_2$ sao cho $2x_1 + x_2 \le 8; 4x_1 + 3x_2 \le 10; x_1 \ge 0; x_2 \ge 0$
+A. $z^* = \frac{40}{3}$
+B. $z^* = -\frac{70}{3}$
+C. $z^* = \frac{50}{3}$
+D. $z^* = -\frac{40}{3}$
+**Đáp án đúng:** A
+
+Câu 41/46
+Chỉ ra ma trận xác định dương:
+A. $\begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}$
+B. $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$
+C. $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$
+D. $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$
+**Đáp án đúng:** D
+
+Câu 42/46
+Hãy đưa bài toán sau về dạng chuẩn tắc: $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 \ge 90; 0.3x_1 + 0.4x_2 + 0.2x_3 = 130; 2x_1 + x_2 + 3x_3 = 1000; x_1, x_2, x_3 \ge 0$
+A. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 + x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 - x_5 = 130; 2x_1 + x_2 + 3x_3 - x_6 = 1000; x_1, x_2, x_3, x_4, x_5, x_6 \ge 0$
+B. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 - x_5 = 130; 2x_1 + x_2 + 3x_3 - x_6 = 1000; x_1, x_2, x_3 \ge 0$
+C. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 + x_5 = 130; 2x_1 + x_2 + 3x_3 + x_6 = 1000; x_1, x_2, x_3, x_4, x_5, x_6 \ge 0$
+D. $\min z = 3000x_1 + 4000x_2 + 5000x_3$, thỏa mãn: $0.1x_1 + 0.2x_2 + 0.3x_3 - x_4 = 90; 0.3x_1 + 0.4x_2 + 0.2x_3 = 130; 2x_1 + x_2 + 3x_3 = 1000; x_1, x_2, x_3, x_4 \ge 0$
+**Đáp án đúng:** D
+
+Câu 43/46
+Xét bài toán tối ưu lồi: $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2 - 4x_1 + x_1x_2$ sao cho $\begin{cases} x_1 + 2x_2 \le 6 \\ 2x_1 - 2x_2 \ge 2 \\ x_1, x_2 \ge 0 \end{cases}$. Điểm nào sau đây là nghiệm tối ưu của bài toán?
+A. (1,1)
+B. (-1,-1)
+C. (0,0)
+D. (1,0)
+**Đáp án đúng:** D
+
+Câu 44/46
+Giá trị nhỏ nhất của hàm số $f(x, y) = x^2 + y^2$ trên miền $[-2, -1] \times [-2, -1]$ là:
+A. 4
+B. 0
+C. 5
+D. 2
+**Đáp án đúng:** D
+
+Câu 45/46
+Một nhà máy cần phân bổ nguyên liệu giữa hai dây chuyền sản xuất A và B. Lợi nhuận từ dây chuyền A là 5x, dây chuyền B là 8y, với tổng nguyên liệu. Tìm (x, y) để lợi nhuận tối đa.
+A. (0;100)
+B. (60;40)
+C. (50;50)
+D. (70;30)
+**Đáp án đúng:** A
+
+Câu 46/46
+Tìm ước lượng còn thiếu trong bảng đơn hình sau:
+![Bảng đơn hình](images/q81.png)
+A. 8*
+B. 3*
+C. 4*
+D. 2*
+**Đáp án đúng:** C
