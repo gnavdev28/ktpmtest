@@ -99,10 +99,10 @@ C. $(x_1, x_2, x_3, x_4) = (5, 0, 5, 12)$
 D. $(x_1, x_2, x_3, x_4) = (0, 6, 5, 12)$
 
 Câu 18: Tìm giá trị giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = x^3 - 3x^2 + 1$ trên đoạn $[- \frac{1}{2}, 2]$
-A. $y_{max} = 1, y_{min} = -3$
+* A. $y_{max} = 1, y_{min} = -3$
 B. $y_{max} = 17, y_{min} = 3$
 C. $y_{max} = 17, y_{min} = 0$
-* D. $y_{max} = 17, y_{min} = -3$
+D. $y_{max} = 17, y_{min} = -3$
 
 Câu 19: Chỉ ra bài toán tối ưu không lồi
 * A. $\min f(x_1, x_2) = 2x_1^2 + 2x_2^2$, sao cho $\begin{cases} x_1^2 + x_2^2 \ge 1 \\ x_1 - x_2 \le 4 \\ x_1, x_2 \ge 0 \end{cases}$

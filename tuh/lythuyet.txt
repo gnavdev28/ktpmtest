@@ -341,7 +341,7 @@ B. 10
 D. 3
 
 Câu 58: Tập mức dưới của một hàm lồi bất kỳ là
-* A. Tập ľồi
+* A. Tập lồi
 B. Tập lõm
 C. Tập lồi đa diện
 D. Tập hợp rời rạc
