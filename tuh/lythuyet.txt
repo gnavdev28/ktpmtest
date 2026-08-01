@@ -483,3 +483,45 @@ A. Phải là điểm cực biên của miền chấp nhận được
 * B. Phải thỏa mãn tất cả các điều kiện ràng buộc
 C. Phải tối ưu hóa giá trị hàm mục tiêu
 D. Không thỏa mãn điều kiện gì
+
+Câu 82: Trong MATLAB, hàm nào được sử dụng để giải bài toán quy hoạch tuyến tính (Linear Programming)?
+* A. linprog
+B. intlinprog
+C. quadprog
+D. fmincon
+
+Câu 83: Trong MATLAB, hàm nào được sử dụng để giải bài toán quy hoạch toàn phương (Quadratic Programming)?
+A. linprog
+* B. quadprog
+C. fminunc
+D. fmincon
+
+Câu 84: Trong MATLAB, hàm nào được sử dụng để giải bài toán tối ưu hóa phi tuyến có ràng buộc (Constrained Nonlinear Minimization)?
+A. fminunc
+B. fminsearch
+* C. fmincon
+D. linprog
+
+Câu 85: Trong MATLAB, hàm fminunc khác fminsearch ở điểm nào khi giải bài toán tối ưu hóa không ràng buộc?
+* A. fminunc sử dụng thông tin gradient và Hessian, còn fminsearch không sử dụng đạo hàm (thuật toán Nelder-Mead simplex)
+B. fminunc không sử dụng đạo hàm, còn fminsearch sử dụng gradient
+C. fminunc giải bài toán có ràng buộc, còn fminsearch giải bài toán không ràng buộc
+D. Cả hai hàm đều giống nhau hoàn toàn
+
+Câu 86: Trong thư viện scipy.optimize của Python, hàm tiêu biểu nào được sử dụng để giải bài toán tối ưu hóa phi tuyến tổng quát (có hoặc không có ràng buộc)?
+A. linprog
+B. least_squares
+* C. minimize
+D. minimize_scalar
+
+Câu 87: Trong thư viện scipy.optimize của Python, hàm nào được sử dụng để giải bài toán bình phương tối thiểu (fitting dữ liệu)?
+A. minimize
+B. linprog
+* C. least_squares
+D. minimize_scalar
+
+Câu 88: Trong thư viện scipy.optimize của Python, hàm nào dùng để giải bài toán quy hoạch tuyến tính?
+A. minimize
+* B. linprog
+C. least_squares
+D. fmincon
