@@ -549,3 +549,21 @@ A. Tiến về 0
 B. Bằng hằng số không đổi
 * C. Tiến ra vô cùng ($+\infty$)
 D. Đổi dấu liên tục
+
+Câu 93: Tập xác định của hàm số nào sau đây không phải là tập lồi?
+A. $f(x,y) = \sqrt{1 - x^2 - y^2}$
+B. $f(x) = -\log(x)$
+* C. $f(x,y) = \frac{1}{x^2 + y^2 - 1}$
+D. $f(x,y) = \sqrt{x^2 + y^2}
+
+Câu 94: Cho bài toán quy hoạch tuyến tính dạng chính tắc với hệ gồm m ràng buộc đẳng thức độc lập tuyến tính. Một phương án chấp nhận được $\overline{x}$ có nhiều hơn m thành phần mang giá trị dương (> 0). Khẳng định nào sau đây là đúng?
+* A. $\overline{x}$ chắc chắn không phải là phương án cực biên (phương án cực biên có tối đa m thành phần dương)
+B. $\overline{x}$ chắc chắn là phương án cực biên
+C. $\overline{x}$ chắc chắn là phương án tối ưu
+D. $\overline{x}$ không thể là phương án chấp nhận được
+
+Câu 95: Trong phương pháp hàm phạt điểm ngoài (Exterior Penalty Method) để giải bài toán tối ưu có ràng buộc đẳng thức $h_j(x) = 0$ và bất đẳng thức $g_i(x) \le 0$, số hạng phạt bổ trợ (penalty term) thường được chọn là gì?
+* A. $\sum_{j} [h_j(x)]^2 + \sum_{i} [\max(0, g_i(x))]^2$
+B. $-\sum_{i} \ln(-g_i(x))$
+C. \sum_{i} \frac{1}{-g_i(x)}
+D. \sum_{j} h_j(x) + \sum_{i} g_i(x)
