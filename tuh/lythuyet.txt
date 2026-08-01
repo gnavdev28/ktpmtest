@@ -525,3 +525,27 @@ A. minimize
 * B. linprog
 C. least_squares
 D. fmincon
+
+Câu 89: Trong phương pháp điểm trong (Interior Point Method) để giải bài toán tối ưu hóa ràng buộc bất đẳng thức $g_i(x) \le 0$, hai dạng hàm chắn (barrier function) phổ biến nhất là gì?
+* A. Hàm chắn logarit ($-\ln(-g_i(x))$) và hàm chắn nghịch đảo ($1/(-g_i(x))$)
+B. Hàm chắn exponential ($e^{g_i(x)}$) và hàm chắn đa thức ($g_i(x)^2$)
+C. Hàm chắn chuẩn hóa ($||g_i(x)||$) và hàm chắn tích phân
+D. Hàm chắn tuyến tính và hàm chắn bậc hai
+
+Câu 90: Trong phương pháp điểm trong (Interior Point Method), tập hợp các nghiệm tối ưu $x(\mu)$ của bài toán hàm chắn ứng với mọi giá trị tham số phạt $\mu > 0$ tạo thành một đường cong được gọi là gì?
+A. Đường đi Newton (Newton path)
+* B. Đường trung tâm (Central path)
+C. Đường dốc nhất (Steepest descent path)
+D. Biên của miền chấp nhận được
+
+Câu 91: Khi tham số chắn $\mu$ tiến dần về 0 ($\mu \to 0^+$), nghiệm tối ưu $x(\mu)$ của bài toán chắn (barrier problem) sẽ có xu hướng thế nào?
+A. Tiến về tâm giải tích (analytic center) của miền chấp nhận được
+B. Tiến về gốc tọa độ
+* C. Hội tụ về nghiệm tối ưu $x^*$ của bài toán tối ưu ban đầu
+D. Tiến ra vô cùng
+
+Câu 92: Đặc điểm quan trọng nhất của hàm chắn $B(x)$ trong phương pháp điểm trong là gì khi điểm $x$ tiến dần sát đến biên của miền chấp nhận được $\{x : g_i(x) \le 0\}$ từ phía trong?
+A. Tiến về 0
+B. Bằng hằng số không đổi
+* C. Tiến ra vô cùng ($+\infty$)
+D. Đổi dấu liên tục
