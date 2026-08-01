@@ -343,3 +343,39 @@ Câu 58: Giải bài toán sau bằng cách dùng điều kiện tối ưu KKT: 
 B. $x^* = (1, 0)^T$ và $f^* = 1$
 C. $x^* = (0, 1)^T$ và $f^* = 1$
 D. $x^* = (0, 0)^T$ và $f^* = 0$
+
+Câu 59: Tính giá trị biểu thức $\frac{1}{2} x^T A x$ biết ma trận $A = \begin{pmatrix} 2 & 3 \\ 3 & 2 \end{pmatrix}$ và vectơ $x = (x_1, x_2)^T$.
+* A. $x_1^2 + x_2^2 + 3x_1x_2$
+B. $2x_1^2 + 2x_2^2 + 6x_1x_2$
+C. $x_1^2 + x_2^2 + 6x_1x_2$
+D. $2x_1^2 + 2x_2^2 + 3x_1x_2$
+
+Câu 60: Xét tính lồi/lõm của hàm số $f(x, y) = \frac{x^2}{y}$ trên miền xác định $y > 0$.
+* A. Hàm số lồi
+B. Hàm số lõm
+C. Hàm số không lồi cũng không lõm
+D. Hàm số vừa lồi vừa lõm
+
+Câu 61: Khi đưa bài toán quy hoạch tuyến tính sau về dạng chính tắc: $\max f(x) = -x_1 + 5x_2 - 2x_3 + x_4$ thỏa mãn ràng buộc và điều kiện $x_1 \ge 0, x_2 \le 0, x_3 \ge 0$, còn $x_4$ tự do. Ta cần thực hiện phép đổi biến nào cho $x_2$ và $x_4$?
+* A. Đặt $x_2 = -x_2'$ ($x_2' \ge 0$) và $x_4 = x_4^+ - x_4^-$ ($x_4^+, x_4^- \ge 0$)
+B. Đặt $x_2 = -x_2'$ ($x_2' \ge 0$) và giữ nguyên $x_4$
+C. Đặt $x_2 = x_2'$ ($x_2' \ge 0$) và $x_4 = -x_4'$ ($x_4' \ge 0$)
+D. Đặt $x_2 = x_2^+ - x_2^-$ ($x_2^+, x_2^- \ge 0$) và $x_4 = -x_4'$ ($x_4' \ge 0$)
+
+Câu 62: Tìm các điểm cực tiểu địa phương của hàm số $f(x, y) = x^4 + y^4 - 4xy + 1$ trên $\mathbb{R}^2$.
+* A. $(1, 1)$ và $(-1, -1)$
+B. $(0, 0)$
+C. $(1, -1)$ và $(-1, 1)$
+D. Không có cực tiểu địa phương
+
+Câu 63: Tìm điểm tối ưu KKT $(x_1, x_2)$ của bài toán tối ưu có ràng buộc: $\min f(x_1, x_2) = x_1^2 + x_2^2$ thỏa mãn các điều kiện ràng buộc $x_1 - 1 \le 0$ và $x_1 + x_2 - 2 = 0$.
+* A. $(1, 1)$
+B. $(0.5, 1.5)$
+C. $(0, 2)$
+D. $(2, 0)$
+
+Câu 64: Tìm nghiệm tối ưu của bài toán quy hoạch toàn phương sau: $\min f(x) = 3x_1^2 + 2x_1x_2 + x_1x_3 + 2.5x_2^2 + 2x_2x_3 + 2x_3^2 - 8x_1 - 3x_2 - 3x_3$ thỏa mãn các điều kiện ràng buộc đẳng thức $x_1 + x_3 = 0$ và $x_2 + x_3 = 0$.
+* A. $(8/13, 8/13, -8/13)^T$
+B. $(1/2, 1/2, -1/2)^T$
+C. $(0, 0, 0)^T$
+D. $(1, 1, -1)^T$
