@@ -173,8 +173,8 @@ C. Phương pháp dùng điều kiện KKT
 D. Phương pháp không gian hạt nhân
 
 Câu 30: Phương pháp Sequential Quadratic Programming (SQP) được dùng để giải bài toán
-* A. Quy hoạch toàn phương
-B. Quy hoạch phi tuyến
+A. Quy hoạch toàn phương
+* B. Quy hoạch phi tuyến
 C. Quy hoạch tuyến tính
 D. Quy hoạch nguyên
 
@@ -567,3 +567,45 @@ Câu 95: Trong phương pháp hàm phạt điểm ngoài (Exterior Penalty Metho
 B. $-\sum_{i} \ln(-g_i(x))$
 C. \sum_{i} \frac{1}{-g_i(x)}
 D. \sum_{j} h_j(x) + \sum_{i} g_i(x)
+
+Câu 96: Trong không gian n-chiều, tập hợp các điểm x thỏa mãn phương trình tuyến tính $a^T x = b$ (với $a \neq 0$) được gọi là gì?
+* A. Siêu phẳng (Hyperplane)
+B. Nửa không gian (Halfspace)
+C. Đa diện lồi (Polyhedron)
+D. Hình cầu lồi (Convex ball)
+
+Câu 97: Định lý cơ bản của quy hoạch tuyến tính khẳng định điều nào sau đây?
+* A. Nếu bài toán quy hoạch tuyến tính có nghiệm tối ưu thì tồn tại ít nhất một phương án cực biên tối ưu
+B. Mọi bài toán quy hoạch tuyến tính đều có vô số nghiệm tối ưu
+C. Nếu miền chấp nhận được bị chặn thì bài toán vô nghiệm
+D. Nghiệm tối ưu chỉ có thể nằm ở phần trong của miền chấp nhận được
+
+Câu 98: Thuật toán nào sau đây có tốc độ hội tụ bậc hai (quadratic convergence) trong lân cận của nghiệm tối ưu khi giải bài toán tối ưu hóa không ràng buộc?
+A. Phương pháp Gradient Descent (độ dốc lớn nhất)
+* B. Phương pháp Newton
+C. Phương pháp Coordinate Descent
+D. Phương pháp điểm trong
+
+Câu 99: Trong hệ điều kiện tối ưu Karush-Kuhn-Tucker (KKT) cho bài toán tối ưu với các ràng buộc bất đẳng thức $g_i(x) \le 0$ ($i = 1, \dots, m$), điều kiện nào sau đây thể hiện điều kiện bổ sung (complementary slackness)?
+* A. $\lambda_i g_i(x) = 0$ với mọi $i = 1, \dots, m$
+B. $\lambda_i + g_i(x) = 0$ với mọi $i = 1, \dots, m$
+C. $\lambda_i g_i(x) < 0$ với mọi $i = 1, \dots, m$
+D. $\nabla f(x) = 0$
+
+Câu 100: Trong điều kiện tối ưu KKT cho bài toán tối ưu $\min f(x)$ với các ràng buộc đẳng thức $h_j(x) = 0$ và bất đẳng thức $g_i(x) \le 0$, khẳng định nào sau đây là đúng về dấu của các nhân tử Lagrange/KKT $\lambda_i$ (ứng với $g_i$) và $\mu_j$ (ứng với $h_j$)?
+* A. $\lambda_i \ge 0$ với mọi $i$, còn $\mu_j$ tùy ý không ràng buộc về dấu
+B. $\lambda_i \le 0$ với mọi $i$, còn $\mu_j \ge 0$ với mọi $j$
+C. Cả $\lambda_i$ và $\mu_j$ đều phải không âm ($\ge 0$)
+D. Cả $\lambda_i$ và $\mu_j$ đều tùy ý không ràng buộc về dấu
+
+Câu 101: Trong bài toán tối ưu hóa có các ràng buộc bất đẳng thức $g_i(x) \le 0$ ($i = 1, \dots, m$), tập hoạt động (active set) tại điểm khả thi x được định nghĩa là gì?
+* A. Tập hợp các chỉ số $i$ thỏa mãn ràng buộc chặt $g_i(x) = 0$
+B. Tập hợp các chỉ số $i$ thỏa mãn ràng buộc lỏng $g_i(x) < 0$
+C. Tập hợp tất cả các ràng buộc của bài toán
+D. Tập hợp các biến số mang giá trị dương
+
+Câu 102: Trong thuật toán SQP (Sequential Quadratic Programming) giải bài toán tối ưu phi tuyến, hướng đi $d_k$ tại mỗi bước lặp được xác định bằng cách giải bài toán nào sau đây?
+* A. Bài toán quy hoạch toàn phương con (QP subproblem)
+B. Bài toán quy hoạch tuyến tính con (LP subproblem)
+C. Bài toán tối ưu không ràng buộc
+D. Hệ phương trình phi tuyến
