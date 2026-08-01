@@ -307,3 +307,15 @@ A. 8*
 B. 3*
 * C. 4*
 D. 2*
+
+Câu 53: Tìm nghiệm trung tâm $x(\mu)$ của bài toán phạt sử dụng hàm chắn nghịch đảo cho bài toán: $\min x$ sao cho $x \ge 2$.
+A. $x(\mu) = 2 + \mu$
+* B. $x(\mu) = 2 + \sqrt{\mu}$
+C. $x(\mu) = 2 - \sqrt{\mu}$
+D. $x(\mu) = 2 + \mu^2$
+
+Câu 54: Cho bài toán tối ưu một biến: $\min (x - 2)^2$ sao cho $0 \le x \le 1$. Hàm mục tiêu hiệu chỉnh (barrier function) sử dụng hàm chắn logarit tương ứng với tham số $\mu > 0$ là gì?
+* A. $f(x) = (x - 2)^2 - \mu \ln(x) - \mu \ln(1 - x)$
+B. $f(x) = (x - 2)^2 - \mu \ln(x) - \mu \ln(x - 1)$
+C. $f(x) = (x - 2)^2 + \mu \ln(x) + \mu \ln(1 - x)$
+D. $f(x) = (x - 2)^2 - \mu \ln(-x) - \mu \ln(x - 1)$
