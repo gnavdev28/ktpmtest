@@ -214,7 +214,7 @@
         home.innerHTML = "<div class='loading-overlay'>Đang tải dữ liệu...</div>";
         
         try {
-            const response = await fetch(filePath);
+            const response = await fetch(filePath + "?t=" + Date.now());
             if (!response.ok) throw new Error();
             const text = await response.text();
             parseQuestions(text);
