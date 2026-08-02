@@ -118,8 +118,8 @@ D. $z^* = -\frac{27}{2}$
 
 Câu 21: [image: tuh/images/q13.png] Tìm ước lượng còn thiếu trong bảng đơn hình sau:
 A. 8
-B. 6
-* C. 4
+* B. 6
+C. 4
 D. 1
 
 Câu 22: Chỉ ra một điểm dừng của hàm số $f(x, y) = -\frac{1}{2}xy + \frac{2}{x} + \frac{1}{y}$:
