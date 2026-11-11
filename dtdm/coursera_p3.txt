@@ -1,0 +1,364 @@
+Câu 1 : What is the difference between using AWS Fargate or Amazon Elastic Compute Cloud (Amazon EC2) as the compute platform for Amazon Elastic Container Service (Amazon ECS)? (Sự khác biệt giữa việc sử dụng AWS Fargate hoặc Amazon EC2 làm nền tảng điện toán cho Amazon ECS là gì?)
+* A. With AWS Fargate, AWS manages and provisions the underlying infrastructure for hosting containers. (Với AWS Fargate, AWS quản lý và cung cấp cơ sở hạ tầng cơ bản để lưu trữ các bộ chứa.)
+B. With Amazon ECS on Amazon EC2, AWS manages and provisions the underlying EC2 instance for containers. (Với Amazon ECS trên Amazon EC2, AWS quản lý và cung cấp phiên bản EC2 cơ bản cho các bộ chứa.)
+C. With AWS Fargate, users need to manage cluster capacity and scaling. (Với AWS Fargate, người dùng cần quản lý dung lượng và quy mô cụm.)
+D. With Amazon ECS on Amazon EC2, users need to upload only the source code. Amazon ECS takes care of the rest. (Với Amazon ECS trên Amazon EC2, người dùng chỉ cần tải lên mã nguồn. Amazon ECS sẽ lo phần còn lại.)
+
+Câu 2 : Which statement about serverless is TRUE? (Khẳng định nào về không máy chủ (serverless) là ĐÚNG?)
+A. Users must provision and manage servers. (Người dùng phải cung cấp và quản lý các máy chủ.)
+B. Users must manually scale serverless resources. (Người dùng phải mở rộng quy mô tài nguyên không máy chủ theo cách thủ công.)
+* C. Users do not pay for idle resources. (Người dùng không phải trả tiền cho các tài nguyên nhàn rỗi.)
+D. Users must manage availability and fault tolerance. (Người dùng phải quản lý tính khả dụng và khả năng chịu lỗi.)
+
+Câu 3 : True or False: AWS Lambda is always the best solution when running applications on AWS. (Đúng hay Sai: AWS Lambda luôn là giải pháp tốt nhất khi chạy ứng dụng trên AWS.)
+A. True (Đúng)
+* B. False (Sai)
+
+Câu 4 : Which compute service does Amazon Elastic Compute Cloud (Amazon EC2) provide? (Amazon EC2 cung cấp dịch vụ điện toán nào?)
+A. Container services (Dịch vụ bộ chứa)
+B. Serverless (Không máy chủ)
+* C. Virtual machines (VMs) (Máy ảo (VM))
+D. Analytics (Phân tích)
+
+Câu 5 : Which stage of the instance lifecycle is an instance in when the account starts to accumulate charges? (Giai đoạn nào trong vòng đời của phiên bản thì tài khoản bắt đầu bị tính phí?)
+A. When an instance is in a pending stage (Khi một phiên bản đang ở giai đoạn chờ xử lý)
+* B. When an instance is in a running stage (Khi một phiên bản đang ở giai đoạn đang chạy)
+C. When an instance is stopped (Khi một phiên bản bị dừng)
+D. When an instance is terminated (Khi một phiên bản bị chấm dứt)
+
+Câu 6 : Which component of the c5.4xlarge instance determines the instance family and generation number? (Thành phần nào của phiên bản c5.4xlarge xác định nhóm phiên bản và số thế hệ?)
+A. 4x
+B. Large
+C. 4xlarge
+* D. c5
+
+Câu 7 : Which container runtime can be used to host a container on an Amazon Elastic Compute Cloud (Amazon EC2) instance? (Môi trường chạy bộ chứa nào có thể được sử dụng để lưu trữ bộ chứa trên Amazon EC2?)
+* A. Docker
+B. Container (Bộ chứa)
+C. Amazon Simple Storage Service (Amazon S3)
+D. Amazon EC2
+
+Câu 8 : What is an example of an event that invokes an AWS Lambda function? (Ví dụ nào sau đây là một sự kiện gọi hàm AWS Lambda?)
+A. An AWS API call that is made by an AWS Identity and Access Management (IAM) role (Một lệnh gọi API AWS được thực hiện bởi một vai trò Quản lý Danh tính và Truy cập AWS (IAM))
+* B. An upload of a file to the Amazon Simple Storage Service (Amazon S3) source bucket (Việc tải một tệp lên bộ lưu trữ nguồn của Amazon S3)
+C. An incoming HTTP request to a website that is hosted on Amazon Elastic Compute Cloud (Amazon EC2) (Một yêu cầu HTTP gửi đến một trang web được lưu trữ trên Amazon EC2)
+D. A simple WordPress website that has no API integration (Một trang web WordPress đơn giản không có tích hợp API)
+
+Câu 9 : True or False: With serverless, users do not need to provision and manage servers. (Đúng hay Sai: Với mô hình không máy chủ, người dùng không cần cung cấp và quản lý máy chủ.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 10 : True or False: All AWS services require users to configure a virtual private cloud (VPC). (Đúng hay Sai: Tất cả các dịch vụ AWS đều yêu cầu người dùng định cấu hình đám mây riêng ảo (VPC).)
+A. True (Đúng)
+* B. False (Sai)
+
+Câu 11 : An engineer is working with networks in the AWS Cloud. What should the engineer use to configure the size of their network? (Một kỹ sư đang làm việc với các mạng trong Đám mây AWS. Kỹ sư nên sử dụng cái gì để cấu hình kích thước mạng của họ?)
+* A. Classless Inter-Domain Routing (CIDR) notation (Ký hiệu Định tuyến liên miền không phân lớp (CIDR))
+B. IPv6 notation (Ký hiệu IPv6)
+C. IPv4 notation (Ký hiệu IPv4)
+D. IP addresses (Địa chỉ IP)
+
+Câu 12 : What is the difference between network access control lists (ACLs) and security groups? (Sự khác biệt giữa danh sách kiểm soát truy cập mạng (ACL) và các nhóm bảo mật là gì?)
+A. By default, network ACLs allow incoming traffic and block outgoing traffic from a subnet. Users can change these settings to provide an additional layer of security. However, the default configurations of security groups block all traffic. (Theo mặc định, ACL mạng cho phép lưu lượng truy cập đến và chặn lưu lượng đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp thêm một lớp bảo mật. Tuy nhiên, cấu hình mặc định của nhóm bảo mật chặn tất cả lưu lượng truy cập.)
+B. By default, network ACLs block all traffic from a subnet. However, the default configurations of security groups allow all inbound and outbound traffic. Users can change these settings to provide an additional layer of security. (Theo mặc định, ACL mạng chặn tất cả lưu lượng từ một mạng con. Tuy nhiên, cấu hình mặc định của nhóm bảo mật cho phép tất cả lưu lượng đến và đi. Người dùng có thể thay đổi các cài đặt này để cung cấp thêm một lớp bảo mật.)
+C. By default, network ACLs block incoming traffic and allow outgoing traffic. The default configurations of security groups block all traffic. Users can change these settings when they configure networking for their instance. (Theo mặc định, ACL mạng chặn lưu lượng đến và cho phép lưu lượng đi. Cấu hình mặc định của nhóm bảo mật chặn tất cả lưu lượng. Người dùng có thể thay đổi các cài đặt này khi họ cấu hình mạng cho phiên bản của mình.)
+* D. By default, network ACLs allow incoming and outgoing traffic from a subnet. Users can change these settings to provide an additional layer of security. However, the default configurations of security groups block all inbound traffic and allow all outbound traffic. (Theo mặc định, ACL mạng cho phép lưu lượng truy cập đến và đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp thêm một lớp bảo mật. Tuy nhiên, cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập đến và cho phép tất cả lưu lượng truy cập đi.)
+
+Câu 13 : What is a typical use case for Amazon Simple Storage Service (Amazon S3)? (Trường hợp sử dụng điển hình cho Amazon Simple Storage Service (Amazon S3) là gì?)
+* A. Object storage for media hosting (Lưu trữ đối tượng để lưu trữ phương tiện - media)
+B. Object storage for a boot drive (Lưu trữ đối tượng cho ổ đĩa khởi động)
+C. Block storage for an Amazon Elastic Compute Cloud (Amazon EC2) instance (Lưu trữ khối cho phiên bản Amazon Elastic Compute Cloud (Amazon EC2))
+D. File storage for multiple Amazon Elastic Compute Cloud (Amazon EC2) instances (Lưu trữ tệp cho nhiều phiên bản Amazon Elastic Compute Cloud (Amazon EC2))
+
+Câu 14 : A company needs a storage layer for a high-transaction relational database on an Amazon Elastic Compute Cloud (Amazon EC2) instance. Which service should the company use? (Một công ty cần một lớp lưu trữ cho cơ sở dữ liệu quan hệ có lượng giao dịch cao trên một phiên bản Amazon EC2. Công ty nên sử dụng dịch vụ nào?)
+A. Amazon EC2 Instance Store
+* B. Amazon Elastic Block Store (Amazon EBS)
+C. Amazon Simple Storage Service (Amazon S3)
+D. Amazon Elastic File System (Amazon EFS)
+
+Câu 15 : True or False: Amazon Elastic Block Store (Amazon EBS) volumes are considered ephemeral storage. (Đúng hay Sai: Các khối lượng lưu trữ Amazon Elastic Block Store (Amazon EBS) được coi là lưu trữ tạm thời.)
+A. True (Đúng)
+* B. False (Sai)
+
+Câu 16 : A solutions architect is working for a healthcare facility, and they are tasked with storing 7 years of patient information that is rarely accessed. The facility’s IT manager asks the solutions architect to consider one of the Amazon Simple Storage Service (Amazon S3) storage tiers to store the patient information. Which storage tier should the solutions architect suggest? (Một kiến trúc sư giải pháp đang làm việc cho một cơ sở chăm sóc sức khỏe và họ được giao nhiệm vụ lưu trữ thông tin bệnh nhân trong 7 năm hiếm khi được truy cập. Người quản lý CNTT của cơ sở yêu cầu kiến trúc sư giải pháp xem xét một trong các bậc lưu trữ của Amazon S3 để lưu thông tin bệnh nhân. Kiến trúc sư giải pháp nên đề xuất bậc lưu trữ nào?)
+A. Amazon S3 Standard
+* B. Amazon S3 Glacier Deep Archive
+C. Amazon S3 Standard-Infrequent Access
+D. Amazon S3 Intelligent-Tiering
+
+Câu 17 : True or False: Object storage is the best storage solution for applications that need to frequently update specific small sections of a file. (Đúng hay Sai: Lưu trữ đối tượng là giải pháp lưu trữ tốt nhất cho các ứng dụng cần thường xuyên cập nhật các phần nhỏ cụ thể của tệp.)
+A. True (Đúng)
+* B. False (Sai)
+
+Câu 18 : True or False: A Multi-AZ deployment is beneficial when users want to increase the availability of their database. (Đúng hay Sai: Triển khai Đa vùng khả dụng (Multi-AZ) rất hữu ích khi người dùng muốn tăng tính khả dụng cho cơ sở dữ liệu của họ.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 19 : Which task of running and operating the database are users responsible for when they use Amazon Relational Database Service (Amazon RDS)? (Người dùng chịu trách nhiệm cho nhiệm vụ chạy và vận hành cơ sở dữ liệu nào khi họ sử dụng Amazon Relational Database Service (Amazon RDS)?)
+* A. Optimizing the database (Tối ưu hóa cơ sở dữ liệu)
+B. Provisioning and managing the underlying infrastructure (Cung cấp và quản lý cơ sở hạ tầng cơ bản)
+C. Installing the relational database management system on the database instance (Cài đặt hệ quản trị cơ sở dữ liệu quan hệ trên phiên bản cơ sở dữ liệu)
+D. Installing patches to the operating system for the database instance (Cài đặt các bản vá lỗi cho hệ điều hành của phiên bản cơ sở dữ liệu)
+
+Câu 20 : Which of the following are common use cases for file storage? (Choose TWO.) (Những trường hợp nào sau đây là các trường hợp sử dụng phổ biến cho lưu trữ tệp? (Chọn HAI.))
+* A. User home directories (Thư mục chính của người dùng)
+B. Backup files that are stored in Amazon Simple Storage Service (Amazon S3) (Các tệp sao lưu được lưu trữ trong Amazon S3)
+C. Relational or non-relational databases (Cơ sở dữ liệu quan hệ hoặc phi quan hệ)
+* D. Large content repositories (Kho lưu trữ nội dung lớn)
+E. Big data analytics (Phân tích dữ liệu lớn)
+
+Câu 21 : True or False: The IT department in a company can attach Amazon Elastic Block Store (Amazon EBS) volumes to Amazon Simple Storage Service (Amazon S3) to store data in a bucket. (Đúng hay Sai: Bộ phận CNTT trong một công ty có thể gắn các khối lượng Amazon Elastic Block Store (Amazon EBS) vào Amazon Simple Storage Service (Amazon S3) để lưu trữ dữ liệu trong một bucket.)
+A. True (Đúng)
+* B. False (Sai)
+
+Câu 22 : Which of the following instance families does Amazon Relational Database Service (Amazon RDS) support? (Choose TWO.) (Amazon Relational Database Service (Amazon RDS) hỗ trợ các nhóm phiên bản nào sau đây? (Chọn HAI.))
+A. Storage optimized (Tối ưu hóa lưu trữ)
+* B. General purpose (Mục đích chung)
+C. Compute optimized (Tối ưu hóa điện toán)
+* D. Memory optimized (Tối ưu hóa bộ nhớ)
+E. Accelerated computing (Điện toán tăng tốc)
+
+Câu 23 : A solutions architect is working for a small business. The business is looking for a storage service that temporarily stores frequently changing and non-persistent data. This type of data can be deleted during instance stops or terminations. Which service should the solutions architect recommend for this use case? (Một kiến trúc sư giải pháp đang làm việc cho một doanh nghiệp nhỏ. Doanh nghiệp đang tìm kiếm một dịch vụ lưu trữ để lưu trữ tạm thời dữ liệu thay đổi thường xuyên và không bền bỉ. Loại dữ liệu này có thể bị xóa trong quá trình dừng hoặc chấm dứt phiên bản. Kiến trúc sư giải pháp nên đề xuất dịch vụ nào cho trường hợp này?)
+A. Amazon Elastic Block Store (Amazon EBS)
+B. Amazon Simple Storage Service (Amazon S3)
+* C. Amazon Elastic Compute Cloud (Amazon EC2) Instance Store
+D. Amazon Elastic File System (Amazon EFS)
+
+Câu 24 : Which database is a non-relational database that stores data in key-value pairs, and is a good fit for hosting simple lookup tables? (Cơ sở dữ liệu nào là cơ sở dữ liệu phi quan hệ lưu trữ dữ liệu theo cặp khóa-giá trị và phù hợp để lưu trữ các bảng tra cứu đơn giản?)
+* A. Amazon DynamoDB
+B. Amazon DocumentDB
+C. Amazon Neptune
+D. Amazon Relational Database Service (Amazon RDS)
+
+Câu 25 : Which core component of Amazon DynamoDB corresponds to a column in a relational database table? (Thành phần cốt lõi nào của Amazon DynamoDB tương ứng với một cột trong bảng cơ sở dữ liệu quan hệ?)
+A. Table (Bảng)
+B. Item (Mục/Hàng)
+* C. Attribute (Thuộc tính)
+D. Database (Cơ sở dữ liệu)
+
+Câu 26 : Which AWS database service is best suited for use cases such as social networking or recommendation engines? (Dịch vụ cơ sở dữ liệu AWS nào phù hợp nhất cho các trường hợp sử dụng như mạng xã hội hoặc công cụ đề xuất?)
+A. Amazon DynamoDB
+B. Amazon Aurora
+C. Amazon Redshift
+* D. Amazon Neptune
+
+Câu 27 : What are the three components of Amazon EC2 Auto Scaling? (Ba thành phần của Amazon EC2 Auto Scaling là gì?)
+A. Scaling policies, security group, EC2 Auto Scaling group (Chính sách mở rộng, nhóm bảo mật, nhóm EC2 Auto Scaling)
+* B. Launch template, scaling policies, EC2 Auto Scaling group (Mẫu khởi chạy, chính sách mở rộng, nhóm EC2 Auto Scaling)
+C. Security group, instance type, key pair (Nhóm bảo mật, loại phiên bản, cặp khóa)
+D. Amazon Machine Image (AMI) ID, instance type, storage (ID Hình ảnh Máy Amazon (AMI), loại phiên bản, bộ lưu trữ)
+
+Câu 28 : Which of the following features are included in Elastic Load Balancing (ELB)? (Những tính năng nào sau đây được bao gồm trong Cân bằng tải đàn hồi (ELB)?)
+A. Automatic scaling (Tự động mở rộng)
+B. Integration with Amazon Relational Database Service RDS (Tích hợp với Dịch vụ Cơ sở dữ liệu Quan hệ Amazon (RDS))
+C. Integration with Amazon EC2 Auto Scaling (Tích hợp với Amazon EC2 Auto Scaling)
+D. A and B (A và B)
+* E. A and C (A và C)
+
+Câu 29 : True or False: When a user uses Elastic Load Balancing (ELB) with an Auto Scaling group, it is not necessary to manually register individual Amazon Elastic Compute Cloud (Amazon EC2) instances with the load balancer. (Đúng hay Sai: Khi người dùng sử dụng Cân bằng tải đàn hồi (ELB) cùng với một nhóm Auto Scaling, không cần thiết phải đăng ký thủ công từng phiên bản Amazon Elastic Compute Cloud (Amazon EC2) riêng lẻ với trình cân bằng tải.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 30 : An application must choose target groups by using a rule that is based on the path of a URL. Which Elastic Load Balancing (ELB) type should be used for this use case? (Một ứng dụng phải chọn các nhóm mục tiêu bằng cách sử dụng một quy tắc dựa trên đường dẫn của một URL. Loại Cân bằng tải đàn hồi (ELB) nào nên được sử dụng cho trường hợp này?)
+A. Classic Load Balancer (Trình cân bằng tải cổ điển)
+* B. Application Load Balancer (Trình cân bằng tải ứng dụng)
+C. Network Load Balancer (Trình cân bằng tải mạng)
+D. Target Load Balancer (Trình cân bằng tải mục tiêu)
+
+Câu 31 : What are the two ways that an application can be scaled? (Hai cách mà một ứng dụng có thể được mở rộng quy mô là gì?)
+* A. Vertically and horizontally (Theo chiều dọc và chiều ngang)
+B. Diagonally and vertically (Theo đường chéo và chiều dọc)
+C. Horizontally and diagonally (Theo chiều ngang và đường chéo)
+D. Independently and vertically (Độc lập và theo chiều dọc)
+
+Câu 32 : Which elements in Amazon CloudWatch dashboards can be used to view and analyze metrics? (Những thành phần nào trong bảng điều khiển Amazon CloudWatch có thể được sử dụng để xem và phân tích số liệu?)
+* A. Widgets (Các tiện ích)
+B. Metrics (Số liệu)
+C. Icons (Biểu tượng)
+D. Components (Các thành phần)
+
+Câu 33 : What are the possible states of a metric alarm in Amazon CloudWatch? (Các trạng thái có thể có của một cảnh báo số liệu trong Amazon CloudWatch là gì?)
+A. OK, ALARM, NOT_AVAILABLE (BÌNH THƯỜNG, CẢNH BÁO, KHÔNG_CÓ_SẴN)
+B. OK, ALERT, INSUFFICIENT_DATA (BÌNH THƯỜNG, BÁO ĐỘNG, DỮ_LIỆU_KHÔNG_ĐỦ)
+* C. OK, ALARM, INSUFFICIENT_DATA (BÌNH THƯỜNG, CẢNH BÁO, DỮ_LIỆU_KHÔNG_ĐỦ)
+D. OK, ALERT, NOT_AVAILABLE (BÌNH THƯỜNG, BÁO ĐỘNG, KHÔNG_CÓ_SẴN)
+
+Câu 34 : What kind of data can a company collect with VPC Flow Logs? (Loại dữ liệu nào một công ty có thể thu thập bằng Nhật ký luồng VPC (VPC Flow Logs)?)
+* A. Data about network traffic that comes into and out of a virtual private cloud (VPC) (Dữ liệu về lưu lượng mạng đi vào và đi ra khỏi một đám mây riêng ảo (VPC))
+B. Malicious activity and unauthorized behavior (Hoạt động độc hại và hành vi trái phép)
+C. Configurations of AWS resources (Cấu hình của các tài nguyên AWS)
+D. Compliance-related information (Thông tin liên quan đến tuân thủ)
+
+Câu 35 : What is a benefit of monitoring on AWS? (Một lợi ích của việc giám sát trên AWS là gì?)
+A. Monitoring creates operation overhead. (Giám sát tạo ra chi phí hoạt động.)
+* B. Monitoring recognizes security threats and events. (Giám sát nhận diện các mối đe dọa và sự kiện bảo mật.)
+C. Monitoring decreases the performance and reliability of resources. (Giám sát làm giảm hiệu suất và độ tin cậy của tài nguyên.)
+D. Monitoring increases speed and agility (Giám sát làm tăng tốc độ và sự linh hoạt)
+
+Câu 36 : True or False: When a company redesigns an application by using a serverless service on AWS, they might not need to configure networking components, such as a virtual private cloud (VPC), subnets, and security groups. (Đúng hay Sai: Khi một công ty thiết kế lại một ứng dụng bằng cách sử dụng dịch vụ không máy chủ trên AWS, họ có thể không cần phải định cấu hình các thành phần mạng, chẳng hạn như đám mây riêng ảo (VPC), các mạng con và các nhóm bảo mật.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 37 : A solutions architect must design a solution to help manage their customer’s containerized applications. Currently, the customer workload runs in Docker containers on top of Amazon Elastic Compute Cloud (Amazon EC2) instances and on-premises servers that run a hybrid Kubernetes cluster. The customer wants to migrate part of their hybrid Kubernetes deployment to the cloud with a minimum amount of effort, and they want to keep all the native features of Kubernetes. The customer also wants to reduce their operational overhead for managing their Kubernetes cluster. Which managed AWS service should the solutions architect suggest to best satisfy these requirements? (Một kiến trúc sư giải pháp phải thiết kế một giải pháp để giúp quản lý các ứng dụng được bộ chứa hóa của khách hàng. Hiện tại, khối lượng công việc của khách hàng chạy trong các bộ chứa Docker trên các phiên bản Amazon EC2 và các máy chủ tại chỗ chạy một cụm Kubernetes lai. Khách hàng muốn di chuyển một phần triển khai Kubernetes lai của họ lên đám mây với nỗ lực tối thiểu và họ muốn giữ lại tất cả các tính năng gốc của Kubernetes. Khách hàng cũng muốn giảm chi phí hoạt động để quản lý cụm Kubernetes của họ. Kiến trúc sư giải pháp nên đề xuất dịch vụ AWS được quản lý nào để đáp ứng tốt nhất các yêu cầu này?)
+A. AWS Fargate with Amazon Elastic Container Service (Amazon ECS) (AWS Fargate với Amazon ECS)
+B. AWS Fargate with Amazon Elastic Kubernetes Service (Amazon EKS) (AWS Fargate với Amazon EKS)
+C. Amazon Elastic Container Service (Amazon ECS) (Dịch vụ bộ chứa đàn hồi Amazon (Amazon ECS))
+* D. Amazon Elastic Kubernetes Service (Amazon EKS) (Dịch vụ Kubernetes đàn hồi Amazon (Amazon EKS))
+
+Câu 38 : An application needs to process events that are received through an API. Multiple consumers must be able to process the data concurrently. Which AWS managed service would best meet this requirement in the most cost-effective way? (Một ứng dụng cần xử lý các sự kiện được nhận thông qua một API. Nhiều người tiêu dùng phải có khả năng xử lý dữ liệu đồng thời. Dịch vụ được quản lý AWS nào sẽ đáp ứng tốt nhất yêu cầu này theo cách tiết kiệm chi phí nhất?)
+* A. Amazon Simple Notification Service (Amazon SNS) with a fan-out strategy (Dịch vụ Thông báo Đơn giản Amazon (Amazon SNS) với chiến lược fan-out)
+B. Amazon Simple Queue Service (Amazon SQS) with FIFO queues (Dịch vụ Hàng đợi Đơn giản Amazon (Amazon SQS) với hàng đợi FIFO)
+C. Amazon EventBridge with rules (Amazon EventBridge với các quy tắc)
+D. Amazon Elastic Compute Cloud (Amazon EC2) with Spot Instances (Amazon EC2 với Phiên bản dùng ngay (Spot Instances))
+
+Câu 39 : True or False: Amazon Relational Database Service (Amazon RDS) is more suitable for databases that handle structured or relational data, where users can count with features like auto-increment and table joins. Amazon DynamoDB is more suitable for NoSQL database workloads, where tables are collection of items that have their own attributes. (Đúng hay Sai: Amazon RDS phù hợp hơn với các cơ sở dữ liệu xử lý dữ liệu có cấu trúc hoặc quan hệ, nơi người dùng có thể trông cậy vào các tính năng như tự động tăng và nối bảng. Amazon DynamoDB phù hợp hơn với khối lượng công việc cơ sở dữ liệu NoSQL, nơi các bảng là tập hợp các mục có thuộc tính riêng.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 40 : Amazon DynamoDB is designed for scale and performance. In most cases, the DynamoDB response times can be measured in single-digit milliseconds. However, there are certain use cases that require response times in microseconds. For these use cases, DynamoDB Accelerator (DAX) delivers fast response times for accessing eventually consistent data. Which statements about DAX are correct? (Choose THREE.) (Amazon DynamoDB được thiết kế để mở rộng quy mô và hiệu suất. Trong hầu hết các trường hợp, thời gian phản hồi của DynamoDB có thể được đo bằng mili giây một chữ số. Tuy nhiên, có một số trường hợp sử dụng nhất định yêu cầu thời gian phản hồi tính bằng micrô giây. Đối với các trường hợp sử dụng này, Bộ tăng tốc DynamoDB (DAX) mang lại thời gian phản hồi nhanh để truy cập dữ liệu nhất quán cuối cùng. Khẳng định nào về DAX là đúng? (Chọn BA.))
+* A. DAX reduces operational and application complexity by providing a managed service that is compatible with the DynamoDB API. (DAX giảm độ phức tạp của hoạt động và ứng dụng bằng cách cung cấp một dịch vụ được quản lý tương thích với API của DynamoDB.)
+* B. Although using DAX has a cost, it can reduce the consumption of DynamoDB table capacity. If the data is read intensive (that is, millions of requests per second), DAX can result in cost savings by caching the data while also providing better read latency, being beneficial for scenarios in need of repeated reads for individual keys. (Mặc dù sử dụng DAX có tốn phí nhưng nó có thể làm giảm mức tiêu thụ dung lượng bảng DynamoDB. Nếu dữ liệu được đọc nhiều (tức là hàng triệu yêu cầu mỗi giây), DAX có thể giúp tiết kiệm chi phí bằng cách lưu vào bộ nhớ đệm dữ liệu đồng thời cung cấp độ trễ đọc tốt hơn, có lợi cho các tình huống cần đọc lặp lại đối với các khóa riêng lẻ.)
+C. DAX does not support server-side encryption (SSE). (DAX không hỗ trợ mã hóa phía máy chủ (SSE).)
+* D. DAX is not designed for applications that are write-intensive. It can also add cost to applications that do not perform much read activity. (DAX không được thiết kế cho các ứng dụng có cường độ ghi cao. Nó cũng có thể làm tăng chi phí cho các ứng dụng không thực hiện nhiều hoạt động đọc.)
+E. DAX does not support encrypting data in transit, which means that communication between an application and DAX cannot be encrypted. (DAX không hỗ trợ mã hóa dữ liệu đang truyền tải, điều này có nghĩa là giao tiếp giữa ứng dụng và DAX không thể được mã hóa.)
+
+Câu 41 : True or False: AWS Lambda is a compute service that runs code without the need to provision or manage servers. Lambda runs code on a high-availability compute infrastructure. It also performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging. Lambda can run code for virtually any type of application or backend service. (Đúng hay Sai: AWS Lambda là một dịch vụ điện toán chạy mã mà không cần cung cấp hoặc quản lý máy chủ. Lambda chạy mã trên cơ sở hạ tầng điện toán có tính khả dụng cao. Nó cũng thực hiện toàn bộ việc quản trị tài nguyên điện toán, bao gồm bảo trì máy chủ và hệ điều hành, cung cấp dung lượng và mở rộng quy mô tự động cũng như ghi nhật ký. Lambda có thể chạy mã cho hầu như mọi loại ứng dụng hoặc dịch vụ phụ trợ.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 42 : A solutions architect is designing an architecture that can provide HTML pages to customers. They want a serverless solution that can host content over the internet and serve a static website with minimal effort. Which AWS service should the solutions architect choose to meet these requirements? (Một kiến trúc sư giải pháp đang thiết kế một kiến trúc có thể cung cấp các trang HTML cho khách hàng. Họ muốn một giải pháp không máy chủ có thể lưu trữ nội dung trên internet và phục vụ một trang web tĩnh với nỗ lực tối thiểu. Kiến trúc sư giải pháp nên chọn dịch vụ AWS nào để đáp ứng các yêu cầu này?)
+* A. Amazon Simple Storage Service (Amazon S3)
+B. Amazon Elastic Compute Cloud (Amazon EC2)
+C. Amazon DynamoDB
+D. Amazon Kinesis
+
+Câu 43 : A solutions architect is designing a solution that needs real-time data ingestion. They are considering either Amazon Kinesis Data Firehose or Amazon Kinesis Data Streams for this solution. Which service should the solutions architect choose to meet the requirement for real-time data ingestion, and why? (Remember that lower data latency means a lower roundtrip time from when data is ingested and available.) (Một kiến trúc sư giải pháp đang thiết kế một giải pháp cần thu thập dữ liệu theo thời gian thực. Họ đang xem xét Amazon Kinesis Data Firehose hoặc Amazon Kinesis Data Streams cho giải pháp này. Kiến trúc sư giải pháp nên chọn dịch vụ nào để đáp ứng yêu cầu thu thập dữ liệu thời gian thực và tại sao? (Hãy nhớ rằng độ trễ dữ liệu thấp hơn có nghĩa là thời gian khứ hồi từ khi dữ liệu được thu thập và có sẵn sẽ thấp hơn.))
+A. Amazon Kinesis Data Firehose, because it has lower latency when compared to Amazon Kinesis Data Streams (Amazon Kinesis Data Firehose, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Streams)
+B. Amazon Kinesis Data Firehose, because it has higher latency when compared to Amazon Kinesis Data Streams (Amazon Kinesis Data Firehose, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Streams)
+* C. Amazon Kinesis Data Streams, because it has lower latency when compared to Amazon Kinesis Data Firehose (Amazon Kinesis Data Streams, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Firehose)
+D. Amazon Kinesis Data Streams, because it has higher latency when compared to Amazon Kinesis Data Firehose (Amazon Kinesis Data Streams, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Firehose)
+
+Câu 44 : True or False: When creating data lakes for analytics on AWS, Amazon Simple Storage Service (Amazon S3) would be a preferred service. Users can use data in an S3 bucket with an independent data-processing or visualization layer, such as Amazon QuickSight, Amazon Athena, or Amazon EMR. (Đúng hay Sai: Khi tạo hồ dữ liệu (data lakes) để phân tích trên AWS, Amazon Simple Storage Service (Amazon S3) sẽ là một dịch vụ được ưu tiên. Người dùng có thể sử dụng dữ liệu trong bộ chứa S3 với lớp xử lý dữ liệu hoặc trực quan hóa độc lập, chẳng hạn như Amazon QuickSight, Amazon Athena hoặc Amazon EMR.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 45 : A solutions architect is designing a serverless solution that can do Structured Query Language (SQL) queries over multiple objects that are stored in Amazon Simple Storage Service (Amazon S3). All the objects share the same data structure (schema) and are in JSON. Which service would make it easier to query the data, in addition to providing serverless capabilities? (Một kiến trúc sư giải pháp đang thiết kế một giải pháp không máy chủ có thể thực hiện các truy vấn Ngôn ngữ Truy vấn có Cấu trúc (SQL) qua nhiều đối tượng được lưu trữ trong Amazon Simple Storage Service (Amazon S3). Tất cả các đối tượng đều có chung cấu trúc dữ liệu (lược đồ) và ở định dạng JSON. Dịch vụ nào sẽ giúp truy vấn dữ liệu dễ dàng hơn, bên cạnh việc cung cấp các khả năng không máy chủ?)
+* A. Amazon Athena
+B. AWS Database Migration Service (AWS DMS)
+C. Amazon S3 Select
+D. AWS Data Exchange
+
+Câu 46 : True or False: When architecting a solution that can handle high demand and usage spikes, Amazon CloudFront should be used in front of an Amazon Simple Storage Service (Amazon S3) bucket. CloudFront can cache data that gets delivered to customers, and it lets customers use custom domain names. In addition, CloudFront can serve custom SSL certificates that are issued by Amazon Certificate Manager (at no additional cost) and it can provide distributed denial of service (DDoS) protection that is powered by AWS WAF and AWS Shield. (Đúng hay Sai: Khi kiến trúc một giải pháp có thể xử lý nhu cầu cao và các đợt tăng vọt mức sử dụng, nên sử dụng Amazon CloudFront ở phía trước bộ chứa Amazon Simple Storage Service (Amazon S3). CloudFront có thể lưu vào bộ nhớ đệm dữ liệu được phân phối tới khách hàng và cho phép khách hàng sử dụng các tên miền tùy chỉnh. Ngoài ra, CloudFront có thể phục vụ các chứng chỉ SSL tùy chỉnh do Amazon Certificate Manager cấp (không tính thêm phí) và nó có thể cung cấp khả năng bảo vệ chống từ chối dịch vụ phân tán (DDoS) được hỗ trợ bởi AWS WAF và AWS Shield.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 47 : Which of the following options includes true statements for both Amazon Simple Storage Service (Amazon S3) cross-Region replication and AWS Key Management Service (AWS KMS)? (Tùy chọn nào sau đây bao gồm các tuyên bố đúng cho cả sao chép xuyên Khu vực của Amazon Simple Storage Service (Amazon S3) và AWS Key Management Service (AWS KMS)?)
+A. To configure Amazon S3 cross-Region replication, both the source and destination buckets must belong to the same AWS account. Server-side encryption (SSE) is possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, cả bộ chứa nguồn và đích đều phải thuộc về cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) là có thể đối với các đối tượng được sao chép.)
+B. To configure Amazon S3 cross-Region replication, both the source and destination buckets must belong to the same AWS account. Server-side encryption (SSE) is not possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, cả bộ chứa nguồn và đích đều phải thuộc về cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) không khả thi đối với các đối tượng được sao chép.)
+* C. To configure Amazon S3 cross-Region replication, the source and destination buckets can belong to different AWS accounts. Server-side encryption (SSE) is possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, bộ chứa nguồn và đích có thể thuộc về các tài khoản AWS khác nhau. Mã hóa phía máy chủ (SSE) là có thể đối với các đối tượng được sao chép.)
+D. To configure Amazon S3 cross-Region replication, the source and destination buckets can belong to different AWS accounts. Server-side encryption is not possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, bộ chứa nguồn và đích có thể thuộc về các tài khoản AWS khác nhau. Mã hóa phía máy chủ không khả thi đối với các đối tượng được sao chép.)
+
+Câu 48 : A solutions architect is designing a hybrid solution. The solution uses Amazon Virtual Private Cloud (Amazon VPC) resources, such Amazon Relational Database Service (Amazon RDS) and Amazon Elastic Compute Cloud (Amazon EC2). It also uses services that are not in a VPC, such as Amazon Simple Storage Service (Amazon S3) and AWS Systems Manager. Which statements about Amazon VPC and the scope of AWS services are correct? (Choose THREE.) (Một kiến trúc sư giải pháp đang thiết kế một giải pháp lai. Giải pháp này sử dụng các tài nguyên Amazon Virtual Private Cloud (Amazon VPC), chẳng hạn như Amazon Relational Database Service (Amazon RDS) và Amazon Elastic Compute Cloud (Amazon EC2). Nó cũng sử dụng các dịch vụ không nằm trong VPC, chẳng hạn như Amazon Simple Storage Service (Amazon S3) và AWS Systems Manager. Những khẳng định nào về Amazon VPC và phạm vi của các dịch vụ AWS là đúng? (Chọn BA.))
+* A. Amazon VPC gives the user full control over their virtual networking environment. Therefore, the solutions architect can define firewall rules on the networking level for VPC-based resources. (Amazon VPC cung cấp cho người dùng toàn quyền kiểm soát môi trường mạng ảo của họ. Do đó, kiến trúc sư giải pháp có thể xác định các quy tắc tường lửa ở cấp độ mạng cho các tài nguyên dựa trên VPC.)
+B. Because S3 buckets do not reside inside a VPC, the customer can rely on AWS to configure security mechanisms, such as permissions and bucket policies. Thus, security is automatically applied on the data level because this level of security is the responsibility of AWS. (Vì các bộ chứa S3 không nằm bên trong VPC nên khách hàng có thể dựa vào AWS để định cấu hình các cơ chế bảo mật, chẳng hạn như quyền và chính sách bộ chứa. Do đó, bảo mật được tự động áp dụng ở cấp độ dữ liệu vì cấp độ bảo mật này là trách nhiệm của AWS.)
+* C. VPC-based services that reside in a private subnet require specific configurations to enable internet access, such as a NAT gateway and route tables. (Các dịch vụ dựa trên VPC cư trú trong mạng con riêng tư yêu cầu cấu hình cụ thể để cho phép truy cập internet, chẳng hạn như cổng NAT và bảng định tuyến.)
+D. When possible, customers should avoid having services reside in VPCs because a networking misconfiguration can accidentally leave the infrastructure in an unsafe state. (Khi có thể, khách hàng nên tránh để các dịch vụ cư trú trong VPC vì việc cấu hình mạng sai có thể vô tình khiến cơ sở hạ tầng ở trạng thái không an toàn.)
+E. Using AWS resources like Amazon S3 is less secure because they are public resources by default. (Sử dụng các tài nguyên AWS như Amazon S3 kém an toàn hơn vì chúng là tài nguyên công cộng theo mặc định.)
+
+Câu 49 : Which statements about AWS Storage Gateway are correct? (Choose THREE.) (Khẳng định nào về Cổng lưu trữ AWS (AWS Storage Gateway) là đúng? (Chọn BA.))
+* A. AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage. (AWS Storage Gateway là một tập hợp các dịch vụ lưu trữ đám mây lai cung cấp quyền truy cập tại chỗ vào bộ nhớ đám mây hầu như không giới hạn.)
+B. AWS Storage Gateway offers virtually unlimited cloud storage to users and applications, at the cost of new storage hardware. (AWS Storage Gateway cung cấp khả năng lưu trữ đám mây hầu như không giới hạn cho người dùng và ứng dụng với chi phí là phần cứng lưu trữ mới.)
+* C. AWS Storage Gateway delivers data access to on-premises applications while taking advantage of the agility, economics, and security capabilities of the AWS Cloud. (AWS Storage Gateway cung cấp quyền truy cập dữ liệu cho các ứng dụng tại chỗ đồng thời tận dụng sự linh hoạt, tính kinh tế và các khả năng bảo mật của Đám mây AWS.)
+D. AWS Storage Gateway is limited to only on-premises applications, which means that it cannot be used from cloud to cloud. (AWS Storage Gateway chỉ giới hạn cho các ứng dụng tại chỗ, có nghĩa là nó không thể được sử dụng từ đám mây này sang đám mây khác.)
+* E. AWS Storage Gateway helps support compliance requirements through integration with AWS Backup to manage the backup and recovery of Volume Gateway volumes, which simplifies backup management. (AWS Storage Gateway giúp hỗ trợ các yêu cầu tuân thủ thông qua việc tích hợp với AWS Backup để quản lý việc sao lưu và phục hồi các ổ đĩa Volume Gateway, giúp đơn giản hóa việc quản lý sao lưu.)
+
+Câu 50 : Which set of AWS services is the BEST fit for the “Object, file, and block storage” category (which means that the services are dedicated to storing data in a durable way)? (Tập hợp dịch vụ AWS nào phù hợp NHẤT cho danh mục “Lưu trữ đối tượng, tệp và khối” (có nghĩa là các dịch vụ này dành riêng cho việc lưu trữ dữ liệu theo cách bền bỉ)?)
+A. AWS DataSync, AWS Snow Family
+* B. Amazon Simple Storage Service (Amazon S3), Amazon Elastic File System (Amazon EFS), Amazon Elastic Block Store (Amazon EBS), Amazon FSx
+C. AWS Storage Gateway, AWS Snow Family
+D. AWS Elastic Disaster Recovery, AWS Backup
+
+Câu 51 : True or False: Amazon Simple Storage Service (Amazon S3) is better than Amazon Elastic Block Store (Amazon EBS) because it is designed to provide a higher level of data durability. (Đúng hay Sai: Amazon Simple Storage Service (Amazon S3) tốt hơn Amazon Elastic Block Store (Amazon EBS) vì nó được thiết kế để cung cấp mức độ bền dữ liệu cao hơn.)
+A. True (Đúng)
+* B. False (Sai) (S3 và EBS phục vụ các mục đích sử dụng khác nhau chứ không phải cái nào "tốt hơn" cái nào một cách tuyệt đối.)
+
+Câu 52 : A solutions architect is designing an architecture that can provide HTML pages to customers. They want a serverless solution that can host content over the internet and serve a static website with minimal effort. Which AWS service should the solutions architect choose to meet these requirements? (Một kiến trúc sư giải pháp đang thiết kế một kiến trúc có thể cung cấp các trang HTML cho khách hàng. Họ muốn một giải pháp không máy chủ có thể lưu trữ nội dung trên internet và phục vụ một trang web tĩnh với nỗ lực tối thiểu. Kiến trúc sư giải pháp nên chọn dịch vụ AWS nào để đáp ứng các yêu cầu này?)
+* A. Amazon Simple Storage Service (Amazon S3)
+B. Amazon Elastic Compute Cloud (Amazon EC2)
+C. Amazon DynamoDB
+D. Amazon Kinesis
+
+Câu 53 : Which of the following options includes true statements for both Amazon Simple Storage Service (Amazon S3) cross-Region replication and AWS Key Management Service (AWS KMS)? (Tùy chọn nào sau đây bao gồm các tuyên bố đúng cho cả sao chép xuyên Khu vực của Amazon Simple Storage Service (Amazon S3) và AWS Key Management Service (AWS KMS)?)
+A. To configure S3 cross-Region replication, both the source and destination buckets must belong to the same AWS account. Server-side encryption (SSE) is possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, cả bộ chứa nguồn và đích đều phải thuộc về cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) là có thể đối với các đối tượng được sao chép.)
+B. To configure Amazon S3 cross-Region replication, both the source and destination buckets must belong to the same AWS account. Server-side encryption (SSE) is not possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, cả bộ chứa nguồn và đích đều phải thuộc về cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) không khả thi đối với các đối tượng được sao chép.)
+* C. To configure Amazon S3 cross-Region replication, the source and destination buckets can belong to different AWS accounts. Server-side encryption (SSE) is possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, bộ chứa nguồn và đích có thể thuộc về các tài khoản AWS khác nhau. Mã hóa phía máy chủ (SSE) là có thể đối với các đối tượng được sao chép.)
+D. To configure Amazon S3 cross-Region replication, the source and destination buckets can belong to different AWS accounts. Server-side encryption is not possible for replicated objects. (Để cấu hình sao chép xuyên Khu vực Amazon S3, bộ chứa nguồn và đích có thể thuộc về các tài khoản AWS khác nhau. Mã hóa phía máy chủ không khả thi đối với các đối tượng được sao chép.)
+
+Câu 54 : True or False: Amazon Relational Database Service (Amazon RDS) is more suitable for databases that handle structured or relational data, where users can count with features like auto-increment and table joins. Amazon DynamoDB is more suitable for NoSQL database workloads, where tables are collection of items that have their own attributes. (Đúng hay Sai: Amazon RDS phù hợp hơn với các cơ sở dữ liệu xử lý dữ liệu có cấu trúc hoặc quan hệ, nơi người dùng có thể trông cậy vào các tính năng như tự động tăng và nối bảng. Amazon DynamoDB phù hợp hơn với khối lượng công việc cơ sở dữ liệu NoSQL, nơi các bảng là tập hợp các mục có thuộc tính riêng.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 55 : Amazon DynamoDB is designed for scale and performance. In most cases, the DynamoDB response times can be measured in single-digit milliseconds. However, there are certain use cases that require response times in microseconds. For these use cases, DynamoDB Accelerator (DAX) delivers fast response times for accessing eventually consistent data. Which statements about DAX are correct? (Choose THREE.) (Amazon DynamoDB được thiết kế để mở rộng quy mô và hiệu suất. Trong hầu hết các trường hợp, thời gian phản hồi của DynamoDB có thể được đo bằng mili giây một chữ số. Tuy nhiên, có một số trường hợp sử dụng nhất định yêu cầu thời gian phản hồi tính bằng micrô giây. Đối với các trường hợp sử dụng này, Bộ tăng tốc DynamoDB (DAX) mang lại thời gian phản hồi nhanh để truy cập dữ liệu nhất quán cuối cùng. Khẳng định nào về DAX là đúng? (Chọn BA.))
+* A. DAX reduces operational and application complexity by providing a managed service that is compatible with the DynamoDB API. (DAX giảm độ phức tạp của hoạt động và ứng dụng bằng cách cung cấp một dịch vụ được quản lý tương thích với API của DynamoDB.)
+* B. Although using DAX has a cost, it can reduce the consumption of DynamoDB table capacity. If the data is read intensive (that is, millions of requests per second), DAX can result in cost savings by caching the data while also providing better read latency, being beneficial for scenarios in need of repeated reads for individual keys. (Mặc dù sử dụng DAX có tốn phí nhưng nó có thể làm giảm mức tiêu thụ dung lượng bảng DynamoDB. Nếu dữ liệu được đọc nhiều (tức là hàng triệu yêu cầu mỗi giây), DAX có thể giúp tiết kiệm chi phí bằng cách lưu vào bộ nhớ đệm dữ liệu đồng thời cung cấp độ trễ đọc tốt hơn, có lợi cho các tình huống cần đọc lặp lại đối với các khóa riêng lẻ.)
+C. DAX does not support server-side encryption (SSE). (DAX không hỗ trợ mã hóa phía máy chủ (SSE).)
+* D. DAX is not designed for applications that are write-intensive. It can also add cost to applications that do not perform much read activity. (DAX không được thiết kế cho các ứng dụng có cường độ ghi cao. Nó cũng có thể làm tăng chi phí cho các ứng dụng không thực hiện nhiều hoạt động đọc.)
+E. DAX does not support encrypting data in transit, which means that communication between an application and DAX cannot be encrypted. (DAX không hỗ trợ mã hóa dữ liệu đang truyền tải, điều này có nghĩa là giao tiếp giữa ứng dụng và DAX không thể được mã hóa.)
+
+Câu 56 : True or False: AWS Lambda is a compute service that runs code without the need to provision or manage servers. Lambda runs code on a high-availability compute infrastructure. It also performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging. Lambda can run code for virtually any type of application or backend service. (Đúng hay Sai: AWS Lambda là một dịch vụ điện toán chạy mã mà không cần cung cấp hoặc quản lý máy chủ. Lambda chạy mã trên cơ sở hạ tầng điện toán có tính khả dụng cao. Nó cũng thực hiện toàn bộ việc quản trị tài nguyên điện toán, bao gồm bảo trì máy chủ và hệ điều hành, cung cấp dung lượng và mở rộng quy mô tự động cũng như ghi nhật ký. Lambda có thể chạy mã cho hầu như mọi loại ứng dụng hoặc dịch vụ phụ trợ.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 57 : A solutions architect is designing a solution that needs real-time data ingestion. They are considering either Amazon Kinesis Data Firehose or Amazon Kinesis Data Streams for this solution. Which service should the solutions architect choose to meet the requirement for real-time data ingestion, and why? (Remember that lower data latency means a lower roundtrip time from when data is ingested and available.) (Một kiến trúc sư giải pháp đang thiết kế một giải pháp cần thu thập dữ liệu theo thời gian thực. Họ đang xem xét Amazon Kinesis Data Firehose hoặc Amazon Kinesis Data Streams cho giải pháp này. Kiến trúc sư giải pháp nên chọn dịch vụ nào để đáp ứng yêu cầu thu thập dữ liệu thời gian thực và tại sao? (Hãy nhớ rằng độ trễ dữ liệu thấp hơn có nghĩa là thời gian khứ hồi từ khi dữ liệu được thu thập và có sẵn sẽ thấp hơn.))
+A. Amazon Kinesis Data Firehose, because it has lower latency when compared to Amazon Kinesis Data Streams (Amazon Kinesis Data Firehose, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Streams)
+B. Amazon Kinesis Data Firehose, because it has higher latency when compared to Amazon Kinesis Data Streams (Amazon Kinesis Data Firehose, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Streams)
+* C. Amazon Kinesis Data Streams, because it has lower latency when compared to Amazon Kinesis Data Firehose (Amazon Kinesis Data Streams, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Firehose)
+D. Amazon Kinesis Data Streams, because it has higher latency when compared to Amazon Kinesis Data Firehose (Amazon Kinesis Data Streams, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Firehose)
+
+Câu 58 : Which set of AWS services is the BEST fit for the “Object, file, and block storage” category (which means that the services are dedicated to storing data in a durable way)? (Tập hợp dịch vụ AWS nào phù hợp NHẤT cho danh mục “Lưu trữ đối tượng, tệp và khối” (có nghĩa là các dịch vụ này dành riêng cho việc lưu trữ dữ liệu theo cách bền bỉ)?)
+A. AWS DataSync, AWS Snow Family
+* B. Amazon Simple Storage Service (Amazon S3), Amazon Elastic File System (Amazon EFS), Amazon Elastic Block Store (Amazon EBS), Amazon FSx
+C. AWS Storage Gateway, AWS Snow Family
+D. AWS Elastic Disaster Recovery, AWS Backup
+
+Câu 59 : True or False: When creating data lakes for analytics on AWS, Amazon Simple Storage Service (Amazon S3) would be a preferred service. Users can use data in an S3 bucket with an independent data-processing or visualization layer, such as Amazon QuickSight, Amazon Athena, or Amazon EMR. (Đúng hay Sai: Khi tạo hồ dữ liệu (data lakes) để phân tích trên AWS, Amazon Simple Storage Service (Amazon S3) sẽ là một dịch vụ được ưu tiên. Người dùng có thể sử dụng dữ liệu trong bộ chứa S3 với lớp xử lý dữ liệu hoặc trực quan hóa độc lập, chẳng hạn như Amazon QuickSight, Amazon Athena hoặc Amazon EMR.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 60 : Which statements about AWS Storage Gateway are correct? (Choose THREE.) (Khẳng định nào về Cổng lưu trữ AWS (AWS Storage Gateway) là đúng? (Chọn BA.))
+* A. AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage. (AWS Storage Gateway là một tập hợp các dịch vụ lưu trữ đám mây lai cung cấp quyền truy cập tại chỗ vào bộ nhớ đám mây hầu như không giới hạn.)
+B. AWS Storage Gateway offers virtually unlimited cloud storage to users and applications, at the cost of new storage hardware. (AWS Storage Gateway cung cấp khả năng lưu trữ đám mây hầu như không giới hạn cho người dùng và ứng dụng với chi phí là phần cứng lưu trữ mới.)
+* C. AWS Storage Gateway delivers data access to on-premises applications while taking advantage of the agility, economics, and security capabilities of the AWS Cloud. (AWS Storage Gateway cung cấp quyền truy cập dữ liệu cho các ứng dụng tại chỗ đồng thời tận dụng sự linh hoạt, tính kinh tế và các khả năng bảo mật của Đám mây AWS.)
+D. AWS Storage Gateway is limited to only on-premises applications, which means that it cannot be used from cloud to cloud. (AWS Storage Gateway chỉ giới hạn cho các ứng dụng tại chỗ, có nghĩa là nó không thể được sử dụng từ đám mây này sang đám mây khác.)
+* E. AWS Storage Gateway helps support compliance requirements through integration with AWS Backup to manage the backup and recovery of Volume Gateway volumes, which simplifies backup management. (AWS Storage Gateway giúp hỗ trợ các yêu cầu tuân thủ thông qua việc tích hợp với AWS Backup để quản lý việc sao lưu và phục hồi các ổ đĩa Volume Gateway, giúp đơn giản hóa việc quản lý sao lưu.)
+
+Câu 61 : What are some benefits of using multiple AWS accounts with AWS Organizations? (Choose THREE.) (Một số lợi ích của việc sử dụng nhiều tài khoản AWS với AWS Organizations là gì? (Chọn BA.))
+* A. Grouping workloads based on business purpose and ownership (Nhóm các khối lượng công việc dựa trên mục đích kinh doanh và quyền sở hữu)
+B. Using different payment methods per account (Sử dụng các phương thức thanh toán khác nhau cho mỗi tài khoản)
+* C. Limiting the scope of impact from adverse events (Hạn chế phạm vi tác động từ các sự kiện bất lợi)
+* D. Distributing AWS service quotas and API request rate limits (Phân phối hạn ngạch dịch vụ AWS và giới hạn tỷ lệ yêu cầu API)
+E. Having multiple account root users with unrestricted access on each account (Có nhiều người dùng gốc của tài khoản với quyền truy cập không hạn chế trên mỗi tài khoản)
+
+Câu 62 : True or False: A service control policy (SCP) statement with an explicit deny prevents even the account root user from performing API calls. (Đúng hay Sai: Một câu lệnh chính sách kiểm soát dịch vụ (SCP) có từ chối rõ ràng ngăn cản ngay cả người dùng gốc của tài khoản thực hiện các lệnh gọi API.)
+* A. True (Đúng)
+B. False (Sai)
+
+Câu 63 : A solutions architect is designing a solution that provides single sign-on (SSO) to authenticate into AWS accounts that are in AWS Organizations. Which AWS service can the solutions architect use to implement identity federation with existing identity providers, such as Microsoft Active Directory? (Một kiến trúc sư giải pháp đang thiết kế một giải pháp cung cấp đăng nhập một lần (SSO) để xác thực vào các tài khoản AWS nằm trong AWS Organizations. Kiến trúc sư giải pháp có thể sử dụng dịch vụ AWS nào để triển khai liên kết danh tính với các nhà cung cấp danh tính hiện có, chẳng hạn như Microsoft Active Directory?)
+A. AWS Identity and Access Management (IAM) users (Người dùng IAM)
+B. Amazon CloudWatch
+* C. AWS IAM Identity Center (successor to AWS Single Sign-On)
+D. AWS CloudTrail
+
+Câu 64 : Which statements are best practices for multi-account environments? (Choose THREE.) (Những khẳng định nào là phương pháp hay nhất cho môi trường nhiều tài khoản? (Chọn BA.))
+* A. Enable Amazon CloudWatch billing alarms per account and configure tagging policies in AWS Organizations. (Bật cảnh báo thanh toán Amazon CloudWatch cho mỗi tài khoản và định cấu hình các chính sách gắn thẻ trong AWS Organizations.)
+B. Give AdministratorAccess policies to developers in their development AWS accounts. (Cấp chính sách AdministratorAccess cho các nhà phát triển trong các tài khoản AWS phát triển của họ.)
+* C. Prevent CloudTrail configuration from being disabled in the shared services account. (Ngăn không cho tắt cấu hình CloudTrail trong tài khoản dịch vụ được chia sẻ.)
+* D. Use multi-factor authentication (MFA) for users in centralized credentialing, such as using AWS IAM Identity Center (successor to AWS Single Sign-On). (Sử dụng xác thực đa yếu tố (MFA) cho người dùng trong việc cấp thông tin xác thực tập trung, chẳng hạn như sử dụng AWS IAM Identity Center.)
+E. Reuse passwords for simplicity and ease of access. (Tái sử dụng mật khẩu để đơn giản và dễ truy cập.)
+
+Câu 65 : A solutions architect must create well-defined governance standards for a company that has multiple AWS accounts. The company needs centralized infrastructure logging for all AWS accounts. In addition, the company’s chief information security officer (CISO) would like to have a measurement that applies a circuit breaker to stop Amazon Elastic Compute Cloud (Amazon EC2) API activities if the billing alarms indicate suspicious activity. The company intends to use AWS Organizations. Which architectural scenario should the solutions architect propose to meet the company’s needs in the MOST effective way? (Một kiến trúc sư giải pháp phải tạo ra các tiêu chuẩn quản trị được xác định rõ ràng cho một công ty có nhiều tài khoản AWS. Công ty cần ghi nhật ký cơ sở hạ tầng tập trung cho tất cả các tài khoản AWS. Ngoài ra, giám đốc an toàn thông tin (CISO) của công ty muốn có một biện pháp áp dụng cầu dao điện (circuit breaker) để dừng các hoạt động API Amazon EC2 nếu cảnh báo thanh toán cho thấy hoạt động đáng ngờ. Công ty dự định sử dụng AWS Organizations. Kịch bản kiến trúc nào mà kiến trúc sư giải pháp nên đề xuất để đáp ứng nhu cầu của công ty theo cách hiệu quả NHẤT?)
+* A. Enable AWS CloudTrail for all accounts in AWS Organizations. Use Organizations to centralize all logs into one Amazon Simple Storage Service (Amazon S3) bucket. As the circuit breaker, use service control policies (SCPs) that have an explicit deny for Amazon EC2 API activity. These SCPs can then be applied to the root organizational unit (OU) as needed. (Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả nhật ký vào một bộ chứa Amazon S3. Đối với cầu dao điện, hãy sử dụng các chính sách kiểm soát dịch vụ (SCP) có từ chối rõ ràng đối với hoạt động API Amazon EC2. Sau đó, các SCP này có thể được áp dụng cho đơn vị tổ chức (OU) gốc nếu cần.)
+B. Enable AWS CloudTrail for all accounts in AWS Organizations. Use Organizations to centralize all logs into one Amazon Simple Storage Service (Amazon S3) bucket. Use multi-factor authentication (MFA) devices for every user in AWS IAM Identity Center (successor to AWS Single Sign-On). (Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả nhật ký vào một bộ chứa Amazon S3. Sử dụng các thiết bị xác thực đa yếu tố (MFA) cho mọi người dùng trong AWS IAM Identity Center.)
+C. Enable AWS CloudTrail for only the production accounts in AWS Organizations. Use Organizations to centralize logs into one Amazon Simple Storage Service (Amazon S3 bucket). For single sign-on, use AWS IAM Identity Center (successor to AWS Single Sign-ON). (Chỉ bật AWS CloudTrail cho các tài khoản sản xuất trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bộ chứa Amazon S3. Đối với đăng nhập một lần, hãy sử dụng AWS IAM Identity Center.)
+D. Enable AWS CloudTrail for all accounts in AWS Organizations. Use Organizations to centralize logs in one Amazon Simple Storage Service (Amazon S3) bucket. As the circuit breaker, use AWS Identity and Access Management (IAM) policies on each account that have an explicit deny for Amazon EC2 API activity. The IAM policies can then be applied to the root organizational unit (OU) as needed. (Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bộ chứa Amazon S3. Đối với cầu dao điện, hãy sử dụng các chính sách IAM trên mỗi tài khoản có từ chối rõ ràng đối với hoạt động API Amazon EC2. Sau đó, các chính sách IAM có thể được áp dụng cho đơn vị tổ chức (OU) gốc nếu cần.)
+

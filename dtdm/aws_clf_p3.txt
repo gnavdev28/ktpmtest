@@ -1,0 +1,349 @@
+Câu 1 [Practice Exam 8]: Which of the following AWS Support Plans gives you 24/7 access to Cloud Support Engineers via email & phone? (Choose TWO) (Gói hỗ trợ AWS nào sau đây cho phép bạn tiếp cận Kỹ sư hỗ trợ đám mây 24/7 qua email và điện thoại? (Chọn HAI))
+A. Developer.
+B. Premium.
+* C. Enterprise.
+D. Standard.
+* E. Business.
+
+Câu 2 [Practice Exam 8]: Which of the following requires an access key ID and a secret access key to get long-lived programmatic access to AWS resources? (Choose TWO) (Điều nào sau đây yêu cầu ID khóa truy cập và khóa truy cập bí mật để có quyền truy cập theo chương trình lâu dài vào tài nguyên AWS? (Chọn HAI))
+A. IAM group. *(Nhóm IAM.)*
+* B. IAM user. *(Người dùng IAM.)*
+C. IAM role. *(Vai trò IAM.)*
+* D. AWS account root user. *(Người dùng root tài khoản AWS.)*
+E. TAM.
+
+Câu 3 [Practice Exam 8]: What are the benefits of the AWS Marketplace service? (Choose TWO) (Lợi ích của dịch vụ AWS Marketplace là gì? (Chọn HAI))
+A. Protects customers by performing periodic security checks on listed products. *(Bảo vệ khách hàng bằng cách thực hiện kiểm tra bảo mật định kỳ trên các sản phẩm được liệt kê.)*
+B. Per-second billing. *(Thanh toán mỗi giây.)*
+C. Provides cheaper options for purchasing Amazon EC2 on-demand instances. *(Cung cấp các tùy chọn rẻ hơn để mua phiên bản Amazon EC2 theo yêu cầu.)*
+* D. Provides flexible pricing options that suit most customer needs. *(Cung cấp các lựa chọn giá linh hoạt phù hợp với hầu hết nhu cầu của khách hàng.)*
+* E. Provides software solutions that run on AWS or any other Cloud vendor. *(Cung cấp các giải pháp phần mềm chạy trên AWS hoặc bất kỳ nhà cung cấp Đám mây nào khác.)*
+
+Câu 4 [Practice Exam 8]: The AWS account administrator of your company has been fired. With the permissions granted to him as an administrator, he was able to create multiple IAM user accounts and access keys. Additionally, you are not sure whether he has access to the AWS root account or not. What should you do immediately to protect your AWS infrastructure? (Choose TWO) (Quản trị viên tài khoản AWS của công ty bạn đã bị sa thải. Với các quyền được cấp cho anh ấy với tư cách quản trị viên, anh ấy có thể tạo nhiều tài khoản người dùng IAM và khóa truy cập. Ngoài ra, bạn không chắc liệu anh ta có quyền truy cập vào tài khoản root AWS hay không. Bạn nên làm gì ngay lập tức để bảo vệ cơ sở hạ tầng AWS của mình? (Chọn HAI))
+A. Download all the attached policies in a safe place. *(Tải xuống tất cả các chính sách đính kèm ở nơi an toàn.)*
+B. Delete all IAM accounts and recreate them. *(Xóa tất cả tài khoản IAM và tạo lại chúng.)*
+C. Use the CloudWatch service to check all API calls that have been made in your account since the administrator was fired. *(Sử dụng dịch vụ CloudWatch để kiểm tra tất cả lệnh gọi API đã được thực hiện trong tài khoản của bạn kể từ khi quản trị viên bị sa thải.)*
+* D. Rotate all access keys. *(Xoay tất cả các phím truy cập.)*
+* E. Change the email address and password of the root user account and enable MFA. *(Thay đổi địa chỉ email và mật khẩu của tài khoản người dùng root và bật MFA.)*
+
+Câu 5 [Practice Exam 8]: What is the Amazon ElastiCache service used for? (Choose TWO) (Dịch vụ Amazon ElastiCache dùng để làm gì? (Chọn HAI))
+* A. Provide an in-memory data storage service. *(Cung cấp dịch vụ lưu trữ dữ liệu trong bộ nhớ.)*
+B. Reduce delivery costs using Edge Locations. *(Giảm chi phí giao hàng bằng cách sử dụng Edge Locations.)*
+* C. Improve web application performance. *(Cải thiện hiệu suất ứng dụng web.)*
+D. Provide a Chef-compatible cache to speed up application response. *(Cung cấp bộ nhớ đệm tương thích với Chef để tăng tốc độ phản hồi của ứng dụng.)*
+E. Distribute requests to multiple instances. *(Phân phối yêu cầu cho nhiều trường hợp.)*
+
+Câu 6 [Practice Exam 8]: The elasticity of the AWS Cloud enables customers to save costs when compared to traditional hosting providers. What can AWS customers do to benefit from the elasticity of the AWS Cloud? (Choose TWO) (Tính linh hoạt của Đám mây AWS cho phép khách hàng tiết kiệm chi phí khi so sánh với các nhà cung cấp dịch vụ lưu trữ truyền thống. Khách hàng AWS có thể làm gì để hưởng lợi từ tính linh hoạt của Đám mây AWS? (Chọn HAI))
+A. Deploy your resources across multiple Availability Zones. *(Triển khai tài nguyên của bạn trên nhiều Vùng sẵn sàng.)*
+* B. Use Amazon EC2 Auto Scaling. *(Sử dụng Amazon EC2 Auto Scaling.)*
+C. Deploy your resources in another region. *(Triển khai tài nguyên của bạn ở khu vực khác.)*
+D. Use Elastic Load Balancing. *(Sử dụng Cân bằng tải đàn hồi.)*
+* E. Use Serverless Computing whenever possible. *(Sử dụng Máy tính không có máy chủ bất cứ khi nào có thể.)*
+
+Câu 7 [Practice Exam 8]: What are some of the benefits of using On-Demand EC2 instances? (Choose TWO) (Một số lợi ích của việc sử dụng phiên bản EC2 theo yêu cầu là gì? (Chọn HAI))
+A. They provide free capacity when testing your new applications. *(Chúng cung cấp dung lượng miễn phí khi thử nghiệm các ứng dụng mới của bạn.)*
+B. They are cheaper than all other EC2 options. *(Chúng rẻ hơn tất cả các tùy chọn EC2 khác.)*
+* C. They remove the need to buy “safety net” capacity to handle periodic traffic spikes. *(Chúng loại bỏ nhu cầu mua công suất “mạng lưới an toàn” để xử lý các đợt tăng đột biến lưu lượng truy cập định kỳ.)*
+D. They only require 1-2 days for setup and configuration. *(Họ chỉ cần 1-2 ngày để thiết lập và cấu hình.)*
+* E. You can increase or decrease your compute capacity depending on the demands of your application. *(Bạn có thể tăng hoặc giảm công suất tính toán tùy thuộc vào nhu cầu của ứng dụng.)*
+
+Câu 8 [Practice Exam 8]: A financial services company decides to migrate one of its applications to AWS. The application deals with sensitive data, such as credit card information, and must run on a PCI-compliant environment. Which of the following is the company’s responsibility when building a PCI-compliant environment in AWS? (Choose TWO) (Một công ty dịch vụ tài chính quyết định chuyển một trong các ứng dụng của mình sang AWS. Ứng dụng xử lý dữ liệu nhạy cảm, chẳng hạn như thông tin thẻ tín dụng và phải chạy trên môi trường tuân thủ PCI. Trách nhiệm nào sau đây của công ty khi xây dựng môi trường tuân thủ PCI trong AWS? (Chọn HAI))
+A. Start the migration process immediately as all AWS services are PCI compliant. *(Bắt đầu quá trình di chuyển ngay lập tức vì tất cả các dịch vụ AWS đều tuân thủ PCI.)*
+* B. Ensure that AWS services are configured properly to meet all PCI DSS standards. *(Đảm bảo rằng các dịch vụ AWS được cấu hình đúng cách để đáp ứng tất cả các tiêu chuẩn PCI DSS.)*
+* C. Restrict any access to cardholder data and create a policy that addresses information security for all personnel. *(Hạn chế mọi quyền truy cập vào dữ liệu chủ thẻ và tạo chính sách giải quyết vấn đề bảo mật thông tin cho tất cả nhân viên.)*
+D. Configure the underlying infrastructure of AWS services to meet all PCI DSS requirements. *(Định cấu hình cơ sở hạ tầng cơ bản của dịch vụ AWS để đáp ứng tất cả các yêu cầu PCI DSS.)*
+E. Ensure that all PCI DSS physical security requirements are met. *(Đảm bảo đáp ứng tất cả các yêu cầu bảo mật vật lý PCI DSS.)*
+
+Câu 9 [Practice Exam 8]: Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Select TWO) (Đặc điểm nào của AWS giúp AWS tiết kiệm chi phí cho khối lượng công việc có nhu cầu người dùng linh hoạt? (Chọn HAI))
+A. High availability. *(Tính sẵn sàng cao.)*
+B. Shared security model. *(Mô hình bảo mật được chia sẻ)*
+* C. Elasticity.
+* D. Pay-as-you-go pricing. *(Trả giá khi bạn đi.)*
+E. Reliability.
+
+Câu 10 [Practice Exam 9]: Which AWS service allows companies to connect an Amazon VPC to an on-premises data center? (Select TWO) (Dịch vụ AWS nào cho phép các công ty kết nối Amazon VPC với trung tâm dữ liệu tại chỗ? (Chọn HAI))
+* A. AWS VPN.
+B. Amazon Redshift.
+C. API Gateway.
+* D. Amazon Direct Connect.
+
+Câu 11 [Practice Exam 9]: Which of the following are pillars of the AWS Well-Architected Framework? (Select TWO) (Điều nào sau đây là trụ cột của Khung kiến ​​trúc tối ưu AWS? (Chọn HAI))
+A. Multiple Availability Zones. *(Nhiều vùng sẵn sàng.)*
+* B. Performance efficiency. *(Hiệu quả thực hiện.)*
+* C. Security.
+D. Encryption usage. *(Việc sử dụng mã hóa.)*
+E. High availability. *(Tính sẵn sàng cao.)*
+
+Câu 12 [Practice Exam 9]: Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Select TWO) (Những nguyên tắc thiết kế nào cho kiến ​​trúc đám mây được khuyến nghị khi tái kiến ​​trúc một ứng dụng nguyên khối lớn? (Chọn HAI))
+A. Use manual monitoring. *(Sử dụng giám sát thủ công.)*
+B. Use fixed servers. *(Sử dụng máy chủ cố định.)*
+* C. Implement loose coupling. *(Thực hiện khớp nối lỏng lẻo.)*
+D. Rely on individual components. *(Dựa vào các thành phần riêng lẻ.)*
+* E. Design for scalability. *(Thiết kế cho khả năng mở rộng.)*
+
+Câu 13 [Practice Exam 9]: Which of the following are categories of AWS Trusted Advisor? (Select TWO) (Danh mục nào sau đây là danh mục Cố vấn đáng tin cậy của AWS? (Chọn HAI))
+* A. Fault Tolerance.
+B. Instance Usage.
+C. Infrastructure.
+* D. Performance.
+E. Storage Capacity.
+
+Câu 14 [Practice Exam 9]: Under the AWS shared responsibility model, which of the following activities are the customer’s responsibility? (Select TWO) (Theo mô hình trách nhiệm chung của AWS, hoạt động nào sau đây là trách nhiệm của khách hàng? (Chọn HAI))
+A. Patching operating system components for Amazon Relational Database Server (Amazon RDS). *(Vá các thành phần hệ điều hành cho Máy chủ cơ sở dữ liệu quan hệ Amazon (Amazon RDS).)*
+* B. Encrypting data on the client-side. *(Mã hóa dữ liệu ở phía máy khách.)*
+C. Training the data center staff. *(Đào tạo nhân viên trung tâm dữ liệu.)*
+* D. Configuring Network Access Control Lists (ACL). *(Định cấu hình Danh sách kiểm soát truy cập mạng (ACL).)*
+E. Maintaining environmental controls within a data center. *(Duy trì các biện pháp kiểm soát môi trường trong trung tâm dữ liệu.)*
+
+Câu 15 [Practice Exam 9]: Which AWS services provide a way to extend an on-premises architecture to the aws cloud? (Select TWO) (Dịch vụ AWS nào cung cấp cách mở rộng kiến ​​trúc tại chỗ lên đám mây aws? (Chọn HAI))
+A. Amazon EBS.
+B. Amazon Connect.
+* C. AWS Storage Gateway.
+D. Amazon CloudFront.
+* E. AWS Direct Connect.
+
+Câu 16 [Practice Exam 9]: Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO) (Dịch vụ hoặc tính năng nào của AWS có thể tăng cường bảo mật mạng bằng cách chặn các yêu cầu từ một mạng cụ thể đối với ứng dụng web trên AWS? (Chọn HAI))
+* A. AWS WAF.
+B. AWS Trusted Advisor.
+C. AWS Direct Connect.
+D. AWS Organizations.
+* E. Network ACLs.
+
+Câu 17 [Practice Exam 9]: The financial benefits of using AWS are: (Select TWO) (Lợi ích tài chính của việc sử dụng AWS là: (Chọn HAI))
+* A. Reduced Total Cost of Ownership (TCO). *(Giảm tổng chi phí sở hữu (TCO).)*
+B. Increased capital expenditure (capex). *(Tăng chi phí vốn (capex).)*
+* C. Reduced operational expenditure ( opex ). *(Giảm chi phí hoạt động (opex).)*
+D. Deferred payment plans for startups. *(Kế hoạch thanh toán trả chậm cho các công ty khởi nghiệp.)*
+E. Business credit lines for startups. *(Hạn mức tín dụng kinh doanh dành cho người khởi nghiệp.)*
+
+Câu 18 [Practice Exam 9]: What are the benefits of using the AWS Cloud for companies with customers in many countries around the world (Select TWO) (Lợi ích của việc sử dụng Đám mây AWS đối với các công ty có khách hàng ở nhiều quốc gia trên thế giới là gì (Chọn HAI))
+* A. Companies can deploy applications in multiple AWS Regions to reduce latency. *(Các công ty có thể triển khai ứng dụng ở nhiều Khu vực AWS để giảm độ trễ.)*
+B. Amazon Translate automatically translates third-party website interfaces into multiple languages. *(Amazon Translate tự động dịch giao diện trang web của bên thứ ba sang nhiều ngôn ngữ.)*
+* C. Amazon CloudFront has multiple edge locations around the world to reduce latency. *(Amazon CloudFront có nhiều vị trí biên trên khắp thế giới để giảm độ trễ.)*
+D. Amazon Comprehend allows users to build applications that can respond to user requests in many languages. *(Amazon Comprehend cho phép người dùng xây dựng các ứng dụng có thể đáp ứng yêu cầu của người dùng bằng nhiều ngôn ngữ.)*
+E. Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world which reduces latency. *(Cân bằng tải đàn hồi có thể phân phối lưu lượng truy cập web của ứng dụng đến nhiều Khu vực AWS trên toàn thế giới giúp giảm độ trễ.)*
+
+Câu 19 [Practice Exam 9]: Which of the following are main components of the AWS global infrastructure? (Select TWO) (Thành phần nào sau đây là thành phần chính của cơ sở hạ tầng toàn cầu AWS? (Chọn HAI))
+A. Resource groups. *(Các nhóm tài nguyên)*
+* B. Availability Zones.
+C. Security groups. *(Các nhóm bảo mật.)*
+* D. Regions.
+E. Amazon Machine Images (AMIS). *(Hình ảnh máy Amazon (AMIS).)*
+
+Câu 20 [Practice Exam 9]: Which services can be used across hybrid AWS Cloud architectures? (Select TWO) (Những dịch vụ nào có thể được sử dụng trên các kiến ​​trúc Đám mây AWS kết hợp? (Chọn HAI))
+* A. Amazon Route 53.
+* B. Virtual Private Gateway. *(Cổng riêng ảo.)*
+C. Classic Load Balancer. *(Cân bằng tải cổ điển.)*
+D. Auto Scaling.
+E. Amazon CloudWatch default metrics. *(Số liệu mặc định của Amazon CloudWatch.)*
+
+Câu 21 [Practice Exam 9]: Which AWS services are defined as global instead of regional? (Select TWO) (Dịch vụ AWS nào được xác định là toàn cầu thay vì khu vực? (Chọn HAI))
+* A. Amazon Route 53.
+B. Amazon EC2.
+C. Amazon S3.
+* D. Amazon CloudFront.
+E. Amazon DynamoDB.
+
+Câu 22 [Practice Exam 10]: Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO) (Khách hàng AWS có thể sử dụng điều nào sau đây để khởi chạy cụm Dịch vụ cơ sở dữ liệu quan hệ Amazon (Amazon RDS) mới? (Chọn HAI))
+A. AWS Concierge.
+* B. AWS CloudFormation.
+C. Amazon Simple Storage Service (Amazon S3). *(Dịch vụ lưu trữ đơn giản của Amazon (Amazon S3).)*
+D. Amazon EC2 Auto Scaling. *(Tự động chia tỷ lệ Amazon EC2.)*
+* E. AWS Management Console.
+
+Câu 23 [Practice Exam 10]: Which of the following are features of Amazon CloudWatch Logs? (Select TWO) (Những tính năng nào sau đây là tính năng của Amazon CloudWatch Logs? (Chọn HAI))
+A. Summaries by Amazon Simple Notification Service (Amazon SNS). *(Tóm tắt của Dịch vụ thông báo đơn giản của Amazon (Amazon SNS).)*
+B. Free Amazon Elasticsearch Service analytics. *(Phân tích miễn phí của Amazon Elasticsearch Service.)*
+C. Provided at no charge. *(Được cung cấp miễn phí.)*
+* D. Real-time monitoring. *(Giám sát thời gian thực.)*
+* E. Adjustable retention. *(Khả năng lưu giữ có thể điều chỉnh.)*
+
+Câu 24 [Practice Exam 10]: Which of the following BEST describe the AWS pricing model? (Select TWO) (Điều nào sau đây mô tả TỐT NHẤT về mô hình định giá AWS? (Chọn HAI))
+A. Fixed-term.
+* B. Pay-as-you-go.
+C. Colocation.
+D. Planned.
+* E. Variable cost. *(Chi phí biến đổi.)*
+
+Câu 25 [Practice Exam 10]: Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Select TWO) (Theo mô hình trách nhiệm chung, nhiệm vụ nào sau đây là trách nhiệm của khách hàng AWS? (Chọn HAI))
+* A. Ensuring that application data is encrypted at rest. *(Đảm bảo rằng dữ liệu ứng dụng được mã hóa ở phần còn lại.)*
+B. Ensuring that AWS NTP servers are set to the correct time. *(Đảm bảo rằng máy chủ AWS NTP được đặt đúng thời gian.)*
+* C. Ensuring that users have received security training in the use of AWS services. *(Đảm bảo rằng người dùng đã được đào tạo về bảo mật cách sử dụng dịch vụ AWS.)*
+D. Ensuring that access to data centers is restricted. *(Đảm bảo rằng quyền truy cập vào trung tâm dữ liệu bị hạn chế.)*
+E. Ensuring that hardware is disposed of properly. *(Đảm bảo rằng phần cứng được xử lý đúng cách.)*
+
+Câu 26 [Practice Exam 10]: Which AWS services should be used for read/write of constantly changing data? (Select TWO) (Nên sử dụng dịch vụ AWS nào để đọc/ghi dữ liệu thay đổi liên tục? (Chọn HAI))
+A. Amazon Glacier.
+* B. Amazon RDS.
+C. AWS Snowball.
+D. Amazon Redshift.
+* E. Amazon EFS.
+
+Câu 27 [Practice Exam 10]: Which benefits are included with the AWS Business Support plan? (Select TWO) (Những lợi ích nào được bao gồm trong gói AWS Business Support? (Chọn HAI))
+* A. 24/7 assistance by way of live chat or a telephone call. *(Hỗ trợ 24/7 bằng cách trò chuyện trực tiếp hoặc gọi điện thoại.)*
+B. Support from a dedicated AWS Technical Account Manager. *(Hỗ trợ từ Người quản lý tài khoản kỹ thuật AWS chuyên dụng.)*
+* C. An unlimited number of cases and contacts. *(Không giới hạn số lượng trường hợp và địa chỉ liên hệ.)*
+D. 15-minute response time for production system interruption cases. *(Thời gian phản hồi 15 phút đối với trường hợp gián đoạn hệ thống sản xuất.)*
+E. Annual operational reviews with AWS Solutions Architects. *(Đánh giá hoạt động hàng năm với Kiến trúc sư giải pháp AWS.)*
+
+Câu 28 [Practice Exam 10]: When should a company consider using Amazon EC2 Spot Instances? (Select TWO) (Khi nào công ty nên cân nhắc sử dụng Phiên bản Spot của Amazon EC2? (Chọn HAI))
+* A. For non-production applications. *(Đối với các ứng dụng phi sản xuất.)*
+B. For stateful workloads. *(Đối với khối lượng công việc trạng thái.)*
+C. For applications that cannot have interruptions. *(Đối với các ứng dụng không thể bị gián đoạn.)*
+* D. For fault-tolerant flexible applications. *(Đối với các ứng dụng linh hoạt có khả năng chịu lỗi.)*
+E. For sensitive database applications. *(Đối với các ứng dụng cơ sở dữ liệu nhạy cảm.)*
+
+Câu 29 [Practice Exam 10]: Which AWS tools assist with estimating costs? (Select three) (Những công cụ AWS nào hỗ trợ ước tính chi phí? (Chọn ba))
+A. Detailed billing report. *(Báo cáo quyết toán chi tiết.)*
+* B. Cost allocation tags. *(Thẻ phân bổ chi phí.)*
+* C. AWS Simple Monthly Calculator. *(Máy tính đơn giản hàng tháng của AWS.)*
+* D. AWS Total Cost of Ownership (TCO) Calculator. *(Công cụ tính tổng chi phí sở hữu (TCO) của AWS.)*
+E. Cost Estimator.
+
+Câu 30 [Practice Exam 10]: Which AWS services can be used to gather information about AWS account activity? (Select TWO) (Những dịch vụ AWS nào có thể được sử dụng để thu thập thông tin về hoạt động tài khoản AWS? (Chọn HAI))
+A. Amazon CloudFront.
+B. AWS Cloud9.
+* C. AWS CloudTrail.
+D. AWS CloudHSM.
+* E. Amazon CloudWatch.
+
+Câu 31 [Practice Exam 10]: Which of the following are characteristics of Amazon S3? (Select TWO) (Đặc điểm nào sau đây là đặc điểm của Amazon S3? (Chọn HAI))
+A. A global file system. *(Một hệ thống tập tin toàn cầu.)*
+* B. An object store. *(Một cửa hàng đồ vật.)*
+C. A local file store. *(Một cửa hàng tập tin địa phương.)*
+D. A network file system. *(Một hệ thống tập tin mạng.)*
+* E. A durable storage system. *(Một hệ thống lưu trữ bền vững.)*
+
+Câu 32 [Practice Exam 10]: Which AWS services can host a Microsoft SQL Server database? (Select TWO) (Những dịch vụ AWS nào có thể lưu trữ cơ sở dữ liệu Microsoft SQL Server? (Chọn HAI))
+* A. Amazon EC2.
+* B. Amazon Relational Database Service (Amazon RDS). *(Dịch vụ cơ sở dữ liệu quan hệ của Amazon (Amazon RDS).)*
+C. Amazon Aurora.
+D. Amazon Redshift.
+E. Amazon S3.
+
+Câu 33 [Practice Exam 11]: Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO) (AWS cung cấp những tùy chọn nào cho khách hàng muốn tìm hiểu về bảo mật trên đám mây trong môi trường có người hướng dẫn? (Chọn HAI))
+A. AWS Trusted Advisor.
+* B. AWS Online Tech Talks. *(Tọa đàm công nghệ trực tuyến của AWS.)*
+C. AWS Blog.
+D. AWS Forums.
+* E. AWS Classroom Training.
+
+Câu 34 [Practice Exam 11]: Which of the following will enhance the security of access to the AWS Management Console’? (Select TWO) (Điều nào sau đây sẽ tăng cường tính bảo mật khi truy cập vào Bảng điều khiển quản lý AWS'? (Chọn HAI))
+A. AWS Secrets Manager.
+B. AWS Certificate Manager.
+* C. AWS Multi-Factor Authentication (AWS MFA). *(Xác thực đa yếu tố AWS (AWS MFA).)*
+D. Security groups. *(Các nhóm bảo mật.)*
+* E. Password policies. *(Chính sách mật khẩu.)*
+
+Câu 35 [Practice Exam 11]: Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO) (Bạn có thể đặt cấu hình tính năng nào sau đây thông qua Bảng thông tin Amazon Virtual Private Cloud (Amazon VPC)? (Chọn HAI))
+A. Amazon CloudFront distributions.
+B. Amazon Route 53.
+* C. Security Groups.
+* D. Subnets.
+E. Elastic Load Balancing.
+
+Câu 36 [Practice Exam 11]: Which of the following are advantages of AWS consolidated billing? (Select TWO) (Ưu điểm nào sau đây là ưu điểm của thanh toán tổng hợp AWS? (Chọn HAI))
+* A. The ability to receive one bill for multiple accounts. *(Khả năng nhận một hóa đơn cho nhiều tài khoản.)*
+B. Service limits increasing by default in all accounts. *(Giới hạn dịch vụ tăng theo mặc định trong tất cả các tài khoản.)*
+C. A fixed discount on the monthly bill. *(Giảm giá cố định trên hóa đơn hàng tháng.)*
+* D. Potential volume discounts, as usage in all accounts is combined. *(Có khả năng giảm giá theo số lượng vì mức sử dụng trong tất cả các tài khoản được kết hợp.)*
+E. The automatic extension of the master account’s AWS support plan to all accounts. *(Tự động mở rộng gói hỗ trợ AWS của tài khoản chính cho tất cả các tài khoản.)*
+
+Câu 37 [Practice Exam 11]: Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO) (AWS có thể thực hiện nhiệm vụ CNTT phổ biến nào sau đây để giải phóng tài nguyên CNTT của công ty? (Chọn HAI))
+* A. Patching databases software. *(Vá phần mềm cơ sở dữ liệu.)*
+B. Testing application releases. *(Kiểm tra các bản phát hành ứng dụng.)*
+* C. Backing up databases. *(Sao lưu cơ sở dữ liệu.)*
+D. Creating database schema. *(Tạo lược đồ cơ sở dữ liệu.)*
+E. Running penetration tests. *(Chạy thử nghiệm thâm nhập.)*
+
+Câu 38 [Practice Exam 11]: How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Select TWO) (AWS Trusted Advisor cung cấp hướng dẫn cho người dùng Đám mây AWS như thế nào? (Chọn HAI))
+A. It identifies software vulnerabilities in applications running on AWS. *(Nó xác định các lỗ hổng phần mềm trong các ứng dụng chạy trên AWS.)*
+* B. It provides a list of cost optimization recommendations based on current AWS usage. *(Nó cung cấp danh sách các đề xuất tối ưu hóa chi phí dựa trên mức sử dụng AWS hiện tại.)*
+* C. It detects potential security vulnerabilities caused by permissions settings on account resources. *(Nó phát hiện các lỗ hổng bảo mật tiềm ẩn do cài đặt quyền trên tài nguyên tài khoản gây ra.)*
+D. It automatically corrects potential security issues caused by permissions settings on account resources. *(Nó tự động khắc phục các sự cố bảo mật tiềm ẩn do cài đặt quyền trên tài nguyên tài khoản gây ra.)*
+E. It provides proactive alerting whenever an Amazon EC2 instance has been compromised. *(Nó cung cấp cảnh báo chủ động mỗi khi phiên bản Amazon EC2 bị xâm phạm.)*
+
+Câu 39 [Practice Exam 11]: What credential components are required to gain programmatic access to an AWS account? (Select TWO) (Cần có những thành phần thông tin xác thực nào để có được quyền truy cập theo chương trình vào tài khoản AWS? (Chọn HAI))
+* A. An access key ID. *(ID khóa truy cập.)*
+B. A primary key. *(Một khóa chính.)*
+* C. A secret access key. *(Một khóa truy cập bí mật.)*
+D. A user ID. *(ID người dùng.)*
+E. A secondary key. *(Một khóa phụ.)*
+
+Câu 40 [Practice Exam 11]: Which of the following security measures protect access to an AWS account? (Select TWO) (Biện pháp bảo mật nào sau đây bảo vệ quyền truy cập vào tài khoản AWS? (Chọn HAI))
+A. Enable AWS CloudTrail. *(Kích hoạt AWS CloudTrail.)*
+* B. Grant least privilege access to IAM users. *(Cấp quyền truy cập đặc quyền tối thiểu cho người dùng IAM.)*
+C. Create one IAM user and share with many developers and users. *(Tạo một người dùng IAM và chia sẻ với nhiều nhà phát triển và người dùng.)*
+D. Enable Amazon CloudFront. *(Kích hoạt Amazon CloudFront.)*
+* E. Activate multi-factor authentication (MFA) for privileged users. *(Kích hoạt xác thực đa yếu tố (MFA) cho người dùng đặc quyền.)*
+
+Câu 41 [Practice Exam 11]: Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO) (Dịch vụ AWS nào sau đây có thể được sử dụng để phân phối lượng lớn nội dung video trực tuyến với độ trễ thấp nhất có thể? (Chọn HAI))
+A. appGateway.
+* B. Amazon S3.
+C. Amazon Elastic File System (EFS). *(Hệ thống tệp đàn hồi của Amazon (EFS).)*
+D. Amazon Glacier.
+* E. Amazom CloudFront.
+
+Câu 42 [Practice Exam 11]: What can AWS edge locations be used for? (Select TWO) (Vị trí biên của AWS có thể được sử dụng để làm gì? (Chọn HAI))
+A. Hosting applications. *(Ứng dụng lưu trữ.)*
+* B. Delivering content closer to users. *(Đưa nội dung đến gần hơn với người dùng.)*
+C. Running NoSQL database caching services. *(Chạy các dịch vụ bộ nhớ đệm cơ sở dữ liệu NoSQL.)*
+* D. Reducing traffic on the server by caching responses. *(Giảm lưu lượng truy cập trên máy chủ bằng phản hồi bộ nhớ đệm.)*
+E. Sending notification messages to end users. *(Gửi tin nhắn thông báo tới người dùng cuối.)*
+
+Câu 43 [Practice Exam 11]: A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer’s decision? (Select TWO) (Một khách hàng đang triển khai một ứng dụng mới và cần chọn Khu vực AWS. Yếu tố nào sau đây có thể ảnh hưởng đến quyết định của khách hàng? (Chọn HAI))
+* A. Reduced latency to users. *(Giảm độ trễ cho người dùng.)*
+B. The application’s presentation in the local language. *(Trình bày của ứng dụng bằng ngôn ngữ địa phương.)*
+* C. Data sovereignty compliance. *(Tuân thủ chủ quyền dữ liệu.)*
+D. Cooling costs in hotter climates. *(Chi phí làm mát ở vùng khí hậu nóng hơn.)*
+E. Proximity to the customer’s office for on-site visits. *(Gần văn phòng của khách hàng để tham quan thực tế.)*
+
+Câu 44 [Practice Exam 11]: How can a customer increase security to AWS account logons? (Select TWO) (Làm cách nào khách hàng có thể tăng cường bảo mật khi đăng nhập tài khoản AWS? (Chọn HAI))
+A. Configure AWS Certificate Manager *(Định cấu hình Trình quản lý chứng chỉ AWS)*
+* B. Enable Multi-Factor Authentication (MFA) *(Kích hoạt xác thực đa yếu tố (MFA))*
+C. Use Amazon Cognito to manage access *(Sử dụng Amazon Cognito để quản lý quyền truy cập)*
+* D. Configure a strong password policy *(Định cấu hình chính sách mật khẩu mạnh)*
+E. Enable AWS Organizations *(Kích hoạt tổ chức AWS)*
+
+Câu 45 [Practice Exam 12]: What can assist in evaluating an application for migration to the cloud? (Select TWO) (Điều gì có thể hỗ trợ trong việc đánh giá một ứng dụng di chuyển lên đám mây? (Chọn HAI))
+A. AWS Trusted Advisor.
+* B. AWS Professional Services.
+C. AWS Systems Manager.
+* D. AWS Partner Network (APN). *(Mạng đối tác AWS (APN).)*
+E. AWS Secrets Manager.
+
+Câu 46 [Practice Exam 12]: Which of the following are valid ways for a customer to interact with AWS services? (Select TWO) (Cách nào sau đây là hợp lệ để khách hàng tương tác với dịch vụ AWS? (Chọn HAI))
+* A. Command line interface. *(Giao diện dòng lệnh.)*
+B. On-premises.
+* C. Software Development Kits. *(Bộ công cụ phát triển phần mềm.)*
+D. Software-as-a-service.
+E. Hybrid.
+
+Câu 47 [Practice Exam 12]: What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Select TWO) (Lợi ích của việc phát triển và chạy ứng dụng mới trên Đám mây AWS so với tại chỗ là gì? (Chọn HAI))
+A. AWS automatically distributes the data globally for higher durability. *(AWS tự động phân phối dữ liệu trên toàn cầu để có độ bền cao hơn.)*
+B. AWS will take care of operating the application. *(AWS sẽ đảm nhiệm việc vận hành ứng dụng.)*
+* C. AWS makes it easy to architect for high availability. *(AWS giúp bạn dễ dàng xây dựng kiến ​​trúc để có tính sẵn sàng cao.)*
+* D. AWS can easily accommodate application demand changes. *(AWS có thể dễ dàng đáp ứng những thay đổi về nhu cầu ứng dụng.)*
+E. AWS takes care of application security patching. *(AWS đảm nhận việc vá lỗi bảo mật ứng dụng.)*
+
+Câu 48 [Practice Exam 12]: AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Select TWO) (AWS hỗ trợ phương pháp nào sau đây để tăng cường bảo mật cho người dùng Quản lý danh tính và quyền truy cập (IAM)? (Chọn HAI))
+A. Implementing Amazon Rekognition. *(Triển khai Amazon Rekognition.)*
+B. Using AWS Shield-protected resources. *(Sử dụng tài nguyên được bảo vệ bởi AWS Shield.)*
+C. Blocking access with Security Groups. *(Chặn quyền truy cập với Nhóm bảo mật.)*
+* D. Using Multi-Factor Authentication (MFA). *(Sử dụng xác thực đa yếu tố (MFA).)*
+* E. Enforcing password strength and expiration. *(Thực thi độ mạnh và thời hạn của mật khẩu.)*
+
+Câu 49 [Practice Exam 12]: A company wants to migrate its applications to a VPC on AWS These applications will need to access on-premises resources. What combination of actions will enable the company to accomplish this goals? (Select TWO) (Một công ty muốn di chuyển ứng dụng của mình sang VPC trên AWS. Các ứng dụng này sẽ cần truy cập vào tài nguyên tại chỗ. Sự kết hợp hành động nào sẽ giúp công ty đạt được mục tiêu này? (Chọn HAI))
+A. Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated *(Sử dụng Danh mục dịch vụ AWS để xác định danh sách tài nguyên tại chỗ có thể được di chuyển)*
+* B. Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC *(Xây dựng kết nối VPN giữa thiết bị tại chỗ và cổng riêng ảo trong VPC mới)*
+C. Use Amazon Athena to query data from the on-premises database servers *(Sử dụng Amazon Athena để truy vấn dữ liệu từ máy chủ cơ sở dữ liệu tại chỗ)*
+* D. Connect the company’s on-premises data center to AWS using AWS Direct Connect *(Kết nối trung tâm dữ liệu tại chỗ của công ty với AWS bằng AWS Direct Connect)*
+E. Leverage Amazon CloudFront to restrict access to static web content provided through the company’s on-premises web servers *(Tận dụng Amazon CloudFront để hạn chế quyền truy cập vào nội dung web tĩnh được cung cấp thông qua máy chủ web tại chỗ của công ty)*
+
+Câu 50 [Practice Exam 12]: Which of the following security-related services does AWS offer? (Select TWO) (AWS cung cấp dịch vụ liên quan đến bảo mật nào sau đây? (Chọn HAI))
+A. Multi-factor authentication physical tokens. *(Mã thông báo vật lý xác thực đa yếu tố.)*
+* B. AWS Trusted Advisor security checks. *(Kiểm tra bảo mật của AWS Trusted Advisor.)*
+* C. Data encryption. *(Mã hóa dữ liệu.)*
+D. Automated penetration testing. *(Kiểm tra thâm nhập tự động.)*
+E. Amazon S3 copyrighted content detection. *(Phát hiện nội dung có bản quyền của Amazon S3.)*
+
