@@ -1,0 +1,95 @@
+Ví điện tử Paypal là một dạng...
+Khóa mã (encrypted key)
+The ATM
+* Thẻ bài (token)
+Thẻ thông minh (smart card)
+
+Điểm yếu nào sau đây là chủ yếu của môi trường mạng không dây?
+Phần mềm giải mã (Decryption software)
+IP spoofing (Giả mạo IP)
+A gap in the WAP (Một khe hở trong WAP)
+* Định vị nơi làm việc (Site survey)
+
+Phát hiện tấn công, xâm nhập dựa trên bất thường có tiềm năng phát hiện các loại tấn công, xâm nhập mới là do:
+* Không yêu cầu biết trước thông tin về chúng
+Đã có chữ ký của các tấn công, xâm nhập mới
+Các tấn công, xâm nhập mới thường dễ nhận biết
+Không yêu cầu xây dựng cơ sở dữ liệu các chữ ký
+
+Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, xâm nhập dựa trên bất thường là:
+Không có khả năng ngăn chặn tấn công, đột nhập
+Không có khả năng phát hiện các cuộc tấn công Dos
+* Tỷ lệ cảnh báo sai cao
+Không có khả năng phát hiện tấn công, xâm nhập mới
+
+Các phương pháp xử lý, phân tích dữ liệu và mô hình hoá trong phát hiện tấn công, xâm nhập dựa trên bất thường, gồm:
+* Thống kê, học máy, khai phá dữ liệu
+Học máy, khai phá dữ liệu, agents
+Thống kê, học máy, đồ thị
+Thống kê, đối sánh chuỗi, đồ thị
+
+Các giao thức xác thực nào sau đây được sử dụng trong các mạng không dây?
+802.1X
+* 802.11b
+802.11a
+803.1
+
+Tìm phát biểu đúng về phát hiện xâm nhập dựa trên chữ ký và phát hiện xâm nhập dựa trên bất thường:
+* Phát hiện xâm nhập dựa trên chữ ký thường có tỷ lệ phát hiện đúng cao hơn
+Tính bảo mật, tính toàn vẹn và tính xác thực
+Tính bảo mật, tính toàn vẹn và tính sẵn dùng
+Tính bí mật, tính toàn vẹn và tính sẵn dùng
+
+Phương pháp điều khiển truy cập có hiệu quả và an toàn nhất đối với mạng không dây là:
+Mã hóa WEP 40 bit
+VPN
+* Mã hóa WEP kết hợp với lọc địa chỉ MAC
+Nhận dạng bảo mật mạng
+
+Mức mã hóa WEP nào nên được thiết lập trên một mạng 802.11b?
+* 128 bit
+40 bit
+28 bit
+16 bit
+
+Cơ cấu bảo mật mạng không dây nào sau đây là ít an toàn nhất?
+VPN
+* Mã hóa WEP 40 bit
+Bảo mật định danh mạng
+Mã hóa WEP 128 bit
+
+Cơ cấu bảo mật nào sau đây được sử dụng với chuẩn không dây WAP?
+* WTLS
+SSL
+HTTPS
+Mã hóa WEP
+
+Giao thức nào được thiết kế để cung cấp bảo mật cho mạng không dây tương đương với việc bảo mật của một mạng diện rộng?
+WAP
+WTLS
+* WEP
+IR
+
+Công cụ/cơ chế bảo mật cho mạng không dây là
+SSL
+TSL
+Giao thức PGP
+* WEP
+
+Giao thức bảo mật cho mạng không dây là
+Giao thức SSL
+Giao thức TSL
+Giao thức PGP
+* Giao thức WEP
+
+Facebook cho phép bạn thiết lập lựa chọn 3-5 người bạn tin cậy (trusted contacts) để làm gì?
+Để tạo nhóm bí mật
+* Để trợ giúp nếu bạn bị khóa tài khoản
+Để lưu trữ mật khẩu giúp bạn
+Tất cả đều sai
+
+Đặc trưng tiêu biểu của tiền điện tử là gì
+Chống gian lận
+* Ẩn danh người dùng
+Phương thức thanh toán
+Tính hữu dụng.

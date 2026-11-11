@@ -1,0 +1,41 @@
+Quy trình crack một sản phẩm phần mềm đơn giản gồm mấy bước
+* 3
+4
+5
+3 hoặc 4
+
+Các loại mục tiêu của chiến tranh thông tin
+Website, E-commerce server
+* Internet Relay Chat (IRC), Domain Name System (DNS)
+ISP, Email server
+Tất cả đều đúng
+
+Các phát biểu sau đây, phát biểu nào tốt nhất mô tả một hacker mũ trắng?
+* Chuyên gia bảo mật
+Cựu Hacker mũ đen
+Cựu Hacker mũ xám
+Hacker hiểm độc
+
+Một trang web yêu cầu bạn muốn trở thành thành viên, phải xác thực bằng cách gửi email hình ảnh chụp thẻ tín dụng, bạn nên làm thế nào?
+Kiểm chứng các thông tin trang web đưa ra, nếu đúng có thể chụp ảnh mặt trước của thẻ tín dụng, xóa một phần thông tin của thẻ và gửi email cho trang web
+* Bạn không gửi bất kỳ thông tin nào cho những trang web như vậy.
+Bạn có thể gửi hình ảnh thẻ tín dụng bất kỳ mình tìm thấy trên Internet
+Tất cả đều sai
+
+Bạn không muốn người lạ tìm thấy tài khoản thông qua email hay số điện thoại đăng ký với Facebook, bạn phải làm thế nào?
+Facebook luôn bảo mật thông tin cá nhân, nên không ai có thể tìm được tài khoản của bạn
+Email cho Facebook để yêu cầu ẩn thông tin cá nhân
+* Vào "Quyền riêng tư" để kiểm soát việc người khác tìm kiếm tài khoản của bạn.
+Tất cả đều sai
+
+Viết từ khoá nào dưới đây lên Facebook giúp bạn kiểm tra mức độ bảo mật của tài khoản?
+BFF
+SEC
+XOXO
+* Không có từ khóa nào
+
+Có nhiều người chia sẻ tài liệu hữu ích trên Facebook và yêu cầu để lại số điện thoại, email, số CMND... Bạn có nên làm theo để nhận tài liệu?
+Có, đó là những tài liệu hữu ích và vô hại
+* Không, bạn nên tránh gửi thông tin cá nhân cho người lạ
+Bạn sẽ để lại email của bạn bè để nhờ nhận hộ
+Tất cả đều sai

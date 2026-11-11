@@ -1,0 +1,167 @@
+Ưu điểm của mật khẩu một lần (OTP-One Time Password) so với mật khẩu truyền thống là:
+Chống được tấn công từ điển
+Chống được tấn công vét cạn
+Chống được tấn công phá mã
+* Chống được tấn công phát lại
+
+Sau khi một user được định danh và xác thực hệ thống, để cho phép user sử dụng tài nguyên bạn phải thực hiện điều gì?
+* Phải được ủy quyền
+Được truyền lại
+Được mã hóa
+Được enable
+
+Chiều dài tối thiểu của mật khẩu cần phải là:
+12 đến 15 ký tự
+3 đến 5 ký tự
+* 8 ký tự
+1 đến 3 ký tự
+
+Điều gì cần được thực hiện đối với tập tin mật khẩu để ngăn chặn một người dùng trái phép crack vào các nội dung?
+Hủy bỏ tất cả các quyền truy cập
+* Mã hóa tập tin mật khẩu
+Di chuyển ngoại tuyến đến một đĩa mềm
+Sao chép đến một tập tin bù nhìn với một tên khác
+
+Các mật khẩu nào sau đây là khó phá nhất đối với một hacker?
+password83
+reception
+* !$aLtNb83
+LaT3r
+
+Tính năng bảo mật nào có thể được sử dụng đối với một máy trạm quay số truy cập từ xa sử dụng một username và mật khẩu?
+Mã hóa số điện thoại
+Kiểm tra chuỗi modem
+Hiển thị gọi
+* Gọi lại ( Call back)
+
+Yếu tố nào cần được sử dụng kết hợp với một thẻ thông minh để xác thực?
+* PIN
+Quét võng mạc
+Mã hóa khóa
+Thẻ nhớ
+
+Một user gọi điện đến cho ta (với tư cách là người quản lý) thông báo họ bị mất mật khẩu và cần truy cập ngay lập tức. Ta nên làm gì?
+Cung cấp truy cập ngay lập tức, và sau đó kiểm tra chứng cứ của họ
+Tạo một login và mật khẩu tạm thời để họ sử dụng
+* Xác minh định danh của họ trước khi cấp quyền truy cập
+Cho họ một mật khẩu riêng tạm thời
+
+Phương pháp xác thực nào sử dụng một KDC để thực hiện xác thực?
+Chap
+* Kerberos
+Sinh trắc học
+Thẻ thông minh
+
+Phương pháp xác thực nào gởi trả lại một “yêu cầu” (request) cho máy trạm và” yêu cầu” đó được mã hóa và gởi trở lại máy chủ?
+Kerberos
+Các mã thông báo bảo mật
+DAC
+* CHAP
+
+Phương pháp quét võng mạc thích hợp nhất đối với các dịch vụ nào sau đây?
+Kiểm định
+Xác thực
+* Kiểm soát truy cập
+Bảo mật dữ liệu
+
+Công nghệ nào sau đây dựa vào thuộc tính vật lý của user để xác thực?
+Thẻ thông minh
+* Sinh trắc học
+Xác thực lẫn nhau
+Các mã thông báo
+
+Phương pháp xác thực nào cung cấp tài liệu đáng tin cậy có hiệu lực trong suốt một phiên làm việc đơn?
+Các mã thông báo
+* Chứng chỉ
+Thẻ thông minh
+Kerberos
+
+Phương pháp xác thực nào dưới đây cung cấp khả năng xác thực có độ an toàn cao nhất?
+Sử dụng mật khẩu
+Sử dụng Smartcard
+Sử dụng chứng chỉ số
+* Sử dụng vân tay
+
+Trong hệ thống Kerberos gồm 3 thực thể: client A, máy chủ Kerberos T, máy chủ ứng dụng B, mục đích của hệ thống là để:
+* T hỗ trợ A xác thực thông tin nhận dạng với B, kèm theo thiết lập khóa
+T xác thực B
+T xác thực A và B
+T xác thực A
+
+Dạng xác thực sử dụng các thông tin nào dưới đây đảm bảo độ an toàn cao hơn?
+Thẻ ATM và tên truy nhập
+Tên truy nhập và số PIN
+* Thẻ ATM và số PIN
+Tên truy nhập và mật khẩu
+
+Phương pháp xác thực nào dưới đây có thể cung cấp khả năng xác thực có độ an toàn cao nhất?
+Sử dụng Smartcard
+* Sử dụng vân tay
+Sử dụng chứng chỉ số
+Sử dụng mật khẩu
+
+Keberos là dịch vụ ủy thác
+Xác thực trên Web
+Xác thực X.509
+* Xác thực trên Server
+Xác thực trên các máy trạm với nhau
+
+Việc xác thực người dùng khi đăng cập vào hệ thống Window XP, 2000 hoặc 2003 sử dụng giải thuật
+RSA
+* Keberos
+MD5
+SHATR
+
+Phương pháp chứng thực được sử dụng phổ biến hiện nay:
+Password
+e-Token
+Fingerprint
+* Tất cả các phương pháp trên
+
+Xác thực 2 yếu tố (two-factor authentication) trên Facebook là gì?
+* Sau khi điền mật khẩu, người dùng nhập thêm mã bảo mật để truy cập Facebook
+Xác thực bằng cách nhập mật khẩu hai lần
+Người dùng xác thực bằng một tài khoản Facebook khác
+Tất cả đều sai
+
+Xác thực OTP là gì?
+Đưa ra câu hỏi phụ
+* Mật khẩu dùng một lần
+Người dùng nhập lại password
+Xác thực dựa trên 2 yếu tố
+
+Xác thực dựa trên 2 yếu tố 2FA là gì?
+Đưa ra câu hỏi phụ
+Mật khẩu dùng một lần
+Người dùng nhập lại password
+* Xác thực qua điện thoại.
+
+Nhận dạng người dùng là chức năng của:
+Người quản trị
+* Hệ quản trị cơ sở dữ liệu
+Người đứng đầu tổ chức
+Người thiết kế cơ sở dữ liệu
+
+Người dùng Facebook nhận mã xác thực 2 yếu tố như thế nào?
+Sử dụng hình ảnh, giọng nói
+* Sử dụng tin nhắn văn bản (SMS), trình tạo mã, mã khôi phục
+Sử dụng email
+Tất cả đều sai
+
+Dịch vụ Active Directory thực hiện các chức năng sau
+Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng
+Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực, cấp quyền cho các đối tượng
+Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups
+* Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user
+
+Quản trị văn phòng của bạn đang được huấn luyện để thực hiện sao lưu máy chủ. Phương pháp xác thực nào là lý tưởng đối với tình huống này?
+* MAC
+DAC
+RBAC
+Các mã thông báo bảo mật
+
+RFID- Radio Frequency Identification là kỹ thuật nhận dạng nào?
+Nhận dạng sinh trắc học.
+* Nhận dạng qua tín hiệu RF.
+Nhận dạng hình ảnh.
+Không phải các dạng nói trên.

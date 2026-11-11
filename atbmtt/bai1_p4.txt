@@ -1,0 +1,335 @@
+Dạng tấn công gây ngắt quãng dịch vụ hoặc kênh truyền thông cho người dùng bình thường là:
+Interceptions
+Fabrications
+* Interruptions
+Modifications
+
+Tấn công nghe lén là kiểu tấn công:
+* Thụ động
+Chủ động
+Chiếm quyền điều khiển
+Chủ động và bị động
+
+Dạng tấn công chặn bắt thông tin truyền trên mạng để sửa đổi hoặc lạm dụng là:
+Fabrications
+* Modifications
+Interruptions
+Interceptions
+
+Có thể phòng chống tấn công Smurf bằng cách cấu hình các máy và router không trả lời...
+* Các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
+Các yêu cầu TCP hoặc các yêu cầu phát quảng bá
+Các yêu cầu UPD hoặc các yêu cầu phát quảng bá
+Các yêu cầu HTTP hoặc các yêu cầu phát quảng bá
+
+Đâu là một kỹ thuật tấn công Dos?
+UDP Ping
+DNS Cache Poisoning
+* Smurf
+DNS spoofing
+
+Dạng tấn công giả mạo thông tin thường để đánh lừa người dùng thông thường là:
+Modifications
+* Fabrications
+Interruptions
+Interceptions
+
+Kỹ thuật tấn công Smurf sử dụng giao thức ICMP và Cơ chế gửi…
+Unicast
+Multicast
+Anycast
+* Broadcast
+
+Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là…
+* Reflectors
+Injectors
+Requesters
+Forwarders
+
+Pharming là kiểu tấn công vào…
+Máy chủ web
+Máy chủ cơ sở dữ liệu của trang web
+Máy chủ và máy khách web
+* Máy khách/trình duyệt web
+
+Đây là một công cụ kiểm tra lỗ hổng tấn công chèn mã SQL trên các website:
+SQLCheck
+SQL Server
+* SQLmap
+SQLite
+
+Khác biệt cơ bản giữa tấn công DoS và DDoS là:
+* Phạm vi tấn công
+Mức độ gây hại
+Kỹ thuật tấn công
+Tần suất tấn công
+
+Mục đích chính của tấn công giả mạo địa chỉ IP là:
+Để vượt qua các hệ thống IPS và IDS
+* Để vượt qua các hàng rào kiểm soát an ninh
+Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
+Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
+
+Đây là một kỹ thuật tấn công Dos?
+SYN requests
+DNS spoofing
+IP spoofing
+* Ping of death
+
+Tấn công từ chối dịch vụ (Dos - Denial of Service Attacks) là dạng tấn công có khả năng...
+Gây hư hỏng phần cứng máy chủ
+* Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống
+Đánh cắp dữ liệu trong hệ thống
+Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệ thống
+
+Nguy cơ cao nhất mà một cuộc tấn công chèn mã SQL có thể gây ra cho một hệ thống là:
+Đánh cắp các thông tin trong cơ sở dữ liệu
+Chèn, xóa hoặc sửa đổi dữ liệu
+Vượt qua các khâu xác thực người dùng
+* Chiếm quyền điều khiển hệ thống
+
+Tấn công kiểu Social Engineering là dạng tấn công khai thác yếu tố nào sau đây trong hệ thống?
+Máy trạm
+* Người dùng
+Máy chủ
+Hệ điều hành & ứng dụng
+
+Câu lệnh SQL nào tin tặc thường sử dụng trong tấn công chèn mã SQL để đánh cắp các thông tin trong cơ sở dữ liệu?
+UNION INSERT
+* UNION SELECT
+SELECT UNION
+INSERT SELECT
+
+Phishing là một dạng của loại tấn công sử dụng...
+Kỹ thuật chèn mã
+Kỹ thuật giả mạo địa chỉ IP
+Kỹ thuật gây tràn bộ đệm
+* Kỹ thuật xã hội
+
+Tại sao một hệ thống phát hiện xâm nhập dựa trên chữ ký không thể phát hiện các tấn công, xâm nhập mới?
+* Do chữ ký của chúng chưa tồn tại trong hệ thống
+Do các tấn công, xâm nhập mới không có chữ ký
+Do các tấn công, xâm nhập mới không gây ra bất thường
+Do các tấn công, xâm nhập mới chỉ gây thiệt hại nhỏ
+
+Kỹ thuật tấn công SYN Floods khai thác điểm yếu trong khâu nào trong bộ giao thức TCP/IP?
+* Bắt tay 3 bước
+Bắt tay 2 bước
+Xác thực người dùng
+Truyền dữ liệu
+
+Đâu là một biện pháp phòng chống tấn công SYN Floods?
+SYN Firewall
+SYN IDS
+SYN Proxy
+* SYN Cache
+
+Tấn công kiểu Social Engineering có thể cho phép tin tặc:
+Phá hỏng máy chủ
+Đánh cắp toàn bộ cơ sở dữ liệu trên máy chủ
+* Đánh cắp thông tin nhạy cảm của người dùng
+Đánh cắp thông tin nhạy cảm trong cơ sở dữ liệu trên máy chủ
+
+Tại sao việc sử dụng thủ tục cơ sở dữ liệu (Stored procedure ) là một trong các biện pháp hiệu quả để ngăn chặn triệt để tấn công chèn mã SQL?
+Thủ tục cơ sở dữ liệu có khả năng cấm chèn mã
+Thủ tục cơ sở dữ liệu độc lập với các ứng dụng
+* Thủ tục cơ sở dữ liệu cho phép tách mã lệnh SQL khỏi dữ liệu người dùng
+Thủ tục cơ sở dữ liệu lưu trong cơ sở dữ liệu và chạy nhanh hơn câu lệnh trực tiếp
+
+Đâu là một trong các biện pháp chống tấn công khai thác lỗi tràn bộ đệm?
+Sử dụng công nghệ xác minh mạnh
+* Sử dụng cơ chế cấm thực hiện mã trong dữ liệu
+Sử dụng tường lửa
+Sử dụng các kỹ thuật mật mã
+
+Tấn công chặn bắt thường liên quan đến việc nghe lén trên đường truyền và chuyển hướng thông tin để sử dụng trái phép?
+Fabrications
+* Interceptions
+Interruptions
+Modifications
+
+Tấn công gây ngắt quãng làm ngắt, hoặc chậm kênh truyền thông, hoặc làm quá tải hệ thống, ngăn cản việc truy nhập dịch vụ của người dùng hợp pháp:
+Fabrications
+Interceptions
+* Interruptions
+Modifications
+
+Trong các vùng hạ tầng CNTT, vùng nào dễ bị tấn công DoS, DDoS nhất?
+Vùng người dùng
+Vùng mạng LAN
+Vùng mạng WAN
+* Vùng mạng LAN-to-WAN
+
+Dạng tấn công chèn mã được tin tặc sử dụng phổ biến trên các trang web nhắm đến các cơ sở dữ liệu là:
+* Tấn công chèn mã SQL
+Tấn công chèn mã XSS
+Tấn công chèn mã CSRF
+Tấn công chèn mã HTML
+
+Đâu là một trong các biện pháp phòng chống tấn công khai thác lỗi tràn bộ đệm?
+* Sử dụng các thư viện lập trình an toàn hoặc cơ chế cấm thực hiện mã trong dữ liệu (DEP)
+Sử dụng tường lửa
+Sử dụng các kỹ thuật mật mã
+Sử dụng công nghệ xác thực mạnh
+
+Để thực hiện tấn công Smurf, tin tặc phải giả mạo địa chỉ gói tin ICMP trong yêu cầu tấn công. Tin tặc sử dụng…
+* Địa chỉ máy nạn nhân làm địa đích của gói tin
+Địa chỉ router làm địa đích của gói tin
+Địa chỉ máy nạn nhân làm địa nguồn của gói tin
+Địa chỉ router làm địa nguồn của gói tin
+
+Footprinting là gì?
+đo dấu vết của một hacker có đạo đức
+tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu
+quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại
+* sơ đồ bố trí vật lý của một mạng của mục tiêu
+
+System Hacking là một phương thức tấn công kiểu:
+Điều khiển máy tính nạn nhân từ xa.
+* Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng.
+Tấn công làm tê liệt hệ thống mạng của nạn nhân.
+Đánh cắp dữ liệu của nạn nhân truyền trên mạng.
+
+Sniffing là một phương thức tấn công kiểu:
+Điều khiển máy tính nạn nhân từ xa.
+* Đánh cắp dữ liệu của nạn nhân truyền trên mạng.
+Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng.
+Tấn công làm tê liệt hệ thống mạng của nạn nhân.
+
+Denial of Service (DoS) là:
+Một dịch vụ mạng.
+Một kiểu kết nối mạng.
+Phương thức liên kết mạng.
+* Phương thức tấn công từ chối dịch vụ.
+
+Hình thức nào sau đây không phải là hình thức tấn công DoS?
+Teardrop
+SYN attack
+Smurf
+* ARP spoofing
+
+"Spam" trong email là gì?
+* Email rác hoặc email quảng cáo không mong muốn.
+Email đặc biệt.
+Email bí mật được gửi riêng cho người dùng.
+Email trong hộp thư đến.
+
+Lừa đảo "Phishing" trong email là gì?
+Hình thức quảng cáo qua email.
+Hình thức hướng dẫn câu cá qua email.
+* Hình thức đánh cắp thông tin qua email.
+Hình thức spam email.
+
+Bạn cần cấm việc dò quét từ mạng khác theo giao thức ICMP . Bạn phải set lệnh deny ICMP với tham số nào?
+Type = 3, Code = 1
+Type = 3, Code = 6
+Type = 3, Code = 7
+* Type = 3, Code = 0
+
+Bộ lọc gói thực hiện chức năng nào?
+* Ngăn chặn các gói trái phép đi vào từ mạng bên ngoài
+Cho phép tất cả các gói rời mạng
+Cho phép tất cả các gói đi vào mạng
+Loại trừ sự xung đột trong mạng
+
+Loại Firewall nào sau đây cho phép hoạt động ở lớp phiên ( session) của mô hình OSI
+Packet filtering firewall(lop mang)
+* Circuit level firewall(lop phien)
+Application level firewall(lop ung dung)
+Stateful multilayer inspection firewall
+
+Để đánh giá điểm mạnh của hệ thống IDS người ta dựa vào các yếu tố sau:
+Khởi sự, Cách thực hiện, biểu hiện mà nó ghi nhận
+* Khởi sự, giám sát v�� trí, những đặc trưng ghép nối hoặc tích hợp
+Cách thực hiện, biểu hiện mà nó ghi nhận, những đặc trưng ghép nối hoặc tích hợp
+Tất cả đều đúng
+
+Khi thực hiện triển khai HIDS khó khăn gặp là
+Chi phí lắp đặt cao, khó bảo quản và duy trì
+* Giới hạn tầm nhìn mạng, phải xử lí với nhiều hệ điều hành khác trên mạng.
+Thường xuyên phải cập nhật bảng vá lỗi
+Thường xuyên cài đặt lại phải khi hệ thống mạng thay đổi hệ điều hành
+
+Sự khác biệt chính giữa hệ thống ngăn chặn xâm nhập (IPS) và hệ thống phát hiện xâm nhập (IDS) là:
+IPS phát hiện xâm nhập hiệu quả hơn
+* IPS có khả năng chủ động ngăn chặn xâm nhập
+IDS phát hiện xâm nhập hiệu quả hơn
+IDS có khả năng chủ động ngăn chặn xâm nhập
+
+Tường lửa lọc gói có thể lọc các thông tin nào trong gói tin?
+* Chỉ các thông tin trong header của gói tin
+Chỉ các thông tin trong payload của gói tin
+Chỉ lọc địa chỉ IP trong gói tin
+Cả thông tin trong header và payload của gói tin
+
+Đâu là một loại tường lửa?
+Server gateway
+Application server
+* Application-level gateway
+Gateway server
+
+Phát biểu nào sau đây đúng với tường lửa
+* Tường lửa không thể ngăn chặn các tấn công hướng dữ liệu
+Tường lửa có thể ngăn chặn mọi loại tấn công, đột nhập
+Tường lửa có thể ngăn chặn mọi virus và phần mềm độc hại
+Tường lửa có thể ngăn chặn các loại thư rác
+
+Một ưu điểm của tường lửa có trạng thái so với tường lửa không trạng thái là:
+Lọc nội dung gói tốt hơn
+Nhận dạng được các dạng tấn công và các phần mềm độc hại
+Chạy nhanh hơn
+* Phân biệt được các gói tin thuộc về các kết nối mạng khác nhau
+
+Đâu là các tính năng của kiểm soát truy nhập sử dụng tường lửa?
+Kiểm soát dịch vụ và các phần mềm
+Kiểm soát người dùng và tin tặc
+* Kiểm soát dịch vụ và hướng
+Kiểm soát virus và các malware khác
+
+Điểm khác nhau chính giữa các hệ thống ngăn chặn đột nhập (IPS) và phát hiện đột nhập (IDS) là:
+IPS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IDS
+IDS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IPS
+* IPS có khả năng chủ động ngăn chặn tấn công so với IDS
+IPS có chi phí lớn hơn IDS
+
+Tường lửa không thể chống lại...
+* Các hiểm họa từ bên trong
+Các hiểm họa từ bên ngoài
+Tấn công giả mạo địa chỉ
+Tấn công từ mạng Internet
+
+Một nhiệm vụ chính của các hệ thống IDS/IPS là:
+Truy tìm và tấn công ngược lại hệ thống của tin tặc
+* Giám sát lưu lượng mạng hoặc các hành vi trên một hệ thống để nhận dạng các dấu hiệu của tấn công, xâm nhập
+Giám sát lưu lượng mạng nhận dạng các dấu hiệu của tấn công, xâm nhập
+Giám sát các hành vi trên một hệ thống để nhận dạng các dấu hiệu của tấn công, xâm nhập
+
+Hệ thống nào được cài đặt trên Host để cung cấp một tính năng IDS?
+Network sniffer
+N-IDS (Network-based IDS)
+* H-IDS (Host-based IDS)
+VPN
+
+Một công ty có máy chủ quản lý Website cung cấp thông tin trên Internet tại địa chỉ 203.162.4.115. Hãy cài đặt tập luật cho Server này:
+203.162.4.115-80-Any-80-Allow
+203.162.4.115-Any-203.162.4.115-80-Any
+* Any-Any-203.162.4.115- 80-Allow
+Any-Any-203.162.4.115- 80-Deny
+
+Tường lửa (firewall) không có tác dụng với?
+* Social Engineering
+Bảo vệ các lớp bên trong
+Cấm hoặc cho phép gói tin
+Kiểm soát luồng dữ liệu đi qua
+
+Các quy tắc (rule) của firewall được xác định bởi?
+Tên rule
+Hành động
+Giao thức
+* Tất cả đều đúng (Tên rule, Hành động, Giao thức, Điều kiện)
+
+Tường lửa loại Packet Filter được đặt tại lớp nào?
+Physical
+Data link
+Transport
+* Network

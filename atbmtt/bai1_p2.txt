@@ -1,0 +1,286 @@
+Sau khi cố gắng login đến một trạm làm việc trong 3 lần, một user thấy đã bị khóa bên ngoài hệ thống và không thể thực hiện bất kỳ nổ lực nào hơn nữa. Vấn đề này phù hợp nhất với điều gì?
+Cổng mạng disable
+Tường lửa disable khi truy cập đến host
+User quên mật khẩu của họ
+* Hệ thống phát hiện xâm nhập disable tài khoản của user
+
+Qui trình chiếm quyền truy cập đến tài nguyên mạng (đặc biệt như là các tập tin user và nhóm) được gọi là gì?
+In dấu chân
+Quét
+Thiết bị làm nhiễu
+* Liệt kê
+
+An toàn hệ thống thông tin là việc làm đảm bảo các thuộc tính an ninh, an toàn nào của hệ thống thông tin:
+Bí mật, xác thực và điều khiển
+Bí mật, toàn vẹn và không chối bỏ
+Bí mật, xác thực và không chối bỏ
+* Bí mật, toàn vẹn và sẵn dùng
+
+Giai đoạn đầu của hacking là gì?
+Duy trì truy cập
+Gaining truy cập
+* Trinh sát
+Dò tìm (Scanning)
+
+Ứng dụng mạng nào có thể được sử dụng để phân tích và kiểm tra lưu lượng mạng?
+IDS
+FTP
+Router
+* Sniffer
+
+Vùng nào của cấu trúc liên kết bảo mật mạng chứa các máy chủ Intenet, như là web, FTP, và các máy chủ email?
+* DMZ
+VLAN
+VPN
+Intranet
+
+Giao thức nào sau đây cần xóa trên thiết bị mạng quan trọng như router?
+TCP/IP
+* ICMP
+IPX/SPX
+RIP
+
+Hệ thống nào chủ động thực hiện việc giám sát mạng, phân tích và có thể thực hiện các bước phòng ngừa, bảo vệ mạng?
+* IDS
+Sniffer
+Router
+Switch
+
+Các kỹ thuật và công cụ thường được sử dụng trong an ninh mạng bao gồm:
+VPN, SSL/TLS, PGP
+Điều khiển truy nhập
+* Điều khiển truy nhập, tường lửa, proxy và các giao thức bảo mật, ứng dụng dựa trên mật mã
+Tường lửa, proxy
+
+Các hệ thống phát hiện xâm nhập có thể thu thập dữ liệu đầu vào từ…
+Các host
+* Mạng và các host
+Mạng
+Các router
+
+Hiện tượng mất một số file, làm phân mãnh ổ đĩa, gây tác hại vào những ngày, tháng đặc biệt do loại chương trình nguy hiểm nào gây ra:
+Virrus, Zombie
+Worm, Virus
+* Logicbomb, Virus
+Trapdoors, Trojan
+
+Điều nào dưới đây không phải là thành phần của an ninh mạng?
+Authentication
+Auditing
+Strong Encryption
+* Tất cả đều là thành phần của an ninh mạng
+
+Thiết lập quyền điều khiển từ xa của hacker đến máy nạn nhân là tác động hay gặp nhất của?
+Trojan
+Keylogger
+* RAT
+Virus
+
+Có thể kiểm tra các port đang mở với?
+MSConfig
+Tracert
+WhiteShark
+* Netstat
+
+Có khả năng lan truyền độc lập mà không cần lan truyền qua file là?
+* Worm
+Zombie
+Virus
+Trojan
+
+Kỹ thuật sử dụng các gói tin giả mạo chiếm đoạt kết nối giữa máy tính nạn nhân với máy đích?
+* TCP Hijacking
+Eavesdropping
+SYN Flooding
+Message replays
+
+An toàn dữ liệu có thể hiểu là:
+Dễ dàng cho công việc bảo trì dữ liệu
+* Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào...
+Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu.
+Tính nhất quán và toàn vẹn dữ liệu.
+
+Giả sử muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Phương pháp nào để chúng ta không bị lộ mạng bên trong?
+Cài đặt máy chủ trong mạng Intranet
+* Cài đặt máy chủ trong một DMZ
+Cài đặt máy chủ trong một VLAN
+Cài đặt máy chủ trong mạng Extranet
+
+Lệnh nào trong Windows cmd thực hiện kiểm tra các cổng đang bị lắng nghe
+ipconfig
+* netstat –an
+Tracert
+nslookup
+
+Nếu bạn nhận được các email với tiêu đề rất hấp dẫn như “Hey, see my nude video”, “Look, my sexy girl friend”. . . Bạn nên làm thế nào?
+Mở xem thử
+* Xóa email và quên nó đi, bạn sẽ không nhận được gì ngoài virus đâu
+Bạn nên forward cho người khác và nhờ người đó mở ra trước xem có vấn đề gì không
+Tất cả đều sai
+
+Các tập tin nào sau đây có khả năng chứa virus nhất?
+database. dat
+bigpic. jpeg
+note. txt
+* picture. gif. exe
+
+Loại mã nguồn độc hại nào có thể được cài đặt song không gây tác hại cho đến khi một hoạt động nào đó được kích hoạt?
+Sâu
+* Ngựa trojan
+Logic bomb
+Stealth virus
+
+Loại virus tự che giấu nó bằng cách ẩn trong mã nguồn của các phần mềm antivirus được gọi là gì?
+Armored virus
+* Polymorphic virus
+Sâu
+Stealth virus (Virus ẩn danh)
+
+Một virus được đính kèm chính nó vào boot sector của đĩa cứng và thông báo thông tin sai về kích thước các tập tin được gọi là gì?
+Virus Trojan
+* Stealth virus (virus ẩn danh)
+Sâu
+Polymorphic virus
+
+Các user nội bộ báo cáo hệ thống của họ bị lây nhiễm nhiều lần. Trong mọi trường hợp virus có vẻ là cùng một loại. Thủ phạm thích hợp nhất là gì?
+* Máy chủ có thể là vật mang virus
+Ta có một sâu virus
+Phần mềm antivirus của ta bị sự cố
+Tấn công DoS đang thực hiện
+
+Sâu SQL Slammer là sâu tấn công các hệ thống mạng lợi dụng lỗ hổng tràn bộ đệm ở:
+Máy chủ CSDL Microsoft SQL Server 2008
+Hệ điều hành Microsoft Windows 2003
+Máy chủ CSDL Microsoft SQL Server 2005
+* Máy chủ CSDL Microsoft SQL Server 2000
+
+Đặc trưng cơ bản khác biệ của worm với virus là:
+Có khả năng phá hoại lớn hơn so với virus
+* Có khả năng tự lay lan mà không cần vật chủ hoặc tác nhân
+Có khả năng lây lan nhanh chóng bằng nhiều phương pháp khác nhau
+Có khả năng chiếm quyền điều khiển hệ thống
+
+Macro virus là virus lây nhiễm trong:
+Các file tài liệu dạng PDF
+Các file tài liệu của bộ chương trình Open Office
+Các file ảnh dạng JPG
+* Các file tài liệu của bộ chương trình MS Office
+
+Tấn công bằng mã độc bao gồm các dạng tấn công:
+Cả cài đặt phần mềm độc hại và đánh cắp thông tin nhạy cảm
+Cài đặt và thực hiện các phần mềm độc hại trên hệ thống nạn nhân
+Lợi dụng các lỗ hổng an ninh để đánh cắp thông tin nhạy cảm
+* Lợi dụng các lỗ hổng an ninh để chèn và thực hiện mã độc trên hệ thống nạn nhân
+
+Chức năng chính của Virus là
+Lây nhiễm và sinh sản
+Sống ký sinh và lây nhiễm
+Tự phát triển độc lập và lây nhiễm
+* Tất cả đều đúng
+
+Hoạt động của virus có 4 giai đoạn
+Nằm im, lây nhiễm, tàn phá và tự hủy
+Lây nhiễm, tấn công, hủy diệt và tự hủy
+* Nằm im, lây nhiễm, khởi sự và tàn phá
+Lây nhiễm, khởi sự, tàn phát, kích họat lại
+
+Các dạng sau đây, dạng nào là của virus
+* stealth, cư trú bộ nhớ, macro, lưỡng tính, file
+virus ký sinh, file, boot sector, stealth, cư trú bộ nhớ, macro
+virus ký sinh, cư trú bộ nhớ, boot sector, Stealth, đa hình, macro
+
+Virus Macro chỉ có khả năng tấn công vào các file
+MS. Exel, MX Word, MS. Power Point
+stealth, cư trú bộ nhớ, macro, lưỡng tính, file
+* MS. Exel, MX Word, Yahoo Mail
+Tất cả các loại file
+
+Để thực hiện tấn công bằng Trojan, kẻ tấn công chỉ cần
+* Tạo 1 file chạy (*. exe, *. com) vận hành trên máy nạn nhân là đủ
+Cho máy nạn nhân lây nhiễm một loại virus bất kỳ nào đó.
+Thực hiện đồng thời 2 file, một file vận hành trên máy nạn nhân, file còn lại họat động điều khiển trên máy kẻ tấn công.
+Không có điều nào đúng.
+
+Trojan Horse là gì?
+một chương trình độc hại mà lấy cắp tên người dùng và mật khẩu của bạn
+* gây hại như mã giả mạo hoặc thay thế mã hợp pháp
+Một người sử dụng trái phép những người thu truy cập vào cơ sở dữ liệu người dùng của bạn và cho biết thêm mình như một người sử dụng
+Một máy chủ đó là phải hy sinh cho tất cả các hacking nỗ lực để đăng nhập và giám sát các hoạt động hacking
+
+Sâu SQL Slammer tấn công khai thác lỗi tràn bộ đệm trong hệ quản trị cơ sở dữ liệu:
+* SQL Server 2012
+SQL Server 2000
+SQL Server 2008
+SQL Server 2003
+
+Khác biệt cơ bản của vi rút và sâu là:
+Vi rút có khả năng tự lây lan mà không cần tương tác của người dùng
+* Sâu có khả năng tự lây lan mà không cần tương tác của người dùng
+Sâu Có khả năng phá hoại lớn lơn
+Vi rút có khả năng phá hoại lớn lớn
+
+Một trong các phương thức lây lan thường gặp của sâu mạng là:
+Lây lan thông qua sao chép các file
+Lây lan thông qua dịch vụ POP
+* Lây lan thông qua khả năng thực thi từ xa
+Lây lan thông qua Microsoft Office
+
+Macro viruses là loại viruses thường lây nhiễm vào…
+Các file tài liệu của bộ phần mềm Open Office
+Các file tài liệu của bộ phần mềm Microsoft Exchange
+Các file tài liệu của bộ phần mềm Microsoft SQL
+* Các file tài liệu của bộ phần mềm Microsoft Office
+
+Một trong các cách virus thường sử dụng để lây nhiễm vào các chương trình khác là:
+Ẩn mã của virus
+Thay thế các chương trình
+Xáo trộn mã của virus
+* Sửa đổi các chương trình
+
+Không nên sử dụng nhiều hơn 1 phần mềm quét virus chạy ở chế độ quét theo thời gian thực trên một máy tính vì:
+* Các phần mềm quét virus xung đột với nhau
+Các phần mềm quét virus không thể hoạt động
+Các phần mềm quét virus chiếm nhiều tài nguyên
+Các phần mềm quét virus tấn công lẫn nhau
+
+Một trong các biện pháp hiệu quả để phòng chống macro viruses là:
+Sử dụng IPS/IDS.
+Sử dụng tường lửa
+* Cấm tự động thực hiện macro trong Microsoft Office
+Cấm tự động thực hiện macro trong Microsoft Exchange
+
+Trong tấn công khai thác lỗi tràn bộ đệm tin tặc thường sử dụng một số lệnh NOP (No Operation) ở phần đầu của mã tấn công. Mục đích của việc này là gì:
+Tăng khả năng gây tràn bộ đệm
+Tăng khả năng gây lỗi chương trình
+Tăng khả năng phá hoại của mã tấn công
+* Tăng khả năng mã tấn công được thực hiện
+
+Sâu SQL Slammer được phát hiện vào năm nào?
+2002
+1997
+2007
+* 2003
+
+Tấn công lợi dụng lỗi tràn bộ đệm có thể giúp tin tặc chèn và thực hiện mã độc trên hệ thống nạn nhân thông qua cơ chế nào sau đây:
+Chèn mã độc vào thay thế mã trong chương trình có lỗi tràn bộ đệm
+* Tất cả các đáp án trên đều đúng
+Chèn mã độc vào bộ đệm và lợi dụng cơ chế trở về từ chương trình con để thực hiện mã độc đã chèn
+Chèn mã độc vào bộ đệm và lợi dụng cơ chế gọi thực hiện chương trình con để thực hiện mã độc đã chèn
+
+Trong tấn công khai thác lỗi tràn bộ đệm, tin tặc thường sử dụng một số lệnh NOP (No Operation) ở phần đầu của mã tấn công. Mục đích của việc này là để:
+Tăng khả năng phá hoại của mã tấn công
+Tăng khả năng gây tràn bộ đệm
+* Tăng khả năng mã tấn công được thực hiện
+Tăng khả năng gây lỗi chương trình
+
+Khi khai thác lỗi tràn bộ đệm, tin tặc thường chèn mã độc, gây tràn và ghi đè để sửa đổi thành phần nào sau đây của bộ nhớ Ngăn xếp để chuyển hướng nhằm thực hiện mã độc của mình:
+Các biển đầu vào của hàm
+Bộ đệm hoặc biển cục bộ của hàm
+Con trỏ khung ngăn xếp (sfp)
+* Địa chỉ trở về của hàm
+
+Tấn công bằng mã độc có thể gồm:
+Chèn mã XSS, CSRF
+Chèn mã SQL
+Tràn bộ đệm
+* SQLi, XSS, CSRF và Buffer overflow

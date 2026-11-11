@@ -1,0 +1,299 @@
+Trojan là một phương thức tấn công kiểu
+Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng
+Đánh cắp dữ liệu của nạn nhân truyền trên mạng
+Tấn công làm tê liệt hệ thống mạng của nạn nhân
+* Điều khiển máy tính nạn nhân từ xa thông qua phần mềm cài sẵn trong máy nạn nhân
+
+Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện:
+* Trojan Server được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Client.
+Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning.
+Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning.
+Trojan Client được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Server
+
+Kỹ thuật đánh cắp tài khoản bằng Keylog thường được các newbie Hacker ưa thích sử dụng là do
+Keylog rất mạnh trong việc nhận dạng user/password trong các gói tin gửi ra ngoài
+Keylog rất mạnh trong việc dò tìm mật khẩu đã bị mã hóa (encrypt) hoặc bị băm (Hash)
+* Do đa phần người dùng không quan tâm đến vấn đề bảo mật và Anti Virus
+Khó bị các chương trình Anti Virus phát hiện.
+
+Sâu máy tính và các virus khác phát tán như thế nào?
+* Tự động lan và lây nhiễm giữa các hệ thống.
+Phát tán qua các phần đính kèm với thư điện tử
+Gần như không thể phát tán trừ khi bạn mở hoặc chạy một chương trình bị nhiễm.
+Phát tán qua nội dung thư điện tử
+
+Ứng dụng nào thường dùng để đính kèm Trojan với một tập tin khác?
+* File EXE maker
+Insider
+FPort
+What is running
+
+Điều gì là sai khi nói về Trojan?
+Thường dùng để đánh cắp thông tin
+Làm chậm tốc độ máy tính
+Cấm chỉnh sửa Registry
+* Có khả năng tự nhân bản
+
+Trojan không thâm nhập máy tính bằng?
+Truy cập vật lý
+Chia sẻ file
+Duyệt web
+* Tất cả các con đường trên đều có thể bị Trojan lợi dụng
+
+Kỹ thuật nhằm tăng tốc độ thực thi và giảm kích thước chương trình virus được gọi là?
+Biến hình
+Chống bẫy
+* Tối ưu
+Ngụy trang
+
+Chương trình nào không phải là chương trình chống virus?
+AVG
+BitDefender
+* DA Pro Tool
+Kaspersky
+
+Việc sử dụng đội quân zombie tấn công trên mạng là hình thức?
+* DDoS
+Repudiation
+Instruction
+Buffer Overflow
+
+Loại virus có thể thay đổi đặc điểm của nó sau mỗi lần nhiễm là?
+* Polymorphic
+Stealth
+Camoulage
+Cavity
+
+Virus máy tính không thể lây lan qua
+Mạng máy tính
+* Đĩa CD
+Thẻ nhớ Flash
+USB
+
+Loại file nào có thể phát tán được virus?
+* EXE
+.COM
+.BAT
+Tất cả đều sai.
+
+Tác hại của virus máy tính
+Tiêu tốn tài nguyên hệ thống.
+Phá hủy hoặc đánh cắp dữ liệu
+Gây khó chịu cho người dùng
+* Cả 3 đáp án đều đúng
+
+Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?
+* Whois search
+Traceroute
+Ping sweep
+Host scanning
+
+Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?
+* Scanning
+Enumeration
+System hacking
+Active information gathering
+
+Một IP flood theo các host phát tán trực tiếp đến một Web server là một ví dụ của loại tấn công gì?
+Trojan Hors
+Sâu
+Tấn công IP
+* DoS phân tán (DDoS)
+
+Để ngăn tấn công DoS, một quản trị mạng chặn nguồn IP với tường lửa, nhưng tấn công vẫn tiếp diễn. Điều gì có khả năng xảy ra nhất?
+Sâu DoS đã lây nhiễm cục bộ
+* Tấn công đang đến từ nhiều host (DDoS)
+Một tường lửa không thể ngăn chặn tấn công DoS
+Phần mềm Antivirus cần được cài đặt trên máy chủ đích
+
+Cách bảo vệ nào sau đây là tốt nhất để chống lại tấn công DoS kiểu làm tràn băng thông và bộ đệm của hệ thống
+Subnet mask
+Cài đặt phần mềm bảo vệ Antivirus
+Disable web server
+* Chặn giao thức ICMP
+
+Loại tấn công nào làm việc truy cập của user đến các tài nguyên mạng bị từ chối?
+* DoS
+Sâu
+Logic Bomb (bomb ngập lụt đường truyền)
+Social engineering (Khai thác giao tiếp)
+
+Loại tấn công nào sử dụng nhiều hơn một máy tính để tấn công nạn nhân?
+DoS
+* DDoS
+Sâu
+Tấn công UDP
+
+Nổ lực tấn công để can thiệp vào một phiên liên lạc bằng việc thêm vào một máy tính giữa hai hệ thống được gọi là một …….?
+* Tấn công dạng “Man in the middle”
+Tấn công cửa sau
+Sâu
+TCP/IP hijacking
+
+Ta đã phát hiện ra một chứng chỉ đã hết hiệu lực vẫn đang được sử dụng nhiều lần để giành được quyền logon. Đây là loại tấn công nào?
+Tấn công dạng “Man in the middle”
+Tấn công cửa sau
+Tấn công chuyển tiếp (Relay Attack)
+* TCP/IP hijacking
+
+Một máy chủ trên mạng không chấp nhận các kết nối TCP nữa. Máy chủ thông báo rằng nó đã vượt quá giới hạn của phiên làm việc. Loại tấn công nào có thể đang xảy ra?
+* Tấn công TCP ACK (tấn công kiểu SYNACK)
+Tấn công smurf
+Tấn công virus
+TCP/IP hijacking
+
+Hệ thống của bạn đã ngừng phản ứng lại với các lệnh của bàn phím. Lưu ý rằng điều này xảy ra khi mở bảng tính và đã quay số qua internet. Loại tấn công nào có thể đã xảy ra?
+Logic Bomb
+Sâu
+Virus
+* Tấn công ACK
+
+Một user báo cáo là anh ta đang nhận một lỗi chỉ ra rằng địa chỉ TCP/IP của anh ta đã bị sử dụng khi anh ta bật máy tính. Tấn công nào có thể đang thực hiện?
+Tấn công dạng “Man in the middle”
+Tấn công cửa sau
+Sâu
+* TCP/IP hijacking
+
+Bản ghi lỗi hệ thống email của bạn báo cáo một số lượng lớn các nổ lực logon không thành công. Loại tấn công nào có thể đang xảy ra?
+Tấn công khai thác phần mềm (Software exploitation attack)
+Tấn công cửa sau ( Back door Attack))
+Sâu (Worm)
+* TCP/IP hijacking
+
+Phương pháp thông tin truy cập từ xa nào được xem như kết nối điển hình đến Internet mọi lúc, nó làm gia tăng rủi ro bảo mật do luôn mở đối với mọi cuộc tấn công?
+* Cable modem & DSL
+Dial-up
+Wireless
+SSH
+
+Một máy chủ trên mạng có một chương trình đang chạy vượt quá thẩm quyền. Loại tấn công nào đã xảy ra?
+DoS
+DDoS
+* Back door
+Social engineering (Khai thác giao tiếp)
+
+Tấn công smurf sử dụng giao thức nào để kiểm soát?
+TCP
+IP
+UDP
+* ICMP
+
+Bạn mới nhận cuộc gọi từ một user IM trong văn phòng mà user này đang ghé thăm một website quảng cáo. User này đang phàn nàn rằng hệ thống của anh ta không phản ứng và hàng triệu trang web đang mở trên màn hình của anh ta. Loại tấn công này là gì?
+* DoS
+Mã nguồn độc hại
+Giả mạo IP
+Khảo sát định vị
+
+Phát biểu nào sau đây mô tả đúng nhất về kỹ thuật tấn công Smurf:
+Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến tất cả các máy trong mạng
+* Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến địa chỉ quảng bá của mạng
+Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ quảng bá và chúng gửi đến máy đích
+Tạo và gửi rất nhiều gòi tin ICMP giả mạo có kích thước lớn đến máy đích
+
+Khi một website tồn tại lỗ hổng SQL Injection, nguy cơ cao nhất có thể xảy ra là:
+* Chiếm quyền điều khiển hệ thống
+Chèn, xóa hoặc sửa đổi dữ liệu
+Đánh cắp các thông tin trong CSDL
+Tấn công thay đổi hình ảnh giao diện
+
+Sự khác biệt cơ bản giữa tấn công DoS và tấn công DDoS là:
+DoS chỉ gây ngập lụt đường truyền
+DDoS chỉ làm cạn kiệt tài nguyên máy chủ
+* Số hosts tham gia tấn công
+Cơ chế tấn công DDoS phức tạp hơn
+
+Loại tấn công nào sau đây cung cấp cho tin tặc những thông tin hữu ích về các dịch vụ đang chạy trên hệ thống?
+Vulnerability Scan
+Session Hijacking
+* Port Scan
+IP sweep
+
+Nguyên nhân chính của lỗ hổng an ninh cho phép tấn công thực hiện mã từ xa là:
+Lỗi thiết kế phần mềm
+Lỗi quản trị hệ thống
+* Lỗi lập trình phần mềm
+Lỗi tích hợp hệ thống
+
+Một trong các biện pháp hiệu quả phòng chống tấn công SQL Injection là:
+Luôn kiểm tra và cập nhật các bản vá an ninh cho hệ điều hành và các phần mềm ứng dụng
+* Kiểm tra tất cả các dữ liệu đầu vào, đặc biệt dữ liệu nhập từ người dùng và từ các nguồn không tin cậy
+Cấu hình máy chủ CSDL không cho thực thi lệnh từ xa
+Không cho phép người dùng nhập mã vào các form.
+
+Tấn công Phishing là dạng tấn công vào:
+* Người quản trị và người dùng thông thường
+Hệ điều hành và các ứng dụng
+Các hệ thống mạng
+Các phần mềm máy chủ
+
+Gửi một gói tin ICMP có kích thước lớn hơn 64Kb là một ví dụ của kiểu tấn công nào sau đây?
+Buffer overflow
+Syn flood
+Teardrop
+* Ping of Death
+
+Tấn công DoS là dạng tấn công cho phép tin tặc:
+* Gây ngắt quãng dịch vụ cung cấp cho người dùng bình thường
+Đánh cắp dữ liệu trên máy chủ
+Đánh cắp dữ liệu trên máy khách
+Sửa đổi dữ liệu trong CSDL
+
+Kỹ thuật tấn công phổ biến trên Web là
+Chiếm hữu phiên làm việc.
+Tràn bộ đệm.
+* Từ chối dịch vụ (DoS)
+Chèn câu truy vấn SQL.
+
+Các chức năng cơ bản của kỹ thuật tấn công Sniffer
+Tự động chụp các tên người sử dụng (Username) và mật khẩu không được mã hoá, Chuyển đổi dữ liệu trên đường truyền, phân tích những lỗi đang mắc phải trên hệ thống lưu lượng của mạng.
+Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin
+Bắt gói tin trên đường truyền, mã hóa vag giải mã dữ liệu
+* Tất cả đều đúng
+
+Các bước tấn công của Web Server theo trình tự sau:
+* Thăm dò, Scan, Giành quyền truy cập, Duy trì truy cập, Xóa vết
+Scan, Thăm dò, Giành quyền truy cập, Duy trì truy cập, Xóa vết
+Thăm dò, Scan, Duy trì truy cập, Giành quyền truy cập, Xóa vết
+Giành quyền truy cập, Duy trì truy cập, Scan, Thăm dò
+
+Hai cơ chế chính của hệ thống IDS Trigger để phát hiện khi có một kẻ xâm nhập tấn công mạng là:
+* Phát hiện biểu hiện không bình thường, phát hiện sử dụng không đúng
+Phát hiện hiện tượng trùng lặp, phát hiện không bình thường
+Phát hiện thay đổi, phát hiện sử dụng bất bình thường
+Tất cả đều đúng
+
+Đối với Firewall lọc gói, hình thức tấn công nào sau đây được thực hiện
+* Nhái địa chỉ IP, tấn công giữa, tấn công biên
+Nhái địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhỏ
+Nhái địa chỉ IP, tấn công vượt firewall, tấn công từng mẫu nhỏ
+Nhái địa chỉ IP, tấn công vượt firewall, tấn công đường đi nguồn
+
+Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?
+* Tấn công từ xa
+Tấn công truy cập vật lý
+Truy cập địa phương
+Tấn công tấn công nội
+
+Hầu hết các lỗi SQL Injection đều là do (chọn 2 phương án)
+* câu lệnh SQL sai
+trình duyệt Web không hỗ trợ
+User làm cho câu lệnh SQL sai
+Sử dụng Hệ quản trị CSDL không có bản quyền
+
+Nguy cơ bị tấn công từ chối dịch vụ (DoS) và từ chối dịch vụ phân tán (DDoS) thường gặp ở vùng nào trong 7 vùng cơ sở hạ tầng CNTT?
+Vùng máy trạm
+* Vùng mạng WAN
+Vùng mạng LAN-to-WAN
+Vùng mạng LAN
+
+Đây là một trong các biện pháp phòng chống tấn công khai thác lỗi tràn bộ đệm?
+Sử dụng tường lửa
+Sử dụng công nghệ xác thực mạnh
+Sử dụng các kỹ thuật mật mã
+* Sử dụng cơ chế cấm thực hiện mã trong dữ liệu
+
+Lỗi tràn bộ đệm là lỗi trong khâu:
+Kiểm thử phần mềm
+Thiết kế phần mềm
+* Lập trình phần mềm
+Quản trị phần mềm

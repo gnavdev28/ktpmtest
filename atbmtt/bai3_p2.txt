@@ -1,0 +1,297 @@
+Độ an toàn của hệ mã hóa RSA dựa trên bài toán nào?
+Logarit rời rạc
+Xếp ba lô
+* Phân tích thành tích các số nguyên tố
+Định lý số dư trung hoa
+
+Cho bản rõ x = 29 khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x với khóa trên theo hệ mã RSA ta sẽ thu được bản mã nào sau đây?
+6
+* 36
+63
+129
+
+Hệ mã hóa trên đường cong Elliptic được xây dựng dựa trên nguyên lý gì?
+Giới hạn khả năng tính toán cho các thiết bị di động.
+Nhúng các điểm trên đường cong
+Ứng dụng trong thương mại điện tử
+* Sử dụng phương trình Weierstrass
+
+Kỹ thuật cho phép tạo kết nối ảo giữa hai mạng sử dụng một giao thức bảo mật được gọi là gì?
+Tunelling
+* VLAN
+Internet
+Extranet
+
+Cần phải làm gì để bảo vệ dữ liệu trên một máy tính xách tay nếu nó bị lấy cắp?
+Khóa đĩa mềm
+Enable khi login và tạo mật khẩu trên HĐH
+Lưu trữ đều đặn trên CD-ROM
+* Mã hóa dữ liệu
+
+Các phát biểu sau đây phát biểu nào đúng
+Hầu hết các thuật tóan mã hóa đối xứng đều dựa trên cấu trúc thuật toán Feistel
+Tấn công thông điệp thì thời gian giải mã tỷ lệ với kích thước khóa
+Hầu hết các thuật tóan mã hóa khối đều đối xứng
+* Tất cả đều đúng
+
+Các loại khoá mật mã nào sau đây dễ bị crack nhất?
+128 bit
+* 40 bit
+256 bit
+56 bit
+
+Đặc tính nào sau đây không thuộc chức năng bảo mật thông tin trong các hệ thống mật mã?
+* Hiệu quả
+Bảo mật
+Toàn vẹn
+Không chối từ
+
+Trong một mô hình phân cấp ủy thác giữa các tổ chức chứng thực và các người dùng cuối, mô hình nào sau đây được coi là xu hướng chung của việc phát hành chứng chỉ?
+Các chính sách thu hồi chứng chỉ
+Các ngày hợp lệ
+Khóa cá nhân
+* Chứng thực gốc ( Root Certificate)
+
+Một quản trị mạng mới đây đã bị sa thải khỏi công ty. Cần phải làm gì với chứng chỉ hiện hành của họ?
+Làm mới lại đối với người quản trị mới
+* Thu hồi lại chứng chỉ
+Đình chỉ tạm thời
+Hết hiệu lực
+
+Tổ chức chính cấp phát chứng chỉ được gọi là:
+* CA
+RA
+LRA
+CRL
+
+Quy trình mã hoá nào sử dụng cùng một khoá mã ở cả hai phía của một phiên làm việc?
+* Symmetrical
+Asymmetrical
+PKCS
+Split key
+
+PKCS sử dụng cặp khoá nào để mã hoá?
+Symmetric
+* Public/private
+Asymmetric/symmetric
+Private/private
+
+Vấn đề gì nảy sinh khi sử dụng qui trình sinh khóa mã tập trung?
+Bảo mật mạng
+* Truyền khóa
+Thu hồi chứng chỉ
+Bảo mật khóa cá nhân
+
+Có thể sử dụng mật mã để nhận biết tài liệu đã bị thay đổi hay không?
+* Có
+Không
+
+SET là giao thức bảo mật dùng trong các giao dịch điện tử. Với SET, những bên nào tham gia giao dịch phải có chứng chỉ số:
+* Tất cả các bên
+Khách hàng
+Cổng giao dịch
+Người bán
+
+Trong hệ thống phân phối khóa sử dụng KTC gồm có n thực thể (không tính KTC), số lượng khóa dài hạn mỗi thực thể và KTC phải lưu là:
+Mỗi thực thể phải lưu 1 khóa, KTC phải lưu n2 khóa
+* Mỗi thực thể phải lưu 1 khóa, KTC phải lưu n khóa
+Mỗi thực thể phải lưu n-1 khóa, KTC phải lưu n khóa
+Mỗi thực thể phải lưu 1 khóa, KTC phải lưu 1 khóa
+
+Sự khác biệt giữa trung tâm phân phối khóa KDC và trung tâm dịch khóa KTC là:
+KDC an toàn hơn KTC
+KTC an toàn hơn KDC
+* KDC sinh khóa tập trung, còn KTC sinh khóa phân tán
+KDC yêu cầu có một máy chủ tin cậy, còn KTC không yêu cầu có một máy chủ tin cậy
+
+Cơ chế bảo mật SSL hoạt động trên tầng
+Network, Transport
+Network, Session
+* Application, Session
+Tất cả đều sai
+
+Giao thức SSL và TSL hoạt động ở tầng nào của mô hình OSI
+Network
+Sesion
+Transport
+* Từ tầng Transport trở lên
+
+Các giao thức bảo mật trên Internet như SSL, TLS và SSH hoạt động ở tầng nào trên mô hình OSI
+Tầng Network
+Tầng Transport
+* Từ tầng Transport trở lên đến tầng 7
+Tầng Session
+
+Các yếu tố ảnh hưởng đến quá trình mã hóa
+* Thuật toán mã hóa, giải mã, và tính an toàn của kênh truyền
+Thời gian thực hiện mã hóa và giải mã
+Thực hiện mã hóa khối, mở rộng số bít xử lý
+Tất cả đều sai
+
+Cổng nào được HTTPS sử dụng?
+* 443
+80
+53
+21
+
+Một hệ mã hóa (cryptosystem) được cấu thành từ hai thành phần chính gồm:
+Phương pháp mã hóa và chia khối
+Giải thuật mã hóa và ký số
+* Phương pháp mã hóa và không gian khóa
+Giải thuật mã hóa và giải mã
+
+Đây là một phương pháp mã hóa
+OR
+AND
+NOT
+* XOR
+
+Khi thuê một giải pháp VPN, những loại tấn công nào bạn cần phải xét đến?
+Denial of Service (DoS) attacks, Internet Viruses
+Distributed Denial of Service (DDoS) attacks.
+* Data confidentiality, IP Spoofing.
+Network mapping, Internet Viruses.
+
+Tiện ích nào sau đây là một phương thức bảo mật truy cập từ xa tốt hơn telnet?
+SSL
+* SSH
+IPSec
+VPN
+
+Nội dung nào sau đây không cần sử dụng mật mã?
+Bảo mật
+Xác thực
+* Toàn vẹn
+Truy cập
+
+Giao thức SSL dùng để
+Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP
+Cung cấp bảo mật cho thư điện tử
+* Cung cấp bảo mật cho Web
+Cung cấp bảo mật cho xác thực người dùng vào các hệ thống vận hành trên Platform Window
+
+Hai giao thức sử dụng trong IPSec (IPSec Protocol) gồm
+IP Authentication Header, TCP/IP
+TCP/IP, IP Encapsulating Security Payload
+* IP Authentication Header, IP Encapsulating Security Payload
+Tất cả đều đúng
+
+Văn bản sau khi được mã hóa, được gọi là gì?
+Chứng chỉ
+Mật mã đối xứng
+Khóa công khai
+* Văn bản mã
+
+Cách nào sau đây được coi là an toàn nhất để lưu trữ một khóa cá nhân?
+Lưu nó trên ổ cứng ở dạng bản rõ
+Niêm phong nó trong một bao thư và để nó trong ngăn bàn
+* Mã hóa nó trên một thẻ thông minh
+Lưu nó trên một thiết bị USB di dộng ở dạng bản rõ
+
+Đâu là một phương pháp mã hóa:
+Thay thế
+Đổi chỗ/ hoán vị
+Vernam
+* Tất cả các phương án trên
+
+Mục tiêu là phân tích mật mã là gì?
+* Để xác định thế mạnh của các thuật toán một
+Để tăng cường chức năng thay thế trong một thuật toán mật mã
+Để giảm chức năng transposition trong một thuật toán mật mã
+Để xác định hoán vị sử dụng
+
+Bạn có một file dữ liệu trên đĩa cứng, phương pháp nào theo bạn là tốt nhất để bảo mật dữ liệu đó
+* RSA
+DES
+DSA
+SHA
+
+Ở hệ mật mã nào người gửi và người nhận thông điệp sử dụng cùng một khóa mã khi mã hóa và giải mã?
+Không đối xứng
+* Đối xứng
+RSA
+Diffie-Hellman
+
+Tính hợp lệ của một chứng chỉ dựa vào điều gì?
+* Tính hợp lệ của Quyền cấp chứng chỉ (CA)
+Tính hợp lệ của người sở hữu
+Tính hợp lệ của khóa công khai
+Giai đoạn chứng chỉ được sử dụng
+
+Khi ta lưu giữ một khóa cá nhân trên đĩa cứng cục bộ, làm thế nào để bảo đảm là nó được bảo mật?
+* Cần bảo vệ bằng mật khẩu
+Lưu trữ dữ liệu sao lưu vào đĩa mềm
+Lưu trữ bản sao trong bì thư
+Lưu trữ nó trong một thư mục tương tự như khóa công khai
+
+PKC được thực hiện bằng cách sử dụng các chức năng nào?
+* Chuyển giao các khóa công khai an toàn
+Chuy��n giao các khóa cá nhân an toàn
+Bảo mật dữ liệu ở hai đầu mút
+Sử dụng hai khóa khác nhau để mã hóa và giải mã
+
+Các thuộc tính cơ bản của chứng chỉ số (Digital certificate) gồm:
+Số nhận dạng, khóa công khai của chủ thể, thông tin định danh chủ thể
+Khóa công khai của chủ thể, thông tin định danh chủ thể, thuật toán chữ ký sử dụng
+Số nhận dạng, khóa công khai của chủ thể, chữ ký của nhà cung cấp CA
+* Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp CA
+
+PGP là giao thức để xác thực
+Quyền đăng cập vào hệ thống máy chủ Window
+* Bảo mật cho thư điện tử
+Thực hiện mã hóa thông điệp theo thuật tóan RSA
+Địa chỉ của máy trạm khi kết nối vào Internet
+
+PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:
+Mã hóa khóa bất đối xứng sử dụng khóa phiên
+Mã hóa khóa đối xứng sử dụng khóa phiên
+* Mã hóa khóa bất đối xứng sử dụng khóa công khai
+Mã hóa khóa đối xứng sử dụng khóa công khai
+
+Thực thể nào sau đây cho phép phát hành, quản lý, và phân phối các chứng chỉ số?
+* Quyền cấp chứng chỉ (Certificate Authority)
+Quyền đang ký (Registation Authority)
+Chính phủ (NSA)
+PKI
+
+Khái niệm nào sau đây được dùng để xác định chuẩn thực thi các hệ thống mã hóa diện rộng?
+PKE
+* PKI
+Đối xứng
+Không đối xứng
+
+Hầu hết định dạng chứng chỉ công cộng được sử dụng trong môi trường PKI là gì?
+* X.509
+X.508
+PKE
+RSA
+
+Giao thức nào sau đây tương tự như SSL và được đề nghị sử dụng bổ sung vào các giao thức bảo mật?
+TLS
+* SSH
+RSH
+X.509
+
+Giao thức nào sau đây cung cấp dịch vụ bảo mật cho các phiên làm việc trên thiết bị đầu cuối của hệ thống UNIX từ xa?
+SSL
+TLS
+* SSH
+PKI
+
+Dịch vụ nào sau đây là một dịch vụ đơn hay một máy phục vụ để lưu trữ, phân phối, và quản lý các khóa phiên mật mã?
+* KDC
+KEA
+PKI
+PKCS
+
+Giao thức bảo mật SSL đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp bằng các kỹ thuật nào sau đây:
+* Mã hóa khóa bí mật và hàm băm có khóa MAC
+Mã hóa khóa bí mật và chữ ký số
+Mã hóa khóa bí mật và mã hóa khóa công khai
+Mã hóa khóa bí mật và hàm băm không khóa MDC
+
+SSL sử dụng giao thực SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc xác thực thực thể dựa trên:
+Chữ ký số
+* Chứng chỉ số
+Mã hóa khóa công khai
+Mã hóa khóa bí mật

@@ -1,0 +1,196 @@
+Thuật tóan thực hiện trong cơ chế bảo mật IP (IPSec) ở Window sử dụng là
+MD5 và SHA1
+Kerberos và DES
+* DES hoặc 3DES (triple DES).
+
+Các điểm khác nhau cơ bản giữa dịch vụ X.509 và Kerberos là
+* Dựa trên mã hóa đối xứng
+Được sử dụng trong dịch vụ mail
+Xác thực nhiều chiều
+Tất cả đều đúng
+
+Mã hóa nào sau đây là một tiêu chuẩn dùng để phát triển cho việc tạo ra thông điệp an toàn?
+* Data Encryption Standard
+Digital Signature Standard
+Secure Hash Algorithm
+Chữ kí dữ liệu tiêu chuẩn
+
+Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công?
+Adi Shamir
+Ross Anderson
+Bruce Schneier
+* Martin Hellman
+
+Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên:
+Chữ ký số
+Mã hóa khóa bí mật
+* Mã hóa khóa công khai
+Chứng chỉ số
+
+PGP đảm bảo tính xác thực thông điệp bằng cách:
+Mã hóa/giải mã thông điệp
+* Sử dụng hàm băm có khóa MAC
+Sử dụng hàm băm không khóa MDC
+Tạo và kiểm tra chữ ký số
+
+Các giao thức đường hầm nào sau đây chỉ làm việc trên các mạng IP?
+SLIP
+IPX
+* L2TP
+PPTP
+
+Các giao thức nào sau đây làm việc trên lớp IP để bảo vệ thông tin IP trên mạng?
+IPX
+* IPSec
+SSH
+TACACS+
+
+LAC ( L2TP Access Control) và LNS ( L2TP Network Server)) là các thành phần của giao thức đường hầm nào?
+IPSec
+PPP
+PPTP
+* L2TP
+
+Kỹ thuật nào được sử dụng để bảo đảm thông tin liên lạc qua một mạng không được bảo mật?
+Telnet
+SLIP
+* VPN
+PPP
+
+Thiết bị nào cho phép ta kết nối đến một mạng LAN của công ty qua Internet thông qua một kênh được mã hóa an toàn?
+* VPN
+WEP
+Modem
+Telnet
+
+Không sử dụng một liên kết chuyên dụng, phương pháp tốt nhất để kết nối hai mạng được định vị trong các văn phòng có khoảng cách địa lý xa nhau là gì?
+VLAN
+Tường lửa
+DMZ
+* VPN
+
+Giao thức nào sau đây không phù hợp đối với các kết nối VPN WAN?
+* PPP
+PPTP
+L2TP
+IPSec
+
+Giao thức nào sau đây tuy không phải là một giao thức đường hầm nhưng nó sử dụng các giao thức đường hầm để bảo mật trên mạng?
+* IPSec
+PPTP
+L2TP
+L2F
+
+Giao thức bảo mật IPSec họat động ở tầng
+Chỉ ở tầng transport ở mô hình OSI
+Từ tầng 4 tới tầng 7 ở mô hình OSI
+* Network Layer ở mô hình OSI
+Tất cả đều sai
+
+Tính bí mật của thông tin có thể được đảm bảo bằng:
+Bảo vệ vật lý
+Các kỹ thuật mã hóa
+sử dụng VPN
+* Bảo vệ vật lý, VPN, hoặc mã hóa
+
+Hai giao thức sử dụng trong giao thức IPSec gồm
+IP Authentication Header, TCP/IP
+TCP/IP, IP Encapsulating Security Payload
+* IP Authentication Header, IP Encapsulating Security Payload
+Tất cả đều đúng.
+
+Giao thức https sử dụng cổng nào?
+* 443
+53
+21
+80
+
+Một gói tin có hỗ trợ IPSec được mã hóa cả Header và Content theo phương thức nào?
+* ESP
+AH
+SSL
+EFS
+
+Cặp cổng dịch vụ nào sau đây không đúng?
+HTTP: 80
+* SSL: 25
+DNS: 53
+Telnet: 23
+
+Tại tầng vận chuyển có thể triển khai giao thức bảo mật?
+SSH
+S/MIME
+PGP
+* SSL/TLS
+
+Độ lớn của khóa đo bằng đơn vị?
+* Bit
+Byte
+KB
+MB
+
+Lớp nào không thể thực hiện mã hóa bởi phần cứng?
+* Application
+Transport
+Network
+Data link
+
+Điều nào dưới đây là thành phần cơ bản của X.509 (PKIX)?
+Version
+Certificate Serial Number
+Signature Algorithm ID
+* Tất cả các đáp án trên
+
+SSH dùng cổng nào?
+25
+23
+* 22
+21
+
+Giao thức SSL/TLS được phát triển bởi?
+* Netscape
+Microsoft
+Norton Corp.
+AVG
+
+Version của chứng chỉ X.509 dùng phổ biến nhất hiện nay?
+1
+2
+* 3
+4
+
+Giao thức thường được sử dụng với mạng riêng ảo (VPN)?
+* IPSec
+SSH
+SSL/TLS
+Kerberos
+
+Timestamp trong thông điệp dùng để làm gì?
+Dùng để ghi nhận số lần trao đổi
+* Dùng để xác định thời gian hết hạn
+Dùng để cho phép giao dịch
+Tất cả các đáp án đều đúng.
+
+Các loại mã hóa trong hệ thống thông tin bao gồm
+* Mã hóa nguồn, mã hóa kênh, mã hóa đường truyền.
+Mã hóa nguồn, mã hóa dữ liệu, mã hóa đường truyền.
+Mã hóa thông tin, mã hóa tín hiệu, mã hóa nguồn.
+Mã hóa điều chế, mã hóa khôi phục, mã hóa bảo mật.
+
+Thám mã khi không biết khoá
+Bài toán dễ
+* Bài toán khó
+Khó hay dễ đều sai vì phụ thuộc vào khoá
+Khó hay dễ đều sai vì phụ thuộc vào giải thuật.
+
+Hệ mật mã nào người gửi và người nhận sử dụng các khóa khác nhau khi mã hóa và giải mã?
+* Không đối xứng
+Đối xứng
+Blowfish
+Skipjack
+
+Hệ mã hóa nào là hệ mã hóa không đơn định?
+RSA
+Rabin
+* Elgamal
+Merkle-Hellman
