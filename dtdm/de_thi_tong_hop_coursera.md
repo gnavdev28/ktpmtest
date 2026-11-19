@@ -1048,7 +1048,7 @@ f. AWS Storage Gateway can only work as an Amazon S3 File Gateway. (AWS Storage 
 ### Câu 151 [Question 5:]: True or False: Amazon Simple Storage Service (Amazon S3) is better than Amazon Elastic Block Store (Amazon EBS) because it is designed to provide a higher level of data durability. (Đúng hay Sai: Amazon Simple Storage Service (Amazon S3) tốt hơn Amazon Elastic Block Store (Amazon EBS) vì nó được thiết kế để cung cấp mức độ bền dữ liệu cao hơn.)
 
 - A. True (Đúng)
-- B. False (Sai) (S3 và EBS phục vụ các mục đích sử dụng khác nhau chứ không phải cái nào "tốt hơn" cái nào một cách tuyệt đối.)
+- **👉 B. False (Sai) (S3 và EBS phục vụ các mục đích sử dụng khác nhau chứ không phải cái nào "tốt hơn" cái nào một cách tuyệt đối.)** *(ĐÁP ÁN ĐÚNG)*
 
 ### Câu 152 [Question 1:]: A solutions architect is designing an architecture that can provide HTML pages to customers. They want a serverless solution that can host content over the internet and serve a static website with minimal effort. Which AWS service should the solutions architect choose to meet these requirements? (Một kiến trúc sư giải pháp đang thiết kế một kiến trúc có thể cung cấp các trang HTML cho khách hàng. Họ muốn một giải pháp không máy chủ có thể lưu trữ nội dung trên internet và phục vụ một trang web tĩnh với nỗ lực tối thiểu. Kiến trúc sư giải pháp nên chọn dịch vụ AWS nào để đáp ứng các yêu cầu này?)
 
