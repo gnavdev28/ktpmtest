@@ -1,0 +1,71 @@
+Trong hệ mật mã Caesar với bảng chữ cái tiếng Anh (26 ký tự), cho khóa k = 3 và bản rõ P = 'H' (ký tự thứ 7, quy ước A=0). Bản mã C thu được là ký tự nào?
+J
+* K
+L
+I
+
+Trong hệ mật mã Caesar, cho bản mã C = 'K' (vị trí 10) và khóa k = 3. Giải mã bản mã C thu được bản rõ P là chữ cái nào?
+G
+* H
+I
+F
+
+Hệ mã hóa Affine y = (ax + b) mod 26 có bao nhiêu khóa hợp lệ (với điều kiện gcd(a, 26) = 1)?
+123
+26
+* 312
+25
+
+Trong hệ mã Affine với khóa a = 7, b = 2. Cho bản rõ P = 'B' (ký tự có giá trị 1). Bản mã C tương ứng là ký tự nào?
+H
+* J
+K
+I
+
+Trong thuật toán RSA, cho 2 số nguyên tố p = 3 và q = 11. Giá trị của số n và hàm Euler phi(n) lần lượt là:
+* n = 33, phi(n) = 20
+n = 33, phi(n) = 30
+n = 30, phi(n) = 20
+n = 33, phi(n) = 22
+
+Trong hệ mật RSA với p = 3, q = 11, khóa công khai e = 7. Khóa bí mật d thỏa mãn (d * 7) mod 20 = 1 là:
+d = 1
+* d = 3
+d = 7
+d = 9
+
+Trong hệ mật RSA với n = 33, e = 7. Khi mã hóa thông điệp bản rõ m = 2, bản mã c = (m^e) mod n thu được là:
+c = 14
+* c = 29
+c = 8
+c = 31
+
+Cho bản mã y = 126 trong hệ RSA với p = 7, q = 23, e = 5. Khi giải mã bản mã y với khóa riêng d sẽ được bản rõ x là:
+x = 73
+x = 94
+* x = 105
+x = 81
+
+Trong các cặp khoá sau đây của hệ mật RSA với p=5; q=7 (phi(n) = 24), cặp khóa nào có khả năng là cặp khóa công khai (e) và khóa bí mật (d) của hệ mật này?
+(e=3, d=11)
+(e=5, d=5)
+(e=7, d=13)
+* (e=11, d=11)
+
+Cho bản rõ x = 29 trong hệ RSA với khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x với khóa trên sẽ được bản mã y là:
+y = 112
+* y = 126
+y = 104
+y = 95
+
+Trong giao thức trao đổi khóa Diffie-Hellman, cho số nguyên tố q = 11, phần tử sinh alpha = 2. Alice chọn khóa riêng X_A = 3. Khóa công khai Y_A của Alice là:
+* Y_A = 8
+Y_A = 6
+Y_A = 7
+Y_A = 5
+
+Trong giao thức Diffie-Hellman với q = 11, alpha = 2. Alice có X_A = 3 (Y_A = 8), Bob có X_B = 4 (Y_B = 5). Khóa bí mật chung K mà hai bên tính được là:
+K = 3
+K = 5
+K = 9
+* K = 4

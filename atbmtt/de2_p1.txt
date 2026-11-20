@@ -1,0 +1,269 @@
+Phần mềm bảo vệ phát hiện một đoạn mã tự chèn bản sao của nó vào các tệp thực thi khác trên máy tính. Đây là dấu hiệu đặc trưng của loại mã độc nào?
+Spyware chỉ ghi lại hoạt động người dùng
+* Virus máy tính
+Email spam không có mã thực thi
+Cookie của trình duyệt
+
+Nhật ký ghi nhận hàng trăm lần đăng nhập thất bại vào cùng một tài khoản trong thời gian ngắn, mỗi lần thử một mật khẩu khác nhau. Đây là dấu hiệu rõ nhất của loại tấn công nào?
+* Tấn công đoán mật khẩu
+Tấn công cửa sau
+Tấn công bằng sâu
+TCP/IP hijacking
+
+Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa , bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?
+Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không
+Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì gửi từ
+* Xoá email đó ngay vì Microsoft không bao giờ gửi chương trình sửa lỗi qua
+Tất cả đều sai.
+
+Điều kiện nào cần có để bảo vệ dữ liệu bằng mã hóa đối xứng?
+* Dùng thuật toán phù hợp và bảo vệ khóa bí mật dùng chung, kể cả khi thiết lập
+Công khai khóa bí mật cùng bản mã.
+Giữ bí mật thuật toán nhưng công khai khóa.
+Chỉ đổi tên tệp trước khi gửi.
+
+Nhóm nào sau đây chỉ gồm các thuật toán mã hóa đối xứng?
+* Triple-DES, RC4, RC5, Blowfish
+Triple-DES, RSA, RC5, IDEA
+RC4, RC5, RSA, Blowfish
+IDEA, Blowfish, AES, ECC.
+
+Trong kết nối HTTPS sử dụng TCP, TLS nằm ở vị trí nào?
+Bên dưới tầng liên kết dữ liệu.
+Thay thế hoàn toàn giao thức IP.
+* Trên TCP và dưới giao thức HTTP.
+Chỉ dùng để mã hóa tín hiệu vật lý.
+
+Kerberos là cơ chế xác thực mạng dựa trên thành phần trung tâm nào?
+Máy chủ DNS công cộng
+Máy chủ cấp địa chỉ DHCP
+Bộ chuyển mạch Ethernet
+* Trung tâm phân phối khóa KDC cấp vé xác thực
+
+Giao thức bảo mật cho mạng không dây là
+Giao thức SSL
+Giao thức TSL
+Giao thức PGP
+* Giao thức WEP
+
+TLS trong kết nối HTTPS qua TCP cung cấp chức năng chính nào?
+Định tuyến gói IP giữa các mạng.
+Cấp địa chỉ IP cho máy khách.
+* Bảo vệ tính bí mật và toàn vẹn của dữ liệu truyền giữa các bên đã thiết lập kết
+Chuyển đổi địa chỉ MAC thành địa chỉ IP.
+
+HTTPS bổ sung cơ chế nào để bảo vệ dữ liệu HTTP khi truyền qua mạng?
+* TLS
+ARP
+ICMP Echo
+DHCP
+
+Hoạt động của virus có 4 giai đoạn là
+Nằm im, lây nhiễm, tàn phá và tự hủy
+Lây nhiễm, tấn công, hủy diệt và tự hủy
+* Nằm im, lây nhiễm, khởi sự và tàn phá
+Lây nhiễm, khởi sự, tàn phát, kích họat lại
+
+Nhóm ứng dụng nào sau đây đều hỗ trợ tài liệu có macro, có thể bị lợi dụng để chứa mã độc?
+Notepad, Paint, Calculator
+* Microsoft Excel, Microsoft Word, Microsoft PowerPoint
+Calculator, Notepad, Microsoft Word
+Paint, Calculator, Microsoft Excel
+
+Độ an toàn của hệ mã hóa Rabin dựa trên bài toán nào?
+Logarit rời rạc
+Xếp ba lô
+* Phân tích thành tích các số nguyên tố
+Định lý số dư trung hoa
+
+Kẻ tấn công đưa dữ liệu đầu vào làm thay đổi cấu trúc câu lệnh SQL mà ứng dụng Web gửi tới cơ sở dữ liệu. Đây là kỹ thuật nào?
+Chiếm hữu phiên làm việc.
+Tràn bộ đệm.
+Từ chối dịch vụ (DoS)
+* Chèn câu truy vấn SQL.
+
+Các lỗ hổng bảo mật trên hệ thống là do
+Dịch vụ cung cấp
+Bản thân hệ điều hành
+Con người tạo ra
+* Tất cả đều đúng
+
+Chức năng chính của tường lửa mạng là gì?
+Bảo đảm mọi tệp trong mạng đều không chứa virus.
+* Kiểm soát lưu lượng giữa các vùng mạng theo chính sách cho phép hoặc từ
+Tự động vá mọi lỗ hổng của ứng dụng.
+Thay thế hoàn toàn việc xác thực người dùng.
+
+Hai chuẩn nào sau đây được sử dụng để bảo vệ nội dung thư điện tử?
+* OpenPGP và S/MIME
+ARP và ICMP
+DHCP và DNS
+FTP và Telnet
+
+Trong quy trình tạo chữ ký số RSA cho một thông điệp, hàm băm có vai trò gì?
+Mã hóa thông điệp để chỉ người nhận đọc được.
+Thay thế hoàn toàn khóa riêng của người ký.
+* Tạo giá trị đại diện của thông điệp để sử dụng trong quy trình ký.
+Cấp địa chỉ IP cho người ký.
+
+Loại Firewall nào sau đây cho phép hoạt động ở lớp phiên (Session) của mô hình OSI
+Packet filtering firewall
+* Circuit level firewall
+Application level firewall
+Stateful multilayer inspection firewall
+
+Mô tả nào đúng về chữ ký số?
+Chỉ cần tính hàm băm của văn bản, không cần khóa ký, là đã tạo được chữ ký
+* Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn
+Chữ ký số luôn mã hóa toàn bộ văn bản để giấu nội dung.
+Tất cả cả đều sai
+
+Giao thức bảo mật IPSec họat động ở tầng
+Chỉ ở tầng transport ở mô hình OSI
+Từ tầng 4 tới tầng 7 ở mô hình OSI
+* Network Layer ở mô hình OSI
+Tất cả đều sai
+
+Đặc điểm nào mô tả đúng Trojan horse?
+Luôn tự nhân bản vào mọi tệp thực thi.
+Chỉ là một bản sao lưu dữ liệu.
+Là một giao thức cấp địa chỉ IP.
+* Giả dạng hoặc đi kèm phần mềm có vẻ hợp lệ để thực hiện hành vi độc hại.
+
+Dịch vụ Active Directory thực hiện các chức năng sau
+* Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng
+Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực,
+Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups
+Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và
+
+Hai giao thức sử dụng trong giao thức IPSec gồm
+IP Authentication Header, TCP/IP
+TCP/IP, IP Encapsulating Security Payload
+* IP Authentication Header, IP Encapsulating Security Payload
+Tất cả đều đúng.
+
+Phát biểu nào phân biệt đúng Kerberos truyền thống với chứng chỉ X.509?
+* Kerberos truyền thống dựa trên khóa đối xứng và vé; chứng chỉ X.509 liên kết
+Cả hai chỉ dùng để cấp địa chỉ IP.
+X.509 là một thuật toán mã hóa đối xứng, còn Kerberos là một hàm băm.
+Cả hai đều không liên quan đến xác thực.
+
+Chức năng cơ bản của công cụ phân tích gói tin (sniffer) là gì?
+Tự động thay đổi mọi mật khẩu trên mạng.
+* Thu thập và phân tích các gói tin quan sát được trên đường truyền.
+Luôn giải mã được mọi kết nối TLS mà không cần khóa.
+Tự động cấp quyền quản trị trên máy đích.
+
+Các bước tấn công của Web Server theo trình tự sau
+* Thăm dò, quét, giành quyền truy cập, duy trì truy cập, xóa vết
+quét, Thăm dò, giành quyền truy cập, duy trì truy cập, xóa vết
+Thăm dò, quét, duy trì truy cập, giành quyền truy cập, xóa vết
+Giành quyền truy cập, duy trì truy cập, quét, thăm dò
+
+Hiện tượng mất một số file, làm phân mãnh ổ đĩa, gây tác hại vào những ngày, tháng đặc biệt do loại chương trình nguy hiểm nào gây ra:
+Virrus, Zombie
+Worm, Virus
+* Logicbomb, Virus
+Trapdoors, Trojan
+
+Hai cơ chế chính của hệ thống IDS Trigger phát hiện khi có kẻ xâm nhập tấn công mạng là:
+* Phát hiện biểu hiện không bình thường, phát hiện sử dụng không đúng.
+Phát hiện hiện tượng trùng lặp, phát hiện không bình thường.
+Phát hiện thay đổi, phát hiện sử dụng bất bình thường.
+Tất cả đều đúng.
+
+Mục tiêu là phân tích mật mã là gì?
+* Để xác định thế mạnh của các thuật toán một.
+Để tăng cường chức năng thay thế trong một thuật toán mật mã.
+Để giảm chức năng transposition trong một thuật toán mật mã.
+Để xác định hoán vị sử dụng.
+
+Nếu kẻ tấn công lấy trộm một mật khẩu có chứa một chiều mật khẩu đã mật mã, loại tấn công sẽ thực hiện để tìm mật khẩu đã mã hóa là gì?
+Tấn công Man-in-the-middle
+Tấn công Birthday
+Tấn công Denial of Service
+* Tấn công Dictionary
+
+Ưu điểm của chữ ký số RSA so với DSS là gì?
+* Có thể cung cấp cho chữ ký số và mã hóa các chức năng.
+Sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các
+Là một thuật toán mật mã khối so với một thuật toán mật mã dòng.
+Sử dụng một lần mã hóa pad.
+
+Những gì được dùng khi tạo một chữ ký điện tử?
+Khóa riêng của người nhận.
+Khóa công khai của người gửi.
+* Khóa riêng của người gửi.
+Khóa công khai của người nhận.
+
+Hệ mã hóa DES sử dụng bao nhiêu bit đầu vào để mã hóa?
+16
+32
+56
+* 64
+
+Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công?
+Adi Shamir
+Ross Anderson
+Bruce Schneier
+* Martin Hellman
+
+DES là viết tắt của từ nào?
+Data encryption system
+* Data encryption standard
+Data encoding standard
+Data encryption signature
+
+Giai đoạn đầu của hacking là gì?
+Duy trì truy cập
+Gaining truy cập
+* Trinh sát
+Dò tìm (Scanning)
+
+Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?
+* Tấn công từ xa.
+Tấn công truy cập vật lý.
+Truy cập địa phương.
+Tấn công tấn công nội bộ.
+
+Footprinting là gì?
+Đo dấu vết của một hacker có đạo đức
+* Tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu
+Quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại
+Sơ đồ bố trí vật lý của một mạng của mục tiêu
+
+Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?
+* Whois search
+Traceroute
+Ping sweep
+Host scanning
+
+Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?
+* Scanning
+Enumeration
+System hacking
+Active information gathering
+
+Giao thức FTP sử dụng cổng nào?
+* 21
+25
+23
+80
+
+Giao thức https sử dụng cổng nào?
+* 443
+53
+21
+80
+
+Hệ mã hóa AES sử dụng bao nhiêu bit đầu vào để mã hóa?
+32
+56
+64
+* 128
+
+Đầu ra của hàm băm MD5 là bao nhiêu bit?
+64
+* 128
+256
+512

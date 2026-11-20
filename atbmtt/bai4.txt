@@ -1,0 +1,197 @@
+Nếu ta muốn ký một tài liệu và sau đó gởi đến một người khác, khóa nào phải được sử dụng?
+Khoá công khai của bạn
+Khoá công khai của bên nhận
+Khoá cá nhân của bên nhận
+* Khoá cá nhân của bạn
+
+Bảo mật thư điện tử là nhằm đảm bảo
+* Tính tin cẩn (confidentiality), Tính xác nhận, Toàn vẹn thông điệp(integrity), Sự thối thác ban đầu (non-repudiation of origin)
+Tính xác nhận, Toàn vẹn thông điệp(integrity), Sự thối thác ban đầu (nonrepudiation of origin), tính bền vững
+Sự thối thác ban đầu (non-repudiation of origin), tính bền vững, tính ổn khi gởi và nhận
+Tất cả đều đúng
+
+Khái niệm nào sau đây được sử dụng để mô tả sự không thể chối từ của người gửi khi gửi thông điệp?
+Toàn vẹn
+* Tính không chối từ ( non-repudiation)
+Xác thực
+Bảo mật
+
+Nếu ta muốn xác thực chữ ký của một người khác, khóa nào phải được sử dụng?
+Khóa công khai của bạn
+Khoá cá nhân của bạn
+Khoá cá nhân của người cần xác thực
+* Khoá công khai của người cần xác thực
+
+Chữ ký số được sử dụng cho mục đích gì?
+Để bảo mật tài liệu sao cho người ngoài không đọc được
+* Để kiểm tra định danh người gửi
+Cung cấp chứng chỉ
+Thu hồi một chứng chỉ
+
+Thuật giải SHA là:
+Hàm băm một chiều
+Dùng trong thuật giải tạo chữ ký số
+Cho giá trị băm 160 bit
+* Tất cả đều đúng
+
+DSA là thuật giải:
+Lấy dấu tay “PrintingFinger”
+* Tạo chữ ký số (DS)
+Phân phối khoá trước
+Bảo mật thông điệp
+
+Thuật giải MD5 cho ta một giá trị băm có độ dài:
+156 bit
+256 bit
+* 128 bit
+512 bit
+
+Thuật giải SHA-1 dùng để:
+Tạo khoá đối xứng
+Tạo chữ ký số
+* Tạo một giá trị băm có độ dài cố định 160 bit
+Tạo một giá trị băm có độ dài cố định 256 bit
+
+Thuật giải MD5 dùng để:
+Bảo mật một thông điệp
+Xác thực một thông điệp
+Phân phối khoá mật mã
+* Kiểm tra tính toàn vẹn dữ liệu
+
+Trong hệ mã công khai RSA, để tạo một chữ ký điện tử của văn bản M ta dùng:
+S = E( ek, M)
+S = D( dk, M)
+S = D(ek, M)
+* S = E ( dk, M)
+
+Trong hệ mã công khai RSA, để chứng thực chữ ký điện tử S của văn bản M ta dùng:
+M = E( ek, S)
+M = D( dk, S)
+* M = D(ek, S)
+M = E (dk, S)
+
+Sự khác biệt giữa hệ chữ ký số RSA và DSA là:
+* RSA an toàn hơn DSA
+DSA an toàn hơn RSA
+DSA có chi phí tính toán thấp hơn RSA
+Giải thuật DSA đơn giản hơn giải thuật RSA
+
+Phần xử lý chính của SHA1 làm việc trên một chuỗi được gọi là state. Kích thước của state là:
+* 160 bit
+170 bit
+150 bit
+180 bit
+
+Trong quá trình xử lý dữ liệu tạo chuỗi băm, số lượng vòng xử lý của SHA1 là:
+60
+70
+* 80
+90
+
+Điểm khác nhau chính giữa hai loại hàm băm MDC và MAC là:
+MDC an toàn hơn MAC
+MAC an toàn hơn MDC
+MDC có khả năng chống đụng độ cao hơn MAC
+* MDC là loại hàm băm không khóa, còn MAC là loại hàm băm có khóa
+
+Phát biểu nào sau đây về chữ ký số là chính xác:
+Chữ ký số được tạo ra bằng cách mã hóa thông điệp sử dụng khóa riêng của chủ thể
+Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp
+Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp
+* Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp
+
+Số lượng thao tác trong mỗi vòng xử lý của MD5 là:
+12
+* 16
+14
+18
+
+Chữ ký số (dùng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền:
+Tính bí mật
+* Tính toàn vẹn
+Tính xác thực
+Tính không chối bỏ
+
+Các giao thức được để bảo mật thư điện tử là
+GPG, S/MINE
+* SHA-1, S/MINE
+CAST-128 / IDEA/3DES
+Keboros, X.509
+
+Chữ ký điện tử (digital signature) sử dụng thuật tóan nào sau đây
+RSA, MD5
+RSA, MD5, Keboros
+* MD5, SHA, RSA
+Không dùng thuật tóan nào nêu trên
+
+Các bước mã hóa của chứ ký điện tử
+* Dùng giải thuật băm để thay đổi thông điệp cần truyền đi, Sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên, sau đó gộp digital signature vào message ban đầu.
+Dùng giải thuật băm để thay đổi thông điệp cần truyền đi, sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên, sau đó gộp digital signature vào message ban đầu và nén dữ liệu gởi đi.
+Chỉ sử dụng giải thuật băm để thay đổi thông điệp cần truyền đi và sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên.
+Tất cả đều đúng
+
+Phương thức nào sau đây là tốt nhất mô tả một chữ ký điện tử?
+Một phương thức chuyển giao một chữ ký viết tay vào một tài liệu điện tử
+Một phương pháp mã hóa thông tin bí mật
+Một phương pháp để cung cấp một chữ ký điện tử và mã hóa
+* Một phương pháp để cho những người nhận của tin nhắn chứng minh nguồn gốc và sự toàn vẹn của một tin nhắn
+
+John muốn cài đặt một ứng dụng mới vào máy chủ của Windows 2000. Ông muốn đảm bảo rằng các ứng dụng bất kỳ ông sử dụng chưa được cài Trojan. Ông có thể làm gì để giúp đảm bảo điều này?
+* So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán
+Xin các ứng dụng thông qua SSL
+So sánh chữ ký virus của file với một trong những công bố trên các phương tiện truyền thông
+Cài đặt các ứng dụng từ đĩa CD-ROM
+
+Trong hệ chữ ký số RSA, việc tạo chữ ký số cho một thông điệp cần sử dụng một khóa. Khóa đó là:
+Khóa riêng của người nhận
+Khóa công khai của người nhận
+Khóa công khai của người gửi
+* Khóa riêng của người gửi
+
+Hai thuộc tính cơ bản quan trọng nhất của một hàm băm là:
+Nén và một chiều
+Dễ tính toán và có đầu ra cố định
+Một chiều và đầu ra cố định
+* Nén và dễ tính toán
+
+Sử dụng kết hợp chứng chỉ số khóa công khai và chữ ký số có thể đảm bảo:
+* Xác thực thực thể và toàn vẹn thông tin truyền
+Xác thực thực thể và bí mật thông tin truyền
+Bí mật và xác thực nguồn gốc thông tin truyền
+Bí mật và toàn vẹn thông tin truyền
+
+Một trong các ứng dụng phổ biến của các hàm băm là để tạo chuỗi...
+CheckError
+CheckTotal
+CheckNum
+* Checksum
+
+Trong quá trình xử lý thông điệp đầu vào tạo chuỗi băm, số lượng vòng xử lý của hàm băm SHA1 là:
+* 80
+90
+60
+70
+
+Chữ ký điện tử sử dụng thuật tóan nào sau đây
+RSA, MD5
+RSA, MD5, Keboros
+* MD5, SHA,RSA
+Không dùng thuật tóan nào nêu trên
+
+Chữ ký điện tử là
+Là một chuỗi được mã hóa theo thuật toán băm và đính kèm với văn bản gốc trước khi gửi.
+Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn bản và giúp người nhận kiểm tra tính toàn vẹn của nội dung văn bản gốc.
+* Cả 2 ý về chuỗi băm và đoạn dữ liệu chứng thực đều đúng
+Tất cả cả đều sai
+
+Trường có công dụng kiểm tra sự toàn vẹn của gói tin (TCP, UDP, ICMP) là?
+Flags
+* Checksum
+Options
+TTL
+
+Điều gì không phải là đặc tính của chữ ký số?
+* Secrecy
+Privacy
+Integrity
+Non-repudiation

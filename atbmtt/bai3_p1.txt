@@ -1,0 +1,191 @@
+Một trong các điểm yếu của các hệ mã hóa khóa đối xứng là:
+Chi phí tính toán lớn
+* Khó khăn trong quản lý và phân phối khóa
+Độ an toàn thấp
+Khó khăn trong cài đặt và triển khai hệ thống
+
+Chuẩn nào sau đây được chính phủ Mỹ sử dụng thay thế cho DES như là một chuẩn mã hoá dữ liệu?
+DSA
+ECC
+3DES
+* AES
+
+Hệ mật DES xử lý từng khối “ plain text ” có độ dài:
+56 bit
+32 bit
+* 64 bit
+48 bit
+
+Trong DES mỗi hàm chọn Si được dùng để:
+Biến đổi khối dữ liệu mã 48 bit thành 32 bit
+* Biến đổi khối dữ liệu mã 6 bít thành 4 bít
+Biến đổi khối dữ liệu mã 16 bít thành 4 bít
+Biến đổi khối dữ liệu mã 32 bít thành 4 bít
+
+Kích thức khóa có thể của hệ mã hóa AES là:
+* 128, 160 và 192 bit
+64, 128 và 192 bit
+128, 256 và 512 bit
+128, 256 và 384 bit
+
+Kích thước khóa hiệu dụng của hệ mã hóa DES là:
+64 bit
+48 bit
+* 56 bit
+128 bit
+
+Số lượng vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã trong hệ mã hóa AES khóa 128 bit là:
+14
+* 10
+16
+12
+
+Bước MixColumns (trộn cột) trong vòng lặp chuyển đổi trong hệ mã hóa AES thực hiện việc:
+Trộn hai cột kề nhau của ma trận state
+* Mỗi cột của ma trận state được nhân với một đa thức
+Trộn các cột tương ứng của ma trận state với khóa
+Trộn các dòng tương ứng của ma trận state với khóa
+
+Số lượng các khóa phụ (subkey) cần được tạo ra từ khóa chính trong giải thuật DES là:
+18
+* 16
+14
+12
+
+Các thuật tóan nào sau đây là thuật tóan mã hóa đối xứng
+Triple –DES, RC4, RC5, Blowfish
+* Triple –DES, RC4, RC5, IDEA
+RC4, RC5, IDEA, Blowfish
+IDEA, Blowfish, AES, Elliptic Cure
+
+Sử dụng nhiêu bit với DES để có hiệu quả?
+56
+* 64
+32
+16
+
+Kích thước khối dữ liệu xử lý của giải thuật mã hóa AES là:
+160 bit
+64 bit
+192 bít
+* 128 bit
+
+Số lượng vòng lặp chính thực hiện xáo trộn dữ liệu theo hàm Feistel (F) trong giải thuật DES là:
+14
+* 16
+18
+20
+
+Các hộp thay thế s-box trong giải thuật DES có số bít đầu vào và đầu ra tương ứng là:
+Vào 4 bít và ra 4 bít
+Vào 6 bít và ra 6 bít
+Vào 8 bít và ra 6 bít
+* Vào 6 bít và ra 4 bít
+
+Giải thuật mã hóa AES được thiết kế dựa trên…
+mạng hoán vị-vernam
+mạng xor-thay thế
+* mạng hoán vị-thay thế
+mạng hoán vị-xor
+
+Nếu muốn xem một tài liệu “bảo mật”được mã hóa trên hệ mật bất đối xứng do người khác gởi đến, bạn phải sử dụng khóa nào để giải mật tài liệu?
+Khoá công khai của bạn
+Khoá công khai của bên gửi
+Khoá cá nhân của bên gửi
+* Khoá cá nhân của bạn
+
+Phát biểu nào sau đây đúng với kỹ thuật mã hóa khóa bí mật
+Mã hóa khóa bí mật an toàn hơn mã hóa khóa công khai
+Mã hóa khóa bí mật chỉ hoạt động theo chế độ mã hóa khối
+* Mã hóa khóa bí mật sử dụng một mã (key) cho cả quá trình mã hóa và giải mã
+Mã hóa khóa bí mật có thuật toán đơn giản hơn mã hóa khóa công khai
+
+Ưu điểm của kỹ thuật mã hóa khóa công khai so với mã hóa khóa bí mật là:
+Có độ an toàn cao hơn
+Trao đổi khóa dễ dàng hơn
+Chi phí tính toán thấp hơn
+* Quản lý dễ dàng hơn
+
+Trong hệ mã hóa RSA, quan hệ toán học giữa khóa bí mật d và khóa công khai e được gọi là:
+d và e là 2 số nguyên tố cùng nhau
+d là modulo nghịch đảo của e
+d là modulo của e
+* d và e không có quan hệ với nhau
+
+Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là
+* Có thuật tóan encryption tốt, có một khóa bí mật được biết bởi người nhận/gởi và kênh truyền bí mật để phân phát key
+Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gởi
+Có thuật tóan encryption tốt và có một khóa bí mật được biết bởi người nhận/gởi
+Tất cả đều đúng
+
+Tìm phát biểu đúng về mã hóa khóa bất đối xứng (Asymmetric key cryptography):
+An toàn hơn mã hóa khóa bí mật
+* Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
+Chỉ sử dụng kỹ thuật mã hóa khối
+Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
+
+Khóa tại mỗi vòng của hệ mã hóa DES sử dụng là bao nhiêu bit?
+16
+32
+* 56 (chú ý: thực tế DES dùng khóa phụ 48 bit/vòng; 56 là khóa hiệu dụng)
+64
+
+Hệ mã hóa Affine có bao nhiêu khóa?
+123
+132
+213
+* 312
+
+Khoá riêng có đặc điểm
+Thời gian thực hiện chậm
+* Thời gian thực hiện nhanh.
+Không an toàn
+Được thay thế bằng khoá công khai.
+
+Cho bản mã y = 126 khóa riêng là p = 7, q = 23, e = 5. Khi giải mã bản mã y với khóa trên theo hệ RSA ta sẽ thu được bản rõ nào sau đây?
+12
+26
+* 42
+62
+
+Thuật giải Difie Hellman dùng để:
+Bảo mật thông điệp
+Xác thực thông điệp
+* Phân phối khoá trước cho hệ mật đối xứng
+Lấy chữ ký sô
+
+Các hệ mã hóa khóa công khai sử dụn một cặp khóa: public key và private key. Các yêu cầu đối với public key và private key là:
+Cả public key và private key đều cần giữ bí mật
+Có thể công khai public key và cần giữ bí mật private key
+Có thể công khai private key và cần giữ bí mật public key
+* Có thể công khai public key nhưng phải đảm bảo tính xác thực và cần giữ bí mật private key
+
+Các thuộc tính cơ bản của chứng chỉ số khóa công khai (Public key digital certificate) gồm:
+* Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
+Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng
+Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể
+Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)
+
+Độ an toàn của hệ mật mã RSA dựa trên...
+Độ phức tạp cao của giải thuật RSA
+Chi phí tính toán lớn
+* Tính khó của việc phân tích số nguyên rất lớn
+Khóa có kích thước lớn
+
+Khi sinh cặp khóa RSA, các số nguyên tố p và q nên được chọn với kích thước…
+p càng lớn càng tốt
+* Bằng khoảng một nửa kích thước của modulo n
+Không có yêu cầu về kích thước của p và q
+q càng lớn càng tốt
+
+Các giao thức mã hóa và các thuật toán nào sau đây được sử dụng như là nền tảng của hạ tầng cơ sở hạ tầng khóa công khai (PKI)?
+MD4
+SHA
+* Diffie-Hellman
+Skipjack
+
+Hệ thống cơ sở hạ tầng khóa công khai (PKI) uy tín nhất thế giới hiện nay là?
+* VerySign
+OpenCA
+Microsoft
+GeoTrust

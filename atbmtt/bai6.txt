@@ -1,0 +1,89 @@
+Khi được hỏi về các mối đe dọa cho công ty từ phía các hacker. Loại thông tin nào sau đây sẽ giúp ích nhiều nhất?
+Xác minh tài sản sở hữu
+Đánh giá rủi ro
+Nhận dạng mối đe dọa
+* Các điểm yếu
+
+Cách nào sau đây là tốt nhất để chống lại điểm yếu bảo mật trong phần mềm HĐH?
+* Cài đặt bản service pack mới nhất
+Cài đặt lại HĐH thông dụng
+Sao lưu hệ thống thường xuyên
+Shut down hệ thống khi không sử dụng
+
+Phần nào của một thiết bị phần cứng có thể được nâng cấp để cung cấp khả năng bảo mật tốt hơn và đáng tin hơn?
+* Vi chương trình (Firmware / BIOS)
+Bộ nhớ RAM
+Flash memory
+Cấu hình tập tin
+
+Khi kết thúc công việc trên máy tính xách tay và ra ngoài khoảng 1 tiếng vào buổi trưa. Ta nên làm gì trước khi ra ngoài?
+Nói với đồng nghiệp để mắt đến máy tính xách tay
+Log out khỏi máy tính xách tay
+Shut down và đóng máy lại
+* Chắc chắn rằng máy tính xách tay của ta được bảo vệ trên bàn làm việc hay được khóa trong cabin
+
+Qui trình quyết định giá trị của thông tin hay thiết bị trong một tổ chức được gọi là gì?
+* Đánh giá tài nguyên thông tin
+Đánh giá rủi ro
+Nhận dạng chuỗi
+Quét các điểm yếu
+
+Công cụ Vulnerability scanner cho phép tin tặc:
+Tìm các cổng dịch vụ đang mở trên hệ thống
+* Thu thập các thông tin về các điểm yếu/lỗ hổng đã biết của hệ thống máy tính hoặc mạng
+Nghe trộm và bắt các gói tin khi chúng được truyền trên mạng
+Chặn bắt và sửa đổi thông tin
+
+Một trong các nội dung rất quan trọng của quản lý an toàn thông tin là:
+Quản lý các ứng dụng
+Quản lý hệ thống
+Quản lý hệ điều hành
+* Quản lý rủi ro
+
+Đâu là một công cụ có khả năng rà quét các lỗ hổng chèn mã SQL cho các trang web?
+nmap
+Microsoft Baseline Security Analyzer
+Nessus vulnerability scanner
+* Acunetix Web Vulnerability Scanner
+
+Việc quản lý, khắc phục các lỗ hổng bảo mật và tăng cường khả năng đề kháng cho hệ thống cần được thực hiện theo nguyên tắc chung là:
+* Cân bằng giữa An toàn, Hữu dụng và Tin cậy
+Cân bằng giữa An toàn, Rẻ tiền và Chất lượng
+Cân bằng giữa An toàn, Hữu dụng và Rẻ tiền
+Cân bằng giữa An toàn, Tin cậy và Rẻ tiền
+
+Một trong các biện pháp cụ thể cho quản lý, khắc phục các lỗ hổng bảo mật và tăng cường khả năng đề kháng cho hệ thống là:
+* Định kỳ cập nhật thông tin về các lỗ hổng từ các trang web chínhthức
+Định kỳ cập nhật các bản vá và nâng cấp hệ điều hành
+Định kỳ nâng cấp hệ thống phần mềm
+Định kỳ nâng cấp hệ thống phần cứng
+
+Một người dùng đã mua một máy tính xách tay đã nhiễm virus. Trên máy không chứa phần mềm Antivirus và chưa được kết nối với mạng. Cách tốt nhất để sửa chữa máy tính xách tay là gì?
+Nối mạng máy tính xách tay và download phần mềm antivirus từ máy chủ
+* Khởi động máy tính xách tay với đĩa antivirus
+Nối mạng máy tính xách tay và download phần mềm antivirus từ Internet
+Kết nối máy tính xách tay đến một máy tính cá nhân khác và diệt virus từ đó
+
+Khi một user báo cáo rằng hệ thống của anh ta đã phát hiện một virus mới. Điều gì sau đây cần làm như là bước đầu tiên để xử lý tình huống này?
+Kiểm tra lại tập tin diệt virus hiện hành
+Định dạng lại đĩa cứng
+Cài đặt lại hệ điều hành
+* Disable tài khoản email của anh ta
+
+Trên thực tế, có thể giảm khả năng bị tấn công nếu có thể...
+Triệt tiêu được hết các nguy cơ
+Triệt tiêu được hết các mối đe dọa
+* Giảm thiểu các lỗ hổng bảo mật
+Kiểm soát chặt chẽ người dùng
+
+Các bước tiến hành nhằm giảm sự rủi ro vì virus:
+Bằng phần mềm diệt virus
+Luôn cập nhật chương trình diệt virus.
+Chọn phần mềm diệt virus thích hợp
+* Tất cả các giải pháp trên
+
+Để quét lỗ hổng mạng thường sử dụng phần mềm nào?
+SupterScan
+* Nessus
+Nmap
+Scapy

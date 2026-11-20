@@ -1,0 +1,299 @@
+Các giao thức nào sau đây cần xóa trên một máy chủ email để ngăn chặn một user trái phép khai thác các điểm yếu bảo mật từ phần mềm giám sát mạng?
+IMAP
+POP3
+TCP/IP
+* SNMP
+
+Các giao thức hay các dịch vụ nào sau đây nên loại bỏ trong mạng nếu có thể?
+Email
+Telnet
+WWW
+* ICMP
+
+Mạng nào sau đây không phải là một vùng bảo mật?
+Internet
+Intranet
+Extranet
+* NAT
+
+Các giao thức nào sau đây cho phép một tổ chức đưa một địa chỉ TCP/IP đơn lên Internet?
+* NAT
+VLAN
+DMZ
+Extranet
+
+Ta muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Ta không muốn để lộ mạng bên trong để tránh rủi ro. Phương pháp nào để thực hiện điều này?
+Cài đặt máy chủ trong mạng Intranet
+* Cài đặt máy chủ trong một DMZ
+Cài đặt máy chủ trong một VLAN
+Cài đặt máy chủ trong mạng Extranet
+
+Thiết bị nào giám sát lưu lượng mạng theo cách thụ động?
+* Sniffer
+IDS
+Firewall
+Web browser
+
+Qui trình xác định topology của mạng được gọi là gì?
+In dấu chân
+* Quét mạng
+Thiết bị làm nhiễu
+Liệt kê
+
+Qui trình xác định vị trí và các thông tin mạng được gọi là gì?
+* In dấu chân
+Quét
+Thiết bị làm nhiễu
+Liệt kê
+
+Qui trình phá vỡ một phiên làm việc IM được gọi là gì?
+* Thiết bị làm nhiễu
+Truyền rộng rãi
+Phản ứng với rắc rối
+Khảo sát định vị
+
+Lỗ hổng an ninh trong một hệ thống là:
+* Bất kỳ điểm yếu nào trong hệ thống cho phép mối đe dọa có thể gây tác hại
+Các điểm yếu trong hệ điều hành
+Tất cả điểm yếu hoặc khiếm khuyết trong hệ thống
+Các điểm yếu trong các phần mềm ứng dụng
+
+Hai lĩnh vực chính của an toàn thông tin là:
+Mật mã và An ninh mạng
+An toàn công nghệ thông tin và An ninh mạng
+An ninh máy tính và An ninh mạng
+* An toàn công nghệ thông tin và Đảm bảo thông tin
+
+Các lỗ hổng bảo mật trên hệ thống là do
+Dịch vụ cung cấp
+Bản thân hệ điều hành
+Con người tạo ra
+* Tất cả đều đúng
+
+Cho biết câu nào đúng trong các câu sau
+Tất cả Firewall đều có chung thuộc tính là cho phép phân biệt hay đối xử khả năng từ chối hay truy nhập dựa vào địa chỉ nguồn
+Chức năng chính của Firewall là kiểm sóat luồng thông tin giữa mạng cần bảo vệ và Internet thông qua các chính sách truy nhập đã được thiết lập
+Hệ thống Firewall thường bao g��m cả phần cứng lẫn phần mềm
+* Tất cả đều đúng
+
+Điều gì sẽ xãy ra khi một thông báo đã được sửa đổi?
+Khoá công cộng đã được thay đổi
+Chìa khóa cá nhân đã được thay đổi
+Thông điệp số đã được thay đổi
+* Tin nhắn đã được mã hóa đúng cách
+
+An toàn thông tin gồm hai lĩnh vực chính là:
+An ninh mạng và An toàn hệ thống
+An toàn máy tính và An toàn Internet
+An toàn máy tính và An ninh mạng
+* An toàn công nghệ thông tin và Đảm bảo thông tin
+
+Một thông điệp có nội dung nhạy cảm truyền trên mạng bị sửa đổi. Các thuộc tính an toàn thông tin nào bị vi phạm?
+Bí mật, Toàn vẹn và sẵn dùng
+* Bí mật và Toàn vẹn
+Bí mật
+Toàn vẹn
+
+Các vùng bộ nhớ thường bị tràn gồm:
+* Ngăn xếp (Stack) và vùng nhớ cấp phát động (Heap)
+Ngăn xếp (Stack) và Bộ nhớ đệm (Cache)
+Hàng đợi (Queue) và vùng nhớ cấp phát động (Heap)
+Hàng đợi (Queue) và Ngăn xếp (Stack)
+
+Nguyên nhân của sự tồn tại các điểm yếu trong hệ thống có thể do:
+Lỗi thiết kế, lỗi cài đặt và lập trình
+* Tất cả các khâu trong quá trình phát triển và vận hành
+Lỗi quản trị
+Lỗi cấu hình hoạt động
+
+Các lỗ hổng bảo mật thường tồn tại nhiều nhất trong thành phần nào của hệ thống:
+Hệ điều hành
+Các dịch vụ mạng
+* Các ứng dụng
+Các thành phần phần cứng
+
+Các thành phần của an toàn thông tin gồm:
+An toàn máy tính, An ninh mạng, Quản lý ATTT và Chính sách ATTT
+* An toàn máy tính và dữ liệu, An ninh mạng, Quản lý ATTT và Chính sách ATTT
+An toàn máy tính, An ninh mạng, Quản lý rủi ro ATTT và Chính sách ATTT
+An toàn máy tính, An toàn dữ liệu, An ninh mạng, Quản lý ATTT
+
+Các yêu cầu cơ bản trong đảm bảo an toàn thông tin và an toàn hệ thống thông tin gồm:
+Bảo mật, Toàn vẹn và Khả dụng
+Bảo mật, Toàn vẹn và Sẵn dùng
+* Bí mật, Toàn vẹn và Sẵn dùng
+Bí mật, Toàn vẹn và không chối bỏ
+
+Hệ thống thông tin là:
+* Một hệ thống tích hợp các thành phần nhằm phục vụ việc thu thập, lưu trữ, xử lý thông tin, chuyển giao thông tin, tri thức và các sản phẩm số
+Một hệ thống gồm các thành phần phần cứng và phần mềm nhằm phục vụ việc thu thập, lưu trữ, xử lý thông tin, chuyển giao thông tin
+Một hệ thống gồm các thành phần phần cứng nhằm phục vụ việc thu thập, lưu trữ, xử lý thông tin, chuyển giao thông tin, tri thức và các sản phẩm số
+Một hệ thống gồm các thành phần phần mềm nhằm phục vụ việc thu thập, lưu trữ, xử lý thông tin, chuyển giao thông tin, tri thức và các sản phẩm số
+
+Đảm bảo thông tin (Information assurance) thường được thực hiện bằng cách:
+Sử dụng kỹ thuật tạo dự phòng ra đĩa cứng
+Sử dụng kỹ thuật tạo dự phòng ra băng từ
+* Sử dụng kỹ thuật tạo dự phòng ngoại vi
+Sử dụng kỹ thuật tạo dự phòng cục bộ
+
+Đâu là tên viết đúng của Hệ thống phát hiện đột nhập/xâm nhập?
+Intrusion Detector System
+Intrusion Detecting System
+* Intrusion Detection System
+Instruction Detection System
+
+An toàn thông tin được chia làm những thành phần nào?
+* An toàn máy tính và dữ liệu, an toàn mạng, quản lý an toàn thông tin
+An toàn mạng, quản lý an toàn thông tin, chính sách an toàn thông tin
+An toàn mạng, an toàn máy tính và dữ liệu, chính sách an toàn thông tin
+An toàn máy tính và dữ liệu, quản lý an toàn thông tin, chính sách an toàn thông tin
+
+Nếu dữ liệu bị sửa đổi thì đã vi phạm yêu cầu gì?
+Toàn vẹn, sẵn dùng
+Bí mật, sẵn dùng
+* Toàn vẹn, bí mật
+An toàn, bí mật
+
+Các thiết bị hay các ứng dụng bảo mật nào sau đây nên được sử dụng để theo dõi và cảnh báo các quản trị mạng về truy cập trái phép?
+Chương trình Antivirus
+Switch
+* Hệ thống phát hiện xâm nhập (IDS)
+Dụng cụ phân tích mạng
+
+Điều gì cần được thực hiện với một email server để ngăn chặn user bên ngoài gởi email thông qua nó?
+Cài đặt phần mềm antivirus và antispam.
+* Hạn chế chuyên tiếp tín hiệu SMTP.
+Xoá quyền truy cập POP3 và IMAP
+Enable login được mã hóa
+
+Một chương trình nằm trong một chương trình khác được cài vào hệ thống gọi là một …….
+* Trojan Horse
+Polymorphic virus
+Sâu
+Armored virus
+
+Một đêm làm việc khuya và bạn phát hiện rằng ổ cứng của bạn hoạt động rất tích cực mặc dù bạn không thực hiện bất kỳ thao tác nào trên máy tính. Bạn nghi ngờ điều gì?
+Khả năng ổ đĩa ngừng hoạt động sắp xảy ra
+* Một virus đang phát tán rộng trong hệ thống
+Hệ thống của bạn đang chịu tác động của tấn công DoS
+Tấn công TCP/IP hijacking đang cố gắng thực hiện
+
+Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa, bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?
+Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không phát hiện thấy virus, sẽ chạy chương trình đó để sửa lỗi.
+Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì nó được gửi từ Microsoft
+* Xoá email đó ngay. Mocrosoft và các nhà cung cấp không bao giờ gửi chương trình sửa lỗi qua email.
+xxx
+
+Các phần mềm độc hại nào sau đây có khả năng tự nhân bản:
+Virus, worm, adware
+Virus, backdoor, worm
+* Virus, worm, zombie
+Virus, trojan horse, worm
+
+Hiện tượng này do loại chương trình nguy hiểm nào gây ra: Làm mất một số file, làm phân mãnh ổ đĩa, gây tác hại vào những ngày, tháng đặc biệt v. v
+Virrus, Zombie
+* Worm, Virus
+Logicbomb, Virus
+Trapdoors, Trojan
+
+Tại sao cần phải đảm bảo an toàn cho thông tin?
+* Do có nhiều thiết bị kết nối mạng Internet với nhiều nguy cơ và đe dọa
+Do có quá nhiều phần mềm độc hại
+Do có quá nhiều nguy cơ tấn công mạng
+Do có nhiều thiết bị kết nối mạng Internet
+
+Một trong các mối đe dọa an toàn thông tin thường gặp là:
+Phần mềm nghe lén
+Phần mềm quảng cáo
+Phần mềm phá mã
+* Phần mềm độc hại
+
+Các dạng phần mềm độc hại (malware) có khả năng tự nhân bản gồm:
+Virus, zombie, spyware
+Virus, trojan, zombie
+Virus, worm, trojan
+* Virus, worm, zombie
+
+Dịch vụ mạng nào cho phép các địa chỉ mạng bên trong được “che dấu”( hidden) khỏi các mạng bên ngoài và cho phép vài host của mạng bên trong sử dụng các địa chỉ trùng với mạng bên ngoài?
+* NAT
+VPN
+VLAN
+IP spoofing
+
+Điều nào sau đây là điểm yếu của IP?
+Mã nguồn độc hại
+Giả mạo IP
+* Tấn công dạng “Man in the middle”
+Tấn công chuyển tiếp
+
+Các lỗ hổng tồn tại phổ biến trong hệ điều hành và các phần mềm ứng dụng là:
+* Lỗi tràn bộ đệm và lỗi không kiểm tra đầu vào
+Lỗi tràn bộ đệm và cấu hình
+Lỗi cài đặt và quản trị
+Lỗi cài đặt và cấu hình
+
+An toàn thông tin (Information Security) là:
+* Việc đảm bảo an toàn cho hệ thống máy tính
+Việc phòng chống tấn công, đột nhập vào hệ thống máy tính và mạng
+Việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sử đổi, hoặc phá hủy thông tin một cách trái phép
+Việc đảm bảo an toàn cho hệ thống mạng
+
+Các phát biểu sau đây phát biểu là là đúng nhất
+Fire wal là một vành đai phòng thủ cho máy tính hoặc hệ thống trước những tấn công
+Là một điểm chặn của trong quá trình điều khiển và giám sát.
+* Là một phần mềm hoặc phần ứng có khả năng ngăn chặn tấn công từ bên trong và bên ngoài vào hệ thống.
+Là một giải pháp giúp hệ thống phát hiện và ngăn chặn các truy cập trái phép
+
+An toàn hệ thống thông tin là:
+Việc đảm bảo thông tin trong hệ thống không bị đánh cắp
+Việc đảm bảo cho hệ thống thông tin hoạt động trơn tru, ổn định
+Việc đảm bảo cho hệ thống thông tin không bị tấn công
+* Việc đảm bảo các thuộc tính an ninh, an toàn của hệ thống thông tin
+
+An toàn thông tin (Information Security) là gì?
+Là việc phòng chống đánh cắp thông tin
+* Là việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sửa đổi, hoặc phá hủy thông tin một cách trái phép
+Là việc bảo vệ chống sử dụng, tiết lộ, sửa đổi, vận chuyển hoặc phá hủy thông tin một cách trái phép
+Là việc phòng chống tấn công mạng
+
+Tìm phát biểu đúng trong các phát biểu sau:
+Mối đe dọa là bất kỳ một hành động tấn công nào vào hệ thống mạng.
+* Mối đe dọa là bất kỳ một hành động nào có thể gây hư hại đến các tài nguyên hệ thống.
+Mối đe dọa là bất kỳ một hành động tấn công nào vào hệ thống máy tính.
+Mối đe dọa là bất kỳ một hành động tấn công nào vào hệ thống máy tính và mạng.
+
+Lỗ hổng bảo mật (Security vulnerability) là một điểm yếu tồn tại trong một hệ thống cho phép tin tặc:
+Khai thác nhằm đánh cắp các thông tin trong hệ thống
+* Khai thác gây tổn hại đến các thuộc tính an ninh của hệ thống đó
+Khai thác, tấn công phá hoại và gây tê liệt hệ thống
+Khai thác nhằm chiếm quyền điều khiển hệ thống
+
+Đâu là dạng lỗ hổng bảo mật thường gặp trong hệ điều hành và các phần mềm ứng dụng?
+* Lỗi tràn bộ đệm
+Lỗi quản trị
+Lỗi cấu hình
+Lỗi thiết kế
+
+Các máy tính ma/máy tính bị chiếm quyền điều khiển thường được tin tặc sử dụng để...
+Gửi các yêu cầu tấn công chèn mã
+Đánh cắp dữ liệu từ máy chủ cơ sở dữ liệu
+* Gửi thư rác, thư quảng cáo
+Thực hiện tấn công tràn bộ đệm.
+
+Trong các vùng hạ tầng CNTT, vùng nào có nhiều mối đe dọa nguy cơ nhất?
+* Vùng người dùng
+Vùng máy trạm
+Vùng mạng LAN
+Vùng mạng LAN-to-WAN
+
+Trong các vùng hạ tầng CNTT, vùng nào có các lỗ hổng trong quản lý phần mềm ứng dụng của máy chủ?
+Vùng máy trạm
+Vùng mạng LAN-to-WAN
+Vùng truy nhập từ xa
+* Vùng hệ thống và ứng dụng
+
+An toàn thông tin gồm các lĩnh vực nào?
+* An toàn CNTT, đảm bảo thông tin
+Đảm bảo thông tin, an toàn mạng
+An toàn máy tính, an toàn dữ liệu
+An toàn mạng, bảo mật hệ thống

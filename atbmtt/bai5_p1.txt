@@ -1,0 +1,299 @@
+Loại tấn công nào sau đây chiếm quyền truy cập đến tài nguyên lợi dụng cơ chế điều khiển truy cập DAC?
+Phishing
+* DAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và Trojan horse
+Spoofing
+Man in the middle
+
+Ưu điểm của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:
+Bảo mật cao và độ ổn định cao
+Bảo mật cao và chi phí thấp
+* Bảo mật cao và luôn đi cùng với chủ thể
+Bảo mật cao và được hỗ trợ rộng rãi
+
+Một trong các nhược điểm chính của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:
+Không được hỗ trợ rộng rãi
+* Chi phí đắt
+Khó sử dụng
+Công nghệ phức tạp
+
+Yếu tố nào sau đây được coi là hữu ích nhất trong việc kiểm soát truy cập khi bị tấn công từ bên ngoài?
+* Đăng nhập hệ thống ( System logs)
+Phần mềm antivirus
+Kerberos
+Sinh trắc học
+
+Một kẻ tấn công cố gắng dùng địa chỉ IP để tạo một hệ thống khác trong mạng của ta nhằm giành quyền kiểm soát truy cập. Đây là loại tấn công nào?
+Tấn công dạng “Man in the middle”
+Tấn công cửa sau
+Sâu
+* TCP/IP hijacking
+
+Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì?
+* Giả mạo
+Tấn công chuyển tiếp
+Social engineering (Khai thác giao tiếp)
+Trojan
+
+Các log file trên hệ thống của bạn phát hiện một nổ lực giành quyền truy cập đến một tài khoản đơn. Nổ lực này đã không thành công vào thời điểm đó. Theo kinh nghiệm của bạn thì loại tấn công thích hợp nhất là gì?
+* Tấn công đoán mật khẩu (Password Guessing)
+Tấn công cửa sau
+Tấn công bằng sâu
+TCP/IP hijacking
+
+Trojan horses là dạng phần mềm độc hại thường giành quyền truy nhập vào các file của người dùng khai thác cơ chế điều khiển truy nhập...
+* МАС
+Role-Based
+Rule-Based
+DAC
+
+Loại tấn công nào sau đây chiếm quyền truy nhập đến tài nguyên lợi dụng cơ chế điều khiển truy nhập DAC?
+Spoofing
+* Trojan horse
+Man in the middle
+Phishing
+
+Những chữ đầu của nhóm từ ACL là tên viết tắt của:
+Arbitrary Code Language
+Access Control Library
+* Access Control List
+Allowed Computer List
+
+Nên cài mức truy cập mặc định là mức nào sau đây?
+Full access
+* No access
+Read access
+Write access
+
+Quyền truy cập nào cho phép ta lưu giữ một tập tin?
+Đọc
+Sao chép
+Hiệu chỉnh
+* Ghi
+
+Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?
+* Hiệu chỉnh (Modify)
+Sao chép (Copy)
+Thay đổi (Change)
+Biên tập ( Edit)
+
+Các quyền truy cập tối đa nên dành cho user là gì?
+Ít nhất là quyền đọc và ghi
+Không có quyền truy cập
+* Đủ để thực hiện công việc theo chức trách
+Toàn quyền
+
+Sau khi một user đã được định danh (identifed), điều gì cần phải làm trước khi họ log vào một mạng máy tính?
+* Xác thực với mật khẩu
+Họ phải nhập user ID đã được mã hóa
+Được phép truy cập với mức ưu tiên được thiết lập
+Người quản trị phải enable để gõ vào
+
+Thiết bị nào sử dụng bộ lọc gói và các quy tắc truy cập để kiểm soát truy cập đến các mạng riêng từ các mạng công cộng, như là Internet?
+Điểm truy cập không dây
+Router
+* Tường lửa
+Switch
+
+Đặc tính nào của các thiết bị mạng như router hay switch, cho phép điều khiển truy cập dữ liệu trên mạng?
+Giao thức DNS
+Cập nhật vi chương trình ( Firmware)
+Tường lửa
+* Danh sách điều khiển truy cập (ACL)
+
+Qui trình xác thực nào sử dụng nhiều hơn một yếu tố xác thực để logon?
+* Đa yếu tố ( multi-factor)
+Sinh trắc học
+Thẻ thông minh
+Keberos
+
+Danh sách điều khiển truy nhập ACL thực hiện việc cấp quyền truy cập đến các đối tượng cho người dùng bằng cách:
+Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý riêng rẽ
+Mỗi người dùng được gán một danh sách các đối tượng kèm theo quyền truy cập
+Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý trong một ma trận
+* Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truy cập
+
+Một hệ thống điều khiển truy nhập có thể được cấu thành từ các dịch vụ nào sau đây:
+Xác thực, đăng nhập và kiểm toán (auditing)
+Xác thực, đăng nhập và trao quyền
+Xác thực, trao quyền và kiểm toán (auditing)
+* Xác thực, trao quyền và quản trị
+
+Tính bảo mật của kỹ thuật điều khiển truy nhập sử dụng mật khẩu dựa trên:
+Tần suất sử dụng mật khẩu
+Kích thước của mật khẩu
+* Độ khó đoán và tuổi thọ của mật khẩu
+Số loại ký tự dùng trong mật khẩu
+
+Ưu điểm của thẻ bài (token) so với thẻ thông minh (smart card) trong điều khiển truy nhập là:
+* Có cơ chế xác thực mạnh hơn
+Có cơ chế xác thực đa dạng hơn
+Được sử dụng rộng rãi hơn
+Có chi phí rẻ hơn
+
+Mục đích chính của điều khiển truy nhập là để đảm bảo các thuộc tính an ninh của thông tin, hệ thống và các tài nguyên, gồm:
+Tính bảo mật, tính toàn vẹn và tính xác thực
+Tính bí mật, tính toàn vẹn và tính xác thực
+Tính bảo mật, tính toàn vẹn và tính sẵn dùng
+* Tính bí mật, tính toàn vẹn và tính sẵn dùng
+
+Số lượng nhân tố (factor) xác thực sử dụng trong điều khiển truy nhập dựa trên thẻ thông minh là:
+1
+3
+* 2
+4
+
+Hai dịch vụ quan trọng nhất của một hệ thống điều khiển truy nhập là:
+* Authentication và Authorization
+Authenticator và Administrator
+Administrator và Authorization
+Authentication và Administrator
+
+Tìm phát biểu đúng về dịch vụ xác thực trong điều khiển truy nhập:
+* Là quá trình xác minh tính chân thực của thông tin nhận dạng người dùng cung cấp
+Là quá trình xác minh nhận dạng của chủ thể
+Là quá trình xác minh các thông tin nhận dạng của chủ thể yêu cầu truy nhập đối tượng
+Là quá trình xác minh nhận dạng của người dùng
+
+Một điểm yếu điển hình trong hệ thống điều khiển truy cập là việc sử dụng mật khẩu dễ đoán hoặc mật khẩu được lưu ở dạng rõ. Đây là điểm yếu thuộc khâu:
+* Quản trị
+Xác thực
+Trao quyền
+Xác thực và Trao quyền
+
+Để đảm bảo an toàn cho hệ thống điều khiển truy cập, một trong các biện pháp phòng chống hiệu quả là:
+* Không mở các email của người lạ hoặc email quảng cáo
+Không cho phép chạy các chương trình điều khiển từ xa
+Không cài đặt và chạy các chương trình tải từ các nguồn khôngtin cậy
+Không dùng tài khoản có quyền quản trị để chạy các chương trình ứngdụng
+
+Điều khiển truy nhập dựa trên luật (Rule-based access control) được sử dụng phổ biến trong:
+VPN
+* Firewall
+SSL/TLS
+Kerberos
+
+Một trong các dạng khóa mã (encrypted keys) được sử dụng rộng rãi trong điều khiển truy nhập là:
+E-token
+* Chứng chỉ số khóa công khai
+The ATM
+Mobile-token
+
+Bộ lọc địa chỉ MAC được định nghĩa như:
+Được phép truy cập đến một địa chỉ MAC nhất định.
+* Ngăn chặn truy cập từ một địa chỉ MAC nhất định.
+Mã hóa địa chỉ MAC của thiết bị không dây.
+Tường lửa cá nhân
+
+Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập MAC:
+* MAC cấp quyền truy cập dựa trên tính nhạy cảm của những thông tin và chính sách quản trị
+MAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
+MAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác
+MAC quản lý truyền quy cập chặt chẽ hơn các cơ chế khác
+
+Các hệ điều hành Microsoft Windows và Linux sử dụng các mô hình điều khiển truy cập nào dưới đây?
+* DAC và Role-BAC
+DAC và MAC
+MAC và Role-BAC
+MAC và Rule-BAC
+
+Ba cơ chế điều khiển truy nhập thông dụng gồm:
+DAC, MAC và RRAC
+DAC, BAC và RBAC
+DAC, MAC và BAC
+* DAC, MAC và RBAC
+
+Audit (kiểm tra, kiểm toán) dùng trong an toàn cơ sở dữ liệu nhằm
+Xác thực đó là ai?
+Cấp quyền ai có thể làm gì?
+* Ai đã làm gì?
+Tất cả đều đúng (xác thực, cấp quyền và kiểm tra ai đã làm gì).
+
+DAC trong hệ quản trị cơ sở dữ liệu có mấy mức?
+1
+* 2
+3
+4
+
+Nên cài mức truy cập mặc định cơ sở dữ liệu là mức nào sau đây?
+Full access
+* No access
+Read access
+Write access
+
+Người có chức năng phân quyền truy cập trong hệ quản trị cơ sở dữ liệu là:
+Người dùng
+Người viết chương trình ứng dụng
+* Người quản trị cơ sở dữ liệu
+Lãnh đạo cơ quan
+
+Trong các phát biểu sau, phát biểu nào sai khi nói về phần quyền truy cập?
+Bảng phân quyền truy cập cũng là dữ liệu của CSDL
+Dựa trên bảng phân quyền để trao quyền truy cập khác nhau để khai thác dữ liệu cho các đối tượng người dùng khác nhau.
+* Mọi người đều có thể truy cập, bổ sung và thay đổi bảng phân quyền.
+Bảng phân quyền không giới thiệu công khai cho mọi người biết.
+
+Trong các phát biểu sau, phát biểu nào không phải là chức năng của file log hệ thống?
+Lưu lại số lần truy cập vào hệ thống.
+Lưu lại thông tin của người truy cập vào hệ thống
+Lưu lại các yêu cầu tra cứu hệ thống.
+* Nhận diện người dùng để cung cấp dữ liệu mà họ được phân quyền truy cập
+
+Tấn công dựa trên từ điển là:
+Sử dụng từ điển để tấn công đánh cắp mật khẩu của người dùng
+* Tấn công vào thói quen sử dụng các từ đơn giản có trong từ điển làm mật khẩu
+Nghe trộm để đánh cắp mật khẩu
+Thử tất cả các khả năng kiểu vét cạn để tìm mật khẩu của người dùng
+
+Điều gì có thể được thiết lập trên một server DHCP để ngăn chặn các máy trạm trái phép lấy được một địa chỉ IP từ server?
+Quét cổng
+* Thiết lập “Danh sách truy cập thư mục LDAP”
+Phát hiện xâm nhập
+DNS
+
+Trong suốt quá trình kiểm định một bản ghi hệ thống máy chủ, các mục nào sau đây có thể được xem như là một khả năng đe dọa bảo mật?
+Năm lần nổ lực login thất bại trên tài khoản “jsmith”
+* Hai lần login thành công với tài khoản Administrator
+Năm trăm ngàn công việc in được gởi đến một máy in
+Ba tập tin mới được lưu trong tài khoản thư mục bởi người sử dụng là “finance”
+
+Các phương pháp sinh trắc học nào sau đây được coi là an toàn nhất?
+Phân tích chữ ký
+Quét tiếng nói
+* Lấy dấu bàn tay / Lấy dấu ngón tay
+Không quan trọng
+
+Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?
+Disable tài khoản không dùng đến
+Hạn chế thời gian
+Ngày hết hạn tài khoản
+* Giới hạn số lần logon
+
+Mục đích của một máy chủ RADIUS là
+Packet Sniffing
+Mã hóa
+* Xác thực
+Thỏa thuận tốc độ kết nối
+
+Nếu kẻ tấn công lấy trộm một mật khẩu có chứa một chiều mật khẩu đã mật mã, loại tấn công, cô sẽ thực hiện để tìm mật khẩu đã mật mã?
+Tấn công Man-in-the-middle
+Tấn công Birthday
+Tấn công Denial of Service
+* Tấn công Dictionary
+
+Trong dạng tấn công vào mật khẩu dựa trên từ điển, tin tặc đánh cắp mật khẩu của người dùng bằng cách:
+Tìm mật khẩu trong từ điển các mật khẩu
+* Thử các từ có tần suất sử dụng cao làm mật khẩu trong từ điển
+Vét cận các mật khẩu có thể có
+Lắng nghe trên đường truyền để đánh cắp mật khẩu
+
+Mật khẩu an toàn trong thời điểm hiện tại là mật khẩu có:
+Chứa các ký tự từ nhiều dạng ký tự
+Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng ký tự
+* Độ dài từ 8 ký tự trở lên, gồm chữ cái hoa, thường, chữ số và ký tự đặc biệt
+Độ dài lớn hơn hoặc bằng 8 ký tự
+
+Một trong các biện pháp có thể sử dụng để phòng chống tấn công người đứng giữa là:
+Sử dụng các hệ thống IPS/IDS
+* Sử dụng chứng chỉ số để xác thực thông tin nhận dạng các bên
+Sử dụng mã hóa để đảm bảo tính bí mật các thông điệp truyền
+Sử dụng tường lửa để ngăn chặn

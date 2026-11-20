@@ -1,0 +1,59 @@
+Mô hình tổng quát đảm bảo an toàn thông tin và hệ thống thông tin thường gồm các lớp:
+An ninh tổ chức, An ninh mạng và Điều khiển truy cập
+An ninh tổ chức, Tưởng lửa và Điều khiển truy cập
+An ninh tổ chức, An ninh mạng và An toàn hệ điều hành và ứng dụng
+* An ninh tổ chức, An ninh mạng và An ninh hệ thống
+
+Quản lý các bản vá và cập nhật phần mềm là phần việc thuộc lớp bảo vệ nào trong mô hình tổng thể đảm bảo an toàn hệ thống thông tin?
+Lớp an ninh mạng
+* Lớp an ninh hệ thống
+Lớp an ninh cơ quan/tổ chức
+Lớp an ninh hệ điều hành và phần mềm
+
+Nguyên tắc bảo mật tài nguyên của mô hình Bell-La Padula là:
+Đọc lên và ghi lên
+Đọc xuống và ghi xuống
+* Đọc xuống và ghi lên
+Đọc lên và ghi xuống
+
+Nguyên tắc đảm bảo an toàn thông tin, hệ thống và mạng là:
+Sử dụng các phần cứng hệ thống và mạng đắt tiền
+Sử dụng tường lửa và các phần mềm quét virus
+Sử dụng các hệ thống ngăn chặn và phát hiện tấn công, đột nhập
+* Sử dụng nhiều lớp bảo vệ có chiều sâu
+
+Nguyên tắc cơ bản cho đảm bảo an toàn thông tin, hệ thống và mạng là:
+* Phòng vệ nhiều lớp có chiều sâu
+Cần đầu tư trang thiết bị và chuyên gia đảm bảo an toàn
+Cần mua sắm và lắp đặt nhiều thiết bị an ninh chuyên dụng
+Cân bằng giữa tính hữu dụng, chi phí và tính năng
+
+Việc thực thi quản lý ATTT cần được thực hiện theo chu trình lặp lại là do
+* Các điều kiện bên trong và bên ngoài hệ thống thay đổi theo thời gian
+Trình độ cao của tin tặc và công cụ tấn công ngày càng phổ biến
+Số lượng và khả năng phá hoại của các phần mềm độc hại ngày càng tăng
+Máy tính, hệ điều hành và các phần mềm được nâng cấp nhanh chóng
+
+Chính sách bảo mật là
+Cơ chế mặc định của hệ điều hành
+* phương thức xác định các hành vi “phù hợp” của các đối tượng tương tác với hệ thống
+các tập luật được xây dựng nhằm bảo vệ các tấn công bất hợp pháp từ bên ngoài
+Tất cả đều đúng
+
+Lý do tốt nhất để thực hiện một chính sách bảo mật là gì?
+* Tăng an ninh.
+Nó làm cho khó hơn việc thi hành bảo mật
+Hạn chế quyền hạn của nhân viên
+Làm giảm an ninh.
+
+Trong DAC, mô hình nào sử dụng cấu trúc đồ thị tĩnh và đồ thị động?
+Mô hình truy cập CSDL đa mức
+* Mô hình Take-grant.
+Mô hình ma trận truy cập
+Mô hình Acten (Action. Entity)
+
+Để nâng cao hiệu quả của việc bảo mật, chúng ta cần phải:
+Thường xuyên sao chép dữ liệu
+* Thường xuyên thay đổi các tham số của hệ thống bảo vệ.
+Thường xuyên nâng cấp phần cứng, phần mềm.
+Nhận dạng người dùng bằng mã hoá.

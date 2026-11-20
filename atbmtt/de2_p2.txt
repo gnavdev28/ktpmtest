@@ -1,0 +1,269 @@
+Đầu ra của hàm băm SHA-1 là bao nhiêu bit?
+128
+* 160
+224
+256
+
+Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện:
+* Trojan Server được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan
+Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận đươc
+Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận
+Trojan Client được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan
+
+Trong kiểm thử an toàn thông tin, “system hacking” thường chỉ nhóm hoạt động nào?
+* Khai thác hệ thống để giành hoặc mở rộng quyền truy cập.
+Chỉ ghi lại các gói tin đi qua mạng.
+Chỉ thiết kế giao diện ứng dụng.
+Chỉ sao lưu dữ liệu định kỳ.
+
+Sniffing là một phương thức tấn công kiểu:
+Điều khiển máy tính nạn nhân từ xa.
+* Đánh cắp dữ liệu của nạn nhân truyền trên mạng.
+Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng.
+Tấn công làm tê liệt hệ thống mạng của nạn nhân.
+
+Mỗi khóa con được đưa vào hàm F trong một vòng DES có độ dài bao nhiêu bit?
+16
+32
+* 48
+64
+
+RFID- Radio Frequency Identification là kỹ thuật nhận dạng nào?
+Nhận dạng sinh trắc học.
+* Nhận dạng qua tín hiệu RF.
+Nhận dạng hình ảnh.
+Không phải các dạng nói trên.
+
+Cơ chế nào dịch địa chỉ IP và, với biến thể NAPT/PAT, dịch cả cổng để nhiều máy trong mạng riêng chia sẻ một địa chỉ IP công cộng?
+* NAT (Network Address Translation)
+ROUTE (Routing Service)
+RAS (Remote Access Service)
+DNS (Domain Name System)
+
+Trong IPsec, cơ chế nào khi dùng ở tunnel mode với mã hóa có thể bảo vệ cả header IP gốc và dữ liệu bên trong, đồng thời thêm một header IP bên ngoài để định tuyến?
+* ESP ở tunnel mode
+AH
+SSL
+EFS
+
+Đặc điểm nào phân biệt sâu máy tính (worm) với virus lây nhiễm tệp?
+* Worm có thể tự lan truyền giữa các hệ thống mà không cần gắn vào tệp vật
+Worm chỉ lây qua tài liệu Word.
+Worm bắt buộc phải gắn vào tệp thực thi của chương trình khác.
+Worm không thể truyền qua mạng.
+
+Các bước tiến hành nhằm giảm sự rủi ro vì virus:
+Bằng phần mềm diệt virus
+Luôn cập nhật chương trình diệt virus
+Chọn phần mềm diệt virus thích hợp
+* Tất cả các giải pháp trên
+
+Denial of Service (DoS) là:
+Một dịch vụ mạng.
+Một kiểu kết nối mạng.
+Phương thức liên kết mạng.
+* Phương thức tấn công từ chối dịch vụ.
+
+Phương pháp chứng thực được sử dụng phổ biến hiện nay:
+Password
+e-Token
+Fingerprint
+* Tất cả các phương pháp trên
+
+Cặp cổng dịch vụ nào sau đây không đúng?
+HTTP: 80
+* SSL: 25
+DNS: 53
+Tất cả đều sai.
+
+Giao thức nào sau đây cung cấp kênh bảo mật cho HTTP trong HTTPS qua TCP?
+ARP
+S/MIME
+* TLS
+DHCP
+
+Độ lớn của khóa đo bằng đơn vị?
+* Bit
+Byte
+Tất cả đều đúng.
+MB
+
+Điều nào dưới đây không phải là thành phần của an ninh mạng?
+Authentication
+Auditing
+* Tất cả đều sai.
+Security Policies
+
+Phát biểu nào đúng về việc thực hiện thuật toán mã hóa?
+Mã hóa chỉ có thể thực hiện bằng phần mềm.
+Mã hóa chỉ có thể thực hiện bằng phần cứng.
+Phần cứng không thể thực hiện các phép toán mã hóa.
+* Thuật toán mã hóa có thể được triển khai bằng phần mềm, phần cứng hoặc kết
+
+Tường lửa (firewall) không có tác dụng với?
+* Social Engineering
+Bảo vệ các lớp bên trong
+Cấm hoặc cho phép gói tin
+Kiểm soát luồng dữ liệu đi qua
+
+Ứng dụng nào thường dùng để đính kèm Trojan với một tập tin khác?
+* File EXE maker
+Insider
+FPort
+Phương án khác.
+
+Trong ngữ cảnh mã độc, RAT (Remote Access Trojan) có chức năng đặc trưng nào?
+Chỉ nén dữ liệu.
+Chỉ phát hiện lỗi chính tả.
+* Cho phép kẻ tấn công truy cập hoặc điều khiển máy nạn nhân từ xa.
+Tự động thay đổi địa chỉ của mọi máy chủ DNS trên Internet.
+
+Điều gì là sai khi nói về Trojan?
+Thường dùng để đánh cắp thông tin
+Làm chậm tốc độ máy tính
+Cấm chỉnh sửa Registry
+* Có khả năng tự nhân bản
+
+Phát biểu nào đúng về con đường cài Trojan vào máy tính?
+* Trojan có thể bị cài qua truy cập vật lý hoặc qua phần mềm, tệp tải về và tệp
+Trojan không thể bị cài nếu kẻ tấn công được sử dụng trực tiếp máy tính.
+Trojan chỉ lây qua cáp mạng bị hỏng.
+Trojan chỉ xuất hiện khi ổ cứng đầy.
+
+Thuộc tính nào chữ ký số tự nó không cung cấp?
+* Giữ bí mật nội dung thông điệp.
+Xác thực nguồn gốc thông điệp khi khóa công khai của người ký được xác
+Kiểm tra tính toàn vẹn của thông điệp.
+Hỗ trợ chống chối bỏ việc ký.
+
+Các quy tắc (rule) của firewall được xác định bởi?
+Tên rule
+Hành động, Giao thức
+* Tất cả đều đúng
+Điều kiện
+
+Điều nào dưới đây là thành phần cơ bản của X.509 (PKIX)?
+Version
+Certificate Serial Number, Signature Algorithm ID
+* Tất cả các đáp án trên
+Validity Period
+
+Có khả năng lan truyền độc lập mà không cần lan truyền qua file là?
+* Worm
+Zombie
+Virus
+Spyware
+
+Kỹ thuật sử dụng các gói tin giả mạo chiếm đoạt kết nối giữa máy tính nạn nhân với máy đích?
+* TCP Hijacking
+Eavesdropping
+SYN Flooding
+Message replays
+
+SSH dùng cổng nào?
+25
+23
+* 22
+20
+
+Kỹ thuật nhằm tăng tốc độ thực thi và giảm kích thước chương trình virus được gọi là?
+Biến hình
+Chống bẫy
+* Tối ưu
+Mã hóa
+
+Chương trình nào không phải là chương trình chống virus?
+AVG
+BitDefender
+* DA Pro Tool
+McAfee
+
+Hình thức nào sau đây không phải là hình thức tấn công DoS?
+Teardrop
+SYN attack
+Smurf
+* ARP spoofing
+
+Việc sử dụng đội quân zombie tấn công trên mạng là hình thức?
+* DDoS
+Repudiation
+Instruction
+Buffer Overlow
+
+Giao thức SSL ban đầu được phát triển bởi tổ chức nào?
+* Netscape
+Microsoft
+Norton Corp.
+AVG
+
+Loại virus có thể thay đổi đặc điểm của nó sau mỗi lần nhiễm là?
+* Polymorphic
+Stealth
+Camoulage
+Cavity
+
+Version của chứng chỉ X.509 dùng phổ biến nhất hiện nay?
+1
+2
+* 3
+4
+
+Hệ mã hóa thay thế dùng bảng chữ cái tiếng Anh (26 ký tự) sẽ có số khả năng biểu diễn mã?
+226
+262
+2626
+* 26!
+
+Bộ giao thức nào cung cấp bảo mật ở tầng IP và thường được dùng để xây dựng VPN?
+* IPSec
+SSH
+HTTP
+Kerberos
+
+Tường lửa loại Packet Filter được đặt tại lớp nào?
+Physical
+Data link
+Transport
+* Network
+
+Hệ mã Affine y = (ax + b) mod 26, với gcd(a, 26) = 1 và a, b thuộc Z26, có bao nhiêu khóa (kể cả phép biến đổi đồng nhất)?
+123
+132
+213
+* 312
+
+Mục đích trực tiếp của audit log trong an toàn cơ sở dữ liệu là gì?
+Xác thực mật khẩu trước mỗi lần đăng nhập.
+Tự động cấp mọi quyền cho người dùng.
+* Ghi nhận ai đã thực hiện hành động gì để phục vụ kiểm tra.
+Mã hóa toàn bộ cơ sở dữ liệu.
+
+Hệ mã hóa hoán vị với độ dài khóa m = 8 có bao nhiêu khóa?
+* 8!
+268
+826
+26!
+
+Trong DAC, mô hình nào sử dụng cấu trúc đồ thị tĩnh và đồ thị động?
+Mô hình truy cập CSDL đa mức
+* Mô hình Take-grant.
+Mô hình ma trận truy cập
+Mô hình Acten (Action. Entity)
+
+Trong cơ chế chống phát lại có kiểm tra cửa sổ thời gian, timestamp trong thông điệp được dùng để làm gì?
+Đếm tổng số người dùng.
+* Kiểm tra thời điểm tạo thông điệp có nằm trong khoảng thời gian được chấp
+Thay thế khóa mã hóa.
+Cấp quyền quản trị cho người nhận.
+
+Phát biểu nào đúng về nguy cơ lây nhiễm virus từ đĩa CD-ROM?
+CD-ROM không ghi thêm được nên mọi tệp trên đó luôn an toàn.
+* Tệp nhiễm virus đã có trên CD-ROM vẫn có thể gây lây nhiễm khi được thực
+Virus chỉ lây được từ USB, không thể từ CD-ROM.
+Chỉ cần đọc nhãn đĩa là máy tính chắc chắn nhiễm virus.
+
+Kích thước của bản mã trong hệ mã hóa Elgamal so với bản rõ là
+Bằng nhau.
+Bằng 1/2.
+* Gấp đôi lần.
+Gấp ba lần.
