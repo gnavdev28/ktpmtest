@@ -240,8 +240,72 @@
     </div>
 
     <script>
-        // Database chỉ môn ATBM
         const db = [
+            {
+                id: "ktpm",
+                name: "💻 Kỹ thuật phần mềm",
+                files: [
+                    { name: "Chương 1", file: "data/cauhoic1.txt" },
+                    { name: "Chương 2", file: "data/cauhoic2.txt" },
+                    { name: "Chương 3", file: "data/cauhoic3.txt" },
+                    { name: "Chương 4", file: "data/cauhoic4.txt" },
+                    { name: "Chương 5", file: "data/cauhoic5.txt" },
+                    { name: "Chương 6", file: "data/cauhoic6.txt" },
+                    { name: "Chương 7", file: "data/cauhoic7.txt" },
+                    { name: "Chương 8", file: "data/cauhoic8.txt" },
+                    { name: "Chương 9", file: "data/cauhoic9.txt" },
+                    { name: "Chương 10", file: "data/cauhoic10.txt" },
+                    { name: "Full Ngân Hàng", file: "data/cauhoi.txt" }
+                ]
+            },
+            {
+                id: "lsd",
+                name: "🇻🇳 Lịch sử Đảng",
+                files: [
+                    { name: "Chương 1", file: "data/c1.txt" },
+                    { name: "Chương 2", file: "data/c2.txt" },
+                    { name: "Chương 3", file: "data/c3.txt" },
+                    { name: "Học thêm", file: "data/hocthem.txt" }
+                ]
+            },
+            {
+                id: "khdl",
+                name: "📊 Khoa học dữ liệu",
+                files: [
+                    { name: "Phân tích dữ liệu", file: "KHDL/analysis.txt" },
+                    { name: "Hồi quy tuyến tính", file: "KHDL/linear.txt" },
+                    { name: "Hồi quy Logistic", file: "KHDL/logistic.txt" },
+                    { name: "Ôn tập 1", file: "KHDL/on1.txt" },
+                    { name: "Ôn tập 2", file: "KHDL/on2.txt" },
+                    { name: "Ôn tập 3", file: "KHDL/on3.txt" }
+                ]
+            },
+            {
+                id: "tthcm",
+                name: "📚 Tư tưởng Hồ Chí Minh",
+                files: [
+                    { name: "Đề 1", file: "tthcm/hcm1.txt" },
+                    { name: "Đề 2", file: "tthcm/hcm2.txt" },
+                    { name: "Đề 3", file: "tthcm/hcm3.txt" }
+                ]
+            },
+            {
+                id: "sad",
+                name: "📐 Phân tích thiết kế hệ thống (SAD)",
+                files: [
+                    { name: "Part 1", file: "SAD/part1.txt" },
+                    { name: "Part 2", file: "SAD/part2.txt" },
+                    { name: "Part 3", file: "SAD/part3.txt" }
+                ]
+            },
+            {
+                id: "tuh",
+                name: "🧮 Tối ưu hóa (TUH)",
+                files: [
+                    { name: "Lý thuyết TUH", file: "tuh/lythuyet.txt" },
+                    { name: "Bài tập TUH", file: "tuh/baitap.txt" }
+                ]
+            },
             {
                 id: "atbmtt",
                 name: "🛡️ An toàn & Bảo mật thông tin",
@@ -263,11 +327,17 @@
         let allQuestions = [], currentQuizSet = [], wrongQuestions = [];
         let currentIndex = 0, score = 0, lastFile = "";
 
-        // Khởi tạo menu môn học - chỉ hiển thị môn ATBM
+        // Khởi tạo menu môn học
         function initMenu() {
-            showModules(db[0]);
-            const backBtn = document.querySelector('.btn-back');
-            if (backBtn) backBtn.style.display = 'none';
+            const subjList = document.getElementById('subject-list');
+            subjList.innerHTML = '';
+            db.forEach(subj => {
+                const card = document.createElement('div');
+                card.className = 'module-card subject-card';
+                card.innerText = subj.name;
+                card.onclick = () => showModules(subj);
+                subjList.appendChild(card);
+            });
         }
 
         function showSubjects() {
