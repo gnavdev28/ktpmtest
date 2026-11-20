@@ -22,12 +22,6 @@ Khoá cá nhân của bạn
 Khoá cá nhân của người cần xác thực
 * Khoá công khai của người cần xác thực
 
-Khi giá trị hàm băm của hai thông điệp khác nhau có giá trị tương tự nhau, ta gọi hiện tượng này là gì?
-Tấn công vào ngày sinh
-* Xung đột
-Chữ ký số
-Khóa công khai
-
 Chữ ký số được sử dụng cho mục đích gì?
 Để bảo mật tài liệu sao cho người ngoài không đọc được
 * Để kiểm tra định danh người gửi
@@ -51,12 +45,6 @@ Thuật giải MD5 cho ta một giá trị băm có độ dài:
 256 bit
 * 128 bit
 512 bit
-
-MAC là một từ cấu tạo bằng những chữ đầu của một nhóm nào liên quan đến mật mã?
-Kiểm soát truy cập phương tiện (Media access control)
-Kiểm soát truy cập bắt buộc (Mandatory access control)
-* Mã xác thực thông điệp (Message authentication code)
-Các ủy ban đa tư vấn (Multiple advisory committees)
 
 Thuật giải SHA-1 dùng để:
 Tạo khoá đối xứng
@@ -142,24 +130,6 @@ Dùng giải thuật băm để thay đổi thông điệp cần truyền đi, s
 Chỉ sử dụng giải thuật băm để thay đổi thông điệp cần truyền đi và sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên.
 Tất cả đều đúng
 
-Các bước kiểm tra của chứ ký điện tử
-* Gồm các bước 1. Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2. Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3. Nếu trùng nhau, ta kết luận message này không bị thay đổi trong quá trình truyền và message này là của người gửi.
-Chỉ có bước 1 và 2
-Gồm các bước 1. Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2. Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3. Nén dữ liệu rồi gởi đi
-Không có bước nào ở trên là đúng
-
-Lợi thế của RSA là gì so với DSS?
-* Nó có thể cung cấp cho chữ ký số và mã hóa các chức năng
-Nó sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các phím đối xứng
-Nó là một thuật toán mật mã khối so với một thuật toán mật mã dòng
-Nó sử dụng một lần mã hóa pad
-
-Những gì được sử dụng để tạo ra một chữ ký điện tử?
-Khóa riêng của người nhận
-Khóa công khai của người gửi
-* Khóa riêng của người gửi
-Khóa công khai của người nhận
-
 Phương thức nào sau đây là tốt nhất mô tả một chữ ký điện tử?
 Một phương thức chuyển giao một chữ ký viết tay vào một tài liệu điện tử
 Một phương pháp mã hóa thông tin bí mật
@@ -171,18 +141,6 @@ John muốn cài đặt một ứng dụng mới vào máy chủ của Windows 2
 Xin các ứng dụng thông qua SSL
 So sánh chữ ký virus của file với một trong những công bố trên các phương tiện truyền thông
 Cài đặt các ứng dụng từ đĩa CD-ROM
-
-Số lượng thao tác trong mỗi vòng xử lý của hàm băm MD5 là:
-14
-* 16
-18
-12
-
-Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền đưa:
-Tính bí mật
-Tính không chối bỏ
-Tính sẵn dùng
-* Tính toàn vẹn
 
 Trong hệ chữ ký số RSA, việc tạo chữ ký số cho một thông điệp cần sử dụng một khóa. Khóa đó là:
 Khóa riêng của người nhận
@@ -226,24 +184,6 @@ Là một chuỗi được mã hóa theo thuật toán băm và đính kèm vớ
 * Cả 2 ý về chuỗi băm và đoạn dữ liệu chứng thực đều đúng
 Tất cả cả đều sai
 
-Ưu điểm của chữ ký số RSA so với DSS là gì?
-* Có thể cung cấp cho chữ ký số và mã hóa các chức năng.
-Sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các phím đối xứng.
-Là một thuật toán mật mã khối so với một thuật toán mật mã dòng.
-Sử dụng một lần mã hóa pad.
-
-Đầu ra của hàm băm MD5 là bao nhiêu bit?
-64
-* 128
-256
-512
-
-Đầu ra của hàm băm SHA-1 là bao nhiêu bit?
-128
-* 160
-224
-256
-
 Trường có công dụng kiểm tra sự toàn vẹn của gói tin (TCP, UDP, ICMP) là?
 Flags
 * Checksum
@@ -255,15 +195,3 @@ TTL
 Privacy
 Integrity
 Non-repudiation
-
-Khi giá trị hàm băm của hai thông điệp khác nhau có cùng giá trị thì gọi là?
-Tấn công vào ngày sinh
-* Xung đột
-Chữ ký số
-Khóa công khai
-
-DSA là thuật toán
-Lấy dấu tay "PrintingFinger"
-* Tạo chữ ký số
-Phân phối khoá trước
-Bảo mật thông điệp

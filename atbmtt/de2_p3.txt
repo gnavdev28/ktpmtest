@@ -1,0 +1,269 @@
+Những loại tệp nào sau đây có thể được dùng để chứa hoặc thực thi mã độc?
+EXE
+COM
+BAT
+* Cả A, B và C đều đúng.
+
+Các loại mã hóa trong hệ thống thông tin bao gồm
+* Mã hóa nguồn, mã hóa kênh, mã hóa đường truyền.
+Mã hóa nguồn, mã hóa dữ liệu, mã hóa đường truyền.
+Mã hóa thông tin, mã hóa tín hiệu, mã hóa nguồn.
+Mã hóa điều chế, mã hóa khôi phục, mã hóa bảo mật.
+
+An toàn dữ liệu có thể hiểu là:
+Dễ dàng cho công việc bảo trì dữ liệu
+* Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào...
+Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu.
+Tính nhất quán và toàn vẹn dữ liệu.
+
+Độ khó của việc thám mã khi không biết khóa phụ thuộc vào điều gì?
+Chỉ phụ thuộc tên tệp bản mã.
+* Thuật toán, độ mạnh của khóa, dữ kiện có được và mô hình tấn công.
+Chỉ phụ thuộc màu giao diện phần mềm.
+Luôn dễ như nhau với mọi hệ mã.
+
+Khi mã hóa lượng dữ liệu lớn bằng các thuật toán thông dụng, ưu điểm thường gặp của mã hóa đối xứng so với mã hóa bất đối xứng là gì?
+Luôn cần nhiều phép tính hơn cho mỗi byte dữ liệu.
+* Thường có tốc độ xử lý cao hơn.
+Không cần bảo vệ khóa.
+Tự động cung cấp chữ ký số công khai.
+
+Độ an toàn của hệ mã hóa Merkle-Hellman dựa trên bài toán nào?
+Logarit rời rạc
+* Xếp ba lô
+Phân tích thành tích các số nguyên tố
+Định lý số dư trung hoa
+
+DAC trong hệ quản trị cơ sở dữ liệu có mấy mức?
+1
+* 2
+3
+4
+
+Nên cài mức truy cập mặc định cơ sở dữ liệu là mức nào sau đây?
+Full access
+* No access
+Read access
+Write access
+
+Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?
+* Modify
+Copy
+Change
+Edit
+
+Chính sách nào giúp hạn chế việc liên tục thử mật khẩu sai vào một tài khoản?
+Hạn chế thời gian
+Ngày hết hạn tài khoản
+* Giới hạn số lần đăng nhập thất bại và áp dụng khóa hoặc trì hoãn phù hợp.
+Disable tài khoản không dùng đến
+
+Các loại khoá mật mã nào sau đây dễ bị crack nhất ?
+* 40
+128
+192
+256
+
+Cách nào sau đây là tốt nhất để chống lại điểm yếu bảo mật trong phần mềm hệ điều hành?
+* Cài đặt bản service pack mới nhất
+Cài đặt lại HĐH thông dụng
+Sao lưu hệ thống thường xuyên
+Shutdown hệ thống khi không sử dụng
+
+Độ an toàn của hệ mã hóa ElGamal dựa trên bài toán nào?
+* Logarit rời rạc
+Xếp ba lô
+Phân tích thành tích các số nguyên tố
+Định lý số dư trung hoa
+
+Tính năng bảo mật nào có thể được sử dụng đối với một máy trạm quay số truy cập từ xa sử dụng một username và mật khẩu?
+Mã hóa số điện thoại
+Kiểm tra chuỗi modem
+Hiển thị gọi
+* Gọi lại ( Call back)
+
+Tiện ích nào sau đây là một phương thức bảo mật truy cập từ xa tốt hơn telnet?
+SSL
+* SSH
+IPSec
+VPN
+
+Giao thức VPN nào sử dụng kết nối điều khiển TCP và đóng gói dữ liệu bằng GRE trên mạng IP?
+IPX
+PPP
+L2TP
+* PPTP
+
+Mục đích của một máy chủ RADIUS là?
+Packet Sniffing
+Mã hóa
+* Xác thực độ kết nối.
+Thỏa thuận tốc
+
+Các giao thức xác thực nào sau đây là được sử dụng trong các mạng không dây?
+* 802.1X
+802.11b
+802.11a
+803.1
+
+Các giao thức nào sau đây làm việc trên lớp IP để bảo vệ thông tin IP trên mạng?
+IPX
+* IPSec
+SSH
+TACACS+
+
+Kỹ thuật nào được sử dụng để bảo đảm thông tin liên lạc qua một mạng không được bảo mật?
+SLIP
+PPP
+Telnet
+* VPN
+
+Lọc địa chỉ MAC kiểm soát truy cập dựa trên thông tin nào?
+Tên tệp người dùng đang mở.
+* Địa chỉ MAC của thiết bị trong danh sách cho phép hoặc từ chối.
+Nội dung mật khẩu của người dùng.
+Dung lượng ổ cứng của thiết bị.
+
+Phương pháp điều khiển truy cập có hiệu quả và an toàn nhất đối với mạng không dây là
+Mã hóa WEP 40 bit
+* VPN
+Nhận dạng bảo mật mạng
+Mã hóa WEP 128 bit
+
+Cơ cấu bảo mật nào sau đây được sử dụng với chuẩn không dây WAP?
+* WTLS
+SSL
+HTTPS
+Mã hóa WEP
+
+Thiết bị nào sử dụng bộ lọc gói và các quy tắc truy cập để kiểm soát truy cập đến các mạng riêng từ các mạng công cộng , như là Internet?
+Access Point
+Router
+* Firewall
+Switch
+
+Ứng dụng mạng nào có thể được sử dụng để phân tích và kiểm tra lưu lượng mạng ?
+IDS
+FTP
+Router
+* Sniffer
+
+Yếu tố nào cần được sử dụng kết hợp với một thẻ thông minh để xác thực?
+* PIN
+Quét võng mạc
+Mã hóa khóa
+Thẻ nhớ
+
+Hệ thống được cấu hình khóa tài khoản sau 3 lần đăng nhập sai liên tiếp. Người dùng nhập sai mật khẩu 3 lần và bị từ chối đăng nhập tiếp. Cơ chế nào đã được kích hoạt?
+Tường lửa bị tắt.
+Địa chỉ IP hết hạn.
+* Chính sách khóa tài khoản (account lockout).
+Cổng vật lý của switch bị hỏng.
+
+Đặc tính nào của các thiết bị mạng như router hay switch, cho phép điều khiển truy cập dữ liệu trên mạng?
+Tường lửa
+* Danh sách điều khiển truy cập (ACL)
+Cập nhật vi chương trình (Firmware)
+Giao thức DNS
+
+Kẻ tấn công ghi lại một thông điệp xác thực hợp lệ rồi gửi lại thông điệp đó để cố giành quyền truy cập. Đây là loại tấn công nào?
+Man-in-the-middle
+* Replay attack (tấn công phát lại)
+Back Door
+TCP/IP hijacking
+
+Văn bản sau khi được mã hóa, được gọi là gì?
+* Văn bản mã
+Khóa công khai
+Mật mã đối xứng
+Chứng chỉ
+
+Đặc tính nào sau đây không thuộc chức năng bảo mật thông tin trong các hệ thống mật mã?
+Bảo mật
+Toàn vẹn
+* Hiệu quả
+Không chối từ
+
+Hệ mật mã nào người gửi và người nhận sử dụng cùng một khóa mã khi mã hóa và giải mã?
+Không đối xứng
+* Đối xứng
+RSA
+Diffie-Hellman
+
+Chuẩn mã hóa dữ liệu nào được chính phủ Mỹ sử dụng thay thế cho DES?
+DSA
+* AES
+ECC
+3DES
+
+Hệ mật mã nào người gửi và người nhận sử dụng các khóa khác nhau khi mã hóa và giải mã?
+* Không đối xứng
+Đối xứng
+Blowfish
+Skipjack
+
+Khi giá trị hàm băm của hai thông điệp khác nhau có cùng giá trị thì gọi là?
+Tấn công vào ngày sinh
+* Xung đột
+Chữ ký số
+Khóa công khai
+
+Tấn công smurf sử dụng giao thức nào để kiểm soát?
+TCP
+IP
+UDP
+* ICMP
+
+Thực thể nào sau đây cho phép phát hành , quản lý, và phân phối các chứng chỉ số?
+* Quyền cấp chứng chỉ
+Quyền đang ký
+Chính phủ (NSA)
+PKI
+
+Một user gọi điện đến cho ta (với tư cách là người quản lý) thông báo họ bị mất mật khẩu và cần truy cập ngay lập tức. Bạn nên làm gì ?
+Cung cấp truy cập ngay lập tức, và sau đó kiểm tra chứng cứ của họ
+Tạo một login và mật khẩu tạm thời để họ sử dụng
+* Xác minh định danh của họ trước khi cấp quyền truy cập
+Cho họ một mật khẩu riêng tạm thời
+
+Phương pháp xác thực nào sử dụng một KDC để thực hiện xác thực?
+* Kerberos
+Chap
+Sinh trắc học
+Thẻ thông minh
+
+Qui trình quyết định giá trị của thông tin hay thiết bị trong một tổ chức được gọi là gì?
+Đánh giá rủi ro
+Nhận dạng chuỗi
+* Đánh giá tài nguyên thông tin
+Quét các điểm yếu
+
+Khi được hỏi về các mối đe dọa cho công ty từ phía các hacker. Loại thông tin nào sau đây sẽ giúp ích nhiều nhất?
+Xác minh tài sản sở hữu
+Đánh giá rủi ro
+* Nhận dạng mối đe dọa
+Các điểm yếu
+
+Khi một user báo cáo rằng hệ thống của anh ta đã phát hiện một virus mới. Cần làm điều gì đầu tiên sau đây để xử lý tình huống này ?
+* Kiểm tra lại tập tin diệt virus hiện hành
+Định dạng lại đĩa cứng
+Cài đặt lại hệ điều hành
+Disable tài khoản email của anh ta
+
+Nguồn dữ liệu nào hữu ích để điều tra thời điểm, tài khoản và kết quả của các lần đăng nhập vào hệ thống?
+* Nhật ký hệ thống và nhật ký xác thực (system/authentication logs)
+Phần mềm antivirus
+Kerberos
+Sinh trắc học
+
+Giả sử muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Phương pháp nào để chúng ta không bị lộ mạng bên trong?
+Cài đặt máy chủ trong mạng Intranet
+* Cài đặt máy chủ trong một DMZ
+Cài đặt máy chủ trong một VLAN
+Cài đặt máy chủ trong mạng Extranet
+
+Loại tấn công nào làm việc truy cập của user đến các tài nguyên mạng bị từ chối?
+* DoS
+Sâu
+Logic Bomb ing
+Social engineerĐáp án: A

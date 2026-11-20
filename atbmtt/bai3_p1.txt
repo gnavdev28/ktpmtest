@@ -10,12 +10,6 @@ ECC
 3DES
 * AES
 
-Hệ mật DES sử dụng khối khoá được tạo bởi:
-56 bit ngẫu nhiên
-64 bit ngẫu nhiên
-128 bit ngẫu nhiên
-* 56 bit ngẫu nhiên và 8 bit kiểm tra “Parity”
-
 Hệ mật DES xử lý từng khối “ plain text ” có độ dài:
 56 bit
 32 bit
@@ -70,12 +64,6 @@ Sử dụng nhiêu bit với DES để có hiệu quả?
 32
 16
 
-DES là viết tắt của từ nào?
-Data encryption system
-* Data encryption standard
-Data encoding standard
-Data encryption signature
-
 Kích thước khối dữ liệu xử lý của giải thuật mã hóa AES là:
 160 bit
 64 bit
@@ -99,12 +87,6 @@ mạng hoán vị-vernam
 mạng xor-thay thế
 * mạng hoán vị-thay thế
 mạng hoán vị-xor
-
-Số vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã của giải thuật mã hóa AES với khóa 192 bít là:
-10
-* 12
-16
-14
 
 Nếu muốn xem một tài liệu “bảo mật”được mã hóa trên hệ mật bất đối xứng do người khác gởi đến, bạn phải sử dụng khóa nào để giải mật tài liệu?
 Khoá công khai của bạn
@@ -142,35 +124,11 @@ An toàn hơn mã hóa khóa bí mật
 Chỉ sử dụng kỹ thuật mã hóa khối
 Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
 
-Tìm phát biểu đúng về mã hóa khóa đối xứng (Symmetric key cryptography):
-* Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
-Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
-An toàn hơn mã hóa khóa công khai
-Chỉ sử dụng kỹ thuật mã hóa khối
-
-Hệ mã hóa DES sử dụng bao nhiêu bit đầu vào để mã hóa?
-16
-32
-56
-* 64
-
-Hệ mã hóa AES sử dụng bao nhiêu bit đầu vào để mã hóa?
-32
-56
-64
-* 128
-
 Khóa tại mỗi vòng của hệ mã hóa DES sử dụng là bao nhiêu bit?
 16
 32
 * 56 (chú ý: thực tế DES dùng khóa phụ 48 bit/vòng; 56 là khóa hiệu dụng)
 64
-
-Hệ mã hóa thay thế dùng bảng chữ cái tiếng Anh (26 ký tự) sẽ có số khả năng biểu diễn mã?
-2^26
-26^2
-26^26
-* 26!
 
 Hệ mã hóa Affine có bao nhiêu khóa?
 123
@@ -178,29 +136,11 @@ Hệ mã hóa Affine có bao nhiêu khóa?
 213
 * 312
 
-Hệ mã hóa hoán vị với độ dài khóa m = 8 có bao nhiêu khóa?
-* 8!
-26^8
-8^26
-26!
-
 Khoá riêng có đặc điểm
 Thời gian thực hiện chậm
 * Thời gian thực hiện nhanh.
 Không an toàn
 Được thay thế bằng khoá công khai.
-
-Chuẩn mã hóa dữ liệu nào được chính phủ Mỹ sử dụng thay thế cho DES?
-DSA
-* AES
-ECC
-3DES
-
-Nguyên tắc thám mã phổ biến nhất đối với các hệ mã hóa cổ điển là gì?
-* Dựa trên tần suất xuất hiện các ký tự.
-Dựa trên đặc trưng ngôn ngữ.
-Dựa trên văn phong.
-Dựa trên thử sai và vét cạn.
 
 Cho bản mã y = 126 khóa riêng là p = 7, q = 23, e = 5. Khi giải mã bản mã y với khóa trên theo hệ RSA ta sẽ thu được bản rõ nào sau đây?
 12
@@ -214,35 +154,17 @@ Xác thực thông điệp
 * Phân phối khoá trước cho hệ mật đối xứng
 Lấy chữ ký sô
 
-Trong các cặp khoá sau đây của hệ mật RSA với p=5; q=7, cặp khóa nào có khả năng đúng nhất:
-(e = 12, d =11)
-(e = 4, d =11)
-* ( e = 7, d =23)
-( e = 3, d =18)
-
 Các hệ mã hóa khóa công khai sử dụn một cặp khóa: public key và private key. Các yêu cầu đối với public key và private key là:
 Cả public key và private key đều cần giữ bí mật
 Có thể công khai public key và cần giữ bí mật private key
 Có thể công khai private key và cần giữ bí mật public key
 * Có thể công khai public key nhưng phải đảm bảo tính xác thực và cần giữ bí mật private key
 
-Độ an toàn của hệ mã hóa RSA dựa trên:
-Khóa có kích thước lớn
-* Giải thuật rất phức tạp
-Chi phí tính toán lớn
-Tính khó của việc phân tích số nguyên lớn
-
 Các thuộc tính cơ bản của chứng chỉ số khóa công khai (Public key digital certificate) gồm:
 * Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
 Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng
 Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể
 Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)
-
-Một trong các điểm yếu của các hệ mã hóa khóa công khai là:
-Khó cài đặt trên thực tế
-Khó khăn trong quản lý và phân phối khóa
-* Tốc độ chậm
-Độ an toàn thấp
 
 Độ an toàn của hệ mật mã RSA dựa trên...
 Độ phức tạp cao của giải thuật RSA
@@ -262,38 +184,8 @@ SHA
 * Diffie-Hellman
 Skipjack
 
-Độ an toàn của hệ mã hóa Rabin dựa trên bài toán nào?
-Logarit rời rạc
-Xếp ba lô
-* Phân tích thành tích các số nguyên tố
-Định lý số dư trung hoa
-
 Hệ thống cơ sở hạ tầng khóa công khai (PKI) uy tín nhất thế giới hiện nay là?
 * VerySign
 OpenCA
 Microsoft
 GeoTrust
-
-Kích thước của bản mã trong hệ mã hóa RSA so với bản rõ là
-* Bằng nhau.
-Bằng 1/2.
-Gấp đôi lần.
-Gấp ba lần.
-
-Kích thước của bản mã trong hệ mã hóa Elgamal so với bản rõ là
-Bằng nhau.
-Bằng 1/2.
-* Gấp đôi lần.
-Gấp ba lần.
-
-Độ an toàn của hệ mã hóa Merkle-Hellman dựa trên bài toán nào?
-Logarit rời rạc
-* Xếp ba lô
-Phân tích thành tích các số nguyên tố
-Định lý số dư trung hoa
-
-Độ an toàn của hệ mã hóa ElGamal dựa trên bài toán nào?
-* Logarit rời rạc
-Xếp ba lô
-Phân tích thành tích các số nguyên tố
-Định lý số dư trung hoa
