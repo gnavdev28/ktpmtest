@@ -1,0 +1,239 @@
+Câu 1: Một nhóm phát triển muốn đưa ứng dụng web lên cloud nhưng không muốn quản lý hệ điều hành, runtime và cấu hình máy chủ. Mô hình dịch vụ phù hợp nhất là gì?
+IaaS
+* PaaS
+SaaS
+Private cloud
+
+Câu 2: Đặc tính nào của cloud thể hiện việc mức sử dụng tài nguyên được đo đếm và làm cơ sở tính phí?
+Resource pooling
+Broad network access
+* Measured service
+Community cloud
+
+Câu 3: Doanh nghiệp giữ hệ thống dữ liệu nhạy cảm tại trung tâm dữ liệu riêng nhưng sử dụng public cloud khi nhu cầu tăng cao. Đây là mô hình nào?
+Public cloud
+Private cloud
+* Hybrid cloud
+SaaS
+
+Câu 4: Trong mô hình trách nhiệm chung khi sử dụng Amazon EC2, nội dung nào thuộc trách nhiệm của AWS?
+Vá ứng dụng do khách hàng cài đặt
+Cấu hình Security Group
+* Bảo mật phần cứng và lớp ảo hóa
+Quản lý tài khoản người dùng trong ứng dụng
+
+Câu 5: Phát biểu nào đúng về Availability Zone?
+Là một khu vực địa lý chứa nhiều Regions
+* Là miền lỗi tách biệt nằm trong một Region
+Là điểm cache nội dung của CloudFront
+Là mạng ảo riêng của một tài khoản
+
+Câu 6: Thành phần nào đóng vai trò quản lý và phân phối tài nguyên phần cứng cho các máy ảo?
+IAM policy
+* Hypervisor
+Route table
+Load balancer
+
+Câu 7: Một ứng dụng hoàn chỉnh được cung cấp cho người dùng qua trình duyệt, người dùng không quản lý hạ tầng hay runtime. Đây là mô hình nào?
+* SaaS
+PaaS
+IaaS
+Hybrid cloud
+
+Câu 8: Trụ cột nào của AWS Well-Architected tập trung vào khả năng khôi phục sau lỗi và duy trì chức năng?
+Cost Optimization
+* Reliability
+Sustainability
+Performance Efficiency
+
+Câu 9: Một ứng dụng trên EC2 cần đọc dữ liệu từ một S3 bucket. Phương án bảo mật tốt nhất là gì?
+Lưu access key của root user trong mã nguồn
+* Gắn IAM role có quyền tối thiểu vào EC2
+Công khai S3 bucket
+Dùng chung mật khẩu Console của quản trị viên
+
+Câu 10: Một identity có policy Allow s3:GetObject nhưng một policy khác có explicit Deny cho cùng hành động và tài nguyên. Kết quả là gì?
+Allow vì policy đầu tiên được đọc trước
+Allow nếu user bật MFA
+* Deny vì explicit Deny ưu tiên
+Phụ thuộc Region
+
+Câu 11: Đâu là cách dùng root user phù hợp nhất?
+Dùng cho mọi công việc quản trị hằng ngày
+Tạo access keys và chia sẻ cho nhóm
+* Chỉ dùng cho tác vụ bắt buộc, bảo vệ bằng MFA
+Dùng thay thế IAM role cho EC2
+
+Câu 12: Thành phần IAM nào gom nhiều IAM users để gán chung permissions?
+* IAM group
+IAM role
+Resource policy
+Access key
+
+Câu 13: Trong IAM policy, phần tử nào mô tả thao tác API như ec2:StartInstances?
+Effect
+* Action
+Version
+Principal
+
+Câu 14: Dịch vụ nào phù hợp để xác định danh tính đã thay đổi một Security Group?
+CloudWatch Metrics
+* CloudTrail
+Auto Scaling
+Elastic Load Balancing
+
+Câu 15: MFA giúp tăng cường khía cạnh nào?
+Mã hóa dữ liệu lưu trữ
+* Xác thực danh tính
+Tự động mở rộng tài nguyên
+Định tuyến mạng
+
+Câu 16: Những thực hành nào phù hợp với least privilege? (Chọn nhiều đáp án.)
+Cấp AdministratorAccess cho mọi user
+* Chỉ cho phép đúng actions và resources cần thiết
+Dùng wildcard * trong mọi policy
+* Xóa quyền không còn sử dụng
+
+Câu 17: Điều kiện quan trọng để một subnet được coi là public là gì?
+Có tên chứa từ public
+* Route table có route tới Internet Gateway
+Mọi EC2 có private IP
+Có Network ACL mặc định
+
+Câu 18: Một EC2 trong private subnet cần truy cập Internet để cập nhật phần mềm nhưng không được nhận kết nối khởi tạo từ Internet. Giải pháp phù hợp là gì?
+Gắn Internet Gateway trực tiếp vào EC2
+* Dùng NAT Gateway trong public subnet
+Gán public IP và mở tất cả cổng
+Chỉ thêm Security Group outbound
+
+Câu 19: Cơ chế nào stateful và áp dụng ở mức ENI/instance?
+Network ACL
+* Security Group
+Route table
+Internet Gateway
+
+Câu 20: Cơ chế nào stateless, có cả allow và deny rules và áp dụng ở mức subnet?
+Security Group
+IAM policy
+* Network ACL
+CloudTrail
+
+Câu 21: Một subnet IPv4 /27 trong AWS có bao nhiêu địa chỉ có thể gán cho tài nguyên?
+32
+30
+* 27
+25
+
+Câu 22: Phát biểu nào đúng?
+VPC thuộc một AZ duy nhất
+Subnet có thể trải trên nhiều AZ
+* VPC thuộc một Region; subnet thuộc một AZ
+Region nằm trong VPC
+
+Câu 23: Doanh nghiệp cần kết nối mạng chuyên dụng ổn định từ data center tại chỗ tới AWS cho lưu lượng lớn. Dịch vụ phù hợp nhất là gì?
+* AWS Direct Connect
+Amazon CloudFront
+Internet Gateway
+Elastic IP
+
+Câu 24: Dịch vụ nào tận dụng edge locations để giảm độ trễ phân phối nội dung?
+Amazon RDS
+* Amazon CloudFront
+Amazon EBS
+AWS IAM
+
+Câu 25: Ứng dụng cần lưu hàng triệu ảnh và video với khả năng mở rộng gần như không giới hạn. Dịch vụ phù hợp nhất là gì?
+Amazon EBS
+* Amazon S3
+Instance Store
+Amazon SQS
+
+Câu 26: Nhiều EC2 Linux ở các AZ khác nhau cần dùng chung một hệ thống file NFS. Nên chọn gì?
+* Amazon EFS
+Amazon EBS
+Instance Store
+Amazon DynamoDB
+
+Câu 27: Một database chạy trên EC2 cần block storage bền vững và có thể snapshot. Nên chọn gì?
+Amazon S3
+* Amazon EBS
+Amazon EFS
+CloudFront
+
+Câu 28: Dữ liệu scratch có thể tái tạo, cần tốc độ cao và không cần giữ khi instance dừng. Nên dùng gì?
+EBS gp volume
+S3 Standard
+* Instance Store
+RDS Multi-AZ
+
+Câu 29: Một batch job có thể bị gián đoạn và chạy lại, mục tiêu chính là giảm chi phí compute. Lựa chọn phù hợp nhất là gì?
+Dedicated Hosts
+* Spot Instances
+On-Demand Capacity Reservation
+RDS Reserved DB
+
+Câu 30: Mã xử lý chỉ chạy khi có file mới được tải lên S3 và không muốn quản lý máy chủ. Nên dùng gì?
+Amazon EC2
+* AWS Lambda
+Amazon EFS
+AWS Direct Connect
+
+Câu 31: Ứng dụng cần cơ sở dữ liệu quan hệ managed và failover tự động giữa các AZ. Lựa chọn phù hợp là gì?
+DynamoDB global table
+* RDS Multi-AZ
+S3 Versioning
+EC2 Instance Store
+
+Câu 32: AMI chủ yếu được dùng để làm gì?
+Theo dõi metric của EC2
+* Làm mẫu khởi chạy EC2 instances
+Cân bằng tải HTTP
+Cấp quyền IAM
+
+Câu 33: Ứng dụng HTTP cần định tuyến /api và /images tới các target groups khác nhau. Nên dùng loại load balancer nào?
+Network Load Balancer
+* Application Load Balancer
+Gateway Load Balancer
+Classic Load Balancer bắt buộc
+
+Câu 34: Dịch vụ cần xử lý TCP với lưu lượng tăng đột biến, độ trễ thấp và yêu cầu địa chỉ IP tĩnh. Nên dùng gì?
+Application Load Balancer
+* Network Load Balancer
+Amazon CloudWatch
+AWS Lambda
+
+Câu 35: Trong Auto Scaling Group, tham số nào thể hiện số instance mà nhóm cố gắng duy trì hiện tại?
+Minimum capacity
+* Desired capacity
+Maximum capacity
+Cooldown
+
+Câu 36: Dịch vụ nào thu thập metrics, logs và tạo alarms?
+AWS CloudTrail
+* Amazon CloudWatch
+AWS IAM
+AWS Artifact
+
+Câu 37: Chính sách scaling nào phù hợp để duy trì CPU trung bình quanh 50%?
+* Target tracking
+Manual scaling
+Network ACL
+Reserved scaling
+
+Câu 38: Thiết kế nào tăng tính sẵn sàng cho web application?
+Một EC2 lớn trong một AZ
+* ALB và Auto Scaling Group trải trên nhiều AZ
+Chỉ dùng EBS snapshot
+Gán nhiều Security Groups cho một EC2
+
+Câu 39: Khi target không vượt qua health check, ELB thường làm gì?
+Tiếp tục gửi toàn bộ traffic để kiểm tra
+* Ngừng định tuyến traffic tới target đó cho đến khi khỏe lại
+Tự đổi IAM role của target
+Tự chuyển database sang NoSQL
+
+Câu 40: Phát biểu nào đúng về ELB và Auto Scaling?
+ELB tự tạo thêm EC2 nên không cần Auto Scaling
+Auto Scaling phân phối HTTP request theo path
+* ELB phân phối traffic; Auto Scaling điều chỉnh compute capacity
+Hai dịch vụ chỉ dùng được trong một AZ
