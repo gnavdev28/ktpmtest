@@ -10,12 +10,6 @@ AES sử dụng kích thước khối dữ liệu là bao nhiêu bit?
 192
 256
 
-AES có thể sử dụng khóa có kích thước nào?
-64 bit, 128 bit, 192 bit
-* 128 bit, 192 bit, 256 bit
-256 bit, 512 bit, 1024 bit
-128 bit, 256 bit, 512 bit
-
 AES thực hiện bao nhiêu vòng lặp mã hóa đối với khóa 128 bit?
 * 10
 12
@@ -45,12 +39,6 @@ MD5
 SHA-1
 * SHA-256
 CRC32
-
-Điều nào đúng về hàm băm MD5?
-* Tạo ra chuỗi băm dài 128 bit
-Được coi là an toàn với các ứng dụng hiện tại
-Tạo ra chuỗi băm dài 256 bit
-Có độ phức tạp tính toán cao hơn SHA-256
 
 Thuật toán SHA-256 tạo ra giá trị băm có độ dài bao nhiêu bit?
 128
@@ -87,12 +75,6 @@ DHCP
 Đảm bảo tính toàn vẹn của thông tin
 Dễ bị tấn công MITM hơn mã hóa công khai
 Tạo ra các cặp khóa riêng tư và công khai
-
-Chữ ký số là gì?
-Một loại mã hóa khóa đối xứng
-Một phương pháp mã hóa cổ điển
-* Một kỹ thuật sử dụng khóa công khai để xác thực dữ liệu
-Một loại tấn công mạng
 
 Hình thức tấn công nào sau đây nhắm vào tính toàn vẹn của thông tin?
 Tấn công từ chối dịch vụ (DoS)
@@ -232,28 +214,10 @@ Data Encoding Standard
 * Data Encryption Standard
 Digital Encryption Service
 
-Chiều dài khóa của DES là bao nhiêu bit?
-* 56 bit
-64 bit
-128 bit
-256 bit
-
-DES thuộc loại mã hóa nào?
-Mã hóa bất đối xứng
-* Mã hóa đối xứng
-Băm dữ liệu
-Mã hóa khóa công khai
-
 Kích thước khối dữ liệu trong DES là bao nhiêu?
 32 bit
 * 64 bit
 128 bit
-
-DES sử dụng bao nhiêu vòng lặp trong quá trình mã hóa?
-8
-10
-12
-* 16
 
 Trong hàm F của DES, S-box và P-box lần lượt thực hiện các phép biến đổi nào?
 Cộng và chia số nguyên.
@@ -283,12 +247,6 @@ Cấu trúc của DES dựa trên nguyên tắc nào?
 Cấu trúc khối tuyến tính
 Mã hóa khối AES
 Cấu trúc ma trận
-
-Lý do chính khiến DES không còn an toàn là gì?
-Số vòng lặp quá ít
-* Khóa quá ngắn
-Dữ liệu không được băm
-Không có kiểm tra lỗi
 
 Quá trình giải mã trong DES có giống quá trình mã hóa không?
 Giống hoàn toàn
@@ -337,9 +295,3 @@ DES sử dụng bao nhiêu phép toán XOR trong mỗi vòng lặp?
 * 2
 4
 8
-
-DES đã được thay thế bởi thuật toán nào an toàn hơn?
-RSA
-* AES
-SHA-256
-MD5

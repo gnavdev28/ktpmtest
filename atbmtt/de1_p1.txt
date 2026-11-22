@@ -172,23 +172,11 @@ Tốc độ chậm
 Không thể sử dụng cho các giao dịch lớn
 Tất cả các câu trên
 
-RSA được xem là an toàn vì lý do gì?
-* Sự khó khăn của việc phân tích số nguyên lớn là tích của hai số nguyên tố bí
-Tính đơn giản trong quá trình mã hóa
-Không cần phải sử dụng khóa
-Tốc độ mã hóa nhanh
-
 Thuật toán AES có ưu điểm nào?
 * Mã hóa nhanh và an toàn
 Chỉ có thể dùng cho dữ liệu nhỏ
 Dễ bị giải mã nếu không có khóa
 Dùng cho mã hóa đối xứng và công khai
-
-Trong hệ thống RSA, thông điệp được mã hóa bằng khóa công khai có thể giải mã bằng gì?
-Khóa công khai
-* Khóa riêng
-Mã băm
-Thuật toán SHA
 
 Bạn đã có giá trị SHA-256 tham chiếu lấy từ nguồn đáng tin cậy. Để kiểm tra tệp tải về có bị thay đổi hay không, cần làm gì?
 Chỉ đổi tên tệp.
@@ -201,12 +189,6 @@ Giúp dễ dàng ghi nhớ
 * Giảm thiểu nguy cơ bị tấn công từ các phương pháp thử mật khẩu
 Làm tăng tốc độ hệ thống
 Tất cả các câu trên
-
-Thuật toán nào được sử dụng trong quá trình mã hóa DES?
-* Mã hóa đối xứng
-Mã hóa công khai
-Mã hóa ma trận
-Mã hóa RSA
 
 Cơ chế nào trực tiếp mã hóa và bảo vệ tính toàn vẹn của dữ liệu HTTP khi truyền qua mạng?
 * TLS trong HTTPS
@@ -262,12 +244,6 @@ Giảm chi phí bảo mật
 Tăng độ trễ trong việc truyền tải
 Giảm tính toàn vẹn của thông tin
 
-Việc sử dụng chữ ký số giúp gì cho người dùng?
-* Đảm bảo tính toàn vẹn và xác thực thông điệp
-Giúp tiết kiệm chi phí giao dịch
-Cung cấp quyền truy cập không giới hạn
-Tăng tốc độ truyền tải thông tin
-
 Để đảm bảo an toàn thông tin, mỗi tổ chức nên có chính sách bảo mật như thế nào?
 * Quy trình rõ ràng và thường xuyên đánh giá bảo mật
 Đưa ra mật khẩu mặc định cho tất cả nhân viên
@@ -285,12 +261,6 @@ Mã hóa dữ liệu
 Xác thực người dùng mạnh
 Đảm bảo sao lưu thường xuyên
 * Gửi dữ liệu cá nhân cho người không được phép nhận qua email.
-
-Mã Caesar là loại mã hóa nào?
-* Mã hóa thay thế
-Mã hóa hoán vị
-Mã hóa khối
-Mã hóa công khai
 
 Trong Vigenère cổ điển, khi từ khóa ngắn hơn bản rõ, cách thông thường để tạo chuỗi khóa đủ dài là gì?
 Xóa phần bản rõ dài hơn từ khóa.
@@ -310,24 +280,6 @@ Mã hóa công khai
 Mã hóa khối
 Mã hóa tuần tự
 
-RSA là gì?
-Một thuật toán mã hóa đối xứng
-* Một thuật toán mã hóa công khai
-Một hàm băm
-Một thuật toán mã hóa cổ điển
-
-RSA dựa trên vấn đề toán học nào?
-* Phân tích số nguyên
-Tính toán logarithm rời rạc
-Đa thức mật mã
-Chuỗi Fibonacci
-
-Để tạo khóa công khai trong RSA, cần thực hiện phép tính nào?
-* Tính tích của hai số nguyên tố
-Tính tổng của hai số nguyên tố
-Tính lũy thừa modulo
-Giải phương trình tuyến tính
-
 Trong RSA, khóa công khai gồm hai thành phần nào?
 N và d
 * N và e
@@ -339,9 +291,3 @@ Khóa công khai của người gửi
 Khóa riêng của người nhận
 * Khóa công khai của người nhận
 Khóa riêng của người gửi
-
-DES sử dụng khóa có độ dài bao nhiêu bit?
-128
-64
-* 56
-256
