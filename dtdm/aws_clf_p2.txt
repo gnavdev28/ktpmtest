@@ -9,15 +9,15 @@ What are the benefits of using DynamoDB? (Choose TWO) (Lợi ích của việc s
 * Automatically scales to meet required throughput capacity. (Tự động chia tỷ lệ để đáp ứng công suất thông lượng cần thiết.)
 Provides resizable instances to match the current demand. (Cung cấp các phiên bản có thể thay đổi kích thước để phù hợp với nhu cầu hiện tại.)
 Supports both relational and non-relational data models. (Hỗ trợ cả mô hình dữ liệu quan hệ và phi quan hệ.)
-* Offers extremely low (single-digit millisecond) latency. (Cung cấp độ trễ cực thấp (một chữ số mili giây).)
+* Offers extremely low. (single-digit millisecond) latency. (Cung cấp độ trễ cực thấp (một chữ số mili giây).)
 Supports the most popular NoSQL database engines such as CouchDB and MongoDB. (Hỗ trợ các công cụ cơ sở dữ liệu NoSQL phổ biến nhất như CouchDB và MongoDB.)
 
 Which of the following can be used to protect data at rest on Amazon S3? (Choose TWO) (Cách nào sau đây có thể được sử dụng để bảo vệ dữ liệu ở trạng thái lưu trữ trên Amazon S3? (Chọn HAI))
-* Versioning.
-Deduplication.
-* Permissions.
-Decryption.
-Conversion.
+* Versioning. (Quản lý các phiên bản đối tượng - Versioning.)
+Deduplication. (Loại bỏ dữ liệu trùng lặp - Deduplication.)
+* Permissions. (Quyền và phân quyền truy cập.)
+Decryption. (Giải mã dữ liệu.)
+Conversion. (Chuyển đổi định dạng dữ liệu.)
 
 As part of the AWS Migration Acceleration Program (MAP), what does AWS provide to accelerate Enterprise adoption of AWS? (Choose TWO) (Là một phần của Chương trình tăng tốc di chuyển AWS (MAP), AWS cung cấp những gì để đẩy nhanh quá trình áp dụng AWS của doanh nghiệp? (Chọn HAI))
 * AWS Partners.
@@ -28,10 +28,10 @@ Amazon PinPoint.
 
 When running a workload in AWS, the customer is NOT responsible for: (Select TWO) (Khi chạy khối lượng công việc trong AWS, khách hàng KHÔNG chịu trách nhiệm về: (Chọn HAI))
 Running penetration tests. (Chạy thử nghiệm thâm nhập.)
-Reserving capacity.
-* Data center operations.
+Reserving capacity. (Dự trữ trước tài nguyên tính toán.)
+* Data center operations. (Vận hành và quản lý trung tâm dữ liệu vật lý.)
 Auditing and regulatory compliance. (Kiểm toán và tuân thủ quy định.)
-* Infrastructure security.
+* Infrastructure security. (Bảo mật cơ sở hạ tầng nền tảng của AWS.)
 
 Which of the following allows you to create new RDS instances? (Choose TWO) (Điều nào sau đây cho phép bạn tạo phiên bản RDS mới? (Chọn HAI))
 AWS CodeDeploy.
@@ -41,30 +41,30 @@ AWS DMS.
 * AWS Management Console.
 
 What features does AWS offer to help protect your data in the Cloud? (Choose TWO) (AWS cung cấp những tính năng nào để giúp bảo vệ dữ liệu của bạn trên Đám mây? (Chọn HAI))
-* Access control.
+* Access control. (Kiểm soát quyền truy cập tài nguyên.)
 Physical MFA devices. (Thiết bị MFA vật lý.)
-* Data encryption.
+* Data encryption. (Mã hóa dữ liệu an toàn.)
 Unlimited storage. (Lưu trữ không giới hạn.)
-Load balancing.
+Load balancing. (Cân bằng tải lưu lượng truy cập mạng.)
 
 Which methods can be used by customers to interact with AWS Identity and Access Management (IAM)? (Choose TWO) (Khách hàng có thể sử dụng những phương pháp nào để tương tác với AWS Identity and Access Management (IAM)? (Chọn HAI))
 * AWS CLI.
 AWS Security Groups.
 * AWS SDKs.
-AWS Network Access Control Lists. (Danh sách kiểm soát truy cập mạng AWS.)
+AWS Network Access Control Lists.
 AWS CodeCommit.
 
 Which of the following are types of AWS Identity and Access Management (IAM) identities? (Choose TWO) (Loại nào sau đây là loại nhận dạng AWS Identity and Access Management (IAM)? (Chọn HAI))
-AWS Resource Groups.
-IAM Policies.
-* IAM Roles.
-* IAM Users.
-AWS Organizations.
+AWS Resource Groups. (AWS Resource Groups - Quản lý nhóm tài nguyên AWS.)
+IAM Policies. (Chính sách IAM - IAM Policies.)
+* IAM Roles. (Vai trò IAM - IAM Roles.)
+* IAM Users. (Người dùng IAM - IAM Users.)
+AWS Organizations. (AWS Organizations - Quản lý nhiều tài khoản AWS tập trung.)
 
 Which of the following factors should be considered when determining the region in which AWS Resources will be deployed? (Choose TWO) (Yếu tố nào sau đây cần được cân nhắc khi xác định khu vực mà Tài nguyên AWS sẽ được triển khai? (Chọn HAI))
 The AWS Region’s security level. (Cấp độ bảo mật của Khu vực AWS.)
-* Data sovereignty.
-* Cost.
+* Data sovereignty. (Chủ quyền dữ liệu và tuân thủ vị trí địa lý của dữ liệu.)
+* Cost. (Chi phí đầu tư và chi phí vận hành dịch vụ.)
 The planned number of VPCs. (Số lượng VPC dự kiến.)
 Geographic proximity to the company's location. (Sự gần gũi về mặt địa lý với vị trí của công ty.)
 
@@ -86,8 +86,8 @@ Which of the following should be taken into account when performing a TCO analys
 * Labor and IT costs. (Chi phí lao động và CNTT.)
 * Cooling and power consumption. (Làm mát và tiêu thụ điện năng.)
 Amazon EBS computing power. (Sức mạnh tính toán của Amazon EBS.)
-Software architecture.
-Software compatibility.
+Software architecture. (Thiết kế kiến trúc phần mềm ứng dụng.)
+Software compatibility. (Khả năng tương thích của ứng dụng phần mềm.)
 
 Which of the following AWS offerings are serverless services? (Choose TWO) (Dịch vụ AWS nào sau đây là dịch vụ serverless? (Chọn HAI))
 Amazon EC2.
@@ -99,9 +99,9 @@ Amazon RDS.
 Which of the following can be used to enable the Virtual Multi-Factor Authentication? (Choose TWO) (Điều nào sau đây có thể được sử dụng để kích hoạt Xác thực đa yếu tố ảo? (Chọn HAI))
 Amazon Connect.
 * AWS CLI.
-* AWS Identity and Access Management (IAM). (Quản lý quyền truy cập và nhận dạng AWS (IAM).)
+* AWS Identity and Access Management.
 Amazon SNS.
-Amazon Virtual Private Cloud. (Đám mây riêng ảo của Amazon.)
+Amazon Virtual Private Cloud.
 
 What should you do if you see resources, which you don’t remember creating, in the AWS Management Console? (Choose TWO) (Bạn nên làm gì nếu nhìn thấy các tài nguyên mà bạn không nhớ đã tạo trong Bảng điều khiển quản lý AWS? (Chọn HAI))
 Stop all running services and open an investigation. (Dừng tất cả các dịch vụ đang chạy và mở một cuộc điều tra.)
@@ -127,7 +127,7 @@ Deploys applications to on-premises servers. (Triển khai ứng dụng tới m�
 Which features are included in the AWS Business Support Plan? (Choose TWO) (Những tính năng nào được bao gồm trong Gói hỗ trợ kinh doanh của AWS? (Chọn HAI))
 * 24x7 access to customer service. (Truy cập 24x7 vào dịch vụ khách hàng.)
 Access to Cloud Support Engineers via email only during business hours. (Chỉ có thể tiếp cận Kỹ sư hỗ trợ đám mây qua email trong giờ làm việc.)
-* Access to the Infrastructure Event Management (IEM) feature for additional fee. (Truy cập vào tính năng Quản lý sự kiện cơ sở hạ tầng (IEM) với một khoản phí bổ sung.)
+* Access to the Infrastructure Event Management. (IEM) feature for additional fee. (Truy cập vào tính năng Quản lý sự kiện cơ sở hạ tầng (IEM) với một khoản phí bổ sung.)
 24x7 access to the TAM feature. (Truy cập 24x7 vào tính năng TAM.)
 Partial access to the core Trusted Advisor checks. (Quyền truy cập một phần vào các bước kiểm tra cốt lõi của Trusted Advisor.)
 
@@ -142,15 +142,15 @@ A customer is planning to migrate their Microsoft SQL Server databases to AWS. W
 AWS Fargate.
 * Amazon Elastic Compute Cloud.
 * Amazon RDS.
-AWS Database Migration service (DMS). (Dịch vụ di chuyển cơ sở dữ liệu AWS (DMS).)
+AWS Database Migration service.
 AWS Lambda.
 
 Which of the following are examples of AWS-managed databases? (Choose TWO) (Ví dụ nào sau đây là ví dụ về cơ sở dữ liệu do AWS quản lý? (Chọn HAI))
 * Amazon Neptune.
 Amazon CloudSearch.
-Microsoft SQL Server on Amazon EC2. (Máy chủ Microsoft SQL trên Amazon EC2.)
-MySQL on Amazon EC2. (MySQL trên Amazon EC2.)
-* Amazon RDS for MySQL. (Amazon RDS cho MySQL.)
+Microsoft SQL Server on Amazon EC2.
+MySQL on Amazon EC2.
+* Amazon RDS for MySQL.
 
 What are some key benefits of using AWS CloudFormation? (Choose TWO) (Một số lợi ích chính của việc sử dụng AWS CloudFormation là gì? (Chọn HAI))
 It helps AWS customers deploy their applications without worrying about the underlying infrastructure. (Nó giúp khách hàng AWS triển khai ứng dụng của họ mà không phải lo lắng về cơ sở hạ tầng cơ bản.)
@@ -167,7 +167,7 @@ The compute time you consume. (Thời gian tính toán bạn tiêu thụ.)
 The number of Snowball storage devices you request. (Số lượng thiết bị lưu trữ Snowball bạn yêu cầu.)
 
 Which of the following has the greatest impact on cost? (Choose TWO) (Điều nào sau đây có tác động lớn nhất đến chi phí? (Chọn HAI))
-* Compute charges.
+* Compute charges. (Chi phí tài nguyên tính toán máy chủ.)
 The number of services used. (Số lượng dịch vụ được sử dụng.)
 Data Transfer In charges. (Phí truyền dữ liệu.)
 * Data Transfer Out charges. (Phí truyền dữ liệu đi.)
@@ -195,10 +195,10 @@ Enables you to move Exabyte-scale data from on-premises datacenters into AWS. (C
 Enables you to easily run and manage Docker containers. (Cho phép bạn dễ dàng chạy và quản lý các vùng chứa Docker.)
 
 For Amazon RDS databases, what does AWS perform on your behalf? (Choose TWO) (Đối với cơ sở dữ liệu Amazon RDS, AWS thay mặt bạn thực hiện những gì? (Chọn HAI))
-* Database setup.
+* Database setup. (Cài đặt và cấu hình cơ sở dữ liệu ban đầu.)
 Network traffic protection. (Bảo vệ lưu lượng mạng.)
 * Management of the operating system. (Quản lý hệ điều hành.)
-Access management.
+Access management. (Quản lý và cấp quyền truy cập.)
 Management of firewall rules. (Quản lý các quy tắc tường lửa.)
 
 Which of the below options are use cases of the Amazon Route 53 service? (Choose TWO) (Tùy chọn nào dưới đây là trường hợp sử dụng của dịch vụ Amazon Route 53? (Chọn HAI))
@@ -230,11 +230,11 @@ Stores archived data at very low costs. (Lưu trữ dữ liệu đã lưu trữ 
 * Delivers content to end users with low latency. (Cung cấp nội dung cho người dùng cuối với độ trễ thấp.)
 
 Which of the following are valid Amazon EC2 Reserved Instance types? (Choose TWO) (Loại Phiên bản dự trữ nào sau đây hợp lệ của Amazon EC2? (Chọn HAI))
-* Convertible.
-Expedited.
-Bulk.
-Spot.
-* Standard.
+* Convertible. (Phiên bản đặt trước có thể chuyển đổi linh hoạt - Convertible RIs.)
+Expedited. (Truy xuất dữ liệu khẩn cấp nhanh chóng - Expedited Retrieval.)
+Bulk. (Truy xuất dữ liệu hàng loạt chi phí thấp - Bulk Retrieval.)
+Spot. (Phiên bản Spot - tận dụng năng lực tính toán dư thừa với chi phí rẻ.)
+* Standard. (Lớp lưu trữ tiêu chuẩn (Standard) / Gói hỗ trợ tiêu chuẩn.)
 
 Which of the following compute resources are serverless? (Choose TWO) (Tài nguyên điện toán nào sau đây là không có máy chủ? (Chọn HAI))
 Amazon EC2.
@@ -258,18 +258,18 @@ Servers instead of managed services. (Máy chủ thay vì dịch vụ được q
 Multi-AZ deployments instead of multi-region deployments. (Triển khai nhiều vùng sẵn sàng thay vì triển khai nhiều khu vực.)
 
 For some services, AWS automatically replicates data across multiple Availability Zones to provide fault tolerance in the event of a server failure or Availability Zone outage. Select TWO services that automatically replicate data across Availability Zones. (Đối với một số dịch vụ, AWS tự động sao chép dữ liệu trên nhiều Vùng sẵn sàng để cung cấp khả năng chịu lỗi trong trường hợp máy chủ bị lỗi hoặc Vùng sẵn sàng ngừng hoạt động. Chọn HAI dịch vụ tự động sao chép dữ liệu trên các Vùng sẵn sàng.)
-Instance Store.
-* S3.
-* DynamoDB.
-Amazon Route 53.
-AWS VPN.
+Instance Store. (Bộ lưu trữ gắn liền tạm thời của máy chủ - Instance Store.)
+* S3. (Amazon S3 - Dịch vụ lưu trữ đối tượng.)
+* DynamoDB. (Amazon DynamoDB - Cơ sở dữ liệu NoSQL được quản lý hoàn toàn.)
+Amazon Route 53. (Amazon Route 53 - Dịch vụ định tuyến hệ thống tên miền DNS.)
+AWS VPN. (AWS VPN - Mạng riêng ảo AWS.)
 
 Which of the following factors affect Amazon CloudFront cost? (Choose TWO) (Yếu tố nào sau đây ảnh hưởng đến chi phí của Amazon CloudFront? (Chọn HAI))
 * Number of Requests. (Số lượng yêu cầu.)
-* Traffic Distribution.
+* Traffic Distribution. (Phân phối lưu lượng truy cập cân bằng giữa các khu vực.)
 Number of Volumes. (Số tập.)
-Instance type.
-Storage Class.
+Instance type. (Loại cấu hình phiên bản máy chủ - Instance type.)
+Storage Class. (Lớp lưu trữ dữ liệu - Storage Class.)
 
 Which of the following security resources are available to any user for free? (Choose TWO) (Tài nguyên bảo mật nào sau đây được cung cấp miễn phí cho mọi người dùng? (Chọn HAI))
 * AWS Bulletins.
@@ -287,9 +287,9 @@ Help organization achieve their desired business outcomes with AWS. (Giúp tổ 
 
 According to the AWS shared responsibility model, what are the controls that customers fully inherit from AWS? (Choose TWO) (Theo mô hình trách nhiệm chung của AWS, các biện pháp kiểm soát mà khách hàng kế thừa hoàn toàn từ AWS là gì? (Chọn HAI))
 Awareness and Training. (Nhận thức và đào tạo.)
-Communications controls.
+Communications controls. (Kiểm soát truyền thông mạng nội bộ.)
 * Data center security controls. (Kiểm soát an ninh trung tâm dữ liệu.)
-* Environmental controls.
+* Environmental controls. (Kiểm soát môi trường (nhiệt độ, độ ẩm phòng máy).)
 Resource Configuration Management. (Quản lý cấu hình tài nguyên.)
 
 Which of the following procedures can reduce latency when your end users are retrieving data? (Choose TWO) (Quy trình nào sau đây có thể giảm độ trễ khi người dùng cuối của bạn truy xuất dữ liệu? (Chọn HAI))
@@ -310,11 +310,11 @@ What does the AWS "Business" support plan provide? (Choose TWO) (Gói hỗ trợ
 * Access to the full set of Trusted Advisor checks. (Truy cập vào bộ kiểm tra Trusted Advisor đầy đủ.)
 Support Concierge Service. (Hỗ trợ dịch vụ Concierge.)
 Less than 15 minutes response-time support if your business critical system goes down. (Hỗ trợ trong thời gian phản hồi chưa đến 15 phút nếu hệ thống quan trọng trong doanh nghiệp của bạn gặp sự cố.)
-* AWS Support API.
+* AWS Support API. (AWS Support API - Giao diện lập trình hỗ trợ kỹ thuật AWS.)
 Proactive Technical Account Management. (Quản lý tài khoản kỹ thuật chủ động.)
 
 Amazon EC2 instances are conceptually very similar to traditional servers. However, using Amazon EC2 server instances in the same manner as traditional hardware server instances is only a starting point. What are the main benefits of using the AWS EC2 instances instead of traditional servers? (Choose TWO) (Các phiên bản Amazon EC2 về mặt khái niệm rất giống với các máy chủ truyền thống. Tuy nhiên, việc sử dụng các phiên bản máy chủ Amazon EC2 theo cách tương tự như các phiên bản máy chủ phần cứng truyền thống chỉ là điểm khởi đầu. Lợi ích chính của việc sử dụng phiên bản AWS EC2 thay vì máy chủ truyền thống là gì? (Chọn HAI))
-* Improves Fault-Tolerance.
+* Improves Fault-Tolerance. (Cải thiện khả năng chịu lỗi cho hệ thống.)
 Provides your business with a seamless remote accessibility. (Cung cấp cho doanh nghiệp của bạn khả năng truy cập từ xa liền mạch.)
 Prevents unauthorized users from getting into your network. (Ngăn chặn người dùng trái phép truy cập vào mạng của bạn.)
 Provides automatic data backups. (Cung cấp sao lưu dữ liệu tự động.)
@@ -328,10 +328,10 @@ For some services, you have to pay a startup fee in order to get the service run
 There are no reservations on AWS, you only pay for what you use. (Không có đặt trước trên AWS, bạn chỉ trả tiền cho những gì bạn sử dụng.)
 
 What factors determine how you are charged when using AWS Lambda? (Choose TWO) (Yếu tố nào quyết định mức phí bạn phải trả khi sử dụng AWS Lambda? (Chọn HAI))
-Storage consumed.
+Storage consumed. (Lượng dung lượng lưu trữ thực tế đã sử dụng.)
 * Number of requests to your functions. (Số lượng yêu cầu đối với chức năng của bạn.)
 Number of volumes. (Số tập.)
-Placement groups.
+Placement groups. (Các nhóm vị trí phiên bản - Placement groups.)
 * Compute time consumed. (Tính toán thời gian tiêu thụ.)
 
 What are the main differences between an IAM user and an IAM role in AWS? (Choose TWO) (Sự khác biệt chính giữa người dùng IAM và vai trò IAM trong AWS là gì? (Chọn HAI))
@@ -343,7 +343,7 @@ An IAM user has temporary credentials associated with it, however a role has per
 
 Which of the following actions may reduce Amazon EBS costs? (Choose TWO) (Hành động nào sau đây có thể giảm chi phí của Amazon EBS? (Chọn HAI))
 Deleting unused buckets. (Xóa các thùng không sử dụng.)
-Using reservations.
+Using reservations. (Sử dụng các phiên bản đặt trước (Reserved Instances) để giảm chi phí.)
 * Deleting unnecessary snapshots. (Xóa các ảnh chụp nhanh không cần thiết.)
 * Changing the type of the volume. (Thay đổi loại âm lượng.)
 Distributing requests to multiple volumes. (Phân phối yêu cầu tới nhiều tập.)

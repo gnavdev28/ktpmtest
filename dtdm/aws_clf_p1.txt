@@ -48,11 +48,11 @@ AWS IAM.
 Amazon Elastic Compute Cloud.
 
 Select TWO examples of the AWS shared controls. (Chọn HAI ví dụ về các điều khiển được chia sẻ AWS.)
-* Patch Management.
-IAM Management.
-VPC Management.
-* Configuration Management.
-Data Center operations.
+* Patch Management. (Quản lý quy trình cập nhật các bản vá lỗi.)
+IAM Management. (Quản lý danh tính và quyền truy cập - IAM Management.)
+VPC Management. (Quản lý mạng riêng ảo - VPC Management.)
+* Configuration Management. (Quản lý cấu hình toàn bộ hệ thống.)
+Data Center operations. (Vận hành và quản lý trung tâm dữ liệu vật lý.)
 
 In order to implement best practices when dealing with a “Single Point of Failure,” you should attempt to build as much automation as possible in both detecting and reacting to failure. Which of the following AWS services would help? (Choose TWO) (Để triển khai các biện pháp thực hành tốt nhất khi xử lý “Một điểm lỗi duy nhất”, bạn nên cố gắng xây dựng mức độ tự động hóa cao nhất có thể trong cả việc phát hiện và phản ứng với lỗi. Dịch vụ AWS nào sau đây sẽ hữu ích? (Chọn HAI))
 * ELB.
@@ -73,10 +73,10 @@ Amazon S3 provides unlimited storage for any type of data. (Amazon S3 cung cấp
 * Amazon S3 can run any type of application or backend system. (Amazon S3 có thể chạy bất kỳ loại ứng dụng hoặc hệ thống phụ trợ nào.)
 Amazon S3 stores any number of objects, but with object size limits. (Amazon S3 lưu trữ số lượng đối tượng bất kỳ nhưng có giới hạn kích thước đối tượng.)
 * Amazon S3 can be scaled manually to store and retrieve any amount of data from anywhere. (Amazon S3 có thể được điều chỉnh quy mô theo cách thủ công để lưu trữ và truy xuất mọi lượng dữ liệu từ mọi nơi.)
-Amazon S3 provides 99.999999999% (11 9’s) of data durability. (Amazon S3 cung cấp độ bền dữ liệu lên tới 99,999999999% (11 9).)
+Amazon S3 provides 99.999999999%. (11 9’s) of data durability. (Amazon S3 cung cấp độ bền dữ liệu lên tới 99,999999999% (11 9).)
 
 In the AWS Shared responsibility Model, which of the following are the responsibility of the customer? (Choose TWO) (Trong Mô hình trách nhiệm chung của AWS, khách hàng có trách nhiệm nào sau đây? (Chọn HAI))
-Disk disposal.
+Disk disposal. (Tiêu hủy an toàn ổ cứng và thiết bị lưu trữ khi tháo dỡ.)
 Controlling physical access to compute resources. (Kiểm soát quyền truy cập vật lý vào tài nguyên máy tính.)
 Patching the Network infrastructure. (Vá cơ sở hạ tầng mạng.)
 * Setting password complexity rules. (Đặt quy tắc phức tạp của mật khẩu.)
@@ -90,11 +90,11 @@ Amazon CloudWatch.
 Concierge Support Team.
 
 The principle “design for failure and nothing will fail” is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO) (Nguyên tắc “thiết kế cho thất bại và không có gì thất bại” rất quan trọng khi thiết kế kiến ​​trúc Đám mây AWS của bạn. Điều nào sau đây sẽ giúp tuân thủ nguyên tắc này? (Chọn HAI))
-Multi-factor authentication.
-* Availability Zones.
-* Elastic Load Balancing.
-Penetration testing.
-Vertical Scaling.
+Multi-factor authentication. (Xác thực đa yếu tố - MFA.)
+* Availability Zones. (Các vùng khả dụng độc lập - Availability Zones (AZs).)
+* Elastic Load Balancing. (Cân bằng tải đàn hồi - Elastic Load Balancing.)
+Penetration testing. (Kiểm thử xâm nhập / thâm nhập hệ thống.)
+Vertical Scaling. (Mở rộng tài nguyên theo chiều dọc - nâng cấp máy chủ.)
 
 According to the AWS Shared responsibility model, which of the following are the responsibility of the customer? (Choose TWO) (Theo mô hình trách nhiệm chung của AWS, trách nhiệm nào sau đây là của khách hàng? (Chọn HAI))
 Managing environmental events of AWS data centers. (Quản lý các sự kiện môi trường của trung tâm dữ liệu AWS.)
@@ -120,22 +120,22 @@ Treat servers as fixed resources. (Hãy coi máy chủ là tài nguyên cố đ�
 Based on the AWS Shared Responsibility Model, which of the following are the sole responsibility of AWS? (Choose TWO) (Dựa trên Mô hình trách nhiệm chung của AWS, trách nhiệm nào sau đây là trách nhiệm duy nhất của AWS? (Chọn HAI))
 Monitoring network performance. (Giám sát hiệu suất mạng.)
 Installing software on EC2 instances. (Cài đặt phần mềm trên phiên bản EC2.)
-* Creating hypervisors.
-Configuring Access Control Lists (ACLs). (Định cấu hình Danh sách kiểm soát truy cập (ACL).)
-* Hardware maintenance.
+* Creating hypervisors. (Tạo và quản lý các phần mềm giám sát ảo hóa (hypervisors).)
+Configuring Access Control Lists. (ACLs). (Định cấu hình Danh sách kiểm soát truy cập (ACL).)
+* Hardware maintenance. (Bảo trì thiết bị phần cứng máy chủ.)
 
 What are two advantages of using Cloud Computing over using traditional data centers? (Choose TWO) (Hai lợi thế của việc sử dụng Điện toán đám mây so với việc sử dụng các trung tâm dữ liệu truyền thống là gì? (Chọn HAI))
 Reserved Compute capacity. (Năng lực tính toán dự trữ.)
-* Eliminating Single Points of Failure (SPOFs). (Loại bỏ các điểm lỗi đơn lẻ (SPOF).)
-* Distributed infrastructure.
+* Eliminating Single Points of Failure. (SPOFs). (Loại bỏ các điểm lỗi đơn lẻ (SPOF).)
+* Distributed infrastructure. (Cơ sở hạ tầng phân tán trên phạm vi toàn cầu.)
 Virtualized compute resources. (Tài nguyên tính toán ảo hóa.)
-Dedicated hosting.
+Dedicated hosting. (Dịch vụ lưu trữ máy chủ vật lý chuyên dụng.)
 
 Which of the following aspects of security are managed by AWS? (Choose TWO) (Khía cạnh bảo mật nào sau đây được AWS quản lý? (Chọn HAI))
 Encryption of EBS volumes. (Mã hóa khối lượng EBS.)
-VPC security.
-Access permissions.
-* Hardware patching.
+VPC security. (Bảo mật mạng riêng ảo VPC.)
+Access permissions. (Quyền truy cập của người dùng.)
+* Hardware patching. (Cập nhật bản vá lỗi cho phần cứng và firmware.)
 * Securing global physical infrastructure. (Đảm bảo cơ sở hạ tầng vật chất toàn cầu.)
 
 What are the change management tools that helps AWS customers audit and monitor all resource changes in their AWS environment? (Choose TWO) (Công cụ quản lý thay đổi nào giúp khách hàng AWS kiểm tra và giám sát tất cả các thay đổi về tài nguyên trong môi trường AWS của họ? (Chọn HAI))
@@ -161,7 +161,7 @@ AWS Glue.
 
 Using Amazon RDS falls under the shared responsibility model. Which of the following are customer responsibilities? (Choose TWO) (Việc sử dụng Amazon RDS thuộc mô hình chia sẻ trách nhiệm. Trách nhiệm nào sau đây là trách nhiệm của khách hàng? (Chọn HAI))
 * Building the relational database schema. (Xây dựng lược đồ cơ sở dữ liệu quan hệ.)
-Performing backups.
+Performing backups. (Thực hiện sao lưu cơ sở dữ liệu.)
 * Managing the database settings. (Quản lý cài đặt cơ sở dữ liệu.)
 Patching the database software. (Vá phần mềm cơ sở dữ liệu.)
 Installing the database software. (Cài đặt phần mềm cơ sở dữ liệu.)
@@ -181,25 +181,25 @@ Amazon EBS.
 * Amazon DynamoDB.
 
 What are the Amazon RDS features that can be used to improve the availability of your database? (Choose TWO) (Những tính năng nào của Amazon RDS có thể được sử dụng để cải thiện tính khả dụng của cơ sở dữ liệu của bạn? (Chọn HAI))
-AWS Regions.
-* Multi-AZ Deployment.
-Automatic patching.
-* Read Replicas.
-Edge Locations.
+AWS Regions. (Các khu vực địa lý của AWS - AWS Regions.)
+* Multi-AZ Deployment. (Triển khai trên nhiều vùng khả dụng - Multi-AZ Deployment.)
+Automatic patching. (Tự động vá lỗi hệ điều hành và phần mềm cơ sở dữ liệu.)
+* Read Replicas. (Bản sao cơ sở dữ liệu chỉ đọc - Read Replicas.)
+Edge Locations. (Các điểm biên phân phối nội dung - Edge Locations.)
 
 Amazon Glacier is an Amazon S3 storage class that is suitable for storing [...] & [...]. (Choose TWO) (Amazon Glacier là lớp lưu trữ Amazon S3 phù hợp để lưu trữ […] & [...]. (Chọn HAI))
-* Active archives.
+* Active archives. (Lưu trữ dữ liệu hoạt động thường xuyên truy cập.)
 Dynamic websites’ assets. (Nội dung của trang web động.)
 * Long-term analytic data. (Dữ liệu phân tích dài hạn.)
-Active databases.
-Cached data.
+Active databases. (Cơ sở dữ liệu đang hoạt động trực tuyến liên tục.)
+Cached data. (Dữ liệu được lưu trong bộ nhớ tạm bộ nhớ đệm (Cache).)
 
 Under the Shared Responsibility Model, which of the following controls do customers fully inherit from AWS? (Choose TWO) (Theo Mô hình trách nhiệm chung, khách hàng kế thừa hoàn toàn những biện pháp kiểm soát nào sau đây từ AWS? (Chọn HAI))
 Patch management controls. (Kiểm soát quản lý bản vá.)
-Database controls.
+Database controls. (Các biện pháp kiểm soát cơ sở dữ liệu.)
 Awareness & Training. (Nhận thức & Đào tạo.)
-* Environmental controls.
-* Physical controls.
+* Environmental controls. (Kiểm soát môi trường (nhiệt độ, độ ẩm phòng máy).)
+* Physical controls. (Các biện pháp kiểm soát an ninh vật lý tại trung tâm dữ liệu.)
 
 Savings Plans are available for which of the following AWS compute services? (Choose TWO) (Savings Plans có sẵn cho dịch vụ điện toán AWS nào sau đây? (Chọn HAI))
 AWS Batch.
@@ -223,16 +223,16 @@ AWS CloudTrail.
 * AWS VPN.
 
 Which of the following can help protect your EC2 instances from DDoS attacks? (Choose TWO) (Điều nào sau đây có thể giúp bảo vệ phiên bản EC2 của bạn khỏi các cuộc tấn công DDoS? (Chọn HAI))
-AWS CloudHSM.
-* Security Groups.
-AWS Batch.
-AWS IAM.
-* Network Access Control Lists (Network ACLs). (Danh sách kiểm soát truy cập mạng (ACL mạng).)
+AWS CloudHSM. (AWS CloudHSM - Mô-đun bảo mật phần cứng chuyên dụng.)
+* Security Groups. (Nhóm bảo mật - Security Groups.)
+AWS Batch. (AWS Batch - Dịch vụ tính toán theo lô.)
+AWS IAM. (AWS IAM - Quản lý danh tính và quyền truy cập.)
+* Network Access Control Lists. (Network ACLs). (Danh sách kiểm soát truy cập mạng (ACL mạng).)
 
 Which of the following will impact the price paid for an EC2 instance? (Choose TWO) (Điều nào sau đây sẽ ảnh hưởng đến mức giá phải trả cho phiên bản EC2? (Chọn HAI))
-* Instance type.
+* Instance type. (Loại cấu hình phiên bản máy chủ - Instance type.)
 * The Availability Zone where the instance is provisioned. (Vùng sẵn sàng nơi phiên bản được cung cấp.)
-Load balancing.
+Load balancing. (Cân bằng tải lưu lượng truy cập mạng.)
 Number of buckets. (Số lượng xô.)
 Number of private IPs. (Số lượng IP riêng.)
 
@@ -244,11 +244,11 @@ Scales automatically to larger or smaller instance types. (Tự động điều 
 Supports the document and key-value data structure. (Hỗ trợ cấu trúc dữ liệu tài liệu và khóa-giá trị.)
 
 Which of the following is used to control network traffic in AWS? (Choose TWO) (Điều nào sau đây được sử dụng để kiểm soát lưu lượng mạng trong AWS? (Chọn HAI))
-* Network Access Control Lists (NACLs). (Danh sách kiểm soát truy cập mạng (NACL).)
-Key Pairs.
-Access Keys.
-IAM Policies.
-* Security Groups.
+* Network Access Control Lists. (NACLs). (Danh sách kiểm soát truy cập mạng (NACL).)
+Key Pairs. (Cặp khóa bảo mật SSH - Key Pairs.)
+Access Keys. (Access Keys - Khóa truy cập bảo mật qua API/CLI.)
+IAM Policies. (Chính sách IAM - IAM Policies.)
+* Security Groups. (Nhóm bảo mật - Security Groups.)
 
 App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO) (Các công ty phát triển ứng dụng chuyển hoạt động kinh doanh của họ sang AWS để giảm thời gian tiếp thị và cải thiện sự hài lòng của khách hàng, những công cụ tự động hóa AWS nào giúp họ triển khai ứng dụng nhanh hơn? (Chọn HAI))
 * AWS CloudFormation.
@@ -279,11 +279,11 @@ Amazon EMR.
 Amazon EBS.
 
 A company is planning to migrate an application from Amazon EC2 to AWS Lambda to use a serverless architecture. Which of the following will be the responsibility of AWS after migration? (Choose TWO) (Một công ty đang lên kế hoạch di chuyển ứng dụng từ Amazon EC2 sang AWS Lambda để sử dụng kiến ​​trúc serverless. Trách nhiệm nào sau đây sẽ thuộc về AWS sau khi di chuyển? (Chọn HAI))
-Application management.
-* Capacity management.
-Access control.
+Application management. (Quản lý và vận hành ứng dụng phía người dùng.)
+* Capacity management. (Quản lý dung lượng và tài nguyên tính toán.)
+Access control. (Kiểm soát quyền truy cập tài nguyên.)
 * Operating system maintenance. (Bảo trì hệ điều hành.)
-Data management.
+Data management. (Quản lý dữ liệu và lưu trữ an toàn.)
 
 What are the benefits of using an AWS-managed service? (Choose TWO) (Lợi ích của việc sử dụng dịch vụ do AWS quản lý là gì? (Chọn HAI))
 Provides complete control over the virtual infrastructure. (Cung cấp toàn quyền kiểm soát cơ sở hạ tầng ảo.)
@@ -300,18 +300,18 @@ Cost-effective database and log storage. (Cơ sở dữ liệu và lưu trữ nh
 Processing data streams at any scale. (Xử lý luồng dữ liệu ở mọi quy mô.)
 
 For managed services like Amazon DynamoDB, which of the below is AWS responsible for? (Choose TWO) (Đối với các dịch vụ được quản lý như Amazon DynamoDB, AWS chịu trách nhiệm về nội dung nào dưới đây? (Chọn HAI))
-Protecting credentials.
+Protecting credentials. (Bảo vệ thông tin xác thực và khóa bảo mật.)
 Logging access activity. (Ghi nhật ký hoạt động truy cập.)
 * Patching the database software. (Vá phần mềm cơ sở dữ liệu.)
 * Operating system maintenance. (Bảo trì hệ điều hành.)
 Creating access policies. (Tạo chính sách truy cập.)
 
 Which of the following are factors in determining the appropriate database technology to use for a specific workload? (Choose TWO) (Yếu tố nào sau đây là yếu tố quyết định công nghệ cơ sở dữ liệu phù hợp để sử dụng cho khối lượng công việc cụ thể? (Chọn HAI))
-Availability Zones.
-Data sovereignty.
+Availability Zones. (Các vùng khả dụng độc lập - Availability Zones (AZs).)
+Data sovereignty. (Chủ quyền dữ liệu và tuân thủ vị trí địa lý của dữ liệu.)
 * The number of reads and writes per second. (Số lần đọc và ghi mỗi giây.)
 * The nature of the queries. (Bản chất của các truy vấn.)
-Software bugs.
+Software bugs. (Lỗi phần mềm và sự cố trong mã nguồn.)
 
 What are the benefits of implementing a tagging strategy for AWS resources? (Choose TWO) (Lợi ích của việc triển khai chiến lược gắn thẻ cho tài nguyên AWS là gì? (Chọn HAI))
 * Quickly identify resources that belong to a specific project. (Nhanh chóng xác định các tài nguyên thuộc về một dự án cụ thể.)
@@ -337,9 +337,9 @@ Maintaining consistent hardware components. (Duy trì các thành phần phần 
 Why would an organization decide to use AWS over an on-premises data center? (Choose TWO) (Tại sao một tổ chức lại quyết định sử dụng AWS thay vì trung tâm dữ liệu tại chỗ? (Chọn HAI))
 Free commercial software licenses. (Giấy phép phần mềm thương mại miễn phí.)
 Free technical support. (Hỗ trợ kỹ thuật miễn phí.)
-* Elastic resources.
+* Elastic resources. (Tài nguyên tính toán có khả năng co giãn linh hoạt.)
 On-site visits for auditing. (Các chuyến thăm hiện trường để kiểm toán.)
-* Cost Savings.
+* Cost Savings. (Tiết kiệm chi phí đầu tư ban đầu.)
 
 Which of the following AWS services can help you perform security analysis and regulatory compliance auditing? (Choose TWO) (Dịch vụ AWS nào sau đây có thể giúp bạn thực hiện phân tích bảo mật và kiểm tra tuân thủ quy định? (Chọn HAI))
 * Amazon Inspector.

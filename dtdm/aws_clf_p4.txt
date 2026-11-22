@@ -27,10 +27,10 @@ AWS Batch.
 AWS X-Ray.
 
 Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO.) (Theo mô hình trách nhiệm chung của AWS, hoạt động nào sau đây là trách nhiệm của khách hàng? (Chọn HAI.))
-Patching operating system components for Amazon Relational Database Server (Amazon RDS). (Vá các thành phần hệ điều hành cho Amazon Relational Database Server (Amazon RDS).)
+Patching operating system components for Amazon Relational Database Server. (Amazon RDS). (Vá các thành phần hệ điều hành cho Amazon Relational Database Server (Amazon RDS).)
 * Encrypting data on the client-side. (Mã hóa dữ liệu ở phía máy khách.)
 Training the data center staff. (Đào tạo nhân viên trung tâm dữ liệu.)
-* Configuring Network Access Control Lists (ACL). (Định cấu hình Danh sách Kiểm soát Truy cập Mạng (ACL).)
+* Configuring Network Access Control Lists. (ACL). (Định cấu hình Danh sách Kiểm soát Truy cập Mạng (ACL).)
 Maintaining environmental controls within a data center. (Duy trì kiểm soát môi trường trong trung tâm dữ liệu.)
 
 A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.) (Một khách hàng đang triển khai một ứng dụng mới và cần chọn Khu vực AWS. <br/>Yếu tố nào sau đây có thể ảnh hưởng đến quyết định của khách hàng? (Chọn HAI.))
@@ -42,9 +42,9 @@ Proximity to the customer's office for on-site visits. (Gần văn phòng của 
 
 Which of the following are benefits of the AWS Cloud? (Choose two.) (Những lợi ích nào sau đây là lợi ích của Đám mây AWS? (Chọn hai.))
 Unlimited uptime. (Thời gian hoạt động không giới hạn.)
-* Elasticity
-* Agility
-Colocation
+* Elasticity. (Tính đàn hồi - tự động tăng giảm tài nguyên theo tải.)
+* Agility. (Tính nhanh nhẹn - khả năng triển khai ứng dụng nhanh chóng.)
+Colocation. (Thuê không gian đặt tủ máy chủ - Colocation.)
 Capital expenses. (Chi phí vốn.)
 
 Which of the following benefits does the AWS Compliance program provide to AWS customers? (Choose two.) (Chương trình Tuân thủ AWS mang lại lợi ích nào sau đây cho khách hàng AWS? (Chọn hai.))
@@ -55,10 +55,10 @@ It ensures the use of compliance frameworks that are being used by other cloud p
 It will adopt new compliance frameworks as they become relevant to customer workloads. (Nó sẽ áp dụng các khuôn khổ tuân thủ mới khi chúng trở nên phù hợp với khối lượng công việc của khách hàng.)
 
 When comparing AWS Cloud with on-premises Total Cost of Ownership, which expenses must be considered? (Choose two.) (Khi so sánh Đám mây AWS với Tổng chi phí sở hữu tại chỗ, những chi phí nào phải được xem xét? (Chọn hai.))
-Software development
-Project management
-* Storage hardware
-* Physical servers
+Software development. (Phát triển và bảo trì phần mềm ứng dụng.)
+Project management. (Chi phí quản lý dự án công nghệ thông tin.)
+* Storage hardware. (Thiết bị phần cứng lưu trữ vật lý.)
+* Physical servers. (Hệ thống máy chủ vật lý.)
 Antivirus software license. (Giấy phép phần mềm chống vi-rút.)
 
 Under the shared responsibility model, which of the following tasks are the responsibility of the customer? (Choose two.) (Theo mô hình trách nhiệm chung, nhiệm vụ nào sau đây là trách nhiệm của khách hàng? (Chọn hai.))
@@ -90,11 +90,11 @@ Use Reserved Instances whenever possible. (Sử dụng Phiên bản dự trữ b
 Pay bills using purchase orders. (Thanh toán hóa đơn bằng cách sử dụng đơn đặt hàng.)
 
 Under the AWS shared responsibility model, customers are responsible for which aspects of security in the cloud? (Choose two.) (Theo mô hình trách nhiệm chung của AWS, khách hàng chịu trách nhiệm về những khía cạnh bảo mật nào trên đám mây? (Chọn hai.))
-Visualization management
-Hardware management
-* Encryption management
-Facilities management
-* Firewall management
+Visualization management. (Quản lý trực quan hóa dữ liệu.)
+Hardware management. (Quản lý cơ sở hạ tầng phần cứng.)
+* Encryption management. (Quản lý quy trình mã hóa dữ liệu.)
+Facilities management. (Quản lý cơ sở vật chất trung tâm dữ liệu.)
+* Firewall management. (Quản lý và cấu hình tường lửa.)
 
 Which load balancer types are available with Elastic Load Balancing (ELB)? (Choose two.) (Cân bằng tải đàn hồi (ELB) có những loại cân bằng tải nào? (Chọn hai.))
 Public load balancers with AWS Application Auto Scaling capabilities. (Bộ cân bằng tải công cộng có khả năng Auto Scaling của ứng dụng AWS.)
@@ -111,11 +111,11 @@ Facilities costs. (Chi phí cơ sở vật chất.)
 Network infrastructure costs. (Chi phí hạ tầng mạng.)
 
 Which services manage and automate application deployments on AWS? (Choose two.) (Những dịch vụ nào quản lý và tự động hóa việc triển khai ứng dụng trên AWS? (Chọn hai.))
-* AWS Elastic Beanstalk
-AWS CodeCommit
-AWS Data Pipeline
-* AWS CloudFormation
-AWS Config
+* AWS Elastic Beanstalk.
+AWS CodeCommit.
+AWS Data Pipeline.
+* AWS CloudFormation.
+AWS Config.
 
 Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two.) (Những nguyên tắc nào được sử dụng để xây dựng kiến ​​trúc ứng dụng nhằm đảm bảo độ tin cậy trên Đám mây AWS? (Chọn hai.))
 * Design for automated failure recovery. (Thiết kế để phục hồi lỗi tự động.)
@@ -139,18 +139,18 @@ Customers can upgrade instances as new types become available. (Khách hàng có
 * Customers can reserve capacity in an Availability Zone. (Khách hàng có thể dự trữ công suất trong Vùng sẵn sàng.)
 
 Which of the following AWS services provide compute resources? (Choose two.) (Dịch vụ AWS nào sau đây cung cấp tài nguyên điện toán? (Chọn hai.))
-* AWS Lambda
-* Amazon Elastic Container Service (Amazon ECS). (Dịch vụ container đàn hồi của Amazon (Amazon ECS).)
-AWS CodeDeploy
-Amazon Glacier
-AWS Organizations
+* AWS Lambda.
+* Amazon Elastic Container Service.
+AWS CodeDeploy.
+Amazon Glacier.
+AWS Organizations.
 
 Which services use AWS edge locations? (Choose two.) (Những dịch vụ nào sử dụng vị trí biên của AWS? (Chọn hai.))
-* Amazon CloudFront
-* AWS Shield
-Amazon EC2
-Amazon RDS
-Amazon ElastiCache
+* Amazon CloudFront.
+* AWS Shield.
+Amazon EC2.
+Amazon RDS.
+Amazon ElastiCache.
 
 What is the value of using third-party software from AWS Marketplace instead of installing third-party software on Amazon EC2? (Choose two.) (Giá trị của việc sử dụng phần mềm của bên thứ ba từ AWS Marketplace thay vì cài đặt phần mềm của bên thứ ba trên Amazon EC2 là gì? (Chọn hai.))
 * Users pay for software by the hour or month depending on licensing. (Người dùng trả tiền mua phần mềm theo giờ hoặc theo tháng tùy theo giấy phép.)
@@ -191,7 +191,7 @@ What are the immediate benefits of using the AWS Cloud? (Choose two.) (Lợi íc
 Increased IT staff. (Tăng cường nhân lực CNTT.)
 * Capital expenses are replaced with variable expenses. (Chi phí vốn được thay thế bằng chi phí biến đổi.)
 User control of infrastructure. (Kiểm soát người dùng về cơ sở hạ tầng.)
-* Increased agility.
+* Increased agility. (Tăng tốc độ phát triển và sự linh hoạt trong kinh doanh.)
 AWS holds responsibility for security in the cloud. (AWS chịu trách nhiệm về bảo mật trên đám mây.)
 
 How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Choose two.) (AWS tính phí như thế nào cho việc sử dụng AWS Lambda sau khi vượt quá bậc miễn phí? (Chọn hai.))
@@ -233,7 +233,7 @@ When designing a typical three-tier web application, which AWS services and/or f
 * AWS Auto Scaling for Amazon EC2 instances. (AWS Auto Scaling cho phiên bản Amazon EC2.)
 Amazon VPC subnet ACLs to check the health of a service. (ACL mạng con Amazon VPC để kiểm tra tình trạng của dịch vụ.)
 * Distributed resources across multiple Availability Zones. (Tài nguyên được phân phối trên nhiều Vùng sẵn sàng.)
-AWS Server Migration Service (AWS SMS) to move Amazon EC2 instances into a different Region. (Dịch vụ di chuyển máy chủ AWS (AWS SMS) để di chuyển các phiên bản Amazon EC2 sang một Khu vực khác.)
+AWS Server Migration Service. (AWS SMS) to move Amazon EC2 instances into a different Region. (Dịch vụ di chuyển máy chủ AWS (AWS SMS) để di chuyển các phiên bản Amazon EC2 sang một Khu vực khác.)
 Distributed resources across multiple AWS points of presence. (Tài nguyên được phân phối trên nhiều điểm hiện diện AWS.)
 
 Which of the following are recommended practices for managing IAM users? (Choose two.) (Biện pháp nào sau đây được khuyến nghị để quản lý người dùng IAM? (Chọn hai.))
@@ -241,39 +241,39 @@ Which of the following are recommended practices for managing IAM users? (Choose
 * Prevent IAM users from reusing previous passwords. (Ngăn người dùng IAM sử dụng lại mật khẩu trước đó.)
 Recommend that the same password be used on AWS and other sites. (Khuyến nghị sử dụng cùng một mật khẩu trên AWS và các trang web khác.)
 Require IAM users to store their passwords in raw text. (Yêu cầu người dùng IAM lưu trữ mật khẩu của họ ở dạng văn bản thô.)
-Disable multi-factor authentication (MFA) for IAM users. (Tắt xác thực đa yếu tố (MFA) cho người dùng IAM.)
+Disable multi-factor authentication. (MFA) for IAM users. (Tắt xác thực đa yếu tố (MFA) cho người dùng IAM.)
 
 A company is migrating from on-premises data centers to the AWS Cloud and is looking for hands-on help with the project. <br/> How can the company get this support? (Choose two.) (Một công ty đang di chuyển từ trung tâm dữ liệu tại chỗ sang Đám mây AWS và đang tìm kiếm trợ giúp thực tế cho dự án. <br/> Làm thế nào công ty có thể nhận được sự hỗ trợ này? (Chọn hai.))
 Ask for a quote from the AWS Marketplace team to perform a migration into the company's AWS account. (Yêu cầu báo giá từ nhóm AWS Marketplace để thực hiện di chuyển sang tài khoản AWS của công ty.)
 Contact AWS Support and open a case for assistance. (Liên hệ với bộ phận Hỗ trợ của AWS và mở một trường hợp để được hỗ trợ.)
 * Use AWS Professional Services to provide guidance and to set up an AWS Landing Zone in the company's AWS account. (Sử dụng AWS Professional Services để cung cấp hướng dẫn và thiết lập Vùng đích AWS trong tài khoản AWS của công ty.)
-* Select a partner from the AWS Partner Network (APN) to assist with the migration. (Chọn một đối tác từ Mạng đối tác AWS (APN) để hỗ trợ di chuyển.)
-Use Amazon Connect to create a new request for proposal (RFP) for expert assistance in migrating to the AWS Cloud. (Sử dụng Amazon Connect để tạo yêu cầu đề xuất (RFP) mới để được chuyên gia hỗ trợ di chuyển sang Đám mây AWS.)
+* Select a partner from the AWS Partner Network. (APN) to assist with the migration. (Chọn một đối tác từ Mạng đối tác AWS (APN) để hỗ trợ di chuyển.)
+Use Amazon Connect to create a new request for proposal. (RFP) for expert assistance in migrating to the AWS Cloud. (Sử dụng Amazon Connect để tạo yêu cầu đề xuất (RFP) mới để được chuyên gia hỗ trợ di chuyển sang Đám mây AWS.)
 
 A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.) (Một công ty đang lên kế hoạch ra mắt một trang web thương mại điện tử ở một Khu vực AWS duy nhất cho cơ sở người dùng trên toàn thế giới. <br/> Dịch vụ AWS nào sẽ cho phép công ty tiếp cận người dùng và cung cấp độ trễ thấp cũng như tốc độ truyền cao? (Chọn hai.))
-Application Load Balancer
-* AWS Global Accelerator
-AWS Direct Connect
-* Amazon CloudFront
-AWS Lambda
+Application Load Balancer.
+* AWS Global Accelerator.
+AWS Direct Connect.
+* Amazon CloudFront.
+AWS Lambda.
 
 Which of the following are components of Amazon VPC? (Choose two.) (Thành phần nào sau đây là thành phần của Amazon VPC? (Chọn hai.))
-Objects
-* Subnets
-Buckets
-* Internet gateways
-Access key
+Objects. (Các đối tượng lưu trữ - Objects.)
+* Subnets. (Các mạng con - Subnets.)
+Buckets. (Các vùng chứa dữ liệu - S3 Buckets.)
+* Internet gateways. (Các cổng kết nối Internet - Internet Gateways.)
+Access key. (Access Key - Khóa truy cập bảo mật.)
 
 Which of the following will enhance the security of access to the AWS Management Console? (Choose two.) (Điều nào sau đây sẽ tăng cường tính bảo mật khi truy cập vào Bảng điều khiển quản lý AWS? (Chọn hai.))
-AWS Secrets Manager
-AWS Certificate Manager
-* AWS Multi-Factor Authentication (AWS MFA). (Xác thực đa yếu tố AWS (AWS MFA).)
-Security groups
-* Password policies
+AWS Secrets Manager. (AWS Secrets Manager - Quản lý thông tin bảo mật và mật khẩu.)
+AWS Certificate Manager. (AWS Certificate Manager - Quản lý chứng chỉ SSL/TLS.)
+* AWS Multi-Factor Authentication. (AWS MFA). (Xác thực đa yếu tố AWS (AWS MFA).)
+Security groups. (Nhóm bảo mật - Security Groups.)
+* Password policies. (Cấu hình chính sách mật khẩu mạnh.)
 
 The AWS Trusted Advisor checks include recommendations regarding which of the following? (Choose two.) (Quá trình kiểm tra của AWS Trusted Advisor bao gồm các đề xuất liên quan đến vấn đề nào sau đây? (Chọn hai.))
 * Information on Amazon S3 bucket permissions. (Thông tin về quyền của bộ chứa Amazon S3.)
-AWS service outages
+AWS service outages. (Sự cố gián đoạn hoạt động của dịch vụ AWS.)
 * Multi-factor authentication enabled on the AWS account root user. (Xác thực đa yếu tố được kích hoạt trên người dùng root tài khoản AWS.)
 Available software patches. (Các bản vá phần mềm có sẵn.)
 Number of users in the account. (Số lượng người dùng trong tài khoản.)
@@ -286,18 +286,18 @@ AWS manages the development of applications on AWS. (AWS quản lý việc phát
 AWS manages cost planning for virtual servers. (AWS quản lý việc lập kế hoạch chi phí cho máy chủ ảo.)
 
 Which AWS services provide a user with connectivity between the AWS Cloud and on-premises resources? (Choose two.) (Dịch vụ AWS nào cung cấp cho người dùng khả năng kết nối giữa Đám mây AWS và tài nguyên tại chỗ? (Chọn hai.))
-* AWS VPN
-Amazon Connect
-Amazon Cognito
-* AWS Direct Connect
-AWS Managed Services
+* AWS VPN.
+Amazon Connect.
+Amazon Cognito.
+* AWS Direct Connect.
+AWS Managed Services.
 
 Which AWS service will provide a way to generate encryption keys that can be used to encrypt data? (Choose two.) (Dịch vụ AWS nào sẽ cung cấp cách tạo khóa mã hóa có thể dùng để mã hóa dữ liệu? (Chọn hai.))
-Amazon Macie
-AWS Certificate Manager
-* AWS Key Management Service (AWS KMS). (Dịch vụ quản lý khóa AWS (AWS KMS).)
-AWS Secrets Manager
-* AWS CloudHSM
+Amazon Macie.
+AWS Certificate Manager.
+* AWS Key Management Service.
+AWS Secrets Manager.
+* AWS CloudHSM.
 
 Under the AWS shared responsibility model, the customer manages which of the following? (Choose two.) (Theo mô hình chia sẻ trách nhiệm của AWS, khách hàng quản lý nội dung nào sau đây? (Chọn hai.))
 Decommissioning of physical storage devices. (Ngừng hoạt động các thiết bị lưu trữ vật lý.)
@@ -308,10 +308,10 @@ Controlling physical access to data centers. (Kiểm soát quyền truy cập v�
 
 Which features or services can be used to monitor costs and expenses for an AWS account? (Choose two.) (Những tính năng hoặc dịch vụ nào có thể được sử dụng để giám sát chi phí và chi phí cho tài khoản AWS? (Chọn hai.))
 * AWS Cost and Usage report. (Báo cáo chi phí và mức sử dụng AWS.)
-AWS product pages
-AWS Simple Monthly Calculator
+AWS product pages. (Các trang thông tin sản phẩm chính thức của AWS.)
+AWS Simple Monthly Calculator. (AWS Simple Monthly Calculator - Công cụ ước tính chi phí hàng tháng của AWS.)
 * Billing alerts and Amazon CloudWatch alarms. (Cảnh báo thanh toán và cảnh báo Amazon CloudWatch.)
-AWS Price List API
+AWS Price List API. (AWS Price List API - API tra cứu bảng giá dịch vụ AWS.)
 
 Which actions represent best practices for using AWS IAM? (Choose two.) (Hành động nào thể hiện các biện pháp thực hành tốt nhất để sử dụng AWS IAM? (Chọn hai.))
 * Configure a strong password policy. (Định cấu hình chính sách mật khẩu mạnh.)
@@ -323,16 +323,16 @@ Avoid using IAM roles to delegate permissions. (Tránh sử dụng vai trò IAM 
 According to the AWS Well-Architected Framework, what change management steps should be taken to achieve reliability in the AWS Cloud? (Choose two.) (Theo Khung kiến ​​trúc tối ưu AWS, cần thực hiện những bước quản lý thay đổi nào để đạt được độ tin cậy trên Đám mây AWS? (Chọn hai.))
 * Use AWS Config to generate an inventory of AWS resources. (Sử dụng AWS Config để tạo kho tài nguyên AWS.)
 Use service limits to prevent users from creating or making changes to AWS resources. (Sử dụng giới hạn dịch vụ để ngăn người dùng tạo hoặc thực hiện thay đổi đối với tài nguyên AWS.)
-Use AWS CloudTrail to record AWS API calls into an auditable log file. (Sử dụng AWS CloudTrail để ghi lại lệnh gọi API AWS vào tệp nhật ký có thể kiểm tra.)
+* Use AWS CloudTrail to record AWS API calls into an auditable log file. (Sử dụng AWS CloudTrail để ghi lại lệnh gọi API AWS vào tệp nhật ký có thể kiểm tra.)
 Use AWS Certificate Manager to whitelist approved AWS resources and services. (Sử dụng Trình quản lý chứng chỉ AWS để đưa vào danh sách trắng các tài nguyên và dịch vụ AWS đã được phê duyệt.)
 Use Amazon GuardDuty to validate configuration changes made to AWS resources. (Sử dụng Amazon GuardDuty để xác thực các thay đổi cấu hình được thực hiện đối với tài nguyên AWS.)
 
 Which AWS services can be used to move data from on-premises data centers to AWS? (Choose two.) (Những dịch vụ AWS nào có thể được sử dụng để di chuyển dữ liệu từ trung tâm dữ liệu tại chỗ sang AWS? (Chọn hai.))
-* AWS Snowball
-AWS Lambda
-AWS ElastiCache
-* AWS Database Migration Service (AWS DMS). (Dịch vụ di chuyển cơ sở dữ liệu AWS (AWS DMS).)
-Amazon API Gateway
+* AWS Snowball.
+AWS Lambda.
+AWS ElastiCache.
+* AWS Database Migration Service.
+Amazon API Gateway.
 
 Which tasks are the customer's responsibility in the AWS shared responsibility model? (Choose two.) (Khách hàng có trách nhiệm gì trong mô hình trách nhiệm chung của AWS? (Chọn hai.))
 Infrastructure facilities access management. (Quản lý truy cập cơ sở hạ tầng.)
@@ -346,14 +346,14 @@ Running a virus scan on EC2 instances. (Chạy quét vi-rút trên các phiên b
 * Protecting against IP spoofing and packet sniffing. (Bảo vệ chống giả mạo IP và đánh hơi gói.)
 * Installing the latest security patches on the RDS instance. (Cài đặt các bản vá bảo mật mới nhất trên phiên bản RDS.)
 Encrypting communication between the EC2 instances and the Elastic Load Balancer. (Mã hóa giao tiếp giữa các phiên bản EC2 và Cân bằng tải đàn hồi.)
-Configuring a security group and a network access control list (NACL) for EC2. (Định cấu hình nhóm bảo mật và danh sách kiểm soát truy cập mạng (NACL) cho EC2.)
+Configuring a security group and a network access control list. (NACL) for EC2. (Định cấu hình nhóm bảo mật và danh sách kiểm soát truy cập mạng (NACL) cho EC2.)
 
 Which AWS services may be scaled using AWS Auto Scaling? (Choose two.) (Những dịch vụ AWS nào có thể được thay đổi quy mô bằng AWS Auto Scaling? (Chọn hai.))
-* Amazon EC2
-* Amazon DynamoDB
-Amazon S3
-Amazon Route 53
-Amazon Redshift
+* Amazon EC2.
+* Amazon DynamoDB.
+Amazon S3.
+Amazon Route 53.
+Amazon Redshift.
 
 Which of the following are benefits of AWS Global Accelerator? (Choose two.) (Lợi ích nào sau đây của AWS Global Accelerator? (Chọn hai.))
 Reduced cost to run services on AWS. (Giảm chi phí chạy dịch vụ trên AWS.)
@@ -377,11 +377,11 @@ Providing automated security checks. (Cung cấp kiểm tra bảo mật tự đ�
 * Enforcing the governance of AWS accounts. (Thực thi quản trị tài khoản AWS.)
 
 Which AWS services can be used to provide network connectivity between an on-premises network and a VPC? (Choose two.) (Những dịch vụ AWS nào có thể được sử dụng để cung cấp kết nối mạng giữa mạng tại chỗ và VPC? (Chọn hai.))
-Amazon Route 53
-* AWS Direct Connect
-AWS Data Pipeline
-* AWS VPN
-Amazon Connect
+Amazon Route 53.
+* AWS Direct Connect.
+AWS Data Pipeline.
+* AWS VPN.
+Amazon Connect.
 
 Under the AWS shared responsibility model, which of the following are customer responsibilities? (Choose two.) (Theo mô hình trách nhiệm chung của AWS, trách nhiệm nào sau đây của khách hàng là gì? (Chọn hai.))
 * Setting up server-side encryption on an Amazon S3 bucket. (Thiết lập mã hóa phía máy chủ trên bộ chứa Amazon S3.)
@@ -391,18 +391,18 @@ Physical security of data center facilities. (An ninh vật lý của cơ sở t
 Compute capacity availability. (Tính toán khả năng sẵn có.)
 
 Which AWS services can be used as infrastructure automation tools? (Choose two.) (Những dịch vụ AWS nào có thể được sử dụng làm công cụ tự động hóa cơ sở hạ tầng? (Chọn hai.))
-* AWS CloudFormation
-Amazon CloudFront
-AWS Batch
-* AWS OpsWorks
-Amazon QuickSight
+* AWS CloudFormation.
+Amazon CloudFront.
+AWS Batch.
+* AWS OpsWorks.
+Amazon QuickSight.
 
 Which of the following are AWS compute services? (Select two.) (Dịch vụ nào sau đây là dịch vụ điện toán của AWS? (Chọn hai.))
-* Amazon Lightsail
-AWS Systems Manager
-AWS CloudFormation
-* AWS Batch
-Amazon Inspector
+* Amazon Lightsail.
+AWS Systems Manager.
+AWS CloudFormation.
+* AWS Batch.
+Amazon Inspector.
 
 Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.) (Theo mô hình trách nhiệm chung của AWS, trách nhiệm của khách hàng là gì? (Chọn hai.))
 Physical and environmental security. (An ninh vật lý và môi trường.)
@@ -412,11 +412,11 @@ Storage device decommissioning. (Ngừng hoạt động thiết bị lưu trữ.
 * Data integrity authentication. (Xác thực toàn vẹn dữ liệu.)
 
 AWS Trusted Advisor provides recommendations on which of the following? (Choose two.) (AWS Trusted Advisor đưa ra đề xuất về vấn đề nào sau đây? (Chọn hai.))
-* Cost optimization
-Auditing
-Serverless architecture
-* Performance
-Scalability
+* Cost optimization. (Tối ưu hóa chi phí sử dụng dịch vụ.)
+Auditing. (Kiểm toán và theo dõi lịch sử hoạt động hệ thống.)
+Serverless architecture. (Kiến trúc ứng dụng phi máy chủ - Serverless.)
+* Performance. (Hiệu năng hoạt động tổng thể của hệ thống.)
+Scalability. (Khả năng mở rộng quy mô hệ thống linh hoạt.)
 
 Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.) (Tác vụ nào sau đây chỉ có thể được thực hiện sau khi đăng nhập bằng thông tin xác thực của người dùng root tài khoản AWS? (Chọn hai.))
 * Closing an AWS account. (Đóng tài khoản AWS.)
@@ -433,25 +433,25 @@ On-Demand Instances for high-cost and sustained workloads. (Phiên bản theo y�
 Spend limits set using AWS Budgets. (Giới hạn chi tiêu được đặt bằng Ngân sách AWS.)
 
 Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.) (Cần có những thành phần nào để xây dựng kết nối VPN site-to-site thành công trên AWS? (Chọn hai.))
-Internet gateway
-NAT gateway
-* Customer gateway
-Transit gateway
-* Virtual private gateway
+Internet gateway. (Cổng kết nối Internet - Internet Gateway.)
+NAT gateway. (Cổng dịch địa chỉ mạng - NAT Gateway.)
+* Customer gateway. (Cổng kết nối phía khách hàng - Customer Gateway.)
+Transit gateway. (Cổng chuyển tiếp lưu lượng mạng - Transit Gateway.)
+* Virtual private gateway. (Cổng mạng riêng ảo - Virtual Private Gateway.)
 
 Which of the following AWS services are serverless? (Choose two.) (Dịch vụ AWS nào sau đây không có máy chủ? (Chọn hai.))
-* AWS Lambda
-Amazon Elasticsearch Service
-AWS Elastic Beanstalk
-* Amazon DynamoDB
-Amazon Redshift
+* AWS Lambda.
+Amazon Elasticsearch Service.
+AWS Elastic Beanstalk.
+* Amazon DynamoDB.
+Amazon Redshift.
 
 Which AWS managed services can be used to extend an on-premises data center to the AWS network? (Choose two.) (Những dịch vụ được quản lý AWS nào có thể được sử dụng để mở rộng trung tâm dữ liệu tại chỗ sang mạng AWS? (Chọn hai.))
-* AWS VPN
-NAT gateway
-* AWS Direct Connect
-Amazon Connect
-Amazon Route 53
+* AWS VPN.
+NAT gateway.
+* AWS Direct Connect.
+Amazon Connect.
+Amazon Route 53.
 
 A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. <br/> Which configuration will meet these requirements? (Một công ty muốn thiết lập khối lượng công việc có tính sẵn sàng cao trong AWS bằng kế hoạch khắc phục thảm họa cho phép công ty phục hồi trong trường hợp gián đoạn dịch vụ khu vực. <br/> Cấu hình nào sẽ đáp ứng được những yêu cầu này?)
 Run on two Availability Zones in one AWS Region, using the additional Availability Zones in the AWS Region for the disaster recovery site. (Chạy trên hai Vùng sẵn sàng trong một Vùng AWS, sử dụng các Vùng sẵn sàng bổ sung trong Vùng AWS cho trang khắc phục thảm họa.)
@@ -467,11 +467,11 @@ Using AWS Trusted Advisor. (Sử dụng Cố vấn đáng tin cậy của AWS.)
 Using Consolidated Billing. (Sử dụng thanh toán tổng hợp.)
 
 Which are benefits of using Amazon RDS over Amazon EC2 when running relational databases on AWS? (Choose two.) (Lợi ích của việc sử dụng Amazon RDS thay vì Amazon EC2 khi chạy cơ sở dữ liệu quan hệ trên AWS là gì? (Chọn hai.))
-* Automated backups
-Schema management
+* Automated backups. (Sao lưu dữ liệu tự động định kỳ.)
+Schema management. (Quản lý lược đồ và cấu trúc bảng cơ sở dữ liệu.)
 Indexing of tables. (Lập chỉ mục các bảng.)
-* Software patching
-Extract, transform, and load (ETL) management. (Quản lý trích xuất, chuyển đổi và tải (ETL).)
+* Software patching. (Vá lỗi phần mềm cơ sở dữ liệu và hệ điều hành.)
+Extract, transform, and load. (ETL) management. (Quản lý trích xuất, chuyển đổi và tải (ETL).)
 
 Which of the following are benefits of using AWS Trusted Advisor? (Choose two.) (Lợi ích nào sau đây là của việc sử dụng AWS Trusted Advisor? (Chọn hai.))
 Providing high-performance container orchestration. (Cung cấp khả năng điều phối vùng chứa hiệu suất cao.)
@@ -488,18 +488,18 @@ Configure a password policy that ensures the developer's password cannot be chan
 * Ensure the account password policy requires a minimum length. (Đảm bảo chính sách mật khẩu tài khoản yêu cầu độ dài tối thiểu.)
 
 Which services can be used to deploy applications on AWS? (Choose two.) (Những dịch vụ nào có thể được sử dụng để triển khai ứng dụng trên AWS? (Chọn hai.))
-* AWS Elastic Beanstalk
-AWS Config
-* AWS OpsWorks
-AWS Application Discovery Service
-Amazon Kinesis
+* AWS Elastic Beanstalk.
+AWS Config.
+* AWS OpsWorks.
+AWS Application Discovery Service.
+Amazon Kinesis.
 
 A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.) (Một nhà phát triển web lo ngại rằng một cuộc tấn công DDoS có thể nhắm mục tiêu vào một ứng dụng. <br/> Dịch vụ hoặc tính năng nào của AWS có thể giúp bảo vệ khỏi cuộc tấn công như vậy? (Chọn hai.))
-* AWS Shield
-AWS CloudTrail
-* Amazon CloudFront
-AWS Support Center
-AWS Service Health Dashboard
+* AWS Shield.
+AWS CloudTrail.
+* Amazon CloudFront.
+AWS Support Center.
+AWS Service Health Dashboard.
 
 A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.) (Một công ty muốn cấp cho một trong những nhân viên của mình quyền truy cập vào Amazon RDS. Công ty cũng muốn giới hạn sự tương tác chỉ với bộ công cụ phát triển phần mềm (SDK) AWS CLI và AWS. <br/> Công ty nên thực hiện những hành động kết hợp nào để đáp ứng các yêu cầu này trong khi vẫn tuân thủ các nguyên tắc về đặc quyền tối thiểu? (Chọn hai.))
 Create an IAM user and provide AWS Management Console access only. (Tạo người dùng IAM và chỉ cung cấp quyền truy cập vào Bảng điều khiển quản lý AWS.)
@@ -516,11 +516,11 @@ Allowing the application to serve cross-region users with low latency. (Cho phé
 Increasing the load of the application. (Tăng tải cho ứng dụng.)
 
 Which AWS services offer compute capabilities? (Choose two.) (Dịch vụ AWS nào cung cấp khả năng tính toán? (Chọn hai.))
-* Amazon EC2
-Amazon S3
-Amazon Elastic Block Store (Amazon EBS). (Cửa hàng khối đàn hồi Amazon (Amazon EBS).)
-Amazon Cognito
-* AWS Lambda
+* Amazon EC2.
+Amazon S3.
+Amazon Elastic Block Store.
+Amazon Cognito.
+* AWS Lambda.
 
 Which AWS Cloud design principles can help increase reliability? (Choose two.) (Nguyên tắc thiết kế Đám mây AWS nào có thể giúp tăng độ tin cậy? (Chọn hai.))
 Using monolithic architecture. (Sử dụng kiến ​​trúc nguyên khối.)
@@ -530,7 +530,7 @@ Adopting a consumption model. (Áp dụng mô hình tiêu dùng.)
 * Automatically recovering from failure. (Tự động phục hồi sau thất bại.)
 
 What are the benefits of consolidated billing for AWS Cloud services? (Choose two.) (Lợi ích của việc thanh toán tổng hợp cho các dịch vụ Đám mây AWS là gì? (Chọn hai.))
-* Volume discounts
+* Volume discounts. (Chiết khấu giảm giá theo khối lượng sử dụng lớn.)
 A minimal additional fee for use. (Một khoản phí bổ sung tối thiểu để sử dụng.)
 * One bill for multiple accounts. (Một hóa đơn cho nhiều tài khoản.)
 Installment payment options. (Tùy chọn thanh toán trả góp.)
