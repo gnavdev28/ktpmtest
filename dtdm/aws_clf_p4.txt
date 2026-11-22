@@ -26,20 +26,6 @@ AWS Elastic Beanstalk.
 AWS Batch.
 AWS X-Ray.
 
-Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO.) (Theo mô hình trách nhiệm chung của AWS, hoạt động nào sau đây là trách nhiệm của khách hàng? (Chọn HAI.))
-Patching operating system components for Amazon Relational Database Server. (Amazon RDS). (Vá các thành phần hệ điều hành cho Amazon Relational Database Server (Amazon RDS).)
-* Encrypting data on the client-side. (Mã hóa dữ liệu ở phía máy khách.)
-Training the data center staff. (Đào tạo nhân viên trung tâm dữ liệu.)
-* Configuring Network Access Control Lists. (ACL). (Định cấu hình Danh sách Kiểm soát Truy cập Mạng (ACL).)
-Maintaining environmental controls within a data center. (Duy trì kiểm soát môi trường trong trung tâm dữ liệu.)
-
-A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.) (Một khách hàng đang triển khai một ứng dụng mới và cần chọn Khu vực AWS. <br/>Yếu tố nào sau đây có thể ảnh hưởng đến quyết định của khách hàng? (Chọn HAI.))
-* Reduced latency to users. (Giảm độ trễ cho người dùng.)
-The application's presentation in the local language. (Trình bày của ứng dụng bằng ngôn ngữ địa phương.)
-* Data sovereignty compliance. (Tuân thủ chủ quyền dữ liệu.)
-Cooling costs in hotter climates. (Chi phí làm mát ở vùng khí hậu nóng hơn.)
-Proximity to the customer's office for on-site visits. (Gần văn phòng của khách hàng để tham quan thực tế.)
-
 Which of the following are benefits of the AWS Cloud? (Choose two.) (Những lợi ích nào sau đây là lợi ích của Đám mây AWS? (Chọn hai.))
 Unlimited uptime. (Thời gian hoạt động không giới hạn.)
 * Elasticity. (Tính đàn hồi - tự động tăng giảm tài nguyên theo tải.)
@@ -159,33 +145,12 @@ AWS Marketplace data encryption is managed by a third-party vendor. (Mã hóa d�
 AWS Marketplace eliminates the need to upgrade to newer software versions. (AWS Marketplace loại bỏ nhu cầu nâng cấp lên phiên bản phần mềm mới hơn.)
 Users can deploy third-party software without testing. (Người dùng có thể triển khai phần mềm của bên thứ ba mà không cần thử nghiệm.)
 
-Under the shared responsibility model; which of the following areas are the customer's responsibility? (Choose two.) (Theo mô hình chia sẻ trách nhiệm; lĩnh vực nào sau đây là trách nhiệm của khách hàng? (Chọn hai.))
-Firmware upgrades of network infrastructure. (Nâng cấp firmware của cơ sở hạ tầng mạng.)
-* Patching of operating systems. (Vá lỗi hệ điều hành.)
-Patching of the underlying hypervisor. (Vá lỗi của trình ảo hóa cơ bản.)
-Physical security of data centers. (Bảo mật vật lý của trung tâm dữ liệu.)
-* Configuration of the security group. (Cấu hình nhóm bảo mật.)
-
 Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.) (Lợi ích nào sau đây của việc lưu trữ cơ sở hạ tầng trên Đám mây AWS? (Chọn hai.))
 * There are no upfront commitments. (Không có cam kết trả trước.)
 AWS manages all security in the cloud. (AWS quản lý tất cả bảo mật trên đám mây.)
 * Users have the ability to provision resources on demand. (Người dùng có khả năng cung cấp tài nguyên theo yêu cầu.)
 Users have access to free and unlimited storage. (Người dùng có quyền truy cập vào bộ nhớ miễn phí và không giới hạn.)
 Users have control over the physical infrastructure. (Người dùng có quyền kiểm soát cơ sở hạ tầng vật lý.)
-
-What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.) (Lợi ích của việc sử dụng Đám mây AWS đối với các công ty có khách hàng ở nhiều quốc gia trên thế giới là gì? (Chọn hai.))
-* Companies can deploy applications in multiple AWS Regions to reduce latency. (Các công ty có thể triển khai ứng dụng ở nhiều Khu vực AWS để giảm độ trễ.)
-Amazon Translate automatically translates third-party website interfaces into multiple languages. (Amazon Translate tự động dịch giao diện trang web của bên thứ ba sang nhiều ngôn ngữ.)
-* Amazon CloudFront has multiple edge locations around the world to reduce latency. (Amazon CloudFront có nhiều vị trí biên trên khắp thế giới để giảm độ trễ.)
-Amazon Comprehend allows users to build applications that can respond to user requests in many languages. (Amazon Comprehend cho phép người dùng xây dựng các ứng dụng có thể đáp ứng yêu cầu của người dùng bằng nhiều ngôn ngữ.)
-Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world, which reduces latency. (Cân bằng tải đàn hồi có thể phân phối lưu lượng truy cập web của ứng dụng đến nhiều Khu vực AWS trên toàn thế giới, giúp giảm độ trễ.)
-
-A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. <br/> What combination of actions will enable the company to accomplish this goal? (Choose two.) (Một công ty muốn di chuyển ứng dụng của mình sang VPC trên AWS. Các ứng dụng này sẽ cần truy cập vào tài nguyên tại chỗ. <br/> Sự kết hợp hành động nào sẽ giúp công ty đạt được mục tiêu này? (Chọn hai.))
-Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated. (Sử dụng Danh mục dịch vụ AWS để xác định danh sách các tài nguyên tại chỗ có thể được di chuyển.)
-* Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC. (Xây dựng kết nối VPN giữa thiết bị tại chỗ và cổng riêng ảo trong VPC mới.)
-Use Amazon Athena to query data from the on-premises database servers. (Sử dụng Amazon Athena để truy vấn dữ liệu từ máy chủ cơ sở dữ liệu tại chỗ.)
-* Connect the company's on-premises data center to AWS using AWS Direct Connect. (Kết nối trung tâm dữ liệu tại chỗ của công ty với AWS bằng AWS Direct Connect.)
-Leverage Amazon CloudFront to restrict access to static web content provided through the company's on-premises web servers. (Tận dụng Amazon CloudFront để hạn chế quyền truy cập vào nội dung web tĩnh được cung cấp thông qua máy chủ web tại chỗ của công ty.)
 
 What are the immediate benefits of using the AWS Cloud? (Choose two.) (Lợi ích trước mắt của việc sử dụng Đám mây AWS là gì? (Chọn hai.))
 Increased IT staff. (Tăng cường nhân lực CNTT.)
@@ -214,13 +179,6 @@ Sell unused Amazon EC2 Spot Instances. (Bán Phiên bản Spot Amazon EC2 chưa 
 * Buy third-party software that runs on AWS. (Mua phần mềm của bên thứ ba chạy trên AWS.)
 Purchase AWS security and compliance documents. (Mua tài liệu tuân thủ và bảo mật AWS.)
 Order AWS Snowball. (Đặt hàng AWS Snowball.)
-
-What are the advantages of the AWS Cloud? (Choose two.) (Ưu điểm của Đám mây AWS là gì? (Chọn hai.))
-Fixed rate monthly cost. (Chi phí cố định hàng tháng.)
-* No need to guess capacity requirements. (Không cần đoán yêu cầu công suất.)
-* Increased speed to market. (Tăng tốc độ tiếp cận thị trường.)
-Increased upfront capital expenditure. (Tăng chi phí vốn trả trước.)
-Physical access to cloud data centers. (Truy cập vật lý vào trung tâm dữ liệu đám mây.)
 
 When comparing the total cost of ownership (TCO) of an on-premises infrastructure to a cloud architecture, what costs should be considered? (Choose two.) (Khi so sánh tổng chi phí sở hữu (TCO) của cơ sở hạ tầng tại chỗ với kiến ​​trúc đám mây, cần xem xét những chi phí nào? (Chọn hai.))
 The credit card processing fees for application transactions in the cloud. (Phí xử lý thẻ tín dụng cho các giao dịch ứng dụng trên đám mây.)
@@ -263,13 +221,6 @@ Objects. (Các đối tượng lưu trữ - Objects.)
 Buckets. (Các vùng chứa dữ liệu - S3 Buckets.)
 * Internet gateways. (Các cổng kết nối Internet - Internet Gateways.)
 Access key. (Access Key - Khóa truy cập bảo mật.)
-
-Which of the following will enhance the security of access to the AWS Management Console? (Choose two.) (Điều nào sau đây sẽ tăng cường tính bảo mật khi truy cập vào Bảng điều khiển quản lý AWS? (Chọn hai.))
-AWS Secrets Manager. (AWS Secrets Manager - Quản lý thông tin bảo mật và mật khẩu.)
-AWS Certificate Manager. (AWS Certificate Manager - Quản lý chứng chỉ SSL/TLS.)
-* AWS Multi-Factor Authentication. (AWS MFA). (Xác thực đa yếu tố AWS (AWS MFA).)
-Security groups. (Nhóm bảo mật - Security Groups.)
-* Password policies. (Cấu hình chính sách mật khẩu mạnh.)
 
 The AWS Trusted Advisor checks include recommendations regarding which of the following? (Choose two.) (Quá trình kiểm tra của AWS Trusted Advisor bao gồm các đề xuất liên quan đến vấn đề nào sau đây? (Chọn hai.))
 * Information on Amazon S3 bucket permissions. (Thông tin về quyền của bộ chứa Amazon S3.)
