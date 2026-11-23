@@ -5,8 +5,8 @@ Nhúng các điểm trên đường cong
 * Sử dụng phương trình Weierstrass
 
 Kỹ thuật cho phép tạo kết nối ảo giữa hai mạng sử dụng một giao thức bảo mật được gọi là gì?
-Tunelling
-* VLAN
+* Tunneling
+VLAN
 Internet
 Extranet
 
@@ -172,8 +172,8 @@ Thực hiện mã hóa thông điệp theo thuật tóan RSA
 
 PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:
 Mã hóa khóa bất đối xứng sử dụng khóa phiên
-Mã hóa khóa đối xứng sử dụng khóa phiên
-* Mã hóa khóa bất đối xứng sử dụng khóa công khai
+* Mã hóa khóa đối xứng sử dụng khóa phiên
+Mã hóa khóa bất đối xứng sử dụng khóa công khai
 Mã hóa khóa đối xứng sử dụng khóa công khai
 
 Hầu hết định dạng chứng chỉ công cộng được sử dụng trong môi trường PKI là gì?

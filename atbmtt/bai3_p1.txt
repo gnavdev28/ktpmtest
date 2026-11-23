@@ -23,7 +23,7 @@ Biến đổi khối dữ liệu mã 16 bít thành 4 bít
 Biến đổi khối dữ liệu mã 32 bít thành 4 bít
 
 Kích thức khóa có thể của hệ mã hóa AES là:
-* 128, 160 và 192 bit
+* 128, 192 và 256 bit
 64, 128 và 192 bit
 128, 256 và 512 bit
 128, 256 và 384 bit
@@ -59,8 +59,8 @@ RC4, RC5, IDEA, Blowfish
 IDEA, Blowfish, AES, Elliptic Cure
 
 Sử dụng nhiêu bit với DES để có hiệu quả?
-56
-* 64
+* 56
+64
 32
 16
 
@@ -108,9 +108,9 @@ Chi phí tính toán thấp hơn
 
 Trong hệ mã hóa RSA, quan hệ toán học giữa khóa bí mật d và khóa công khai e được gọi là:
 d và e là 2 số nguyên tố cùng nhau
-d là modulo nghịch đảo của e
+* d là modulo nghịch đảo của e
 d là modulo của e
-* d và e không có quan hệ với nhau
+d và e không có quan hệ với nhau
 
 Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là
 * Có thuật tóan encryption tốt, có một khóa bí mật được biết bởi người nhận/gởi và kênh truyền bí mật để phân phát key
@@ -127,7 +127,7 @@ Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
 Khóa tại mỗi vòng của hệ mã hóa DES sử dụng là bao nhiêu bit?
 16
 32
-* 56 (chú ý: thực tế DES dùng khóa phụ 48 bit/vòng; 56 là khóa hiệu dụng)
+* 48 bit
 64
 
 Hệ mã hóa Affine có bao nhiêu khóa?
@@ -161,10 +161,10 @@ Có thể công khai private key và cần giữ bí mật public key
 * Có thể công khai public key nhưng phải đảm bảo tính xác thực và cần giữ bí mật private key
 
 Các thuộc tính cơ bản của chứng chỉ số khóa công khai (Public key digital certificate) gồm:
-* Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
+Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
 Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng
 Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể
-Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)
+* Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)
 
 Độ an toàn của hệ mật mã RSA dựa trên...
 Độ phức tạp cao của giải thuật RSA

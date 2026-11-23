@@ -113,8 +113,8 @@ Tính xác thực
 Tính không chối bỏ
 
 Các giao thức được để bảo mật thư điện tử là
-GPG, S/MINE
-* SHA-1, S/MINE
+* GPG, S/MIME
+SHA-1, S/MIME
 CAST-128 / IDEA/3DES
 Keboros, X.509
 
@@ -149,10 +149,10 @@ Khóa công khai của người gửi
 * Khóa riêng của người gửi
 
 Hai thuộc tính cơ bản quan trọng nhất của một hàm băm là:
-Nén và một chiều
+* Nén và một chiều
 Dễ tính toán và có đầu ra cố định
 Một chiều và đầu ra cố định
-* Nén và dễ tính toán
+Nén và dễ tính toán
 
 Sử dụng kết hợp chứng chỉ số khóa công khai và chữ ký số có thể đảm bảo:
 * Xác thực thực thể và toàn vẹn thông tin truyền
