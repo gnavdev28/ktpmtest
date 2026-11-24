@@ -47,10 +47,10 @@ x = 26
 x = 62
 
 Trong các cặp khoá sau đây của hệ mật RSA với p=5; q=7 (phi(n) = 24), cặp khóa nào có khả năng là cặp khóa công khai (e) và khóa bí mật (d) của hệ mật này?
-(e=3, d=11)
-(e=5, d=5)
-(e=7, d=13)
-* (e=11, d=11)
+(e = 12, d = 11)
+(e = 4, d = 11)
+* (e = 7, d = 7)
+(e = 3, d = 18)
 
 Cho bản rõ x = 29 trong hệ RSA với khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x với khóa trên sẽ được bản mã y là:
 y = 112
