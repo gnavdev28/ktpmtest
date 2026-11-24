@@ -226,12 +226,6 @@ Data link
 Transport
 * Network
 
-Hệ mã Affine y = (ax + b) mod 26, với gcd(a, 26) = 1 và a, b thuộc Z26, có bao nhiêu khóa (kể cả phép biến đổi đồng nhất)?
-123
-132
-213
-* 312
-
 Mục đích trực tiếp của audit log trong an toàn cơ sở dữ liệu là gì?
 Xác thực mật khẩu trước mỗi lần đăng nhập.
 Tự động cấp mọi quyền cho người dùng.
@@ -266,4 +260,4 @@ Kích thước của bản mã trong hệ mã hóa Elgamal so với bản rõ l�
 Bằng nhau.
 Bằng 1/2.
 * Gấp đôi lần.
-Gấp ba lần.
+Gấp ba lần.

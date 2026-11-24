@@ -64,12 +64,6 @@ Lấy dấu tay "PrintingFinger"
 Phân phối khoá trước
 Bảo mật thông điệp
 
-Trong RSA với p = 5, q = 7 và điều kiện ed ≡ 1 (mod φ(n)), cặp (e, d) nào sau đây hợp lệ?
-(e = 12 , d =11)
-(e = 4 , d =11)
-* (e = 7, d = 7)
-( e = 3 , d =18)
-
 Thuật toán Diffie–Hellman được dùng chủ yếu để làm gì?
 Bảo mật thông điệp
 Xác thực thông điệp
@@ -172,12 +166,6 @@ Người viết chương trình ứng dụng
 * Người quản trị cơ sở dữ liệ
 Lãnh đạo cơ quan
 
-Cho bản rõ x = 29 khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x với khóa trên theo hệ mã RSA ta sẽ thu được bản mã nào sau đây?
-6
-* 36
-63
-129
-
 Trong các phát biểu sau, phát biểu nào sai khi nói về phần quyền truy cập?
 Bảng phân quyền truy cập cũng là dữ liệu của CSDL
 Dựa trên bảng phân quyền để trao quyền truy cập khác nhau để khai thác dữ liệu cho các đối tượng người dùng khác nhau.
@@ -244,12 +232,6 @@ Không có quyền truy cập
 * Đủ để thực hiện công việc theo chức trách
 Toàn quyền
 
-Cho bản mã y = 126 trong hệ RSA với p = 7, q = 23 và số mũ công khai e = 5. Hãy tính số mũ riêng d rồi giải mã y. Bản rõ thu được là giá trị nào?
-12
-26
-* 42
-62
-
 "Spam" trong email là gì?
 * Email rác hoặc email quảng cáo không mong muốn.
 Email đặc biệt.
@@ -272,4 +254,4 @@ Một trang web yêu cầu bạn muốn trở thành thành viên, phải xác t
 Kiểm chứng các thông tin trang web đưa ra, nếu đúng có thể chụp ảnh mặt trước của thẻ tín dụng, xóa một phần thông tin của thẻ và gửi email cho trang web
 * Bạn không gửi bất kỳ thông tin nào cho những trang web như vậy.
 Bạn có thể gửi hình ảnh thẻ tín dụng bất kỳ mình tìm thấy trên Internet
-Tất cả đều sai
+Tất cả đều sai
