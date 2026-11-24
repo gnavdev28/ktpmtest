@@ -13,12 +13,12 @@ TCP/IP hijacking
 Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì?
 Giả mạo
 Tấn công chuyển tiếp
-* Social engineering
+* Social engineering (Khai thác giao tiếp)
 Trojan
 
 Một virus được đính kèm chính nó vào boot sector của đĩa cứng và thông báo thông tin sai về kích thước các tập tin được gọi là gì?
 Virus Trojan
-* Stealth virus
+* Stealth virus (virus ẩn danh)
 Worm
 Polymorphic virus
 
@@ -35,7 +35,7 @@ Cho phép tất cả các gói rời mạng
 Loại trừ sự xung đột trong mạng
 
 Ở tunnel mode, IPsec ESP với mã hóa xử lý gói IP gốc như thế nào?
-* Đóng gói và mã hóa gói IP gốc bên trong một gói IP mới; header IP ngoài dùng
+* Đóng gói và mã hóa gói IP gốc bên trong một gói IP mới; header IP ngoài dùng để định tuyến.
 Xóa toàn bộ địa chỉ IP và không tạo header mới.
 Chỉ đổi tên máy tính gửi.
 Chuyển mọi dữ liệu thành bản rõ để tăng tốc.
@@ -164,7 +164,7 @@ Xác thực hai yếu tố (2FA) yêu cầu điều gì?
 Nhập cùng một mật khẩu hai lần.
 Dùng hai mật khẩu đều thuộc nhóm thông tin người dùng biết.
 Đăng nhập hai lần bằng cùng một tài khoản.
-* Kết hợp hai yếu tố thuộc hai nhóm khác nhau, chẳng hạn mật khẩu và thiết bị
+* Kết hợp hai yếu tố thuộc hai nhóm khác nhau, chẳng hạn mật khẩu và thiết bị bảo mật người dùng sở hữu.
 
 Người có chức năng phân quyền truy cập trong hệ quản trị cơ sở dữ liệu là:
 Người dùng
@@ -180,7 +180,7 @@ Cho bản rõ x = 29 khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x 
 
 Trong các phát biểu sau, phát biểu nào sai khi nói về phần quyền truy cập?
 Bảng phân quyền truy cập cũng là dữ liệu của CSDL
-Dựa trên bảng phân quyền để trao quyền truy cập khác nhau để khai thác dữ
+Dựa trên bảng phân quyền để trao quyền truy cập khác nhau để khai thác dữ liệu cho các đối tượng người dùng khác nhau.
 * Mọi người đều có thể truy cập, bổ sung và thay đổi bảng phân quyền.
 Bảng phân quyền không giới thiệu công khai cho mọi người biết.
 
@@ -222,7 +222,7 @@ Gây khó chịu cho người dùng
 
 Biện pháp nào giúp duy trì hiệu quả của chính sách bảo mật theo thời gian?
 Không bao giờ xem lại quyền truy cập.
-* Định kỳ đánh giá rủi ro, rà soát quyền và cập nhật biện pháp bảo vệ theo nhu
+* Định kỳ đánh giá rủi ro, rà soát quyền và cập nhật biện pháp bảo vệ theo nhu cầu thực tế.
 Chia sẻ tài khoản quản trị cho mọi nhân viên.
 Tắt nhật ký để tiết kiệm dung lượng.
 
@@ -234,7 +234,7 @@ Người quản trị phải enable để gõ vào.
 
 Ứng dụng nên lưu thông tin kiểm tra mật khẩu người dùng theo cách nào?
 Lưu mật khẩu dạng rõ.
-* Dùng hàm băm mật khẩu chuyên dụng với salt riêng và tham số chi phí phù
+* Dùng hàm băm mật khẩu chuyên dụng với salt riêng và tham số chi phí phù hợp; hạn chế quyền truy cập dữ liệu lưu trữ.
 Đổi tên tệp mật khẩu rồi công khai tệp đó.
 Mã hóa Base64 mật khẩu để thay thế cơ chế bảo vệ.
 
@@ -265,11 +265,11 @@ Hình thức spam email.
 Nếu bạn nhận được các email với tiêu đề rất hấp dẫn như “Hey, see my nude video”, “Look, my sexy girl friend”. . . Bạn nên làm thế nào?
 Mở xem thử
 * Xóa email và quên nó đi, bạn sẽ không nhận được gì ngoài virus đâu
-Bạn nên forward cho người khác và nhờ người đó mở ra trước xem có vấn đề
+Bạn nên forward cho người khác và nhờ người đó mở ra trước xem có vấn đề gì không
 Tất cả đều sai
 
 Một trang web yêu cầu bạn muốn trở thành thành viên, phải xác thực bằng cách gửi email hình ảnh chụp thẻ tín dụng, bạn nên làm thế nào?
-Kiểm chứng các thông tin trang web đưa ra, nếu đúng có thể chụp ảnh mặt
+Kiểm chứng các thông tin trang web đưa ra, nếu đúng có thể chụp ảnh mặt trước của thẻ tín dụng, xóa một phần thông tin của thẻ và gửi email cho trang web
 * Bạn không gửi bất kỳ thông tin nào cho những trang web như vậy.
 Bạn có thể gửi hình ảnh thẻ tín dụng bất kỳ mình tìm thấy trên Internet
 Tất cả đều sai

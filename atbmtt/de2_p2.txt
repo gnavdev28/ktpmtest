@@ -5,10 +5,10 @@
 256
 
 Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện:
-* Trojan Server được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan
-Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận đươc
-Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận
-Trojan Client được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan
+* Trojan Server được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Client
+Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận được từ kỹ thuật Scanning
+Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận được từ kỹ thuật Scanning
+Trojan Client được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Server
 
 Trong kiểm thử an toàn thông tin, “system hacking” thường chỉ nhóm hoạt động nào?
 * Khai thác hệ thống để giành hoặc mở rộng quyền truy cập.
@@ -47,7 +47,7 @@ SSL
 EFS
 
 Đặc điểm nào phân biệt sâu máy tính (worm) với virus lây nhiễm tệp?
-* Worm có thể tự lan truyền giữa các hệ thống mà không cần gắn vào tệp vật
+* Worm có thể tự lan truyền giữa các hệ thống mà không cần gắn vào tệp vật chủ.
 Worm chỉ lây qua tài liệu Word.
 Worm bắt buộc phải gắn vào tệp thực thi của chương trình khác.
 Worm không thể truyền qua mạng.
@@ -98,7 +98,7 @@ Phát biểu nào đúng về việc thực hiện thuật toán mã hóa?
 Mã hóa chỉ có thể thực hiện bằng phần mềm.
 Mã hóa chỉ có thể thực hiện bằng phần cứng.
 Phần cứng không thể thực hiện các phép toán mã hóa.
-* Thuật toán mã hóa có thể được triển khai bằng phần mềm, phần cứng hoặc kết
+* Thuật toán mã hóa có thể được triển khai bằng phần mềm, phần cứng hoặc kết hợp cả hai.
 
 Tường lửa (firewall) không có tác dụng với?
 * Social Engineering
@@ -125,21 +125,21 @@ Cấm chỉnh sửa Registry
 * Có khả năng tự nhân bản
 
 Phát biểu nào đúng về con đường cài Trojan vào máy tính?
-* Trojan có thể bị cài qua truy cập vật lý hoặc qua phần mềm, tệp tải về và tệp
+* Trojan có thể bị cài qua truy cập vật lý hoặc qua phần mềm, tệp tải về và tệp đính kèm độc hại.
 Trojan không thể bị cài nếu kẻ tấn công được sử dụng trực tiếp máy tính.
 Trojan chỉ lây qua cáp mạng bị hỏng.
 Trojan chỉ xuất hiện khi ổ cứng đầy.
 
 Thuộc tính nào chữ ký số tự nó không cung cấp?
 * Giữ bí mật nội dung thông điệp.
-Xác thực nguồn gốc thông điệp khi khóa công khai của người ký được xác
+Xác thực nguồn gốc thông điệp khi khóa công khai của người ký được xác minh.
 Kiểm tra tính toàn vẹn của thông điệp.
 Hỗ trợ chống chối bỏ việc ký.
 
 Các quy tắc (rule) của firewall được xác định bởi?
 Tên rule
 Hành động, Giao thức
-* Tất cả đều đúng
+* Tất cả đều đúng (Tên rule, Hành động, Giao thức, Điều kiện)
 Điều kiện
 
 Điều nào dưới đây là thành phần cơ bản của X.509 (PKIX)?
@@ -252,13 +252,13 @@ Mô hình Acten (Action. Entity)
 
 Trong cơ chế chống phát lại có kiểm tra cửa sổ thời gian, timestamp trong thông điệp được dùng để làm gì?
 Đếm tổng số người dùng.
-* Kiểm tra thời điểm tạo thông điệp có nằm trong khoảng thời gian được chấp
+* Kiểm tra thời điểm tạo thông điệp có nằm trong khoảng thời gian được chấp nhận hay không.
 Thay thế khóa mã hóa.
 Cấp quyền quản trị cho người nhận.
 
 Phát biểu nào đúng về nguy cơ lây nhiễm virus từ đĩa CD-ROM?
 CD-ROM không ghi thêm được nên mọi tệp trên đó luôn an toàn.
-* Tệp nhiễm virus đã có trên CD-ROM vẫn có thể gây lây nhiễm khi được thực
+* Tệp nhiễm virus đã có trên CD-ROM vẫn có thể gây lây nhiễm khi được thực thi.
 Virus chỉ lây được từ USB, không thể từ CD-ROM.
 Chỉ cần đọc nhãn đĩa là máy tính chắc chắn nhiễm virus.
 

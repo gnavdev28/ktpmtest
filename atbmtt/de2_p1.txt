@@ -11,13 +11,13 @@ Tấn công bằng sâu
 TCP/IP hijacking
 
 Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa , bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?
-Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không
-Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì gửi từ
-* Xoá email đó ngay vì Microsoft không bao giờ gửi chương trình sửa lỗi qua
+Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không phát hiện thấy virus, sẽ chạy chương trình đó để sửa lỗi.
+Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì nó được gửi từ Microsoft
+* Xoá email đó ngay. Microsoft và các nhà cung cấp không bao giờ gửi chương trình sửa lỗi qua email.
 Tất cả đều sai.
 
 Điều kiện nào cần có để bảo vệ dữ liệu bằng mã hóa đối xứng?
-* Dùng thuật toán phù hợp và bảo vệ khóa bí mật dùng chung, kể cả khi thiết lập
+* Dùng thuật toán phù hợp và bảo vệ khóa bí mật dùng chung, kể cả khi thiết lập hoặc phân phối khóa.
 Công khai khóa bí mật cùng bản mã.
 Giữ bí mật thuật toán nhưng công khai khóa.
 Chỉ đổi tên tệp trước khi gửi.
@@ -49,7 +49,7 @@ Giao thức PGP
 TLS trong kết nối HTTPS qua TCP cung cấp chức năng chính nào?
 Định tuyến gói IP giữa các mạng.
 Cấp địa chỉ IP cho máy khách.
-* Bảo vệ tính bí mật và toàn vẹn của dữ liệu truyền giữa các bên đã thiết lập kết
+* Bảo vệ tính bí mật và toàn vẹn của dữ liệu truyền giữa các bên đã thiết lập kết nối TLS.
 Chuyển đổi địa chỉ MAC thành địa chỉ IP.
 
 HTTPS bổ sung cơ chế nào để bảo vệ dữ liệu HTTP khi truyền qua mạng?
@@ -90,7 +90,7 @@ Con người tạo ra
 
 Chức năng chính của tường lửa mạng là gì?
 Bảo đảm mọi tệp trong mạng đều không chứa virus.
-* Kiểm soát lưu lượng giữa các vùng mạng theo chính sách cho phép hoặc từ
+* Kiểm soát lưu lượng giữa các vùng mạng theo chính sách cho phép hoặc từ chối.
 Tự động vá mọi lỗ hổng của ứng dụng.
 Thay thế hoàn toàn việc xác thực người dùng.
 
@@ -107,14 +107,14 @@ Thay thế hoàn toàn khóa riêng của người ký.
 Cấp địa chỉ IP cho người ký.
 
 Loại Firewall nào sau đây cho phép hoạt động ở lớp phiên (Session) của mô hình OSI
-Packet filtering firewall
-* Circuit level firewall
-Application level firewall
+Packet filtering firewall (lớp mạng)
+* Circuit level firewall (lớp phiên)
+Application level firewall (lớp ứng dụng)
 Stateful multilayer inspection firewall
 
 Mô tả nào đúng về chữ ký số?
-Chỉ cần tính hàm băm của văn bản, không cần khóa ký, là đã tạo được chữ ký
-* Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn
+Chỉ cần tính hàm băm của văn bản, không cần khóa ký, là đã tạo được chữ ký số.
+* Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn bản và giúp người nhận kiểm tra tính toàn vẹn của nội dung văn bản gốc.
 Chữ ký số luôn mã hóa toàn bộ văn bản để giấu nội dung.
 Tất cả cả đều sai
 
@@ -131,10 +131,10 @@ Là một giao thức cấp địa chỉ IP.
 * Giả dạng hoặc đi kèm phần mềm có vẻ hợp lệ để thực hiện hành vi độc hại.
 
 Dịch vụ Active Directory thực hiện các chức năng sau
-* Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng
-Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực,
+Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng
+Duy trì các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực, cấp quyền cho các đối tượng
 Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups
-Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và
+* Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user
 
 Hai giao thức sử dụng trong giao thức IPSec gồm
 IP Authentication Header, TCP/IP
@@ -143,7 +143,7 @@ TCP/IP, IP Encapsulating Security Payload
 Tất cả đều đúng.
 
 Phát biểu nào phân biệt đúng Kerberos truyền thống với chứng chỉ X.509?
-* Kerberos truyền thống dựa trên khóa đối xứng và vé; chứng chỉ X.509 liên kết
+* Kerberos truyền thống dựa trên khóa đối xứng và vé; chứng chỉ X.509 liên kết danh tính với khóa công khai.
 Cả hai chỉ dùng để cấp địa chỉ IP.
 X.509 là một thuật toán mã hóa đối xứng, còn Kerberos là một hàm băm.
 Cả hai đều không liên quan đến xác thực.
@@ -186,7 +186,7 @@ Tấn công Denial of Service
 
 Ưu điểm của chữ ký số RSA so với DSS là gì?
 * Có thể cung cấp cho chữ ký số và mã hóa các chức năng.
-Sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các
+Sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các khóa đối xứng.
 Là một thuật toán mật mã khối so với một thuật toán mật mã dòng.
 Sử dụng một lần mã hóa pad.
 

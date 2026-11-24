@@ -97,8 +97,8 @@ L2TP
 Mục đích của một máy chủ RADIUS là?
 Packet Sniffing
 Mã hóa
-* Xác thực độ kết nối.
-Thỏa thuận tốc
+* Xác thực.
+Thỏa thuận tốc độ kết nối
 
 Các giao thức xác thực nào sau đây là được sử dụng trong các mạng không dây?
 * 802.1X
