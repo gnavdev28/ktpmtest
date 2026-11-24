@@ -265,5 +265,5 @@ Cài đặt máy chủ trong mạng Extranet
 Loại tấn công nào làm việc truy cập của user đến các tài nguyên mạng bị từ chối?
 * DoS
 Sâu
-Logic Bomb ing
-Social engineerĐáp án: A
+Logic Bomb
+Social engineering
